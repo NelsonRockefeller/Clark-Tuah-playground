@@ -952,6 +952,15 @@ campaignTrail_temp.questions_json = [
             "description": "The economy is in complete and utter freefall, with stock markets crashing globally and your approval rating hitting record lows. The public is clamoring for action as unemployment, mortgage defaults, and suicide rates soar. Congress is disunited, with almost every wing at each other's throats. After a briefing with Prime Minister Gordon Brown, his insights resonate with you. Inspired by Britain's research, the strategy is to swiftly push a bold and comprehensive stimulus bill through Congress to combat the impending recession. The urgency of the situation is palpable, President Clark. How will you rescue America?\n",
             "likelihood": 1
         }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 22554,
+        "fields": {
+            "priority": 0,
+            "description": "The economy is in complete and utter freefall, with stock markets crashing globally and your approval rating hitting record lows. The public is clamoring for action as unemployment, mortgage defaults, and suicide rates soar. Congress is disunited, with almost every wing at each other's throats. After a briefing with Prime Minister Gordon Brown, his insights resonate with you. Inspired by Britain's research, the strategy is to swiftly push a bold and comprehensive stimulus bill through Congress to combat the impending recession. The urgency of the situation is palpable, President Clark. How will you rescue America?\n",
+            "likelihood": 1
+        }
     }
 ]
 
@@ -3569,7 +3578,7 @@ campaignTrail_temp.answers_json = [
         "pk": 22507,
         "fields": {
             "question": 22506,
-            "description": "We ought to be smart with our proposal. Congress has rejected Secretary Altman's proposals twice now. We can't waste any more time; the Emergency Economic Reform and Relief Act needs to pass. As a preemptive measure, we'll pull some of the banking reforms from the bill.\n"
+            "description": "We ought to be bright with our proposal. We can't waste more time; the Emergency Economic Reform and Relief Act must pass. We'll pull some of the banking reforms from the bill as a preemptive measure.\n"
         }
     },
     {
@@ -3658,6 +3667,38 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 21776,
             "description": "I've always been for drilling more oil domestically and importing less from abroad; where Ron Paul and I differ is that I would like those released funds to be put into Healthcare, education, and unemployment, while my opponent proposes gas price controls, which would crash our economy.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 22555,
+        "fields": {
+            "question": 22554,
+            "description": "We ought to be bright with our proposal. We can't waste more time; the Emergency Economic Reform and Relief Act must pass. We'll pull some of the banking reforms from the bill as a preemptive measure.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 22559,
+        "fields": {
+            "question": 22554,
+            "description": "If we act now, this fiasco can be remedied and prevented. We can't compromise on this; we need the bill to pass to save the American people from this now and in the future. Full speed ahead; we aren't getting the bill for anything.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 22562,
+        "fields": {
+            "question": 22554,
+            "description": "After serious discussions with Senator Clinton, we can accomplish the most with her proposal of mortgage assistance by reestablishing the Home Owners' Loan Corporation. In addition, we'll call for a moratorium on foreclosures and freezing rate hikes in adjustable-rate mortgages.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 22565,
+        "fields": {
+            "question": 22554,
+            "description": "I'm not one to dismiss opposing views. We can forge a united front if we can bring Senator Sanders on board. He advocates for reform, and we'll ensure that Glass Steagall's principles are upheld. A united coalition is key to our success. \n"
         }
     }
 ]
@@ -4410,7 +4451,7 @@ campaignTrail_temp.issues_json = [
             "stance_desc_2": 0,
             "stance_3": "Moral Panic",
             "stance_desc_3": 0,
-            "stance_4": "Let the states decide",
+            "stance_4": "Let The States Decide",
             "stance_desc_4": 0,
             "stance_5": "Civil Unions",
             "stance_desc_5": 0,
@@ -10297,7 +10338,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 21026,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": -0.02
+            "global_multiplier": -0.025
         }
     },
     {
@@ -12657,7 +12698,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 22475,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.08
+            "global_multiplier": 0.008
         }
     },
     {
@@ -12858,6 +12899,66 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 201,
             "affected_candidate": 201,
             "global_multiplier": -0.017
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 22557,
+        "fields": {
+            "answer": 22555,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.025
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 22558,
+        "fields": {
+            "answer": 22555,
+            "candidate": 201,
+            "affected_candidate": 203,
+            "global_multiplier": 0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 22561,
+        "fields": {
+            "answer": 22559,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.07
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 22564,
+        "fields": {
+            "answer": 22562,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.085
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 22567,
+        "fields": {
+            "answer": 22565,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.09
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 22568,
+        "fields": {
+            "answer": 22565,
+            "candidate": 200,
+            "affected_candidate": 200,
+            "global_multiplier": -0.09
         }
     }
 ]
@@ -13560,7 +13661,7 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 20897,
             "issue": 103,
             "issue_score": 1,
-            "issue_importance": 7
+            "issue_importance": 11
         }
     },
     {
@@ -14639,8 +14740,8 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 22475,
             "issue": 103,
-            "issue_score": 0.7,
-            "issue_importance": 7
+            "issue_score": 0.9,
+            "issue_importance": 15
         }
     },
     {
@@ -14650,7 +14751,7 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 22479,
             "issue": 104,
             "issue_score": 0.7,
-            "issue_importance": 7
+            "issue_importance": 12
         }
     },
     {
@@ -14660,7 +14761,7 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 22483,
             "issue": "100",
             "issue_score": 0.6,
-            "issue_importance": 4
+            "issue_importance": 13
         }
     },
     {
@@ -15549,7 +15650,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1041,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.2
+            "state_multiplier": -0.25
         }
     },
     {
@@ -15604,7 +15705,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1043,
             "candidate": 201,
             "affected_candidate": 202,
-            "state_multiplier": 0.9
+            "state_multiplier": 0.8
         }
     },
     {
@@ -18409,7 +18510,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1028,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": 0.3
+            "state_multiplier": 0.1
         }
     },
     {
@@ -19586,7 +19687,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1000,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.3
+            "state_multiplier": -0.15
         }
     },
     {
@@ -19597,7 +19698,51 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1000,
             "candidate": 201,
             "affected_candidate": 202,
-            "state_multiplier": -0.2
+            "state_multiplier": 0.13
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 22569,
+        "fields": {
+            "answer": 21026,
+            "state": 1009,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.27
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 22570,
+        "fields": {
+            "answer": 21026,
+            "state": 1000,
+            "candidate": 201,
+            "affected_candidate": 202,
+            "state_multiplier": 0.2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 22571,
+        "fields": {
+            "answer": 21026,
+            "state": 1003,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 22572,
+        "fields": {
+            "answer": 21026,
+            "state": 1003,
+            "candidate": 201,
+            "affected_candidate": 202,
+            "state_multiplier": 0.05
         }
     }
 ]
@@ -22500,6 +22645,51 @@ campaignTrail_temp.answer_feedback_json = [
             "candidate": 201,
             "answer_feedback": "With gas prices soaring, people care only a little about what you plan to do with the money. They do not want complex, even radical, solutions to their economic woes, and his promise to force gas prices down is appealing to them."
         }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 22553,
+        "fields": {
+            "answer": 22169,
+            "candidate": 201,
+            "answer_feedback": "The Republican base is set off once more as a result of your remarks. They hate you, they'll always hate you, the Bible is their constitution, and you're just another heathen the devil hath brought."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 22556,
+        "fields": {
+            "answer": 22555,
+            "candidate": 201,
+            "answer_feedback": "As instructed, the bill has pulled its most major banking reforms, and Pelosi agrees to the 800 billion bailout. The bill barely passed after further negotiations, but the left-wing protest movement against it has damaged your reputation.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 22560,
+        "fields": {
+            "answer": 22559,
+            "candidate": 201,
+            "answer_feedback": "Despite Republican uproar, some would rather sink their teeth into saving the economy, even if it's just to keep their jobs. You gain praise as you justify its bailouts in exchange for banking reforms to the public."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 22563,
+        "fields": {
+            "answer": 22562,
+            "candidate": 201,
+            "answer_feedback": "The Clinton Plan is sent to Congress, and while Republicans form a great wall of opposition, the plan is passed. The full action plan to save American home owners will pay dividends at the voting booth. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 22566,
+        "fields": {
+            "answer": 22565,
+            "candidate": 201,
+            "answer_feedback": "Many Democrats are uncomfortable with your being so accepting of Sanders. Still, he and other experts devised a solution to add a Resolution Trust Corporation and a Reconstruction Finance Corporation, among other reforms, to crack down on the banks radically. When it's put to the House floor, it's a battle like no other, but you grasp the party establishment's spine, and the bill is sent to your desk."
+        }
     }
 ]
 
@@ -22534,21 +22724,11 @@ var Dem = 0;
 var Gay = 0;
 var Tax = 0;
 var Win = 0;
-var Majowins = 0;
-var Midterms = 0;
-var Bills = 0;
 var Patriot = 0;
 var Loyalist = 0;
 var Troops = 0;
 var Notroops = 0;
-var BillFail = 0;
-var Impeach = 0;
-var Outrage = 2;
-var Hawk = 0;
-var Xeno = 0;
-var EconPop = 0;
-var Supremecourt = 0;
-var SecretEnding = 0;
+var Dadt = 0;
 var Buch = 0;
 var Dumb = 0;
 var Boner = 0;
@@ -22840,7 +23020,7 @@ cyoAdventure = function(a) {
             campaignTrail_temp.questions_json[18] = tunnel(21145); 
         }
 
-    ///Midterm CYOA KingRoy or KingBoner
+    ///Midterm CYOA KingRoy or KingBoner Or Queen pelosi
 
     if(ans == 5148 ){
         Win += 1;
@@ -22930,9 +23110,8 @@ cyoAdventure = function(a) {
         Pelosi += 1;
     }
 
-    const BillFailNumbers = new Set([43074, 43075, 43083, 43087, 43381, 43382, 43385, 43390, 43751, 43752, 43769, 43772]);
-    if (BillFailNumbers.has(ans)) {
-        BillFail += 1;
+    if(ans == 22475 ){
+        Dadt += 1;
     }
 
     if (e.noCounter == 7) {
@@ -23405,8 +23584,8 @@ e.executable = []
 //LANDSLIDE DEFEAT
 
 if (quickstats[0] <= 270 && Dem == 1) { // Weak Defeat - McCain
-e.pages.push(`<h3>No Apologies</h3>
-          <p>When he prepared to take flight, Icarus knew it'd be his last. The Maverick had taken the base who swept him into office the day he made that damn gaffe. He reminisced the good he had done or tried to do, now doubtful that his legacy would remain intact. The Maverick promised to undo it all, he'd bring back the massive surveillance, the war in Iraq and possibly expand it. Icarus could only lament as the states were called one by one, but a glimmer of hope would overtake his mind as states became to close to call. His staff made calls in and out of each swing state, it was close this was going to be decided by a few states. The team was sweating, was it possible? Could Icarus have actually turned the race around enough to win? The Maverick camp was equally ancy as Carl Rove ranted on FOX how it was impossible, Icarus couldn't be winning these states, it was too early to call he said. Hanging on a prayer Icarus felt as if he was soaring. However his hopes were struck down along with him. The Maverick had won the tipping point state and Icarus was no more. The Maverick underperformed the polls severely however and the damned Traitor remains a dividing force within Republican circles. The Maverick's tenure would be marked by economic downturns and spiraling negativity. He got his desired tax cuts through congress but his cuts to Social Security would be filibusters into the ground. The Maverick was desperate to catch a win especially once the 2010 midterms swept the nation in a blue tsunami. Lacking options he focused solely on the mission of killing Osama Bin Laden. It wasn't easy but soon the nation would rejoice in unison. Even still the outlook hasn't looked great for the Maverick's reelection bid. A poorly timed health scare in 2011 sent the nation worrying but most importantly the Republican Party was terrified. A former Democrat too far out of the Republican mainstream was one deteriorating heartbeat away from the presidency. These fears were raised even higher when the Traitor convinced the president to back the repeal of Don't Ask Don't Tell. It was the last straw, the Traitor had to go and maybe even the Maverick.</p>`)
+e.pages.push(`<h3><i>No Apologies</i></h3>
+          <p><b>When he prepared to take flight, Icarus knew it'd be his last. The Maverick had taken the base who swept him into office the day he made that damn gaffe. He reminisced the good he had done or tried to do, now doubtful that his legacy would remain intact. The Maverick promised to undo it all, he'd bring back the massive surveillance, the war in Iraq and possibly expand it.</b></p> <p><b>Icarus could only lament as the states were called one by one, but a glimmer of hope would overtake his mind as states became to close to call. His staff made calls in and out of each swing state, it was close this was going to be decided by a few states. The team was sweating, was it possible? Could Icarus have actually turned the race around enough to win? The Maverick camp was equally ancy as Carl Rove ranted on FOX how it was impossible, Icarus couldn't be winning these states,</b></p> <p><i>it was too early to call</i> he said.</p> <p><b>Hanging on a prayer Icarus felt as if he was soaring. However his hopes were struck down along with him. The Maverick had won the tipping point state and Icarus was no more. The Maverick underperformed the polls severely however and the damned Traitor remains a dividing force within Republican circles. The Maverick's tenure would be marked by economic downturns and spiraling negativity. He got his desired tax cuts through congress but his cuts to Social Security would be filibusters into the ground. The Maverick was desperate to catch a win especially once the 2010 midterms swept the nation in a blue tsunami. Lacking options he focused solely on the mission of killing Osama Bin Laden. It wasn't easy but soon the nation would rejoice in unison. Even still the outlook hasn't looked great for the Maverick's reelection bid. A poorly timed health scare in 2011 sent the nation worrying but most importantly the Republican Party was terrified. A former Democrat too far out of the Republican mainstream was one deteriorating heartbeat away from the presidency. These fears were raised even higher when the Traitor convinced the president to back the repeal of Don't Ask Don't Tell. It was the last straw, the Traitor had to go and maybe even the Maverick.</b></p>`)
           // idk how to add playlists but to do that you create a new playlist in code1 with just that song and put changePlaylist(nameOfYourEndingPlaylist) right here
 //e.image = ""
 e.executable.push([0, (() => {e.image = e.image = 'https://i.imgur.com/yLAWebg.png'})])
@@ -23421,9 +23600,10 @@ clintonWin.addSong(clintonWinSong);
 changePlaylist(clintonWin);
 }
 // flavors
-if ( quickstats[0] <= 270 && Dem == 1) { // NPV 
-e.pages.push(`<h3>SCOTUSblog: <i>Walker v. Ohio</i></h3>
-<p><b>Briefly mentioned:</b> <u>The court is expected to release orders from conference at 9:30 a.m. There is a possibility of opinions at 10:00 a.m. Physical access around the building will be tightly controlled by police. We will be liveblogging starting at 9:25 a.m. at this link, where you can sign up for an email reminder for when live blog begins.</u><br><br><b>Docket No.    Op. Below        Argument          Opinion     Vote     Author     Term</b><br>   <u>16-6762</u>          <u>Ohio</u>              <u>Dec 11, 2016</u>          <u>TBD</u>  	<u>TBD</u>     <u>TBD</u>      <u>OT 2016</u><br><br>Issue: Whether the State of Ohio’s participation in the National Popular Vote Interstate Compact, which awards the state’s electoral vote to the presidential ticket that wins the national popular vote, is unconstitutional because it constitutes an interstate compact enacted without Congressional consent.<br><br><b>SCOTUSblog Coverage</b><br><span style="color:darkblue;"><u>A history of popular vote, electoral vote splits: 1876, 1888, 2000, 2004, 2012, and 2016</span></u> (John Ray)<br><span style="color:darkblue;"><u>Argument analysis: In a close case, concerns about chaos and “undermining Court legitimacy”</span></u> (Lauren Stubbs)<br><span style="color:darkblue;"><u>Educational seminar: Relevance of faithless elector cases</span></u> (Lauren Stubbs)<br><span style="color:darkblue;"><u>Symposium: To Act or Not to Act: Lessons from Bush v. Gore</span></u> (Paul Lundman)<br><span style="color:darkblue;"><u>Symposium: Undoing compact could throw 2016 election into chaos</span></u> (Paul Daniels and Sampriti Roxana)<br><span style="color:darkblue;"><u>Symposium: Candidate Scott Walker’s curious constitutionalism goes before the court</span></u> (Paul Lundman)<br><span style="color:darkblue;"><u>Symposium: Why states are the best judges when allocating their votes</span></u> (John Ray)<br><span style="color:darkblue;"><u>Symposium: The danger of letting states disregard their voters’ wishes; the role of Congress</span></u> (David Green)<br><span style="color:darkblue;"><u>Symposium: Constitutional doctrine and political reality around contested elections</span></u> (John Ray)<br><span style="color:darkblue;"><u>Symposium: Scalia’s legacy, an empty seat, and the dangers of a split decision</span></u> (Paul Lundman)<br><span style="color:darkblue;"><u>Symposium: Court decisions in times of national unrest: Civil War to Present</span></u> (John Ray)</p>`)
-e.executable.push([2, (() => {e.image = e.image = 'https://media.newyorker.com/photos/5c06ac554919ac2cfefe7d8b/master/w_727,c_limit/Lach-ScottWalker.jpg'})])
+if ( quickstats[0] <= 270 && Dem == 1 && Dadt == 0) { // Lieberman drops out of clown college
+e.pages.push(`<h3>Esquire: <i>Vice President Lieberman announces he will not run for reelection in 2012.</i></h3>
+<p><b>Announcement:</b> <u>At a press conference this morning, Vice President Lieberman announced his wish to retire from politics and said he would not seek the Republican Vice Presidential nomination again.</u><br><br> "I'm making this decision for my family, and it has absolutely nothing to do with President McCain's reelection bid."</b><br><u> This announcement comes amid President McCain's brutal battle with former Senator Rick Santorum in the Republican primaries. Lieberman has stood as a political liability for the President, holding an approval rating below 29%. Vice President Lieberman made himself an enemy of the Democratic Party after he pushed for the "Internet Kill Switch." Republicans hold very little love for the Vice president, especially after Lieberman pushed for repealing Don't Ask, Don't Tell, which was among the reasons former Senator Santorum launched his primary challenge to President McCain.<br><br>This development has sent a ripple through the Republican Party, and many say it might save President McCain's chances in the Republican Primaries. Whether the President can win the general election remains to be seen.<br><br><b>SCOTUSblog Coverage</b><br><span style="color:white;"><u>Santorum's upset win in Iowa, how did we get here?</span></u> (Jan 4th 2012)<br><span style="color:white;"><u>McCain holds the line in New Hampshire</span></u> (Jan 11th 2012)<br><span style="color:white;"><u>McCain barely holds off Santorum in South Carolina, reelection prospects look grim</span></u> (Jan 22nd 2012)<br><span style="color:white;"><u>McCain hits Florida begging for votes</span></u> (Jan 26th 2012)</p>`)
+e.executable.push([1, (() => {e.image = e.image = 'https://i.imgur.com/uF3VTNT.png'})])
 }
+return construct(0);
 }
