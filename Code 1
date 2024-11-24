@@ -673,35 +673,6 @@ setupMusicPlayer();
 
 e = campaignTrail_temp
 
-const startScreenUpdater = setInterval(function() {
-	const goBackButton = document.getElementById("candidate_id_back");
-	const candidateButton = document.getElementById("candidate_id_button");
-	const runningMateButton = document.getElementById("running_mate_id_button");
-	const finalScreenBB = document.getElementById("opponent_selection_id_back");
-	const finalScreenID = document.getElementById("opponent_selection_id_button");
-    const difficultySlider = document.getElementById("difficulty_level");
-    const gameType = document.getElementById("game_type_id");
-
-    
-    if((candidateButton || c != 0)&& !runningMateButton){ // change theme on candidate viewing
-		var c = document.getElementById("candidate_id").value;
-		if(c == 79 && !(candidateButton) && !(runningMateButton)) {
-            goBackButton.click();
-            const initContinue = document.getElementById("election_id_button");
-            initContinue.click();
-		}
-		else if(c == 78 || c == 77) {
-            if(candidateButton) {
-                candidateButton.remove();
-            }
-		}
-	}
-
-	if(finalScreenID) { // delete back button and delete the interval
-		finalScreenBB.remove();
-		clearInterval(startScreenUpdater);
-	}
-}, 1);
 
   function addDynamicCSS() {
     var css = `
@@ -761,9 +732,9 @@ const startScreenUpdater = setInterval(function() {
   tooltipList = [
     {searchString: "Olympus", explanationText: "<img src=https://i.imgur.com/0BJfcOf_d.png?maxwidth=520&shape=thumb&fidelity=high> Washington, D.C. This is where all your dreams will die unless you fight like hell, Wes."},
     {searchString: "Daschle", explanationText: "<img src=https://i.imgur.com/yQV5dHj_d.png?maxwidth=520&shape=thumb&fidelity=high> He has much to thank you for, from saving his career to getting him a promotion."},
-    {searchString: "Kerry", explanationText: "<img src=https://i.imgur.com/tIs5HFA.png> Took a heavy loss in Iowa but hey he's a good sport and joined the administration moments after being asked."},
+    {searchString: "Kerry", explanationText: "<img src=https://i.imgur.com/tIs5HFA.png> Took a heavy loss in Iowa, but hey, he's a good sport, and joined the administration moments after being asked."},
     {searchString: "Limbaugh", explanationText: "<img src=https://i.imgur.com/wWf3fIs.png> Putrid being, called Landrieu a “high priced prostitute” for her efforts in getting Hurricane Katrina aid."},
-    {searchString: "Altman", explanationText: "<img src=img src=https://i.imgur.com/4HKVhFQ.png> He may have fired you but damn are Clinton's people useful."},
+    {searchString: "Altman", explanationText: "<img src=img src=https://i.imgur.com/H9Qo0WR.png> He may have fired you but damn are Clinton's people useful."},
     {searchString: "Religious Freedom Doctrine", explanationText: "<img src=https://i.imgur.com/j5Eq0Ps.png> The Bible's answer to solving all problems, by letting them fester in the background."},
     {searchString: "Burns", explanationText: "<img src=https://i.imgur.com/uY1e2E3.png> The Boss"},   
     {searchString: "Bart", explanationText: "<img src=https://i.imgur.com/3F9KgmT.jpg> The Boy"},
@@ -775,4 +746,3 @@ const startScreenUpdater = setInterval(function() {
     {searchString: "Springfield", explanationText: "<img src=https://i.imgur.com/H9nvYWW.jpeg> Home"},
     {searchString: "NAFTA", explanationText: "<img src=https://i.imgur.com/rW0ITDq.png> Load'a letters that Lisa says I shouldn't like"}
   ];
-
