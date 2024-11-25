@@ -877,7 +877,7 @@ campaignTrail_temp.questions_json = [
         "pk": 22141,
         "fields": {
             "priority": 0,
-            "description": "put description here",
+            "description": "Meltdown, the world scene is crumbling. Russia dominates the airwaves as tensions rise. A storm is coming, and Cheney warns of it at every opportunity. He calls it \"an act of war,\" shouting the need to make a stand and push back against Russia. Calling it an \"illegitimate invasion.\" The Bush Administration was weak on Russia, but now an unleashed Dick Cheney is practically screaming for war. If you don't pull Dick back yourself, he may inadvertently push the needle toward total war before the election. You're going to calm the nation down, right, Clark?\n",
             "likelihood": 1
         }
     },
@@ -886,7 +886,7 @@ campaignTrail_temp.questions_json = [
         "pk": 22197,
         "fields": {
             "priority": 0,
-            "description": "put description here",
+            "description": "The hourglass is broken, it was a cruel move for the Republican Party to unleash an unchained Dick Cheney onto the world. He's unsettling for most; his enemies are nothing more than \"mattress mice\" in his presence. Unwavering ideals of a man dead set on making the world seem much more deadly than it truly is. The election shouldn't be as hard as it is. Your poll numbers sink with the economy, and Cheney is a rabid dog barking at the need to push around the Middle East. He goes further to North Korea and Russia; you can imagine the fires that would engulf the world under him. This is the Seven Wars Policy Coup; this is your judgment. How will you face it, Clark?",
             "likelihood": 1
         }
     },
@@ -3699,6 +3699,70 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 22554,
             "description": "I'm not one to dismiss opposing views. We can forge a united front if we can bring Senator Sanders on board. He advocates for reform, and we'll ensure that Glass Steagall's principles are upheld. A united coalition is key to our success. \n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 22573,
+        "fields": {
+            "question": 22141,
+            "description": "Dick can ring the bells of terror all day. I'm the one who can get something done now. We're going beyond aid and denunciation. We need to get our boys in there to conduct dual training exercises. \n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 22577,
+        "fields": {
+            "question": 22141,
+            "description": "I can't let Dick outrun me here by making another trip through Georgia and ensuring he'll save them. I need Georgia to believe I can get Russia out of there. I'm calling Saakashvili.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 22580,
+        "fields": {
+            "question": 22141,
+            "description": "I'm playing this game with one arm tied behind my back! It's not fair that we limit ourselves to this. We need our boys on the ground defending Georgia, or we'll be a national embarrassment for the first milestone of the Second Cold War!\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 22584,
+        "fields": {
+            "question": 22141,
+            "description": "I know we shoveled the proposal, but we need to be willing to consider targeting surgical strikes on Russian positions and blowing the Roki Tunnel if we want any Georgia to have any chance at withstanding the Russian army.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 22588,
+        "fields": {
+            "question": 22197,
+            "description": "The Neocon dream is bleak, a dream of looking for war with no justification. It's a dream that will dramatically increase the loss of life across the Middle East and leave us weak in the eyes of Russia and China.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 22592,
+        "fields": {
+            "question": 22197,
+            "description": "I've spoken plenty of the policy coup Dick Cheney implemented and will continue under a term of his own. What Dick won't talk about is his solutions to the ongoing economic crisis. He needs to figure out how to save our economy first.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 22595,
+        "fields": {
+            "question": 22197,
+            "description": "We are a nation currently facing one of the most significant economic recessions put upon us since the Great Depression, and Vice President Cheney thinks it'd be best to waste more of our money on useless wars. We need to combat the recession, not North Korea.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 22599,
+        "fields": {
+            "question": 22197,
+            "description": "The leftover policies from the Bush Administration are why we are in this mess. I'm providing the path forward to reform our broken financial system, secure it for years to come and step back from unprovoked wars.\n"
         }
     }
 ]
@@ -10426,9 +10490,9 @@ campaignTrail_temp.answer_score_global_json = [
         "pk": 21114,
         "fields": {
             "answer": 21112,
-            "candidate": 200,
-            "affected_candidate": 200,
-            "global_multiplier": -0.01
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.008
         }
     },
     {
@@ -12960,6 +13024,96 @@ campaignTrail_temp.answer_score_global_json = [
             "affected_candidate": 200,
             "global_multiplier": -0.09
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 22575,
+        "fields": {
+            "answer": 22573,
+            "candidate": 200,
+            "affected_candidate": 200,
+            "global_multiplier": 0.008
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 22579,
+        "fields": {
+            "answer": 22577,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.011
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 22582,
+        "fields": {
+            "answer": 22580,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 22586,
+        "fields": {
+            "answer": 22584,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 22590,
+        "fields": {
+            "answer": 22588,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.008
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 22591,
+        "fields": {
+            "answer": 22588,
+            "candidate": 201,
+            "affected_candidate": 203,
+            "global_multiplier": -0.2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 22594,
+        "fields": {
+            "answer": 22592,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.014
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 22597,
+        "fields": {
+            "answer": 22595,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.012
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 22601,
+        "fields": {
+            "answer": 22599,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.01
+        }
     }
 ]
 
@@ -14812,6 +14966,56 @@ campaignTrail_temp.answer_score_issue_json = [
             "issue": "100",
             "issue_score": 0.6,
             "issue_importance": 4
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 22576,
+        "fields": {
+            "answer": 22573,
+            "issue": 102,
+            "issue_score": -0.5,
+            "issue_importance": 5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 22583,
+        "fields": {
+            "answer": 22580,
+            "issue": 102,
+            "issue_score": -0.9,
+            "issue_importance": 5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 22587,
+        "fields": {
+            "answer": 22584,
+            "issue": 102,
+            "issue_score": -0.9,
+            "issue_importance": 4
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 22598,
+        "fields": {
+            "answer": 22595,
+            "issue": 102,
+            "issue_score": 0.8,
+            "issue_importance": 5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 22602,
+        "fields": {
+            "answer": 22599,
+            "issue": 104,
+            "issue_score": 0.7,
+            "issue_importance": 5
         }
     }
 ]
@@ -22690,6 +22894,78 @@ campaignTrail_temp.answer_feedback_json = [
             "candidate": 201,
             "answer_feedback": "Many Democrats are uncomfortable with your being so accepting of Sanders. Still, he and other experts devised a solution to add a Resolution Trust Corporation and a Reconstruction Finance Corporation, among other reforms, to crack down on the banks radically. When it's put to the House floor, it's a battle like no other, but you grasp the party establishment's spine, and the bill is sent to your desk."
         }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 22574,
+        "fields": {
+            "answer": 22573,
+            "candidate": 201,
+            "answer_feedback": "Secretary Kerry nods along as he proposes the solution, which will be a complete affront to Putin by allowing U.S troops so close to the conflict under the guise of \"routine exercises.\""
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 22578,
+        "fields": {
+            "answer": 22577,
+            "candidate": 201,
+            "answer_feedback": "Cheney is promising bold arm-twisting of Russia in favor of President Saakashvili, and his round trip through Georgia makes all the headlines while your cabinet is preventing you from taking any radical action."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 22581,
+        "fields": {
+            "answer": 22580,
+            "candidate": 201,
+            "answer_feedback": "Your cabinet watches as you lament as if keeping you from destroying the world is some eternal torment. Leaks to the press get out of your outburst, you're enraged, and you fire multiple staffers, further worsening the public's view of you."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 22585,
+        "fields": {
+            "answer": 22584,
+            "candidate": 201,
+            "answer_feedback": "You nearly get into a shouting match with Secretary Kerry over the issue, and after forcing him out of your office, you're informed, thankfully, that he's handed in his resignation effective after the election. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 22589,
+        "fields": {
+            "answer": 22588,
+            "candidate": 201,
+            "answer_feedback": "As you let loose on the neocon dream, you feel the anti-war movement, no matter how weak, forcing itself out of the grave to back you in the face of pure evil. Cheney's retorts are cold and callous, doing him little good."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 22593,
+        "fields": {
+            "answer": 22592,
+            "candidate": 201,
+            "answer_feedback": "When asked to reply to your charges, Cheney says, \"And that fool thinks he has the solution?\" Pointing to the collapse of the financial market, it's not hard for him to make the case to turn the page even if his solutions are hollow.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 22596,
+        "fields": {
+            "answer": 22595,
+            "candidate": 201,
+            "answer_feedback": "The Republican War Chest is deep, and Cheney has plenty to take from it, and his campaign releases scathing refutes calling you an unpatriotic peacenik dove. The most significant problem of all? The polls look like they believe it."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 22600,
+        "fields": {
+            "answer": 22599,
+            "candidate": 201,
+            "answer_feedback": "Usually, blaming the prior administration would go over poorly for an incumbent facing a crisis, but you are facing the most unpopular man for it. Cheney brushes off your criticisms, not realizing he's brushed off millions of Americans."
+        }
     }
 ]
 
@@ -22872,7 +23148,7 @@ function switcheroo45() {
     e.candidate_json[id].fields.last_name = "Gravel"
     e.candidate_json[id].fields.color_hex = "#76cc70" 
 }
-function switcheroo45() {
+function switcheroo46() {
     var id = e.candidate_json.map(p=>p.pk).indexOf(203)
     e.candidate_json[id].fields.first_name = "Kent"
     e.candidate_json[id].fields.last_name = "Mesplay"
@@ -23170,10 +23446,12 @@ if (e.noCounter == 14) {
         nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#0e0d0d";
         nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#ffffff";
         nct_stuff.themes[nct_stuff.selectedTheme].inner_window_color = "#ffffff";
-        document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title
+        document.getElementsByClassName("game_header")[0].style.backgroundColor =
+        nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
         $(".container")[0].style.backgroundColor = "#ffffff"
         document.body.background = "https://i.imgur.com/Qbgqa6e.jpeg"
         $("#game_window")[0].style.borderColor = "#C0C0C0";
+        $("#game_window")[0].style.backgroundColor = "#5B7D84"
         campaignTrail_temp.questions_json[14] = tunnel(21240); 
     }
      else if (Notroops > 0 && Loyalist > 0 && Tax > 0) {
@@ -23328,6 +23606,9 @@ if (e.noCounter == 22) {
     if (Dem == 7) {
         campaignTrail_temp.questions_json[22] = tunnel(22016); 
     }
+    if (Dem == 8) {
+        campaignTrail_temp.questions_json[22] = tunnel(22141); 
+    }
 }
 
     if(ans == 21244 ){
@@ -23363,6 +23644,9 @@ if (e.noCounter == 23) {
     }
     if (Dem == 7) {
         campaignTrail_temp.questions_json[23] = tunnel(22017); 
+    }
+    if (Dem == 8) {
+        campaignTrail_temp.questions_json[23] = tunnel(22197); 
     }
 }
 
@@ -23585,7 +23869,7 @@ e.executable = []
 
 if (quickstats[0] <= 270 && Dem == 1) { // Weak Defeat - McCain
 e.pages.push(`<h3><i>No Apologies</i></h3>
-          <p><b>When he prepared to take flight, Icarus knew it'd be his last. The Maverick had taken the base who swept him into office the day he made that damn gaffe. He reminisced the good he had done or tried to do, now doubtful that his legacy would remain intact. The Maverick promised to undo it all, he'd bring back the massive surveillance, the war in Iraq and possibly expand it.</b></p> <p><b>Icarus could only lament as the states were called one by one, but a glimmer of hope would overtake his mind as states became to close to call. His staff made calls in and out of each swing state, it was close this was going to be decided by a few states. The team was sweating, was it possible? Could Icarus have actually turned the race around enough to win? The Maverick camp was equally ancy as Carl Rove ranted on FOX how it was impossible, Icarus couldn't be winning these states,</b></p> <p><i>it was too early to call</i> he said.</p> <p><b>Hanging on a prayer Icarus felt as if he was soaring. However his hopes were struck down along with him. The Maverick had won the tipping point state and Icarus was no more. The Maverick underperformed the polls severely however and the damned Traitor remains a dividing force within Republican circles. The Maverick's tenure would be marked by economic downturns and spiraling negativity. He got his desired tax cuts through congress but his cuts to Social Security would be filibusters into the ground. The Maverick was desperate to catch a win especially once the 2010 midterms swept the nation in a blue tsunami. Lacking options he focused solely on the mission of killing Osama Bin Laden. It wasn't easy but soon the nation would rejoice in unison. Even still the outlook hasn't looked great for the Maverick's reelection bid. A poorly timed health scare in 2011 sent the nation worrying but most importantly the Republican Party was terrified. A former Democrat too far out of the Republican mainstream was one deteriorating heartbeat away from the presidency. These fears were raised even higher when the Traitor convinced the president to back the repeal of Don't Ask Don't Tell. It was the last straw, the Traitor had to go and maybe even the Maverick.</b></p>`)
+          <p><b>When he prepared to take flight, Icarus knew it'd be his last. The Maverick had taken the base who swept him into office the day he made that damn gaffe. He reminisced the good he had done or tried to do, now doubtful that his legacy would remain intact. The Maverick promised to undo it all, he'd bring back the massive surveillance, the war in Iraq and possibly expand it.</b></p> <p><b>Icarus could only lament as the states were called one by one, but a glimmer of hope would overtake his mind as states became to close to call. His staff made calls in and out of each swing state, it was close this was going to be decided by a few states. The team was sweating, was it possible? Could Icarus have actually turned the race around enough to win? The Maverick camp was equally ancy as Carl Rove ranted on FOX how it was impossible, Icarus couldn't be winning these states,</b></p> <p><i>it was too early to call</i> he said.</p> <p><b>Hanging on a prayer Icarus felt as if he was soaring. However his hopes were struck down along with him. The Maverick had won the tipping point state and Icarus was no more. The Maverick underperformed the polls severely however and the damned Traitor remains a dividing force within Republican circles. The Maverick's tenure would be marked by economic downturns and spiraling negativity. He got his desired tax cuts through congress but his cuts to Social Security would be filibusters into the ground. The Maverick was desperate to catch a win especially once the 2010 midterms swept the nation in a blue tsunami. Lacking options he focused solely on the mission of killing Osama Bin Laden. It wasn't easy but soon the nation would rejoice in unison.</b></p> <p>Even still the outlook hasn't looked great for the Maverick's reelection bid. A poorly timed health scare in 2011 sent the nation worrying but most importantly the Republican Party was terrified. A former Democrat too far out of the Republican mainstream was one deteriorating heartbeat away from the presidency. These fears were raised even higher when the Traitor convinced the president to back the repeal of Don't Ask Don't Tell. It was the last straw, the Traitor had to go and maybe even the Maverick.</b></p>`)
           // idk how to add playlists but to do that you create a new playlist in code1 with just that song and put changePlaylist(nameOfYourEndingPlaylist) right here
 //e.image = ""
 e.executable.push([0, (() => {e.image = e.image = 'https://i.imgur.com/yLAWebg.png'})])
