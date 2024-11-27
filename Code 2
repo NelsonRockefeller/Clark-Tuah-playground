@@ -391,7 +391,7 @@ campaignTrail_temp.questions_json = [
         "pk": 21145,
         "fields": {
             "priority": 0,
-            "description": "The blistering lights and an impossible image at the Republican National Convention echo with cheers and shouting as the most controversial man in America steps up to the podium. Romney and Huckabee attempted to hold the line, but the trojan horse of libertarianism breached the convention. An indescribable atmosphere fills the room when Ron Paul grasps the podium with his equal, Gary Johnson, at his side, decrying your name. A complete repudiation of the established norms for Republicans as he rails into your foreign policy and the Patriot Act. The convention floor nearly breaks into fists as Paul's enemies are hunted and removed. Former President Bush barely gets time to speak as the Paul Acolytes do all they can to quell the face of interventionism. It's only you now, Clark. You're the only one standing in his way; how will you save Olympus from the darkness?\n",
+            "description": "The blistering lights and an impossible image at the Republican National Convention. The hall echos with cheers and shouting as the most controversial man in America steps up to the podium. Romney and Huckabee attempted to hold the line, but the trojan horse of libertarianism breached the convention. An indescribable atmosphere fills the room when Ron Paul grasps the podium with his equal, Gary Johnson, at his side, decrying your name. This is a complete repudiation of the established norms for Republicans as he rails into your foreign policy and the Patriot Act. The convention floor nearly breaks into fists as Paul's enemies are hunted and removed. Former President Bush barely gets time to speak as the Paul Acolytes do all they can to quell the face of interventionism. It's only you now, Clark. You're the only one standing in his way; how will you save Olympus from the darkness?\n",
             "likelihood": 1
         }
     },
@@ -841,7 +841,7 @@ campaignTrail_temp.questions_json = [
         "pk": 22034,
         "fields": {
             "priority": 0,
-            "description": "Slowly but surely, your decision to call for a troop surge in Iraq is vindicated. Secretary Kerry and Secretary Lavine pass you the reports, and as you look them over, your smile begins to show. The situation in Iraq has stabilized, and the media finally has something good to chew on from your administration. The anti-war sentiment has dimmed, as guys like Kucinich and Gravel seem small. How will you capitalize on this significant victory?",
+            "description": "Slowly but surely, your decision to call for a troop surge in Iraq is vindicated. Secretary Kerry and Secretary Levine pass you the reports, and as you look them over, your smile begins to show. The situation in Iraq has stabilized, and the media finally has something good to chew on from your administration. The anti-war sentiment has dimmed, as guys like Kucinich and Gravel seem small. How will you capitalize on this significant victory?",
             "likelihood": 1
         }
     },
@@ -859,7 +859,7 @@ campaignTrail_temp.questions_json = [
         "pk": 22109,
         "fields": {
             "priority": 0,
-            "description": "The warning signs are everywhere, and the odds are dangerously close to allowing that man back into the Oval Office. Cheney is uncompromising in his goals. When attacked for his foreign policy positions, he lashes back at reporters. He puts them into the ground and buries their questions in personal attacks on their character. If you don't support the war, you HATE the troops, you're an opportunist, a moron. Nobody likes Dick Cheney; he has the personality of a corpse; however, the walls of Olympus cave in on your watch. If it were anyone else, you'd be drowning. How will you draw the line between Cheney and yourself, Clark?\n",
+            "description": "The warning signs are everywhere, and the odds are dangerously close to allowing that man back into the Oval Office. Cheney is uncompromising in his goals. When attacked for his foreign policy positions, he lashes back at reporters. He puts them into the ground and buries their questions in personal attacks on their character. If you don't support the war, you HATE the troops, you're an opportunist, a moron. Nobody likes Dick Cheney; he has the personality of a corpse; however, the walls of Olympus are caving in. If it were anyone else, you'd be drowning. How will you draw the line between Cheney and you, Clark?\n",
             "likelihood": 1
         }
     },
@@ -1626,7 +1626,7 @@ campaignTrail_temp.answers_json = [
         "pk": 20902,
         "fields": {
             "question": 20898,
-            "description": "The power of the executive is a checkmate on its own, but we need to ensure public support. We need a robust media campaign that effectively drives up cyber security concerns. This is crucial to get the public on board."
+            "description": "The power of the executive is a checkmate on its own, but we need to ensure public support. The American people need to understand that we are in a new Cold War with Russia, China, and Iran. If we aren't vigilant, cyber attacks can wreck our financial institutions."
         }
     },
     {
@@ -1810,7 +1810,7 @@ campaignTrail_temp.answers_json = [
         "pk": 21017,
         "fields": {
             "question": 21008,
-            "description": "Five years ago, some hard-nosed people took over the direction of American policy, and they never bothered to inform the rest of us. The Bush administration performed a policy coup in hope to take down 7 Muslim countries in 5 years. However, in just 3 years we've brought our nation's credibility back!\n"
+            "description": "Five years ago, some hard-nosed people took over the direction of American policy, and they never bothered to inform the rest of us. The Bush administration performed a policy coup in the hope of taking down 7 Muslim countries in 5 years. In just 3 years we've brought our nation's credibility back!\n"
         }
     },
     {
@@ -2426,7 +2426,7 @@ campaignTrail_temp.answers_json = [
         "pk": 21561,
         "fields": {
             "question": 1074,
-            "description": "We have the capital to respond to Putin's aggression with vital support - give Georgia whatever it needs to repel Russian troops. This is merely the first battle, and I won't be caught with my pants down like Chamberlain. Send Georgia long-ranged missiles and whatever else they need.\n"
+            "description": "I need my cabinet to look over our options because right now, this “little war” has shaken the world, and we need to have all our options on the table, including direct military intervention.\n"
         }
     },
     {
@@ -3522,7 +3522,7 @@ campaignTrail_temp.answers_json = [
         "pk": 22456,
         "fields": {
             "question": 22452,
-            "description": "The power of the executive is a checkmate on its own, but we need to ensure public support. We need a robust media campaign that effectively drives up cyber security concerns. This is crucial to get the public on board."
+            "description": "The power of the executive is a checkmate on its own, but we need to ensure public support. The American people need to understand that we are in a new Cold War with Russia, China, and Iran. If we aren't vigilant, cyber attacks can wreck our financial institutions."
         }
     },
     {
@@ -9902,7 +9902,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 20740,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.012
+            "global_multiplier": 0.007
         }
     },
     {
@@ -9912,7 +9912,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5151,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.008
+            "global_multiplier": 0.004
         }
     },
     {
@@ -9922,7 +9922,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5155,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.008
+            "global_multiplier": 0.004
         }
     },
     {
@@ -9952,7 +9952,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 20752,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.008
+            "global_multiplier": 0.004
         }
     },
     {
@@ -9962,7 +9962,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 20755,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.008
+            "global_multiplier": 0.005
         }
     },
     {
@@ -9992,7 +9992,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5263,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.01
+            "global_multiplier": -0.01
         }
     },
     {
@@ -10042,7 +10042,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 20893,
             "candidate": 201,
             "affected_candidate": 203,
-            "global_multiplier": 0.01
+            "global_multiplier": -0.01
         }
     },
     {
@@ -10092,7 +10092,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 20910,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.008
+            "global_multiplier": 0.004
         }
     },
     {
@@ -10102,7 +10102,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 20915,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.008
+            "global_multiplier": 0.006
         }
     },
     {
@@ -10122,7 +10122,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 20919,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.01
+            "global_multiplier": 0.003
         }
     },
     {
@@ -10142,7 +10142,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 20924,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.008
+            "global_multiplier": 0.004
         }
     },
     {
@@ -10152,7 +10152,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 20928,
             "candidate": 201,
             "affected_candidate": 203,
-            "global_multiplier": 0.1
+            "global_multiplier": 0.2
         }
     },
     {
@@ -10652,7 +10652,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 20897,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": -0.008
+            "global_multiplier": -0.012
         }
     },
     {
@@ -10662,7 +10662,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 21279,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": -0.08
+            "global_multiplier": -0.008
         }
     },
     {
@@ -12112,7 +12112,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 21037,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.008
+            "global_multiplier": 0.005
         }
     },
     {
@@ -12152,7 +12152,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 21036,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.009
+            "global_multiplier": 0.004
         }
     },
     {
@@ -12182,7 +12182,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 22013,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.005
+            "global_multiplier": 0.003
         }
     },
     {
@@ -13504,8 +13504,8 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 20755,
             "issue": 102,
-            "issue_score": 0.5,
-            "issue_importance": 5
+            "issue_score": 0.9,
+            "issue_importance": 7
         }
     },
     {
@@ -14913,7 +14913,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 22521,
         "fields": {
             "answer": 22483,
-            "issue": "100",
+            "issue": 100,
             "issue_score": 0.6,
             "issue_importance": 13
         }
@@ -14933,7 +14933,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 22529,
         "fields": {
             "answer": 22526,
-            "issue": "100",
+            "issue": 100,
             "issue_score": 0.8,
             "issue_importance": 4
         }
@@ -14963,7 +14963,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 22552,
         "fields": {
             "answer": 22549,
-            "issue": "100",
+            "issue": 100,
             "issue_score": 0.6,
             "issue_importance": 4
         }
@@ -15016,6 +15016,26 @@ campaignTrail_temp.answer_score_issue_json = [
             "issue": 104,
             "issue_score": 0.7,
             "issue_importance": 5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 22603,
+        "fields": {
+            "answer": 20919,
+            "issue": "100",
+            "issue_score": 0.8,
+            "issue_importance": 5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 22604,
+        "fields": {
+            "answer": 20915,
+            "issue": 102,
+            "issue_score": 0.8,
+            "issue_importance": 3
         }
     }
 ]
@@ -19921,7 +19941,7 @@ campaignTrail_temp.answer_score_state_json = [
         "pk": 22570,
         "fields": {
             "answer": 21026,
-            "state": 1000,
+            "state": 1009,
             "candidate": 201,
             "affected_candidate": 202,
             "state_multiplier": 0.2
@@ -21443,7 +21463,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 21561,
             "candidate": 201,
-            "answer_feedback": "Putin is more than fuming as he promises to make the United States pay for supporting what he calls a genocide. The world holds its breath as Wesley K. Clark puts everything in balance at risk of his own Hubris."
+            "answer_feedback": "Surrounded by like-minded bleeding heart hawks, your cabinet goes over several measures, sometimes of which you are supportive of, like authorizing the bombardment and sealing of the Roki Tunnel along with other surgical strikes. Luckily, common sense in the room prevails and shoots these ideas down without your help."
         }
     },
     {
@@ -22001,7 +22021,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 21850,
             "candidate": 201,
-            "answer_feedback": "Pivoting to the right on the crime issue is an exciting play. It soon becomes a messy issue for Huckabee as he struggles to find an excuse. That said, there might be more time in the states you want to win with this."
+            "answer_feedback": "Pivoting to the right on the crime issue is an exciting play. It soon becomes a messy issue for Huckabee as he struggles to find an excuse. That said, there might not be enough time to roll back his lead."
         }
     },
     {
@@ -23869,7 +23889,7 @@ e.executable = []
 
 if (quickstats[0] <= 190 && Dem == 1) { // Landslide Defeat - McCain
 e.pages.push(`<h3><i>Scorched</i></h3>
-          <p><b>When Icarus took flight, he knew four more years wouldn't be bestowed on him. The polls had him down nearly everywhere; it was to be a tsunami that swept the nation red. Whether someone else could have dug themselves out of the hole the recession had put them in is inarguably true that Icarus did himself no favors and only kept digging down.</b></p> <p><b>State after state called for the Maverick and it was clear. Icarus had been scorched. The concession was given quickly, and Icarus was unable to hold back the ever-slight bitterness in his voice. Expecting the ritual cannibalization Democrats perform while looking desperately for some excuse to hoist the blame upon Icarus, he flicked through each channel: CNN, MSNBC, and NPR. The chatter was low and depressing, but their faces didn't look shocked. They could predict this result from a mile away;</b></p> <p>Jon Stewart from The Daily Show put it best<i> "This election was really about two candidates having a truthful, substantive discussion about how much they FUCKING HATE EACH OTHER."</i></p> <p><b>Icarus made it deeply personal; he wasn't quite sure why he felt it necessary to demean a fellow veteran's service in such a way. Perhaps it was a deeper insecurity he had, or he believed he was truly deserving of being president just by rank.</b></p> <p>The voters have swept his administration under the incoming Maverick administration, which holds its hopes high to execute much with its mandate.</b></p>`)
+          <p><b>When Icarus took flight, he knew four more years wouldn't be bestowed on him. The polls had him down nearly everywhere; it was to be a tsunami that swept the nation red. Whether someone else could have dug themselves out of the hole the recession had put them in is inarguably true that Icarus did himself no favors and only kept digging down.</b></p> <p><b>State after state called for the Maverick and it was clear. Icarus had been scorched. The concession was given quickly, and Icarus was unable to hold back the ever-slight bitterness in his voice. Expecting the ritual cannibalization Democrats perform while looking desperately for some excuse to hoist the blame upon Icarus, he flicked through each channel: CNN, MSNBC, and NPR. The chatter was low and depressing, but their faces didn't look shocked. They could predict this result from a mile away;</b></p> <p>Jon Stewart from The Daily Show put it best<i> "This election was really about two candidates having a truthful, substantive discussion about how much they FUCKING HATE EACH OTHER."</i></p> <p><b>Icarus made it deeply personal; he wasn't quite sure why he felt it necessary to demean a fellow veteran's service in such a way. Perhaps it was a deeper insecurity he had, or he believed he was truly deserving of being president just by rank.</b></p> <p><b>The voters have swept his administration under the incoming Maverick administration, which holds its hopes high to execute much with its mandate.</b></p>`)
           // idk how to add playlists but to do that you create a new playlist in code1 with just that song and put changePlaylist(nameOfYourEndingPlaylist) right here
 //e.image = ""
 e.executable.push([0, (() => {e.image = e.image = 'https://i.imgur.com/7VLX0cu.png'})])
@@ -23883,29 +23903,29 @@ const mccainWin = new Playlist();
 mccainWin.addSong(mccainWinSong);
 changePlaylist(mccainWin);
 }
-if (quickstats[0] <= 270 && Dem == 1) { // Weak Defeat - McCain
+else if (quickstats[0] <= 270 && Dem == 1) { // Weak Defeat - McCain
 e.pages.push(`<h3><i>No Apologies</i></h3>
           <p><b>When he prepared to take flight, Icarus knew it'd be his last. The Maverick had taken the base who swept him into office the day he made that damn gaffe. He reminisced the good he had done or tried to do, now doubtful that his legacy would remain intact. The Maverick promised to undo it all, he'd bring back the massive surveillance, the war in Iraq and possibly expand it.</b></p> <p><b>Icarus could only lament as the states were called one by one, but a glimmer of hope would overtake his mind as states became to close to call. His staff made calls in and out of each swing state, it was close this was going to be decided by a few states. The team was sweating, was it possible? Could Icarus have actually turned the race around enough to win? The Maverick camp was equally ancy as Carl Rove ranted on FOX how it was impossible, Icarus couldn't be winning these states,</b></p> <p><i>it was too early to call</i> he said.</p> <p><b>Hanging on a prayer Icarus felt as if he was soaring. However his hopes were struck down along with him. The Maverick had won the tipping point state and Icarus was no more. The Maverick underperformed the polls severely however and the damned Traitor remains a dividing force within Republican circles. The Maverick's tenure would be marked by economic downturns and spiraling negativity. He got his desired tax cuts through congress but his cuts to Social Security would be filibusters into the ground. The Maverick was desperate to catch a win especially once the 2010 midterms swept the nation in a blue tsunami. Lacking options he focused solely on the mission of killing Osama Bin Laden. It wasn't easy but soon the nation would rejoice in unison.</b></p> <p><b>Even still the outlook hasn't looked great for the Maverick's reelection bid. A poorly timed health scare in 2011 sent the nation worrying but most importantly the Republican Party was terrified. A former Democrat too far out of the Republican mainstream was one deteriorating heartbeat away from the presidency. These fears were raised even higher when the Traitor convinced the president to back the repeal of Don't Ask Don't Tell. It was the last straw, the Traitor had to go and maybe even the Maverick.</b></p>`)
           // idk how to add playlists but to do that you create a new playlist in code1 with just that song and put changePlaylist(nameOfYourEndingPlaylist) right here
 //e.image = ""
 e.executable.push([0, (() => {e.image = e.image = 'https://i.imgur.com/yLAWebg.png'})])
-const clintonWin = new Playlist();
-  const clintonWinSong = new Song(
+const mccainWin = new Playlist();
+  const mccainWinSong = new Song(
     "Who Are You",
     "The Who",
     "https://i.imgur.com/gfGS7zF.gif",
     "https://audio.jukehost.co.uk/YU7VJPBFUhsiPnWp9KhW7V2oGrHDWFRT"
   );
-clintonWin.addSong(clintonWinSong);
-changePlaylist(clintonWin);
+mccainWin.addSong(mccainWinSong);
+changePlaylist(mccainWin);
 }
 // flavors
-if ( quickstats[0] <= 190 && Dem == 1)) { // Feingold supremacy
+if ( quickstats[0] <= 190 && Dem == 1) { // Feingold supremacy
 e.pages.push(`<h3>Politico: <i>The Blue Wave came, and it swept away McCain's mandate.</i></h3>
 <p><b>Opinion:</b> <u>President John McCain rode into the White House on the economic woes of the Clark Administration. He's a man elected not because what he brought to the table was popular but because the other guy was an idiot.</b> <p>The complete collapse of the president's mandate proves that. Democrats nationwide ran on four words: "He Killed Social Security." The McCain administration knew this insurmountable task was unpopular, and his trips throughout the states to make the bill to reform the system seem popular only hurt its public view. McCain's refusal to cut taxes as a compromise for the bill eliminated all and any support from the opposition. However, what hurt him most was the collapse of the support within the Republican base. The old folk who relied on Social Security felt uncomfortable with his reforms. Regardless, by the summer of 09, he didn't seem to waver in supporting such a plan.</p><p>Public opinion hit a boiling point, but McCain still had the numbers to get what he wanted to be passed. So he ignored the normality of representing the people and forced upon America a "tough pill to swallow." Democrats tried to pull any tricks they could to combat the bill, but they lacked the numbers to stop it, and Republicans sent the bill through. Well, now, here we are. The American people have rejected the McCain administration's pill and have accepted the trimming of Social Security. House Speaker Nancy Pelosi has the numbers to comfortably stalemate whatever McCain may bring from here. It looks like President McCain has accepted the fact that his domestic agenda has been slain and has set his eyes abroad. The redeployment of troops into Iraq and Afghanistan was only the start of McCain's war-hungry agenda.</p><br><b>Politico Coverage</b><br><span style="color:white;"><u>Senator Russ Feingold launched a political action committee to explore the possibility of running for president in the 2012 election.</span></u><br><span style="color:white;"><u>Senator-elect Charlie Crist announces he will caucus with the Democratic Party.</span></u><br><span style="color:white;"><u>Governor Dave Freudenthal's gamble on challenging Wyoming Governor term limits paid off, reelected by slim margins.</p>`)
 e.executable.push([1, (() => {e.image = e.image = 'https://i.imgur.com/1gDIhjc.png'})])
 }
-if ( quickstats[0] <= 270 && Dem == 1 && Dadt == 0) { // Lieberman drops out of clown college
+else if ( quickstats[0] <= 270 && Dem == 1 && Dadt == 0) { // Lieberman drops out of clown college
 e.pages.push(`<h3>Esquire: <i>Vice President Lieberman announces he will not run for reelection in 2012.</i></h3>
 <p><b>Announcement:</b> <u>At a press conference this morning, Vice President Lieberman announced his wish to retire from politics and said he would not seek the Republican Vice Presidential nomination again.</u><br><br> "I'm making this decision for my family, and it has absolutely nothing to do with President McCain's reelection bid."</b><br><u> This announcement comes amid President McCain's brutal battle with former Senator Rick Santorum in the Republican primaries. Lieberman has stood as a political liability for the President, holding an approval rating below 29%. Vice President Lieberman made himself an enemy of the Democratic Party after he pushed for the "Internet Kill Switch." Republicans hold very little love for the Vice president, especially after Lieberman pushed for repealing Don't Ask, Don't Tell, which was among the reasons former Senator Santorum launched his primary challenge to President McCain.<br><br>This development has sent a ripple through the Republican Party, and many say it might save President McCain's chances in the Republican Primaries. Whether the President can win the general election remains to be seen.<br><br><b>Esquire Coverage</b><br><span style="color:white;"><u>Santorum's upset win in Iowa, how did we get here?</span></u> (Jan 4th 2012)<br><span style="color:white;"><u>McCain holds the line in New Hampshire</span></u> (Jan 11th 2012)<br><span style="color:white;"><u>McCain barely holds off Santorum in South Carolina, reelection prospects look grim</span></u> (Jan 22nd 2012)<br><span style="color:white;"><u>McCain hits Florida begging for votes</span></u> (Jan 26th 2012)</p>`)
 e.executable.push([1, (() => {e.image = e.image = 'https://i.imgur.com/uF3VTNT.png'})])
