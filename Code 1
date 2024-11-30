@@ -391,10 +391,10 @@ document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_wi
     );
   
     const song8 = new Song(
-      "Real American",
-      "Rick Derringer",
+      "Friend Please",
+      "Twenty One Pilots",
       "https://i.imgur.com/TDAl9HT.gif",
-      "https://audio.jukehost.co.uk/5aZ2PQqoNvJN2kPuLCaOoGSHmkmI95lk"
+      "https://audio.jukehost.co.uk/t8JHadH4hqVweClPkxobMVs7iNk18snf"
     );
   
     playlist.addSong(song1);
