@@ -1015,6 +1015,24 @@ campaignTrail_temp.questions_json = [
             "description": "Republicans are going for it; they smacked your mandate down, and now, much like Gingrich in the 90s, King Roy is prepared to force your term rightward—an amendment to ban gay marriage and close the issue with a Republican pen once and for all. Republicans are building support with the likes of Senator Brownback up and down the states to preach for the amendments signing. Congressional Democrats are Building trenches to feather the onslaught and kill this grotesque bill. One question remains: what will you do, Clark?\n",
             "likelihood": 1
         }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 22698,
+        "fields": {
+            "priority": 0,
+            "description": "tax cut guh",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 22701,
+        "fields": {
+            "priority": 0,
+            "description": "Fires are set, buildings are burnt, and the Republican infighting is tearing apart the libertarian's loosely held coalition. Former Senator Rick Santorum's third-party bid is robust, and Ron Paul is plummeting into hysteria. Already struggling to keep hardline Buchananites and Anti-War Activists together, he's getting dragged by what he calls a \"Personal vindictive campaign against fundamental constitutional values.\" Their feud started well into the Republican primaries, where Santorum felt Paul orchestrated a \"Defamatory campaign against his character.\" They're two idiots hell-bent on destroying themselves; how will you drive them further apart?",
+            "likelihood": 1
+        }
     }
 ]
 
@@ -1384,7 +1402,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5235,
         "fields": {
             "question": 1069,
-            "description": "Putin is attempting to bully an independent nation with the false sense that it belongs to him. We've\nlost our minds if we do not make the first move. I want Georgia's NATO membership sped up now.\n"
+            "description": "Putin is attempting to bully an independent nation with the false sense that it belongs to him. You've lost your mind if we do not make the first move. I want Georgia's NATO membership sped up now.\n\n"
         }
     },
     {
@@ -1392,7 +1410,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5236,
         "fields": {
             "question": 1069,
-            "description": "What Georgia needs now more than ever is the reassurance that the United States will protect them. Get me on a plane; I’ll meet with President Saakashvili and swear he has all our support.\n"
+            "description": "What Georgia needs now more than ever is the reassurance that the United States will protect them. Get me on a plane; I'll meet with President Saakashvili and swear he has all our support.\n"
         }
     },
     {
@@ -1400,7 +1418,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5237,
         "fields": {
             "question": 1069,
-            "description": "Put pressure on Putin. Make it crystal clear that if he wants to use Russia's influence, the United States will respond with whatever means necessary. \n"
+            "description": "I am not giving Russia a free pass to trample over a free country. The Bush Administration rolled over too often for this tyrant; we need to accept that this is the new Cold War. Put pressure on Putin. Make it clear that if he wants to use Russia's influence, the United States will respond with whatever means necessary.\n"
         }
     },
     {
@@ -1640,7 +1658,7 @@ campaignTrail_temp.answers_json = [
         "pk": 20877,
         "fields": {
             "question": 1069,
-            "description": "We need the European Union's help in preventive measures to cease all hostilities. President Sarkozy has the most influence, and he can get Russia back to the table.\n"
+            "description": "The Free World is in danger if we let Russia normalize this behavior. We need the European Union's help in preventive measures to cease all hostilities. President Sarkozy has the most influence and can get Russia back to the table.\n"
         }
     },
     {
@@ -4001,6 +4019,54 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 22681,
             "description": "After all these years of Republicans being oh so supportive of states' rights, This amendment is a complete violation of them, and they should be ashamed. I pushed the Freedom To Marry Act to undo the federal overreach of the Defense of Marriage and bring these issues to the states."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 22699,
+        "fields": {
+            "question": 22698,
+            "description": "libertarian boost"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 22702,
+        "fields": {
+            "question": 22701,
+            "description": "These two have fought like cats and dogs. It's embarrassing, and the voters will feel it. We're best off just sitting by the sidelines; they're tearing each other apart regardless.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 22706,
+        "fields": {
+            "question": 22701,
+            "description": "We need to think about the long game here. Santorum's polling suggests he is dangerously close to qualifying for the presidential debates, and even if it means sacrificing some of our numbers if we can help him get there, Paul will collapse.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 22710,
+        "fields": {
+            "question": 22701,
+            "description": "Senator Santorum has a fragile ego. We witnessed his anger let loose after being called a fake. Addressing these tensions is our top priority, and that starts by funneling resources into stoking the flames of their rivalry.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 22714,
+        "fields": {
+            "question": 22701,
+            "description": "This is our perfect chance to take down Representative Paul while he's getting hit from behind. That starts with breaking down his hold over the anti-war left; they need to realize they aren't his top priority; a Ron Paul presidency will focus on cozying up to the Republican establishment's desires.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 22719,
+        "fields": {
+            "question": 20923,
+            "description": "Former Secretary Powell said it best: there is a powerful and dangerous Terrorist Industrial Complex, and the American people need to be aware of this. The terrorist networks in and around Iraq would strangle through growing Democracy. We are focusing all our efforts on taking down Al Qaeda."
         }
     }
 ]
@@ -10010,7 +10076,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5235,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": -0.01
+            "global_multiplier": -0.013
         }
     },
     {
@@ -10030,7 +10096,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5237,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": -0.01
+            "global_multiplier": -0.017
         }
     },
     {
@@ -12630,7 +12696,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 22090,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": -0.008
+            "global_multiplier": -0.015
         }
     },
     {
@@ -13642,6 +13708,106 @@ campaignTrail_temp.answer_score_global_json = [
             "affected_candidate": 201,
             "global_multiplier": 0.016
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 22700,
+        "fields": {
+            "answer": 22699,
+            "candidate": 201,
+            "affected_candidate": 202,
+            "global_multiplier": 0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 22704,
+        "fields": {
+            "answer": 22702,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "global_multiplier": -0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 22705,
+        "fields": {
+            "answer": 22702,
+            "candidate": 201,
+            "affected_candidate": 202,
+            "global_multiplier": 1.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 22708,
+        "fields": {
+            "answer": 22706,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "global_multiplier": -0.07
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 22709,
+        "fields": {
+            "answer": 22706,
+            "candidate": 201,
+            "affected_candidate": 202,
+            "global_multiplier": 2.6
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 22712,
+        "fields": {
+            "answer": 22710,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "global_multiplier": -0.04
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 22713,
+        "fields": {
+            "answer": 22710,
+            "candidate": 201,
+            "affected_candidate": 202,
+            "global_multiplier": 1.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 22716,
+        "fields": {
+            "answer": 22714,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "global_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 22717,
+        "fields": {
+            "answer": 22714,
+            "candidate": 201,
+            "affected_candidate": 202,
+            "global_multiplier": 0.7
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 22721,
+        "fields": {
+            "answer": 22719,
+            "candidate": 201,
+            "affected_candidate": 203,
+            "global_multiplier": 0.25
+        }
     }
 ]
 
@@ -13952,18 +14118,8 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 5237,
             "issue": 102,
-            "issue_score": 0,
-            "issue_importance": 1
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 2895,
-        "fields": {
-            "answer": 5237,
-            "issue": 104,
-            "issue_score": 0.55,
-            "issue_importance": 1
+            "issue_score": -0.7,
+            "issue_importance": 4
         }
     },
     {
@@ -15655,6 +15811,16 @@ campaignTrail_temp.answer_score_issue_json = [
             "issue_score": 0.9,
             "issue_importance": 5
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 22723,
+        "fields": {
+            "answer": 22719,
+            "issue": 102,
+            "issue_score": -0.9,
+            "issue_importance": 3
+        }
     }
 ]
 
@@ -16514,7 +16680,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1039,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.2
+            "state_multiplier": -0.27
         }
     },
     {
@@ -17119,7 +17285,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1009,
             "candidate": 201,
             "affected_candidate": 202,
-            "state_multiplier": 0.6
+            "state_multiplier": 0.4
         }
     },
     {
@@ -17163,7 +17329,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1016,
             "candidate": 201,
             "affected_candidate": 202,
-            "state_multiplier": 1
+            "state_multiplier": 0.85
         }
     },
     {
@@ -17185,7 +17351,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1017,
             "candidate": 201,
             "affected_candidate": 202,
-            "state_multiplier": 0.6
+            "state_multiplier": 0.5
         }
     },
     {
@@ -17196,7 +17362,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1023,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.12
+            "state_multiplier": -0.1
         }
     },
     {
@@ -17251,7 +17417,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1041,
             "candidate": 201,
             "affected_candidate": 202,
-            "state_multiplier": 1.1
+            "state_multiplier": 0.95
         }
     },
     {
@@ -17262,7 +17428,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1039,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.25
+            "state_multiplier": -0.35
         }
     },
     {
@@ -17273,7 +17439,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1039,
             "candidate": 201,
             "affected_candidate": 202,
-            "state_multiplier": 0.25
+            "state_multiplier": 0.35
         }
     },
     {
@@ -17317,7 +17483,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1042,
             "candidate": 201,
             "affected_candidate": 202,
-            "state_multiplier": 0.8
+            "state_multiplier": 0.6
         }
     },
     {
@@ -19011,7 +19177,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1009,
             "candidate": 201,
             "affected_candidate": 202,
-            "state_multiplier": 0.6
+            "state_multiplier": 0.3
         }
     },
     {
@@ -19055,7 +19221,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1016,
             "candidate": 201,
             "affected_candidate": 202,
-            "state_multiplier": 1
+            "state_multiplier": 0.95
         }
     },
     {
@@ -19077,7 +19243,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1017,
             "candidate": 201,
             "affected_candidate": 202,
-            "state_multiplier": 0.6
+            "state_multiplier": 0.4
         }
     },
     {
@@ -19143,7 +19309,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1041,
             "candidate": 201,
             "affected_candidate": 202,
-            "state_multiplier": 1.1
+            "state_multiplier": 0.95
         }
     },
     {
@@ -19154,7 +19320,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1039,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.25
+            "state_multiplier": -0.35
         }
     },
     {
@@ -19165,7 +19331,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1039,
             "candidate": 201,
             "affected_candidate": 202,
-            "state_multiplier": 0.25
+            "state_multiplier": 0.35
         }
     },
     {
@@ -19209,7 +19375,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1042,
             "candidate": 201,
             "affected_candidate": 202,
-            "state_multiplier": 0.8
+            "state_multiplier": 0.6
         }
     },
     {
@@ -19594,7 +19760,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1009,
             "candidate": 201,
             "affected_candidate": 202,
-            "state_multiplier": 0.6
+            "state_multiplier": 0.4
         }
     },
     {
@@ -19638,7 +19804,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1016,
             "candidate": 201,
             "affected_candidate": 202,
-            "state_multiplier": 1
+            "state_multiplier": 0.95
         }
     },
     {
@@ -19660,7 +19826,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1017,
             "candidate": 201,
             "affected_candidate": 202,
-            "state_multiplier": 0.6
+            "state_multiplier": 0.4
         }
     },
     {
@@ -19726,7 +19892,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1041,
             "candidate": 201,
             "affected_candidate": 202,
-            "state_multiplier": 1.1
+            "state_multiplier": 0.95
         }
     },
     {
@@ -19737,7 +19903,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1039,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.25
+            "state_multiplier": -0.35
         }
     },
     {
@@ -19748,7 +19914,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1039,
             "candidate": 201,
             "affected_candidate": 202,
-            "state_multiplier": 0.25
+            "state_multiplier": 0.35
         }
     },
     {
@@ -19792,7 +19958,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1042,
             "candidate": 201,
             "affected_candidate": 202,
-            "state_multiplier": 0.8
+            "state_multiplier": 0.6
         }
     },
     {
@@ -20178,6 +20344,28 @@ campaignTrail_temp.answer_score_state_json = [
             "candidate": 201,
             "affected_candidate": 202,
             "state_multiplier": 0.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 22696,
+        "fields": {
+            "answer": 21026,
+            "state": 1045,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.09
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 22697,
+        "fields": {
+            "answer": 21026,
+            "state": 1045,
+            "candidate": 201,
+            "affected_candidate": 202,
+            "state_multiplier": 0.08
         }
     }
 ]
@@ -20639,7 +20827,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5235,
             "candidate": 201,
-            "answer_feedback": "You're asking for the impossible. Most NATO members are not looking to start a Third World War because you're an irresponsible moron."
+            "answer_feedback": "You're asking for the impossible. Most NATO members are not looking to start a Third World War because you're an irresponsible moron, and they make it clear that it's not happening. A band of uneasy nations sink your demands, and the press light a fire under your administration's behind."
         }
     },
     {
@@ -20648,7 +20836,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5236,
             "candidate": 201,
-            "answer_feedback": "Your whirlwind trip to Georgia has done nothing more than cause a media circus. Putin, on the other hand, is unimpressed with your antics."
+            "answer_feedback": "Your whirlwind trip to Georgia has created a media circus. The Georgians appreciate your advocation, but most Americans can't pinpoint where Georgia is on a map, much less support going to war with Russia for them."
         }
     },
     {
@@ -20774,7 +20962,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5237,
             "candidate": 201,
-            "answer_feedback": "Putin is unmoved by threats, no matter how serious they sound. Even if it wanted to, the United States isn't in a position to do much about an impending invasion."
+            "answer_feedback": "Putin is unmoved by threats, no matter how serious they sound. Even if it wanted to, the United States isn't in a position to do much about an impending invasion while the economy is sinking into oblivion.\n"
         }
     },
     {
@@ -20783,7 +20971,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 20877,
             "candidate": 201,
-            "answer_feedback": "French President Sarkozy does what he can to calm the hostilities, but he's unsuccessful. Russia and Georgia are at an impasse that can't be talked down from. \n"
+            "answer_feedback": "French President Sarkozy does what he can to calm the hostilities, but he's unsuccessful. Russia and Georgia are at an impasse that can't be talked down from. Secretary Kerry does all he can to please the press in the meantime, and it holds them over for now.\n"
         }
     },
     {
@@ -21944,7 +22132,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 21717,
             "candidate": 201,
-            "answer_feedback": "Playing it safe against a man like Paul is dangerous. The movement he's creating is quite unpredictable, and Segal is begging you to wake up. The streets across the country echo with pain and agony."
+            "answer_feedback": "Playing it safe against a man like Paul is dangerous. The movement he's creating is quite unpredictable, and Segall is begging you to wake up. The streets across the country echo with pain and agony."
         }
     },
     {
@@ -22457,7 +22645,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 22013,
             "candidate": 201,
-            "answer_feedback": "The message of \"Republicans suck\" is powerful buts not as important as the resentment over your pivot to the right. Turnout isn't looking to be getting any higher just because one Republican leader went down."
+            "answer_feedback": "The message of \"Republicans suck\" is powerful but not as crucial as the resentment over your pivot to the right. Turnout isn't looking to be getting any higher just because one Republican leader went down."
         }
     },
     {
@@ -23357,7 +23545,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 22674,
             "candidate": 201,
-            "answer_feedback": "Democrats up on Olympus fight tooth and nail for something, anything, but they're met with a stubborn  Republican majority unyielding an inch; Mayor Giuliani vows to make you regret going after Daddy Bush's tax cuts."
+            "answer_feedback": "Democrats up on Olympus fight tooth and nail for something, anything, but they're met with a stubborn Republican majority unyielding an inch; Mayor Giuliani vows to make you regret going after Daddy Bush's tax cuts."
         }
     },
     {
@@ -23404,6 +23592,51 @@ campaignTrail_temp.answer_feedback_json = [
             "candidate": 201,
             "answer_feedback": "As you become the amendment's number one opponent, Republicans launch an onslaught of attacks on your character. However, with each speech against the amendment, you are changing people's view of the Freedom to Marry Act.\n"
         }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 22703,
+        "fields": {
+            "answer": 22702,
+            "candidate": 201,
+            "answer_feedback": "The Trojan Horse is falling apart on its way to the gates of Olympus, but your most senior tacticians wonder why you won't let loose the cannon fire to take advantage of this further. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 22707,
+        "fields": {
+            "answer": 22706,
+            "candidate": 201,
+            "answer_feedback": "As you sacrifice resources to defend Olympus from the libertarian scourge, many of your advisors are unsure if helping Santorum is the right call, but you push forward with this plan to destroy the Trojan Horse right outside the gates of Olympus."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 22711,
+        "fields": {
+            "answer": 22710,
+            "candidate": 201,
+            "answer_feedback": "Paul Johnson gets the team to create attack ads calling Santorum a fraud on social issues. The hard-headed fool thinks it's Ron Paul's doing and throws a fit and torches the Libertarian's Trojan Horse with relentless attacks on Paul's credibility."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 22715,
+        "fields": {
+            "answer": 22714,
+            "candidate": 201,
+            "answer_feedback": "Pivoting leftward on social issues to get the Democratic base to hold the walls up is a smart strategy. However, Paul has room to differentiate himself from his socially liberal image, effectively bunting some of Santorum's gains. The Trojan Horse continues onward.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 22720,
+        "fields": {
+            "answer": 22719,
+            "candidate": 201,
+            "answer_feedback": "Many of the anti-war elements within your party shout to the heavens, hoping you reconsider. You ignore their calls; you ignore the hopeful youth who had put their faith in you, and you ignore your promise."
+        }
     }
 ]
 
@@ -23429,7 +23662,6 @@ campaignTrail_temp.jet_data = [{
     "ending_data": {}
 }
 ]
-
 
 
 
@@ -23673,10 +23905,11 @@ cyoAdventure = function(a) {
         if (ans == 5140) {
             campaignTrail_temp.questions_json[3] = tunnel(20896); 
         }
-
         if (ans == 20731) {
-            campaignTrail_temp.questions_json[3] = tunnel(22673); 
+            campaignTrail_temp.questions_json[3] = tunnel(20889); 
         }
+
+
 
 
     }
@@ -23713,7 +23946,10 @@ cyoAdventure = function(a) {
         if (ans == 20747 && Gay == 1) {
             campaignTrail_temp.questions_json[5] = tunnel(22621); 
         }
-        else if (ans == 20747 ) {
+        else if (ans == 20747 && Tax == 1) {
+            campaignTrail_temp.questions_json[5] = tunnel(22698); 
+        }
+        else if (ans == 20747) {
             campaignTrail_temp.questions_json[5] = tunnel(20884); 
         }
 
@@ -23884,18 +24120,7 @@ cyoAdventure = function(a) {
         Russia += 1;
     }
 
-    ///wins determining if you do good education or repeal tax cuts
-    if (e.noCounter == 3) {        
-        if (Win > 2 && ans == 5139) {
-            campaignTrail_temp.questions_json[3] = tunnel(22665); 
-        }
-        if (Win > 2 && ans == 20731) {
-            campaignTrail_temp.questions_json[3] = tunnel(20889); 
-        }
-
-
-    }
-
+    ///wins determining who yo speaker is
     if (e.noCounter == 7) {
         //Boning
     if (Win > 5) {
@@ -23920,16 +24145,17 @@ cyoAdventure = function(a) {
 
     ///midterm based bills
 if (e.noCounter == 10) {
+    if (Gay > 0 && Win < 6) {
+        campaignTrail_temp.questions_json[10] = tunnel(22681); 
+    }
     if (Win > 5) {
         campaignTrail_temp.questions_json[10] = tunnel(20934); 
-    }
-    if (Gay > 1 && Win < 6) {
-        campaignTrail_temp.questions_json[10] = tunnel(22681); 
     }
     if (Win > 7) {
         campaignTrail_temp.questions_json[10] = tunnel(22474); 
     }
 }
+
 
     ///Economy
 if (e.noCounter == 12) {
@@ -23940,6 +24166,83 @@ if (e.noCounter == 12) {
         campaignTrail_temp.questions_json[12] = tunnel(22489); 
     }
 }
+
+		//Party defections. Happens most games.
+		else if (ans == 20755 || ans == 5184) {
+			// Ned slide
+			partyDefectPopup("Democratic Party (Anti-War Caucus)</p><p>Businessman Ned Lamont unseats Senator Joe Lieberman! (Connecticut For Lieberman)</p><p>President Clark's outcasting of the Senator, who not too long ago was the Democratic Party's nominee for Vice President, has paid off. Senator Lieberman is one of the latest victims of the president's loyalty tests, and given their extreme scorn for each other in the past, this isn't too surprising. Senator Lieberman has conceded to Lamont and lambasted the president for sewing partisan divisions into the Democratic Party.</p>")
+		}
+		else if (ans == 7061) {
+			// Big strike actions early in the campaign mean a weaker left in the final stretch.
+			72111
+			e.answer_score_global_json[e.answer_score_global_json.map(f=>f.pk).indexOf(72111)].fields.global_multiplier *= 0.85
+
+		}
+		else if (ans == 5155) {
+			partyDefectPopup("Democratic Party (Blue Dog Caucus)</p><p>Vice President Landrieu gives remarks regarding the recent trims of the PATRIOT Act.</p><p>CNN reporters couldn't help but notice the solemn look on the Vice President's face after leaving the Senate Chamber. Veep Landrieu oversaw the highly controversial cutting down of the Patriot Act provisions in what many heckling Republicans call a massacre of our national security.</p><p>The President made his decision very clear on this matter and it's my job to execute his vision, I'll happily do so regardless of my personal disagreements with him.</p>")
+		}
+		else if (ans == 7082) {
+			partyDefectPopup("Nationalist Party</p><p>Progressive Party (New England)")
+		}
+		else if (ans == 7081 || ans == 7083 || ans == 7084) {
+			partyDefectPopup("Nationalist Party")
+		}
+		else if (ans == 7101) {
+			partyDefectPopup("Progressive Party (IN, OH, PA)")
+		}
+		else if (ans == 7114) {
+			partyDefectPopup("Non-Partisan League (Progressive Caucus)")
+		}
+		// else if (ans == 7131 || ans == 7132 || ans == 7133) {
+		// 	partyDefectPopup("Californian Liberal Progressive Party (Progressive Caucus)")
+		// }
+		else if (ans == 7144) {
+			partyDefectPopup("Liberal Party of New York (Progressive Caucus)")
+		}
+		else if (ans == 7151) {
+			partyDefectPopup("Progressive Party (WI)</p><p>Farmer-Labor Party (Progressive Caucus)")
+		}
+		else if (ans == 7152) {
+			partyDefectPopup("Progressive Party (WI, IL)</p><p>Farmer-Labor Party (Progressive Caucus)")
+		}
+		else if (ans == 7241) {
+			partyDefectPopup("Progressive Party")
+		}
+		else if (ans == 7321) {
+			partyDefectPopup("All-American National Vanguard (Sovreigntist Caucus)")
+		}
+
+	e.mostRecentDefection = ""
+	function partyDefectPopup(party_name, image = "https://i.imgur.com/mjHt2kg.jpg", header_name = "Congressional Update") {
+
+		//Don't make any popup if you've disabled advisor feedback.
+		if (0 == e.answer_feedback_flg) return;
+
+		var template = document.createElement("div");
+		template.id = "party_defect_box"
+		template.style = "width:800px;height:200px;border-radius:0px;background-color: #1e3f8b;border-style: solid; border-color:#ffffff;position: fixed;right:60px;bottom:60px;"
+		template.innerHTML = `
+			<img src=` + image + ` style="width:160px;height:160px;border-style: solid;border-radius:0px;border-color:#b12023; position: relative;top: 50%;transform: translateY(-50%);margin-left:15px;"></img>
+			<div id="body_text" style="font-family:Bebas Neue Bold;color:white; position: relative;top: -85%;transform: translateY(30%);margin-left:210px;">
+			<h4>` + header_name + `</h4>
+			<p>` + party_name + `</p>
+			</div>`
+		templatedDiv = document.body.append(template);
+
+
+		$("#party_defect_box").fadeIn(0);
+		$("#party_defect_box").fadeOut(16000);
+
+		// Remove the popup after 4 seconds. but ONLY if this box is still the same party
+		e.mostRecentDefection = party_name
+		fader = window.setTimeout(function(oldName = party_name) {
+			if (e.mostRecentDefection == oldName) {
+				$("#party_defect_box").fadeOut(5000, function() {
+					$("#party_defect_box").remove()
+				});
+			}
+		}, 4000)
+	}
 
 
 
@@ -24127,6 +24430,10 @@ if (e.noCounter == 22) {
         Buch += 1;
     }
 
+    if(ans == 21736 ){
+        Buch += 1;
+    }
+
     if(ans == 21501 ){
         Crazy += 1;
     }
@@ -24159,7 +24466,10 @@ if (e.noCounter == 23) {
     if (Dem == 4) {
         campaignTrail_temp.questions_json[23] = tunnel(21664); 
     }
-    if (Dem == 5) {
+    if (Buch == 1 && Dem == 5) {
+        campaignTrail_temp.questions_json[23] = tunnel(22701); 
+    }
+    else if (Dem == 5) {
         campaignTrail_temp.questions_json[23] = tunnel(21759); 
     }
     if (Dem == 6) {
