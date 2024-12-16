@@ -25727,6 +25727,9 @@ if (e.noCounter == 24) {
     if (Dem == 2) {
         campaignTrail_temp.questions_json[24] = tunnel(21492); 
     }
+    if (Dem == 3) {
+        campaignTrail_temp.questions_json[24] = tunnel(21535); 
+    }
     if (Dem == 4) {
         campaignTrail_temp.questions_json[24] = tunnel(21700); 
     }
