@@ -922,7 +922,7 @@ campaignTrail_temp.questions_json = [
         "pk": 22452,
         "fields": {
             "priority": 6,
-            "description": "You've pulled off the impossible; I don't know how you've done it, Wes, but you've expanded your mandate further than any could imagine. The Democrats can hold a coronation for the first-ever woman Speaker of the House. The Senate majority expanded by five seats, including two nailbiter wins in Missouri and Montana. With the nomination of Elena Kagan flying through to the Supreme Court, the mandate is yours. Cyber security has always been one of your top priorities, but it's been a lonely issue for you as any attempts to pass legislation have been shot down. Lobbyists and special interests tear apart your attempts each time you try. It would be best if you found out who in your party hasn't been corrupted by this. However, that doesn't mean you quit now; how will you act on this?",
+            "description": "You've pulled off the impossible; I don't know how you've done it, Wes, but you've expanded your mandate further than any could imagine. The Democrats can hold a coronation for the first-ever woman Speaker of the House. The Senate majority expanded by five seats, including two nailbiter wins in Missouri and Montana. With the nomination of Elena Kagan flying through to the Supreme Court, the mandate is yours. Cyber security has always been one of your top priorities, but it's been a lonely issue for you as any attempts to pass legislation have been shot down. Lobbyists and special interests tear apart your attempts each time you try. However, that doesn't mean you quit now; how will you act on this?",
             "likelihood": 1
         }
     },
@@ -1103,6 +1103,51 @@ campaignTrail_temp.questions_json = [
         "fields": {
             "priority": 0,
             "description": "Our country is dying. That moron blew a hole through our national security, let terrorists overrun Iraq, and incited a Christian revolt through his management. More importantly, Haliburton and many other oil barons are ringing your phone every waking moment, worried about the security of their oil contracts in Iraq. Your paycheck is on the line. It's your job to captain the Republican ship after ripping the nomination after Huckabee's hands. Liked by no one, you need to plead your case and oust Clark before he fucks up anything else. How will you do it, Dick?\n",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 22908,
+        "fields": {
+            "priority": 0,
+            "description": "put description here",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 22909,
+        "fields": {
+            "priority": 0,
+            "description": "put description here",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 22910,
+        "fields": {
+            "priority": 0,
+            "description": "put description here",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 22911,
+        "fields": {
+            "priority": 0,
+            "description": "put description here",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 22912,
+        "fields": {
+            "priority": 0,
+            "description": "Judgment Day. Onlookers feel the King's eminence. It's time for you to face the strongest dynasty, regaled as great crusaders. Republicans are united if not bruised by their previous skirmishes with you. They want you gone. The pride they once held for their kingdom has withered away. As his grand chariot carries him toward the gates of Olympus, you keep hope they stay strong. It is time for what many believe to be your final flight. Where will you go?\n",
             "likelihood": 1
         }
     }
@@ -1802,7 +1847,7 @@ campaignTrail_temp.answers_json = [
         "pk": 20919,
         "fields": {
             "question": 20909,
-            "description": "I had long warned of the Bush administration's war planning and reached for an excuse to invade Iraq. I was elected to get us out of the mess he and his cabinet had created. They ignored me then; I will ignore them now; we are finally getting out of Iraq.\n"
+            "description": "I had long warned of the Bush administration's war planning and reaching for an excuse to invade Iraq. I was elected to get us out of the mess he and his cabinet had created. They ignored me then; I will ignore them now; we are finally getting out of Iraq.\n"
         }
     },
     {
@@ -2458,7 +2503,7 @@ campaignTrail_temp.answers_json = [
         "pk": 21501,
         "fields": {
             "question": 21494,
-            "description": "Jeb is as extreme as they come, and the voters need to face it. He's a partisan hack who can't be trusted. Remember the fiasco during the 2000 election? Republicans halted recounts in Florida under his approval. Al Gore’s recount efforts were obstructed at every juncture.\n"
+            "description": "Jeb is as extreme as they come, and the voters need to face it. He's a partisan hack who can't be trusted. Remember the fiasco during the 2000 election? Republicans halted recounts in Florida under his approval. \n"
         }
     },
     {
@@ -2562,7 +2607,7 @@ campaignTrail_temp.answers_json = [
         "pk": 21557,
         "fields": {
             "question": 1074,
-            "description": "Our policy dealing with Putin has been confused and distracted from the clear liabilities. We can't blatantly provoke war, but we won't let him get away with this. Sanctions are our top priority, we need to strangle the weak economy Putin has built.\n"
+            "description": "Our policy toward Putin has been confused and distracted from the clear liabilities. We can't blatantly provoke war, but we won't let him get away with it. Sanctions are our top priority; we need to strangle the weak economy Putin has built.\n"
         }
     },
     {
@@ -2578,7 +2623,7 @@ campaignTrail_temp.answers_json = [
         "pk": 21566,
         "fields": {
             "question": 1074,
-            "description": "We need a willing coalition to save Georgia. This is more than a regional problem. Let's talk with the British and French about a possible united coalition to help Georgia take on the Russian Menace.\n"
+            "description": "We need a willing coalition to save Georgia. This is more than a regional problem. Let's discuss a possible united coalition with the British and French to help Georgia take on the Russian Menace.\n"
         }
     },
     {
@@ -4491,6 +4536,38 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 22891,
             "description": "Clark can't shut the fuck up about the free press; if he governed like I did, we wouldn't be in this mess. Meaningless platitudes about personal freedoms while terrorists plot and scheme for our demise, it's sickening what he's allowed.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 22913,
+        "fields": {
+            "question": 22912,
+            "description": "We can't underestimate the average Pennsylvanian's appreciation for their former governor. Ridge has made too much headway with the suburban voters. Let's hold rallies with Senator Casey and Governor Rendell in and around Philadelphia.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 22918,
+        "fields": {
+            "question": 22912,
+            "description": "No Democrat has won without the support of the working people. Michigan, the heartland of unions, is a key target Jeb is looking to flip, and any help in making sure Secretary Levin's old seat stays in our column is necessary. Tell Governor Granholm we're heading in.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 22922,
+        "fields": {
+            "question": 22912,
+            "description": "The Bush Dynasty have been desperate to flip Wisconsin every election they've run in since their poppy fell short in 1988. I won't be the first to lose Wisconsin; give Senator Feingold notice that we need him to squeeze out any vote he can for me.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 22926,
+        "fields": {
+            "question": 22912,
+            "description": "I can't forget the feeling of sending Jeb's brother running back to Crawford. Ohio was the killing blow, and I like our chances here. Contact Governor Strickland and Senator Brown; we're barnstorming their state.\n"
         }
     }
 ]
@@ -8106,7 +8183,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 200,
             "state": 1004,
-            "state_multiplier": 0.96
+            "state_multiplier": 0.99
         }
     },
     {
@@ -8178,7 +8255,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 200,
             "state": 1012,
-            "state_multiplier": 0.86
+            "state_multiplier": 0.84
         }
     },
     {
@@ -8565,7 +8642,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 201,
             "state": 1004,
-            "state_multiplier": 1.144
+            "state_multiplier": 1.104
         }
     },
     {
@@ -8637,7 +8714,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 201,
             "state": 1012,
-            "state_multiplier": 1.223
+            "state_multiplier": 1.239
         }
     },
     {
@@ -14721,6 +14798,46 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 201,
             "affected_candidate": 201,
             "global_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 22915,
+        "fields": {
+            "answer": 22913,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 22919,
+        "fields": {
+            "answer": 22918,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 22924,
+        "fields": {
+            "answer": 22922,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 22928,
+        "fields": {
+            "answer": 22926,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.005
         }
     }
 ]
@@ -21521,7 +21638,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1008,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.03
+            "state_multiplier": -0.012
         }
     },
     {
@@ -21577,6 +21694,83 @@ campaignTrail_temp.answer_score_state_json = [
             "candidate": 201,
             "affected_candidate": 200,
             "state_multiplier": 0.14
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 22916,
+        "fields": {
+            "answer": 22913,
+            "state": 1037,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": 0.012
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 22917,
+        "fields": {
+            "answer": 22913,
+            "state": 1029,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": 0.006
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 22921,
+        "fields": {
+            "answer": 22918,
+            "state": 1021,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": 0.012
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 22925,
+        "fields": {
+            "answer": 22922,
+            "state": 1049,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": 0.012
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 22929,
+        "fields": {
+            "answer": 22926,
+            "state": 1034,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": 0.012
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 22930,
+        "fields": {
+            "answer": 22922,
+            "state": 1022,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": 0.006
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 22931,
+        "fields": {
+            "answer": 22926,
+            "state": 1013,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": 0.006
         }
     }
 ]
@@ -24675,7 +24869,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 22642,
             "candidate": 201,
-            "answer_feedback": "The nickname for it is \"Operation Funnel.\" While it gets no light in the media, Democratic surrogates pour the conspiracies into online chat rooms like 4chan, along with clips from 2003 where you said, you say, \"I fought for democracy and freedom; I felt ashamed to see a victory taken like that.\" Jeb claims you're \"delegitimizing\" our democracy."
+            "answer_feedback": "The nickname for it is \"Operation Funnel.\" While it gets no light in the media, Democratic surrogates pour the conspiracies into online chat rooms like 4chan, along with clips from 2003 where you said, \"I fought for democracy and freedom; I felt ashamed to see a victory taken like that.\" Jeb claims you're \"delegitimizing\" our democracy."
         }
     },
     {
@@ -25243,6 +25437,42 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 22904,
             "candidate": 201,
             "answer_feedback": "\"Cheney is not being fair to the men and women who get facts to the public. He should recognize the enormous sacrifices they're making.\" He's spouting nothing from his ignorant mouth. He can't beat you on the facts, so he must make it a personality contest."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 22914,
+        "fields": {
+            "answer": 22913,
+            "candidate": 201,
+            "answer_feedback": "As you work like hell shaking hands and holding rallies with the Pennsylvania Democratic Party's finest, the Bush campaign pops champagne, huffing confidence, perhaps too much confidence. It's time to fly, Clark."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 22920,
+        "fields": {
+            "answer": 22918,
+            "candidate": 201,
+            "answer_feedback": "Non-stop rallies up and down the state; enthusiasm is palpable. Granholm pulls you to the side, hoping to get a cabinet position in your second term. Meanwhile, the Bush campaign pops the corks of champagne, huffing confidence, perhaps too much confidence. It's time to fly, Clark."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 22923,
+        "fields": {
+            "answer": 22922,
+            "candidate": 201,
+            "answer_feedback": "You fly up to America's Dairyland, raising hell for Republicans fighting down-ballot. Feingold goes up and down the state to get the committed Democrats to vote blue. Meanwhile, the Bush campaign pops the corks of champagne, huffing confidence, perhaps too much confidence. It's time to fly, Clark."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 22927,
+        "fields": {
+            "answer": 22926,
+            "candidate": 201,
+            "answer_feedback": "Rigorous, that's the only way to describe the campaign's final days. Governor Strickland is optimistic about your chances of keeping the state blue. Meanwhile, the Bush campaign pops the corks of champagne, huffing confidence, perhaps too much confidence. It's time to fly, Clark."
         }
     }
 ]
@@ -25874,6 +26104,85 @@ if (e.noCounter == 12) {
     }
 }
 
+		//Party defections. Happens most games.
+		else if (ans == 20755 || ans == 5184) {
+			// Ned slide
+			partyDefectPopup("Democratic Party (Anti-War Caucus)</p><p>Businessman Ned Lamont unseats Senator Joe Lieberman! (Connecticut For Lieberman)</p><p>President Clark's outcasting of the Senator, who not too long ago was the Democratic Party's nominee for Vice President, has paid off. Senator Lieberman is one of the latest victims of the president's loyalty tests, and given their extreme scorn for each other in the past, this isn't too surprising. Senator Lieberman has conceded to Lamont and lambasted the president for sewing partisan divisions into the Democratic Party.</p>")
+		}
+		else if (ans == 7061) {
+			// Big strike actions early in the campaign mean a weaker left in the final stretch.
+			72111
+			e.answer_score_global_json[e.answer_score_global_json.map(f=>f.pk).indexOf(72111)].fields.global_multiplier *= 0.85
+
+		}
+		else if (ans == 5155) {
+			partyDefectPopup("Democratic Party (Blue Dog Caucus)</p><p>Vice President Landrieu gives remarks regarding the recent trims of the PATRIOT Act.</p><p>CNN reporters couldn't help but notice the solemn look on the Vice President's face after leaving the Senate Chamber. Veep Landrieu oversaw the highly controversial cutting down of the Patriot Act provisions in what many heckling Republicans call a massacre of our national security.</p><p>The President made his decision very clear on this matter and it's my job to execute his vision, I'll happily do so regardless of my personal disagreements with him.</p>")
+		}
+		else if (ans == 7082) {
+			partyDefectPopup("Nationalist Party</p><p>Progressive Party (New England)")
+		}
+		else if (ans == 7081 || ans == 7083 || ans == 7084) {
+			partyDefectPopup("Nationalist Party")
+		}
+		else if (ans == 7101) {
+			partyDefectPopup("Progressive Party (IN, OH, PA)")
+		}
+		else if (ans == 7114) {
+			partyDefectPopup("Non-Partisan League (Progressive Caucus)")
+		}
+		// else if (ans == 7131 || ans == 7132 || ans == 7133) {
+		// 	partyDefectPopup("Californian Liberal Progressive Party (Progressive Caucus)")
+		// }
+		else if (ans == 7144) {
+			partyDefectPopup("Liberal Party of New York (Progressive Caucus)")
+		}
+		else if (ans == 7151) {
+			partyDefectPopup("Progressive Party (WI)</p><p>Farmer-Labor Party (Progressive Caucus)")
+		}
+		else if (ans == 7152) {
+			partyDefectPopup("Progressive Party (WI, IL)</p><p>Farmer-Labor Party (Progressive Caucus)")
+		}
+		else if (ans == 7241) {
+			partyDefectPopup("Progressive Party")
+		}
+		else if (ans == 7321) {
+			partyDefectPopup("All-American National Vanguard (Sovreigntist Caucus)")
+		}
+
+	e.mostRecentDefection = ""
+	function partyDefectPopup(party_name, image = "https://i.imgur.com/mjHt2kg.jpg", header_name = "Congressional Update") {
+
+		//Don't make any popup if you've disabled advisor feedback.
+		if (0 == e.answer_feedback_flg) return;
+
+		var template = document.createElement("div");
+		template.id = "party_defect_box"
+		template.style = "width:800px;height:200px;border-radius:0px;background-color: #1e3f8b;border-style: solid; border-color:#ffffff;position: fixed;right:60px;bottom:60px;"
+		template.innerHTML = `
+			<img src=` + image + ` style="width:160px;height:160px;border-style: solid;border-radius:0px;border-color:#b12023; position: relative;top: 50%;transform: translateY(-50%);margin-left:15px;"></img>
+			<div id="body_text" style="font-family:Bebas Neue Bold;color:white; position: relative;top: -85%;transform: translateY(30%);margin-left:210px;">
+			<h4>` + header_name + `</h4>
+			<p>` + party_name + `</p>
+			</div>`
+		templatedDiv = document.body.append(template);
+
+
+		$("#party_defect_box").fadeIn(0);
+		$("#party_defect_box").fadeOut(16000);
+
+		// Remove the popup after 4 seconds. but ONLY if this box is still the same party
+		e.mostRecentDefection = party_name
+		fader = window.setTimeout(function(oldName = party_name) {
+			if (e.mostRecentDefection == oldName) {
+				$("#party_defect_box").fadeOut(5000, function() {
+					$("#party_defect_box").remove()
+				});
+			}
+		}, 4000)
+	}
+
+
+
     ///RNC
 if (e.noCounter == 14) {
     if (Notroops > 0 && Loyalist > 0 && Gay > 0 && Dumb > 0) {
@@ -26173,7 +26482,7 @@ if (e.noCounter == 22) {
 
 
 if (e.noCounter == 23) {
-    if (Dem > 8) {
+    if (Dem < 8) {
         campaignTrail_temp.questions_json[23] = tunnel(21363); 
         document.getElementById("header").src = "https://numbers-station.neocities.org/image-stuff/CLARK08.png"
         nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#17376b";
@@ -26314,8 +26623,11 @@ if (e.noCounter == 25) {
 }
 
 if (e.noCounter == 26) {
-    if (Russia > 4 && Dumb > 0) {
+    if (Russia > 4 && Dumb > 0 && Dem > 0) {
         campaignTrail_temp.questions_json[26] = tunnel(22609); 
+    }
+    if (Dem == 3) {
+        campaignTrail_temp.questions_json[26] = tunnel(22912); 
     }
 }
 }
