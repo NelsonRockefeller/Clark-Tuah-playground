@@ -31,7 +31,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1045,
         "fields": {
             "priority": 3,
-            "description": "You've successfully led the federal government’s response to Hurricane Katrina. Vice President Landrieu mainly played a crucial role in getting aid through the Senate despite the backlash from conservative jesters like Rush Limbaugh. Meanwhile, Secretary Kerry directed FEMA's immediate response. A competent administration can return home amid the ongoing Republican leadership crisis. House Majority Tom Delay has been indicted and resigned after much public pressure. With his resignation, the people's trust in the Republican Congress has gone. Minority Leader Pelosi meets with you to discuss how to take advantage of the situation. Hastert is too busy keeping House Republicans in line. What will you do, Mr. President?\n",
+            "description": "You've successfully led the federal government’s response to Hurricane Katrina. Vice President Landrieu mainly played a crucial role in getting aid through the Senate despite the backlash from conservative jesters like Rush Limbaugh. Meanwhile, Secretary Kerry directed FEMA's immediate response. A competent administration can return home amid the ongoing Republican leadership crisis. House Majority Leader Tom DeLay has been indicted and resigned after much public pressure. With his resignation, the people's trust in the Republican Congress is gone. Minority Leader Pelosi meets with you to discuss how to take advantage of the situation. Hastert is too busy keeping House Republicans in line. What will you do, Mr. President?\n",
             "likelihood": 1
         }
     },
@@ -94,7 +94,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1059,
         "fields": {
             "priority": 7,
-            "description": "The losses of the midterms are weighing heavy on both the party and your agenda as partisan politics starts rearing its ugly head around, as your original pick to fill the vacancy left Justice O'Conner being rejected; you've been forced to nominate the acceptable Merrick Garland. The new class of evangelicals shuffled your deck thoroughly. Lacking options, advisors plead for you to think smaller to collect a few minor wins as you gear up for reelection. Where will you focus the administration?",
+            "description": "The losses of the midterms are weighing heavily on both the party and your agenda as partisan politics starts rearing its ugly head. Your original pick to fill the vacancy left by Justice O'Connor was rejected, and you've been forced to nominate the acceptable Merrick Garland. The new class of evangelicals shuffled your deck thoroughly. Lacking options, advisors plead for you to think smaller to collect a few minor wins as you gear up for reelection. Where will you focus the administration?",
             "likelihood": 1
         }
     },
@@ -139,7 +139,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1069,
         "fields": {
             "priority": 7,
-            "description": "Across the world, a tiny country on the border of Putin's regime is struggling to keep its independence in the face of Russia's interests. Secretary Kerry has visited the young nation in hopes of securing its independence. Favoring the approach of letting Georgia decide its path. Georgia is looking to join NATO, making relations with Russia turbulent. How will you deal with this conflict, Wes?",
+            "description": "Across the world, a tiny country on the border of Putin's regime is struggling to keep its independence in the face of Russia's interests. Secretary Kerry visited the young nation in hopes of securing its independence, favoring the approach of letting Georgia decide its path. Georgia is looking to join NATO, making relations with Russia turbulent. How will you deal with this conflict, Wes?",
             "likelihood": 1
         }
     },
@@ -274,7 +274,7 @@ campaignTrail_temp.questions_json = [
         "pk": 20889,
         "fields": {
             "priority": 0,
-            "description": "You've successfully led the federal government’s response to Hurricane Katrina. Vice President Landrieu mainly played a crucial role in getting aid through the Senate despite the backlash from conservative jesters like Rush Limbaugh. Meanwhile, Secretary Kerry directed FEMA's immediate response. A competent administration can return home amid the ongoing Republican leadership crisis. House Majority Tom Delay has been indicted and resigned after much public pressure. With his resignation, the people's trust in the Republican Congress has gone. Minority Leader Pelosi meets with you to discuss taking advantage of the situation. Hastert is too busy keeping House Republicans in line. What will you do, Mr. President?\n",
+            "description": "You've successfully led the federal government’s response to Hurricane Katrina. Vice President Landrieu mainly played a crucial role in getting aid through the Senate despite the backlash from conservative jesters like Rush Limbaugh. Meanwhile, Secretary Kerry directed FEMA's immediate response. A competent administration can return home amid the ongoing Republican leadership crisis. House Majority Leader Tom DeLay has been indicted and resigned after much public pressure. With his resignation, the people's trust in the Republican Congress is gone. Minority Leader Pelosi meets with you to discuss taking advantage of the situation. Hastert is too busy keeping House Republicans in line. What will you do, Mr. President?\n",
             "likelihood": 1
         }
     },
@@ -283,7 +283,7 @@ campaignTrail_temp.questions_json = [
         "pk": 20896,
         "fields": {
             "priority": 0,
-            "description": "You've successfully led the federal government’s response to Hurricane Katrina. Vice President Landrieu mainly played a crucial role in getting aid through the Senate despite the backlash from conservative jesters like Rush Limbaugh. Meanwhile, Secretary Kerry directed FEMA's immediate response. A competent administration can return home amid the ongoing Republican leadership crisis. House Majority Tom Delay has been indicted and resigned after much public pressure. With his resignation, the trust of the people in the Republican Congress has gone. Minority Leader Pelosi meets with you to discuss how to take advantage of the situation. Hastert is too busy keeping House Republicans in line. What will you do, Mr. President?\n",
+            "description": "You've successfully led the federal government’s response to Hurricane Katrina. Vice President Landrieu mainly played a crucial role in getting aid through the Senate despite the backlash from conservative jesters like Rush Limbaugh. Meanwhile, Secretary Kerry directed FEMA's immediate response. A competent administration can return home amid the ongoing Republican leadership crisis. House Majority Leader Tom DeLay has been indicted and resigned after much public pressure. With his resignation, the people's trust in the Republican Congress is gone. Minority Leader Pelosi meets with you to discuss how to take advantage of the situation. Hastert is too busy keeping House Republicans in line. What will you do, Mr. President?\n",
             "likelihood": 1
         }
     },
@@ -337,7 +337,7 @@ campaignTrail_temp.questions_json = [
         "pk": 20974,
         "fields": {
             "priority": 0,
-            "description": "When the campaign started in 2003, a wave of unity swept the nation, energizing people to fight for a shared dream. Just as then, the podium is now yours to turn the American dream into a tangible reality. The Democratic party for President has renominated you. Above partisan politics, now the Democrats, Independents, and Republicans can unite in a shared vision. As we face an ongoing economic crisis, your acceptance speech must touch on hope and unity. What will you say to inspire the crowds and save our shared dream?\n",
+            "description": "When the campaign started in 2003, a wave of unity swept the nation, energizing people to fight for a shared dream. Just as then, the podium is now yours to turn the American dream into a tangible reality. The Democratic Party has renominated you for President. Above partisan politics, now the Democrats, Independents, and Republicans can unite in a shared vision. As we face an ongoing economic crisis, your acceptance speech must touch on hope and unity. What will you say to inspire the crowds and save our shared dream?\n",
             "likelihood": 1
         }
     },
@@ -346,7 +346,7 @@ campaignTrail_temp.questions_json = [
         "pk": 21008,
         "fields": {
             "priority": 0,
-            "description": "When the campaign started in 2003, a wave of unity swept the nation, energizing people to fight for a shared dream. Just as then, the podium is now yours to turn the American dream into a tangible reality. The Democratic party for President has renominated you. Above partisan politics, now the Democrats, Independents, and Republicans can unite in a shared vision. As we face an ongoing economic crisis, your acceptance speech must touch on hope and unity. What will you say to inspire the crowds and save our shared dream?\n",
+            "description": "When the campaign started in 2003, a wave of unity swept the nation, energizing people to fight for a shared dream. Just as then, the podium is now yours to turn the American dream into a tangible reality. The Democratic Party has renominated you for President. Above partisan politics, now the Democrats, Independents, and Republicans can unite in a shared vision. As we face an ongoing economic crisis, your acceptance speech must touch on hope and unity. What will you say to inspire the crowds and save our shared dream?\n",
             "likelihood": 1
         }
     },
@@ -517,7 +517,7 @@ campaignTrail_temp.questions_json = [
         "pk": 21448,
         "fields": {
             "priority": 0,
-            "description": " In a scene reminiscent of that of a sitcom reunion, Republicans have brought together a foreign policy ''assembly'' in light of your troop surge. The strange and unflinching face of Robert Zoellick on the far-left, John McCain faking a smile just a smidge to the right of him, Mitt in the middle like Christ in the last supper, to his right were the old faces of 2004's Republican raucous, George W. Bush - smiling as always - and Dick Cheney - not so much. You watch in awe as they stiffly bend your successes into failures; it's awkward and unnerving. How do you plan to one-up this pitiful attempt at your foreign policy prowess?",
+            "description": " In a scene reminiscent of a sitcom reunion, Republicans have brought together a foreign policy ''assembly'' in light of your troop surge. The strange and unflinching face of Robert Zoellick on the far left, John McCain faking a smile just a smidge to the right of him, Mitt in the middle like Christ in The Last Supper, to his right were the old faces of 2004's Republican raucous, George W. Bush - smiling as always - and Dick Cheney - not so much. You watch in awe as they stiffly bend your successes into failures; it's awkward and unnerving. How do you plan to one-up this pitiful attempt at your foreign policy prowess?",
             "likelihood": 1
         }
     },
@@ -553,7 +553,7 @@ campaignTrail_temp.questions_json = [
         "pk": 21493,
         "fields": {
             "priority": 0,
-            "description": "Well, Wes, dread it as you may debate night has arrived. Romney's preparations went under the wing of Rob Portman, who scoured biographies and articles of yourself to get a complete understanding. Portman's role must be recognized as he prepared Romney to take you on. As you watch Romney gavotte on stage, grip your hand and return to the podium. Your opening remarks may make or break the debate. You know the debates have always been complex for the incumbent; you know too that behind his thick eyebrows and a thicker phony smile, Romney has something up his sleeve…\n",
+            "description": "Well, Wes, dread it as you may debate night has arrived. Romney's preparations went under the wing of Rob Portman, who scoured biographies and articles of yourself to get a complete understanding. Portman's role must be recognized as he prepared Romney to take you on. As you watch Romney gavotte onto the stage, shaking your hand before returning to his podium, you know your opening remarks could make or break the debate. You know the debates have always been complex for the incumbent; you know, too, that behind his thick eyebrows and even thicker phony smile, Romney has something up his sleeve…\n",
             "likelihood": 1
         }
     },
@@ -886,7 +886,7 @@ campaignTrail_temp.questions_json = [
         "pk": 22197,
         "fields": {
             "priority": 0,
-            "description": "The hourglass is broken, it was a cruel move for the Republican Party to unleash an unchained Dick Cheney onto the world. He's unsettling for most; his enemies are nothing more than \"mattress mice\" in his presence. Unwavering ideals of a man dead set on making the world seem much more deadly than it truly is. The election shouldn't be as hard as it is. Your poll numbers sink with the economy, and Cheney is a rabid dog barking at the need to push around the Middle East. He goes further to North Korea and Russia; you can imagine the fires that would engulf the world under him. This is the Seven Wars Policy Coup; this is your judgment. How will you face it, Clark?",
+            "description": "The hourglass is broken; it was a cruel move for the Republican Party to unleash an unchained Dick Cheney onto the world. He's unsettling for most; his enemies are nothing more than \"mattress mice\" in his presence. The election shouldn't be as hard as it is. Your poll numbers sink with the economy, and Cheney is a rabid dog barking at the need to push around the Middle East. He goes further to North Korea and Russia. This is the Seven Wars Policy Coup; this is your judgment. How will you face it, Clark?",
             "likelihood": 1
         }
     },
@@ -904,7 +904,7 @@ campaignTrail_temp.questions_json = [
         "pk": 22199,
         "fields": {
             "priority": 0,
-            "description": "The campaign has been one great blur; every rally and statement of Cheney's supporters morphed together. \"Four more years!\" Four more years!\" \"Four more wars!\" When you enter the room, the air is tight, the doors are sealed, and the darkness disguises the moderator's face. Your eyes can only focus on one man; Dick Cheney adjusts his tie and looks over to you, his face lacking any emotion. He feels nothing for you; you're the guy in his way. Behind him are a million corpses, a long career built on fear and war. There's no time left. You must stop him, Clark; how will you conduct yourself in the face of a global meltdown? \n",
+            "description": "The campaign has been one great blur; every rally and statement of Cheney's supporters morphed together. \"Four more years!\" Four more years!\" \"Four more wars!\" When you enter the room, the air is tight; the doors are sealed. Your eyes can only focus on one man; Dick Cheney adjusts his tie and looks over to you, his face lacking any emotion. He feels nothing for you; you're the guy in his way. Behind him are a million corpses, a long career built on fear and war. There's no time left. You must stop him, Clark; how will you conduct yourself in the face of a global meltdown? \n",
             "likelihood": 1
         }
     },
@@ -994,7 +994,7 @@ campaignTrail_temp.questions_json = [
         "pk": 22665,
         "fields": {
             "priority": 3,
-            "description": "You've successfully led the federal government’s response to Hurricane Katrina. Vice President Landrieu mainly played a crucial role in getting aid through the Senate despite the backlash from conservative jesters like Rush Limbaugh. Meanwhile, Secretary Kerry directed FEMA's immediate response. A competent administration can return home amid the ongoing Republican leadership crisis. House Majority Tom Delay has been indicted and resigned after much public pressure. With his resignation, the people's trust in the Republican Congress has gone. Minority Leader Pelosi meets with you to discuss how to take advantage of the situation. Hastert is too busy keeping House Republicans in line. What will you do, Mr. President?\n",
+            "description": "You've successfully led the federal government’s response to Hurricane Katrina. Vice President Landrieu mainly played a crucial role in getting aid through the Senate despite the backlash from conservative jesters like Rush Limbaugh. Meanwhile, Secretary Kerry directed FEMA's immediate response. A competent administration can return home amid the ongoing Republican leadership crisis. House Majority Leader Tom DeLay has been indicted and resigned after much public pressure. With his resignation, the people's trust in the Republican Congress is gone. Minority Leader Pelosi meets with you to discuss how to take advantage of the situation. Hastert is too busy keeping House Republicans in line. What will you do, Mr. President?\n",
             "likelihood": 1
         }
     },
@@ -1003,7 +1003,7 @@ campaignTrail_temp.questions_json = [
         "pk": 22673,
         "fields": {
             "priority": 0,
-            "description": "You've successfully led the federal government’s response to Hurricane Katrina. Vice President Landrieu mainly played a crucial role in getting aid through the Senate despite the backlash from conservative jesters like Rush Limbaugh. Meanwhile, Secretary Kerry directed FEMA's immediate response. A competent administration can return home amid the ongoing Republican leadership crisis. House Majority Tom Delay has been indicted and resigned after much public pressure. With his resignation, the people's trust in the Republican Congress has gone. Minority Leader Pelosi meets with you to discuss taking advantage of the situation. Hastert is too busy keeping House Republicans in line. What will you do, Mr. President?\n",
+            "description": "You've successfully led the federal government’s response to Hurricane Katrina. Vice President Landrieu mainly played a crucial role in getting aid through the Senate despite the backlash from conservative jesters like Rush Limbaugh. Meanwhile, Secretary Kerry directed FEMA's immediate response. A competent administration can return home amid the ongoing Republican leadership crisis. House Majority Leader Tom DeLay has been indicted and resigned after much public pressure. With his resignation, the people's trust in the Republican Congress is gone. Minority Leader Pelosi meets with you to discuss taking advantage of the situation. Hastert is too busy keeping House Republicans in line. What will you do, Mr. President?\n",
             "likelihood": 1
         }
     },
@@ -1057,7 +1057,7 @@ campaignTrail_temp.questions_json = [
         "pk": 22757,
         "fields": {
             "priority": 0,
-            "description": "You've secured Iraq for the near future at the expense of the dreamers who broke the gates of Olympus for you. Now, you're forced to deal with Iran. The Bush Administration's negotiations for a nuclear deal with Iran that you oversaw the conclusion of have been rebuked by President Mahmoud Ahmadinejad. Most within the party establishment are seduced to harsher measures against the neoliberal's eye candy in the form of building a free and democratic Iran. However, some still prefer the negotiating approach to save the deal. How will you approach this, Clark?\n",
+            "description": "You've secured Iraq for the near future at the expense of the dreamers who broke the gates of Olympus for you. Now, you're forced to deal with Iran. The Bush Administration's negotiations for a nuclear deal with Iran, which you oversaw to completion, have been rebuked by President Mahmoud Ahmadinejad. Most within the party establishment are seduced to harsher measures against the neoliberal's eye candy in the form of building a free and democratic Iran. However, some still prefer the negotiating approach to save the deal. How will you approach this, Clark?\n",
             "likelihood": 1
         }
     },
@@ -1093,7 +1093,7 @@ campaignTrail_temp.questions_json = [
         "pk": 22846,
         "fields": {
             "priority": 0,
-            "description": "You've successfully led the federal government's response to Hurricane Katrina. Vice President Landrieu mainly played a crucial role in getting aid through the Senate despite the backlash from conservative jesters like Rush Limbaugh. Meanwhile, Secretary Kerry directed FEMA's immediate response. A competent administration can return home amid the ongoing Republican leadership crisis. House Majority Tom Delay has been indicted and resigned after much public pressure. With his resignation, the people's trust in the Republican Congress has gone. Minority Leader Pelosi was looking to meet with you to go over possible domestic pushes in response to this, but you've gone abroad, not wanting to waste effort cutting through the jungles of Congress. NATO is disunited and in need of a rallying flag. How will you reunite the West?\n",
+            "description": "You've successfully led the federal government's response to Hurricane Katrina. Vice President Landrieu mainly played a crucial role in getting aid through the Senate despite the backlash from conservative jesters like Rush Limbaugh. Meanwhile, Secretary Kerry directed FEMA's immediate response. A competent administration can return home amid the ongoing Republican leadership crisis. House Majority Leader Tom DeLay has been indicted and resigned after much public pressure. With his resignation, the people's trust in the Republican Congress is gone. Minority Leader Pelosi was looking to meet with you to go over possible domestic pushes in response to this, but you've gone abroad, not wanting to waste effort cutting through the jungles of Congress. NATO is disunited and in need of a rallying flag. How will you reunite the West?\n",
             "likelihood": 1
         }
     },
@@ -1183,7 +1183,7 @@ campaignTrail_temp.questions_json = [
         "pk": 22935,
         "fields": {
             "priority": 0,
-            "description": "The suit who's spent all his time cajoling the common man is now leading the March toward Olympus. The so-called Commoner, whose thinly veiled facade grows ever more apparent, hopes he can just waltz right in and take the wheel. He's a faker with a rich smile fitting for a legacy sitting on the wealth stolen from millions. As his army, backed by aristocrats, stands mere steps from Olympus, you have enough time for one last visit to shore your defenses. Where to?\n",
+            "description": "The suit, which has spent all his time cajoling the common man, now leads the march toward Olympus. The so-called Commoner, whose thinly veiled facade grows ever more apparent, hopes to waltz right in and take the wheel. He's a faker with a rich smile fitting for a legacy, sitting on the wealth stolen from millions. As his army, backed by aristocrats, stands mere steps from Olympus, you have enough time for one last visit to shore your defenses. Where to?\n",
             "likelihood": 1
         }
     },
@@ -1210,7 +1210,7 @@ campaignTrail_temp.questions_json = [
         "pk": 22938,
         "fields": {
             "priority": 0,
-            "description": "Olympus is falling faster than you could have ever imagined. You walked into this job inspired with hopes and dreams of victorious conquests. Now, four years later, things couldn't look more grim. A total nightmare has consumed Olympus. Chaos at home and abroad, no quick fix, no light at the end of the tunnel. You hear a thunderous roar outside. The Storm is here and set to rip and tear Olympus to shreds. Where will you stop before you and Olympus are sent into the abyss?\n",
+            "description": "Everything is falling faster than you could have ever imagined. You walked into this job inspired with hopes and dreams of victorious conquests. Now, four years later, things couldn't look more grim. A total nightmare has consumed Olympus. Chaos at home and abroad, no quick fix, no light at the end of the tunnel. You hear a thunderous roar outside. The Storm is here and set to rip and tear you to shreds. Where will you stop before you are sent into the abyss?\n",
             "likelihood": 1
         }
     },
@@ -2551,7 +2551,7 @@ campaignTrail_temp.answers_json = [
         "pk": 21489,
         "fields": {
             "question": 21480,
-            "description": "Governor Romney is going through the motions; we can all see it, but it is best to avoid this issue. The people who were going to abandon his campaign already have and are trying to make any overt attacks will just be repeating Huckabee's mistakes last year.\n"
+            "description": "Governor Romney is going through the motions; we can all see it, but it is best to avoid this issue. The people who were going to abandon his campaign already have and trying to make any overt attacks will just be repeating Huckabee's mistakes last year.\n"
         }
     },
     {
@@ -4903,7 +4903,7 @@ campaignTrail_temp.answers_json = [
         "pk": 23123,
         "fields": {
             "question": 22935,
-            "description": "I know Romney chose Governor Crist to lock down Florida, but frankly, I like our chances there. Let's contact Senator Nelson and Castor about some rallies down and around Miami.\n"
+            "description": "I know Romney chose Governor Crist to lock down Florida, but frankly, I like our chances there. Let's contact Senators Nelson and Castor about some rallies down and around Miami.\n"
         }
     },
     {
@@ -5087,7 +5087,7 @@ campaignTrail_temp.answers_json = [
         "pk": 23470,
         "fields": {
             "question": 21240,
-            "description": "I must admit Cheney's not bowing to the fanatical right of his party is commendable, but it's a mistake. Selecting Senator Snowe as his running mate did him zero favors in getting these groups back into the fold.\n"
+            "description": "I must admit Cheney not bowing to the fanatical right of his party is commendable, but it's a mistake. Selecting Senator Snowe as his running mate did him zero favors in getting these groups back into the fold.\n"
         }
     },
     {
