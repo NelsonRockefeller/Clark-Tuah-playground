@@ -1,3 +1,4 @@
+
 campaignTrail_temp.global_parameter_json = [
     {
         "model": "campaign_trail.global_parameter",
@@ -349,10 +350,10 @@ document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_wi
     );
     
     const song2 = new Song(
-      "Who Knew",
-      "P!nk",
+      "Take Me Out",
+      "Franz Ferdinand",
       "https://i.imgur.com/8KKKzar.gif",
-      "https://audio.jukehost.co.uk/JSTplAJi1ou3HIiNRCbjElLangDpnfRr"
+      "https://audio.jukehost.co.uk/rSx6VDEzc1B9Ax4H3Xw4xzKKs4T5zt9B"
     );
   
     const song3 = new Song(
@@ -363,24 +364,24 @@ document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_wi
     );
   
     const song4 = new Song(
-      "Vertigo",
-      "U2",
+      "Hot N Cold",
+      "Katy Perry",
       "https://i.imgur.com/SzCK0uX.gif",
-      "https://audio.jukehost.co.uk/MZZfCLu3oBkAjJGyzHac3Hi6MNVmyoW2"
+      "https://audio.jukehost.co.uk/cAUldU7GY3YpJD7Slp8Da49voPk6xKFm"
     );
   
     const song5 = new Song(
-      "Thunder In My Heart",
-      "Meck feat. Leo Slayer",
+      "Vertigo",
+      "U2",
       "https://i.imgur.com/C3Lzdfv.gif",
-      "https://audio.jukehost.co.uk/CyrL8gEJ965fVCZY8rimZrNslJesE61O"
+      "https://audio.jukehost.co.uk/MZZfCLu3oBkAjJGyzHac3Hi6MNVmyoW2"
     );
   
     const song6 = new Song(
-      "Resistance",
-      "Muse",
+      "Thunder In My Heart",
+      "Meck feat. Leo Slayer",
       "https://i.imgur.com/WVh9fD3.gif",
-      "https://audio.jukehost.co.uk/6tAoejj3zTSwW7GF0dEMY0KUbaclWWIY"
+      "https://audio.jukehost.co.uk/CyrL8gEJ965fVCZY8rimZrNslJesE61O"
     );
   
     const song7 = new Song(
@@ -391,10 +392,10 @@ document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_wi
     );
   
     const song8 = new Song(
-      "Friend Please",
-      "Twenty One Pilots",
+      "On Melancholy Hill",
+      "Gorillaz",
       "https://i.imgur.com/TDAl9HT.gif",
-      "https://audio.jukehost.co.uk/t8JHadH4hqVweClPkxobMVs7iNk18snf"
+      "https://audio.jukehost.co.uk/SMMYL9tzVfimUbQAgWeym87kEFE4qziw"
     );
   
     playlist.addSong(song1);
@@ -744,5 +745,5 @@ e = campaignTrail_temp
     {searchString: "Hip Hop 4 Huckabee", explanationText: "<img src=https://i.imgur.com/Mcd9o2n.png> The Huckabee outreach program to get African Americans in the fold."},
     {searchString: "rEVOlution", explanationText: "<img src=https://i.imgur.com/lz8VObI.png> ..."},
     {searchString: "Springfield", explanationText: "<img src=https://i.imgur.com/H9nvYWW.jpeg> Home"},
-    {searchString: "NAFTA", explanationText: "<img src=https://i.imgur.com/rW0ITDq.png> Load'a letters that Lisa says I shouldn't like"}
+    {searchString: "goooooob", explanationText: "<img src=https://i.imgur.com/rW0ITDq.png> buhhh"}
   ];
