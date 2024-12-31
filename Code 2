@@ -103,7 +103,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1057,
         "fields": {
             "priority": 7,
-            "description": "Despite Afghanistan being relatively quiet during your term thus far, there have been leaks of an incoming Taliban resurgence. Secretary Kerry informs you that the leaks, if true, could spell doom to your supposed foreign policy expertise. Republicans are seething for an in to wedge a knife into your back at any moment. Do you have any plans to change the course of the war?",
+            "description": "At a cabinet meeting, you were informed that two subprime hedge funds owned by Bear Stearns had lost nearly all of their value amid a rapid decline in the market. More importantly, the CIA has collected leaks of an incoming Taliban resurgence. Secretary Kerry warns you that the leaks, if true, could spell doom to your supposed foreign policy expertise. Republicans are seething for an in to wedge a knife into your back at any moment. Do you have any plans to change the course of the war?\n",
             "likelihood": 1
         }
     },
@@ -112,7 +112,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1053,
         "fields": {
             "priority": 7,
-            "description": "President Clark, the rumors circling the media were right. It seems your cabinet has led you astray, and now the U.S. housing market is facing unprecedented price crashes as hundreds of homes are foreclosed on. Families are in hysterics as banks knock down their doors and leave them with nothing. Blame is being thrown around at every institution, conspiracies are being made, and there is one common question: What the hell are you going to do about this?",
+            "description": "President Clark, the rumors circling the media were right. You've spent too long looking abroad, and now the U.S. housing market faces unprecedented price crashes as hundreds of homes are foreclosed on. Bear Stearns has collapsed despite the help of an emergency bailout. Families are in hysterics as banks knock down their doors and leave them with nothing. Blame is being thrown around at every institution, conspiracies are being made, and there is one common question: What the hell will you do about this?",
             "likelihood": 1
         }
     },
@@ -328,7 +328,7 @@ campaignTrail_temp.questions_json = [
         "pk": 20957,
         "fields": {
             "priority": 7,
-            "description": "President Clark, the rumors circling the media were right. It seems your cabinet has led you astray, and now the U.S. housing market is facing unprecedented price crashes as hundreds of homes are foreclosed on. Families are in hysterics as banks knock down their doors and leave them with nothing. Blame is being thrown around at every institution, conspiracies are being made, and there is one common question: What the hell are you going to do about this?",
+            "description": "President Clark, the rumors circling the media were right. You've spent too long looking abroad, and now the U.S. housing market faces unprecedented price crashes as hundreds of homes are foreclosed on. Bear Stearns has collapsed despite the help of an emergency bailout. Families are in hysterics as banks knock down their doors and leave them with nothing. Blame is being thrown around at every institution, conspiracies are being made, and there is one common question: What the hell will you do about this?",
             "likelihood": 1
         }
     },
@@ -553,7 +553,7 @@ campaignTrail_temp.questions_json = [
         "pk": 21493,
         "fields": {
             "priority": 0,
-            "description": "Well, Wes, dread it as you may debate night has arrived. Romney's preparations went under the wing of Rob Portman, who scoured biographies and articles of yourself to get a complete understanding. Portman's role must be recognized as he prepared Romney to take you on. As you watch Romney gavotte onto the stage, shaking your hand before returning to his podium, you know your opening remarks could make or break the debate. You know the debates have always been complex for the incumbent; you know, too, that behind his thick eyebrows and even thicker phony smile, Romney has something up his sleeve…\n",
+            "description": "Well, Wes, dread it as you may debate night has arrived. Romney's preparations went under the wing of Rob Portman, who scoured biographies and articles of yourself to get a complete understanding. Portman's role must be recognized as he prepared Romney to take you on. As you watch Romney gavotte onto the stage, shaking your hand before returning to his podium, you know your opening remarks could make or break the debate; you know, too, that behind his thick eyebrows and even thicker phony smile, Romney has something up his sleeve…\n",
             "likelihood": 1
         }
     },
@@ -598,7 +598,7 @@ campaignTrail_temp.questions_json = [
         "pk": 21535,
         "fields": {
             "priority": 0,
-            "description": "This is it. It's time to shine Vice President Landrieu and shine you better. The potential of a third Bush administration is dreadful for the legacy you and President Clark have built. Despite your prior objections to his direction, it's your job to defend him. As former Secretary of Homeland Defense Tom Ridge enters the camera's view, he looks calm and collected. He's spent most of this campaign nodding as his king led the charge on President Clark's failure to support Iraq. You look across from you and see him adjust his tie with a smug grin. How are you going to send him back into retirement?\n",
+            "description": "This is it. It's time to shine, Vice President Landrieu. The potential of a third Bush administration is dreadful for the legacy you and President Clark have built. Despite your prior objections to his direction, it's your job to defend him. As former Secretary of Homeland Defense Tom Ridge enters the camera's view, he looks calm and collected. He's spent most of this campaign nodding as his king led the charge on President Clark's failure to support Iraq. You look across from you and see him adjust his tie with a smug grin. How are you going to send him back into retirement?\n",
             "likelihood": 1
         }
     },
@@ -940,7 +940,7 @@ campaignTrail_temp.questions_json = [
         "pk": 22489,
         "fields": {
             "priority": 7,
-            "description": "President Clark, the rumors circling the media were right. It seems your cabinet has led you astray, and now the U.S. housing market is facing unprecedented price crashes as hundreds of homes are foreclosed on. Families are in hysterics as banks knock down their doors and leave them with nothing. Blame is being thrown around at every institution, conspiracies are being made, and there is one common question: What the hell are you going to do about this?",
+            "description": "President Clark, the rumors circling the media were right. You've spent too long looking abroad, and now the U.S. housing market faces unprecedented price crashes as hundreds of homes are foreclosed on. Bear Stearns has collapsed despite the help of an emergency bailout. Families are in hysterics as banks knock down their doors and leave them with nothing. Blame is being thrown around at every institution, conspiracies are being made, and there is one common question: What the hell will you do about this?",
             "likelihood": 1
         }
     },
@@ -1057,7 +1057,7 @@ campaignTrail_temp.questions_json = [
         "pk": 22757,
         "fields": {
             "priority": 0,
-            "description": "You've secured Iraq for the near future at the expense of the dreamers who broke the gates of Olympus for you. Now, you're forced to deal with Iran. The Bush Administration's negotiations for a nuclear deal with Iran, which you oversaw to completion, have been rebuked by President Mahmoud Ahmadinejad. Most within the party establishment are seduced to harsher measures against the neoliberal's eye candy in the form of building a free and democratic Iran. However, some still prefer the negotiating approach to save the deal. How will you approach this, Clark?\n",
+            "description": "At a cabinet meeting, you were informed that two subprime hedge funds owned by Bear Stearns had lost nearly all of their value amid a rapid decline in the market. However, you have little time to deal with the economy; the Bush Administration's negotiations for a nuclear deal with Iran, which you oversaw to completion, have been rebuked by President Mahmoud Ahmadinejad. Most within the party establishment are seduced to harsher measures against the neoliberal's eye candy in the form of building a free and democratic Iran. However, some still prefer the negotiating approach to save the deal. How will you approach this, Clark?",
             "likelihood": 1
         }
     },
@@ -1220,6 +1220,15 @@ campaignTrail_temp.questions_json = [
         "fields": {
             "priority": 0,
             "description": "\"Is this true?\" \"Seems so, Mr. President.\" Nancy Parrish - White House Dept. Chief of Staff. \"Disgusting.\" Congressman Mark Foley resigned underneath a scandal regarding soliciting minors for sex through instant messages. What's worse, though, ABC has just published a story, \"Speaker of the House Dennis Hastert under investigation for alleged sexual abuse of high school boys during his time as a coach.\" It's all crashing down; Hastert's long and corrupt rule over the House of Representatives is coming to a bloody conclusion. As Democrats nationwide prepare to sink their teeth into their opponents, you wonder if this is a sign of what's to come. Victorious conquests await. What do you think, Clark?\n",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 23482,
+        "fields": {
+            "priority": 0,
+            "description": "The fight for democracy was abandoned, and with it, the hopes for Iraqi freedom. Secretary Kerry and Levin enter the oval with solemn looks on their faces. They hand you the reports from Iraq, and it's a disaster. What's left of the coalition forces is in full retreat as insurgents continue to launch assault after assault on civilians and American soldiers. The images are horrifying, and your approval ratings, already sunk by the economy, sink further. How will you respond to these events, Wes?",
             "likelihood": 1
         }
     }
@@ -5055,7 +5064,7 @@ campaignTrail_temp.answers_json = [
         "pk": 23310,
         "fields": {
             "question": 21025,
-            "description": "I was ready to take on the issues of McCain's entire platform throughout my entire term. The Republicans in Congress, on the other hand, have felt very different. McCain doesn't need to keep shouting at me for education reforms and energy independence. I've been ready and made progress on these issues; Republicans are not.\n"
+            "description": "I was ready to take on the issues of McCain's entire platform throughout my whole term. The Republicans in Congress, on the other hand, have felt very different. McCain doesn't need to keep shouting at me for education reforms and energy independence.\n"
         }
     },
     {
@@ -5096,6 +5105,46 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 21240,
             "description": "Pretending like Cheney is a real threat is a joke; he's the most unlikable Vice President in American history, and his tenure was nothing more than insulting others and starting wars.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 23483,
+        "fields": {
+            "question": 23482,
+            "description": "George W. Bush forgot the burdens of democracy, but I know it all too well. The prior administration's foreign policy frenzy racked up deficits and broken relationships. I'll urge other European powers to chip into a small coalition redeployment to help stabilize Iraq.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 23487,
+        "fields": {
+            "question": 23482,
+            "description": "This great geostrategic vision that you sweep through the Middle East, clean up these old, worn-out dictatorships, and knocking them down to start a democracy was ridiculous. We're taking this one battle at a time, and increasing aid to Iraq is our focus."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 23490,
+        "fields": {
+            "question": 23482,
+            "description": "After working with the Republican-dominated Congress, they didn't believe that the United States should act to prevent another war in the Balkan in the '90s. I find myself doubting the intentions of the current one. Republicans are desperate to throw me under the bus and will shovel their own beliefs in the hole with me.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 23493,
+        "fields": {
+            "question": 23482,
+            "description": "Fine, as much as I hate to admit it, I was wrong. Get me, General Petraeus; I need him to make a quick turnaround of this crap chute. Hand him the reigns; I can't let this situation worsen."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 23505,
+        "fields": {
+            "question": 21523,
+            "description": "I hate to do this, I really do, but we have one hedge to use against Jeb. These southern states don't trust his immigration policies, and I fully condone it personally, but his wife especially makes them feel uncomfortable. Spend some money on advertising to make this an issue and make sure it leaves no trace to us.\n"
         }
     }
 ]
@@ -12365,7 +12414,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 21495,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": -0.01
+            "global_multiplier": 0.008
         }
     },
     {
@@ -12485,7 +12534,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 21530,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.02
+            "global_multiplier": -0.02
         }
     },
     {
@@ -16037,6 +16086,56 @@ campaignTrail_temp.answer_score_global_json = [
             "affected_candidate": 202,
             "global_multiplier": 0.08
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 23485,
+        "fields": {
+            "answer": 23483,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 23489,
+        "fields": {
+            "answer": 23487,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 23492,
+        "fields": {
+            "answer": 23490,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 23495,
+        "fields": {
+            "answer": 23493,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 23508,
+        "fields": {
+            "answer": 23505,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.013
+        }
     }
 ]
 
@@ -17467,8 +17566,8 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 22020,
             "issue": 102,
-            "issue_score": -0.2,
-            "issue_importance": 4
+            "issue_score": 0.9,
+            "issue_importance": 9
         }
     },
     {
@@ -17477,8 +17576,8 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 22030,
             "issue": 102,
-            "issue_score": -0.5,
-            "issue_importance": 3
+            "issue_score": 0.9,
+            "issue_importance": 9
         }
     },
     {
@@ -17488,7 +17587,7 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 22035,
             "issue": 102,
             "issue_score": -0.6,
-            "issue_importance": 4
+            "issue_importance": 7
         }
     },
     {
@@ -17496,9 +17595,9 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 22042,
         "fields": {
             "answer": 22039,
-            "issue": 101,
-            "issue_score": -0.8,
-            "issue_importance": 4
+            "issue": 102,
+            "issue_score": -0.6,
+            "issue_importance": 7
         }
     },
     {
@@ -17507,8 +17606,8 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 22043,
             "issue": 102,
-            "issue_score": 0.5,
-            "issue_importance": 4
+            "issue_score": -0.6,
+            "issue_importance": 7
         }
     },
     {
@@ -18569,6 +18668,116 @@ campaignTrail_temp.answer_score_issue_json = [
             "issue": 102,
             "issue_score": 0.9,
             "issue_importance": 11
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 23486,
+        "fields": {
+            "answer": 23483,
+            "issue": 102,
+            "issue_score": 0.8,
+            "issue_importance": 8
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 23496,
+        "fields": {
+            "answer": 23493,
+            "issue": 102,
+            "issue_score": 0.8,
+            "issue_importance": 7
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 23497,
+        "fields": {
+            "answer": 23490,
+            "issue": "100",
+            "issue_score": 0.8,
+            "issue_importance": 7
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 23498,
+        "fields": {
+            "answer": 23487,
+            "issue": 102,
+            "issue_score": 0.8,
+            "issue_importance": 7
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 23499,
+        "fields": {
+            "answer": 22024,
+            "issue": 102,
+            "issue_score": 0.9,
+            "issue_importance": 9
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 23500,
+        "fields": {
+            "answer": 22027,
+            "issue": 102,
+            "issue_score": 0.9,
+            "issue_importance": 9
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 23501,
+        "fields": {
+            "answer": 22047,
+            "issue": 102,
+            "issue_score": -0.6,
+            "issue_importance": 7
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 23502,
+        "fields": {
+            "answer": 21495,
+            "issue": "100",
+            "issue_score": -0.7,
+            "issue_importance": 12
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 23503,
+        "fields": {
+            "answer": 21498,
+            "issue": "100",
+            "issue_score": 0.6,
+            "issue_importance": 8
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 23504,
+        "fields": {
+            "answer": 21504,
+            "issue": "100",
+            "issue_score": 0.2,
+            "issue_importance": 4
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 23507,
+        "fields": {
+            "answer": 23505,
+            "issue": "100",
+            "issue_score": -0.7,
+            "issue_importance": 9
         }
     }
 ]
@@ -23356,7 +23565,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1045,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.1
+            "state_multiplier": -0.05
         }
     },
     {
@@ -25369,7 +25578,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1045,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.1
+            "state_multiplier": -0.05
         }
     },
     {
@@ -25875,7 +26084,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1045,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.1
+            "state_multiplier": -0.05
         }
     },
     {
@@ -26381,7 +26590,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1045,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.1
+            "state_multiplier": -0.05
         }
     },
     {
@@ -26449,7 +26658,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5147,
             "candidate": 201,
-            "answer_feedback": "From Prime Minister Blair to Chancellor Merkel, your visits are well received. Hopefully, you will build a renewed relationship with your NATO allies. The work has just begun.\n"
+            "answer_feedback": "From Prime Minister Blair to Chancellor Schröder, your visits are well received. Hopefully, you will build a renewed relationship with your NATO allies. The work has just begun.\n"
         }
     },
     {
@@ -26575,7 +26784,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5191,
             "candidate": 201,
-            "answer_feedback": "CLARK'S MASSIVE EXPANSION IN AFGHANISTAN ONLY RESULTS IN MORE LIVES LOST! Your constant need to squash the terrorist threat ends in massacres of Afghani lives and more protests at home."
+            "answer_feedback": "CLARK'S MASSIVE EXPANSION IN AFGHANISTAN ONLY RESULTS IN MORE LIVES LOST! Your constant need to squash the terrorist threat ends in massacres of Afghani lives; it turned out that the Taliban resurgence was a farce."
         }
     },
     {
@@ -27745,7 +27954,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 21495,
             "candidate": 201,
-            "answer_feedback": "Your correct assumption has made Jeb's campaign trip several times, but Immigration isn't a headline issue. The economic woes continue to dominate the airwaves."
+            "answer_feedback": "Your correct assumption has made Jeb's campaign trip several times. The kooks in his party are revolted by his relaxed approach to immigration, but Jeb believes he got their vote on lock; prove him wrong. "
         }
     },
     {
@@ -27826,7 +28035,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 21530,
             "candidate": 201,
-            "answer_feedback": "Jeb is squirming, and the media can tell he's desperate for the attention his brother got. At every rally, he's speaking his brother's praise to the point you'd think George was the one running. The people are catching on, and the cracks in Jeb's electability are forming.\n"
+            "answer_feedback": "Jeb may be cowardly hiding behind your old opponent, but at times like these, a good “I told you so” serves as a kick in the behind. George is no slouch either and goes to bat for his brother, tirelessly slandering your record."
         }
     },
     {
@@ -29932,7 +30141,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 22850,
             "candidate": 201,
-            "answer_feedback": "Turkey, Germany, and France, all burned by Bush, make high demands of your leadership. Turkey is looking to sink its teeth into the oil fields. Germany demands a comprehensive United States withdrawal plan from Iraq. On the other hand, France found your predecessor's actions highly hypocritical and isn't receptive to your calls. It's too much; you return home empty-handed."
+            "answer_feedback": "Turkey, Germany, and France, all burned by Bush, make high demands of your leadership. Turkey is looking to sink its teeth into the oil fields. Germany demands a comprehensive withdrawal plan from Iraq. France found your predecessor's actions highly hypocritical and isn't receptive to your calls. It's too much; you return home empty-handed."
         }
     },
     {
@@ -30627,6 +30836,51 @@ campaignTrail_temp.answer_feedback_json = [
             "candidate": 201,
             "answer_feedback": "It seems you're severely underestimating him. While he's no darling to anyone, with the current economy, any alternative could be appealing. Cheney is hammering you on your incompetence, establishing a phrase called \"Chaos Clark.\"\n"
         }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 23484,
+        "fields": {
+            "answer": 23483,
+            "candidate": 201,
+            "answer_feedback": "Prime Minister Brown understands your desperation. After much begging of him and other NATO allies like Poland, you've managed to assemble an emergency task force of nations to save Iraq. Republicans, on the other hand, bark and call it a farce."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 23488,
+        "fields": {
+            "answer": 23487,
+            "candidate": 201,
+            "answer_feedback": "General Petraeus is livid, but for what it's worth, the aid packages fly through Congress and put a temporary bandage on to stop the bleeding. The neocons are worked up and marching to kick you out of office."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 23491,
+        "fields": {
+            "answer": 23490,
+            "candidate": 201,
+            "answer_feedback": "Republicans across the nation can't hold themselves together from laughter at your attempts to turn the narrative against them. Most media networks continue to lambast your name as Iraq crumbles under our watch."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 23494,
+        "fields": {
+            "answer": 23493,
+            "candidate": 201,
+            "answer_feedback": "You and Petraeus have butt heads since the day you refused to enact the troop surge, but he's a good sport and is dying for the media spotlight. He'll be able to coordinate the forces in Iraq after forcing your hand to put more troops in."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 23506,
+        "fields": {
+            "answer": 23505,
+            "candidate": 201,
+            "answer_feedback": "Columba Bush has taken a back seat, making minimal appearances, so when Jeb catches wind of these ads circling around, he demands you come clean. However, there's no traceable footprint to your campaign. You've dropped the non-partisan gloves, and playing dirty may be your only way out."
+        }
     }
 ]
 
@@ -30655,12 +30909,13 @@ campaignTrail_temp.jet_data = [{
 
 
 
+
 e.cyoa = true
 var Dem = 0;
 var Gay = 0;
 var Tax = 0;
 var Win = 0;
-var Fopowin = 0;
+var Nato = 0;
 var Agenda = 0;
 var Neo = 0;
 var Patriot = 0;
@@ -31159,31 +31414,35 @@ cyoAdventure = function(a) {
 
     ///Foreign policy success
     if(ans == 22853 ){
-        Fopowin += 1;
+        Nato += 1;
     }
 
     if(ans == 20915 ){
-        Fopowin += 1;
+        Nato += 1;
     }
 
     if(ans == 20924 ){
-        Fopowin += 1;
+        Nato += 1;
     }
 
     if(ans == 5190 ){
-        Fopowin += 1;
+        Nato += 1;
+    }
+
+    if(ans == 5147 ){
+        Nato += 1;
     }
 
     if(ans == 22758 ){
-        Fopowin += 1;
+        Nato += 1;
     }
 
     if(ans == 22043 ){
-        Fopowin += 1;
+        Nato += 1;
     }
 
     if(ans == 22035 ){
-        Fopowin += 1;
+        Nato += 1;
     }
 
     ///neoliberling
@@ -31454,6 +31713,9 @@ if (e.noCounter == 16) {
 
     ///Iraq shockwave
 if (e.noCounter == 18) {
+    if (Notroops == 1 && Nato > 2) {
+        campaignTrail_temp.questions_json[18] = tunnel(23482); 
+    }
     if (Notroops == 1) {
         campaignTrail_temp.questions_json[18] = tunnel(22019); 
     }
@@ -31498,7 +31760,7 @@ if (e.noCounter == 20) {
     if (Boner == 1) {
         campaignTrail_temp.questions_json[20] = tunnel(22052); 
     }
-    if (Pelosi == 1 && Agenda == 4 && Fopowin == 3) {
+    if (Pelosi == 1 && Agenda > 3 && Fopowin > 1) {
         campaignTrail_temp.questions_json[20] = tunnel(22554); 
     }
     else if (Pelosi == 1) {
