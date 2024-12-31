@@ -2640,7 +2640,7 @@ campaignTrail_temp.answers_json = [
         "pk": 21530,
         "fields": {
             "question": 21523,
-            "description": "I don't know why we're taking this seriously. Governor Bush isn't even emphasizing his record. He was roaming around with a big sign saying, \"Remember my brother?\" He has no actual policy that he can be proud of. I'll tell you this: Being the brother and son of a president doesn't make you qualified to be president."
+            "description": "I don't know why we're taking this seriously. Governor Bush isn't even emphasizing his record. He was roaming around with a big sign saying, \"Remember my brother?\" I'll tell you this: Being the brother and son of a president doesn't make you qualified to be president."
         }
     },
     {
@@ -10734,7 +10734,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5144,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": -0.01
+            "global_multiplier": -0.02
         }
     },
     {
@@ -11234,7 +11234,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5145,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": -0.006
+            "global_multiplier": -0.015
         }
     },
     {
@@ -11304,7 +11304,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5155,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.004
+            "global_multiplier": -0.015
         }
     },
     {
@@ -11314,7 +11314,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 20747,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": -0.004
+            "global_multiplier": -0.01
         }
     },
     {
@@ -11814,7 +11814,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5262,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": -0.02
+            "global_multiplier": -0.04
         }
     },
     {
@@ -16297,7 +16297,7 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 5263,
             "issue": 102,
             "issue_score": 0.9,
-            "issue_importance": 6
+            "issue_importance": 11
         }
     },
     {
@@ -16457,7 +16457,7 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 5262,
             "issue": 102,
             "issue_score": -0.7,
-            "issue_importance": 4
+            "issue_importance": 8
         }
     },
     {
@@ -16476,8 +16476,8 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 5155,
             "issue": 101,
-            "issue_score": 0.8,
-            "issue_importance": 4
+            "issue_score": 0.9,
+            "issue_importance": 10
         }
     },
     {
@@ -16486,8 +16486,8 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 20747,
             "issue": 101,
-            "issue_score": -0.6,
-            "issue_importance": 4
+            "issue_score": -0.9,
+            "issue_importance": 10
         }
     },
     {
@@ -26685,7 +26685,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5150,
             "candidate": 201,
-            "answer_feedback": "The summit goes rather poorly, as most of your allies feel burned by the Bush Administration. Merkel is looking to wash Germany's hands of the entire debacle, and the national blunder will make headlines for a couple of weeks.\n"
+            "answer_feedback": "The summit goes rather poorly, as most of your allies feel burned by the Bush Administration. Schröder is looking to wash Germany's hands of the entire debacle, and the national blunder will make headlines for a couple of weeks.\n"
         }
     },
     {
@@ -31716,7 +31716,7 @@ if (e.noCounter == 18) {
     if (Notroops == 1 && Nato > 2) {
         campaignTrail_temp.questions_json[18] = tunnel(23482); 
     }
-    if (Notroops == 1) {
+    else if (Notroops == 1) {
         campaignTrail_temp.questions_json[18] = tunnel(22019); 
     }
     if (Troops == 1 && Patriot == 1 && Neo > 1) {
@@ -31760,7 +31760,7 @@ if (e.noCounter == 20) {
     if (Boner == 1) {
         campaignTrail_temp.questions_json[20] = tunnel(22052); 
     }
-    if (Pelosi == 1 && Agenda > 3 && Fopowin > 1) {
+    if (Pelosi == 1 && Agenda > 3 && Nato > 2) {
         campaignTrail_temp.questions_json[20] = tunnel(22554); 
     }
     else if (Pelosi == 1) {
