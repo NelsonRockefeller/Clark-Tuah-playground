@@ -731,14 +731,14 @@ e = campaignTrail_temp
   
   tooltipList = [
     {searchString: "Olympus", explanationText: "<img src=https://i.imgur.com/0BJfcOf_d.png?maxwidth=520&shape=thumb&fidelity=high> Washington, D.C. This is where all your dreams will die unless you fight like hell, Wes."},
-    {searchString: "Daschle", explanationText: "<img src=https://i.imgur.com/yQV5dHj_d.png?maxwidth=520&shape=thumb&fidelity=high> He has much to thank you for, from saving his career to getting him a promotion."},
-    {searchString: "Kerry", explanationText: "<img src=https://i.imgur.com/tIs5HFA.png> Took a heavy loss in Iowa, but hey, he's a good sport, and joined the administration moments after being asked."},
+    {searchString: "Daschle", explanationText: "<img src=https://i.imgur.com/yQV5dHj_d.png?maxwidth=520&shape=thumb&fidelity=high> He has much to thank you for, from saving his career to getting him a promotion. He's your Senate Majority Leader and if you lead the country well, he'll keep his job throughout your term."},
+    {searchString: "Kerry", explanationText: "<img src=https://i.imgur.com/tIs5HFA.png> Took a heavy loss in Iowa, but hey, he's a good sport, and joined the administration moments after being asked. He previously represented Massachusetts in the United States Senate from 1985 to 2005 and will now serve as a guiding hand of your administration."},
     {searchString: "Limbaugh", explanationText: "<img src=https://i.imgur.com/wWf3fIs.png> Putrid being, called Landrieu a “high priced prostitute” for her efforts in getting Hurricane Katrina aid."},
-    {searchString: "Altman", explanationText: "<img src=img src=https://i.imgur.com/H9Qo0WR.png> He may have fired you but damn are Clinton's people useful."},
+    {searchString: "Altman", explanationText: "<img src=https://i.imgur.com/XXEYxyT.png> He may have fired you but damn are Clinton's people useful. Roger Altman is an American investment banker, and former Deputy Secretary of the Treasury under Bill Clinton."},
     {searchString: "Religious Freedom Doctrine", explanationText: "<img src=https://i.imgur.com/j5Eq0Ps.png> The Bible's answer to solving all problems, by letting them fester in the background."},
     {searchString: "Terri Schiavo Case", explanationText: "<img src=https://i.imgur.com/QfY3x33.png> series of court and legislative actions in the United States from 1998 to 2005, regarding the care of Theresa Marie Schiavo, a woman in an irreversible persistent vegetative state."},   
     {searchString: "Connecticut for Lieberman", explanationText: "<img src=https://i.imgur.com/7cSe3G7.png> Joe Lieberman's pity party to cry over his failure to win a primary."},
-    {searchString: "Tom DeLay", explanationText: "<img src=https://i.imgur.com/84SyAmV.png> House Majority Leader, also seasoned money laundering veteran."},
+    {searchString: "Tom DeLay", explanationText: "<img src=https://i.imgur.com/84SyAmV.png> Former House Majority Leader, also seasoned money laundering veteran."},
     {searchString: "Hastert Rule", explanationText: "<img src=https://i.imgur.com/t3YBFKB.png> House Speaker will not schedule a floor vote for a bill that lacks majority support from within the majority party even if a majority of the house would support it. In other words, get fucked."},
     {searchString: "Hydra", explanationText: "<img src=https://i.imgur.com/8Y3oHDc.png> The party of the Bible, by the Bible, for the Bible. Not so much for people."},
     {searchString: "Hip Hop 4 Huckabee", explanationText: "<img src=https://i.imgur.com/Mcd9o2n.png> The Huckabee outreach program to get African Americans in the fold."},
