@@ -895,7 +895,7 @@ campaignTrail_temp.questions_json = [
         "pk": 22198,
         "fields": {
             "priority": 0,
-            "description": "As the clock ticks ever closer to judgment day, the dire need for a win, no matter how small, makes your debate performance key to saving Clark's reelection, Madam Vice President. The Republican Primaries were an onslaught of political rising stars all ramming into each other. Blatant partisan behavior entrenched party politics, so much so that Dick Cheney crashed the party of what many thought would be Huckabee's coronation. Not willing to throw a bone to his wing, he installed your old friend, Senator Olympia Snowe as his right hand. The debate lights are on you now; it's time to make it count. How will you take on the wizard of bipartisanship?\n",
+            "description": "As the clock ticks ever closer to judgment day, the dire need for a win, no matter how small, makes your debate performance key to saving Clark's reelection, Madam Vice President. The Republican Primaries were an onslaught of political rising stars all ramming into each other. Blatant partisan behavior entrenched party politics, so much so that Dick Cheney crashed the party of what many thought would be Huckabee's coronation. Not willing to throw a bone to his wing, he installed your old friend, Senator Olympia Snowe, as his right hand. How will you take on the wizard of bipartisanship?\n",
             "likelihood": 1
         }
     },
@@ -1057,7 +1057,7 @@ campaignTrail_temp.questions_json = [
         "pk": 22757,
         "fields": {
             "priority": 0,
-            "description": "At a cabinet meeting, you were informed that two subprime hedge funds owned by Bear Stearns had lost nearly all of their value amid a rapid decline in the market. However, you have little time to deal with the economy; the Bush Administration's negotiations for a nuclear deal with Iran, which you oversaw to completion, have been rebuked by President Mahmoud Ahmadinejad. Most within the party establishment are seduced to harsher measures against the neoliberal's eye candy in the form of building a free and democratic Iran. However, some still prefer the negotiating approach to save the deal. How will you approach this, Clark?",
+            "description": "At a cabinet meeting, you were informed that two subprime hedge funds owned by Bear Stearns had lost nearly all of their value amid a rapid decline in the market. However, you have little time to deal with the economy; the Bush Administration's negotiations for a nuclear deal with Iran, which you oversaw to completion, have been rebuked by President Mahmoud Ahmadinejad. Most within the party establishment are seduced to harsher measures in the form of building a free and democratic Iran. However, some still prefer the negotiating approach to save the deal. How will you approach this, Clark?",
             "likelihood": 1
         }
     },
@@ -2050,7 +2050,7 @@ campaignTrail_temp.answers_json = [
         "pk": 20975,
         "fields": {
             "question": 20974,
-            "description": "I know many of you are struggling, even drowning. The economy is not good; too many may decide your vote this November. The relaxed banking and housing market policies have placed this burden upon you, but I know the way out. It is time we made them follow the rules like everyone else!\n"
+            "description": "I know many of you are struggling, even drowning. The relaxed banking and housing market policies have placed this burden upon you, but I know the way out. It is time we made them follow the rules like everyone else!\n"
         }
     },
     {
@@ -2082,7 +2082,7 @@ campaignTrail_temp.answers_json = [
         "pk": 21009,
         "fields": {
             "question": 21008,
-            "description": "I know many of you are struggling, even drowning. The economy is not good; too many may decide your vote this November. The relaxed policies in both the banking and housing markets have placed this burden upon you, but I know the way out. It is time we made them follow the rules like everyone else!\n"
+            "description": "I know many of you are struggling, even drowning. The relaxed banking and housing market policies have placed this burden upon you, but I know the way out. It is time we made them follow the rules like everyone else!\n"
         }
     },
     {
@@ -16276,7 +16276,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 23514,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": -0.05
+            "global_multiplier": -0.03
         }
     },
     {
@@ -16286,7 +16286,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 23518,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": -0.05
+            "global_multiplier": -0.03
         }
     },
     {
@@ -16296,7 +16296,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 23523,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": -0.05
+            "global_multiplier": -0.03
         }
     },
     {
@@ -16306,7 +16306,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 23528,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": -0.05
+            "global_multiplier": -0.03
         }
     },
     {
@@ -16376,7 +16376,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 23543,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": -0.05
+            "global_multiplier": -0.03
         }
     },
     {
@@ -16386,7 +16386,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 23539,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": -0.05
+            "global_multiplier": -0.03
         }
     },
     {
@@ -16396,7 +16396,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 23547,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": -0.05
+            "global_multiplier": -0.03
         }
     },
     {
@@ -16406,7 +16406,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 23552,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": -0.05
+            "global_multiplier": -0.03
         }
     }
 ]
@@ -18677,7 +18677,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 22962,
         "fields": {
             "answer": 22959,
-            "issue": "100",
+            "issue": 100,
             "issue_score": 0,
             "issue_importance": 0
         }
@@ -18697,7 +18697,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 22989,
         "fields": {
             "answer": 22986,
-            "issue": "100",
+            "issue": 100,
             "issue_score": -0.7,
             "issue_importance": 6
         }
@@ -18707,7 +18707,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 22993,
         "fields": {
             "answer": 22990,
-            "issue": "100",
+            "issue": 100,
             "issue_score": 0.6,
             "issue_importance": 6
         }
@@ -18717,7 +18717,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 22999,
         "fields": {
             "answer": 22997,
-            "issue": "100",
+            "issue": 100,
             "issue_score": 0.5,
             "issue_importance": 5
         }
@@ -18727,7 +18727,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 23001,
         "fields": {
             "answer": 22180,
-            "issue": "100",
+            "issue": 100,
             "issue_score": 0.8,
             "issue_importance": 8
         }
@@ -18847,7 +18847,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 23207,
         "fields": {
             "answer": 22565,
-            "issue": "100",
+            "issue": 100,
             "issue_score": 1,
             "issue_importance": 16
         }
@@ -18957,7 +18957,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 23497,
         "fields": {
             "answer": 23490,
-            "issue": "100",
+            "issue": 100,
             "issue_score": 0.8,
             "issue_importance": 7
         }
@@ -19007,7 +19007,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 23502,
         "fields": {
             "answer": 21495,
-            "issue": "100",
+            "issue": 100,
             "issue_score": -0.7,
             "issue_importance": 12
         }
@@ -19017,7 +19017,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 23503,
         "fields": {
             "answer": 21498,
-            "issue": "100",
+            "issue": 100,
             "issue_score": 0.6,
             "issue_importance": 8
         }
@@ -19027,7 +19027,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 23504,
         "fields": {
             "answer": 21504,
-            "issue": "100",
+            "issue": 100,
             "issue_score": 0.2,
             "issue_importance": 4
         }
@@ -19037,7 +19037,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 23507,
         "fields": {
             "answer": 23505,
-            "issue": "100",
+            "issue": 100,
             "issue_score": -0.7,
             "issue_importance": 9
         }
@@ -19047,7 +19047,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 23510,
         "fields": {
             "answer": 20975,
-            "issue": "100",
+            "issue": 100,
             "issue_score": 0.9,
             "issue_importance": 8
         }
@@ -19067,7 +19067,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 23517,
         "fields": {
             "answer": 23514,
-            "issue": "100",
+            "issue": 100,
             "issue_score": 0.9,
             "issue_importance": 8
         }
@@ -19097,7 +19097,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 23535,
         "fields": {
             "answer": 21009,
-            "issue": "100",
+            "issue": 100,
             "issue_score": 0.9,
             "issue_importance": 7
         }
@@ -19117,7 +19117,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 23542,
         "fields": {
             "answer": 23539,
-            "issue": "100",
+            "issue": 100,
             "issue_score": 0.9,
             "issue_importance": 7
         }
