@@ -337,7 +337,7 @@ campaignTrail_temp.questions_json = [
         "pk": 20974,
         "fields": {
             "priority": 0,
-            "description": "When the campaign started in 2003, a wave of unity swept the nation, energizing people to fight for a shared dream. Just as then, the podium is now yours to turn the American dream into a tangible reality. The Democratic Party has renominated you for President. Above partisan politics, now the Democrats, Independents, and Republicans can unite in a shared vision. As we face an ongoing economic crisis, your acceptance speech must touch on hope and unity. What will you say to inspire the crowds and save our shared dream?\n",
+            "description": "When the campaign started in 2003, a wave of unity swept the nation, energizing people to fight for a shared dream. Just as then, the podium is now yours to turn the American dream into a tangible reality. That dream, however, is under attack. Government bailouts and Fannie Mae's and Freddie Mac's takeover have led to public protests. Harpies dismayed by the continued war in Iraq also fly over your coronation. What will you say to inspire the crowds and save our shared dream?\n",
             "likelihood": 1
         }
     },
@@ -346,7 +346,7 @@ campaignTrail_temp.questions_json = [
         "pk": 21008,
         "fields": {
             "priority": 0,
-            "description": "When the campaign started in 2003, a wave of unity swept the nation, energizing people to fight for a shared dream. Just as then, the podium is now yours to turn the American dream into a tangible reality. The Democratic Party has renominated you for President. Above partisan politics, now the Democrats, Independents, and Republicans can unite in a shared vision. As we face an ongoing economic crisis, your acceptance speech must touch on hope and unity. What will you say to inspire the crowds and save our shared dream?\n",
+            "description": "When the campaign started in 2003, a wave of unity swept the nation, energizing people to fight for a shared dream. Just as then, the podium is now yours to turn the American dream into a tangible reality. That dream, however, is under attack. Government bailouts and Fannie Mae's and Freddie Mac's takeover have led to public protests. However, you command the support of a powerful Chimaera satisfied with the Iraq withdrawal date. What will you say to inspire the crowds and save our shared dream?\n",
             "likelihood": 1
         }
     },
@@ -1231,6 +1231,24 @@ campaignTrail_temp.questions_json = [
             "description": "The fight for democracy was abandoned, and with it, the hopes for Iraqi freedom. Secretary Kerry and Levin enter the oval with solemn looks on their faces. They hand you the reports from Iraq, and it's a disaster. What's left of the coalition forces is in full retreat as insurgents continue to launch assault after assault on civilians and American soldiers. The images are horrifying, and your approval ratings, already sunk by the economy, sink further. How will you respond to these events, Wes?",
             "likelihood": 1
         }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 23513,
+        "fields": {
+            "priority": 0,
+            "description": "When the campaign started in 2003, a wave of unity swept the nation, energizing people to fight for a shared dream. Just as then, the podium is now yours to turn the American dream into a tangible reality. That dream, however, couldn't look bleaker. Fannie Mae and Freddie Mac declared bankruptcy with no hope of a federal bailout. The economy is spiraling deep into an abyss, with Sirens luring you to your untimely demise. What will you say to inspire the crowds and save our shared dream?\n",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 23538,
+        "fields": {
+            "priority": 0,
+            "description": "When the campaign started in 2003, a wave of unity swept the nation, energizing people to fight for a shared dream. Just as then, the podium is now yours to turn the American dream into a tangible reality. That dream, however, couldn't look bleaker. Fannie Mae and Freddie Mac declared bankruptcy with no hope of a federal bailout. The economy is spiraling deep into an abyss, with Sirens luring you to your untimely demise. What will you say to inspire the crowds and save our shared dream?\n",
+            "likelihood": 1
+        }
     }
 ]
 
@@ -2024,7 +2042,7 @@ campaignTrail_temp.answers_json = [
         "pk": 20969,
         "fields": {
             "question": 20957,
-            "description": "This is very serious for our national security, and most Republicans think it's time to dig in and play games? We need to bounce off the public pressure to get real stimulus for the people first.\n"
+            "description": "This is very serious for our national security, and most Republicans think it's time to dig in and play games. We must bounce off the public pressure to get real stimulus and bailouts through Congress.\n"
         }
     },
     {
@@ -2032,7 +2050,7 @@ campaignTrail_temp.answers_json = [
         "pk": 20975,
         "fields": {
             "question": 20974,
-            "description": "American voters may not be experts on every issue, but their collective voice has always been a beacon of common sense and reason in our government. Our shared love and respect for each other binds us!\n"
+            "description": "I know many of you are struggling, even drowning. The economy is not good; too many may decide your vote this November. The relaxed banking and housing market policies have placed this burden upon you, but I know the way out. It is time we made them follow the rules like everyone else!\n"
         }
     },
     {
@@ -2056,7 +2074,7 @@ campaignTrail_temp.answers_json = [
         "pk": 20978,
         "fields": {
             "question": 20974,
-            "description": "Growing up in Little Rock, Arkansas, you learned many things about people. People now are so obsessed with what each other is doing that they feel the need to vote for politicians who prod into the lives of others. I stood against this thinking then, and I stand against it now!\n"
+            "description": "I am working tirelessly to save our financial institutions. We need to come together and realize that if they go, we all go. \"Too big to fail\" is a lie; those spreading this thinking lead our economy down the drain!\n"
         }
     },
     {
@@ -2064,7 +2082,7 @@ campaignTrail_temp.answers_json = [
         "pk": 21009,
         "fields": {
             "question": 21008,
-            "description": "American voters may not be experts on every issue, but their collective voice has always been a beacon of common sense and reason in our government. Our shared love and respect for each other binds us!\n"
+            "description": "I know many of you are struggling, even drowning. The economy is not good; too many may decide your vote this November. The relaxed policies in both the banking and housing markets have placed this burden upon you, but I know the way out. It is time we made them follow the rules like everyone else!\n"
         }
     },
     {
@@ -2088,7 +2106,7 @@ campaignTrail_temp.answers_json = [
         "pk": 21020,
         "fields": {
             "question": 21008,
-            "description": "Growing up in Little Rock, Arkansas, you learned many things about people. People now are so afraid of change. I stood against this thinking then, and I stand against it now!\n"
+            "description": "I am working tirelessly to save our financial institutions. We need to come together and realize that if they go, we all go. \"Too big to fail\" is a lie; those spreading this thinking lead our economy down the drain!\n"
         }
     },
     {
@@ -5145,6 +5163,70 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 21523,
             "description": "I hate to do this, I really do, but we have one hedge to use against Jeb. These southern states don't trust his immigration policies, and I fully condone it personally, but his wife especially makes them feel uncomfortable. Spend some money on advertising to make this an issue and make sure it leaves no trace to us.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 23514,
+        "fields": {
+            "question": 23513,
+            "description": "This Republican Congress is killing our nation. The economy is falling apart, and they do nothing; we must act. This is not a partisan issue; left or right, we must unite to save ourselves from an economic disaster!\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 23518,
+        "fields": {
+            "question": 23513,
+            "description": "My administration has led the fight in the war on terror valiantly. We are dedicated to bringing the terrorists who struck at the heart of New York to justice. I promise that if given another term, Osama Bin Laden will no longer be a threat!\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 23523,
+        "fields": {
+            "question": 23513,
+            "description": "Our policy in Iraq has been restoring the dignity of their nation with careful and mindful hands. We will get out once Iraq can stand on its own two feet.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 23528,
+        "fields": {
+            "question": 23513,
+            "description": "I am working tirelessly to save our financial institutions. We need to come together and realize that if they go, we all go. \"Too big to fail\" is a lie; those spreading this thinking lead our economy down the drain!\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 23539,
+        "fields": {
+            "question": 23538,
+            "description": "This Republican Congress is killing our nation. The economy is falling apart, and they do nothing; we must act. This is not a partisan issue; left or right, we must unite to save ourselves from an economic disaster!\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 23543,
+        "fields": {
+            "question": 23538,
+            "description": "America, my administration has operated on the principle of keeping you safe. We are going to avenge those lost on 9/11 and we will remain respected abroad while doing it!\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 23547,
+        "fields": {
+            "question": 23538,
+            "description": "Five years ago, some hard-nosed people took over the direction of American policy. The Bush administration performed a policy coup in the hope of taking down 7 Muslim countries in 5 years. In just 3 years we've brought our nation's credibility back!\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 23552,
+        "fields": {
+            "question": 23538,
+            "description": "I am working tirelessly to save our financial institutions. We need to come together and realize that if they go, we all go. \"Too big to fail\" is a lie; those spreading this thinking lead our economy down the drain!\n"
         }
     }
 ]
@@ -11674,7 +11756,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 20975,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": -0.008
+            "global_multiplier": 0.008
         }
     },
     {
@@ -11704,17 +11786,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 20976,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.01
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 20988,
-        "fields": {
-            "answer": 20978,
-            "candidate": 203,
-            "affected_candidate": 201,
-            "global_multiplier": 0.1
+            "global_multiplier": -0.01
         }
     },
     {
@@ -11723,8 +11795,8 @@ campaignTrail_temp.answer_score_global_json = [
         "fields": {
             "answer": 20978,
             "candidate": 201,
-            "affected_candidate": 200,
-            "global_multiplier": 0.02
+            "affected_candidate": 201,
+            "global_multiplier": -0.02
         }
     },
     {
@@ -11734,7 +11806,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 21009,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": -0.008
+            "global_multiplier": 0.012
         }
     },
     {
@@ -11759,22 +11831,12 @@ campaignTrail_temp.answer_score_global_json = [
     },
     {
         "model": "campaign_trail.answer_score_global",
-        "pk": 21022,
-        "fields": {
-            "answer": 21020,
-            "candidate": 203,
-            "affected_candidate": 201,
-            "global_multiplier": 0.1
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
         "pk": 21023,
         "fields": {
             "answer": 21020,
             "candidate": 201,
-            "affected_candidate": 200,
-            "global_multiplier": 0.02
+            "affected_candidate": 201,
+            "global_multiplier": -0.02
         }
     },
     {
@@ -16136,6 +16198,216 @@ campaignTrail_temp.answer_score_global_json = [
             "affected_candidate": 201,
             "global_multiplier": 0.013
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 23511,
+        "fields": {
+            "answer": 20977,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.008
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 23516,
+        "fields": {
+            "answer": 23514,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.008
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 23520,
+        "fields": {
+            "answer": 23518,
+            "candidate": 201,
+            "affected_candidate": 203,
+            "global_multiplier": 0.3
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 23521,
+        "fields": {
+            "answer": 23518,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 23525,
+        "fields": {
+            "answer": 23523,
+            "candidate": 201,
+            "affected_candidate": 203,
+            "global_multiplier": -0.3
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 23526,
+        "fields": {
+            "answer": 23523,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.008
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 23530,
+        "fields": {
+            "answer": 23528,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 23531,
+        "fields": {
+            "answer": 23514,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 23532,
+        "fields": {
+            "answer": 23518,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 23533,
+        "fields": {
+            "answer": 23523,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 23534,
+        "fields": {
+            "answer": 23528,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 23537,
+        "fields": {
+            "answer": 21017,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 23541,
+        "fields": {
+            "answer": 23539,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.012
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 23545,
+        "fields": {
+            "answer": 23543,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.004
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 23549,
+        "fields": {
+            "answer": 23547,
+            "candidate": 203,
+            "affected_candidate": 201,
+            "global_multiplier": 0.3
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 23550,
+        "fields": {
+            "answer": 23547,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 23554,
+        "fields": {
+            "answer": 23552,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 23555,
+        "fields": {
+            "answer": 23543,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 23556,
+        "fields": {
+            "answer": 23539,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 23557,
+        "fields": {
+            "answer": 23547,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 23558,
+        "fields": {
+            "answer": 23552,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.05
+        }
     }
 ]
 
@@ -16647,16 +16919,6 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 21012,
             "issue": 102,
             "issue_score": 0.5,
-            "issue_importance": 8
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 21024,
-        "fields": {
-            "answer": 21020,
-            "issue": 103,
-            "issue_score": 0.7,
             "issue_importance": 8
         }
     },
@@ -18778,6 +19040,106 @@ campaignTrail_temp.answer_score_issue_json = [
             "issue": "100",
             "issue_score": -0.7,
             "issue_importance": 9
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 23510,
+        "fields": {
+            "answer": 20975,
+            "issue": "100",
+            "issue_score": 0.9,
+            "issue_importance": 8
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 23512,
+        "fields": {
+            "answer": 20977,
+            "issue": 102,
+            "issue_score": -0.8,
+            "issue_importance": 6
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 23517,
+        "fields": {
+            "answer": 23514,
+            "issue": "100",
+            "issue_score": 0.9,
+            "issue_importance": 8
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 23522,
+        "fields": {
+            "answer": 23518,
+            "issue": 102,
+            "issue_score": 0.5,
+            "issue_importance": 8
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 23527,
+        "fields": {
+            "answer": 23523,
+            "issue": 102,
+            "issue_score": -0.8,
+            "issue_importance": 6
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 23535,
+        "fields": {
+            "answer": 21009,
+            "issue": "100",
+            "issue_score": 0.9,
+            "issue_importance": 7
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 23536,
+        "fields": {
+            "answer": 21017,
+            "issue": 102,
+            "issue_score": 0.5,
+            "issue_importance": 5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 23542,
+        "fields": {
+            "answer": 23539,
+            "issue": "100",
+            "issue_score": 0.9,
+            "issue_importance": 7
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 23546,
+        "fields": {
+            "answer": 23543,
+            "issue": 102,
+            "issue_score": 0.5,
+            "issue_importance": 8
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 23551,
+        "fields": {
+            "answer": 23547,
+            "issue": 102,
+            "issue_score": 0.5,
+            "issue_importance": 5
         }
     }
 ]
@@ -27387,7 +27749,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 20969,
             "candidate": 201,
-            "answer_feedback": "Public pressure on Boehner wears him down, and he agrees to a moderate stimulus plan. However, you are steering public opinion, which may be your best path toward reelection.\n"
+            "answer_feedback": "Public pressure on Boehner wears him down, and he agrees to a moderate stimulus plan that includes bailouts for key finacial institutions. You are steering public opinion, which may be your best path toward reelection.\n"
         }
     },
     {
@@ -27396,7 +27758,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 20975,
             "candidate": 201,
-            "answer_feedback": "Your speech on uniting Americans, backed by other speakers such as former Vice President Gore and Governor Kaine, keeps the convention satisfied, but you have yet to galvanize much excitement by playing it safe."
+            "answer_feedback": "You go over long and arduous economic policies, blaming this recession on the handicapping of Glass-Steagels and relaxed housing market initiatives meant to allow greater growth but led to unstable lending practices. You've blamed the right people, but you must prove it and make them pay."
         }
     },
     {
@@ -27405,7 +27767,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 20976,
             "candidate": 201,
-            "answer_feedback": "Your speech backed by Senators Clinton and Biden send the convention roaring, however the anti war protests outside grow ever louder as the Iraq Quagmire goes unmentioned"
+            "answer_feedback": "Targeting terrorism in your speech makes you sound awfully like a Republican. Strong foreign policy advocates back you, but the protests outside somewhat overshadowed the moment, and Republicans are eager to depress your voter turnout"
         }
     },
     {
@@ -27414,7 +27776,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 20977,
             "candidate": 201,
-            "answer_feedback": "Your speech divides the convention, while your olive branch to Senator Obama and Representative Kucinich has resulted in a half-hearted endorsement of something they vehemently oppose."
+            "answer_feedback": "Your speech divides the convention, while your olive branch to Senator Obama and Representative Kucinich has resulted in a half-hearted endorsement of something they vehemently oppose. Republicans are ready to feast on this resentment."
         }
     },
     {
@@ -27423,7 +27785,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 20978,
             "candidate": 201,
-            "answer_feedback": "This rhetoric backed by uncomfortable speakers such as Senator Obama and Senator Clinton galvanized your base, but the moderates will give you hell for it at the voting booth."
+            "answer_feedback": "You've gone after the the criminals peddling crap to their audiences. While it's easy to throw blame, you've forgotten that most oppose the bailouts of many of these financial institutions. Soon, protests against further bank bailouts drown your convention as Republicans sit back and cackle."
         }
     },
     {
@@ -27432,7 +27794,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 21009,
             "candidate": 201,
-            "answer_feedback": "Your speech on uniting Americans, backed by other speakers such as former Vice President Gore and Governor Kaine, keeps the convention satisfied, but you have yet to galvanize much excitement by playing it safe."
+            "answer_feedback": "You go over long and arduous economic policies, blaming this recession on the handicapping of Glass-Steagels and relaxed housing market initiatives meant to allow greater growth but led to unstable lending practices. You've blamed the right people, but you must prove it and make them pay.\n"
         }
     },
     {
@@ -27450,7 +27812,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 21017,
             "candidate": 201,
-            "answer_feedback": "Backed by strong speakers such as Senator Obama and Representative Kucinich galvanized the liberals behind your withdrawal from Iraq. Beware as you stand over the red abyss of war hawks ready to come up from the underworld and siege Olympus."
+            "answer_feedback": "The Policy Coup becomes your number one catchphrase as you galvanize your left wing into an offensive. Be warned, though, that this is a dangerous strategy to take if Iraq is in a quandary; Republicans will be ready to take full advantage of it."
         }
     },
     {
@@ -27459,7 +27821,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 21020,
             "candidate": 201,
-            "answer_feedback": "This rhetoric backed by uncomfortable speakers such as Senator Obama and Senator Clinton galvanized your base, but the moderates will give you hell for it at the voting booth."
+            "answer_feedback": "You've gone after the the criminals peddling crap to their audiences. While it's easy to throw blame, you've forgotten that most oppose the bailouts of many of these financial institutions. Soon, protests against further bank bailouts drown your convention as Republicans sit back and cackle."
         }
     },
     {
@@ -30881,6 +31243,78 @@ campaignTrail_temp.answer_feedback_json = [
             "candidate": 201,
             "answer_feedback": "Columba Bush has taken a back seat, making minimal appearances, so when Jeb catches wind of these ads circling around, he demands you come clean. However, there's no traceable footprint to your campaign. You've dropped the non-partisan gloves, and playing dirty may be your only way out."
         }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 23515,
+        "fields": {
+            "answer": 23514,
+            "candidate": 201,
+            "answer_feedback": "With Fannie Mae and Freddie Mac gone and more to follow, if Republicans continue to refuse action, this may be your best bet. However, this is your economy, and even if they are screwing you over, the captain will go down with his ship."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 23519,
+        "fields": {
+            "answer": 23518,
+            "candidate": 201,
+            "answer_feedback": "Targeting terrorism in your speech makes you sound awfully like a Republican. Strong foreign policy advocates back you, but the protests outside somewhat overshadowed the moment, and Republicans are eager to depress your voter turnout"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 23524,
+        "fields": {
+            "answer": 23523,
+            "candidate": 201,
+            "answer_feedback": "Your speech divides the convention, while your olive branch to Senator Obama and Representative Kucinich has resulted in a half-hearted endorsement of something they vehemently oppose. Republicans are ready to feast on this resentment."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 23529,
+        "fields": {
+            "answer": 23528,
+            "candidate": 201,
+            "answer_feedback": "You've gone after the the criminals peddling crap to their audiences. While it's easy to throw blame, you've forgotten that most oppose the bailouts of many of these financial institutions. Soon, protests against further bank bailouts drown your convention as Republicans sit back and cackle."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 23540,
+        "fields": {
+            "answer": 23539,
+            "candidate": 201,
+            "answer_feedback": "You go over long and arduous economic policies, blaming this recession on the handicapping of Glass-Steagels and relaxed housing market initiatives meant to allow greater growth but led to unstable lending practices. You've blamed the right people, but you must prove it and make them pay.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 23544,
+        "fields": {
+            "answer": 23543,
+            "candidate": 201,
+            "answer_feedback": "While your speech was well received, Senator Biden and Clinton's words ring hollow as they struggled to support the direction in which you've taken the nation's foreign policy. \n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 23548,
+        "fields": {
+            "answer": 23547,
+            "candidate": 201,
+            "answer_feedback": "The Policy Coup becomes your number one catchphrase as you galvanize your left wing into an offensive. Be warned, though, that this is a dangerous strategy to take if Iraq is in a quandary; Republicans will be ready to take full advantage of it."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 23553,
+        "fields": {
+            "answer": 23552,
+            "candidate": 201,
+            "answer_feedback": "You've gone after the the criminals peddling crap to their audiences. While it's easy to throw blame, you've forgotten that most oppose the bailouts of many of these financial institutions. Soon, protests against further bank bailouts drown your convention as Republicans sit back and cackle."
+        }
     }
 ]
 
@@ -30909,7 +31343,6 @@ campaignTrail_temp.jet_data = [{
 
 
 
-
 e.cyoa = true
 var Dem = 0;
 var Gay = 0;
@@ -30929,6 +31362,7 @@ var Sant = 0;
 var Dumb = 0;
 var Boner = 0;
 var Pelosi = 0;
+var Fred = 0;
 var Russia = 0;
 var Opp = 0;
 var Back = 0;
@@ -31565,14 +31999,6 @@ cyoAdventure = function(a) {
     }
     }
 
-    ///DNC based on troop surge oe nah 
-    if (ans == 5262) {
-        campaignTrail_temp.questions_json[13] = tunnel(20974)
-    }
-
-    if (ans == 5263) {
-        campaignTrail_temp.questions_json[13] = tunnel(21008);
-    }
 
 
 
@@ -31598,11 +32024,44 @@ if (e.noCounter == 11) {
 
     ///Economy
 if (e.noCounter == 12) {
-    if (Win > 5) {
+    if (Boner > 0) {
         campaignTrail_temp.questions_json[12] = tunnel(20957); 
     }
-    if (Win > 7) {
+    if (Pelosi > 0) {
         campaignTrail_temp.questions_json[12] = tunnel(22489); 
+    }
+}
+
+    ///do you save finacial institutions
+    if(ans == 20964 ){
+        Fred += 1;
+    }
+    if(ans == 20969 ){
+        Fred += 1;
+    }
+    if(ans == 22490 ){
+        Fred += 1;
+    }
+    if(ans == 22493 ){
+        Fred += 1;
+    }
+    if(ans == 22874 ){
+        Fred += 1;
+    }
+
+    ///DNC based on troop surge oe nah and or freddie mac colllapse
+    if (e.noCounter == 13) {
+    if (Troops > 0 && Fred > 0) {
+        campaignTrail_temp.questions_json[13] = tunnel(20974)
+    }
+    else if (Troops > 0) {
+        campaignTrail_temp.questions_json[13] = tunnel(23513)
+    }
+    if (Notroops > 0 && Fred > 0) {
+        campaignTrail_temp.questions_json[13] = tunnel(21008);
+    }
+    else if (Notroops > 0) {
+        campaignTrail_temp.questions_json[13] = tunnel(23538);
     }
 }
 
