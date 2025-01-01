@@ -139,7 +139,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1069,
         "fields": {
             "priority": 7,
-            "description": "Across the world, a tiny country on the border of Putin's regime is struggling to keep its independence in the face of Russia's interests. Secretary Kerry visited the young nation in hopes of securing its independence, favoring the approach of letting Georgia decide its path. Georgia is looking to join NATO, making relations with Russia turbulent. How will you deal with this conflict, Wes?",
+            "description": "The Cyclops can't help but stare at what it desperately wants: a tiny country on the border of Putin's regime is struggling to keep its independence in the face of Russia's interests. Secretary Kerry visited the young nation hoping to secure its independence, favoring the approach of letting Georgia decide its path. Georgia is looking to join NATO, making relations with Russia turbulent. How will you deal with this conflict, Wes?",
             "likelihood": 1
         }
     },
@@ -157,7 +157,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1066,
         "fields": {
             "priority": -7,
-            "description": "The news is grave: Lehman Brothers is heading toward a total collapse. Their Bankruptcy will only serve to spill oil onto the flames of the economic crisis. Lehman Brothers is bouncing around like a pinball machine, desperate to come to some sort of deal to avoid Bankruptcy. Most of Congress and the public are steadfastly against bailing them out. The Federal Reserve is equally unwilling to step in on Lehman Brothers' behalf.\n",
+            "description": "This is it; you're facing a Typhon, and it's ready to destroy you. Lehman Brothers is heading toward a total collapse. Their Bankruptcy will only serve to spill oil onto the flames of the economic crisis. Lehman Brothers is bouncing around like a pinball machine, desperate to come to some sort of deal to avoid Bankruptcy. Most of Congress and the public are steadfastly against bailing them out. The Federal Reserve is equally unwilling to step in on Lehman Brothers' behalf.\n",
             "likelihood": 1
         }
     },
@@ -832,7 +832,7 @@ campaignTrail_temp.questions_json = [
         "pk": 22019,
         "fields": {
             "priority": 0,
-            "description": "The fight for democracy was abandoned, and with it, the hopes for Iraqi freedom. Secretary Kerry and Levin enter the oval with solemn looks on their faces. They hand you the reports from Iraq, and it's a disaster. What's left of the coalition forces is in full retreat as insurgents continue to launch assault after assault on civilians and American soldiers. The images are horrifying, and your approval ratings, already sunk by the economy, sink further. How will you respond to these events, Wes?",
+            "description": "The fight for democracy was abandoned, and with it, the hopes for Iraqi freedom. Secretary Kerry and Levin enter the oval with solemn looks on their faces. They hand you the reports from Iraq, and it's a disaster. What's left of the coalition forces is in full retreat as insurgents continue to launch assault after assault on civilians and American soldiers. The images are horrifying, and your approval ratings, already sunk by the economy, sink further. A Sphinx demands you solve a riddle, or this will devour you. How will you respond to these events, Wes?",
             "likelihood": 1
         }
     },
@@ -841,7 +841,7 @@ campaignTrail_temp.questions_json = [
         "pk": 22034,
         "fields": {
             "priority": 0,
-            "description": "Slowly but surely, your decision to call for a troop surge in Iraq is vindicated. Secretary Kerry and Secretary Levine pass you the reports, and as you look them over, your smile begins to show. The situation in Iraq has stabilized, and the media finally has something good to chew on from your administration. The anti-war sentiment has dimmed, as guys like Kucinich and Gravel seem small. How will you capitalize on this significant victory?",
+            "description": "Slowly but surely, your decision to call for a troop surge in Iraq is vindicated. Secretary Kerry and Secretary Levine pass you the reports, and your smile begins to show as you look them over. The situation in Iraq has stabilized, and the media finally has something good to chew on from your administration. The anti-war sentiment has dimmed, as guys like Kucinich and Gravel seem small. Despite the success, an emboldened Cerberus lies ahead, ready to block your passage if you do not blend with your newfound support.  How will you capitalize on this significant victory?",
             "likelihood": 1
         }
     },
@@ -1228,7 +1228,7 @@ campaignTrail_temp.questions_json = [
         "pk": 23482,
         "fields": {
             "priority": 0,
-            "description": "The fight for democracy was abandoned, and with it, the hopes for Iraqi freedom. Secretary Kerry and Levin enter the oval with solemn looks on their faces. They hand you the reports from Iraq, and it's a disaster. What's left of the coalition forces is in full retreat as insurgents continue to launch assault after assault on civilians and American soldiers. The images are horrifying, and your approval ratings, already sunk by the economy, sink further. How will you respond to these events, Wes?",
+            "description": "The fight for democracy was abandoned, and with it, the hopes for Iraqi freedom. Secretary Kerry and Levin enter the oval with solemn looks on their faces. They hand you the reports from Iraq, and it's a disaster. What's left of the coalition forces is in full retreat as insurgents continue to launch assault after assault on civilians and American soldiers. The images are horrifying, and your approval ratings, already sunk by the economy, sink further. A Sphinx demands you solve a riddle, or this will devour you. How will you respond to these events, Wes?",
             "likelihood": 1
         }
     },
@@ -3866,7 +3866,7 @@ campaignTrail_temp.answers_json = [
         "pk": 22507,
         "fields": {
             "question": 22506,
-            "description": "We ought to be bright with our proposal. We can't waste more time; the Emergency Economic Reform and Relief Act must pass. We'll pull some of the banking reforms from the bill as a preemptive measure.\n"
+            "description": "We ought to be smart with our proposal. We can't waste more time; the Emergency Economic Reform and Relief Act must pass. As a preemptive measure, we'll remove some of the banking reforms from the bill.\n"
         }
     },
     {
