@@ -409,7 +409,7 @@ campaignTrail_temp.questions_json = [
         "pk": 21228,
         "fields": {
             "priority": 0,
-            "description": "Rage - boiled over - nowhere to run or hide. \nThere is no compassion, there is no sensibility, and there is only one sentiment: total and unadulterated destruction of you. Senator Sam Brownback of Kansas has done it. He takes the podium alongside Christian conservative rising star Representative Michelle Bachmann. In a hate-inspired campaign, he's turned the dormant Christian Republicans into an army of vitriol-spewing nutcases. Now, with the Republican party finally in tune with its TRUE majority, he plans to reshape Olympus to his whims. How will you keep Olympus from falling to its darkest desires, Clark?\n",
+            "description": "Rage - boiled over - nowhere to run or hide. \nThere is no compassion, there is no sensibility, and there is only one sentiment: total and unadulterated destruction of you. Senator Sam Brownback of Kansas has done it. He takes the podium alongside Christian conservative rising star Representative Michelle Bachmann. In a hate-inspired campaign, he's turned the dormant Christian Republicans into an army of vitriol-spewing nutcases. Now, with the Republican party finally in tune with its TRUE majority, he plans to reshape Olympus to his whims. How will you keep us from falling to our darkest desires, Clark?\n",
             "likelihood": 1
         }
     },
@@ -679,7 +679,7 @@ campaignTrail_temp.questions_json = [
         "pk": 21727,
         "fields": {
             "priority": 0,
-            "description": "Horns are blowing louder and louder. Even with stability brought abroad, the army of liberty marches forth. Ron Paul is on the stage, ready to take this fight to Olympus. Most big Republican donors have abandoned him, but he continues to set records in money racked in from the internet and other grassroots chicanery. The anti-war movement has hit its crescendo moment, and Ron Paul lets it scream loud and clear. This is a people's fight to set the record straight and escape Iraq. His promise is the one you backed away from. How do you respond, Wes?",
+            "description": "Horns are blowing louder and louder. Even with stability brought abroad, the army of liberty marches forth. Ron Paul is on the stage, ready to take this fight to Olympus. Most big Republican donors have abandoned him, but he continues to set records in money racked in from the internet and other grassroots chicanery. The anti-war movement has hit its crescendo moment, and he lets it scream loud and clear. This is a people's fight to set the record straight and escape Iraq. His promise is the one you backed away from. How do you respond, Wes?",
             "likelihood": 1
         }
     },
@@ -3418,7 +3418,7 @@ campaignTrail_temp.answers_json = [
         "pk": 22027,
         "fields": {
             "question": 22019,
-            "description": "After working with the Republican-dominated Congress, they didn't believe that the United States should act to prevent another war in the Balkan in the '90s. I find myself doubting the intentions of the current one. Republicans are desperate to throw me under the bus and will shovel their own beliefs in the hole with me.\n"
+            "description": "After working with the Republican-dominated Congress, they didn't believe that the United States should act to prevent another war in the Balkan in the '90s. Republicans are desperate to throw me under the bus and will shovel their own beliefs in the hole with me.\n"
         }
     },
     {
@@ -5122,7 +5122,7 @@ campaignTrail_temp.answers_json = [
         "pk": 23490,
         "fields": {
             "question": 23482,
-            "description": "After working with the Republican-dominated Congress, they didn't believe that the United States should act to prevent another war in the Balkan in the '90s. I find myself doubting the intentions of the current one. Republicans are desperate to throw me under the bus and will shovel their own beliefs in the hole with me.\n"
+            "description": "After working with the Republican-dominated Congress, they didn't believe that the United States should act to prevent another war in the Balkan in the '90s. Republicans are desperate to throw me under the bus and will shovel their own beliefs in the hole with me.\n"
         }
     },
     {
@@ -27930,7 +27930,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 20890,
             "candidate": 201,
-            "answer_feedback": "Democrats up on Olympus fight tooth and nail for something, anything, and by some grace of God, a compromise is made. The Bush Tax Cuts are no more. Representative Ron Paul vows to undo your tax hikes come reelection."
+            "answer_feedback": "Democrats up on Olympus fight tooth and nail for something, anything, and by some grace of God, a compromise is made. The Bush Tax Cuts are no more. Representative Paul vows to undo your tax hikes come reelection."
         }
     },
     {
@@ -32862,7 +32862,10 @@ if (e.noCounter == 23) {
     if (Dem == 7) {
         campaignTrail_temp.questions_json[23] = tunnel(22017); 
     }
-    if (Dem == 8) {
+    if (ans == 22896 && Dem == 8) {
+        campaignTrail_temp.questions_json[23] = tunnel(22141); 
+    }
+    else if (Dem == 8) {
         campaignTrail_temp.questions_json[23] = tunnel(22197); 
     }
 }
@@ -32942,28 +32945,28 @@ if (e.noCounter == 26) {
     if (Russia > 4 && Dumb > 0 && Dem > 0) {
         campaignTrail_temp.questions_json[26] = tunnel(22609); 
     }
-    if (Dem == 1) {
+    else if (Dem == 1) {
         campaignTrail_temp.questions_json[26] = tunnel(22933); 
     }
-    if (Dem == 2) {
+    else if (Dem == 2) {
         campaignTrail_temp.questions_json[26] = tunnel(22935); 
     }
-    if (Dem == 3) {
+    else if (Dem == 3) {
         campaignTrail_temp.questions_json[26] = tunnel(22912); 
     }
-    if (Dem == 4) {
+    else if (Dem == 4) {
         campaignTrail_temp.questions_json[26] = tunnel(22936); 
     }
-    if (Dem == 5) {
+    else if (Dem == 5) {
         campaignTrail_temp.questions_json[26] = tunnel(22934); 
     }
-    if (Dem == 6) {
+    else if (Dem == 6) {
         campaignTrail_temp.questions_json[26] = tunnel(22932); 
     }
-    if (Dem == 7) {
+    else if (Dem == 7) {
         campaignTrail_temp.questions_json[26] = tunnel(22937); 
     }
-    if (Dem == 8) {
+    else if (Dem == 8) {
         campaignTrail_temp.questions_json[26] = tunnel(22938); 
     }
 }
@@ -33144,7 +33147,7 @@ const mccainWin = new Playlist();
 mccainWin.addSong(mccainWinSong);
 changePlaylist(mccainWin);
 }
-else if (quickstats[0] <= 270 && Dem == 1) { // Weak Defeat - McCain
+else if (quickstats[0] <= 269 && Dem == 1) { // Weak Defeat - McCain
 e.pages.push(`<h3><i>No Apologies</i></h3>
           <p><b>When he prepared to take flight, Icarus knew it'd be his last. The Maverick had taken the base who swept him into office the day he made that damn gaffe. He reminisced the good he had done or tried to do, now doubtful that his legacy would remain intact. The Maverick promised to undo it all, he'd bring back the massive surveillance, the war in Iraq and possibly expand it.</b></p> <p><b>Icarus could only lament as the states were called one by one, but a glimmer of hope would overtake his mind as states became to close to call. His staff made calls in and out of each swing state, it was close this was going to be decided by a few states. The team was sweating, was it possible? Could Icarus have actually turned the race around enough to win? The Maverick camp was equally ancy as Carl Rove ranted on FOX how it was impossible, Icarus couldn't be winning these states,</b></p> <p><i>it was too early to call</i> he said.</p> <p><b>Hanging on a prayer Icarus felt as if he was soaring. However his hopes were struck down along with him. The Maverick had won the tipping point state and Icarus was no more. The Maverick underperformed the polls severely however and the damned Traitor remains a dividing force within Republican circles. The Maverick's tenure would be marked by economic downturns and spiraling negativity. He got his desired tax cuts through congress but his cuts to Social Security would be filibusters into the ground. The Maverick was desperate to catch a win especially once the 2010 midterms swept the nation in a blue tsunami. Lacking options he focused solely on the mission of killing Osama Bin Laden. It wasn't easy but soon the nation would rejoice in unison.</b></p> <p><b>Even still the outlook hasn't looked great for the Maverick's reelection bid. A poorly timed health scare in 2011 sent the nation worrying but most importantly the Republican Party was terrified. A former Democrat too far out of the Republican mainstream was one deteriorating heartbeat away from the presidency. These fears were raised even higher when the Traitor convinced the president to back the repeal of Don't Ask Don't Tell. It was the last straw, the Traitor had to go and maybe even the Maverick.</b></p>`)
           // idk how to add playlists but to do that you create a new playlist in code1 with just that song and put changePlaylist(nameOfYourEndingPlaylist) right here
@@ -33159,6 +33162,22 @@ const mccainWin = new Playlist();
   );
 mccainWin.addSong(mccainWinSong);
 changePlaylist(mccainWin);
+}
+if (quickstats[0] <= 269 && Dem == 7) { // Weak Defeat - Brownback
+e.pages.push(`<h3><i>Engulfed</i></h3>
+          <p><b>Olympus depended on Icarus to save it from the Underworld; The "God" Warrior pointed a hoard in his direction. The preacher of all of what's supposedly holy had only one emotion to convey: hate. Icarus prepared his wings and armor; this was not going to be easy; Olympus's defenses were strong, many believed they would hold against The God Warrior's primal tactics.</b></p> <p><b>However, the gates were blown open by a holy light, and a great hoard took the courtyard by storm. Icarus watched as his brave soldier fought them off, wave after wave. As he prepared to take flight, he remembered the warnings all his advisors had offered him. He could have prevented this; he should have averted this battle.</b></p> <p><b>It was too late for second thoughts. The God Warrior was in sight, and so Icarus took flight. He looked down at the battlefield, and it looked like Olympus could be saved. That was until a bright and scorching light blew him back. Icarus fell from high and cratered into the staircase into the palace. When Icarus opened his eyes, he saw that the tide had turned.</b></p> <p><b>The defense was failing, and it was all turning red. He limped back into the palace, hearing the vulnerable populous squeal and wail as the "Holy Men" dragged them out of their homes and beat them down. All those Icarus had sworn to protect were to be subjected to The God Warrior's whims and desires.</b></p><p><b>As Icarus collapsed onto the carpet leading to his throne, he was engulfed by a shadow. He heard footsteps grow closer as blood traveled down the walls. Icarus lifted himself to look at his dastardly foe. He felt fear as he looked into the lifeless eyes of a man holding zero empathy for his actions. Icarus collapsed again, and The God Warrior walked right over him to take his place on the throne.</b></p>`)
+          // idk how to add playlists but to do that you create a new playlist in code1 with just that song and put changePlaylist(nameOfYourEndingPlaylist) right here
+//e.image = ""
+e.executable.push([0, (() => {e.image = e.image = 'https://i.imgur.com/7gRjA4m.png'})])
+const brownbackWin = new Playlist();
+  const brownbackWinSong = new Song(
+    "Under Pressure (Aftersun Version)",
+    "Queen",
+    "https://i.imgur.com/z3Bzw9i.gif",
+    "https://audio.jukehost.co.uk/XlqOkzXpCoVAgjK2GrztwHCneqmhH5VB"
+  );
+brownbackWin.addSong(brownbackWinSong);
+changePlaylist(brownbackWin);
 }
 if (quickstats[0] <= 140 && Dem == 8 && Russia > 3) { // Landslide Defeat - Cheney
 e.pages.push(`<h3><i>Icarus</i></h3>
@@ -33192,16 +33211,33 @@ const cheneyWin = new Playlist();
 cheneyWin.addSong(cheneyWinSong);
 changePlaylist(cheneyWin);
 }
-// flavors
+// policy push
 if ( quickstats[0] <= 190 && Dem == 1) { // Feingold supremacy
 e.pages.push(`<h3>Politico: <i>The Blue Wave came, and it swept away McCain's mandate.</i></h3>
 <p><b>Opinion:</b> <u>President John McCain rode into the White House on the economic woes of the Clark Administration. He's a man elected not because what he brought to the table was popular but because the other guy was an idiot.</b> <p>The complete collapse of the president's mandate proves that. Democrats nationwide ran on four words: "He Killed Social Security." The McCain administration knew this insurmountable task was unpopular, and his trips throughout the states to make the bill to reform the system seem popular only hurt its public view. McCain's refusal to cut taxes as a compromise for the bill eliminated all and any support from the opposition. However, what hurt him most was the collapse of the support within the Republican base. The old folk who relied on Social Security felt uncomfortable with his reforms. Regardless, by the summer of 09, he didn't seem to waver in supporting such a plan.</p><p>Public opinion hit a boiling point, but McCain still had the numbers to get what he wanted to be passed. So he ignored the normality of representing the people and forced upon America a "tough pill to swallow." Democrats tried to pull any tricks they could to combat the bill, but they lacked the numbers to stop it, and Republicans sent the bill through. Well, now, here we are. The American people have rejected the McCain administration's pill. House Speaker Nancy Pelosi has the numbers to comfortably stalemate whatever McCain may bring from here. It looks like President McCain has accepted the fact that his domestic agenda has been slain and has set his eyes abroad. The redeployment of troops into Iraq and Afghanistan was only the start of McCain's war-hungry agenda.</p><br><b>Politico Coverage</b><br><span style="color:white;"><u>Senator Russ Feingold launched a political action committee to explore the possibility of running for president in the 2012 election.</span></u><br><span style="color:white;"><u>Senator-elect Charlie Crist announces he will caucus with the Democratic Party.</span></u><br><span style="color:white;"><u>Governor Dave Freudenthal's gamble on challenging Wyoming Governor term limits paid off, reelected by slim margins.</p>`)
 e.executable.push([1, (() => {e.image = e.image = 'https://i.imgur.com/1gDIhjc.png'})])
 }
-else if ( quickstats[0] <= 270 && Dem == 1 && Dadt == 0) { // Lieberman drops out of clown college
+else if ( quickstats[0] <= 269 && Dem == 1 && Dadt == 0) { // Lieberman drops out of clown college
 e.pages.push(`<h3>Esquire: <i>Vice President Lieberman announces he will not run for reelection in 2012.</i></h3>
-<p><b>Announcement:</b> <u>At a press conference this morning, Vice President Lieberman announced his wish to retire from politics and said he would not seek the Republican Vice Presidential nomination again.</u><br><br> "I'm making this decision for my family, and it has absolutely nothing to do with President McCain's reelection bid."</b><br><u> This announcement comes amid President McCain's brutal battle with former Senator Rick Santorum in the Republican primaries. Lieberman has stood as a political liability for the President, holding an approval rating below 29%. Vice President Lieberman made himself an enemy of the Democratic Party after he pushed for the "Internet Kill Switch." Republicans hold very little love for the Vice president, especially after Lieberman pushed for repealing Don't Ask, Don't Tell, which was among the reasons former Senator Santorum launched his primary challenge to President McCain.<br><br>This development has sent a ripple through the Republican Party, and many say it might save President McCain's chances in the Republican Primaries. Whether the President can win the general election remains to be seen.<br><br><b>Esquire Coverage</b><br><span style="color:white;"><u>Santorum's upset win in Iowa, how did we get here?</span></u> (Jan 4th 2012)<br><span style="color:white;"><u>McCain holds the line in New Hampshire</span></u> (Jan 11th 2012)<br><span style="color:white;"><u>McCain barely holds off Santorum in South Carolina, reelection prospects look grim</span></u> (Jan 22nd 2012)<br><span style="color:white;"><u>McCain hits Florida begging for votes</span></u> (Jan 26th 2012)</p>`)
+<p><b>Announcement:</b> At a press conference this morning, Vice President Lieberman announced his wish to retire from politics and said he would not seek the Republican Vice Presidential nomination again.</u><br><br> "I'm making this decision for my family, and it has absolutely nothing to do with President McCain's reelection bid."</b><br><u> This announcement comes amid President McCain's brutal battle with former Senator Rick Santorum in the Republican primaries. Lieberman has stood as a political liability for the President, holding an approval rating below 29%. Vice President Lieberman made himself an enemy of the Democratic Party after he pushed for the "Internet Kill Switch." Republicans hold very little love for the Vice president, especially after Lieberman pushed for repealing Don't Ask, Don't Tell, which was among the reasons former Senator Santorum launched his primary challenge to President McCain.<br><br>This development has sent a ripple through the Republican Party, and many say it might save President McCain's chances in the Republican Primaries. Whether the President can win the general election remains to be seen.<br><br><b>Esquire Coverage</b><br><span style="color:white;"><u>Santorum's upset win in Iowa, how did we get here?</span></u> (Jan 4th 2012)<br><span style="color:white;"><u>McCain holds the line in New Hampshire</span></u> (Jan 11th 2012)<br><span style="color:white;"><u>McCain barely holds off Santorum in South Carolina, reelection prospects look grim</span></u> (Jan 22nd 2012)<br><span style="color:white;"><u>McCain hits Florida begging for votes</span></u> (Jan 26th 2012)</p>`)
 e.executable.push([1, (() => {e.image = e.image = 'https://i.imgur.com/uF3VTNT.png'})])
+}
+if ( quickstats[0] <= 269 && Dem == 7) { // FMA
+e.pages.push(`<h3><i>President celebrates passage of the Federal Marriage Amendment</i></h3>
+<p><b>Remarks by the President</b></p> <p><b>The Briefing Room</b></p><p>10:43 A.M. EST</p> <p><b>THE PRESIDENT:</b>Good Morning, 2 years ago I promised you that I would protect marriage and firmly end the efforts of activist judges and state legislatures of trying to destroy the sanctity of our Christian faith.</p><p>I'm happy to announce that the Federal Marriage Amendment has passed the House by 237-198 and the Senate by 61-37. This is a monumental victory not only for protecting our faith but eliminating this pointless partisan issue.</p><p>The amendment declares that: (1) marriage in the United States shall consist only of the union of a man and a woman; and (2) neither the U.S. Constitution nor the constitution of any state shall be construed to require that marriage or the legal incidents of marriage be conferred upon any other union.</p><p>After more than two centuries of basic common decency being followed my hand was forced after rogue justices declared what a millennia of human experience had never dreamed of allowing. While I wish this issue could have solely been relegated to the states I understand that the people's voice must come before the voices of these activist judges.</p><p>I believe our nation can now truly pursue greater progress while still following the word of God. Human experience has proven that the commitment of a husband and wife to love and to serve one another promotes the welfare of children and the stability of society. The good nature of our society is reliant on these core beliefs. We all should and must follow the Bible, long has the government ignored its power. The separation of church and state was a norm not a rule and its time we realize that these norms cannot be followed if the government seeks to meddle in issues that the Bible is concerned with.</p><p>This is a great victory for all under God and I hope the American public comes to appreciate it.</p><p>Thank you very much.</p><p>END 10:47 A.M. EST</p>`)
+e.executable.push([1, (() => {e.image = e.image = 'https://i.imgur.com/iKKfILD.png'})])
+}
+// midterm
+if ( quickstats[0] <= 269 && Dem == 7) { // suicide
+e.pages.push(`<h3>NBC NEWS: <i>Mother of gay South Carolina teen who died by suicide claims his school participated in his untimely demise.</i></h3>
+<p><b>August 12, 2010, 12:57 PM EDT / Updated August 12, 2010, 6:53 PM EDT</b></p> <p><b>By Janet Griffin</b></p><p>The mother of a recently passed gay teen alleges school and government played a part in the death of her son. She gave her public statement statement to NBC News reporters here:</p> <p>"After my son passed, I learned that he had several discussions about homosexuality with school administrators and was told that being gay was a choice, he was told that he was making a mistake. My son is dead, he wasn't a mistake, he wasn't making a choice and you are the people responsible for this. When the Vice President stands for bullying, when our President demonizes people for their sexuality, this is the result. Are you happy now, was it worth it, all you propagandists telling the world that people, kids like my son are dangerous? Just so you can pass some fucking amendment? Well guess what you got your wish, my son is dead, you killed my son President Brownback. I hope you're fucking happy."</p><p>Sadly, This news is one of many we've witnessed in the last few months. Mrs. James was gracious enough to share the note left behind from her son. Please be advised of its dark content.</p><p><b>"Dear Mom, I'm writing this to say goodbye and hopefully help give you comfort. Thank you for giving me life, I don't want you to cry, I need you to be strong. You were an amazing mother, nothing you could do would have changed my decision. I just can't handle it anymore, the name calling, the bullying it all hurts. If it was only that I could stay strong but I feel wrong, I'm able to ignore it most times but they make me feel so weak. They constantly tell me I'm a mistake, I don't know who found out I was gay but the rumor spread around the whole school and I feel other kids are constantly watching me. My friends won't talk to me anymore and when I tried to bring it up with Mrs. Shelby told me being gay was a choice. I don't know how I made the choice but I feel wrong and I just want everything to go back to normal. I want to be normal, but I can't. I don't know why I'm like this. Tell Alice she can have my room and that I'll miss her a lot. I'll miss you a lot mom, I want you to know that. This isn't your fault. It's mine. Goodbye."</b></p><p>Seeing the number of stories we're seeing come through is horrifying. Anti-bullying and gay rights activists have joined forces to protest and advocate for legislation and the repeal of the Federal Marriage Amendment. These tragedies make the case more apparent than ever. We need to do better, America; we need to be a kinder and more accepting nation.</p>`)
+e.executable.push([2, (() => {e.image = e.image = 'https://i.imgur.com/m8fWsw4.png'})])
+}
+// economy
+if ( quickstats[0] <= 269 && Dem == 7) { // suicide
+e.pages.push(`<h3>The Guardian: <i>China's economy to overtake U.S. in next two years, says OECD.</i></h3>
+<p><b>Josephine Moulds</b></p> <p>According to a leading international think tank, China will overtake the U.S. economy in the next two years and become the largest economy in the world by 2013.</p> <p>The Paris-based Organisation for Economic Co-operation and Development (OECD) said that due to the U.S. economy hitting its 7th consecutive quarter of GDP decline since President Brownback's "Great American Tax Experiment," China can overtake the U.S. economy by the end of 2012. Asa Johansson, senior economist at the OECD, said: "It is quite a shift in the balance of economic power we are going to see in the future."</p><p>The tax cuts were the largest in American history and caused massive budget shortfalls. To save the economy, the Republican House cut deep into education and transportation spending, which received an equally large backlash. When the 2010 midterms came, the massive majority Republicans held in both the Senate and House was obliterated. Now facing a volatile Democratic caucus, President Brownback has stubbornly barked at any reversal of his policies.</p><p>The global shockwave of the 2007-2008 global financial crash allowed this development's conditions to take place. Although the crash also hit China, the U.S. hit more significant downturns, and President Brownback's government mismanagement has turned what was once a recession into a full-scale depression, the likes of which hasn't been seen since the 1930s.</b></p><p>A bipartisan coalition is forming in the House and Senate, and it seeks to repeal most of the President's tax cuts despite his assurances that a bright future is ahead of the country. House Speaker Nancy Pelosi led the movements to repeal the tax cuts shortly after the 2010 midterms saw Democrats retake the House in a strong rebuke of the President. Whether repealing the tax cuts can reverse China's emergence as the world's leading economy remains to be seen.</p><p><b>Thu 2 Jan 2011 07.11 EST</b></p>`)
+e.executable.push([2, (() => {e.image = e.image = 'https://i.imgur.com/nOt4KoF.png'})])
 }
 return construct(0);
 }
