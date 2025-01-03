@@ -12051,7 +12051,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 21112,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.008
+            "global_multiplier": 0.014
         }
     },
     {
@@ -16551,7 +16551,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 23701,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.07
+            "global_multiplier": -0.07
         }
     },
     {
@@ -16561,7 +16561,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 23705,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.05
+            "global_multiplier": -0.05
         }
     },
     {
@@ -16571,7 +16571,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 23709,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.075
+            "global_multiplier": -0.075
         }
     },
     {
@@ -16581,7 +16581,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 23713,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.05
+            "global_multiplier": -0.05
         }
     },
     {
@@ -28552,7 +28552,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 21112,
             "candidate": 201,
-            "answer_feedback": "You've learned nothing from your battle with John Kerry in the 2004 primaries. Politics isn't a military rank. The American people don't care whether or not McCain is a lower rank than you."
+            "answer_feedback": "Giuliani will never escape the coat he hangs in his mistress's apartment. However, He's garnering enough notable conservative endorsements from the likes of Sam Brownback to stop the bleeding."
         }
     },
     {
