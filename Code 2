@@ -4,7 +4,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1042,
         "fields": {
             "priority": 1,
-            "description": "It was hard work. From slaying Senator Kerry's campaign in Iowa and New Hampshire to outlasting Dean and Edwards, the Democratic nomination is yours. Now, as the 2004 Democratic Convention commences, you must make a promise to your most die-hard supporters—a promise that you will march to the gates of Olympus with, a promise that you will fulfill. What shall it be, Clark?\n",
+            "description": "It was hard work. From slaying Senator Kerry's campaign in Iowa and New Hampshire to outlasting Dean and Edwards, the Democratic nomination is yours. Now, as the 2004 Democratic Convention commences with Iraq as its prevailing theme, you must make a promise to your most die-hard supporters—a promise that you will march to the gates of Olympus with, a promise that you will fulfill. What shall it be, Clark?",
             "likelihood": 1
         }
     },
@@ -13,7 +13,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1044,
         "fields": {
             "priority": 2,
-            "description": "You've slain the emperor presiding over the darkest hours of Olympus. No amount of fearmongering and partisan chicanery could save Bush. Democrats reclaimed the Senate by a hair and made gains in the House but fell short of a majority. However, it's not all sunshine and rainbows, as most Republicans you attempted to get on board as unity picks either ignored your calls or declined. You settled with the basics: Kerry at state, Levin at Defense, Altman at Treasury. Now, with cabinet picks put aside, the world is your oyster; by God, you better use it, Clark. Where shall you place focus for your first 100 days?",
+            "description": "No amount of fearmongering and partisan chicanery could save Bush, and you've slain the\nemperor presiding over the darkest deeds of Olympus. Democrats have reclaimed the\nSenate by a hair and made gains in the House but fell short of a majority. However, it's not\nall sunshine and rainbows, as most Republicans that you attempted to get on board as\nunity picks have either ignored your calls or declined outright. You settled with some\nbasics: Kerry at Senate, Levin at Defense, and Altman at Treasury alongside a smattering\nof less high-profile picks vetted for loyalty. Where will you place focus for your first\n100 days?",
             "likelihood": 1
         }
     },
@@ -31,7 +31,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1045,
         "fields": {
             "priority": 3,
-            "description": "You've successfully led the federal government’s response to Hurricane Katrina. Vice President Landrieu mainly played a crucial role in getting aid through the Senate despite the backlash from conservative jesters like Rush Limbaugh. Meanwhile, Secretary Kerry directed FEMA's immediate response. A competent administration can return home amid the ongoing Republican leadership crisis. House Majority Leader Tom DeLay has been indicted and resigned after much public pressure. With his resignation, the people's trust in the Republican Congress is gone. Minority Leader Pelosi meets with you to discuss how to take advantage of the situation. Hastert is too busy keeping House Republicans in line. What will you do, Mr. President?\n",
+            "description": "You've returned home to Washington after a round trip through states ripped to shreds by Hurricane Katrina, and you're informed that House Majority Tom Delay has been indicted and resigned after much public pressure. With his resignation, the people's trust in the Republican Congress has gone. Minority Leader Pelosi meets with you to discuss taking advantage of the situation. What will you do, Mr. President?",
             "likelihood": 1
         }
     },
@@ -157,7 +157,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1066,
         "fields": {
             "priority": -7,
-            "description": "This is it; you're facing a Typhon, and it's ready to destroy you. Lehman Brothers is heading toward a total collapse. Their Bankruptcy will only serve to spill oil onto the flames of the economic crisis. Lehman Brothers is bouncing around like a pinball machine, desperate to come to some sort of deal to avoid Bankruptcy. Most of Congress and the public are steadfastly against bailing them out. The Federal Reserve is equally unwilling to step in on Lehman Brothers' behalf.\n",
+            "description": "This is it; you're facing a Typhon, and it's ready to destroy you. Lehman Brothers is heading toward a total collapse. Their Bankruptcy will only serve to spill oil onto the flames of the economic crisis. Lehman Brothers is bouncing around like a pinball machine, desperate to come to some deal to avoid Bankruptcy. Most of Congress and the public are steadfastly against bailing them out. The Federal Reserve is unwilling to step in on Lehman Brothers' behalf. The Sphinx offers you a riddle of guidance. What will you do, Wes?\n",
             "likelihood": 1
         }
     },
@@ -274,7 +274,7 @@ campaignTrail_temp.questions_json = [
         "pk": 20889,
         "fields": {
             "priority": 0,
-            "description": "You've successfully led the federal government’s response to Hurricane Katrina. Vice President Landrieu mainly played a crucial role in getting aid through the Senate despite the backlash from conservative jesters like Rush Limbaugh. Meanwhile, Secretary Kerry directed FEMA's immediate response. A competent administration can return home amid the ongoing Republican leadership crisis. House Majority Leader Tom DeLay has been indicted and resigned after much public pressure. With his resignation, the people's trust in the Republican Congress is gone. Minority Leader Pelosi meets with you to discuss taking advantage of the situation. Hastert is too busy keeping House Republicans in line. What will you do, Mr. President?\n",
+            "description": "You've returned home to Washington after a round trip through states ripped to shreds by Hurricane Katrina, and you're informed that House Majority Tom Delay has been indicted and resigned after much public pressure. With his resignation, the people's trust in the Republican Congress has gone. Minority Leader Pelosi meets with you to discuss taking advantage of the situation. What will you do, Mr. President?",
             "likelihood": 1
         }
     },
@@ -283,7 +283,7 @@ campaignTrail_temp.questions_json = [
         "pk": 20896,
         "fields": {
             "priority": 0,
-            "description": "You've successfully led the federal government’s response to Hurricane Katrina. Vice President Landrieu mainly played a crucial role in getting aid through the Senate despite the backlash from conservative jesters like Rush Limbaugh. Meanwhile, Secretary Kerry directed FEMA's immediate response. A competent administration can return home amid the ongoing Republican leadership crisis. House Majority Leader Tom DeLay has been indicted and resigned after much public pressure. With his resignation, the people's trust in the Republican Congress is gone. Minority Leader Pelosi meets with you to discuss how to take advantage of the situation. Hastert is too busy keeping House Republicans in line. What will you do, Mr. President?\n",
+            "description": "You've returned home to Washington after a round trip through states ripped to shreds by Hurricane Katrina, and you're informed that House Majority Tom Delay has been indicted and resigned after much public pressure. With his resignation, the people's trust in the Republican Congress has gone. Minority Leader Pelosi meets with you to discuss taking advantage of the situation. What will you do, Mr. President?",
             "likelihood": 1
         }
     },
@@ -391,7 +391,7 @@ campaignTrail_temp.questions_json = [
         "pk": 21145,
         "fields": {
             "priority": 0,
-            "description": "The blistering lights and an impossible image at the Republican National Convention. The hall echos with cheers and shouting as the most controversial man in America steps up to the podium. Romney and Huckabee attempted to hold the line, but the trojan horse of libertarianism breached the convention. An indescribable atmosphere fills the room when Ron Paul grasps the podium with his equal, Gary Johnson, at his side, decrying your name. This is a complete repudiation of the established norms for Republicans as he rails into your foreign policy and the Patriot Act. The convention floor nearly breaks into fists as Paul's enemies are hunted and removed. Former President Bush barely gets time to speak as the Paul Acolytes do all they can to quell the face of interventionism. It's only you now, Clark. You're the only one standing in his way; how will you save Olympus from the darkness?\n",
+            "description": "The blistering lights and an impossible image at the Republican National Convention. Romney and Huckabee attempted to hold the line, but the trojan horse of libertarianism breached the convention. An indescribable atmosphere fills the room when Ron Paul grasps the podium with his equal, Gary Johnson, at his side, decrying your name.  Together, they rail into your foreign policy and the Patriot Act. The convention floor nearly breaks into fists as Paul's enemies are hunted and removed. Former President Bush barely gets time to speak as the Paul Acolytes do all they can to quell the face of interventionism. It's only you now, Clark. You're the only one standing in his way; how will you save Olympus from the darkness?\n",
             "likelihood": 1
         }
     },
@@ -1093,7 +1093,7 @@ campaignTrail_temp.questions_json = [
         "pk": 22846,
         "fields": {
             "priority": 0,
-            "description": "You've successfully led the federal government's response to Hurricane Katrina. Vice President Landrieu mainly played a crucial role in getting aid through the Senate despite the backlash from conservative jesters like Rush Limbaugh. Meanwhile, Secretary Kerry directed FEMA's immediate response. A competent administration can return home amid the ongoing Republican leadership crisis. House Majority Leader Tom DeLay has been indicted and resigned after much public pressure. With his resignation, the people's trust in the Republican Congress is gone. Minority Leader Pelosi was looking to meet with you to go over possible domestic pushes in response to this, but you've gone abroad, not wanting to waste effort cutting through the jungles of Congress. NATO is disunited and in need of a rallying flag. How will you reunite the West?\n",
+            "description": "You've returned home to Washington after a round trip through states ripped to shreds by Hurricane Katrina, and you're informed that House Majority Tom Delay has been indicted and resigned after much public pressure. With his resignation, the people's trust in the Republican Congress has gone. Minority Leader Pelosi was looking to meet with you to go over possible domestic pushes in response to this, but you've gone abroad, not wanting to waste effort cutting through the jungles of Congress.  NATO is disunited and in need of a rallying flag. How will you reunite the West?",
             "likelihood": 1
         }
     },
@@ -1249,6 +1249,33 @@ campaignTrail_temp.questions_json = [
             "description": "When the campaign started in 2003, a wave of unity swept the nation, energizing people to fight for a shared dream. Just as then, the podium is now yours to turn the American dream into a tangible reality. That dream, however, couldn't look bleaker. Fannie Mae and Freddie Mac declared bankruptcy with no hope of a federal bailout. The economy is spiraling deep into an abyss, with Sirens luring you to your untimely demise. What will you say to inspire the crowds and save our shared dream?\n",
             "likelihood": 1
         }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 23700,
+        "fields": {
+            "priority": 0,
+            "description": "Iraq is crumbling, and the establishment's horror of you straying too far from their norms has driven out the backstabbing nature of crooks up on Olympus. Senator Hillary Clinton, who you once thought was a trusted ally, has gathered a motley crew of Senators upset with your rule. Most of your coterie of political advisers have joined her in this effort to force your hand back rightward. They plan to corner you and demand extreme concessions to avoid a public meltdown. What will you do about this?\n",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 23717,
+        "fields": {
+            "priority": 0,
+            "description": "The economy is in complete and utter freefall, with stock markets crashing globally and your approval rating hitting record lows. The public is clamoring for action as unemployment, mortgage defaults, and suicide rates soar. Congress is disunited, with almost every wing at each other's throats. After a briefing with Prime Minister Gordon Brown, his insights resonate with you. Inspired by Britain's research, the strategy is to swiftly push a bold and comprehensive stimulus bill through Congress to combat the impending recession. The urgency of the situation is palpable, President Clark. How will you rescue America?\n",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 23732,
+        "fields": {
+            "priority": 0,
+            "description": "The economy is in complete and utter freefall, with stock markets crashing globally and your approval rating hitting record lows. The public is clamoring for action as unemployment, mortgage defaults, and suicide rates soar. Congress is disunited, with almost every wing at each other's throats. After a briefing with Prime Minister Gordon Brown, his insights resonate with you. Inspired by Britain's research, the strategy is to swiftly push a bold and comprehensive stimulus bill through Congress to combat the impending recession. The urgency of the situation is palpable, President Clark. How will you rescue America?\n",
+            "likelihood": 1
+        }
     }
 ]
 
@@ -1258,7 +1285,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5139,
         "fields": {
             "question": 1042,
-            "description": "No Child Left Behind, in its current state, is failing our education system. I promise to reform and fix our still broken education system after taking down the man who failed it!\n"
+            "description": "No Child Left Behind, in its current state, is failing our education system. I promise to reform and fix our broken education system after I take down the man who broke it!\n"
         }
     },
     {
@@ -1298,7 +1325,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5147,
         "fields": {
             "question": 1044,
-            "description": "Our foreign policy has torn apart our ties with too many of our allies. The lies told by the Bush Administration destroyed our nation's credibility. I'm spending this time rebuilding the world's trust in America."
+            "description": "The lies told by the Bush Administration destroyed our nation's credibility. I'm spending this\ntime rebuilding the world's trust in America and reaching out to those we had previously\nalienated."
         }
     },
     {
@@ -1306,7 +1333,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5148,
         "fields": {
             "question": 1044,
-            "description": "The Clean Air Plan was among our finest promises, and I believe we can work with Republicans on this. I want Landrieu and Daschle working on this day and night until something comes to my desk.\n"
+            "description": "The Clean Air Plan was among our finest ideas during the campaign, and I believe we can\nwork with Republicans here for once. I want Landrieu and Daschle working on this day and night until something comes to my desk."
         }
     },
     {
@@ -1322,7 +1349,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5150,
         "fields": {
             "question": 1044,
-            "description": "We need to end the American Monopoly in Iraq. We must call for a summit with our allies, from The United Kingdom to Japan, to do so. We need a real unifying coalition to keep Iraq safe but also show that we are no longer going to work at this alone.\n"
+            "description": "We need to end the American monopoly in Iraq. We must call for a summit with our allies, from the United Kingdom to Japan, to recreate a new unifying coalition that can both keep Iraq safe and also show that we are no longer going at this alone."
         }
     },
     {
@@ -1898,7 +1925,7 @@ campaignTrail_temp.answers_json = [
         "pk": 20897,
         "fields": {
             "question": 20896,
-            "description": "I know that this is a dangerous move, but this is the perfect opportunity to kill the Defense of Marriage Act. It was a vial act then, and it still is now. Push the Freedom to Marry Act and settle this issue once and for all.\n"
+            "description": "I don't care what Pelosi or Daschle have to say about it; I made a promise. This is the perfect opportunity to kill the Defense of Marriage Act. It was a vial act then, and it still is now. Push the Freedom to Marry Act and settle this issue once and for all."
         }
     },
     {
@@ -2210,7 +2237,7 @@ campaignTrail_temp.answers_json = [
         "pk": 21146,
         "fields": {
             "question": 21145,
-            "description": "Ron Paul has his own ideas on foreign policy, so you should listen to them. It's unrealistic and dangerous. We as a nation can not and will not pull away from the entire world. This man wants to pull out of NATO and leave our allies for dead. \n"
+            "description": "Ron Paul has his own ideas on foreign policy, you should listen to them. It's unrealistic and dangerous. We as a nation can not and will not pull away from the entire world. This man wants to pull out of NATO and leave our allies for dead. \n"
         }
     },
     {
@@ -3786,7 +3813,7 @@ campaignTrail_temp.answers_json = [
         "pk": 22390,
         "fields": {
             "question": 21145,
-            "description": "I've had enough of playing chicken around Republicans. They nominated this loon so they could suffer the consequences. Social Security, Medicaid, and Medicare are up on the chopping block. Ron Paul is coming for your benefits. A vote for him is a vote to kill these programs.\n"
+            "description": "I've had enough of playing chicken around Republicans. If they want to nominate this loon, they can suffer the consequences. Social Security, Medicaid, and Medicare are up on the chopping block. Ron Paul is coming for your benefits. A vote for him is a vote to kill these programs.\n"
         }
     },
     {
@@ -4506,7 +4533,7 @@ campaignTrail_temp.answers_json = [
         "pk": 22843,
         "fields": {
             "question": 1042,
-            "description": "The bottom line is this: President Bush treats our alliances, even NATO, as obstacles - a limitation on America's freedom of action. I stand before you today, pledging to bring America's credibility back. I will prioritize it to unite the free world against terrorism!\n"
+            "description": "The bottom line is this: President Bush treats our alliances, even NATO, as obstacles - a\nlimitation on America's freedom of action. I stand before you today, pledging to bring America's\ncredibility back. I will prioritize it to unite the free world against terrorism!"
         }
     },
     {
@@ -5218,7 +5245,7 @@ campaignTrail_temp.answers_json = [
         "pk": 23619,
         "fields": {
             "question": 21111,
-            "description": "The early ad campaign against Rudy fell mostly flat, as he's able to garner establishment Republican endorsements. Rudy takes the time to blast back on all cylinders, from the economy to Iraq.\n"
+            "description": "This is our moment to strike a death-knelling punch. Rudy has done nothing but run on the fumes of a single day. He's out of gas with no connections, positions, or votes, and we've got a long way to go.\n"
         }
     },
     {
@@ -5227,6 +5254,94 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 21111,
             "description": "\"Tested, Ready, Now\" is nothing but showing off. I'll tell you something he and his base aren't ready to hear. He's not conservative enough for them, and they aren't prepared for his proposals. This man is the antithesis of standard Republican orthodoxy on abortion and gay rights."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 23695,
+        "fields": {
+            "question": 20909,
+            "description": "Iraq took too much focus away from what's important: taking down Al Qaeda. The Bush Administration treated Afghanistan like an afterthought, and I won't repeat their mistakes. Hunting Osama Bin Laden is our number one priority.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 23701,
+        "fields": {
+            "question": 23700,
+            "description": "This game Senator Clinton is playing is disrespectful. I'm the President and the General. I'm steering this ship, and she must get back in line. I will not tolerate such insubordination from her.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 23705,
+        "fields": {
+            "question": 23700,
+            "description": "These career politicians are always hungry to take another step in their careers. When I arrive in my second term, we'll have some positions to fill, and I think we can shoot down this controversy by getting Senator Biden to pit them against each other.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 23709,
+        "fields": {
+            "question": 23700,
+            "description": "Skip the meeting. I don't need these people to go around telling me what to do. I'm the President, this is my party, and I'm in command, not Clinton, Bayh, or Biden. If they want to cry to the press, go ahead.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 23713,
+        "fields": {
+            "question": 23700,
+            "description": "Part of being Commander in Chief is understanding how to compromise. I've never believed otherwise, and I can see these Senators' concerns, so let's hear them out and see what we can work out.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 23718,
+        "fields": {
+            "question": 23717,
+            "description": "We ought to be smart with our proposal. We can't waste more time; the Emergency Economic Reform and Relief Act must pass. We'll pull some of the banking reforms from the bill as a preemptive measure.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 23722,
+        "fields": {
+            "question": 23717,
+            "description": "If we act now, this fiasco can be remedied and prevented. We can't compromise on this; we need the bill to pass to save the American people from this now and in the future. Full speed ahead; we aren't getting the bill for anything.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 23728,
+        "fields": {
+            "question": 23717,
+            "description": "I'm not one to dismiss opposing views. We can forge a united front if we can bring Senator Sanders on board. He advocates for reform, and we'll ensure that Glass Steagall's principles are upheld. A united coalition is key to our success. \n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 23733,
+        "fields": {
+            "question": 23732,
+            "description": "We ought to be smart with our proposal. Congress has rejected Secretary Altman's proposals twice now. We can't waste any more time; the Emergency Economic Reform and Relief Act needs to pass. As a preemptive measure, we'll pull some of the banking reforms from the bill.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 23737,
+        "fields": {
+            "question": 23732,
+            "description": "If we act now, this fiasco can be remedied and prevented. We can't compromise on this; we need the bill to pass to save the American people from this now and in the future. Full speed ahead; we aren't getting the bill for anything.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 23743,
+        "fields": {
+            "question": 23732,
+            "description": "I'm not one to dismiss opposing views. If we can bring Senator Sanders on board, we can forge a united front. He advocates for reforms, and we'll ensure that Glass Steagall's principles are upheld. A united coalition is key to our success. \n"
         }
     }
 ]
@@ -11544,9 +11659,9 @@ campaignTrail_temp.answer_score_global_json = [
         "pk": 20912,
         "fields": {
             "answer": 20910,
-            "candidate": 203,
-            "affected_candidate": 201,
-            "global_multiplier": 0.1
+            "candidate": 201,
+            "affected_candidate": 203,
+            "global_multiplier": -0.05
         }
     },
     {
@@ -11574,9 +11689,9 @@ campaignTrail_temp.answer_score_global_json = [
         "pk": 20918,
         "fields": {
             "answer": 20915,
-            "candidate": 203,
-            "affected_candidate": 201,
-            "global_multiplier": 0.05
+            "candidate": 201,
+            "affected_candidate": 203,
+            "global_multiplier": -0.05
         }
     },
     {
@@ -16408,6 +16523,156 @@ campaignTrail_temp.answer_score_global_json = [
             "affected_candidate": 201,
             "global_multiplier": -0.009
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 23697,
+        "fields": {
+            "answer": 23695,
+            "candidate": 201,
+            "affected_candidate": 203,
+            "global_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 23699,
+        "fields": {
+            "answer": 23695,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.006
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 23704,
+        "fields": {
+            "answer": 23701,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.07
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 23707,
+        "fields": {
+            "answer": 23705,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 23711,
+        "fields": {
+            "answer": 23709,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.075
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 23715,
+        "fields": {
+            "answer": 23713,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 23720,
+        "fields": {
+            "answer": 23718,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.025
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 23721,
+        "fields": {
+            "answer": 23718,
+            "candidate": 201,
+            "affected_candidate": 203,
+            "global_multiplier": 0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 23724,
+        "fields": {
+            "answer": 23722,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.07
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 23730,
+        "fields": {
+            "answer": 23728,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.092
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 23735,
+        "fields": {
+            "answer": 23733,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 23736,
+        "fields": {
+            "answer": 23733,
+            "candidate": 201,
+            "affected_candidate": 203,
+            "global_multiplier": 0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 23739,
+        "fields": {
+            "answer": 23737,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.06
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 23745,
+        "fields": {
+            "answer": 23743,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 23746,
+        "fields": {
+            "answer": 23743,
+            "candidate": 200,
+            "affected_candidate": 200,
+            "global_multiplier": -0.09
+        }
     }
 ]
 
@@ -18277,9 +18542,9 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 22603,
         "fields": {
             "answer": 20919,
-            "issue": 100,
-            "issue_score": 0.8,
-            "issue_importance": 5
+            "issue": 102,
+            "issue_score": 0.9,
+            "issue_importance": 9
         }
     },
     {
@@ -18289,7 +18554,7 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 20915,
             "issue": 102,
             "issue_score": 0.8,
-            "issue_importance": 3
+            "issue_importance": 8
         }
     },
     {
@@ -19140,6 +19405,66 @@ campaignTrail_temp.answer_score_issue_json = [
             "issue": 103,
             "issue_score": -1,
             "issue_importance": 12
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 23698,
+        "fields": {
+            "answer": 23695,
+            "issue": 102,
+            "issue_score": 0.9,
+            "issue_importance": 4
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 23702,
+        "fields": {
+            "answer": 23701,
+            "issue": 102,
+            "issue_score": 0.9,
+            "issue_importance": 12
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 23708,
+        "fields": {
+            "answer": 23705,
+            "issue": 102,
+            "issue_score": 0.9,
+            "issue_importance": 9
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 23712,
+        "fields": {
+            "answer": 23709,
+            "issue": 102,
+            "issue_score": 0.9,
+            "issue_importance": 13
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 23716,
+        "fields": {
+            "answer": 23713,
+            "issue": 102,
+            "issue_score": 0.9,
+            "issue_importance": 9
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 23731,
+        "fields": {
+            "answer": 23728,
+            "issue": 100,
+            "issue_score": 1,
+            "issue_importance": 16
         }
     }
 ]
@@ -27327,7 +27652,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5139,
             "candidate": 201,
-            "answer_feedback": "The crowd erupts in cheers, and soon you propel yourself into the race by the horns; by God, you get it done. President Bush collapsed underneath the weight of his lies and failures. Let's hope you can keep this promise."
+            "answer_feedback": "The crowd erupts in cheers, and you propel yourself into the race with righteous fury. As Bush collapses underneath the weight of his lies and failures, you get the job done. Hopefully,\nyou can keep your promises."
         }
     },
     {
@@ -27336,7 +27661,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5140,
             "candidate": 201,
-            "answer_feedback": "The crowd erupts in cheers as you double down on possibly the most volatile issue. Nevertheless, you boldly take on President Bush and the American people repudiate his blatantly partisan campaign. The work to get this done won't be easy, Clark, but we are determined.\n"
+            "answer_feedback": "The crowd erupts in cheers as you double down on possibly the most volatile issue in politics. Nevertheless, it gives you the strength to boldly take on President Bush, and the American people repudiate his blatantly partisan campaign. The work to get this done won't be easy, Clark, but we are determined."
         }
     },
     {
@@ -27372,7 +27697,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5147,
             "candidate": 201,
-            "answer_feedback": "From Prime Minister Blair to Chancellor Schröder, your visits are well received. Hopefully, you will build a renewed relationship with your NATO allies. The work has just begun.\n"
+            "answer_feedback": "From President Chiraq to Chancellor Schröder, your visits are well received, giving you hope to build a renewed relationship with America’s allies. Still, the work has just\nbegun.\n"
         }
     },
     {
@@ -27381,7 +27706,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5148,
             "candidate": 201,
-            "answer_feedback": "It takes a lot of haggling with Hastert, but eventually, a modified bill arrives on your desk that cracks down on some of America's top polluters. Environmentalists are ecstatic at such quick progress, but Republicans let you off with a quick freebie this time. \n"
+            "answer_feedback": "It takes a lot of haggling with Hastert, but eventually, a modified bill arrives on your desk that cracks down on some of America's top polluters. Environmentalists are ecstatic at such quick progress, but Republicans make sure that you know it won’t always be so easy going forward."
         }
     },
     {
@@ -27390,7 +27715,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5149,
             "candidate": 201,
-            "answer_feedback": "House Republicans are quick to spit in your face. They'd jump off a mountain before they allow you to start giving \"college handouts.\" No dice, Clark, it's not happening."
+            "answer_feedback": "House Republicans are quick to spit in your face, emphasizing that they'd sooner jump off a mountain before they allow you to start giving free college “handouts.\" You know you must make a tactical retreat and regroup for the next battle."
         }
     },
     {
@@ -27399,7 +27724,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5150,
             "candidate": 201,
-            "answer_feedback": "The summit goes rather poorly, as most of your allies feel burned by the Bush Administration. Schröder is looking to wash Germany's hands of the entire debacle, and the national blunder will make headlines for a couple of weeks.\n"
+            "answer_feedback": "The summit gives good press, as most believe you to be a credible military leader. However, the talks led to no additional country raising its hand to help, but goodwill has been built among all parties. Prime Minister Blair, in particular, hails them as a great success in a clear attempt to hold together his rule.\n"
         }
     },
     {
@@ -27795,7 +28120,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5262,
             "candidate": 201,
-            "answer_feedback": "Congress approves the plan quickly. Your plan will bolster Iraq's strength, but it is unknown if this war can be solved with money and men. The people we are fighting are motivated by God. "
+            "answer_feedback": "Congress approves the plan quickly. Your plan will bolster Iraq's strength, but it is unknown if this war can be solved with money and men. However, the left flank is distraught, and Representative Kucinich sees you personally. After hearing his anguish, you tell him to live with it. You're the president; he isn't."
         }
     },
     {
@@ -27804,7 +28129,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5263,
             "candidate": 201,
-            "answer_feedback": "This decision is decried by Republicans across the country, but the American people are happy at large, and the anti-war elements of the party have been put to bed. Hopefully, the situation in Iraq will not get any worse"
+            "answer_feedback": "Republicans across the country decry this decision, but the American people are happy at large, and the anti-war elements of the party have been put to bed. As General Petraeus and many establishment Democrats warn that you are making a mistake, you swat them away and begin to fully embrace your most enthusiastic support"
         }
     },
     {
@@ -27867,7 +28192,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 20773,
             "candidate": 201,
-            "answer_feedback": "With tactics much similar to the Bush campaign's chicanery, you've got the public backing. Fear-mongering has got you the win on this issue."
+            "answer_feedback": "You pat backs with Senator Clinton and other established colleagues who stand by your efforts despite a growing sentiment of naysayers from your left flank. With tactics much similar to the Bush campaign's chicanery, you've got the public backing. Fear-mongering has got you the win on this issue."
         }
     },
     {
@@ -27957,7 +28282,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 20902,
             "candidate": 201,
-            "answer_feedback": "With tactics much similar to the Bush campaign's chicanery, you've got the public backing. Fear-mongering has got you the win on this issue."
+            "answer_feedback": "You pat backs with Senator Clinton and other established colleagues who stand by your efforts despite a growing sentiment of naysayers from your left flank. With tactics much similar to the Bush campaign's chicanery, you've got the public backing. Fear-mongering has got you the win on this issue."
         }
     },
     {
@@ -30054,7 +30379,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 22456,
             "candidate": 201,
-            "answer_feedback": "With tactics much similar to the Bush campaign's chicanery, you've got the public backing. Fear-mongering has got you the win on this issue."
+            "answer_feedback": "You pat backs with Senator Clinton and other established colleagues who stand by your efforts despite a growing sentiment of naysayers from your left flank. With tactics much similar to the Bush campaign's chicanery, you've got the public backing. Fear-mongering has got you the win on this issue."
         }
     },
     {
@@ -30837,7 +31162,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 22843,
             "candidate": 201,
-            "answer_feedback": "Sticking to your roots, and while many within the base would like to hear of your domestic agenda, they are willing to put that on hold to focus on beating Bush. When the time comes, you prove all your backers right, taking down Bush easily."
+            "answer_feedback": "You’re sticking to your roots, and while many within the base would like to hear of your domestic agenda, they’re willing to put that on hold to focus on beating Bush. When the time comes, you prove all your backers right, taking Bush down easily."
         }
     },
     {
@@ -31667,6 +31992,105 @@ campaignTrail_temp.answer_feedback_json = [
             "candidate": 201,
             "answer_feedback": "Lighting the match on Rudy's coattails relatively early, aye? It does the work. Republicans don't like him, and there's an increasingly likely chance a third-party splinter will stab him in the back."
         }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 23696,
+        "fields": {
+            "answer": 23695,
+            "candidate": 201,
+            "answer_feedback": "Redirecting the attention to Afghanistan seems to have mostly gotten both the media and your disgruntled colleagues off your tale. Still, Republican primary contenders will make Iraq the number one issue. \n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 23703,
+        "fields": {
+            "answer": 23701,
+            "candidate": 201,
+            "answer_feedback": "You boldly stand your ground and let her bark like a dog. Face to face, you witness her true colors come out. She's lost all influence over you and heads out without another word. The following day, she gives an interview to CNN, fully lambasting your decisions."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 23706,
+        "fields": {
+            "answer": 23705,
+            "candidate": 201,
+            "answer_feedback": "You meet with Biden days before the scheduled meeting, and his head perks up when you offer him the Defense Department in your second term. After some more concessions over foreign affairs, he agrees to shut it down and uses his friendship with Senator Dodd and Bayh, and the coalition soon falls apart after half its Senator back out."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 23710,
+        "fields": {
+            "answer": 23709,
+            "candidate": 201,
+            "answer_feedback": "And cry to the press they do, the small coalition releases a joint statement denouncing your foreign policy, calling it short-sighted and foolish. Republicans make quick work of the statement and have it plastered on all their campaign ads."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 23714,
+        "fields": {
+            "answer": 23713,
+            "candidate": 201,
+            "answer_feedback": "You went in looking to give an inch, but instead, they twisted your arm into giving a mile. Come your second inauguration, you're expected to force Kerry to step aside and let Clinton take over the State Department."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 23719,
+        "fields": {
+            "answer": 23718,
+            "candidate": 201,
+            "answer_feedback": "As instructed, the bill has pulled its most major banking reforms, and Pelosi agrees to the 800 billion bailout. The bill barely passed after further negotiations, but the left-wing protest movement against it has damaged your reputation.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 23723,
+        "fields": {
+            "answer": 23722,
+            "candidate": 201,
+            "answer_feedback": "Despite Republican uproar, some would rather sink their teeth into saving the economy, even if it's just to keep their jobs. You gain praise as you justify its bailouts in exchange for banking reforms to the public."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 23729,
+        "fields": {
+            "answer": 23728,
+            "candidate": 201,
+            "answer_feedback": "He and other experts devised a solution to add a Resolution Trust Corporation and a Reconstruction Finance Corporation, among other reforms, to radically crack down on the banks. When it's put to the House floor, it's a battle like no other, but you grasp the party establishment's spine, and the bill is sent to your desk."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 23734,
+        "fields": {
+            "answer": 23733,
+            "candidate": 201,
+            "answer_feedback": "As instructed, the bill has its most major banking reforms pulled, and Boehner agrees to the 600 billion bailout. The bill barely passed after further negotiations, but the left-wing protest movement against it has damaged your reputation.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 23738,
+        "fields": {
+            "answer": 23737,
+            "candidate": 201,
+            "answer_feedback": "Despite Boehner's protests, his back is up against the wall. While it's a messy affair, the Emergency Economic Reform and Relief Act passes by the skin of its teeth. You gain praise as you justify its bailouts in exchange for banking reforms to the public.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 23744,
+        "fields": {
+            "answer": 23743,
+            "candidate": 201,
+            "answer_feedback": "Senator Sanders is shocked by your willingness to camp with him on this. He helps crack out a bold bill that gets the banks the aid they need but with trucks full of regulations. Despite public approval, no compromise on such a bill could be made, and Republicans sink it."
+        }
     }
 ]
 
@@ -31718,6 +32142,7 @@ var Fred = 0;
 var Russia = 0;
 var Opp = 0;
 var Back = 0;
+var Hillary = 0;
 e.noCounter = 0
 
 e = campaignTrail_temp
@@ -32230,6 +32655,9 @@ cyoAdventure = function(a) {
     if(ans == 22035 ){
         Nato += 1;
     }
+    if(ans == 5150 ){
+        Nato += 1;
+    }
 
     ///neoliberling
     if(ans == 20773 ){
@@ -32524,7 +32952,10 @@ if (e.noCounter == 16) {
 
     ///Iraq shockwave
 if (e.noCounter == 18) {
-    if (Notroops == 1 && Nato > 2) {
+    if (Notroops == 1 && Loyalist == 1 && Agenda > 3) {
+        campaignTrail_temp.questions_json[18] = tunnel(23700); 
+    }
+    else if (Notroops == 1 && Nato > 2) {
         campaignTrail_temp.questions_json[18] = tunnel(23482); 
     }
     else if (Notroops == 1) {
@@ -32537,6 +32968,17 @@ if (e.noCounter == 18) {
         campaignTrail_temp.questions_json[18] = tunnel(22034); 
     }
 }
+
+    ///Fall out with killdawg means no HOLC for you loserrr
+    if(ans == 23701 ){
+        Hillary += 1;
+    }
+    if(ans == 23705 ){
+        Hillary += 1;
+    }
+    if(ans == 23709 ){
+        Hillary += 1;
+    }
 
 if (e.noCounter == 19) {
     if (Dem == 1) {
@@ -32571,7 +33013,13 @@ if (e.noCounter == 20) {
     if (Boner == 1) {
         campaignTrail_temp.questions_json[20] = tunnel(22052); 
     }
-    if (Pelosi == 1 && Agenda > 3 && Nato > 2) {
+    if (Pelosi == 1 && Hillary == 1 && Agenda > 3 && Nato > 2) {
+        campaignTrail_temp.questions_json[20] = tunnel(23717); 
+    }
+    else if (Pelosi == 1 && Hillary == 1) {
+        campaignTrail_temp.questions_json[20] = tunnel(23732); 
+    }
+    else if (Pelosi == 1 && Agenda > 3 && Nato > 2) {
         campaignTrail_temp.questions_json[20] = tunnel(22554); 
     }
     else if (Pelosi == 1) {
