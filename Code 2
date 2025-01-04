@@ -1,3 +1,4 @@
+
 campaignTrail_temp.questions_json = [
     {
         "model": "campaign_trail.question",
@@ -427,7 +428,7 @@ campaignTrail_temp.questions_json = [
         "pk": 21243,
         "fields": {
             "priority": 0,
-            "description": "John McCain is a bold man, and his choice of Joe Lieberman has felt like a personal lash at you. However, that choice has come at a cost—a great one. McCain hasn't exactly been a conservative darling to the Republican base. Lieberman, being a Democrat, is far out of the Republican mainstream on many issues. Now, his high-in-the-sky polling has dipped, giving you a precious opportunity to drive the wedge just a bit further. How will you capitalize on this, Wes?",
+            "description": "John McCain is a bold man, and his choice of Joe Lieberman has felt like a personal lash at you. However, that choice has come at a cost—a great one. McCain hasn't exactly been a conservative darling to the Republican base. Lieberman, being a Democrat, is far out of the Republican mainstream on many issues. His high-in-the-sky polling has dipped with the Reform Party candidate Pat Buchanan running rampant in the South, giving you a precious opportunity to drive the wedge just a bit further. How will you capitalize on this, Wes?",
             "likelihood": 1
         }
     },
@@ -670,7 +671,7 @@ campaignTrail_temp.questions_json = [
         "pk": 21716,
         "fields": {
             "priority": 0,
-            "description": "The streets are crowded, screams and terror are inescapable, and the economy is failing. In times of crisis, the people look around, desperate for answers. Ron Paul claims to have that answer as he screams to the cloud of Olympus, \"We must abolish the Federal Reserve System because it is immoral, unconstitutional, impractical, promotes bad economics, and undermines liberty.\" It's a radical solution, but as the economy plummets, it may be the pipedream people yearn for. How will you kill this movement before it spreads its wings over Olympus?",
+            "description": "The streets are crowded, screams and terror are inescapable, and the economy is failing. In times of crisis, the people look around, desperate for answers. Ron Paul claims to have that answer, \"We must abolish the Federal Reserve System because it is immoral, unconstitutional, impractical, promotes bad economics, and undermines liberty.\" It's a radical solution, but as the economy plummets, it may be the pipedream people yearn for. Despite Rick Santorum's sabotage candidacy, polls show Paul creeping up on you. How will you kill this movement before it spreads its wings over Olympus?",
             "likelihood": 1
         }
     },
@@ -1093,7 +1094,7 @@ campaignTrail_temp.questions_json = [
         "pk": 22846,
         "fields": {
             "priority": 0,
-            "description": "You've returned home to Washington after a round trip through states ripped to shreds by Hurricane Katrina, and you're informed that House Majority Tom Delay has been indicted and resigned after much public pressure. With his resignation, the people's trust in the Republican Congress has gone. Minority Leader Pelosi was looking to meet with you to go over possible domestic pushes in response to this, but you've gone abroad, not wanting to waste effort cutting through the jungles of Congress.  NATO is disunited and in need of a rallying flag. How will you reunite the West?",
+            "description": "You've returned home to Washington after a round trip through states ripped to shreds by Hurricane Katrina, and you're informed that House Majority Tom Delay has been indicted and resigned after much public pressure. With his resignation, the people's trust in the Republican Congress has gone. Minority Leader Pelosi was looking to meet with you to go over possible domestic pushes in response to this, but you've gone abroad, not wanting to waste effort cutting through the jungles of Congress.  NATO is disunited and in need of a rallying flag. How will you reunite the West?",
             "likelihood": 1
         }
     },
@@ -1533,7 +1534,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5220,
         "fields": {
             "question": 1065,
-            "description": "It's clear that we can't play this issue in Congress; they aren't going for it, and I can't rely on my party here. That does not mean we cannot try. We will get at this with the powers of the executive. "
+            "description": "It's clear that we can't play this issue in Congress; they aren't going for it, and I can't rely on my party here. That does not mean we cannot try. We will get at this with the powers of the executive. "
         }
     },
     {
@@ -9290,7 +9291,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 200,
             "state": 1041,
-            "state_multiplier": 0.87
+            "state_multiplier": 0.8
         }
     },
     {
@@ -9749,7 +9750,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 201,
             "state": 1041,
-            "state_multiplier": 0.99
+            "state_multiplier": 0.969
         }
     },
     {
@@ -10001,7 +10002,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 202,
             "state": 1018,
-            "state_multiplier": 0.1754
+            "state_multiplier": 0.1154
         }
     },
     {
@@ -14991,7 +14992,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 22706,
             "candidate": 201,
             "affected_candidate": 202,
-            "global_multiplier": 2.6
+            "global_multiplier": 3.1
         }
     },
     {
@@ -20886,7 +20887,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1003,
             "candidate": 201,
             "affected_candidate": 202,
-            "state_multiplier": 0.3
+            "state_multiplier": 0.15
         }
     },
     {
@@ -21117,7 +21118,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1042,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.25
+            "state_multiplier": -0.2
         }
     },
     {
@@ -21128,7 +21129,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1042,
             "candidate": 201,
             "affected_candidate": 202,
-            "state_multiplier": 0.6
+            "state_multiplier": 0.3
         }
     },
     {
@@ -22767,7 +22768,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1003,
             "candidate": 201,
             "affected_candidate": 202,
-            "state_multiplier": 0.3
+            "state_multiplier": 0.15
         }
     },
     {
@@ -22998,7 +22999,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1042,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.25
+            "state_multiplier": -0.2
         }
     },
     {
@@ -23009,7 +23010,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1042,
             "candidate": 201,
             "affected_candidate": 202,
-            "state_multiplier": 0.6
+            "state_multiplier": 0.3
         }
     },
     {
@@ -23339,7 +23340,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1003,
             "candidate": 201,
             "affected_candidate": 202,
-            "state_multiplier": 0.3
+            "state_multiplier": 0.15
         }
     },
     {
@@ -23570,7 +23571,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1042,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.25
+            "state_multiplier": -0.2
         }
     },
     {
@@ -23581,7 +23582,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1042,
             "candidate": 201,
             "affected_candidate": 202,
-            "state_multiplier": 0.6
+            "state_multiplier": 0.3
         }
     },
     {
@@ -32399,6 +32400,13 @@ function switcheroo28() {
 
 cyoAdventure = function(a) {
     ans = campaignTrail_temp.player_answers[campaignTrail_temp.player_answers.length-1];
+    let pop_vote = e.current_results[0];
+    let playerPolling = (pop_vote.find(p => p.pk === e.candidate_id)).pvp;
+    let i = 0;
+
+    pop_vote.sort((a, b) => {
+        return a.pk - b.pk;
+    });
     e.noCounter += 1
 
     
@@ -33298,10 +33306,12 @@ if (e.noCounter == 23) {
     if (Dem == 4) {
         campaignTrail_temp.questions_json[23] = tunnel(21664); 
     }
-    if (Sant > 2 && Dem == 5) {
+    if (Dem == 5) {
+    if (pop_vote[3].pvp-playerPolling>0.1 );
         campaignTrail_temp.questions_json[23] = tunnel(22701); 
     }
-    else if (Dem == 5) {
+    if (pop_vote[3].pvp-playerPolling<0.1 );
+    if (Dem == 5) {
         campaignTrail_temp.questions_json[23] = tunnel(21759); 
     }
     if (Dem == 6) {
@@ -33365,10 +33375,12 @@ if (e.noCounter == 25) {
     if (Dem == 4) {
         campaignTrail_temp.questions_json[25] = tunnel(21794); 
     }
-    if (Sant > 6 && Dem == 5) {
+    if (pop_vote[3].pvp-playerPolling>0.149 );
+    if (Dem == 5) {
         campaignTrail_temp.questions_json[25] = tunnel(22809); 
     }
-    else if (Dem == 5) {
+    if (pop_vote[3].pvp-playerPolling<0.149 );
+    if (Dem == 5) {
         campaignTrail_temp.questions_json[25] = tunnel(21776); 
     }
     if (Dem == 6) {
