@@ -242,7 +242,7 @@ document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_wi
 
 //#endcode
 
-
+  e.collect_results = true;
   
   RecReading=true
     
