@@ -67,7 +67,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1052,
         "fields": {
             "priority": 6,
-            "description": "The midterms came and went, and while the party performed admirably, Republicans still made gains, and the Senate was theirs; luckily, Daschle was able to push your SCOTUS nomination, Harvard Dean Elena Kagan, through just in time. Now, your future agenda is at the whims of House Speaker Roy Blunt. Meanwhile, cyber security has always been one of your top priorities, but it's been a lonely issue for you as any attempts to pass legislation have been shot down. Lobbyists and special interests tear apart your attempts each time you try. You need to find out who in your party hasn't been corrupted by this. However, that doesn't mean you quit now; how will you act on this?\n",
+            "description": "The midterms came and went, and while the party performed admirably, Republicans still made gains, and the Senate was theirs; luckily, Daschle was able to push your Chief Justice nomination, Harvard Dean Elena Kagan, through just in time. Now, your future agenda is at the whims of House Speaker Roy Blunt. Meanwhile, cyber security has always been one of your top priorities, but it's been a lonely issue for you as any attempts to pass legislation have been shot down. Lobbyists and special interests tear apart your attempts each time you try. You need to find out who in your party hasn't been corrupted by this. However, that doesn't mean you quit now; how will you act on this?\n",
             "likelihood": 1
         }
     },
@@ -292,7 +292,7 @@ campaignTrail_temp.questions_json = [
         "pk": 20898,
         "fields": {
             "priority": 6,
-            "description": "Democrats overcame the expectations of a red wave, minimal losses in the House, and the Senate was expanded by three seats with a couple of close calls in New Jersey and Ohio. Democratic optimism is high after Elena Kagan's nomination to the court flew through. Newly elected Speaker John Boehner has yet to get the capital he hoped to have upon taking office. Now, you can focus on grander things. Cyber security has always been one of your top priorities, but it's been a lonely issue for you as any attempts to pass legislation have been shot down. Lobbyists and special interests tear apart your attempts each time you try. You need to find out who in your party hasn't been corrupted by this. However, that doesn't mean you quit now; how will you act on this?\n",
+            "description": "Democrats overcame the expectations of a red wave, minimal losses in the House, and the Senate was expanded by three seats with a couple of close calls in New Jersey and Ohio. Democratic optimism is high after Elena Kagan's nomination for Chief Justice flew through. Newly elected Speaker John Boehner has yet to get the capital he hoped to have upon taking office. Now, you can focus on grander things. Cyber security has always been one of your top priorities, but it's been a lonely issue for you as any attempts to pass legislation have been shot down. Lobbyists and special interests tear apart your attempts each time you try. However, that doesn't mean you quit now; how will you act on this?\n",
             "likelihood": 1
         }
     },
@@ -922,7 +922,7 @@ campaignTrail_temp.questions_json = [
         "pk": 22452,
         "fields": {
             "priority": 6,
-            "description": "You've pulled off the impossible; I don't know how you've done it, Wes, but you've expanded your mandate further than any could imagine. The Democrats can hold a coronation for the first-ever woman Speaker of the House. The Senate majority expanded by five seats, including two nailbiter wins in Missouri and Montana. With the nomination of Elena Kagan flying through to the Supreme Court, the mandate is yours. Cyber security has always been one of your top priorities, but it's been a lonely issue for you as any attempts to pass legislation have been shot down. Lobbyists and special interests tear apart your attempts each time you try. However, that doesn't mean you quit now; how will you act on this?",
+            "description": "You've pulled off the impossible; I don't know how you've done it, Wes, but you've expanded your mandate further than any could imagine. The Democrats can hold a coronation for the first-ever woman Speaker of the House. The Senate majority expanded by five seats, including two nailbiter wins in Missouri and Montana. With the nomination of Elena Kagan for Chief Justice flying through, the mandate is yours. Cyber security has always been one of your top priorities, but it's been a lonely issue for you as any attempts to pass legislation have been shot down. Lobbyists and special interests tear apart your attempts each time you try. However, that doesn't mean you quit now; how will you act on this?",
             "likelihood": 1
         }
     },
@@ -3457,7 +3457,7 @@ campaignTrail_temp.answers_json = [
         "pk": 22013,
         "fields": {
             "question": 20884,
-            "description": "I find it ironic that Congressional Republicans want to point fingers at us while their leadership was just shattered to pieces with the indictment of Tom DeLay. It's inexcusable, and we shouldn't allow such corruption to be validated.\n"
+            "description": "I find it ironic how Congressional Republicans want to point fingers at us while their leadership was just shattered to pieces with the indictment of Tom DeLay. It's inexcusable, and we shouldn't allow such corruption to be validated.\n"
         }
     },
     {
@@ -5433,7 +5433,7 @@ campaignTrail_temp.answers_json = [
         "pk": 23781,
         "fields": {
             "question": 23771,
-            "description": "Too many jobs were lost under Bush; it's like we renewed the jobs market with a Homeland and Hometown Security Fund to create jobs that secure our country from the intelligence threats of Russia or China.\n"
+            "description": "Too many jobs were lost under Bush; it's time we renewed the jobs market with a Homeland and Hometown Security Fund to create jobs that secure our country from the intelligence threats of Russia or China.\n"
         }
     },
     {
@@ -27988,7 +27988,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1021,
             "candidate": 201,
             "affected_candidate": 201,
-            "state_multiplier": 0.03
+            "state_multiplier": 0.1
         }
     },
     {
@@ -27999,7 +27999,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1034,
             "candidate": 201,
             "affected_candidate": 201,
-            "state_multiplier": 0.03
+            "state_multiplier": 0.1
         }
     },
     {
@@ -28010,7 +28010,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1049,
             "candidate": 201,
             "affected_candidate": 201,
-            "state_multiplier": 0.03
+            "state_multiplier": 0.1
         }
     },
     {
@@ -28021,7 +28021,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1013,
             "candidate": 201,
             "affected_candidate": 201,
-            "state_multiplier": 0.03
+            "state_multiplier": 0.1
         }
     },
     {
@@ -28032,7 +28032,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1012,
             "candidate": 201,
             "affected_candidate": 201,
-            "state_multiplier": 0.03
+            "state_multiplier": 0.1
         }
     },
     {
@@ -28043,7 +28043,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1022,
             "candidate": 201,
             "affected_candidate": 201,
-            "state_multiplier": 0.03
+            "state_multiplier": 0.1
         }
     }
 ]
