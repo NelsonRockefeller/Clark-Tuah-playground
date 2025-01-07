@@ -1,4 +1,3 @@
-
 campaignTrail_temp.questions_json = [
     {
         "model": "campaign_trail.question",
@@ -14,7 +13,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1044,
         "fields": {
             "priority": 2,
-            "description": "No amount of fearmongering and partisan chicanery could save Bush, and you've slain the\nemperor presiding over the darkest deeds of Olympus. Democrats have reclaimed the\nSenate by a hair and made gains in the House but fell short of a majority. However, it's not\nall sunshine and rainbows, as most Republicans that you attempted to get on board as\nunity picks have either ignored your calls or declined outright. You settled with some\nbasics: Kerry at Senate, Levin at Defense, and Altman at Treasury alongside a smattering\nof less high-profile picks vetted for loyalty. Where will you place focus for your first\n100 days?",
+            "description": "No amount of fearmongering and partisan chicanery could save Bush, and you've slain the\nemperor presiding over the darkest deeds of Olympus. Democrats have reclaimed the\nSenate by a hair and made gains in the House but fell short of a majority. However, it's not\nall sunshine and rainbows, as most Republicans that you attempted to get on board as\nunity picks have either ignored your calls or declined outright. You settled with some\nbasics: Kerry at State, Levin at Defense, and Altman at Treasury alongside a smattering\nof less high-profile picks vetted for loyalty. Where will you place focus for your first\n100 days?",
             "likelihood": 1
         }
     },
@@ -23,7 +22,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1043,
         "fields": {
             "priority": 2,
-            "description": "Republicans, the overzealous religious types in Congress, are marching in like an army of darkness to intervene in the public spectacle that is the Terri Schiavo Case. The case has become a sore spot in the media as many disability rights activists and Right to Die activists clash. Republicans are looking to intervene to keep the poor woman alive. How will you conduct your party in response to the Republican movement, Wes?\n",
+            "description": "Republicans, the overzealous religious types in Congress, are marching in like an army of darkness to intervene in the public spectacle that is the Terri Schiavo Case. The case has become a sore spot in the media as many disability rights activists and Right To Die activists clash. Republicans are looking to intervene to keep the poor woman alive. How will you conduct your party in response to the Republican movement, Wes?\n",
             "likelihood": 1
         }
     },
@@ -32,7 +31,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1045,
         "fields": {
             "priority": 3,
-            "description": "You've returned home to Washington after a round trip through states ripped to shreds by Hurricane Katrina, and you're informed that House Majority Tom Delay has been indicted and resigned after much public pressure. With his resignation, the people's trust in the Republican Congress has gone. Minority Leader Pelosi meets with you to discuss taking advantage of the situation. What will you do, Mr. President?",
+            "description": "You've returned home to Washington after a round trip through states ripped to shreds by Hurricane Katrina, and you're informed that House Majority Leader Tom DeLay has been indicted and resigned after much public pressure. With his resignation, the people's trust in the Republican Congress has gone. Minority Leader Pelosi meets with you to discuss taking advantage of the situation. What will you do, Mr. President?",
             "likelihood": 1
         }
     },
@@ -41,7 +40,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1046,
         "fields": {
             "priority": 4,
-            "description": "Olympus is calling your name, President Clark. Sections of the Patriot Act are due to expire this year. The long and overdue government overreaches spurred by the September 11th attacks are finally coming to an end. The Democratic base is ready to cheer for a win while congressional Democrats await your guidance. Establishment democrats and even Vice President Landrieu are pleading for you to extend most of these sections. Will you make good on your promises and end this needless violation of people's privacy?\n",
+            "description": "Olympus is calling your name, President Clark. Sections of the Patriot Act are due to expire this year. The long and overdue government overreaches spurred by the September 11th attacks are finally coming to an end. The Democratic base is ready to cheer for a win while Congressional Democrats await your guidance. Establishment Democrats are lining up at your door begging, and even Vice President Landrieu is pleading for you to extend most of these sections. Will you make good on your promises and end this needless violation of people's privacy?\n",
             "likelihood": 1
         }
     },
@@ -59,7 +58,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1055,
         "fields": {
             "priority": 6,
-            "description": "A stunning upset shook Connecticut in August as Businessmen Ned Lamont triumphed over Senator Lieberman in the Democratic primary. Lieberman's failure to quell the anti-war movement and your mild endorsement of Lamont made this possible. However, Lieberman isn't going down without a fight. The Connecticut For Lieberman party is leading Lamont in the polls. Will you provide any further help to banish Lieberman from Olympus?",
+            "description": "A stunning upset shook Connecticut in August as Businessman Ned Lamont triumphed over Senator Lieberman in the Democratic primary. Lieberman's failure to quell the anti-war movement and your mild endorsement of Lamont made this possible. However, Lieberman isn't going down without a fight. The Connecticut For Lieberman party is leading Lamont in the polls. Will you provide any further help to banish Lieberman from Olympus?",
             "likelihood": 1
         }
     },
@@ -77,7 +76,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1077,
         "fields": {
             "priority": 6,
-            "description": "In the halls of Olympus, the sentiment of dissatisfaction that has loomed over your presidency returns. The continuous baggage of your predecessors' decisions. At the helm of these problems is the war in Iraq. At the beginning of the year, the anti-coalition effort spread, and as a result, the Pentagon reports around 960 attacks per week. Your left flank, such as Kucinich, wants you to recede from the region, while most others in the party believe in continuing occupation until \"freedom\" is secured in Iraq. A troop surge is recommended to secure Iraq. How will you conduct the war effort?\n\n",
+            "description": "In the halls of Olympus, the sentiment of dissatisfaction that has loomed over your presidency returns. It's time to build a long-term strategy in Iraq. At the beginning of the year, the anti-coalition effort spread, and as a result, the Pentagon reports around 960 attacks per week. Cheerleaders of your left flank, like Dennis Kucinich, want you to recede from the region. In contrast, most others in the party believe in continuing occupation until \"freedom\" is secured in Iraq. A troop surge is recommended to ensure Iraq's future. How will you conduct the war effort?\n\n",
             "likelihood": 1
         }
     },
@@ -113,7 +112,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1053,
         "fields": {
             "priority": 7,
-            "description": "President Clark, the rumors circling the media were right. You've spent too long looking abroad, and now the U.S. housing market faces unprecedented price crashes as hundreds of homes are foreclosed on. Bear Stearns has collapsed despite the help of an emergency bailout. Families are in hysterics as banks knock down their doors and leave them with nothing. Blame is being thrown around at every institution, conspiracies are being made, and there is one common question: What the hell will you do about this?",
+            "description": "President Clark, the rumors circling the media were right. You've spent too long looking abroad. Bear Stearns has just collapsed even after the help of a bailout from the New York Federal Reserve, which spells just the start of unprecedented U.S. housing market price crashes with the foreclosure of thousands of homes. Families are in hysterics as banks knock down their doors and leave them with nothing. Every institution is catching blame, conspiracies are running rampant, and there is one common question: What the hell will you do about this?\n",
             "likelihood": 1
         }
     },
@@ -140,7 +139,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1069,
         "fields": {
             "priority": 7,
-            "description": "The Cyclops can't help but stare at what it desperately wants: a tiny country on the border of Putin's regime is struggling to keep its independence in the face of Russia's interests. Secretary Kerry visited the young nation hoping to secure its independence, favoring the approach of letting Georgia decide its path. Georgia is looking to join NATO, making relations with Russia turbulent. How will you deal with this conflict, Wes?",
+            "description": "In classic Russian Gigantomachy, Putin is attempting to push around NATO with a tiny country on the border of his regime. The country is struggling to keep its independence in the face of Russia's interests. Secretary Kerry visited the young nation, hoping to secure its independence, favoring the approach of letting Georgia decide its path. Georgia is looking to join NATO, making relations with Russia turbulent. How will you deal with this conflict, Wes?",
             "likelihood": 1
         }
     },
@@ -194,7 +193,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1074,
         "fields": {
             "priority": -3,
-            "description": "Putin isn't backing down. Russian troops are now marching into Georgia under the guise of \"Georgia committing genocide against South Ossetia.\" You may have suspected he'd commit forces to this, but you never expected him to act this fast. Putin's knee-jerk response to the idea that NATO would accept Georgia as a member is turning into a media circus. He's called your bluff, looking across the table and laying his cards. What's in your hand, Clark?",
+            "description": "In a violent display of the Russian Giant's hubris, they've trampled over Georgia's borders under the guise of \"Georgia committing genocide against South Ossetia.\", looking to relive the glory days of Titanomachy.  You may have suspected he'd commit forces to this, but you never expected him to act this fast. Putin's knee-jerk response to the idea that NATO would accept Georgia as a member is turning into a media circus. He's called your bluff, looking across the table and laying his cards. What's in your hand, Clark?",
             "likelihood": 1
         }
     },
@@ -275,7 +274,7 @@ campaignTrail_temp.questions_json = [
         "pk": 20889,
         "fields": {
             "priority": 0,
-            "description": "You've returned home to Washington after a round trip through states ripped to shreds by Hurricane Katrina, and you're informed that House Majority Tom Delay has been indicted and resigned after much public pressure. With his resignation, the people's trust in the Republican Congress has gone. Minority Leader Pelosi meets with you to discuss taking advantage of the situation. What will you do, Mr. President?",
+            "description": "You've returned home to Washington after a round trip through states ripped to shreds by Hurricane Katrina, and you're informed that House Majority Leader Tom DeLay has been indicted and resigned after much public pressure. With his resignation, the people's trust in the Republican Congress has gone. Minority Leader Pelosi meets with you to discuss taking advantage of the situation. What will you do, Mr. President?",
             "likelihood": 1
         }
     },
@@ -284,7 +283,7 @@ campaignTrail_temp.questions_json = [
         "pk": 20896,
         "fields": {
             "priority": 0,
-            "description": "You've returned home to Washington after a round trip through states ripped to shreds by Hurricane Katrina, and you're informed that House Majority Tom Delay has been indicted and resigned after much public pressure. With his resignation, the people's trust in the Republican Congress has gone. Minority Leader Pelosi meets with you to discuss taking advantage of the situation. What will you do, Mr. President?",
+            "description": "You've returned home to Washington after a round trip through states ripped to shreds by Hurricane Katrina, and you're informed that House Majority Leader Tom DeLay has been indicted and resigned after much public pressure. With his resignation, the people's trust in the Republican Congress has gone. Minority Leader Pelosi meets with you to discuss taking advantage of the situation. What will you do, Mr. President?",
             "likelihood": 1
         }
     },
@@ -329,7 +328,7 @@ campaignTrail_temp.questions_json = [
         "pk": 20957,
         "fields": {
             "priority": 7,
-            "description": "President Clark, the rumors circling the media were right. You've spent too long looking abroad, and now the U.S. housing market faces unprecedented price crashes as hundreds of homes are foreclosed on. Bear Stearns has collapsed despite the help of an emergency bailout. Families are in hysterics as banks knock down their doors and leave them with nothing. Blame is being thrown around at every institution, conspiracies are being made, and there is one common question: What the hell will you do about this?",
+            "description": "President Clark, the rumors circling the media were right. You've spent too long looking abroad. Bear Stearns has just collapsed even after the help of a bailout from the New York Federal Reserve, which spells just the start of unprecedented U.S. housing market price crashes with the foreclosure of thousands of homes. Families are in hysterics as banks knock down their doors and leave them with nothing. Every institution is catching blame, conspiracies are running rampant, and there is one common question: What the hell will you do about this?\n",
             "likelihood": 1
         }
     },
@@ -887,7 +886,7 @@ campaignTrail_temp.questions_json = [
         "pk": 22197,
         "fields": {
             "priority": 0,
-            "description": "The hourglass is broken; it was a cruel move for the Republican Party to unleash an unchained Dick Cheney onto the world. He's unsettling for most; his enemies are nothing more than \"mattress mice\" in his presence. The election shouldn't be as hard as it is. Your poll numbers sink with the economy, and Cheney is a rabid dog barking at the need to push around the Middle East. He goes further to North Korea and Russia. This is the Seven Wars Policy Coup; this is your judgment. How will you face it, Clark?",
+            "description": "The hourglass is broken; it was a cruel move for the Republican Party to unleash an unchained Dick Cheney onto the world. He's unsettling for most; his enemies are nothing more than \"mattress mice\" in his presence. Unwavering ideals of a man dead set on making the world seem much more deadly than it truly is. The election shouldn't be as hard as it is. Your poll numbers sink with the economy, and Cheney is a rabid dog barking at the need to push around the Middle East. He goes further to North Korea and Russia; you can imagine the fires that would engulf the world under him. This is the Seven Wars Policy Coup; this is your judgment. How will you face it, Clark?",
             "likelihood": 1
         }
     },
@@ -941,7 +940,7 @@ campaignTrail_temp.questions_json = [
         "pk": 22489,
         "fields": {
             "priority": 7,
-            "description": "President Clark, the rumors circling the media were right. You've spent too long looking abroad, and now the U.S. housing market faces unprecedented price crashes as hundreds of homes are foreclosed on. Bear Stearns has collapsed despite the help of an emergency bailout. Families are in hysterics as banks knock down their doors and leave them with nothing. Blame is being thrown around at every institution, conspiracies are being made, and there is one common question: What the hell will you do about this?",
+            "description": "President Clark, the rumors circling the media were right. You've spent too long looking abroad. Bear Stearns has just collapsed even after the help of a bailout from the New York Federal Reserve, which spells just the start of unprecedented U.S. housing market price crashes with the foreclosure of thousands of homes. Families are in hysterics as banks knock down their doors and leave them with nothing. Every institution is catching blame, conspiracies are running rampant, and there is one common question: What the hell will you do about this?\n",
             "likelihood": 1
         }
     },
@@ -986,7 +985,7 @@ campaignTrail_temp.questions_json = [
         "pk": 22635,
         "fields": {
             "priority": 0,
-            "description": "The elephant in the room of the tarnished Bush legacy isn't the prodigal son turned president. It's the little Governor Bush seated in the most critical state of the election 8 years ago. Well, that's how these online chat rooms see it; after all that tension, Gore had successfully extinguished most speculation by conceding. Speculation still resides, and Jeb Bush's nomination has only increased that. Now, Eli Segal and Paul Johnson have gathered plenty of loosely held accusations against the Florida Republican party's actions leading up to and after the 2000 election, voter disenfranchisement, ballot dumping, and recount stalling in certain counties. Scattered, they mean nothing, but if woven with the right pen, you could sink Jeb underneath fraud allegations, will you, Clark?",
+            "description": "The elephant in the room of the tarnished Bush legacy isn't the prodigal son turned president. It's the little Governor Bush seated in the most critical state of the election 8 years ago. Well, that's how these online chat rooms see it; after all that tension, Gore had successfully extinguished most speculation by conceding. Speculation still resides, and Jeb Bush's nomination has only increased that. Now, Nancy Parrish and Paul Johnson have gathered plenty of loosely held accusations against the Florida Republican party's actions leading up to and after the 2000 election, voter disenfranchisement, ballot dumping, and recount stalling in certain counties. Scattered, they mean nothing, but if woven with the right pen, you could sink Jeb underneath fraud allegations, will you, Clark?",
             "likelihood": 1
         }
     },
@@ -1094,7 +1093,7 @@ campaignTrail_temp.questions_json = [
         "pk": 22846,
         "fields": {
             "priority": 0,
-            "description": "You've returned home to Washington after a round trip through states ripped to shreds by Hurricane Katrina, and you're informed that House Majority Tom Delay has been indicted and resigned after much public pressure. With his resignation, the people's trust in the Republican Congress has gone. Minority Leader Pelosi was looking to meet with you to go over possible domestic pushes in response to this, but you've gone abroad, not wanting to waste effort cutting through the jungles of Congress.  NATO is disunited and in need of a rallying flag. How will you reunite the West?",
+            "description": "You've returned home to Washington after a round trip through states ripped to shreds by Hurricane Katrina, and you're informed that House Majority Leader Tom DeLay has been indicted and resigned after much public pressure. With his resignation, the people's trust in the Republican Congress has gone. Minority Leader Pelosi was looking to meet with you to go over possible domestic pushes in response to this, but you've gone abroad, not wanting to waste effort cutting through the jungles of Congress.  NATO is disunited and in need of a rallying flag. How will you reunite the West?",
             "likelihood": 1
         }
     },
@@ -1103,7 +1102,7 @@ campaignTrail_temp.questions_json = [
         "pk": 22891,
         "fields": {
             "priority": 0,
-            "description": "Our country is dying. That moron blew a hole through our national security, let terrorists overrun Iraq, and incited a Christian revolt through his management. More importantly, Haliburton and many other oil barons are ringing your phone every waking moment, worried about the security of their oil contracts in Iraq. Your paycheck is on the line. It's your job to captain the Republican ship after ripping the nomination after Huckabee's hands. Liked by no one, you need to plead your case and oust Clark before he fucks up anything else. How will you do it, Dick?\n",
+            "description": "Our country is dying. That moron blew a hole through our national security, let terrorists overrun Iraq, and incited a Christian revolt through his management. More importantly, Haliburton and many other oil barons are ringing your phone every waking moment, worried about the security of their oil contracts in Iraq. Your paycheck is on the line. It's your job to captain the Republican ship after ripping the nomination from Huckabee's hands. Liked by no one, you need to plead your case and oust Clark before he fucks up anything else. How will you do it, Dick?\n",
             "likelihood": 1
         }
     },
@@ -1277,6 +1276,42 @@ campaignTrail_temp.questions_json = [
             "description": "The economy is in complete and utter freefall, with stock markets crashing globally and your approval rating hitting record lows. The public is clamoring for action as unemployment, mortgage defaults, and suicide rates soar. Congress is disunited, with almost every wing at each other's throats. After a briefing with Prime Minister Gordon Brown, his insights resonate with you. Inspired by Britain's research, the strategy is to swiftly push a bold and comprehensive stimulus bill through Congress to combat the impending recession. The urgency of the situation is palpable, President Clark. How will you rescue America?\n",
             "likelihood": 1
         }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 23747,
+        "fields": {
+            "priority": 0,
+            "description": "The royal chariot has arrived on the debate stage, and when you face Jeb, he looks tired. The Bush campaign has been busy fighting fires of the intense scrutiny of the Florida Republican Party's actions during the 2000 election. He's run into a tizzy; this election was meant to be a coronation, but now? He's weak; for the first time in the campaign, he's been put into defense. Not wasting any time, he lambasts your campaign's supposed delegitimizing of democracy. How do you reply?\n",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 23767,
+        "fields": {
+            "priority": 0,
+            "description": "Your coffee cup almost shakes as you watch the Republican National Convention nominate its champion. Soaring high approval ratings scared Republicans to the bone, and as a response, The first of an unprecedented candidacy, Orrin Hatch's congressional nepo-baby, one who needed his own amendment to lay the groundwork for his campaign. Arnold Schwarzenegger walks onto the stage; the audience goes wild as a \"real man\" takes the podium. He puts your record to shame in his classic Austrian accent and squashes your economics like a bug. The Herculean muscle man now carries the Republican ticket with Alaska Governor Sarah Palin by his side. The two are a powerful ticket balancing both wings of the Republican Party. Together, they climb to Olympus; how will you set the record straight and kick Arnie back to Earth?",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 23771,
+        "fields": {
+            "priority": 0,
+            "description": "Establishment Democrats are growing quite wary of your consistent bullying of Congress. You've been giving marching orders and blowing through as much political capital as possible. Many of these Blue Dog and Conservative Democrats expected you'd focus abroad. Still, you've read through the economic trends after hearing that two subprime hedge funds owned by Bear Stearns had lost nearly all of their value amid a rapid decline in the market. You've assembled the party demanding a bill to put more gas into the economy. What is it you demand?\n",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 23789,
+        "fields": {
+            "priority": 7,
+            "description": "President Clark, you were ahead of the curb. Bear Stearns has just collapsed even after the help of a bailout from the New York Federal Reserve, which spells just the start of unprecedented U.S. housing market price crashes with the foreclosure of thousands of homes. Families are in hysterics as banks knock down their doors and leave them with nothing. Every institution is catching blame, conspiracies are running rampant, and there is one common question: What the hell will you do about this?\n",
+            "likelihood": 1
+        }
     }
 ]
 
@@ -1318,7 +1353,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5145,
         "fields": {
             "question": 1043,
-            "description": "This rush to exploit this tragedy is disturbing, and I have no plans to follow Republicans down the drain. I want Vice President Landrieu to unite Senate Democrats in opposition to kill this phony intervention.\n"
+            "description": "The rush to exploit this tragedy is disturbing, and I have no plans to follow Republicans down the drain. I want Vice President Landrieu to unite Senate Democrats in opposition to kill this phony intervention.\n"
         }
     },
     {
@@ -1454,7 +1489,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5198,
         "fields": {
             "question": 1059,
-            "description": "Well, I heard that Representative Conyers has been trying to ram through Congress the Matthew Shepherds Act. We must support that piece of legislation and start treating heinous crimes more seriously."
+            "description": "Well, I heard that Representative Conyers has been trying to ram the Matthew Shepherds Act through Congress . We must support that piece of legislation and start treating heinous crimes more seriously."
         }
     },
     {
@@ -1462,7 +1497,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5199,
         "fields": {
             "question": 1059,
-            "description": "The tragedy at Virginia Tech was horrible, and it once again showcased the need for real change in gun policy. We need to renew the Assault Weapons Ban and close all these gun loopholes. I'm not letting Congress ignore this issue anymore. We're getting at it and fixing it so we don't have any tragedies like that in the future. "
+            "description": "The tragedy at Virginia Tech was horrible, and it once again showcased the need for fundamental change in gun policy. We're being made to look like a joke in front of dictators. We need to renew the Assault Weapons Ban and close all these gun loopholes. \n"
         }
     },
     {
@@ -1534,7 +1569,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5220,
         "fields": {
             "question": 1065,
-            "description": "It's clear that we can't play this issue in Congress; they aren't going for it, and I can't rely on my party here. That does not mean we cannot try. We will get at this with the powers of the executive. "
+            "description": "It's clear that we can't play this issue in Congress; they aren't going for it, and I can't rely on my party here. That does not mean we cannot try. We will get at this with the powers of the executive. "
         }
     },
     {
@@ -1838,7 +1873,7 @@ campaignTrail_temp.answers_json = [
         "pk": 20740,
         "fields": {
             "question": 1043,
-            "description": "Republicans are making this such a profound political issue, and I want to know why. I want this looked further into. I want to contact Senators close to this resolution, like Harkin and Conrad, and find out what they know.\n"
+            "description": "Republicans are making this such a profound political issue, and I want to know why.  We have some Senators close to this resolution, like Harkin and Conrad. Find out what they know.\n"
         }
     },
     {
@@ -1846,7 +1881,7 @@ campaignTrail_temp.answers_json = [
         "pk": 20747,
         "fields": {
             "question": 1046,
-            "description": "We're risking it all by sunsetting many of these acts, so I understand that we need to compromise. I want, at the very least, that awful library section gone. Let's ring Clinton and Biden and see where we can go.\n"
+            "description": "Sunsetting many of these acts would risk it all, so I understand that we need to compromise. I want, at the very least, that awful library section gone. Let's ring Clinton and Biden and see where we can go from there.\n"
         }
     },
     {
@@ -1862,7 +1897,7 @@ campaignTrail_temp.answers_json = [
         "pk": 20755,
         "fields": {
             "question": 1055,
-            "description": "Senator Lieberman is our perfect chance to galvanize the liberal turnout. We can make a message out of him. We are bipartisan, and we admit our mistakes. Lieberman voted for Iraq. He defended his vote in the past and still stands by it today. That's three strikes; just like a baseball game, he's out."
+            "description": "Senator Lieberman is our perfect chance to galvanize the liberal turnout. We can make a message out of him. We are bipartisan, and we admit our mistakes. Lieberman voted for Iraq. He defended his vote in the past and stands by it today. That's three strikes; he's out just like a baseball game."
         }
     },
     {
@@ -1894,7 +1929,7 @@ campaignTrail_temp.answers_json = [
         "pk": 20788,
         "fields": {
             "question": 1059,
-            "description": "I was a Four-Star General, now President, but to the troops, I'll always be a General. We must focus on connecting with them, making trips, and shaking hands to remind them that I'm here for them. "
+            "description": "I was a Four-Star General, now President, but I'll always be a General to the troops. We must focus on connecting with them, making trips, and shaking hands to remind them that I'm here for them. "
         }
     },
     {
@@ -1910,7 +1945,7 @@ campaignTrail_temp.answers_json = [
         "pk": 20890,
         "fields": {
             "question": 20889,
-            "description": "We need to squeeze them while they're weak. The Turnaround Plan needs to be put into action. Push our tax reforms; Hastert is backed into a corner because of this."
+            "description": "If our economy goes down, authoritarian nations like China are the first to seize the opportunity. We need to squeeze these Republicans while they're weak. Push our tax reforms to pay for the wars we're fighting."
         }
     },
     {
@@ -1926,7 +1961,7 @@ campaignTrail_temp.answers_json = [
         "pk": 20897,
         "fields": {
             "question": 20896,
-            "description": "I don't care what Pelosi or Daschle have to say about it; I made a promise. This is the perfect opportunity to kill the Defense of Marriage Act. It was a vial act then, and it still is now. Push the Freedom to Marry Act and settle this issue once and for all."
+            "description": "America is the example the world follows, and we need to display actual progress to authoritarians like Putin and Jintao. I don't care what Pelosi or Daschle have to say about it; I made a promise. It's time to kill the Defense of Marriage Act. It was a vial act then, and it still is now. Push the Freedom to Marry Act and settle this issue once and for all."
         }
     },
     {
@@ -2014,7 +2049,7 @@ campaignTrail_temp.answers_json = [
         "pk": 20939,
         "fields": {
             "question": 20934,
-            "description": "The tragedy at Virginia Tech was horrible, and it once again showcased the need for real change in gun policy. We need to renew the Assault Weapons Ban and close all these gun loopholes. I'm not letting Congress ignore this issue anymore. We're getting at it and fixing it so we don't have any tragedies like that in the future. "
+            "description": "The tragedy at Virginia Tech was horrible, and it once again showcased the need for fundamental change in gun policy. We're being made to look like a joke in front of dictators. We need to renew the Assault Weapons Ban and close all these gun loopholes. \n"
         }
     },
     {
@@ -2726,7 +2761,7 @@ campaignTrail_temp.answers_json = [
         "pk": 21552,
         "fields": {
             "question": 1074,
-            "description": "Putin is trying to push this act as a defensive procedure, an act to make peace, but he doesn't want peace. He wants to install an agent who will do his bidding. Well, Georgia doesn't want to surrender her independence, and in response, we will provide Georgia with the necessary weapons, ammunition, and equipment to defend herself.\n"
+            "description": "Putin is trying to push this act as a defensive procedure to make peace, but he doesn't want peace. He wants to install an agent who will do his bidding. We will provide Georgia with the necessary weapons, ammunition, and equipment to defend herself.\n"
         }
     },
     {
@@ -2926,7 +2961,7 @@ campaignTrail_temp.answers_json = [
         "pk": 21669,
         "fields": {
             "question": 21664,
-            "description": "It's time we finally take a hammer to the foundations of Giuliani's campaign. We all saw what the firefighters had to say about him. It's time we fully exploit their grievances and shatter the Hero of 9/11.\n"
+            "description": "It's time we finally take a hammer to the foundations of Giuliani's campaign. We all heard what the firefighters had to say about him. It's time we fully exploit their grievances and shatter the Hero of 9/11.\n"
         }
     },
     {
@@ -3854,7 +3889,7 @@ campaignTrail_temp.answers_json = [
         "pk": 22475,
         "fields": {
             "question": 22474,
-            "description": "We won Congress, I've been given a mandate to use, and I'm not wasting it on small fish; we're going big and killing Don't Ask, Don't Tell once and for all. It was a horrible Act when signed, and it's an insult to our troops now."
+            "description": "We won Congress, I've been given a mandate to use, and I'm not wasting it on small fish; we're going big and killing Don't Ask, Don't Tell. Our troops, no matter their sexuality, must be accepted and ready to face nations like Russia.\n"
         }
     },
     {
@@ -3862,7 +3897,7 @@ campaignTrail_temp.answers_json = [
         "pk": 22479,
         "fields": {
             "question": 22474,
-            "description": "The tragedy at Virginia Tech was horrible, and it once again showcased the need for real change in gun policy. We need to renew the Assault Weapons Ban and close all these gun loopholes. I'm not letting Congress ignore this issue anymore. We're getting at it and fixing it so we don't have any tragedies like that in the future. "
+            "description": "The tragedy at Virginia Tech was horrible, and it once again showcased the need for fundamental change in gun policy. We're being made to look like a joke in front of dictators. We need to renew the Assault Weapons Ban and close all these gun loopholes. \n"
         }
     },
     {
@@ -3870,7 +3905,7 @@ campaignTrail_temp.answers_json = [
         "pk": 22483,
         "fields": {
             "question": 22474,
-            "description": "We have the House, which means we can focus on implementing more of the Turnaround Plan, and that starts with Healthcare. We need to move at this step by step, and our first step needs to be going after insurance companies disqualifying those with preexisting conditions and raising the age at which children can claim their parents' health insurance.\n"
+            "description": "Just as our soldiers can't do their jobs without adequate health care, our families shouldn't be expected to do their best jobs without it, either. The first step is stopping insurance companies that disqualify those with preexisting conditions and raising the age at which children can claim their parents' health insurance."
         }
     },
     {
@@ -4070,7 +4105,7 @@ campaignTrail_temp.answers_json = [
         "pk": 22595,
         "fields": {
             "question": 22197,
-            "description": "We are a nation currently facing one of the most significant economic recessions put upon us since the Great Depression, and Vice President Cheney thinks it'd be best to waste more of our money on useless wars. We need to combat the recession, not North Korea.\n"
+            "description": "Republicans have been making my North Korean policy such a grand political issue, but tell me, what's the alternative? Start war with China? No diplomacy is the answer because, ultimately, the Korean people have to resolve this."
         }
     },
     {
@@ -4078,7 +4113,7 @@ campaignTrail_temp.answers_json = [
         "pk": 22599,
         "fields": {
             "question": 22197,
-            "description": "The leftover policies from the Bush Administration are why we are in this mess. I'm providing the path forward to reform our broken financial system, secure it for years to come and step back from unprovoked wars.\n"
+            "description": "Our all-volunteer military isn't large enough to tackle a project like invading Iran, and invading countries isn't enough; you have to stabilize them afterward, which Cheney can't accomplish."
         }
     },
     {
@@ -4198,7 +4233,7 @@ campaignTrail_temp.answers_json = [
         "pk": 22662,
         "fields": {
             "question": 1045,
-            "description": "No Child Left Behind is a deeply flawed and underfunded piece of legislation, and we'll need to do a whole lot more than extra funding and tabletop reforms. That'll take new standards for educators and axing this punishment system we created for underperforming schools.\n"
+            "description": "No Child Left Behind is a deeply flawed and underfunded piece of legislation; career politicians don't understand that our education system is the first front of keeping ahead of authoritarian countries like China and Russia. That'll take new standards for educators and axing this punishment system we created for underperforming schools.\n"
         }
     },
     {
@@ -5343,6 +5378,102 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 23732,
             "description": "I'm not one to dismiss opposing views. If we can bring Senator Sanders on board, we can forge a united front. He advocates for reforms, and we'll ensure that Glass Steagall's principles are upheld. A united coalition is key to our success. \n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 23748,
+        "fields": {
+            "question": 23747,
+            "description": "I respect Governor Bush's career, and I'd like to believe him when he says there was no foul play. However, when we look at the facts, there were extreme irregularities during the 2000 election, and whether that had anything to do with him is up to speculation.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 23751,
+        "fields": {
+            "question": 23747,
+            "description": "Throughout my military career, I stood up for democracy here and abroad. I was deeply saddened to see such a clear victory taken that way, and whether it was Governor Bush or his cronies, they had a hand in halting the counting of every vote.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 23755,
+        "fields": {
+            "question": 23747,
+            "description": "Jeb, I'm sorry that the media has gone digging into your past, but that has nothing to do with me. I'd like to focus on the issues that are actually impacting the American people. For starters, how about we talk about your consultancy with Lehman Brothers and how well that worked out?"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 23763,
+        "fields": {
+            "question": 23747,
+            "description": "Under my watch, we've healed relationships with allies and remained stern in the face of insurmountable odds. The economy is hurting, and we are facing struggles abroad, but I have never faltered and resorted to lies and deception to make it easier to run this campaign.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 23768,
+        "fields": {
+            "question": 23767,
+            "description": "Arr theres onion ring in my fries! *flexes*"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 23772,
+        "fields": {
+            "question": 23771,
+            "description": "The history of American economic progress is largely the story of laborers who banded together into unions. Unions are key to ensuring our economy stays ahead of China. I want a bold bill raising the minimum wage and finally getting a card check to make unionizing easier for these folks.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 23781,
+        "fields": {
+            "question": 23771,
+            "description": "Too many jobs were lost under Bush; it's like we renewed the jobs market with a Homeland and Hometown Security Fund to create jobs that secure our country from the intelligence threats of Russia or China.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 23785,
+        "fields": {
+            "question": 23771,
+            "description": "These corporations are robbing the American people blind. We need to reform corporate welfare massively and to accomplish this; it's time to create the Corporate Subsidy Reform Commission to force Congress to have more say in this matter."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 23790,
+        "fields": {
+            "question": 23789,
+            "description": "The systematic risks we let these bankers take have rutted our economy. We must initiate a large multi-action plan to save Americans before this spirals further. Reform, Aid, and stimulus will lift families back up and prevent a crisis like this from happening in the future.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 23793,
+        "fields": {
+            "question": 23789,
+            "description": "We need to focus on halting the crisis from becoming a total disaster. We need to save the banks; if they go, we all go. Contact Pelosi and Boehner. We need to crack out something to lift ourselves out of this mess."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 23796,
+        "fields": {
+            "question": 23789,
+            "description": "Dodd is lying through his teeth, trying to save his skin. Fannie Mae and Freddie Mac cannot sustain the growing number of delinquencies, and if we don't act now, their bonds will explode in our faces. \n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 23799,
+        "fields": {
+            "question": 23789,
+            "description": "It's my job to whip up a strong government response to this. We need sweeping action against this recession that goes beyond small reform and secures our financial institutions from bad actors looking to abuse them."
         }
     }
 ]
@@ -12592,7 +12723,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 21495,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.008
+            "global_multiplier": 0.014
         }
     },
     {
@@ -12602,7 +12733,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 21498,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.011
+            "global_multiplier": 0.018
         }
     },
     {
@@ -12622,7 +12753,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 21504,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.008
+            "global_multiplier": 0.012
         }
     },
     {
@@ -12632,7 +12763,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 21508,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.01
+            "global_multiplier": 0.02
         }
     },
     {
@@ -13110,8 +13241,8 @@ campaignTrail_temp.answer_score_global_json = [
         "pk": 21698,
         "fields": {
             "answer": 21688,
-            "candidate": 200,
-            "affected_candidate": 200,
+            "candidate": 201,
+            "affected_candidate": 201,
             "global_multiplier": 0.014
         }
     },
@@ -14612,7 +14743,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 22588,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.008
+            "global_multiplier": 0.019
         }
     },
     {
@@ -14652,7 +14783,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 22599,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.01
+            "global_multiplier": 0.017
         }
     },
     {
@@ -14822,7 +14953,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 22648,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.004
+            "global_multiplier": 0.01
         }
     },
     {
@@ -14832,7 +14963,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 22652,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": -0.008
+            "global_multiplier": -0.013
         }
     },
     {
@@ -14842,7 +14973,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 22656,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": -0.011
+            "global_multiplier": -0.016
         }
     },
     {
@@ -14852,7 +14983,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 22659,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": -0.013
+            "global_multiplier": -0.018
         }
     },
     {
@@ -15332,7 +15463,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 22828,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.013
+            "global_multiplier": 0.017
         }
     },
     {
@@ -15342,7 +15473,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 22831,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": -0.009
+            "global_multiplier": -0.013
         }
     },
     {
@@ -15352,7 +15483,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 22834,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": -0.005
+            "global_multiplier": -0.014
         }
     },
     {
@@ -15362,7 +15493,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 22838,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.012
+            "global_multiplier": 0.014
         }
     },
     {
@@ -15672,7 +15803,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 22982,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": -0.008
+            "global_multiplier": -0.013
         }
     },
     {
@@ -15682,7 +15813,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 22986,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.007
+            "global_multiplier": -0.01
         }
     },
     {
@@ -15692,7 +15823,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 22990,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.01
+            "global_multiplier": 0.02
         }
     },
     {
@@ -15702,7 +15833,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 22994,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.012
+            "global_multiplier": 0.02
         }
     },
     {
@@ -16673,6 +16804,106 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 200,
             "affected_candidate": 200,
             "global_multiplier": -0.09
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 23750,
+        "fields": {
+            "answer": 23748,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 23753,
+        "fields": {
+            "answer": 23751,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 23757,
+        "fields": {
+            "answer": 23755,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 23765,
+        "fields": {
+            "answer": 23763,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 23783,
+        "fields": {
+            "answer": 23781,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.008
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 23787,
+        "fields": {
+            "answer": 23785,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.014
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 23792,
+        "fields": {
+            "answer": 23790,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.075
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 23795,
+        "fields": {
+            "answer": 23793,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.08
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 23798,
+        "fields": {
+            "answer": 23796,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.075
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 23801,
+        "fields": {
+            "answer": 23799,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.11
         }
     }
 ]
@@ -18533,7 +18764,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 22602,
         "fields": {
             "answer": 22599,
-            "issue": 104,
+            "issue": 102,
             "issue_score": 0.7,
             "issue_importance": 5
         }
@@ -18964,7 +19195,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 22986,
             "issue": 100,
-            "issue_score": -0.7,
+            "issue_score": 0.7,
             "issue_importance": 6
         }
     },
@@ -19264,8 +19495,8 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 21504,
             "issue": 100,
-            "issue_score": 0.2,
-            "issue_importance": 4
+            "issue_score": -0.7,
+            "issue_importance": 6
         }
     },
     {
@@ -19466,6 +19697,56 @@ campaignTrail_temp.answer_score_issue_json = [
             "issue": 100,
             "issue_score": 1,
             "issue_importance": 16
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 23754,
+        "fields": {
+            "answer": 23751,
+            "issue": "100",
+            "issue_score": 0.8,
+            "issue_importance": 7
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 23766,
+        "fields": {
+            "answer": 23763,
+            "issue": 102,
+            "issue_score": 0.7,
+            "issue_importance": 7
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 23774,
+        "fields": {
+            "answer": 23772,
+            "issue": "100",
+            "issue_score": 0.8,
+            "issue_importance": 8
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 23784,
+        "fields": {
+            "answer": 23781,
+            "issue": 101,
+            "issue_score": -0.6,
+            "issue_importance": 4
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 23788,
+        "fields": {
+            "answer": 23785,
+            "issue": "100",
+            "issue_score": 0.9,
+            "issue_importance": 6
         }
     }
 ]
@@ -21118,7 +21399,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1042,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.2
+            "state_multiplier": -0.25
         }
     },
     {
@@ -21129,7 +21410,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1042,
             "candidate": 201,
             "affected_candidate": 202,
-            "state_multiplier": 0.3
+            "state_multiplier": 0.4
         }
     },
     {
@@ -22999,7 +23280,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1042,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.2
+            "state_multiplier": -0.25
         }
     },
     {
@@ -23010,7 +23291,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1042,
             "candidate": 201,
             "affected_candidate": 202,
-            "state_multiplier": 0.3
+            "state_multiplier": 0.4
         }
     },
     {
@@ -23571,7 +23852,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1042,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.2
+            "state_multiplier": -0.25
         }
     },
     {
@@ -23582,7 +23863,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1042,
             "candidate": 201,
             "affected_candidate": 202,
-            "state_multiplier": 0.3
+            "state_multiplier": 0.4
         }
     },
     {
@@ -27643,6 +27924,127 @@ campaignTrail_temp.answer_score_state_json = [
             "affected_candidate": 202,
             "state_multiplier": 0.3
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 23760,
+        "fields": {
+            "answer": 23755,
+            "state": 1002,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": 0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 23761,
+        "fields": {
+            "answer": 23755,
+            "state": 1021,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 23762,
+        "fields": {
+            "answer": 23755,
+            "state": 1008,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 23769,
+        "fields": {
+            "answer": 23768,
+            "state": 1004,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": 0.6
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 23770,
+        "fields": {
+            "answer": 23768,
+            "state": 1036,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": 0.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 23775,
+        "fields": {
+            "answer": 23772,
+            "state": 1021,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": 0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 23776,
+        "fields": {
+            "answer": 23772,
+            "state": 1034,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": 0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 23777,
+        "fields": {
+            "answer": 23772,
+            "state": 1049,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": 0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 23778,
+        "fields": {
+            "answer": 23772,
+            "state": 1013,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": 0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 23779,
+        "fields": {
+            "answer": 23772,
+            "state": 1012,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": 0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 23780,
+        "fields": {
+            "answer": 23772,
+            "state": 1022,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": 0.03
+        }
     }
 ]
 
@@ -27671,7 +28073,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5143,
             "candidate": 201,
-            "answer_feedback": "The media picks up your opposition, but the Senate votes in favor of a resolution by voice vote. Soon, Republicans came to regret the decision as public opinion turned firmly against congressional intervention. Luckily, Terri Schiavo's tube is removed, and the autopsy finds irreversible damage to her brain.\n"
+            "answer_feedback": "The media picks up your opposition, but the Senate votes in favor of a resolution by voice vote, disguising party dissent. Soon, Republicans came to regret the decision as public opinion turned firmly against congressional intervention. Luckily, Terri Schiavo's tube is removed, and the autopsy finds irreversible damage to her brain.\n"
         }
     },
     {
@@ -27743,7 +28145,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5155,
             "candidate": 201,
-            "answer_feedback": "Despite the best efforts from Senators Joe Biden and Hillary Clinton to dissuade this, you have pushed forward. The paranoid critics call it the Tuesday night massacre. Section after section is cut to pieces, but you feel no remorse. The base loves it, which I guess matters most."
+            "answer_feedback": "You have pushed forward despite the best efforts from Senators Joe Biden and Hillary Clinton to dissuade this. The paranoid critics call it the Tuesday night massacre. Section after section is cut to pieces, but you feel no remorse. The base loves it, which I guess matters most."
         }
     },
     {
@@ -27806,7 +28208,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5184,
             "candidate": 201,
-            "answer_feedback": "Lamont is thankful you're stumping for him, but other state democrats are left to fend for themselves against the red hoard while you entrench yourself in a petty squabble with Lieberman. Lamont is likely to prevail over Lieberman but you've sacrificed time that could have been spent on swing races."
+            "answer_feedback": "Lamont is thankful you're stumping for him, but other state democrats are left to fend for themselves against the red hoard while you entrench yourself in a petty squabble with Lieberman. Lamont will likely prevail over Lieberman, but you've sacrificed time that could have been spent on swing races."
         }
     },
     {
@@ -27842,7 +28244,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5199,
             "candidate": 201,
-            "answer_feedback": "You make your case to Congress, but the Republican majorities and even parts of your party are ignoring you. Eventually, you're forced to face that your calls have fallen flat."
+            "answer_feedback": "You make your case to Congress, but the Republican majority and even your party are ignoring you. Eventually, you're forced to face the fact that your calls have fallen flat."
         }
     },
     {
@@ -28220,7 +28622,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 20788,
             "candidate": 201,
-            "answer_feedback": "Your round of trips visiting the troops is widely deemed unsuccessful. The troops don't particularly feel you understand them, and some in the media label you a \"Perfumed Prince who can't relate to the soldiers.\"\n"
+            "answer_feedback": "Unfortunately, your round of trips visiting the troops is widely deemed unsuccessful. The troops don't particularly feel you understand them, and some in the media label you a \"Perfumed Prince who can't relate to the soldiers.\"\n"
         }
     },
     {
@@ -28436,7 +28838,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 20975,
             "candidate": 201,
-            "answer_feedback": "You go over long and arduous economic policies, blaming this recession on the handicapping of Glass-Steagels and relaxed housing market initiatives meant to allow greater growth but led to unstable lending practices. You've blamed the right people, but you must prove it and make them pay."
+            "answer_feedback": "You go over long and arduous economic policies, blaming this recession on the handicapping of Glass-Steagall and relaxed housing market initiatives meant to allow greater growth but led to unstable lending practices. You've blamed the right people, but you must prove it and make them pay."
         }
     },
     {
@@ -30650,7 +31052,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 22595,
             "candidate": 201,
-            "answer_feedback": "The Republican War Chest is deep, and Cheney has plenty to take from it, and his campaign releases scathing refutes calling you an unpatriotic peacenik dove. The most significant problem of all? The polls look like they believe it."
+            "answer_feedback": "Cheney isn't willing to let you slip by him on this and has gone to lambasting you over agreements made after the first North Korean Nuclear test, where you gave \"concession after concession to the North Koreans and turned a blind eye to their misdeeds.\""
         }
     },
     {
@@ -30659,7 +31061,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 22599,
             "candidate": 201,
-            "answer_feedback": "Usually, blaming the prior administration would go over poorly for an incumbent facing a crisis, but you are facing the most unpopular man for it. Cheney brushes off your criticisms, not realizing he's brushed off millions of Americans."
+            "answer_feedback": "You list off the reasons such a hawkish project would fail, deeming Iran a geographical fortress ringed in mountains. Neoconservative goons like Paul Wolfowitz drew up the plans for Cheney, but the American populace has no appetite for this, and it's showing."
         }
     },
     {
@@ -30794,7 +31196,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 22662,
             "candidate": 201,
-            "answer_feedback": "Pelosi fights tooth and nail against the Hastert rule, and soon, the decrepit king buckles underneath the stampede of a furious congress. The bill is sent to your desk, standardized testing dead, public school funding up, The Bush Regime repudiated."
+            "answer_feedback": "Pelosi fights tooth and nail against the Hastert rule, and soon, the decrepit king buckles underneath the stampede of a furious congress. The bill is sent to your desk, standardized testing is dead, and public school funding is up. The Bush Regime is repudiated."
         }
     },
     {
@@ -32092,6 +32494,105 @@ campaignTrail_temp.answer_feedback_json = [
             "candidate": 201,
             "answer_feedback": "Senator Sanders is shocked by your willingness to camp with him on this. He helps crack out a bold bill that gets the banks the aid they need but with trucks full of regulations. Despite public approval, no compromise on such a bill could be made, and Republicans sink it."
         }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 23749,
+        "fields": {
+            "answer": 23748,
+            "candidate": 201,
+            "answer_feedback": "Viewers watch as Jeb tosses your attempt to remain above the fray while fully indulging in the 2000 election fantasies and rails against you and Democratic partisanship. You remain aloof throughout the rest of the debate."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 23752,
+        "fields": {
+            "answer": 23751,
+            "candidate": 201,
+            "answer_feedback": "The debate moderator watches in horror as you take the mask off, and both you and Jeb get into a heated battle filled with partisan rhetoric and downright conspiratory claims of fraud from both campaigns. By the night's end, Americans can only wonder if their vote will even count."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 23756,
+        "fields": {
+            "answer": 23755,
+            "candidate": 201,
+            "answer_feedback": "You brought a dangerous bomb onto the debate stage that could have severely backfired, but Bush wasn't expecting you to tie him to his time trying to raise capital and dispose of Lehman's bad assets in \"Project Green.\" Now, though, viewers see him as a cause for concern over the economy.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 23764,
+        "fields": {
+            "answer": 23763,
+            "candidate": 201,
+            "answer_feedback": "You've retreated into defense, and while Jeb is unable to connect you to the election conspiracies, he's about to take advantage of the national situation in labeling you a failure on the economy and Iraq."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 23773,
+        "fields": {
+            "answer": 23772,
+            "candidate": 201,
+            "answer_feedback": "Senator Tom Harkin pulls nearly every relationship he has, and Union Lobbyists swarm the capital during a lengthy operation for weeks. You crack the whip on the party's establishment, and nearly a month later, Harkin declares he has 60 votes. The rest is history after signing your name on the bill."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 23782,
+        "fields": {
+            "answer": 23781,
+            "candidate": 201,
+            "answer_feedback": "The exhausted Democratic Congress trudge along to pass another round of your grand legislative demands. Republican budget hawks shout against it but are in a tight spot attacking something built around increasing security. The bill hits your desk a few weeks later."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 23786,
+        "fields": {
+            "answer": 23785,
+            "candidate": 201,
+            "answer_feedback": "Both Republicans and Conservative Democrats launched their opposition to any bill related to corporate welfare. At the same time, the establishment, including Pelosi, is unwilling to help you sink part of their stock earning on this."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 23791,
+        "fields": {
+            "answer": 23790,
+            "candidate": 201,
+            "answer_feedback": "Pelosi is quick to compromise on some of your demands. Most of the reform you would have liked is pulled, but you're granted the stimulus for needing families and banks worth nearly 200 billion. It was passed along party lines, but it landed at your desk."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 23794,
+        "fields": {
+            "answer": 23793,
+            "candidate": 201,
+            "answer_feedback": "Pelosi is quick to act and passes sweeping bailouts to the banks within the limits of what Democrats are willing to back, of course, leaving families out in the cold for now."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 23797,
+        "fields": {
+            "answer": 23796,
+            "candidate": 201,
+            "answer_feedback": "Even when controlling both chambers of Congress, the urge to do nothing plagues most creatures. However, you whip them back into a march, and the Federal Housing Finance Agency is born to save Fannie Mae and Freddie Mac despite naysayers calling it unnecessary."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 23800,
+        "fields": {
+            "answer": 23799,
+            "candidate": 201,
+            "answer_feedback": "Demanding such massive reforms of a tired congress was a disaster waiting to happen. The bill soon dies in gridlock, to your dismay. You're the President, and these ungrateful bastards think they can step out of line. \n"
+        }
     }
 ]
 
@@ -32117,6 +32618,7 @@ campaignTrail_temp.jet_data = [{
     "ending_data": {}
 }
 ]
+
 
 
 
@@ -32293,7 +32795,13 @@ function switcheroo9() {
     e.candidate_json[id].fields.color_hex = "#742b2b" 
 
 }
+function switcheroo10() {
+    var id = e.candidate_json.map(p=>p.pk).indexOf(200)
+    e.candidate_json[id].fields.first_name = "Arnold"
+    e.candidate_json[id].fields.last_name = "Schwarzenegger"  
+    e.candidate_json[id].fields.color_hex = "#da2f00" 
 
+}
 
 
 //The Greens
@@ -32408,6 +32916,8 @@ cyoAdventure = function(a) {
         return a.pk - b.pk;
     });
     e.noCounter += 1
+
+
 
     
     ///Promise tax cut repeal or get gay
@@ -32631,6 +33141,18 @@ cyoAdventure = function(a) {
         Agenda += 1;
     }
 
+    if(ans == 23785 ){
+        Agenda += 1;
+    }
+
+    if(ans == 23781 ){
+        Agenda += 1;
+    }
+
+    if(ans == 23772 ){
+        Agenda += 1;
+    }
+
     ///Foreign policy success
     if(ans == 22853 ){
         Nato += 1;
@@ -32803,19 +33325,27 @@ if (e.noCounter == 10) {
     }
 }
 
-    ///Foreign policy event
+    ///Foreign policy event or domestic clark tuah
 if (e.noCounter == 11) {
     if (Troops > 0) {
         campaignTrail_temp.questions_json[11] = tunnel(22757); 
     }
+    if (Notroops > 0 && Agenda > 3) {
+        campaignTrail_temp.questions_json[11] = tunnel(23771); 
+    }
 }
 
-    ///Economy
+
+
+    ///Economy explodedd
 if (e.noCounter == 12) {
     if (Boner > 0) {
         campaignTrail_temp.questions_json[12] = tunnel(20957); 
     }
-    if (Pelosi > 0) {
+    if (Pelosi > 0 && Agenda > 4) {
+        campaignTrail_temp.questions_json[12] = tunnel(23789); 
+    }
+    else if (Pelosi > 0) {
         campaignTrail_temp.questions_json[12] = tunnel(22489); 
     }
 }
@@ -32836,6 +33366,15 @@ if (e.noCounter == 12) {
     if(ans == 22874 ){
         Fred += 1;
     }
+    if(ans == 23790 ){
+        Fred += 1;
+    }
+    if(ans == 23793 ){
+        Fred += 1;
+    }
+    if(ans == 23796 ){
+        Fred += 1;
+    }
 
     ///DNC based on troop surge oe nah and or freddie mac colllapse
     if (e.noCounter == 13) {
@@ -32852,6 +33391,7 @@ if (e.noCounter == 12) {
         campaignTrail_temp.questions_json[13] = tunnel(23538);
     }
 }
+
 
 
     ///RNC
@@ -33306,12 +33846,12 @@ if (e.noCounter == 23) {
     if (Dem == 4) {
         campaignTrail_temp.questions_json[23] = tunnel(21664); 
     }
+    if (pop_vote[2].pvp-playerPolling>0.1 );
     if (Dem == 5) {
-    if (pop_vote[3].pvp-playerPolling>0.1 );
         campaignTrail_temp.questions_json[23] = tunnel(22701); 
     }
-    if (pop_vote[3].pvp-playerPolling<0.1 );
-    if (Dem == 5) {
+    else if (pop_vote[2].pvp-playerPolling<0.1 );
+    else if (Dem == 5) {
         campaignTrail_temp.questions_json[23] = tunnel(21759); 
     }
     if (Dem == 6) {
@@ -33327,6 +33867,16 @@ if (e.noCounter == 23) {
         campaignTrail_temp.questions_json[23] = tunnel(22197); 
     }
 }
+
+    if(ans == 22639 ){
+        Crazy += 2;
+    }
+    if(ans == 22636 ){
+        Crazy += 2;
+    }
+    if(ans == 22642 ){
+        Crazy += 2;
+    }
 
 if (e.noCounter == 24) {
     if (Dem == 1) {
@@ -33359,6 +33909,7 @@ if (e.noCounter == 24) {
     if (Dem > 0) {
         campaignTrail_temp.candidate_image_url = 'https://i.imgur.com/IxtS6Yj.png';
         campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/y4z3sw2.png';
+
     }
 }
 
@@ -33369,17 +33920,21 @@ if (e.noCounter == 25) {
     if (Dem == 2) {
         campaignTrail_temp.questions_json[25] = tunnel(21493); 
     }
-    if (Dem == 3) {
+    if (Crazy > 2 && Dem == 3) {
+        campaignTrail_temp.questions_json[25] = tunnel(23747); 
+    }
+    else if (Dem == 3) {
         campaignTrail_temp.questions_json[25] = tunnel(21602); 
     }
     if (Dem == 4) {
         campaignTrail_temp.questions_json[25] = tunnel(21794); 
     }
-    if (pop_vote[3].pvp-playerPolling>0.149 );
+    if (pop_vote[2].pvp-playerPolling>0.149 );
     if (Dem == 5) {
         campaignTrail_temp.questions_json[25] = tunnel(22809); 
     }
-    if (pop_vote[3].pvp-playerPolling<0.149 );
+    if ([21740, 21721, 22794].includes(ans))
+    if (pop_vote[2].pvp-playerPolling<0.149 );
     if (Dem == 5) {
         campaignTrail_temp.questions_json[25] = tunnel(21776); 
     }
@@ -33402,7 +33957,7 @@ if (e.noCounter == 25) {
 }
 
 if (e.noCounter == 26) {
-    if (Russia > 4 && Dumb > 0 && Dem > 0) {
+    if (Russia > 3 && Dumb > 0 && Dem > 0) {
         campaignTrail_temp.questions_json[26] = tunnel(22609); 
     }
     else if (Dem == 1) {
