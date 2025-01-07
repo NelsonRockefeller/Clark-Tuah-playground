@@ -29,7 +29,7 @@ campaignTrail_temp.election_json = [
         "pk": 20,
         "fields": {
             "year": 2016,
-            "summary": "September 11th, 2001, has bestowed the mandate to wage the War on Terror on President Bush. That mandate is now long wasted, from legislation built to pry Americans of their privacy to torching and overthrowing Iraq. The lies thrown upon the American people are immense, but the Democratic Party remains dedicated to stopping President Bush and his cronies from further stirring the pot of chaos.\n<p>\nChampions from all corners of the party come forth, hoping to embark on a quest to slay President Bush. It's hopeless, many feel; Bush is simply unstoppable; he's prepared for a landslide unless…",
+            "summary": "The Bush Administration defined the 2004 election by playing at American national security fears spurred by 9/11. When General Wesley Clark came onto the political scene, Republicans had trouble nailing him. His career was not of politics but military conquests in the Balkans, in which he came victorious. Promising a bold course redirection, he steered a powerful coalition to victory.\n<p>\nWith victory secured, he must take on new conquests, mapping his way through entrenched party lines in Congress or skipping the swamps to repair the alliances that Bush torched. However, as the economy begins to show signs of worry, it's unknown whether he'll be able to fly toward an easy victory.",
             "image_url": "https://i.imgur.com/sMZXhCd.gif",
             "winning_electoral_vote_number": 270,
             "advisor_url": "https://archive-images.prod.global.a201836.reutersmedia.net/2011/01/21/2011-01-21T205506Z_02_RP3DRIAUTWAA_RTRRPP_0_IRAQ.JPG",
@@ -53,7 +53,7 @@ campaignTrail_temp.candidate_json = [
             "party": "Democratic",
             "state": "Arkansas",
             "priority": 2,
-            "description": "\n<p>A man backed by true dreamers, the youth, the rebellious, the trendsetters, our future. With endorsements from the likes of George McGovern and Michael Moore to Max Baucus and Mark Pryor. A big tent, one could call it. So what makes this man so important? An unexplainable sequence of events brought such a challenger to the political spectrum—the resentment from the Bush Administration's waste of a mandate in pointless quests like Iraq. General Wesley Clark came forth with his turnaround plan, hoping to undo the mess created by Republicans. \n\n<p>His party challengers include Senator Kerry and Governor Dean, but he's set his eyes on the future. Ignoring the advice of senior Clinton campaign advisors, he's entering the Iowa contest. His hopes may meet their end early, or he will emerge as the next Democratic nominee.",
+            "description": "\n<p>A man backed by true dreamers, the youth, the rebellious, the trendsetters, our future. This man is a big tent, with endorsements from George McGovern, Michael Moore, Max Baucus, and Mark Pryor. So, what makes this man so significant? General Wesley Clark is not one of them; he's an outlier who can take from both sides of the Democratic spectrum. \n\n<p>He hopes he can toe the line and stay above the fray of partisan politics, but when push comes to shove, he'll need to pick a side—whether to bank his interests with the establishment creatures or embrace the people who got him here and repudiate his predecessor.",
             "color_hex": "#4b7db6",
             "secondary_color_hex": "#90C0FF",
             "is_active": 1,
@@ -153,7 +153,7 @@ campaignTrail_temp.candidate_json = [
             "electoral_victory_message": "'",
             "electoral_loss_message": "'",
             "no_electoral_majority_message": "'",
-            "description_as_running_mate": "\n<p>They say good things come in pairs, and Mary Landrieu is set to be your faithful compatriot and lifeline to the Senate. \n<p>\nLandrieu's Senate experience will be  invaluable in the fight to get things done, and her willingness to reach across the aisle in a Congress only growing more split will surely serve you well. In addition, while not quite matching the pizzazz of, say, Hillary, her position on the ticket has only boosted your standing with women and feminist groups. Overall, it's hard to see any reason not to take her on board.",
+            "description_as_running_mate": "\n<p>They say good things come in pairs, and Mary Landrieu is set to be your faithful compatriot and lifeline to the Senate. Conservative Democrats' worries over your embrace of many grassroots elements, which threatens their position in the party, have led them to demand one of their own on the ticket. \n<p>\nLandrieu's Senate experience will be invaluable in the fight to get things done, and her willingness to reach across the aisle in a Congress-only growing more split will surely serve you well. While she may have objections if you were to pivot further leftward, but she's a loyal party gal eager to help as long as she gets a slice of the cake.",
             "candidate_score": 0,
             "running_mate": true
         }
