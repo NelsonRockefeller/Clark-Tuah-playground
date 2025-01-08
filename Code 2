@@ -1312,6 +1312,69 @@ campaignTrail_temp.questions_json = [
             "description": "President Clark, you were ahead of the curb. Bear Stearns has just collapsed even after the help of a bailout from the New York Federal Reserve, which spells just the start of unprecedented U.S. housing market price crashes with the foreclosure of thousands of homes. Families are in hysterics as banks knock down their doors and leave them with nothing. Every institution is catching blame, conspiracies are running rampant, and there is one common question: What the hell will you do about this?\n",
             "likelihood": 1
         }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 23831,
+        "fields": {
+            "priority": 0,
+            "description": "Well, Wes, you're learning to act like an honest politician. One promise has already sunk down the drain, and the Democratic base is up in arms over this. It's unlikely they will be willing to get out and vote to extend your mandate. Congressional Democrats are panicking; their time on Olympus may come to a sudden end if you don't lead them out of this. How will you recover the party's support?\n",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 23847,
+        "fields": {
+            "priority": 0,
+            "description": "After weeks of pleading from CEO Rick Wagoner, he informed you that General Motors could not survive much longer without a bailout. The Senate Banking Committee and House of Representatives Financial Services Committee rejected the Restructuring Plan for Long-Term Viability plan. Today, you hear the news that GM has filed for bankruptcy. The Phonoi have killed your dominion over Olympus, and with Chrysler expected to follow suit, if you fail to get them a bailout soon, you can only hope to provide a last-minute bailout to them. How are you going to save the American auto industry from sinking further?\n",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 23857,
+        "fields": {
+            "priority": 0,
+            "description": "After weeks of pleading from CEO Rick Wagoner, he informed you that General Motors could not survive much longer without a bailout. The Restructuring Plan for Long-Term Viability plan has been submitted to the Senate Banking Committee and House of Representatives Financial Services Committee. The potential of both GM and Chrysler failing is too much for you to imagine. With Democratic Koalemos leading to prior failures to combat the crisis, how will you save the American auto industry from sinking further?\n",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 23869,
+        "fields": {
+            "priority": 0,
+            "description": "You've been caught between Scylla and Charybdis for most of this campaign, but the economy has responded well, albeit minimally, to the Emergency Economic Reform and Relief Bill passed through compromise. The Dow Jones Industrial Average saw a decent bump upwards as economic confidence increased from the news that government bailouts would come. GM and Chrysler were among the first to relieve relief despite congressional protests. It's a victory, even if it's somewhat small. How will you celebrate it?\n",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 23880,
+        "fields": {
+            "priority": 0,
+            "description": "You've been caught between Scylla and Charybdis for most of this campaign, but the economy has responded well to the Emergency Economic Reform and Relief bill. The Down Jones Industrial Average saw a nice bump upward as economic confidence jumped from the news that sweeping bailouts would come. GM and Chrysler were among the first to relieve relief despite congressional protests. It's a victory at long last, and maybe it's the thing that gets you over the line. How will you celebrate it?\n",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 23891,
+        "fields": {
+            "priority": 0,
+            "description": "The moratorium on foreclosures has been enacted, putting a stop to Autolycus stealing homes across the nation alongside major bailouts to financial institutions with additional exceptions for a bailout of GM and Chrysler. Families across the country, while still struggling to stay above water, are keeping their homes in greater numbers as the Home Owners' Loan Corporation is preparing to refinance thousands of homes nationwide. The stock market has noticeably gone up following better economic confidence. With your approvals returning, how will you direct the Corporation's next moves?\n",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 23901,
+        "fields": {
+            "priority": 0,
+            "description": "The newly reestablished Reconstruction Finance Corporation has gotten busy bailing out banks and delegating funds to state infrastructure projects, while the Resolution Trust Corporation has gotten to helping refinance bad mortgages. Republicans decry this, and the tax hikes on the wealthy socialism, but the general populous is taking a liking to it. However, the best news for your campaign is the massive influx of donations from the grassroots, ballooning your war chest for the campaign's final stretch. Where would you like to put these funds toward?",
+            "likelihood": 1
+        }
     }
 ]
 
@@ -5474,6 +5537,174 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 23789,
             "description": "It's my job to whip up a strong government response to this. We need sweeping action against this recession that goes beyond small reform and secures our financial institutions from bad actors looking to abuse them."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 23832,
+        "fields": {
+            "question": 23831,
+            "description": "It's time we focus on our cyber security. Under the Bush Administration's watch, cyber attacks on U.S. institutions have only increased, and if we don't take this issue extremely seriously, we could see mass hacking of bank accounts and financial institutions.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 23836,
+        "fields": {
+            "question": 23831,
+            "description": "The American people trusted me to enact their demands, so let's focus on Iraq. We can't lose on this issue; the war is unpopular, and the anti-war crowds want an easy way out of it. Well, I'm their only way out of the mess.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 23840,
+        "fields": {
+            "question": 23831,
+            "description": "Republicans are feeding off the fears of Americans, but we've kept their national security risks in mind; that's why the PATRIOT Act had to stay. There was too much at risk in cutting it down.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 23844,
+        "fields": {
+            "question": 23831,
+            "description": "I find it ironic how Congressional Republicans want to point fingers at us while their leadership was just shattered to pieces with the indictment of Tom DeLay. It's inexcusable, and we shouldn't allow such corruption to be validated.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 23848,
+        "fields": {
+            "question": 23847,
+            "description": "Congress has failed to act at every opportunity. Letting Chrysler fail at this point would be suicide for the American auto industry. Skip the congressional approval; these career politicians can be damned; let Altman bail them out.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 23851,
+        "fields": {
+            "question": 23847,
+            "description": "The lack of action is killing our nation; if we don't act now, American auto manufacturing won't recover for decades, maybe never. Pull whatever relationships we have to get this through these morons can't seriously believe that letting Chrysler implode is a smart decision.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 23854,
+        "fields": {
+            "question": 23847,
+            "description": "A Chrysler bailout is one of the few things the public supports, and we need to use public pressure to force Congress into action before they let the economy slide into a complete depression!\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 23858,
+        "fields": {
+            "question": 23857,
+            "description": "Congress has failed to act at every opportunity. Letting GM and Chrysler fail at this point would be suicide for the American auto industry. Skip the congressional approval; these career politicians can be damned; let Altman bail them out.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 23861,
+        "fields": {
+            "question": 23857,
+            "description": "The lack of action is killing our nation; if we don't act now, American auto manufacturing won't recover for decades, maybe never. Pull whatever relationships we have to get this through. These morons can't seriously believe that letting GM and Chrysler implode is a smart decision.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 23864,
+        "fields": {
+            "question": 23857,
+            "description": "An automotive bailout is one of the few things the public supports, and we need to use public pressure to force Congress into action before they let the economy slide into a complete depression!\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 23870,
+        "fields": {
+            "question": 23869,
+            "description": "This piece of legislation was a solid bipartisan effort that showed the government can still work beyond partisan lines. This isn't just a victory for the economy; it's a sign of what should follow in the future of bipartisan efforts to save Americans.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 23874,
+        "fields": {
+            "question": 23869,
+            "description": "Above all else, this was a Democratic victory. We pushed this bill through Congress, and we should celebrate it as such. Republicans trying to attach their name to this is a joke. It's my bill, and I won't let them take the slightest amount of credit.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 23881,
+        "fields": {
+            "question": 23880,
+            "description": "Current economic woes demanded this bill, and I'm proud of its contents. While there is lots of work to do in the future, this is a good start to ensuring that an economic disaster like this never happens again.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 23885,
+        "fields": {
+            "question": 23880,
+            "description": "Above all else, this was a Democratic victory. We pushed this bill through Congress, and we should celebrate it as such. Republicans trying to attach their name to this is a joke. It's my bill, and I won't let them take the slightest amount of credit.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 23888,
+        "fields": {
+            "question": 23880,
+            "description": "My administration fought a long and arduous battle that has been one of combating nonsensical rhetoric and sluggish congressional pace. American families are too important to let fail, and we must shift our focus to helping them now.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 23892,
+        "fields": {
+            "question": 23891,
+            "description": "While I'd love to take a hands-on approach, Senator Clinton authored this solution, and I believe no one else is more knowledgeable and prepared to oversee the early beginnings of this Corporation than she. \n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 23895,
+        "fields": {
+            "question": 23891,
+            "description": "Vice President Landrieu is more than experienced in dealing with a crisis or two. Her work while fighting for Katrina relief in the Senate was nothing short of astounding. I fully trust her to oversee and direct the operations of the Corporation.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 23898,
+        "fields": {
+            "question": 23891,
+            "description": "The American people need to see that their President is active in efforts to save the economy. I know it will take time out of the campaign schedule, but I'd like to closely oversee the early beginnings of this Corporation to make sure all its operations run smoothly.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 23902,
+        "fields": {
+            "question": 23901,
+            "description": "It may not have panned out back in 04, but given that we have the cash to burn, let's see if Madonna would be willing to reassert her endorsement of me and hold a concert for our campaign.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 23905,
+        "fields": {
+            "question": 23901,
+            "description": "Most underestimate the power the youth can hold over a presidential campaign. We can make a lot of gains by hiring loads of these kids. They are more in touch with the times than I'll ever be.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 23908,
+        "fields": {
+            "question": 23901,
+            "description": "Our party can only stand united if everyone contributes to this effort. Former Senator McGovern and former President Jimmy Carter were in touch with these old Democratic coalitions, and if they could offer us some of their advice, we could make gains.\n"
         }
     }
 ]
@@ -16935,6 +17166,216 @@ campaignTrail_temp.answer_score_global_json = [
             "affected_candidate": 201,
             "global_multiplier": 0.012
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 23834,
+        "fields": {
+            "answer": 23832,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.004
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 23838,
+        "fields": {
+            "answer": 23836,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.008
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 23842,
+        "fields": {
+            "answer": 23840,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.004
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 23846,
+        "fields": {
+            "answer": 23844,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.003
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 23850,
+        "fields": {
+            "answer": 23848,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 23853,
+        "fields": {
+            "answer": 23851,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.07
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 23856,
+        "fields": {
+            "answer": 23854,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.065
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 23860,
+        "fields": {
+            "answer": 23858,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 23863,
+        "fields": {
+            "answer": 23861,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.034
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 23866,
+        "fields": {
+            "answer": 23864,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.065
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 23872,
+        "fields": {
+            "answer": 23870,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.035
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 23876,
+        "fields": {
+            "answer": 23874,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.04
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 23883,
+        "fields": {
+            "answer": 23881,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 23887,
+        "fields": {
+            "answer": 23885,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.045
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 23890,
+        "fields": {
+            "answer": 23888,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.055
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 23894,
+        "fields": {
+            "answer": 23892,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.065
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 23897,
+        "fields": {
+            "answer": 23895,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.07
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 23900,
+        "fields": {
+            "answer": 23898,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.06
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 23904,
+        "fields": {
+            "answer": 23902,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.085
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 23907,
+        "fields": {
+            "answer": 23905,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.08
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 23910,
+        "fields": {
+            "answer": 23908,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.075
+        }
     }
 ]
 
@@ -19807,6 +20248,56 @@ campaignTrail_temp.answer_score_issue_json = [
             "issue": "100",
             "issue_score": 0.4,
             "issue_importance": 7
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 23835,
+        "fields": {
+            "answer": 23832,
+            "issue": 101,
+            "issue_score": -0.8,
+            "issue_importance": 4
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 23839,
+        "fields": {
+            "answer": 23836,
+            "issue": 102,
+            "issue_score": 0.1,
+            "issue_importance": 3
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 23843,
+        "fields": {
+            "answer": 23840,
+            "issue": 101,
+            "issue_score": -0.5,
+            "issue_importance": 3
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 23867,
+        "fields": {
+            "answer": 23858,
+            "issue": "100",
+            "issue_score": 0.8,
+            "issue_importance": 6
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 23873,
+        "fields": {
+            "answer": 23870,
+            "issue": "100",
+            "issue_score": -0.8,
+            "issue_importance": 4
         }
     }
 ]
@@ -28224,7 +28715,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1015,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -18
+            "state_multiplier": -0.18
         }
     },
     {
@@ -28321,6 +28812,28 @@ campaignTrail_temp.answer_score_state_json = [
         "fields": {
             "answer": 23657,
             "state": 1026,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 23911,
+        "fields": {
+            "answer": 23908,
+            "state": 1040,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.3
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 23912,
+        "fields": {
+            "answer": 23908,
+            "state": 1009,
             "candidate": 201,
             "affected_candidate": 200,
             "state_multiplier": -0.1
@@ -32873,6 +33386,195 @@ campaignTrail_temp.answer_feedback_json = [
             "candidate": 201,
             "answer_feedback": "Demanding such massive reforms of a tired congress was a disaster waiting to happen. The bill soon dies in gridlock, to your dismay. You're the President, and these ungrateful bastards think they can step out of line. \n"
         }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 23833,
+        "fields": {
+            "answer": 23832,
+            "candidate": 201,
+            "answer_feedback": "Congressional Democrats co-opt your message, and soon, the Democratic machine is running on pure fear of invisible threats. It's much like the previous Bush administration, but it's effective in driving up turnout."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 23837,
+        "fields": {
+            "answer": 23836,
+            "candidate": 201,
+            "answer_feedback": "Maybe they'd believe you if you hadn't already sold your promise to cut the PATRIOT Act down the river. Congressional Democrats find that the base is fed up with them, and turnout is plummeting."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 23841,
+        "fields": {
+            "answer": 23840,
+            "candidate": 201,
+            "answer_feedback": "Republicans are happy, not because they're thankful for your bipartisan appeal but for the fact that the Democratic base is depressed and low turnout will only benefit their interests."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 23845,
+        "fields": {
+            "answer": 23844,
+            "candidate": 201,
+            "answer_feedback": "The message of \"Republicans suck\" is powerful but not as crucial as the resentment over your pivot to the right. Turnout isn't looking to be getting any higher just because one Republican leader went down."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 23849,
+        "fields": {
+            "answer": 23848,
+            "candidate": 201,
+            "answer_feedback": "You make history by justifying Chrysler's 4 billion dollar bailout with executive authority, stoking criticism. However, at this point, Americans would rather see action over caution. While Congress will lambast the decision, you bully them into submission, and Chrysler is saved."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 23852,
+        "fields": {
+            "answer": 23851,
+            "candidate": 201,
+            "answer_feedback": "Republicans lead the effort to sink the bailout one final time, and most political cartoon artists illustrate it as them losing you into a coffin lying alongside Chrysler and General Motors. Your approval rating sinks even further."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 23855,
+        "fields": {
+            "answer": 23854,
+            "candidate": 201,
+            "answer_feedback": "Republicans Congressmen are the first to stick their heads into the ground and ignore public calls. To them, this is just an opportunity to seal your fate, and they won't let public opinion squander their great victory. Chrysler filed for bankruptcy not much later.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 23859,
+        "fields": {
+            "answer": 23858,
+            "candidate": 201,
+            "answer_feedback": "You make history by justifying a 13.4 billion bailout for GM and a 4 billion dollar bailout of Chrysler with executive authority, stoking loads of criticism. But at this point, Americans would rather see action over caution. While Congress will lambast the decision, you bully them into submission, and Chrysler is saved. \n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 23862,
+        "fields": {
+            "answer": 23861,
+            "candidate": 201,
+            "answer_feedback": "You whip the Democratic Congress with all your might, and soon, they deliver you a congressionally approved bailout, letting Altman save GM and Chrysler from immediate destruction. The American public appreciates the strong action.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 23865,
+        "fields": {
+            "answer": 23864,
+            "candidate": 201,
+            "answer_feedback": "Democrats are still sore over your total failure to provide help for an economic relief bill of any kind. They drag their feet, and the Washington gridlock proves too much to overcome for them. Both GM and Chrysler declared bankruptcy later in the month.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 23871,
+        "fields": {
+            "answer": 23870,
+            "candidate": 201,
+            "answer_feedback": "Giving credit to Republicans is bold, given that a majority of them voted against the bill, but this good news for the economy is a desperate breath of fresh air for your campaign, even if some call you a coward for ceding to the right."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 23875,
+        "fields": {
+            "answer": 23874,
+            "candidate": 201,
+            "answer_feedback": "A very partisan lash at Republicans, but the credit goes to your party alone, while some Republicans either try to play catch up or continue to denounce the bill as government overreach."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 23882,
+        "fields": {
+            "answer": 23881,
+            "candidate": 201,
+            "answer_feedback": "You're promising bold action for the future, which will excite the base. However, be prepared to fight like hell for it, given that most polls show Republicans making gains nationwide. Now, though, this victory is yours to bask in.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 23886,
+        "fields": {
+            "answer": 23885,
+            "candidate": 201,
+            "answer_feedback": "A very partisan lash at Republicans, but the credit goes to your party alone, while some Republicans either try to play catch up or continue to denounce the bill as government overreach."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 23889,
+        "fields": {
+            "answer": 23888,
+            "candidate": 201,
+            "answer_feedback": "Republicans wince at the idea of offering further stimulus and plan to roadblock your efforts. Nonetheless, this victory is yours to enjoy. Don't get comfortable, as the battle has only just started.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 23893,
+        "fields": {
+            "answer": 23892,
+            "candidate": 201,
+            "answer_feedback": "Republican naysayers scream the Corporation's faults before it even starts. Still, Senator Clinton defends it by educating them, \"The original HOLC returned a profit to the Treasury and saved one million homes.\" Families appreciate the work; this monumental victory couldn't feel nicer."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 23896,
+        "fields": {
+            "answer": 23895,
+            "candidate": 201,
+            "answer_feedback": "While the same rotten TV hosts like Rush Limbaugh pop up to slander her efforts, she effectively conducts the Corporation's creation and gets it off the ground within weeks. Further relief to families is coming, but for now, it's a victory for you to enjoy.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 23899,
+        "fields": {
+            "answer": 23898,
+            "candidate": 201,
+            "answer_feedback": "You've taken key time out of the campaign schedule, and while it's for a noble cause, the Republicans are taking advantage, crisscrossing the nation in hopes of ousting you and shutting down this \"sham\" of a corporation. Victory is still yours to declare, at least."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 23903,
+        "fields": {
+            "answer": 23902,
+            "candidate": 201,
+            "answer_feedback": "It takes a lot of sucking up, including her sitting you down and forcing you to watch all her damn movies, but after your campaign drops a load of cash on her door, she agrees to hold a concert for your campaign, and it brings out all kinds of new fans for your cause. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 23906,
+        "fields": {
+            "answer": 23905,
+            "candidate": 201,
+            "answer_feedback": "Your campaign hires hundreds of new grassroots elements, and different kinds of campaign sprees are made, the most successful of which is a Team Clark vs Team Republican hitching a ride off the success of the new Twilight phenomenon of Team Edward vs Team Jacob."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 23909,
+        "fields": {
+            "answer": 23908,
+            "candidate": 201,
+            "answer_feedback": "Senator McGovern is quick to answer your call and offers you some spells he casted to help him through the Nixon ages. Meanwhile President Carter runs up and down peanutland to hopefully revive the coalition killed by Reagan and his servants of darkness. \n"
+        }
     }
 ]
 
@@ -32901,7 +33603,6 @@ campaignTrail_temp.jet_data = [{
 
 
 
-
 e.cyoa = true
 var Dem = 0;
 var Gay = 0;
@@ -32926,6 +33627,8 @@ var Russia = 0;
 var Opp = 0;
 var Back = 0;
 var Hillary = 0;
+var Econ = 0;
+var Cyber = 0;
 e.noCounter = 0
 
 e = campaignTrail_temp
@@ -33324,11 +34027,11 @@ cyoAdventure = function(a) {
     if(ans == 20890 ){
         Win += 1;
     }
-    if(ans == 21036 ){
+    if(ans == 23832 ){
         Win += 2;
     }
 
-    if(ans == 22013 ){
+    if(ans == 23844 ){
         Win += 1;
     }
 
@@ -33336,9 +34039,6 @@ cyoAdventure = function(a) {
         Win += 2;
     }
 
-    if(ans == 21036 ){
-        Win += 2;
-    }
     if(ans == 22940 ){
         Win += 2;
     }
@@ -33468,6 +34168,16 @@ cyoAdventure = function(a) {
     if(ans == 5150 ){
         Nato += 1;
     }
+    if(ans == 23483 ){
+        Nato += 2;
+    }
+    if(ans == 20877 ){
+        Nato += 1;
+    }
+    if(ans == 22043 ){
+        Nato += 1;
+    }
+
 
     ///neoliberling
     if(ans == 20773 ){
@@ -33589,6 +34299,10 @@ cyoAdventure = function(a) {
     }
     }
 
+    ///pass your pet project that no one cares about
+    if(ans == 23701 ){
+        Cyber += 1;
+    }
 
 
 
@@ -33841,19 +34555,67 @@ if (e.noCounter == 20) {
     if (Boner == 1) {
         campaignTrail_temp.questions_json[20] = tunnel(22052); 
     }
-    if (Pelosi == 1 && Hillary == 1 && Agenda > 3 && Nato > 2) {
+    if (Pelosi == 1 && Hillary == 1 && Agenda > 3 && Nato > 3) {
         campaignTrail_temp.questions_json[20] = tunnel(23717); 
     }
     else if (Pelosi == 1 && Hillary == 1) {
         campaignTrail_temp.questions_json[20] = tunnel(23732); 
     }
-    else if (Pelosi == 1 && Agenda > 3 && Nato > 2) {
+    else if (Pelosi == 1 && Agenda > 3 && Nato > 3) {
         campaignTrail_temp.questions_json[20] = tunnel(22554); 
     }
     else if (Pelosi == 1) {
         campaignTrail_temp.questions_json[20] = tunnel(22506); 
     }
 }
+
+    if(ans == 5246 ){
+        Econ += 1;
+    }
+    if(ans == 22053 ){
+        Econ += 1;
+    }
+    if(ans == 22507 ){
+        Econ += 1;
+    }
+    if(ans == 22555 ){
+        Econ += 1;
+    }
+    if(ans == 23718 ){
+        Econ += 1;
+    }
+    if(ans == 23733 ){
+        Econ += 1;
+    }
+    if(ans == 22057 ){
+        Econ += 2;
+    }
+    if(ans == 22511 ){
+        Econ += 2;
+    }
+    if(ans == 22559 ){
+        Econ += 2;
+    }
+    if(ans == 23722 ){
+        Econ += 2;
+    }
+    if(ans == 23737 ){
+        Econ += 2;
+    }
+    if(ans == 22514 ){
+        Econ += 3;
+    }
+    if(ans == 22562 ){
+        Econ += 3;
+    }
+    if(ans == 22565 ){
+        Econ += 4;
+    }
+    if(ans == 23728 ){
+        Econ += 4;
+    }
+
+
 
 if (e.noCounter == 22) {
     if (Dem == 1) {
@@ -34235,34 +34997,54 @@ if (e.noCounter == 25) {
         campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/IxtS6Yj.png';
     }
 }
-
 if (e.noCounter == 26) {
-    if (Russia > 3 && Dumb > 0 && Dem > 0) {
-        campaignTrail_temp.questions_json[26] = tunnel(22609); 
+    if (Econ == 0 && Pelosi == 1) {
+        campaignTrail_temp.questions_json[26] = tunnel(23857); 
+    }
+    else if (Econ == 0) {
+        campaignTrail_temp.questions_json[26] = tunnel(23847); 
+    }
+    if (Econ == 1) {
+        campaignTrail_temp.questions_json[26] = tunnel(23869); 
+    }
+    if (Econ == 2) {
+        campaignTrail_temp.questions_json[26] = tunnel(23880); 
+    }
+    if (Econ == 3) {
+        campaignTrail_temp.questions_json[26] = tunnel(23891); 
+    }
+    if (Econ == 4) {
+        campaignTrail_temp.questions_json[26] = tunnel(23901); 
+    }
+}
+
+if (e.noCounter == 27) {
+    if (Russia > 3 && Cyber < 1 && Dem > 0) {
+        campaignTrail_temp.questions_json[27] = tunnel(22609); 
     }
     else if (Dem == 1) {
-        campaignTrail_temp.questions_json[26] = tunnel(22933); 
+        campaignTrail_temp.questions_json[27] = tunnel(22933); 
     }
     else if (Dem == 2) {
-        campaignTrail_temp.questions_json[26] = tunnel(22935); 
+        campaignTrail_temp.questions_json[27] = tunnel(22935); 
     }
     else if (Dem == 3) {
-        campaignTrail_temp.questions_json[26] = tunnel(22912); 
+        campaignTrail_temp.questions_json[27] = tunnel(22912); 
     }
     else if (Dem == 4) {
-        campaignTrail_temp.questions_json[26] = tunnel(22936); 
+        campaignTrail_temp.questions_json[27] = tunnel(22936); 
     }
     else if (Dem == 5) {
-        campaignTrail_temp.questions_json[26] = tunnel(22934); 
+        campaignTrail_temp.questions_json[27] = tunnel(22934); 
     }
     else if (Dem == 6) {
-        campaignTrail_temp.questions_json[26] = tunnel(22932); 
+        campaignTrail_temp.questions_json[27] = tunnel(22932); 
     }
     else if (Dem == 7) {
-        campaignTrail_temp.questions_json[26] = tunnel(22937); 
+        campaignTrail_temp.questions_json[27] = tunnel(22937); 
     }
     else if (Dem == 8) {
-        campaignTrail_temp.questions_json[26] = tunnel(22938); 
+        campaignTrail_temp.questions_json[27] = tunnel(22938); 
     }
 }
 }
