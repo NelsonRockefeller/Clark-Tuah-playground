@@ -1,3 +1,4 @@
+
 campaignTrail_temp.global_parameter_json = [
     {
         "model": "campaign_trail.global_parameter",
@@ -743,6 +744,11 @@ e = campaignTrail_temp
     {searchString: "Hydra", explanationText: "<img src=https://i.imgur.com/8Y3oHDc.png> The party of the Bible, by the Bible, for the Bible. Not so much for people."},
     {searchString: "Hip Hop 4 Huckabee", explanationText: "<img src=https://i.imgur.com/Mcd9o2n.png> The Huckabee outreach program to get African Americans in the fold."},
     {searchString: "rEVOlution", explanationText: "<img src=https://i.imgur.com/lz8VObI.png> ..."},
+    {searchString: "Paul Johnson", explanationText: "<img src=https://i.imgur.com/5DSCSlv.jpg> Your independent-minded campaign manager, led the charge in attacking President Bush's rapid partisan streak."},
+    {searchString: "Nancy Parrish", explanationText: "<img src=https://i.imgur.com/PfgLUM8.jpg> Your former campaign Vice-Chairman in 2004, is now White House Chief of Staff."},
+    {searchString: "motley crew of Senators", explanationText: "<img src=https://i.imgur.com/fIGPwjK.jpg> She's assembled a force including Max Baucus, Senator (MT); Chris Dodd, Senator (CT); Joe Biden, Senator (DE); Evan Bayh, Senator (IN); Mark Pryor, Senator (AR)."},
+    {searchString: "Hippopodes", explanationText: "<img src=https://i.imgur.com/aSPfDct.jpg> Your tax reform bill has stirred the pot of bastards desperate to kill your mandate before you make the top 1% unable to pay for their fifth yacht every year."},
+    {searchString: "Tea Party", explanationText: "<img src=https://i.imgur.com/fRdvMdS.jpg> TEA: Taxed Enough Already. A movement spread across the country to reign in government spending, cutting vital programs and letting the rich get richer."},
     {searchString: "Cyber Intelligence Protection Act", explanationText: "<img src=https://i.imgur.com/iHuTxvq.jpg> Significant regulations on the industrial and aerospace industries, the energy and power sectors, and the public sector relate to securing data and strengthening firewalls. Republicans see this as massive government overreach, Democrats see it as a waste of time, and the public—well, they couldn't care less for your little pet project."},
     {searchString: "Former Vice President Dick Cheney", explanationText: "<img src=https://i.imgur.com/DnOC2pD.png> This has to be a joke, Dick Cheney has stolen the nomination from the evangelicals rising star Mike Huckabee and despite it all this election is close by your sheer incompetence. You've dragged him back into the political ring by causing chaos abroad and at home and further embarrassing yourself with a failed cyber security law and the failed Defense of Marriage repeal. Cheney has made a lot of enemies but so have you. "},
     {searchString: "Mike Huckabee answered", explanationText: "<img src=https://i.imgur.com/ix9IWRJ.png> The most charismatic of the line up, Governor Mike Huckabee has clinched the nomination spurred by evangelical turnout from the attempted repeal of the Defense of Marriage Act and by pointing the finger and lambasting the gutting of the Patriot Act and the abandonment of Iraq. Still he's no expert on any one issue and will be working an offensive strategy."},
