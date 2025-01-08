@@ -400,7 +400,7 @@ campaignTrail_temp.questions_json = [
         "pk": 21198,
         "fields": {
             "priority": 0,
-            "description": "The earth shakes as fanatical conservatives are shepherded in to celebrate. Nobody saw him coming, but when nature called, Arkansas Governor Mike Huckabee answered with Senator Fred Thompson by his side as if God had willed it. He raises his hands, nearly shouting as he rips into your administration's \"turn from Christ.\" He pledges to bring America back as a Christian nation, one under God. Huckabee brings an agenda in hopes of reversing your left turns and putting a stop to gay marriage, something he calls a \"Biblical issue, not a political issue.\" How will you fend off the fanatical Christian conservative resurgence and stop Huckabee from reaching Olympus?",
+            "description": "The earth shakes as fanatical conservatives are shepherded in to celebrate. Nobody saw him coming, but when nature called, Arkansas Governor Mike Huckabee answered with Senator Fred Thompson by his side as if God had willed it. He raises his hands, nearly shouting as he rips into your administration's \"turn from Christ.\" Huckabee brings an agenda in hopes of reversing your left turns and putting a stop to gay marriage, something he calls a \"Biblical issue, not a political issue.\" How will you fend off the fanatical Christian conservative resurgence and stop Huckabee from reaching Olympus?",
             "likelihood": 1
         }
     },
@@ -544,7 +544,7 @@ campaignTrail_temp.questions_json = [
         "pk": 21492,
         "fields": {
             "priority": 0,
-            "description": "October 1st, the night before Debate Night - 'Debate Night Eve' as Senator John Edwards has called it - acting as Charlie Crist. Your chief of staff, Ron Klain, gives you a shriveled smile, acting as the moderator, \"This is a question for Vice President Landrieu…\" You smile back at him politely, shoulders back. \"Madam Vice President, the Romney campaign has been frequently attacking your record as an 'ineffectual' Vice President, perhaps countering your image as someone of change due to you being the first female nominee for Vice President, and now the first female Vice President. How do you respond to these attacks?\"\n",
+            "description": "October 1st, the night before Debate Night - 'Debate Night Eve' as Senator John Edwards has called it - acting as Charlie Crist. Your chief of staff, Nancy Parrish, gives you a shriveled smile, acting as the moderator, \"This is a question for Vice President Landrieu…\" You smile back at her politely. \"Madam Vice President, the Romney campaign has frequently been attacking your record as an 'ineffectual' Vice President, perhaps countering your image as someone of change due to you being the first female nominee for Vice President, and now the first female Vice President. How do you respond to these attacks?\"\n",
             "likelihood": 1
         }
     },
@@ -724,7 +724,7 @@ campaignTrail_temp.questions_json = [
         "pk": 21777,
         "fields": {
             "priority": 0,
-            "description": "Huckabee charges from the fields, now boasting his poll numbers with African Americans. You feel it's a load of crap, but he has received multiple notable endorsements from leaders in the community. The \"Hip Hop 4 Huckabee\" blog isn't helping your confidence as it gets much more traffic than advisors anticipated. Spelling doom for your campaign is two southern boys fighting for this crucial demographic and possibly being competitive. How will you reach out to the African-American community?",
+            "description": "Huckabee charges from the fields, now boasting his poll numbers with African Americans. You feel it's a load of crap, but he has received multiple notable endorsements from leaders in the community. The \"Hip Hop 4 Huckabee\" blog isn't helping your confidence as it gets much more traffic than advisors anticipated. Two southern boys fighting for this crucial demographic, and if competitive, it spells doom for your campaign. How will you reach out to the African-American community?",
             "likelihood": 1
         }
     },
@@ -1473,7 +1473,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5190,
         "fields": {
             "question": 1057,
-            "description": "We'd do right by ourselves by waiting this out. I know the Taliban, and if they had some great crusade in the works, we'd see it a mile away. Shut down these rumors in the media; we can't start a circus over smoke and mirrors."
+            "description": "This intelligence needs to be verified. We can't act before knowing the facts. I know the Taliban, and if they had some great crusade in the works, we'd see it a mile away. Shut down these rumors in the media; we can't start a circus over smoke and mirrors."
         }
     },
     {
@@ -2305,7 +2305,7 @@ campaignTrail_temp.answers_json = [
         "pk": 21222,
         "fields": {
             "question": 21198,
-            "description": "We're looking at this all wrong. Bush won a significant number of youth voters. To stay with the times, we need to outflank \"Huck's Army\" and create our own outreach program.\n"
+            "description": "We're looking at this all wrong. Bush also won a significant number of youth voters. To stay with the times, we need to outflank \"Huck's Army\" and create our own outreach program.\n"
         }
     },
     {
@@ -3137,7 +3137,7 @@ campaignTrail_temp.answers_json = [
         "pk": 21780,
         "fields": {
             "question": 21777,
-            "description": "We can't seriously be worrying about this. African Americans have been a key and solid voting block for Democrats since the days of Roosevelt. They were solid for Clinton, they were solid for Carter. I'm no different from them and won't act like I am, either. We're fine.\n"
+            "description": "Huckabee is blowing hot air. African Americans have been a key and solid voting block for Democrats since the days of Roosevelt. They were solid for Clinton; they were solid for Carter. I'm no different from them and won't act like I am. We're fine.\n"
         }
     },
     {
@@ -3145,7 +3145,7 @@ campaignTrail_temp.answers_json = [
         "pk": 21783,
         "fields": {
             "question": 21777,
-            "description": "We need to emphasize my views. I'm disappointed I haven't been able to do enough for African Americans over my tenure, but I support affirmative action. Unlike Governor Huckabee, I will uphold the progress we've made and further it.\n"
+            "description": "I'm disappointed I haven't been able to do enough for African Americans over my tenure, but I support affirmative action. Unlike Governor Huckabee, I will uphold and further the progress we've made.\n"
         }
     },
     {
@@ -3153,7 +3153,7 @@ campaignTrail_temp.answers_json = [
         "pk": 21787,
         "fields": {
             "question": 21777,
-            "description": "We need to defend our record; we need to make the \"gay issue\" a nonissue to these crowds. Lead them away with our focus on the economy and our continuous support of civil rights. Reverend Jesse Jackson stood for the same values.\n"
+            "description": "Reverend Jesse Jackson stood for the same values. Defend our record; we need to make the \"gay issue\" a nonissue to these crowds. Lead them away with our focus on the economy and our continuous support of civil rights.\n"
         }
     },
     {
@@ -3225,7 +3225,7 @@ campaignTrail_temp.answers_json = [
         "pk": 21827,
         "fields": {
             "question": 21815,
-            "description": "Governor Huckabee is bringing up this issue only for political gain. He's going around playing hero, and it's a ridiculous sham. I hadn't meant to show a lack of seriousness at that moment, and my actions in combating rogue regimes speak for themselves.\n"
+            "description": "Governor Huckabee is bringing up this issue only for political gain. He's going around playing hero, and it's a ridiculous sham. I hadn't meant to show a lack of seriousness at that moment, and my career in combating rogue regimes speaks for itself.\n"
         }
     },
     {
@@ -3281,7 +3281,7 @@ campaignTrail_temp.answers_json = [
         "pk": 21854,
         "fields": {
             "question": 21845,
-            "description": "Huckabee is just another murk with a mouth that rubbed jewish people the wrong way. The offensive jokes he's made about the holocaust are horrendous, and he should be ashamed for making such comments. \n"
+            "description": "Huckabee is just another murk with a mouth that rubbed Jewish people the wrong way. The offensive jokes he's made about the holocaust are horrendous, and he should be ashamed for making such comments. \n"
         }
     },
     {
@@ -12613,7 +12613,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 21454,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.008
+            "global_multiplier": 0.018
         }
     },
     {
@@ -12623,7 +12623,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 21458,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.003
+            "global_multiplier": 0.013
         }
     },
     {
@@ -12633,7 +12633,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 21463,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.012
+            "global_multiplier": 0.02
         }
     },
     {
@@ -12703,7 +12703,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 21486,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.004
+            "global_multiplier": 0.012
         }
     },
     {
@@ -12713,7 +12713,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 21489,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.008
+            "global_multiplier": 0.012
         }
     },
     {
@@ -13473,7 +13473,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 21783,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": -0.007
+            "global_multiplier": 0.014
         }
     },
     {
@@ -13493,7 +13493,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 21791,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": -0.005
+            "global_multiplier": 0.016
         }
     },
     {
@@ -13623,7 +13623,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 21850,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.012
+            "global_multiplier": 0.02
         }
     },
     {
@@ -13633,7 +13633,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 21854,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.01
+            "global_multiplier": 0.02
         }
     },
     {
@@ -13653,7 +13653,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 21863,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.012
+            "global_multiplier": 0.018
         }
     },
     {
@@ -13683,7 +13683,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 21875,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.006
+            "global_multiplier": 0.02
         }
     },
     {
@@ -13693,7 +13693,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 21880,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.014
+            "global_multiplier": 0.024
         }
     },
     {
@@ -13783,7 +13783,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 21978,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.011
+            "global_multiplier": 0.017
         }
     },
     {
@@ -13793,7 +13793,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 21982,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.009
+            "global_multiplier": 0.014
         }
     },
     {
@@ -14023,7 +14023,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 22068,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.012
+            "global_multiplier": 0.018
         }
     },
     {
@@ -14043,7 +14043,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 22074,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.008
+            "global_multiplier": 0.0014
         }
     },
     {
@@ -14053,7 +14053,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 22078,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.011
+            "global_multiplier": 0.019
         }
     },
     {
@@ -14063,7 +14063,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 22082,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.01
+            "global_multiplier": 0.017
         }
     },
     {
@@ -14073,7 +14073,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 22086,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.004
+            "global_multiplier": 0.013
         }
     },
     {
@@ -14093,7 +14093,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 22094,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": -0.009
+            "global_multiplier": -0.012
         }
     },
     {
@@ -14193,7 +14193,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 22142,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.01
+            "global_multiplier": 0.02
         }
     },
     {
@@ -14203,7 +14203,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 22146,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.004
+            "global_multiplier": 0.013
         }
     },
     {
@@ -14293,7 +14293,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 22180,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.009
+            "global_multiplier": 0.015
         }
     },
     {
@@ -14303,7 +14303,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 22183,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.014
+            "global_multiplier": 0.018
         }
     },
     {
@@ -14313,7 +14313,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 22186,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.017
+            "global_multiplier": 0.02
         }
     },
     {
@@ -14333,7 +14333,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 22192,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.02
+            "global_multiplier": 0.025
         }
     },
     {
@@ -14343,7 +14343,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 22201,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.012
+            "global_multiplier": 0.015
         }
     },
     {
@@ -14353,7 +14353,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 22205,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.014
+            "global_multiplier": 0.017
         }
     },
     {
@@ -15843,7 +15843,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 22997,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.008
+            "global_multiplier": 0.021
         }
     },
     {
@@ -16904,6 +16904,36 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 201,
             "affected_candidate": 201,
             "global_multiplier": -0.11
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 23825,
+        "fields": {
+            "answer": 21433,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 23827,
+        "fields": {
+            "answer": 21481,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 23830,
+        "fields": {
+            "answer": 21846,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.012
         }
     }
 ]
@@ -17985,8 +18015,8 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 21783,
             "issue": 100,
-            "issue_score": 0.6,
-            "issue_importance": 4
+            "issue_score": 0.8,
+            "issue_importance": 7
         }
     },
     {
@@ -17996,7 +18026,7 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 21787,
             "issue": 103,
             "issue_score": 0.7,
-            "issue_importance": 4
+            "issue_importance": 7
         }
     },
     {
@@ -18145,8 +18175,8 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 21875,
             "issue": 100,
-            "issue_score": 0.8,
-            "issue_importance": 4
+            "issue_score": 0.2,
+            "issue_importance": 7
         }
     },
     {
@@ -18155,8 +18185,8 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 21880,
             "issue": 102,
-            "issue_score": -0.7,
-            "issue_importance": 5
+            "issue_score": -0.5,
+            "issue_importance": 7
         }
     },
     {
@@ -18396,7 +18426,7 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 22082,
             "issue": 102,
             "issue_score": -0.7,
-            "issue_importance": 4
+            "issue_importance": 7
         }
     },
     {
@@ -19747,6 +19777,36 @@ campaignTrail_temp.answer_score_issue_json = [
             "issue": "100",
             "issue_score": 0.9,
             "issue_importance": 6
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 23826,
+        "fields": {
+            "answer": 21463,
+            "issue": 102,
+            "issue_score": -0.8,
+            "issue_importance": 8
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 23828,
+        "fields": {
+            "answer": 21481,
+            "issue": "100",
+            "issue_score": -0.8,
+            "issue_importance": 8
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 23829,
+        "fields": {
+            "answer": 21791,
+            "issue": "100",
+            "issue_score": 0.4,
+            "issue_importance": 7
         }
     }
 ]
@@ -28045,6 +28105,226 @@ campaignTrail_temp.answer_score_state_json = [
             "affected_candidate": 201,
             "state_multiplier": 0.1
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 23802,
+        "fields": {
+            "answer": 21112,
+            "state": 1033,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 23803,
+        "fields": {
+            "answer": 21112,
+            "state": 1026,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 23804,
+        "fields": {
+            "answer": 21112,
+            "state": 1040,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 23805,
+        "fields": {
+            "answer": 21112,
+            "state": 1025,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 23806,
+        "fields": {
+            "answer": 21112,
+            "state": 1015,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.18
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 23807,
+        "fields": {
+            "answer": 23581,
+            "state": 1015,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.18
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 23808,
+        "fields": {
+            "answer": 23581,
+            "state": 1025,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 23809,
+        "fields": {
+            "answer": 23581,
+            "state": 1026,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 23810,
+        "fields": {
+            "answer": 23581,
+            "state": 1040,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 23811,
+        "fields": {
+            "answer": 23581,
+            "state": 1033,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 23814,
+        "fields": {
+            "answer": 23619,
+            "state": 1015,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -18
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 23815,
+        "fields": {
+            "answer": 23619,
+            "state": 1026,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 23816,
+        "fields": {
+            "answer": 23619,
+            "state": 1033,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 23817,
+        "fields": {
+            "answer": 23619,
+            "state": 1040,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 23818,
+        "fields": {
+            "answer": 23619,
+            "state": 1025,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 23820,
+        "fields": {
+            "answer": 23657,
+            "state": 1015,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.18
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 23821,
+        "fields": {
+            "answer": 23657,
+            "state": 1025,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 23822,
+        "fields": {
+            "answer": 23657,
+            "state": 1033,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 23823,
+        "fields": {
+            "answer": 23657,
+            "state": 1040,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 23824,
+        "fields": {
+            "answer": 23657,
+            "state": 1026,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.1
+        }
     }
 ]
 
@@ -28514,7 +28794,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5236,
             "candidate": 201,
-            "answer_feedback": "Your whirlwind trip to Georgia has created a media circus. The Georgians appreciate your advocation, but most Americans can't pinpoint where Georgia is on a map, much less support going to war with Russia for them."
+            "answer_feedback": "Your whirlwind trip to Georgia has created a media circus. The Georgians appreciate your advocacy, but most Americans can't pinpoint where Georgia is on a map, much less support going to war with Russia for them."
         }
     },
     {
@@ -32718,7 +32998,7 @@ function updateQuestionBanner() {
     }
     if(Dem == 7 && Opp == 1)
     {
-        img.src = 'https://i.imgur.com/5jOXQU2.jpg';
+        img.src = 'https://i.imgur.com/M7UtBt9.jpg';
     }
     if(Dem == 8 && Opp == 1)
     {
