@@ -886,7 +886,7 @@ campaignTrail_temp.questions_json = [
         "pk": 22197,
         "fields": {
             "priority": 0,
-            "description": "The hourglass is broken; it was a cruel move for the Republican Party to unleash an unchained Dick Cheney onto the world. He's unsettling for most; his enemies are nothing more than \"mattress mice\" in his presence. Unwavering ideals of a man dead set on making the world seem much more deadly than it truly is. The election shouldn't be as hard as it is. Your poll numbers sink with the economy, and Cheney is a rabid dog barking at the need to push around the Middle East. He goes further to North Korea and Russia; you can imagine the fires that would engulf the world under him. This is the Seven Wars Policy Coup; this is your judgment. How will you face it, Clark?",
+            "description": "The hourglass is broken; it was a cruel move for the Republican Party to unleash an unchained Dick Cheney onto the world. He's unsettling for most; his enemies are nothing more than \"mattress mice\" in his presence. Unwavering ideals of a man dead set on making the world seem much more deadly than it truly is. Cheney is a rabid dog barking at the need to push around the Middle East. He goes further to North Korea and Russia; you can imagine the fires that would engulf the world under him. This is the Seven Wars Policy Coup; this is your judgment. How will you face it, Clark?",
             "likelihood": 1
         }
     },
@@ -994,7 +994,7 @@ campaignTrail_temp.questions_json = [
         "pk": 22665,
         "fields": {
             "priority": 3,
-            "description": "You've successfully led the federal government’s response to Hurricane Katrina. Vice President Landrieu mainly played a crucial role in getting aid through the Senate despite the backlash from conservative jesters like Rush Limbaugh. Meanwhile, Secretary Kerry directed FEMA's immediate response. A competent administration can return home amid the ongoing Republican leadership crisis. House Majority Leader Tom DeLay has been indicted and resigned after much public pressure. With his resignation, the people's trust in the Republican Congress is gone. Minority Leader Pelosi meets with you to discuss how to take advantage of the situation. Hastert is too busy keeping House Republicans in line. What will you do, Mr. President?\n",
+            "description": "You've returned home to Washington after a round trip through states ripped to shreds by Hurricane Katrina, and you're informed that House Majority Leader Tom DeLay has been indicted and resigned after much public pressure. With his resignation, the people's trust in the Republican Congress has gone. Minority Leader Pelosi meets with you to discuss taking advantage of the situation. What will you do, Mr. President?",
             "likelihood": 1
         }
     },
@@ -1003,7 +1003,7 @@ campaignTrail_temp.questions_json = [
         "pk": 22673,
         "fields": {
             "priority": 0,
-            "description": "You've successfully led the federal government’s response to Hurricane Katrina. Vice President Landrieu mainly played a crucial role in getting aid through the Senate despite the backlash from conservative jesters like Rush Limbaugh. Meanwhile, Secretary Kerry directed FEMA's immediate response. A competent administration can return home amid the ongoing Republican leadership crisis. House Majority Leader Tom DeLay has been indicted and resigned after much public pressure. With his resignation, the people's trust in the Republican Congress is gone. Minority Leader Pelosi meets with you to discuss taking advantage of the situation. Hastert is too busy keeping House Republicans in line. What will you do, Mr. President?\n",
+            "description": "You've returned home to Washington after a round trip through states ripped to shreds by Hurricane Katrina, and you're informed that House Majority Leader Tom DeLay has been indicted and resigned after much public pressure. With his resignation, the people's trust in the Republican Congress has gone. Minority Leader Pelosi meets with you to discuss taking advantage of the situation. What will you do, Mr. President?",
             "likelihood": 1
         }
     },
@@ -2920,7 +2920,7 @@ campaignTrail_temp.answers_json = [
         "pk": 21619,
         "fields": {
             "question": 21603,
-            "description": "Let's take a word of advice from Senator Clinton and let Giuliani talk himself off the cliff. He's out of his depth on foreign affairs and hasn't needed to prepare himself."
+            "description": "Let's take a word of advice from Senator Clinton and let Giuliani talk himself off the cliff. He's out of his depth on foreign affairs and hasn't prepared himself to understand the complicated workings of our alliances.\n"
         }
     },
     {
@@ -2968,7 +2968,7 @@ campaignTrail_temp.answers_json = [
         "pk": 21641,
         "fields": {
             "question": 21633,
-            "description": "We will restore stability in Iraq. We can afford a troop deployment to restore order to the streets of Baghdad. We're going back in to save this situation.\n"
+            "description": "Osama Bin Laden could have cost me victory 4 years ago; if not for my credentials, I probably wouldn't be here now. The Bush campaign failed to exploit the fears of 9/11, and aside from all the talk, Giuliani is just a Mayor, and we can needle him on experience.\n"
         }
     },
     {
@@ -4312,7 +4312,7 @@ campaignTrail_temp.answers_json = [
         "pk": 22670,
         "fields": {
             "question": 22665,
-            "description": "No Child Left Behind is a deeply flawed and underfunded piece of legislation, and we'll need to do a whole lot more than extra funding and tabletop reforms. That'll take new standards for educators and axing this punishment system we created for underperforming schools.\n"
+            "description": "No Child Left Behind is a deeply flawed and underfunded piece of legislation; career politicians don't understand that our education system is the first front of keeping ahead of authoritarian countries like China and Russia. That'll take new standards for educators and axing this punishment system we created for underperforming schools.\n"
         }
     },
     {
@@ -4320,7 +4320,7 @@ campaignTrail_temp.answers_json = [
         "pk": 22674,
         "fields": {
             "question": 22673,
-            "description": "We need to squeeze them while they're weak. The Turnaround Plan needs to be put into action. Push our tax reforms; Hastert is backed into a corner because of this."
+            "description": "If our economy goes down, authoritarian nations like China are the first to seize the opportunity. We need to squeeze these Republicans while they're weak. Push our tax reforms to pay for the wars we're fighting."
         }
     },
     {
@@ -13304,7 +13304,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 21634,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.013
+            "global_multiplier": 0.017
         }
     },
     {
@@ -13334,7 +13334,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 21645,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": -0.004
+            "global_multiplier": -0.01
         }
     },
     {
@@ -18306,8 +18306,8 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 21626,
             "issue": 102,
-            "issue_score": 0.8,
-            "issue_importance": 4
+            "issue_score": -0.8,
+            "issue_importance": 7
         }
     },
     {
@@ -18327,7 +18327,7 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 21641,
             "issue": 102,
             "issue_score": -0.8,
-            "issue_importance": 4
+            "issue_importance": 7
         }
     },
     {
@@ -18336,7 +18336,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 21645,
             "issue": 102,
-            "issue_score": 0.5,
+            "issue_score": -0.5,
             "issue_importance": 5
         }
     },
@@ -19327,7 +19327,7 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 22674,
             "issue": 104,
             "issue_score": 0.9,
-            "issue_importance": 10
+            "issue_importance": 7
         }
     },
     {
@@ -20298,6 +20298,86 @@ campaignTrail_temp.answer_score_issue_json = [
             "issue": "100",
             "issue_score": -0.8,
             "issue_importance": 4
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 23913,
+        "fields": {
+            "answer": 22670,
+            "issue": "100",
+            "issue_score": 0.7,
+            "issue_importance": 7
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 23914,
+        "fields": {
+            "answer": 21634,
+            "issue": 102,
+            "issue_score": 0.6,
+            "issue_importance": 5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 23915,
+        "fields": {
+            "answer": 21619,
+            "issue": 102,
+            "issue_score": 0.7,
+            "issue_importance": 7
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 23916,
+        "fields": {
+            "answer": 21622,
+            "issue": 102,
+            "issue_score": -0.7,
+            "issue_importance": 6
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 23925,
+        "fields": {
+            "answer": 21086,
+            "issue": "100",
+            "issue_score": -0.5,
+            "issue_importance": 7
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 23926,
+        "fields": {
+            "answer": 21073,
+            "issue": "100",
+            "issue_score": -0.5,
+            "issue_importance": 7
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 23927,
+        "fields": {
+            "answer": 21093,
+            "issue": "100",
+            "issue_score": -0.5,
+            "issue_importance": 7
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 23928,
+        "fields": {
+            "answer": 21100,
+            "issue": "100",
+            "issue_score": -0.5,
+            "issue_importance": 7
         }
     }
 ]
@@ -28838,6 +28918,94 @@ campaignTrail_temp.answer_score_state_json = [
             "affected_candidate": 200,
             "state_multiplier": -0.1
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 23917,
+        "fields": {
+            "answer": 21073,
+            "state": 1041,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 23918,
+        "fields": {
+            "answer": 21073,
+            "state": 1003,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.04
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 23919,
+        "fields": {
+            "answer": 21086,
+            "state": 1003,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.04
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 23920,
+        "fields": {
+            "answer": 21086,
+            "state": 1041,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 23921,
+        "fields": {
+            "answer": 21093,
+            "state": 1003,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.04
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 23922,
+        "fields": {
+            "answer": 21093,
+            "state": 1041,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 23923,
+        "fields": {
+            "answer": 21100,
+            "state": 1041,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 23924,
+        "fields": {
+            "answer": 21100,
+            "state": 1003,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.04
+        }
     }
 ]
 
@@ -30477,7 +30645,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 21641,
             "candidate": 201,
-            "answer_feedback": "Not only is this feasibly impossible to execute in time to save your reelection prospects, but Prime Minister Al-Maliki rejects your attempt to blatantly try to save your reelection bid by sending troops back in."
+            "answer_feedback": "Painting Giuliani as an inexperienced fool while dangling the hunt for Bin Laden draws a lot of criticism from moderates, but with Rudy providing no strategy for catching the bastard, it left his soft underbelly exposed as you trade lots of voters with him."
         }
     },
     {
@@ -31989,7 +32157,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 22662,
             "candidate": 201,
-            "answer_feedback": "Pelosi fights tooth and nail against the Hastert rule, and soon, the decrepit king buckles underneath the stampede of a furious congress. The bill is sent to your desk, standardized testing is dead, and public school funding is up. The Bush Regime is repudiated."
+            "answer_feedback": "Although scandal-ridden, Hastert is able to unite the uneducated Republican House to drown the bill. They would rather let the education issue fester for years than hand you a win.\n"
         }
     },
     {
@@ -33605,6 +33773,7 @@ campaignTrail_temp.jet_data = [{
 
 e.cyoa = true
 var Dem = 0;
+var Promise = 0;
 var Gay = 0;
 var Tax = 0;
 var Win = 0;
@@ -33902,101 +34071,29 @@ cyoAdventure = function(a) {
 
 
 
-    
     ///Promise tax cut repeal or get gay
-    if (e.noCounter == 1) {        
-        if (ans == 5140) {
-            campaignTrail_temp.questions_json[3] = tunnel(20896); 
-        }
-        if (ans == 20731) {
-            campaignTrail_temp.questions_json[3] = tunnel(20889); 
-        }
-        if (ans == 22843) {
-            campaignTrail_temp.questions_json[3] = tunnel(22846); 
-        }
-
-
-
+    if(ans == 5139 ){
+        Promise += 1;
     }
 
-    if(ans == 20897 ){
-        Gay += 1;
+    if(ans == 5140 ){
+        Promise += 2;
     }
 
-    if(ans == 20890 ){
-        Tax += 1;
+    if(ans == 20731 ){
+        Promise += 3;
     }
 
-    if(ans == 22674 ){
-        Tax += 1;
+    if(ans == 22843 ){
+        Promise += 4;
     }
-
-    if(ans == 20777 ){
-        Dumb += 1;
-    }
-
-    if(ans == 20906 ){
-        Dumb += 1;
-    }
-
-    ///Kill patriot act or nah
-    if (e.noCounter == 5) {
-        if (ans == 5155 && Gay == 1) {
-            campaignTrail_temp.questions_json[5] = tunnel(22621); 
-        }
-        else if (ans == 5155) {
-            campaignTrail_temp.questions_json[5] = tunnel(20888); 
-        }
-
-        if (ans == 20747 && Gay == 1) {
-            campaignTrail_temp.questions_json[5] = tunnel(22621); 
-        }
-        else if (ans == 20747 && Tax == 1) {
-            campaignTrail_temp.questions_json[5] = tunnel(22698); 
-        }
-        else if (ans == 20747) {
-            campaignTrail_temp.questions_json[5] = tunnel(20884); 
-        }
-
-    }
-
-    if(ans == 20747 ){
-        Patriot += 1;
-    }
-
-    if(ans == 5155 ){
-        Loyalist += 1;
-    }
-
-    ///Troop surge X No surge
-    if (e.noCounter == 9) {
-        if ((ans == 5262)) {
-            campaignTrail_temp.questions_json[9] = tunnel(20923); 
-        }
-
-        if ((ans == 5263)){
-            campaignTrail_temp.questions_json[9] = tunnel(20909); 
-        }
-    }
-
-    if(ans == 5262 ){
-        Troops += 1;
-    }
-
-    if(ans == 5263 ){
-        Notroops += 1;
-    }
-
-    ///Foreign Policy
-        ///Isolationist
-        if (ans == 6666) {
-            campaignTrail_temp.questions_json[13] = tunnel(21008);
-            campaignTrail_temp.questions_json[18] = tunnel(21145); 
-        }
 
     ///Midterm CYOA KingRoy or KingBoner Or Queen pelosi
 
     if(ans == 5148 ){
+        Win += 1;
+    }
+    if(ans == 5150 ){
         Win += 1;
     }
 
@@ -34087,6 +34184,102 @@ cyoAdventure = function(a) {
     if(ans == 22475 ){
         Dadt += 1;
     }
+    
+    ///Promise tax cut repeal or get gay
+    if (e.noCounter == 3) {   
+        if (Promise == 1 && Win > 1) {
+            campaignTrail_temp.questions_json[3] = tunnel(22665); 
+        }
+        if (Promise == 2) {
+            campaignTrail_temp.questions_json[3] = tunnel(20896); 
+        }
+        if (Promise == 3 && Win > 1) {
+            campaignTrail_temp.questions_json[3] = tunnel(20889); 
+        }
+        else if (Promise == 3) {
+            campaignTrail_temp.questions_json[3] = tunnel(22673); 
+        }
+        if (Promise == 4) {
+            campaignTrail_temp.questions_json[3] = tunnel(22846); 
+        }
+    }
+
+    if(ans == 20897 ){
+        Gay += 1;
+    }
+
+    if(ans == 20890 ){
+        Tax += 1;
+    }
+
+    if(ans == 22674 ){
+        Tax += 1;
+    }
+
+    if(ans == 20777 ){
+        Dumb += 1;
+    }
+
+    if(ans == 20906 ){
+        Dumb += 1;
+    }
+
+    ///Kill patriot act or nah
+    if (e.noCounter == 5) {
+        if (ans == 5155 && Gay == 1) {
+            campaignTrail_temp.questions_json[5] = tunnel(22621); 
+        }
+        else if (ans == 5155) {
+            campaignTrail_temp.questions_json[5] = tunnel(20888); 
+        }
+
+        if (ans == 20747 && Gay == 1) {
+            campaignTrail_temp.questions_json[5] = tunnel(22621); 
+        }
+        else if (ans == 20747 && Tax == 1) {
+            campaignTrail_temp.questions_json[5] = tunnel(22698); 
+        }
+        else if (ans == 20747) {
+            campaignTrail_temp.questions_json[5] = tunnel(20884); 
+        }
+
+    }
+
+    if(ans == 20747 ){
+        Patriot += 1;
+    }
+
+    if(ans == 5155 ){
+        Loyalist += 1;
+    }
+
+    ///Troop surge X No surge
+    if (e.noCounter == 9) {
+        if ((ans == 5262)) {
+            campaignTrail_temp.questions_json[9] = tunnel(20923); 
+        }
+
+        if ((ans == 5263)){
+            campaignTrail_temp.questions_json[9] = tunnel(20909); 
+        }
+    }
+
+    if(ans == 5262 ){
+        Troops += 1;
+    }
+
+    if(ans == 5263 ){
+        Notroops += 1;
+    }
+
+    ///Foreign Policy
+        ///Isolationist
+        if (ans == 6666) {
+            campaignTrail_temp.questions_json[13] = tunnel(21008);
+            campaignTrail_temp.questions_json[18] = tunnel(21145); 
+        }
+
+
 
     ///Domestic Agenda passed tracker
     if(ans == 5148 ){
@@ -35240,6 +35433,22 @@ const mccainWin = new Playlist();
 mccainWin.addSong(mccainWinSong);
 changePlaylist(mccainWin);
 }
+else if (quickstats[0] >= 269 && Dem == 4) { // Weak win - Giuliani
+e.pages.push(`<h3><i>Star Power</i></h3>
+          <p><b>The anticipation of all under Icarus's wings was palpable, forced to wait and worry as the Hero made his conquest toward Olympus alone. The Hero had cut through thick jungles and scaled mountains. It was a well-earned victory before he even reached the pearly gates.</b></p> <p><b> Icarus could only watch helplessly as his unbreakable opponent busted the gate down and demanded a proper challenge. In the courtyard, an arena was built. The Hero had no qualms with anyone else; it was to be man-to-man, a good and fair fight. So Icarus obliged and descended upon the arena in shining armor.</b></p> <p><b>He watched as his dashing opponent talked up the crowd with charm and a golden smile, ensuring no soul missed this. Icarus grew tired of his games quickly and shouted, demanding silence, and that was when he locked eyes with the Hero.</b></p> <p><b>The Hero was exhausted, and with a swift lunge forward, he was caught off guard, and the game was finally over. Everyone witnessed as Icarus ascended to victory, leaving a tattered, disgusting corpse of vanity and ego below him.</b></p>`)
+          // idk how to add playlists but to do that you create a new playlist in code1 with just that song and put changePlaylist(nameOfYourEndingPlaylist) right here
+//e.image = ""
+e.executable.push([0, (() => {e.image = e.image = 'https://i.imgur.com/RrG0WLB.png'})])
+const rudyWin = new Playlist();
+  const rudyWinSong = new Song(
+    "Upside Down",
+    "Jack Johnson",
+    "https://i.imgur.com/TYU5HwD.gif",
+    "https://audio.jukehost.co.uk/Ml6d3wbiXxdDXDci1w6qFCTwOe37t1EQ"
+  );
+rudyWin.addSong(rudyWinSong);
+changePlaylist(rudyWin);
+}
 if (quickstats[0] <= 269 && Dem == 7) { // Weak Defeat - Brownback
 e.pages.push(`<h3><i>Engulfed</i></h3>
           <p><b>Olympus depended on Icarus to save it from the Underworld; The "God" Warrior pointed a hoard in his direction. The preacher of all of what's supposedly holy had only one emotion to convey: hate. Icarus prepared his wings and armor; this was not going to be easy; Olympus's defenses were strong, many believed they would hold against The God Warrior's primal tactics.</b></p> <p><b>However, the gates were blown open by a holy light, and a great hoard took the courtyard by storm. Icarus watched as his brave soldier fought them off, wave after wave. As he prepared to take flight, he remembered the warnings all his advisors had offered him. He could have prevented this; he should have averted this battle.</b></p> <p><b>It was too late for second thoughts. The God Warrior was in sight, and so Icarus took flight. He looked down at the battlefield, and it looked like Olympus could be saved. That was until a bright and scorching light blew him back. Icarus fell from high and cratered into the staircase into the palace. When Icarus opened his eyes, he saw that the tide had turned.</b></p> <p><b>The defense was failing, and it was all turning red. He limped back into the palace, hearing the vulnerable populous squeal and wail as the "Holy Men" dragged them out of their homes and beat them down. All those Icarus had sworn to protect were to be subjected to The God Warrior's whims and desires.</b></p><p><b>As Icarus collapsed onto the carpet leading to his throne, he was engulfed by a shadow. He heard footsteps grow closer as blood traveled down the walls. Icarus lifted himself to look at his dastardly foe. He felt fear as he looked into the lifeless eyes of a man holding zero empathy for his actions. Icarus collapsed again, and The God Warrior walked right over him to take his place on the throne.</b></p>`)
@@ -35256,7 +35465,7 @@ const brownbackWin = new Playlist();
 brownbackWin.addSong(brownbackWinSong);
 changePlaylist(brownbackWin);
 }
-if (quickstats[0] <= 140 && Dem == 8 && Russia > 3) { // Landslide Defeat - Cheney
+if (quickstats[0] <= 200 && Dem == 8 && Russia > 3) { // Landslide Defeat - Cheney
 e.pages.push(`<h3><i>Icarus</i></h3>
           <p><b>Olympus has fallen; there was no denying it. Well, before the battle began, it was undeniable that there would be no victory at the end of the tunnel.</b></p> <p><b>While drifting through the crumbling palace he called home, Icarus felt great regret. The Storm was upon him, and he was weak, sickly. Olympus had undergone a terrible change, and he couldn't course direct its descent into darkness. The people were hungry and starving in the streets. Doors were being kicked in, families were left penniless, stability abroad had collapsed, the defenses of Olympus were weakened, and Icarus was dying.</b></p> <p><b>Sitting on his throne one last time, he looked up at the art on his walls. The judgmental faces of his most valued predecessors haunted him. He tore their portraits down; behind them were his abode's broken and tattered walls. There was no more time to lament his failures; the bells were ringing, and it was time for him to take flight.</b></p> <p><b>The ground shook as he pushed forward through the halls of Olympus. Finally ready to soar into the sunset, well he hoped as he looked far out into the distance, he saw it. The Storm was here.</b></p> <p><b>Icarus took flight, knowing he wouldn't land gracefully. He met the storm face to face. Lightning struck Icarus deep in the heart, sending him plummeting from the clouds. As he descended into the abyss, so did Olympus; his fate was tied to it and was forever lost.</b></p>`)
           // idk how to add playlists but to do that you create a new playlist in code1 with just that song and put changePlaylist(nameOfYourEndingPlaylist) right here
@@ -35298,6 +35507,11 @@ else if ( quickstats[0] <= 269 && Dem == 1 && Dadt == 0) { // Lieberman drops ou
 e.pages.push(`<h3>Esquire: <i>Vice President Lieberman announces he will not run for reelection in 2012.</i></h3>
 <p><b>Announcement:</b> At a press conference this morning, Vice President Lieberman announced his wish to retire from politics and said he would not seek the Republican Vice Presidential nomination again.</u><br><br> "I'm making this decision for my family, and it has absolutely nothing to do with President McCain's reelection bid."</b><br><u> This announcement comes amid President McCain's brutal battle with former Senator Rick Santorum in the Republican primaries. Lieberman has stood as a political liability for the President, holding an approval rating below 29%. Vice President Lieberman made himself an enemy of the Democratic Party after he pushed for the "Internet Kill Switch." Republicans hold very little love for the Vice president, especially after Lieberman pushed for repealing Don't Ask, Don't Tell, which was among the reasons former Senator Santorum launched his primary challenge to President McCain.<br><br>This development has sent a ripple through the Republican Party, and many say it might save President McCain's chances in the Republican Primaries. Whether the President can win the general election remains to be seen.<br><br><b>Esquire Coverage</b><br><span style="color:white;"><u>Santorum's upset win in Iowa, how did we get here?</span></u> (Jan 4th 2012)<br><span style="color:white;"><u>McCain holds the line in New Hampshire</span></u> (Jan 11th 2012)<br><span style="color:white;"><u>McCain barely holds off Santorum in South Carolina, reelection prospects look grim</span></u> (Jan 22nd 2012)<br><span style="color:white;"><u>McCain hits Florida begging for votes</span></u> (Jan 26th 2012)</p>`)
 e.executable.push([1, (() => {e.image = e.image = 'https://i.imgur.com/uF3VTNT.png'})])
+}
+if ( quickstats[0] >= 269 && Dem == 4) { // Rudy L
+e.pages.push(`<h3>Reuters: <i>Why Rudy Giuliani lost the White House</i></h3>
+<p><b>New York City (Reuters) - </b> Republican Rudy Giuliani lost Tuesday's presidential election in a humiliating defeat at the hands of President Wesley Clark. The celebrity Mayor, whose fame in politics could only be rivaled by Governor Arnold Schwarzenegger of California, was expected to take the polls by storm but came up short.</p><p>As the blame game began, analysts said his many weaknesses were exposed little by little. The firefighter revolting, his affairs, his ties to Bernard Kerik—it all came crashing down on him. President Clark dutifully exploited this and made the election more about Rudy's blemishes than the disaster he brewed in Iraq, not to mention the collapsing economy.</p><p>Giuliani's attempts to portray President Clark as a tax-raising socialist who let terrorists take over Iraq grew stale with moderates, and whatever gains he made with them, he lost double the evangelicals in the South.</p><p>Despite a deeply unpopular Democratic President with a sputtering economy and a generally tough political environment for Democrats, the Mayor lost by the fundamentals in running a campaign.</p><p>After 7 years of preparing his political ascendancy to the presidency, Giuliani entered with a monumental lead and was ready to take on the issues of the working class.</p><p>But the Mayor failed to respond to the crisis with effective language, at times sounding callous and heartless and sometimes aloof to the troubles facing everyday Americans. Party strategists point to Giuliani's incoherent economic messaging, which ranged from conservative to the same "Nanny" approach he often criticized.</p><p>In a difficult-to-hear concession speech late Tuesday, the former Mayor reflected on the campaign and seemingly struggled to accept blame for his failure.</p><p>"When I think back to everything I accomplished this campaign, I'm proud of the work I've done for you," he told his supporters at a somber post-election rally in New York. We fought hard for those who felt abandoned by Democrats and for the people we lost on 9/11."</p><p>Republican strategist John Feehery said Giuliani's deep ties to the Bush administration might have ended up becoming a net negative with sore wounds prevailing from Iraq.</p><p>"He was always seen next to Bush advisors like Condoleezza Rice and Donald Rumsfeld. People who were well known to the general public as war propeteers."</p><p>The financial crisis that erupted in September had seemingly solidified Giuliani's victory to most, but in early October, evidence of him paying off a mistress with city funds resurfaced, blowing through much of the Mayor's lead.</p><p><b>EASY CLIMATE, MASSIVE GAFFES</b></p><p>Giuliani deeply wounded himself after refusing to answer a question about whether or not he'd pardon his former associate Bernard Kerik if elected president. Among other gaffes, he often became his own worst enemy.</p><p>He championed himself as someone above it all while being in touch with people's needs. This backfired on many of his proposals, and Giuliani often came off as elitist and running on vanity.</p><p>The financial crisis also put Giuliani's "conservativism" under speculation. While President Clark came off as calm and strong in his response, the Mayor appeared aloof to what Americans needed. This was especially so when he got into a public feud with Senator Hillary Clinton over her broad economic plan, including freezing foreclosures nationwide.</p><p>Aides say Giuliani's response to the economic crisis muddied the debate and gave President Clark an opening.</p><p>"It is highly doubtful that anyone will ever have an easier and more advantaged political climate than Mayor Giuliani was given." - Nancy Parrish, White House Chief of Staff.</p><p>Top Giuliani aids say the Mayor is deeply bitter about his former campaign allies, like Senator Sam Brownback, calling on him to drop out of the race in favor of his running mate, Representative Mike Pence of Indiana.</p><p>What about Pence? To most, Giuliani's pick for Vice President helped stem the bleeding of votes to any fringe third-party candidates and contrasted well with Giuliani's more high-class profile with a lowly representative of Indiana.</p><p>Giuliani Senior Advisor Condoleezza Rice commented on the media portraying the Mayor unfairly in October.</p><p>"There's no doubt that the media portrayed the Clark and Giuliani campaigns extremely differently," Rice told reporters at the Giuliani campaign headquarters in New York. "Mayor Giuliani is not at fault for legacy media playing up irrelevant culture war issues over the war in Iraq.”</p>`)
+e.executable.push([1, (() => {e.image = e.image = 'https://i.imgur.com/gofzcAk.png'})])
 }
 if ( quickstats[0] <= 269 && Dem == 7) { // FMA
 e.pages.push(`<h3><i>President celebrates passage of the Federal Marriage Amendment</i></h3>
