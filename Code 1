@@ -1,3 +1,4 @@
+
 campaignTrail_temp.global_parameter_json = [
     {
         "model": "campaign_trail.global_parameter",
@@ -762,6 +763,8 @@ e = campaignTrail_temp
     {searchString: "Gigantomachy", explanationText: "<img src=https://i.imgur.com/Vbv3pCm.jpg> The sad and desperate lesser version of an old empire. Its brutal repression of the Chechnyans was step one of reaching its former glory."},
     {searchString: "Titanomachy", explanationText: "<img src=https://i.imgur.com/PEtPi7Z.png> It was bigger, bolder, and stronger. Once having the power to oppress half of Europe, it now struggles to keep its former client states out of enemy alliances."},
     {searchString: "What's in your hand, Clark?", explanationText: "<img src=https://i.imgur.com/ZW5LuYs.png> Not the moral ground. clearly."},
+    {searchString: "Underworld", explanationText: "<img src=https://i.imgur.com/PdbC2JJ.jpeg>  The Republican Conference has sent its worst to inject religious beliefs into politics, overstepping their own laws and beliefs of individual freedoms."},
+    {searchString: "Harbingers of Doom", explanationText: "<img src=https://i.imgur.com/ni9aWjO.jpeg> The architects of the Policy Coup, warmongers, the whole lot of them. You've warned of their plans, but it's time to stick by your word, tear apart their ideas, and build a new path forward."},
     {searchString: "Scylla and Charybdis", explanationText: "<img src=https://i.imgur.com/iWrZGm3.png> The walls of this economic crisis and foreign calamity look to crush you."},
     {searchString: "Phonoi", explanationText: "<img src=https://i.imgur.com/0uqZy3b.jpg> Killers, these Republicans are killers. They'll kill the economy, kill their wallets, and kill the American people just to get one over on you."},
     {searchString: "Koalemos", explanationText: "<img src=https://i.imgur.com/9KpyZxe.jpg> These blockheads in Congress, you pulled off impossible feats to get them where they are, and at the final hour, they failed you and killed your reelection prospects."},
