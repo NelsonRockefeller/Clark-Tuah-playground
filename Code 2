@@ -508,7 +508,7 @@ campaignTrail_temp.questions_json = [
         "pk": 21429,
         "fields": {
             "priority": 0,
-            "description": "Romney's grand cross is prominent; it deflects in every corner of him. Mitt Romney is a businessman, plain and accurate, and thus comes the baggage of that business, Bain Capital being the loud and proud showstopper. His actions in that position left thousands unemployed and catapulted him to further extravagant wealth. Alongside this comes another swath of information about his strange relationship with his father’s 1968 campaign; in a recent leak provided to the New York Times, it’s rumored Romney has run his campaign to be the polar opposite of his dad’s, down to who he hires and where they come from. Which way do we wish to hit him, and where?",
+            "description": "Romney's grand cross is prominent; it deflects in every corner of him. He is a businessman, and thus comes the baggage of that business, Bain Capital being the loud and proud showstopper. His actions in that position left thousands unemployed and catapulted him to further extravagant wealth. Alongside this comes another swath of information about his strange relationship with his father’s 1968 campaign; in a recent leak provided to the New York Times, Romney has run his campaign to be the polar opposite of his dad’s, down to who he hires and where they come from. Which way do we wish to hit him, and where?",
             "likelihood": 1
         }
     },
@@ -17546,7 +17546,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 21031,
             "candidate": 201,
             "affected_candidate": 200,
-            "global_multiplier": 0.065
+            "global_multiplier": 0.035
         }
     },
     {
@@ -17566,7 +17566,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 21408,
             "candidate": 201,
             "affected_candidate": 200,
-            "global_multiplier": 0.065
+            "global_multiplier": 0.035
         }
     },
     {
@@ -17586,7 +17586,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 21413,
             "candidate": 201,
             "affected_candidate": 200,
-            "global_multiplier": 0.065
+            "global_multiplier": 0.035
         }
     },
     {
@@ -17606,7 +17606,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 21418,
             "candidate": 201,
             "affected_candidate": 200,
-            "global_multiplier": 0.065
+            "global_multiplier": 0.035
         }
     },
     {
@@ -29848,6 +29848,50 @@ campaignTrail_temp.answer_score_state_json = [
             "affected_candidate": 200,
             "state_multiplier": -0.05
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 24030,
+        "fields": {
+            "answer": 21031,
+            "state": 1043,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": 0.2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 24031,
+        "fields": {
+            "answer": 21408,
+            "state": 1043,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": 0.2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 24032,
+        "fields": {
+            "answer": 21413,
+            "state": 1043,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": 0.2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 24033,
+        "fields": {
+            "answer": 21418,
+            "state": 1043,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": 0.2
+        }
     }
 ]
 
@@ -34682,7 +34726,6 @@ campaignTrail_temp.jet_data = [{
     "ending_data": {}
 }
 ]
-
 
 
 
