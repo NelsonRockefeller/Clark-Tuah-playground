@@ -193,7 +193,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1074,
         "fields": {
             "priority": -3,
-            "description": "In a violent display of the Russian Giant's hubris, they've trampled over Georgia's borders under the guise of \"Georgia committing genocide against South Ossetia.\", looking to relive the glory days of Titanomachy.  You may have suspected he'd commit forces to this, but you never expected him to act this fast. Putin's knee-jerk response to the idea that NATO would accept Georgia as a member is turning into a media circus. He's called your bluff, looking across the table and laying his cards. What's in your hand, Clark?",
+            "description": "In a violent display of the Russian Giant's hubris, they've trampled over Georgia's borders under the guise of \"Georgia committing genocide against South Ossetia.\", looking to relive the glory days of Titanomachy. You may have suspected he'd commit forces to this, but you never expected him to act this fast. Putin's knee-jerk response to the idea that NATO would accept Georgia as a member is turning into a media circus. He's called your bluff, looking across the table and laying his cards. What's in your hand, Clark?",
             "likelihood": 1
         }
     },
@@ -391,7 +391,7 @@ campaignTrail_temp.questions_json = [
         "pk": 21145,
         "fields": {
             "priority": 0,
-            "description": "The blistering lights and an impossible image at the Republican National Convention. Romney and Huckabee attempted to hold the line, but the trojan horse of libertarianism breached the convention. An indescribable atmosphere fills the room when Ron Paul grasps the podium with his equal, Gary Johnson, at his side, decrying your name.  Together, they rail into your foreign policy and the Patriot Act. The convention floor nearly breaks into fists as Paul's enemies are hunted and removed. Former President Bush barely gets time to speak as the Paul Acolytes do all they can to quell the face of interventionism. It's only you now, Clark. You're the only one standing in his way; how will you save Olympus from the darkness?\n",
+            "description": "The blistering lights and an impossible image at the Republican National Convention. Romney and Huckabee attempted to hold the line, but the trojan horse of libertarianism breached the convention. An indescribable atmosphere fills the room when Ron Paul grasps the podium with his equal, Gary Johnson, at his side, decrying your name. Together, they rail into your foreign policy and the Patriot Act. The convention floor nearly breaks into fists as Paul's enemies are hunted and removed. Former President Bush barely gets time to speak as the Paul Acolytes do all they can to quell the face of interventionism. It's only you now, Clark. You're the only one standing in his way; how will you save Olympus from the darkness?\n",
             "likelihood": 1
         }
     },
@@ -508,7 +508,7 @@ campaignTrail_temp.questions_json = [
         "pk": 21429,
         "fields": {
             "priority": 0,
-            "description": "Romney's grand cross is prominent; it deflects in every corner of him. He is a businessman, and thus comes the baggage of that business, Bain Capital being the loud and proud showstopper. His actions in that position left thousands unemployed and catapulted him to further extravagant wealth. Alongside this comes another swath of information about his strange relationship with his father’s 1968 campaign; in a recent leak provided to the New York Times, Romney has run his campaign to be the polar opposite of his dad’s, down to who he hires and where they come from. Which way do we wish to hit him, and where?",
+            "description": "Romney's grand cross is prominent; it deflects in every corner of him. He is a businessman, and thus comes the baggage of that business, Bain Capital being the loud and proud showstopper. His actions in that position left thousands unemployed and catapulted him to further extravagant wealth. Alongside this comes another swath of information about his strange relationship with his father’s 1968 campaign; in a recent leak provided to the New York Times, Romney has run his campaign to be the polar opposite of his dad’s, down to who he hires and where they come from. Which way do we wish to hit him?",
             "likelihood": 1
         }
     },
@@ -841,7 +841,7 @@ campaignTrail_temp.questions_json = [
         "pk": 22034,
         "fields": {
             "priority": 0,
-            "description": "Slowly but surely, your decision to call for a troop surge in Iraq is vindicated. Secretary Kerry and Secretary Levine pass you the reports, and your smile begins to show as you look them over. The situation in Iraq has stabilized, and the media finally has something good to chew on from your administration. The anti-war sentiment has dimmed, as guys like Kucinich and Gravel seem small. Despite the success, an emboldened Cerberus lies ahead, ready to block your passage if you do not blend with your newfound support.  How will you capitalize on this significant victory?",
+            "description": "Slowly but surely, your decision to call for a troop surge in Iraq is vindicated. Secretary Kerry and Secretary Levine pass you the reports, and your smile begins to show as you look them over. The situation in Iraq has stabilized, and the media finally has something good to chew on from your administration. The anti-war sentiment has dimmed, as guys like Kucinich and Gravel seem small. Despite the success, an emboldened Cerberus lies ahead, ready to block your passage if you do not blend with your newfound support. How will you capitalize on this significant victory?",
             "likelihood": 1
         }
     },
@@ -1391,6 +1391,24 @@ campaignTrail_temp.questions_json = [
         "fields": {
             "priority": 0,
             "description": "Despite many within your party looking to distance themselves from your low approval ratings, you still carry a loaded record legislatively that's finally stumped McCain's meteoric rise. Lieberman finds trouble pressing national security concerns when reminded of the Cyber Intelligence Protection Act's passage. Among more pressing concerns, the media has begun to speculate further over McCain's Baboulas, the Keating Five scandal, and while cleared of any wrongdoing, he was reprimanded for poor judgment. This is your chance; how will you shift the tone of this election?",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 24034,
+        "fields": {
+            "priority": 0,
+            "description": "Slowly but surely, your decision to call for a troop surge in Iraq is vindicated. Secretary Kerry and Secretary Levine pass you the reports, and your smile begins to show as you look them over. The situation in Iraq has stabilized, and the media finally has something good to chew on from your administration. The anti-war sentiment has dimmed, as guys like Kucinich and Gravel seem small. Despite the success, an emboldened Cerberus lies ahead, ready to block your passage if you do not blend with your newfound support. How will you capitalize on this significant victory?",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 24051,
+        "fields": {
+            "priority": 0,
+            "description": "The new troop deployment has already garnered intense criticism from your left flank, but Secretary Levin informed you of a disaster at Nisour Square. While escorting a U.S. Embassy envoy, employees of Blackwater Security Consulting shot at Iraqi civilians, killing 17 and injuring 20. The outrage is palpable as tensions between your administration and Iraq are at an all-time high. Prime Minister Nouri al-Maliki has vowed to reign in all private military guards and take judicial action to punish Blackwater. How will you direct the administration's response?\n",
             "likelihood": 1
         }
     }
@@ -1954,7 +1972,7 @@ campaignTrail_temp.answers_json = [
         "pk": 20740,
         "fields": {
             "question": 1043,
-            "description": "Republicans are making this such a profound political issue, and I want to know why.  We have some Senators close to this resolution, like Harkin and Conrad. Find out what they know.\n"
+            "description": "Republicans are making this such a profound political issue, and I want to know why. We have some Senators close to this resolution, like Harkin and Conrad. Find out what they know.\n"
         }
     },
     {
@@ -3570,7 +3588,7 @@ campaignTrail_temp.answers_json = [
         "pk": 22035,
         "fields": {
             "question": 22034,
-            "description": "Let's take this opportunity to visit the troops in Iraq, meet with Petraeus, and conduct an easy PR campaign to shore up support with our soldiers.\n"
+            "description": "Levin and Clinton have the right idea. Prime Minister al-Maliki needs to go. We have the leverage to get him out of there. His government is divisive, and the corruption is reprehensible. I want him removed.\n"
         }
     },
     {
@@ -5787,6 +5805,70 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 21429,
             "description": "Mitt is deathly afraid of his daddy's legacy. I'm not sure why. If he were more like his father, he'd be joining in civil rights marches instead of catering to the racists within his party."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 24035,
+        "fields": {
+            "question": 24034,
+            "description": "Levin and Clinton have the right idea. Prime Minister al-Maliki needs to go. We have the leverage to get him out of there. His government is divisive, and the corruption is reprehensible. I want him removed.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 24039,
+        "fields": {
+            "question": 24034,
+            "description": "With Iraq secure, we can focus on our nation's future. The threat of Al-Qaeda remains, and we can always be more vigilant. I'd like for us to begin focusing our attention on combating terrorism and killing Osama Bin Laden.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 24043,
+        "fields": {
+            "question": 24034,
+            "description": "I want to give a speech to not only honor this success but to repudiate the Bush administration's failures and the coup of our foreign policy. We've taken the nation back to being respected and safe from terror.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 24047,
+        "fields": {
+            "question": 24034,
+            "description": "The victory speaks for itself. We need to push our focus on domestic issues. I've spent too much time worrying about what's happening abroad. The American people need to know I'm working to solve this crisis.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 24052,
+        "fields": {
+            "question": 24051,
+            "description": "Prime Minister al-Maliki is taking this situation too far. This accident was obviously excessive and wrong, but we can't start punishing them too severely. I'll agree to a temporary ban on Blackwater's operation license, but no further than that.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 24056,
+        "fields": {
+            "question": 24051,
+            "description": "Kerry needs to tighten control over Blackwater. This is horrific. However, we can't let the media run away with this issue. I want the State Department to take the lead in the investigations, and I want the report to come from them.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 24059,
+        "fields": {
+            "question": 24051,
+            "description": "Blackwater has been unreliable for too long. I want a full, clean investigation led by the FBI into the State Department's reliance on them, and I want Nouri al-Maliki's government to hold its own investigation as well. I want no stone left unturned.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 24062,
+        "fields": {
+            "question": 24051,
+            "description": "Transparency is key. I don't want to play any games with this tragedy. Allow Maliki's committee to take the initiative in the investigation; if Blackwater is solely responsible for the shooting, they'll be punished. \n"
         }
     }
 ]
@@ -14226,7 +14308,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 22035,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.02
+            "global_multiplier": 0.03
         }
     },
     {
@@ -17618,6 +17700,106 @@ campaignTrail_temp.answer_score_global_json = [
             "affected_candidate": 201,
             "global_multiplier": 0.025
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 24037,
+        "fields": {
+            "answer": 24035,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 24041,
+        "fields": {
+            "answer": 24039,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.021
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 24045,
+        "fields": {
+            "answer": 24043,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.023
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 24049,
+        "fields": {
+            "answer": 24047,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.018
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 24054,
+        "fields": {
+            "answer": 24052,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 24058,
+        "fields": {
+            "answer": 24056,
+            "candidate": 201,
+            "affected_candidate": 203,
+            "global_multiplier": 0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 24066,
+        "fields": {
+            "answer": 24052,
+            "candidate": 201,
+            "affected_candidate": 203,
+            "global_multiplier": 0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 24067,
+        "fields": {
+            "answer": 24056,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 24069,
+        "fields": {
+            "answer": 24059,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 24071,
+        "fields": {
+            "answer": 24062,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.02
+        }
     }
 ]
 
@@ -20407,7 +20589,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 23754,
         "fields": {
             "answer": 23751,
-            "issue": "100",
+            "issue": 100,
             "issue_score": 0.8,
             "issue_importance": 7
         }
@@ -20427,7 +20609,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 23774,
         "fields": {
             "answer": 23772,
-            "issue": "100",
+            "issue": 100,
             "issue_score": 0.8,
             "issue_importance": 8
         }
@@ -20447,7 +20629,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 23788,
         "fields": {
             "answer": 23785,
-            "issue": "100",
+            "issue": 100,
             "issue_score": 0.9,
             "issue_importance": 6
         }
@@ -20467,7 +20649,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 23828,
         "fields": {
             "answer": 21481,
-            "issue": "100",
+            "issue": 100,
             "issue_score": -0.8,
             "issue_importance": 8
         }
@@ -20477,7 +20659,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 23829,
         "fields": {
             "answer": 21791,
-            "issue": "100",
+            "issue": 100,
             "issue_score": 0.4,
             "issue_importance": 7
         }
@@ -20517,7 +20699,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 23867,
         "fields": {
             "answer": 23858,
-            "issue": "100",
+            "issue": 100,
             "issue_score": 0.8,
             "issue_importance": 6
         }
@@ -20527,7 +20709,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 23873,
         "fields": {
             "answer": 23870,
-            "issue": "100",
+            "issue": 100,
             "issue_score": -0.8,
             "issue_importance": 4
         }
@@ -20537,7 +20719,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 23913,
         "fields": {
             "answer": 22670,
-            "issue": "100",
+            "issue": 100,
             "issue_score": 0.7,
             "issue_importance": 8
         }
@@ -20577,7 +20759,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 23925,
         "fields": {
             "answer": 21086,
-            "issue": "100",
+            "issue": 100,
             "issue_score": -0.5,
             "issue_importance": 7
         }
@@ -20587,7 +20769,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 23926,
         "fields": {
             "answer": 21073,
-            "issue": "100",
+            "issue": 100,
             "issue_score": -0.5,
             "issue_importance": 7
         }
@@ -20597,7 +20779,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 23927,
         "fields": {
             "answer": 21093,
-            "issue": "100",
+            "issue": 100,
             "issue_score": -0.5,
             "issue_importance": 7
         }
@@ -20607,7 +20789,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 23928,
         "fields": {
             "answer": 21100,
-            "issue": "100",
+            "issue": 100,
             "issue_score": -0.5,
             "issue_importance": 7
         }
@@ -20647,7 +20829,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 23967,
         "fields": {
             "answer": 21408,
-            "issue": "100",
+            "issue": 100,
             "issue_score": -0.8,
             "issue_importance": 7
         }
@@ -20657,7 +20839,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 23968,
         "fields": {
             "answer": 21031,
-            "issue": "100",
+            "issue": 100,
             "issue_score": -0.5,
             "issue_importance": 7
         }
@@ -20669,6 +20851,86 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 23969,
             "issue": 102,
             "issue_score": 0.7,
+            "issue_importance": 7
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 24038,
+        "fields": {
+            "answer": 24035,
+            "issue": 102,
+            "issue_score": -0.6,
+            "issue_importance": 7
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 24042,
+        "fields": {
+            "answer": 24039,
+            "issue": 102,
+            "issue_score": -0.6,
+            "issue_importance": 7
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 24046,
+        "fields": {
+            "answer": 24043,
+            "issue": 102,
+            "issue_score": -0.6,
+            "issue_importance": 7
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 24050,
+        "fields": {
+            "answer": 24047,
+            "issue": 102,
+            "issue_score": -0.6,
+            "issue_importance": 7
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 24055,
+        "fields": {
+            "answer": 24052,
+            "issue": 102,
+            "issue_score": -0.5,
+            "issue_importance": 5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 24065,
+        "fields": {
+            "answer": 24062,
+            "issue": 102,
+            "issue_score": 0.6,
+            "issue_importance": 7
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 24068,
+        "fields": {
+            "answer": 24056,
+            "issue": 102,
+            "issue_score": -0.5,
+            "issue_importance": 7
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 24070,
+        "fields": {
+            "answer": 24059,
+            "issue": 102,
+            "issue_score": 0.8,
             "issue_importance": 7
         }
     }
@@ -32206,7 +32468,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 22035,
             "candidate": 201,
-            "answer_feedback": "The photos of you and Petraeus shaking hands with troops do wonders in the media. He's unable to take the spotlight from you; this is your moment, not his.\n"
+            "answer_feedback": "Iraq's Prime Minister has been a recurring problem for your administration, so it's no surprise that you'd reject their democracy at the first opportunity. Maliki soon buckles under your pressure and resigns in disgrace, leaving a trail of corruption and scandals that overshadow the success of the troop surge."
         }
     },
     {
@@ -34701,6 +34963,78 @@ campaignTrail_temp.answer_feedback_json = [
             "candidate": 201,
             "answer_feedback": "Romney drastically improved Massachusetts healthcare and ran his primary campaign, pivoting and buying conservative votes while hiding his record. It's safe to say this attack leaves him exposed and on the run.\n\n"
         }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 24036,
+        "fields": {
+            "answer": 24035,
+            "candidate": 201,
+            "answer_feedback": "Iraq's Prime Minister has been a recurring problem for your administration, so it's no surprise that you'd reject their democracy at the first opportunity. However, Maliki outflanks you by rehashing the Blackwater Shooting as justification for why American oversight has failed."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 24040,
+        "fields": {
+            "answer": 24039,
+            "candidate": 201,
+            "answer_feedback": "Kerry and Levin draw up plans to increase surveillance across the Middle East as the United States begins secretive drone strikes on unsuspecting terrorists. You're informed of civilian casualties, but they're pushed under the rug."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 24044,
+        "fields": {
+            "answer": 24043,
+            "candidate": 201,
+            "answer_feedback": "You talk up a Seven War's Policy Coup, and the speech soars into headlines as former Secretary of Defense Donald Rumsfeld is being investigated for torture and war crime allegations—the Bush administration nostalgia plummets across the board."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 24048,
+        "fields": {
+            "answer": 24047,
+            "candidate": 201,
+            "answer_feedback": "While it's good to let the American people know you're looking out for them, it couldn't hurt to revel in your victory. You're getting very few of those lately."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 24053,
+        "fields": {
+            "answer": 24052,
+            "candidate": 201,
+            "answer_feedback": "Prime Minister al-Maliki's investigation committee found that the Blackwater guards acted without cause and blamed your administration's overreliance on the private military industry for operations in Iraq."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 24057,
+        "fields": {
+            "answer": 24056,
+            "candidate": 201,
+            "answer_feedback": "Blackwater Chairman Erik Prince said the Blackwater guards \"came under small-arms fire\" and \"returned fire at threatening targets.\" It's complete bullshit that nobody left of center believes, and the Iraqi government is frustrated with your reluctance to punish them."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 24060,
+        "fields": {
+            "answer": 24059,
+            "candidate": 201,
+            "answer_feedback": "Thorough investigations found that the Blackwater guards appeared to have fired grenade launchers in addition to machine guns at the civilians unprovoked. The U.S.--–Iraq Status of Forces Agreement has their license to operate in Iraq revoked immediately. Right-wing think tanks scorn the decision, but you've done the right thing."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 24063,
+        "fields": {
+            "answer": 24062,
+            "candidate": 201,
+            "answer_feedback": "\"The investigation committee appointed by Prime Minister Nuri al-Maliki... has finished its inquiry and has found that there was no evidence that the convoy of Blackwater came under fire directly or indirectly,\" a government statement said, quoting the probe's findings. \"It was not touched even by a stone.\""
+        }
     }
 ]
 
@@ -34756,6 +35090,7 @@ var Back = 0;
 var Hillary = 0;
 var Econ = 0;
 var Cyber = 0;
+var Blackwater = 0;
 e.noCounter = 0
 
 e = campaignTrail_temp
@@ -35209,22 +35544,33 @@ cyoAdventure = function(a) {
     }
 
     ///Troop surge X No surge
-    if (e.noCounter == 9) {
-        if ((ans == 5262)) {
-            campaignTrail_temp.questions_json[9] = tunnel(20923); 
-        }
-
-        if ((ans == 5263)){
-            campaignTrail_temp.questions_json[9] = tunnel(20909); 
-        }
-    }
-
     if(ans == 5262 ){
         Troops += 1;
     }
 
     if(ans == 5263 ){
         Notroops += 1;
+    }
+
+    ///Troop surge X No surge
+    if (e.noCounter == 9) {
+        if (Troops == 1 && Pelosi == 0) {
+            campaignTrail_temp.questions_json[9] = tunnel(24051); 
+        }
+        else if (Troops == 1) {
+            campaignTrail_temp.questions_json[9] = tunnel(20923); 
+        }
+
+        if (Notroops == 1){
+            campaignTrail_temp.questions_json[9] = tunnel(20909); 
+        }
+    }
+
+    if(ans == 24052 ){
+        Blackwater += 1;
+    }
+    if(ans == 24062 ){
+        Blackwater += 1;
     }
 
     ///Foreign Policy
@@ -35656,6 +36002,9 @@ if (e.noCounter == 18) {
     }
     if (Troops == 1 && Patriot == 1 && Neo > 0) {
         campaignTrail_temp.questions_json[18] = tunnel(22780); 
+    }
+    else if (Troops == 1 && Blackwater == 0) {
+        campaignTrail_temp.questions_json[18] = tunnel(24034); 
     }
     else if (Troops == 1) {
         campaignTrail_temp.questions_json[18] = tunnel(22034); 
