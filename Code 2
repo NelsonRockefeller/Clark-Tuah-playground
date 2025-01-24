@@ -1372,7 +1372,7 @@ campaignTrail_temp.questions_json = [
         "pk": 23901,
         "fields": {
             "priority": 0,
-            "description": "The newly reestablished Reconstruction Finance Corporation has gotten busy bailing out banks and delegating funds to state infrastructure projects, while the Resolution Trust Corporation has gotten to helping refinance bad mortgages. Republicans decry this, and the tax hikes on the wealthy socialism, but the general populous is taking a liking to it. However, the best news for your campaign is the massive influx of donations from the grassroots, ballooning your war chest for the campaign's final stretch. Where would you like to put these funds toward?",
+            "description": "The newly reestablished Reconstruction Finance Corporation has gotten busy bailing out banks and delegating funds to state infrastructure projects. In contrast, the Resolution Trust Corporation has gotten to helping refinance bad mortgages. Republicans decry this and the tax hikes on the wealthy as socialism, but the general populous is taking a liking to it. However, the best news for your campaign is the massive influx of donations from the grassroots, ballooning your war chest for the campaign's final stretch. Where would you like to put these funds?",
             "likelihood": 1
         }
     },
@@ -1411,6 +1411,33 @@ campaignTrail_temp.questions_json = [
             "description": "The new troop deployment has already garnered intense criticism from your left flank, but Secretary Levin informed you of a disaster at Nisour Square. While escorting a U.S. Embassy envoy, employees of Blackwater Security Consulting shot at Iraqi civilians, killing 17 and injuring 20. The outrage is palpable as tensions between your administration and Iraq are at an all-time high. Prime Minister Nouri al-Maliki has vowed to reign in all private military guards and take judicial action to punish Blackwater. How will you direct the administration's response?\n",
             "likelihood": 1
         }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 24072,
+        "fields": {
+            "priority": 0,
+            "description": "It was supposed to be merely a coronation, the selection of the next descendent of the strongest royal family of Olympus. Jeb Bush has taken the Republican nomination, a surprise to none, but he enters the convention long bruised from an intense fight with Governor Mike Huckabee, who nearly had him made. Now he's flanked by that same man, together joining arms in the Republican ticket denouncing your abandonment of Iraq and demanding a constitutional convention to write out the idea of gay marriage becoming law. How will you take on this band of radicals?",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 24114,
+        "fields": {
+            "priority": 0,
+            "description": "What was once considered a smear on Jeb's gubernatorial record has become a proud badge; the Republican hopeful is sporting his actions in the Terri Schiavo Case. Some say the Governor's hubris has allowed him to embrace such a fatal elixir. It might be his running mate bolstering his confidence and luring the evangelical crowds. \"Jeb fought for her life; he'll fight for yours too.\" It's a shrewd move. How will you retake the narrative?\n",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 24132,
+        "fields": {
+            "priority": 0,
+            "description": "What was once considered a smear on Jeb's gubernatorial record has become a proud badge; the Republican hopeful is sporting his actions in the Terri Schiavo Case. Some say the Governor's hubris has allowed him to embrace such a fatal elixir. It might be his running mate bolstering his confidence and luring the evangelical crowds. \"Jeb fought for her life; he'll fight for yours too.\" It's a shrewd move. How will you retake the narrative?\n",
+            "likelihood": 1
+        }
     }
 ]
 
@@ -1444,7 +1471,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5144,
         "fields": {
             "question": 1043,
-            "description": "I sympathize with this case, but it shouldn't concern the executive branch. If Congress wishes to get involved, then that's their prerogative.\n"
+            "description": "I sympathize with this case, but it shouldn't concern the executive branch; I have more significant problems to look over. If Congress wishes to get involved, then that's their prerogative.\n"
         }
     },
     {
@@ -4836,7 +4863,7 @@ campaignTrail_temp.answers_json = [
         "pk": 22943,
         "fields": {
             "question": 22908,
-            "description": "President Clark should reflect the way Christ reflected, with compassion and love for the Iraq people and their struggle. His policies have been shortsighted in that they did not take into account that the democracy built in Iraq was not ready to stand alone.\n"
+            "description": "President Clark should reflect the way Christ reflected, with compassion and love for the Iraqi people and their struggle. His policies have been shortsighted in that they did not take into account that the democracy built in Iraq was not ready to stand alone.\n"
         }
     },
     {
@@ -5869,6 +5896,70 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 24051,
             "description": "Transparency is key. I don't want to play any games with this tragedy. Allow Maliki's committee to take the initiative in the investigation; if Blackwater is solely responsible for the shooting, they'll be punished. \n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 24073,
+        "fields": {
+            "question": 24072,
+            "description": "Governor Bush's record is appealing only to hardline evangelical radicals. He's far right on basic science like stem cells and is looking to overturn Roe v Wade. If I were him, I'd be running from my record, not embracing it with pride."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 24115,
+        "fields": {
+            "question": 24114,
+            "description": "Jeb is making a big mistake in wearing this like a glove: plaster his campaign with the Schiavo Memo, and don't let them forget what Republicans will do to make quick gains. Carpet bomb the entire party with their sins.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 24120,
+        "fields": {
+            "question": 24114,
+            "description": "It's disgusting what Republicans are doing. Never in my career have I witnessed such partisan work, and I won't play into it. Our party needs to take the high road here; the public will choose what's right.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 24124,
+        "fields": {
+            "question": 24114,
+            "description": "Michael Schiavo was doing some honest work raising money for Right To Die candidates. Although this work may have lost steam back in 2007, the Bush campaign's renewed focus on it has made it politically viable. Tell him we'd love to have him on.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 24128,
+        "fields": {
+            "question": 24114,
+            "description": "In this case, Governor Bush's actions were reprehensible and out of line with Republican ideals of small governance. He and the Republican Party oversaw this case and illegally jammed their morals into it.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 24137,
+        "fields": {
+            "question": 24132,
+            "description": "It's disgusting what Republicans are doing. Never in my career have I witnessed such partisan work, and I won't play into it. Our party needs to take the high road here; the public will choose what's right.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 24141,
+        "fields": {
+            "question": 24132,
+            "description": "Michael Schiavo was doing some honest work raising money for Right To Die candidates. Although this work may have lost steam back in 2007, the Bush campaign's renewed focus on it has made it politically viable. Tell him we'd love to have him on.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 24145,
+        "fields": {
+            "question": 24132,
+            "description": "In this case, Governor Bush's actions were reprehensible and out of line with Republican ideals of small governance. He and the Republican Party oversaw this case and illegally jammed their morals into it.\n"
         }
     }
 ]
@@ -16108,7 +16199,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 22943,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.008
+            "global_multiplier": 0.02
         }
     },
     {
@@ -16118,7 +16209,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 22947,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.01
+            "global_multiplier": 0.015
         }
     },
     {
@@ -16128,7 +16219,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 22951,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.008
+            "global_multiplier": 0.02
         }
     },
     {
@@ -16138,7 +16229,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 22955,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.008
+            "global_multiplier": 0.025
         }
     },
     {
@@ -17799,6 +17890,86 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 201,
             "affected_candidate": 201,
             "global_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 24075,
+        "fields": {
+            "answer": 24073,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 24117,
+        "fields": {
+            "answer": 24115,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "global_multiplier": -0.065
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 24122,
+        "fields": {
+            "answer": 24120,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "global_multiplier": 0.009
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 24126,
+        "fields": {
+            "answer": 24124,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "global_multiplier": 0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 24130,
+        "fields": {
+            "answer": 24128,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "global_multiplier": 0.025
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 24139,
+        "fields": {
+            "answer": 24137,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "global_multiplier": 0.009
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 24143,
+        "fields": {
+            "answer": 24141,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "global_multiplier": 0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 24147,
+        "fields": {
+            "answer": 24145,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "global_multiplier": 0.025
         }
     }
 ]
@@ -20933,6 +21104,76 @@ campaignTrail_temp.answer_score_issue_json = [
             "issue_score": 0.8,
             "issue_importance": 7
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 24118,
+        "fields": {
+            "answer": 24115,
+            "issue": 103,
+            "issue_score": 0.7,
+            "issue_importance": 4
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 24123,
+        "fields": {
+            "answer": 24120,
+            "issue": 103,
+            "issue_score": 0.7,
+            "issue_importance": 7
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 24127,
+        "fields": {
+            "answer": 24124,
+            "issue": 103,
+            "issue_score": 0.7,
+            "issue_importance": 7
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 24131,
+        "fields": {
+            "answer": 24128,
+            "issue": 103,
+            "issue_score": 0.7,
+            "issue_importance": 3
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 24140,
+        "fields": {
+            "answer": 24137,
+            "issue": 103,
+            "issue_score": 0.7,
+            "issue_importance": 7
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 24144,
+        "fields": {
+            "answer": 24141,
+            "issue": 103,
+            "issue_score": 0.7,
+            "issue_importance": 7
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 24148,
+        "fields": {
+            "answer": 24145,
+            "issue": 103,
+            "issue_score": 0.7,
+            "issue_importance": 3
+        }
     }
 ]
 
@@ -22386,7 +22627,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1009,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.21
+            "state_multiplier": -0.3
         }
     },
     {
@@ -22397,7 +22638,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1009,
             "candidate": 201,
             "affected_candidate": 202,
-            "state_multiplier": 0.4
+            "state_multiplier": 0.2
         }
     },
     {
@@ -22406,9 +22647,9 @@ campaignTrail_temp.answer_score_state_json = [
         "fields": {
             "answer": 21146,
             "state": 1011,
-            "candidate": 200,
-            "affected_candidate": 201,
-            "state_multiplier": 1
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.3
         }
     },
     {
@@ -22419,7 +22660,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1011,
             "candidate": 201,
             "affected_candidate": 202,
-            "state_multiplier": 1.2
+            "state_multiplier": 0.2
         }
     },
     {
@@ -22496,7 +22737,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1032,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.31
+            "state_multiplier": -0.28
         }
     },
     {
@@ -22507,7 +22748,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1032,
             "candidate": 201,
             "affected_candidate": 202,
-            "state_multiplier": 0.3
+            "state_multiplier": 0.5
         }
     },
     {
@@ -22562,7 +22803,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1043,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.07
+            "state_multiplier": -0.05
         }
     },
     {
@@ -22573,7 +22814,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1043,
             "candidate": 201,
             "affected_candidate": 202,
-            "state_multiplier": 1.2
+            "state_multiplier": 0.5
         }
     },
     {
@@ -24267,7 +24508,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1009,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.21
+            "state_multiplier": -0.3
         }
     },
     {
@@ -24278,7 +24519,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1009,
             "candidate": 201,
             "affected_candidate": 202,
-            "state_multiplier": 0.3
+            "state_multiplier": 0.2
         }
     },
     {
@@ -24287,9 +24528,9 @@ campaignTrail_temp.answer_score_state_json = [
         "fields": {
             "answer": 22333,
             "state": 1011,
-            "candidate": 200,
-            "affected_candidate": 201,
-            "state_multiplier": 1
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.3
         }
     },
     {
@@ -24300,7 +24541,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1011,
             "candidate": 201,
             "affected_candidate": 202,
-            "state_multiplier": 1.2
+            "state_multiplier": 0.2
         }
     },
     {
@@ -24377,7 +24618,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1032,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.31
+            "state_multiplier": -0.28
         }
     },
     {
@@ -24443,7 +24684,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1043,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.07
+            "state_multiplier": -0.5
         }
     },
     {
@@ -24454,7 +24695,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1043,
             "candidate": 201,
             "affected_candidate": 202,
-            "state_multiplier": 1.2
+            "state_multiplier": 0.5
         }
     },
     {
@@ -24850,7 +25091,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1009,
             "candidate": 201,
             "affected_candidate": 202,
-            "state_multiplier": 0.4
+            "state_multiplier": 0.2
         }
     },
     {
@@ -24859,9 +25100,9 @@ campaignTrail_temp.answer_score_state_json = [
         "fields": {
             "answer": 22390,
             "state": 1011,
-            "candidate": 200,
-            "affected_candidate": 201,
-            "state_multiplier": 1
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.3
         }
     },
     {
@@ -24872,7 +25113,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1011,
             "candidate": 201,
             "affected_candidate": 202,
-            "state_multiplier": 1.2
+            "state_multiplier": 0.2
         }
     },
     {
@@ -25015,7 +25256,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1043,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.07
+            "state_multiplier": -0.5
         }
     },
     {
@@ -25026,7 +25267,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1043,
             "candidate": 201,
             "affected_candidate": 202,
-            "state_multiplier": 1.2
+            "state_multiplier": 0.5
         }
     },
     {
@@ -30154,6 +30395,402 @@ campaignTrail_temp.answer_score_state_json = [
             "affected_candidate": 200,
             "state_multiplier": 0.2
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 24077,
+        "fields": {
+            "answer": 24073,
+            "state": 1003,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": 0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 24078,
+        "fields": {
+            "answer": 24073,
+            "state": 1009,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.15
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 24079,
+        "fields": {
+            "answer": 24073,
+            "state": 1008,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": 0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 24081,
+        "fields": {
+            "answer": 24073,
+            "state": 1016,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": 0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 24082,
+        "fields": {
+            "answer": 24073,
+            "state": 1023,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": 0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 24083,
+        "fields": {
+            "answer": 24073,
+            "state": 1041,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": 0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 24084,
+        "fields": {
+            "answer": 24073,
+            "state": 1042,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.15
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 24085,
+        "fields": {
+            "answer": 24073,
+            "state": 1024,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": 0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 24086,
+        "fields": {
+            "answer": 24073,
+            "state": 1045,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.06
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 24087,
+        "fields": {
+            "answer": 24073,
+            "state": 1031,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 24088,
+        "fields": {
+            "answer": 24073,
+            "state": 1029,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 24089,
+        "fields": {
+            "answer": 24073,
+            "state": 1004,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 24090,
+        "fields": {
+            "answer": 24073,
+            "state": 1012,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 24091,
+        "fields": {
+            "answer": 24073,
+            "state": 1032,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.15
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 24092,
+        "fields": {
+            "answer": 24073,
+            "state": 1039,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": 0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 24093,
+        "fields": {
+            "answer": 24073,
+            "state": 1028,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 24094,
+        "fields": {
+            "answer": 24073,
+            "state": 1036,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 24095,
+        "fields": {
+            "answer": 24073,
+            "state": 1046,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 24096,
+        "fields": {
+            "answer": 24073,
+            "state": 1049,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.06
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 24097,
+        "fields": {
+            "answer": 24073,
+            "state": 1037,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.06
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 24098,
+        "fields": {
+            "answer": 24073,
+            "state": 1006,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 24099,
+        "fields": {
+            "answer": 24073,
+            "state": 1030,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.13
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 24100,
+        "fields": {
+            "answer": 24073,
+            "state": 1005,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.16
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 24101,
+        "fields": {
+            "answer": 24073,
+            "state": 1034,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.15
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 24102,
+        "fields": {
+            "answer": 24073,
+            "state": 1027,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 24103,
+        "fields": {
+            "answer": 24073,
+            "state": 1007,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 24104,
+        "fields": {
+            "answer": 24073,
+            "state": 1002,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 24105,
+        "fields": {
+            "answer": 24073,
+            "state": 1013,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.35
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 24106,
+        "fields": {
+            "answer": 24073,
+            "state": 1040,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.35
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 24107,
+        "fields": {
+            "answer": 24073,
+            "state": 1033,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.35
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 24108,
+        "fields": {
+            "answer": 24073,
+            "state": 1025,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.25
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 24109,
+        "fields": {
+            "answer": 24073,
+            "state": 1015,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.3
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 24110,
+        "fields": {
+            "answer": 24073,
+            "state": 1043,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.45
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 24111,
+        "fields": {
+            "answer": 24073,
+            "state": 1011,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.45
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 24112,
+        "fields": {
+            "answer": 24073,
+            "state": 1026,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.15
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 24113,
+        "fields": {
+            "answer": 24073,
+            "state": 1021,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.15
+        }
     }
 ]
 
@@ -35035,6 +35672,78 @@ campaignTrail_temp.answer_feedback_json = [
             "candidate": 201,
             "answer_feedback": "\"The investigation committee appointed by Prime Minister Nuri al-Maliki... has finished its inquiry and has found that there was no evidence that the convoy of Blackwater came under fire directly or indirectly,\" a government statement said, quoting the probe's findings. \"It was not touched even by a stone.\""
         }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 24074,
+        "fields": {
+            "answer": 24073,
+            "candidate": 201,
+            "answer_feedback": "With Governor Huckabee by his side, they are maximizing the excitement within the Republican base to overturn the Clark years and build a new and radical constitution."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 24116,
+        "fields": {
+            "answer": 24115,
+            "candidate": 201,
+            "answer_feedback": "The campaign apparatus turns its gears, creating a metaphorical bomb that soars over Jeb's campaign like the bombs you dropped on Belgrade. Down-ballot Republicans take a beating alongside Jeb, who retreats from the issue entirely. The Schiavo family is distraught; their names are back in the headlines, but you've made victory possible."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 24121,
+        "fields": {
+            "answer": 24120,
+            "candidate": 201,
+            "answer_feedback": "It's been a long three years since the Terri Schiavo Case was in the headlines, and for most Americans, it's become a distant memory. Republicans are reworking the narrative in their favor, and evangelical voters open their pockets none the wiser.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 24125,
+        "fields": {
+            "answer": 24124,
+            "candidate": 201,
+            "answer_feedback": "Puppeting Terri's husband for political reasons might be morally dubious. Still, the Bush campaign has wheeled out the Schindlers, Terri's parents, further politicizing her death with competing PACs and foundations raising money in her name. She must be rolling over in her grave."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 24129,
+        "fields": {
+            "answer": 24128,
+            "candidate": 201,
+            "answer_feedback": "Thankfully, the facts favor your position. Polls still show that a majority of Americans believe that Michael Schiavo, Terri's husband, should have the final authority to make decisions on behalf of his wife and that Bush acted wrongfully by stepping in.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 24138,
+        "fields": {
+            "answer": 24137,
+            "candidate": 201,
+            "answer_feedback": "It's been a long three years since the Terri Schiavo Case was in the headlines, and for most Americans, it's become a distant memory. Republicans are reworking the narrative in their favor, and evangelical voters open their pockets none the wiser.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 24142,
+        "fields": {
+            "answer": 24141,
+            "candidate": 201,
+            "answer_feedback": "Puppeting Terri's husband for political reasons might be morally dubious. Still, the Bush campaign has wheeled out the Schindlers, Terri's parents, further politicizing her death with competing PACs and foundations raising money in her name. She must be rolling over in her grave."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 24146,
+        "fields": {
+            "answer": 24145,
+            "candidate": 201,
+            "answer_feedback": "Thankfully, the facts favor your position. Polls still show that a majority of Americans believe that Michael Schiavo, Terri's husband, should have the final authority to make decisions on behalf of his wife and that Bush acted wrongfully by stepping in.\n"
+        }
     }
 ]
 
@@ -35091,6 +35800,7 @@ var Hillary = 0;
 var Econ = 0;
 var Cyber = 0;
 var Blackwater = 0;
+var Schiavo = 0;
 e.noCounter = 0
 
 e = campaignTrail_temp
@@ -35241,6 +35951,13 @@ function switcheroo9() {
 
 }
 function switcheroo10() {
+    var id = e.candidate_json.map(p=>p.pk).indexOf(200)
+    e.candidate_json[id].fields.first_name = "Jeb"
+    e.candidate_json[id].fields.last_name = "Bush"  
+    e.candidate_json[id].fields.color_hex = "#552431" 
+
+}
+function switcheroo11() {
     var id = e.candidate_json.map(p=>p.pk).indexOf(200)
     e.candidate_json[id].fields.first_name = "Arnold"
     e.candidate_json[id].fields.last_name = "Schwarzenegger"  
@@ -35514,6 +36231,11 @@ cyoAdventure = function(a) {
         Dumb += 1;
     }
 
+    ///reveal the memo
+    if(ans == 20740 ){
+        Schiavo += 1;
+    }
+
     ///Kill patriot act or nah
     if (e.noCounter == 5) {
         if (ans == 5155 && Gay == 1) {
@@ -35674,7 +36396,12 @@ cyoAdventure = function(a) {
     if(ans == 22043 ){
         Nato += 1;
     }
-
+    if(ans == 24059 ){
+        Nato += 1;
+    }
+    if(ans == 24062 ){
+        Nato += 1;
+    }
 
     ///neoliberling
     if(ans == 20773 ){
@@ -35702,6 +36429,14 @@ cyoAdventure = function(a) {
     }
 
     if(ans == 22768 ){
+        Neo += 1;
+    }
+
+    if(ans == 24052 ){
+        Neo += 1;
+    }
+
+    if(ans == 24056 ){
         Neo += 1;
     }
 
@@ -35966,26 +36701,32 @@ if (e.noCounter == 16) {
     if (Dem == 1) {
         campaignTrail_temp.questions_json[16] = tunnel(21243); 
     }
-    else if (Dem == 2) {
+    if (Dem == 2) {
         campaignTrail_temp.questions_json[16] = tunnel(21429); 
     }
-    else if (Dem == 3) {
+    if (Dem == 3) {
         campaignTrail_temp.questions_json[16] = tunnel(21494); 
     }
-    else if (Dem == 4) {
+    if (Dem == 4) {
         campaignTrail_temp.questions_json[16] = tunnel(21603); 
     }
-    else if (Dem == 5) {
+    if (Dem == 5) {
         campaignTrail_temp.questions_json[16] = tunnel(21716); 
     }
-    else if (Dem == 6) {
+    if (Dem == 6) {
         campaignTrail_temp.questions_json[16] = tunnel(21777); 
     }
-    else if (Dem == 7) {
+    if (Dem == 7) {
         campaignTrail_temp.questions_json[16] = tunnel(21969); 
     }
-    else if (Dem == 8) {
+    if (Dem == 8) {
         campaignTrail_temp.questions_json[16] = tunnel(22109); 
+    }
+    if (Schiavo == 1 && Dem == 9) {
+        campaignTrail_temp.questions_json[16] = tunnel(24114); 
+    }
+    else if (Dem == 9) {
+        campaignTrail_temp.questions_json[16] = tunnel(24132); 
     }
 }
 
@@ -36741,6 +37482,22 @@ const mccainWin = new Playlist();
 mccainWin.addSong(mccainWinSong);
 changePlaylist(mccainWin);
 }
+else if (quickstats[0] >= 355 && Dem == 1) { // landslide win - McCain
+e.pages.push(`<h3><i>Burned Bridges</i></h3>
+          <p><b></b></p>`)
+          // idk how to add playlists but to do that you create a new playlist in code1 with just that song and put changePlaylist(nameOfYourEndingPlaylist) right here
+//e.image = ""
+e.executable.push([0, (() => {e.image = e.image = 'https://i.imgur.com/tjZsj8b.png'})])
+const mccainWin = new Playlist();
+  const mccainWinSong = new Song(
+    "Blow me Away",
+    "Breaking Benjamin",
+    "https://i.imgur.com/LJuqjW4.gif",
+    "https://audio.jukehost.co.uk/U6PYUana3KFQ7hcEzEBfk5wwO79R5Lge"
+  );
+mccainWin.addSong(mccainWinSong);
+changePlaylist(mccainWin);
+}
 else if (quickstats[0] <= 269 && Dem == 4) { // Weak defeat - Giuliani
 e.pages.push(`<h3><i>Party Animal</i></h3>
           <p><b>It was a modern-day fairytale. Long before he had even reached his destination, the Hero could grasp victory with his hands. Why waste time preparing when the win was already his? He preferred to savor this feeling by throwing lavish parties surrounded by beautiful mistresses and telling tall tales of his glory. He was a valued warrior, tested by insurmountable tasks and accomplished them with ease. </b></p> <p><b> It was a fantastic experience, one of a lifetime, until his trusted advisor approached him, warning him of the disaster that awaited him. The Harbinger forewarned of the immense threat of his opponent; Icarus was not a foe to be underestimated; he was, after all, a legend. No matter how weakened he may be, he's still the man who brought down the Emperor. The Hero was none the wiser and looked at upon his confidant with disgust.</b></p> <p><b>Did she have a clue of whom she was speaking of? The Hero was a man of strength, sheer will, and determination. This wasn't a competition. It was a coronation; he only needed to knock out the fool in his seat. The Hero ignored all the advice given to him and continued to party to his heart's content. When it was time to journey up the mountain, he boasted and bragged to his exuberant crowds. He took at it alone but kept spectators watching at a distance, not wanting a moment of his legend lost in memory.</b></p><p><b>Then he made it—the pearly gates of Olympus, the mountain climbed, the story was written, and it was his job to follow the script and make history. He easily blew the gate down and shouted for his opponent to show himself. A crowd assembled around him as the ring he would battle in was created.</b></p><p><b>The moment he had been waiting for had come. Icarus dropped down from far above, sporting a stern expression coated in glistening golden armor. It was time for the battle to change history and take his destiny by the horns. </b></p><p><b>It began gloriously; the Hero and Icarus went blow for blow, cut to cut, blood for blood. However, as the moments passed, fear overtook the Hero's mind. Icarus wasn't going down without a fight; perhaps the Harbinger was right. It was getting harder, his vision was getting tighter, and the fight had gone into the later hours of the night. All seemed lost as an opening for Icarus to take his head appeared. However, the Harbinger swept him off his feet and carried out the finishing blow, killing Icarus. The Hero's conquest was finished, but In what may have been the worst outcome, he couldn't celebrate the victory as his own. The Hero owed the Harbinger his life; she wouldn't let him forget that.</b></p>`)
@@ -36772,6 +37529,22 @@ const rudyWin = new Playlist();
   );
 rudyWin.addSong(rudyWinSong);
 changePlaylist(rudyWin);
+}
+else if (quickstats[0] >= 355 && Dem == 5) { // big win - paul
+e.pages.push(`<h3><i>Hollow Power</i></h3>
+          <p><b>Icarus considered himself a conqueror. Entire realms were brought underneath his whims. Utterly despised by the little man, he had become the antithesis of his promises. Like a chameleon, Icarus naturally blended in with his co-conspirators, who plotted and schemed much like his predecessor.</b></p> <p><b> He had almost forgotten the time the Madman was due to arrive, but he was nowhere in sight. Curious, he went looking for trouble, hungry for a challenge, and passed by the heads of Sirens and Harpies slain during his conquests. Families hid and refused to meet his gaze as he strolled through the streets of Olympus.</b></p> <p><b>Quiet, it was deafening and irritating.  Where was his challenge? The spoils? He took flight, hoping to glimpse his challenge on its way. That's when his gaze met a great disappointment.</b></p> <p><b>The Horse, the vehicle of revolutionary ideas, had collapsed long before reaching the gates of his domain. There was no challenge, great victory, or glorious conquest. Olympus was safe from the ideals of freedom at a cost of nothing. All Icarus could feel in response was apathy.</b></p>`)
+          // idk how to add playlists but to do that you create a new playlist in code1 with just that song and put changePlaylist(nameOfYourEndingPlaylist) right here
+//e.image = ""
+e.executable.push([0, (() => {e.image = e.image = 'https://i.imgur.com/9DdPou7.png'})])
+const paulWin = new Playlist();
+  const paulWinSong = new Song(
+    "Change",
+    "Deftones",
+    "https://i.imgur.com/pM2g8wS.gif",
+    "https://audio.jukehost.co.uk/myGTVWs63nSZbNCfkIFVHhD9vRNeQhx0"
+  );
+paulWin.addSong(paulWinSong);
+changePlaylist(paulWin);
 }
 if (quickstats[0] <= 269 && Dem == 7) { // Weak Defeat - Brownback
 e.pages.push(`<h3><i>Engulfed</i></h3>
@@ -36821,16 +37594,18 @@ const cheneyWin = new Playlist();
 cheneyWin.addSong(cheneyWinSong);
 changePlaylist(cheneyWin);
 }
+
+
 // policy push
 if ( quickstats[0] <= 190 && Dem == 1) { // Feingold supremacy
 e.pages.push(`<h3>Politico: <i>The Blue Wave came, and it swept away McCain's mandate.</i></h3>
 <p><b>Opinion:</b> <u>President John McCain rode into the White House on the economic woes of the Clark Administration. He's a man elected not because what he brought to the table was popular but because the other guy was an idiot.</b> <p>The complete collapse of the president's mandate proves that. Democrats nationwide ran on four words: "He Killed Social Security." The McCain administration knew this insurmountable task was unpopular, and his trips throughout the states to make the bill to reform the system seem popular only hurt its public view. McCain's refusal to cut taxes as a compromise for the bill eliminated all and any support from the opposition. However, what hurt him most was the collapse of the support within the Republican base. The old folk who relied on Social Security felt uncomfortable with his reforms. Regardless, by the summer of 09, he didn't seem to waver in supporting such a plan.</p><p>Public opinion hit a boiling point, but McCain still had the numbers to get what he wanted to be passed. So he ignored the normality of representing the people and forced upon America a "tough pill to swallow." Democrats tried to pull any tricks they could to combat the bill, but they lacked the numbers to stop it, and Republicans sent the bill through. Well, now, here we are. The American people have rejected the McCain administration's pill. House Speaker Nancy Pelosi has the numbers to comfortably stalemate whatever McCain may bring from here. It looks like President McCain has accepted the fact that his domestic agenda has been slain and has set his eyes abroad. The redeployment of troops into Iraq and Afghanistan was only the start of McCain's war-hungry agenda.</p><br><b>Politico Coverage</b><br><span style="color:white;"><u>Senator Russ Feingold launched a political action committee to explore the possibility of running for president in the 2012 election.</span></u><br><span style="color:white;"><u>Senator-elect Charlie Crist announces he will caucus with the Democratic Party.</span></u><br><span style="color:white;"><u>Governor Dave Freudenthal's gamble on challenging Wyoming Governor term limits paid off, reelected by slim margins.</p>`)
 e.executable.push([1, (() => {e.image = e.image = 'https://i.imgur.com/1gDIhjc.png'})])
 }
-else if ( quickstats[0] <= 269 && Dem == 1 && Dadt == 0) { // Lieberman drops out of clown college
-e.pages.push(`<h3>Esquire: <i>Vice President Lieberman announces he will not run for reelection in 2012.</i></h3>
-<p><b>Announcement:</b> At a press conference this morning, Vice President Lieberman announced his wish to retire from politics and said he would not seek the Republican Vice Presidential nomination again.</u><br><br> "I'm making this decision for my family, and it has absolutely nothing to do with President McCain's reelection bid."</b><br><u> This announcement comes amid President McCain's brutal battle with former Senator Rick Santorum in the Republican primaries. Lieberman has stood as a political liability for the President, holding an approval rating below 29%. Vice President Lieberman made himself an enemy of the Democratic Party after he pushed for the "Internet Kill Switch." Republicans hold very little love for the Vice president, especially after Lieberman pushed for repealing Don't Ask, Don't Tell, which was among the reasons former Senator Santorum launched his primary challenge to President McCain.<br><br>This development has sent a ripple through the Republican Party, and many say it might save President McCain's chances in the Republican Primaries. Whether the President can win the general election remains to be seen.<br><br><b>Esquire Coverage</b><br><span style="color:white;"><u>Santorum's upset win in Iowa, how did we get here?</span></u> (Jan 4th 2012)<br><span style="color:white;"><u>McCain holds the line in New Hampshire</span></u> (Jan 11th 2012)<br><span style="color:white;"><u>McCain barely holds off Santorum in South Carolina, reelection prospects look grim</span></u> (Jan 22nd 2012)<br><span style="color:white;"><u>McCain hits Florida begging for votes</span></u> (Jan 26th 2012)</p>`)
-e.executable.push([1, (() => {e.image = e.image = 'https://i.imgur.com/uF3VTNT.png'})])
+if ( quickstats[0] >= 269 && Dem == 1) { // mccain L
+e.pages.push(`<h3>Reuters: <i>Why John McCain lost the White House</i></h3>
+<p><b>Phoenix (Reuters) - </b> Republican John McCain lost Tuesday's presidential election in an upset at the hands of President Wesley Clark. The veteran Senator, whose poll numbers had surged to astronomical numbers in September, came crashing down by election day.</p><p>As the blame game began, analysts on all sides of the aisle were scratching their heads. How could this happen? President Clark had completely crashed his campaign by attacking Senator McCain's service.</p><p>Clark's apology for such remarks was equally unpopular and most pathetic. The President's approval rating with veterans had dropped to dangerously low levels.</p><p>Despite a deeply unpopular Democratic President, a sputtering economy, and a generally tough political environment for Democrats, the Senator's hopes and dreams faded on election night.</p><p>Eight years after his original presidential campaign in 2000, Senator McCain often came off as a polished statesman with a respectable record.</p><p>But the surprise outcome isn't one without some reasoning. The Senator's selection of Democrat Joe Lieberman had stirred much criticism from his right flank, culminating in the surge of the Reform Party nominee Pat Buchanan.</p><p>In a solemn concession speech, Senator McCain reflected on his own mistakes and offered nothing but goodwill to the President.</p><p>"This was a difficult campaign but I'm proud of our enthusiastic support," he told his supporters at a somber post-election rally in Phoenix. "Now it's time for our nation to heal and I hope all the best for our nation and President Clark."</p><p>Republican strategist John Feehery said McCain's choice for Vice President had been the most obvious source to blame for the defeat.</p><p>"Senator McCain was often cautioned that a move of picking a running mate from the opposite party would come to this."</p><p>The financial crisis that erupted in September, followed by President Clark's remarks on Face The Nation, had seemingly given McCain an untouchable lead. Gallup polls in late September showed the Senator 15 points ahead of Clark.</p><p><b>OVERCONFIDENCE, BAD OPTICS</b></p><p>It's unavoidable that at least some reason McCain lost comes down simply to Joe Lieberman's selection. A pro-choice Democrat with a strong gay rights record was too much for the Republican base to consider.</p><p>He championed national security concerns and a return to a respectable foreign policy but often neglected the bread and butter issues like abortion. Lieberman only helped double down on these issues, limiting the campaign's range.</p><p>The financial crisis also put conservatism as an ideology under much speculation. While President Clark responded calmly and firmly, Senator McCain's proposals didn't go far enough. The offer of tax cuts and reigning in government spending during a crisis and calamity had fallen flat.</p><p>Aides of the Clark Administration seem equally bewildered by the outcome.</p><p>"It is highly doubtful that anyone will ever have an easier and more advantaged political climate than Senator McCain was given." - Nancy Parrish, White House Chief of Staff.</p><p>Top McCain campaign officials say that the outcome also blindsided McCain.</p><p>What about Lieberman? To most, McCain's pick for Vice President did nothing to sew ties with the right flank and potentially tanked the veteran Senator's campaign.</p><p>High-profile Republicans such as former Senator Rick Santorum rejected McCain partially because of Lieberman.</p><p>"McCain spent the entire summer drawing a contrast between his conservativism and Clark's liberalism and Lieberman through all that through the window," said Republican strategist Scott Reed. "(But) you can't blame Lieberman for the loss. He reigned in the moderate Democrats..."”</p><p>McCain senior adviser Nicolle Wallace said the Arizona senator got a rough deal electorally from Buchanan, who "sabotaged" the Republican ticket. As a result, President Clark was able to revive a long-dead electoral coalition in the South held together by ancestral Democrats, sometimes winning states while barely holding 40% of the vote share.</p><p>"No objective analysis suggests that the Clark campaign wasn't directly helped by Buchanan. It's fair to assume Democrats did their fair share of spreading the word of Buchanan's candidacy." She said.</p><p>Editing by Alan Elsner</p><p>Our Standards: <br>The Thomson Reuters Trust Principles.</br></p>`)
+e.executable.push([1, (() => {e.image = e.image = 'https://i.imgur.com/1elrxuk.png'})])
 }
 if ( quickstats[0] <= 269 && Dem == 4) { // Rudy w
 e.pages.push(`<h3>Conversation between <i>President Rudy Giuliani and Secretary of State Condoleeza Rice</i></h3>
@@ -36839,8 +37614,13 @@ e.executable.push([1, (() => {e.image = e.image = 'https://i.imgur.com/mXEAC1Y.p
 }
 if ( quickstats[0] >= 269 && Dem == 4) { // Rudy L
 e.pages.push(`<h3>Reuters: <i>Why Rudy Giuliani lost the White House</i></h3>
-<p><b>New York City (Reuters) - </b> Republican Rudy Giuliani lost Tuesday's presidential election in a humiliating defeat at the hands of President Wesley Clark. The celebrity Mayor, whose fame in politics could only be rivaled by Governor Arnold Schwarzenegger of California, was expected to take the polls by storm but came up short.</p><p>As the blame game began, analysts said his many weaknesses were exposed little by little. The firefighter revolting, his affairs, his ties to Bernard Kerik—it all came crashing down on him. President Clark dutifully exploited this and made the election more about Rudy's blemishes than the disaster he brewed in Iraq, not to mention the collapsing economy.</p><p>Giuliani's attempts to portray President Clark as a tax-raising socialist who let terrorists take over Iraq grew stale with moderates, and whatever gains he made with them, he lost double the evangelicals in the South.</p><p>Despite a deeply unpopular Democratic President with a sputtering economy and a generally tough political environment for Democrats, the Mayor lost by the fundamentals in running a campaign.</p><p>After 7 years of preparing his political ascendancy to the presidency, Giuliani entered with a monumental lead and was ready to take on the issues of the working class.</p><p>But the Mayor failed to respond to the crisis with effective language, at times sounding callous and heartless and sometimes aloof to the troubles facing everyday Americans. Party strategists point to Giuliani's incoherent economic messaging, which ranged from conservative to the same "Nanny" approach he often criticized.</p><p>In a difficult-to-hear concession speech late Tuesday, the former Mayor reflected on the campaign and seemingly struggled to accept blame for his failure.</p><p>"When I think back to everything I accomplished this campaign, I'm proud of the work I've done for you," he told his supporters at a somber post-election rally in New York. We fought hard for those who felt abandoned by Democrats and for the people we lost on 9/11."</p><p>Republican strategist John Feehery said Giuliani's deep ties to the Bush administration might have ended up becoming a net negative with sore wounds prevailing from Iraq.</p><p>"He was always seen next to Bush advisors like Condoleezza Rice and Donald Rumsfeld. People who were well known to the general public as war propeteers."</p><p>The financial crisis that erupted in September had seemingly solidified Giuliani's victory to most, but in early October, evidence of him paying off a mistress with city funds resurfaced, blowing through much of the Mayor's lead.</p><p><b>EASY CLIMATE, MASSIVE GAFFES</b></p><p>Giuliani deeply wounded himself after refusing to answer a question about whether or not he'd pardon his former associate Bernard Kerik if elected president. Among other gaffes, he often became his own worst enemy.</p><p>He championed himself as someone above it all while being in touch with people's needs. This backfired on many of his proposals, and Giuliani often came off as elitist and running on vanity.</p><p>The financial crisis also put Giuliani's "conservativism" under speculation. While President Clark came off as calm and strong in his response, the Mayor appeared aloof to what Americans needed. This was especially so when he got into a public feud with Senator Hillary Clinton over her broad economic plan, including freezing foreclosures nationwide.</p><p>Aides say Giuliani's response to the economic crisis muddied the debate and gave President Clark an opening.</p><p>"It is highly doubtful that anyone will ever have an easier and more advantaged political climate than Mayor Giuliani was given." - Nancy Parrish, White House Chief of Staff.</p><p>Top Giuliani aids say the Mayor is deeply bitter about his former campaign allies, like Senator Sam Brownback, calling on him to drop out of the race in favor of his running mate, Representative Mike Pence of Indiana.</p><p>What about Pence? To most, Giuliani's pick for Vice President helped stem the bleeding of votes to any fringe third-party candidates and contrasted well with Giuliani's more high-class profile with a lowly representative of Indiana.</p><p>Giuliani Senior Advisor Condoleezza Rice commented on the media portraying the Mayor unfairly in October.</p><p>"There's no doubt that the media portrayed the Clark and Giuliani campaigns extremely differently," Rice told reporters at the Giuliani campaign headquarters in New York. "Mayor Giuliani is not at fault for legacy media playing up irrelevant culture war issues over the war in Iraq.”</p>`)
+<p><b>New York City (Reuters) - </b> Republican Rudy Giuliani lost Tuesday's presidential election in a humiliating defeat at the hands of President Wesley Clark. The celebrity Mayor, whose fame in politics could only be rivaled by Governor Arnold Schwarzenegger of California, was expected to take the polls by storm but came up short.</p><p>As the blame game began, analysts said his many weaknesses were exposed little by little. The firefighter revolting, his affairs, his ties to Bernard Kerik—it all came crashing down on him. President Clark dutifully exploited this and made the election more about Rudy's blemishes than the disaster he brewed in Iraq, not to mention the collapsing economy.</p><p>Giuliani's attempts to portray President Clark as a tax-raising socialist who let terrorists take over Iraq grew stale with moderates, and whatever gains he made with them, he lost double the evangelicals in the South.</p><p>Despite a deeply unpopular Democratic President with a sputtering economy and a generally tough political environment for Democrats, the Mayor lost by the fundamentals in running a campaign.</p><p>After 7 years of preparing his political ascendancy to the presidency, Giuliani entered with a monumental lead and was ready to take on the issues of the working class.</p><p>But the Mayor failed to respond to the crisis with effective language, at times sounding callous and heartless and sometimes aloof to the troubles facing everyday Americans. Party strategists point to Giuliani's incoherent economic messaging, which ranged from conservative to the same "Nanny" approach he often criticized.</p><p>In a difficult-to-hear concession speech late Tuesday, the former Mayor reflected on the campaign and seemingly struggled to accept blame for his failure.</p><p>"When I think back to everything I accomplished this campaign, I'm proud of the work I've done for you," he told his supporters at a somber post-election rally in New York. We fought hard for those who felt abandoned by Democrats and for the people we lost on 9/11."</p><p>Republican strategist John Feehery said Giuliani's deep ties to the Bush administration might have ended up becoming a net negative with sore wounds prevailing from Iraq.</p><p>"He was always seen next to Bush advisors like Condoleezza Rice and Donald Rumsfeld. People who were well known to the general public as war propeteers."</p><p>The financial crisis that erupted in September had seemingly solidified Giuliani's victory to most, but in early October, evidence of him paying off a mistress with city funds resurfaced, blowing through much of the Mayor's lead.</p><p><b>EASY CLIMATE, MASSIVE GAFFES</b></p><p>Giuliani deeply wounded himself after refusing to answer a question about whether or not he'd pardon his former associate Bernard Kerik if elected president. Among other gaffes, he often became his own worst enemy.</p><p>He championed himself as someone above it all while being in touch with people's needs. This backfired on many of his proposals, and Giuliani often came off as elitist and running on vanity.</p><p>The financial crisis also put Giuliani's "conservativism" under speculation. While President Clark came off as calm and strong in his response, the Mayor appeared aloof to what Americans needed. This was especially so when he got into a public feud with Senator Hillary Clinton over her broad economic plan, including freezing foreclosures nationwide.</p><p>Aides say Giuliani's response to the economic crisis muddied the debate and gave President Clark an opening.</p><p>"It is highly doubtful that anyone will ever have an easier and more advantaged political climate than Mayor Giuliani was given." - Nancy Parrish, White House Chief of Staff.</p><p>Top Giuliani aids say the Mayor is deeply bitter about his former campaign allies, like Senator Sam Brownback, calling on him to drop out of the race in favor of his running mate, Representative Mike Pence of Indiana.</p><p>What about Pence? To most, Giuliani's pick for Vice President helped stem the bleeding of votes to any fringe third-party candidates and contrasted well with Giuliani's more high-class profile with a lowly representative of Indiana.</p><p>Giuliani Senior Advisor Condoleezza Rice commented on the media portraying the Mayor unfairly in October.</p><p>"There's no doubt that the media portrayed the Clark and Giuliani campaigns extremely differently," Rice told reporters at the Giuliani campaign headquarters in New York. "Mayor Giuliani is not at fault for legacy media playing up irrelevant culture war issues over the war in Iraq.”</p><p>Editing by Alan Elsner</p><p>Our Standards: <br>The Thomson Reuters Trust Principles.</br></p>`)
 e.executable.push([1, (() => {e.image = e.image = 'https://i.imgur.com/gofzcAk.png'})])
+}
+if ( quickstats[0] >= 269 && Dem == 5) { // paul L
+e.pages.push(`<h3>Reuters: <i>Why Ron Paul lost the White House</i></h3>
+<p><b>Dallas (Reuters) - </b> Republican Ron Paul lost Tuesday's presidential election at the hands of President Wesley Clark. The Libertarian-minded Congressman, whose unorthodox positions on most issues were expected to shake up the race heavily, sadly, it didn't shake how he hoped it would.</p><p>As the blame game began, analysts said his repudiation of the establishment and Senator Rick Santorum's third-party bid were among his greatest challenges to overcome. The old newsletters, past racist and antisemitic remarks, his unpopular platform—it all came crashing down on him. President Clark dutifully exploited this to avoid the challenge of his revolting left flank and set the theme of the election on Paul's unpopularity.</p><p>Paul's unstable coalition, bound by opposing President Clark's neoliberalism, ran out of steam short of its destination, and whatever gains he made with left-wing activists cost him conservative votes in the South.</p><p>Despite a deeply unpopular Democratic President, a sputtering economy, and a generally tough political environment for Democrats, the Congressman failed to grasp the fundamentals of most issues.</p><p>Eighteen years after his initial run for President with the libertarian label, he was expected to champion the anti-war coalition's banner, but a third-party sabotage candidacy drained him with key Republican demographics.</p><p>But Paul's greatest failure was of his own making. His record was electoral poison, especially when his stance on Social Security was brought to the forefront, scaring the Republican base of the 65-and-older crowd. Furthermore, he alienated the traditional Republican farm states with his outspoken criticism of farm subsidies.</p><p>In a tough-pill-to-swallow concession speech, the Representative noted the massive achievement this election was for the libertarian movement.</p><p>"We may have lost, but the ideas brought forth prove that the libertarian experiment can be accomplished," he told his supporters at a somber post-election rally in Dallas. We fought hard against the establishment, and while the warmongering free-spending free-thinkers may have won this battle, the war for greater libertarian thought marches on!"</p><p>Republican strategist John Feehery said Paul's inability to compromise with the Republican establishment did him in.</p><p>"There were very few appealing aspects of Ron Paul's candidacy to the average Republican voter. He was too relaxed on social issues and let's not even get started on his foreign policy."</p><p>The financial crisis that erupted in September had seemingly boosted confidence in his candidacy, but when it came to solutions to the crisis, the appeal slowly faded away.</p><p><b>EASY CLIMATE, SCATHING SCRUTINY</b></p><p>Paul suffered heavy losses after his association with the Ron Paul Newsletter was brought to the forefront of the campaign, which highlighted past racist and antisemitic remarks.</p><p>He championed himself as the choice of both the anti-war left and right but found that these two groups were incompatible on several issues like abortion and economics.</p><p>The financial crisis initially vindicated Paul's platform as he championed ideas like ending the Federal Reserve. While President Clark focused on bailing financial institutions, Paul advocated smashing the established financial norms. The movement he sparked drew crowds, but its limited reach grew apparent when most desperately pleaded for a firm government response.</p><p>Aides say Paul's response to the crisis, while helping keep a dedicated following, did little to combat the stigma of Paul as a radical.</p><p>"It is highly doubtful that any Republican will collapse in the fasion that the Paul campaign has." - Nancy Parrish, White House Chief of Staff.</p><p>Top Paul aides say the Congressman is bitter and frustrated over the surprisingly popular conservative party candidacy of Rick Santorum.</p><p>What about Johnson? To most, Paul's selection of former New Mexico Governor Gary Johnson only doubled down on his outsider appeal and further drove a divide between Paul and the Republican establishment.</p><p>Paul's Press Secretary Jesse Benton commented that the Republican establishment lost them this campaign.</p><p>"There's no doubt that the Republican establishments refusal to get behind our campaign lost us this election," Benton told reporters at the Giuliani campaign headquarters in New York. "Congressman Paul ran a fantastic campaign that will be hailed for generations as a trendsetter, we had the best funding of any Republican campaign and lost because other Republicans sabotaged our efforts."</p><p>Editing by Alan Elsner</p><p>Our Standards: <br>The Thomson Reuters Trust Principles.</br></p>`)
+e.executable.push([1, (() => {e.image = e.image = 'https://i.imgur.com/US4sBpg.png'})])
 }
 if ( quickstats[0] <= 269 && Dem == 7) { // FMA
 e.pages.push(`<h3><i>President celebrates passage of the Federal Marriage Amendment</i></h3>
@@ -36877,6 +37657,11 @@ if ( quickstats[0] <= 269 && Dem == 4) { // rice quizz
 e.pages.push(`<h3>From Reddit: <i>President Condoleezza Rice and Vice President Giuliani at Madison Square Garden Rally, STILL NO SIGHTING OF MIKE PENCE!!!!</i></h3>
 <p><b>u/libertarians</b></p><p><b>u/mayoforsam</b></p> <p>I know it's a tired joke, but seriously, where the hell is Mike Pence? I'm starting to miss the days when I could turn on my TV to watch President Giuliani's press conferences, where Pence would fan him with a giant feather while Condi fed him fruits until he'd occasionally answer a question about the invasion of Libya.</p><p> It was good entertainment hearing the president bring up 9/11 while justifying why we needed to bulldoze another random country. So what happened? Where's the shop bitch of the White House?</p><p>Secretary Rice is the one we get to see the most since she's the one busy covering for Giuliani's ass. All those failures in Libya? Benghazi? Please, Giuliani is a celebrity posing as the "acting president" now. Anyone with a brain and two working eyes can see that given State Department goon, John Kerry is the Democrat's pick for president, it's obvious that Rudy's incompetent foreign agenda has brought back old feuds.</p><p>This is a battle of foreign policy intellect, and Condoleezza Rice is in the hot seat, facing off against low approval ratings and Kerry being a popular face of the State Department. The media haven't picked up the sidelining of Pence, but it's pretty clear that his role in the administration is slowly being diminished in favor of laying the groundwork for President Rice's third term in 2016.</p><p>I wouldn't be confident in her shoes since most issues give Kerry the upper hand because Giuliani's inept economic policies have done nothing for American families.</p><p>Still, I'll be kicking up my feet no matter which deep-state puppet wins. Don't blame me; I'm voting for Randall Terry.</p>`)
 e.executable.push([4, (() => {e.image = e.image = 'https://i.imgur.com/HrpgXNA.png'})])
+}
+else if ( quickstats[0] <= 269 && Dem == 1 && Dadt == 0) { // Lieberman drops out of clown college
+e.pages.push(`<h3>Esquire: <i>Vice President Lieberman announces he will not run for reelection in 2012.</i></h3>
+<p><b>Announcement:</b> At a press conference this morning, Vice President Lieberman announced his wish to retire from politics and said he would not seek the Republican Vice Presidential nomination again.</u><br><br> "I'm making this decision for my family, and it has absolutely nothing to do with President McCain's reelection bid."</b><br><u> This announcement comes amid President McCain's brutal battle with former Senator Rick Santorum in the Republican primaries. Lieberman has stood as a political liability for the President, holding an approval rating below 29%. Vice President Lieberman made himself an enemy of the Democratic Party after he pushed for the "Internet Kill Switch." Republicans hold very little love for the Vice president, especially after Lieberman pushed for repealing Don't Ask, Don't Tell, which was among the reasons former Senator Santorum launched his primary challenge to President McCain.<br><br>This development has sent a ripple through the Republican Party, and many say it might save President McCain's chances in the Republican Primaries. Whether the President can win the general election remains to be seen.<br><br><b>Esquire Coverage</b><br><span style="color:white;"><u>Santorum's upset win in Iowa, how did we get here?</span></u> (Jan 4th 2012)<br><span style="color:white;"><u>McCain holds the line in New Hampshire</span></u> (Jan 11th 2012)<br><span style="color:white;"><u>McCain barely holds off Santorum in South Carolina, reelection prospects look grim</span></u> (Jan 22nd 2012)<br><span style="color:white;"><u>McCain hits Florida begging for votes</span></u> (Jan 26th 2012)</p>`)
+e.executable.push([4, (() => {e.image = e.image = 'https://i.imgur.com/uF3VTNT.png'})])
 }
 return construct(0);
 }
