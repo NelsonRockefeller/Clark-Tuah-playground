@@ -1438,6 +1438,15 @@ campaignTrail_temp.questions_json = [
             "description": "What was once considered a smear on Jeb's gubernatorial record has become a proud badge; the Republican hopeful is sporting his actions in the Terri Schiavo Case. Some say the Governor's hubris has allowed him to embrace such a fatal elixir. It might be his running mate bolstering his confidence and luring the evangelical crowds. \"Jeb fought for her life; he'll fight for yours too.\" It's a shrewd move. How will you retake the narrative?\n",
             "likelihood": 1
         }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 24149,
+        "fields": {
+            "priority": -3,
+            "description": "In a violent display of the Russian Giant's hubris, they've trampled over Georgia's borders under the guise of \"Georgia committing genocide against South Ossetia.\", looking to relive the glory days of Titanomachy. You may have suspected he'd commit forces to this, but you never expected him to act this fast. Putin's knee-jerk response to the idea that NATO would accept Georgia as a member is turning into a media circus. He's called your bluff, looking across the table and laying his cards. What's in your hand, Clark?",
+            "likelihood": 1
+        }
     }
 ]
 
@@ -5960,6 +5969,38 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 24132,
             "description": "In this case, Governor Bush's actions were reprehensible and out of line with Republican ideals of small governance. He and the Republican Party oversaw this case and illegally jammed their morals into it.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 24150,
+        "fields": {
+            "question": 24149,
+            "description": "Putin is trying to push this act as a defensive procedure to make peace, but he doesn't want peace. He wants to install an agent who will do his bidding. We will provide Georgia with the necessary weapons, ammunition, and equipment to defend herself.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 24154,
+        "fields": {
+            "question": 24149,
+            "description": "Our policy toward Putin has been confused and distracted from the clear liabilities. We can't blatantly provoke war, but we won't let him get away with it. Sanctions are our top priority; we need to strangle the weak economy Putin has built.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 24158,
+        "fields": {
+            "question": 24149,
+            "description": "I need my cabinet to look over our options because right now, this “little war” has shaken the world, and we need to have all our options on the table, including direct military intervention.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 24162,
+        "fields": {
+            "question": 24149,
+            "description": "We need a willing coalition to save Georgia. This is more than a regional problem. Let's discuss a possible united coalition with the British and French to help Georgia take on the Russian Menace.\n"
         }
     }
 ]
@@ -17971,6 +18012,46 @@ campaignTrail_temp.answer_score_global_json = [
             "affected_candidate": 200,
             "global_multiplier": 0.025
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 24152,
+        "fields": {
+            "answer": 24150,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 24156,
+        "fields": {
+            "answer": 24154,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 24160,
+        "fields": {
+            "answer": 24158,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 24164,
+        "fields": {
+            "answer": 24162,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.019
+        }
     }
 ]
 
@@ -21173,6 +21254,46 @@ campaignTrail_temp.answer_score_issue_json = [
             "issue": 103,
             "issue_score": 0.7,
             "issue_importance": 3
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 24153,
+        "fields": {
+            "answer": 24150,
+            "issue": 102,
+            "issue_score": -0.8,
+            "issue_importance": 7
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 24157,
+        "fields": {
+            "answer": 24154,
+            "issue": 102,
+            "issue_score": -0.6,
+            "issue_importance": 6
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 24161,
+        "fields": {
+            "answer": 24158,
+            "issue": 102,
+            "issue_score": -0.9,
+            "issue_importance": 11
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 24165,
+        "fields": {
+            "answer": 24162,
+            "issue": 102,
+            "issue_score": -0.9,
+            "issue_importance": 12
         }
     }
 ]
@@ -35744,6 +35865,42 @@ campaignTrail_temp.answer_feedback_json = [
             "candidate": 201,
             "answer_feedback": "Thankfully, the facts favor your position. Polls still show that a majority of Americans believe that Michael Schiavo, Terri's husband, should have the final authority to make decisions on behalf of his wife and that Bush acted wrongfully by stepping in.\n"
         }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 24151,
+        "fields": {
+            "answer": 24150,
+            "candidate": 201,
+            "answer_feedback": "You've fueled Russian fury like coals in a fire. Putin isn't backing down, and this conflict can only escalate from here. As Russian soldiers blatantly gun down citizens fleeing from the front, it's become clear you can't make peace with Putin."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 24155,
+        "fields": {
+            "answer": 24154,
+            "candidate": 201,
+            "answer_feedback": "The scathing sanctions on buying Russian oil are unrealistic and unaffordable, with the current oil crisis strangling Americans. Almost everyone around you has informed you that it's impossible to do this."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 24159,
+        "fields": {
+            "answer": 24158,
+            "candidate": 201,
+            "answer_feedback": "Surrounded by like-minded bleeding heart hawks, your cabinet goes over several measures, sometimes of which you are supportive of, like authorizing the bombardment and sealing of the Roki Tunnel along with other surgical strikes. Luckily, common sense in the room prevails and shoots these ideas down without your help."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 24163,
+        "fields": {
+            "answer": 24162,
+            "candidate": 201,
+            "answer_feedback": "You enter talks with NATO allies. They look at one another, utterly terrified of you and your mission, but not one of them dares to cross you now. After much strong-arming and persuasion, they agree, and a coalition force is prepared to save Georgia."
+        }
     }
 ]
 
@@ -36447,7 +36604,7 @@ cyoAdventure = function(a) {
         Russia += 2;
     }
     if(ans == 21552 ){
-        Russia += 1;
+        Russia += 2;
     }
 
     if(ans == 21561 ){
@@ -36459,15 +36616,35 @@ cyoAdventure = function(a) {
     }
 
     if(ans == 5237 ){
-        Russia += 1;
+        Russia += 2;
     }
 
     if(ans == 5235 ){
+        Russia += 2;
+    }
+
+    if(ans == 5236 ){
         Russia += 1;
     }
 
     if(ans == 21471 ){
         Russia += 2;
+    }
+
+    if(ans == 24150 ){
+        Russia += 2;
+    }
+
+    if(ans == 24154 ){
+        Russia += 1;
+    }
+
+    if(ans == 24158 ){
+        Russia += 2;
+    }
+
+    if(ans == 24162 ){
+        Russia += 10;
     }
 
     if(ans == 21536 ){
@@ -36534,7 +36711,7 @@ cyoAdventure = function(a) {
     }
 
     ///pass your pet project that no one cares about
-    if(ans == 23701 ){
+    if(ans == 22460 ){
         Cyber += 1;
     }
 
@@ -36864,6 +37041,12 @@ if (e.noCounter == 20) {
         Econ += 4;
     }
 
+    ///Economic response
+if (e.noCounter == 21) {
+    if (Nato > 5) {
+        campaignTrail_temp.questions_json[21] = tunnel(24149); 
+    }
+}
 
 
 if (e.noCounter == 22) {
@@ -37118,48 +37301,43 @@ if (e.noCounter == 23) {
 }
 }
 
-if (e.noCounter == 23) {
-    if (Buch == 2 && Dem == 1) {
-        campaignTrail_temp.questions_json[23] = tunnel(21363); 
-    }
-    else if (Cyber == 1 && Dem == 1) {
-        campaignTrail_temp.questions_json[23] = tunnel(23931); 
-    }
-    else if (Dem == 1 && Cyber == 1 && Hillary == 0 && Agenda > 4) {
-        campaignTrail_temp.questions_json[23] = tunnel(23945); 
-    }
-    else if (Dem == 1) {
-        campaignTrail_temp.questions_json[23] = tunnel(21349); 
-    }
-    if (Dem == 2) {
-        campaignTrail_temp.questions_json[23] = tunnel(21480); 
-    }
-    if (Crazy == 1 && Dem == 3) {
-        campaignTrail_temp.questions_json[23] = tunnel(22635); 
-    }
-    else if (Dem == 3) {
-        campaignTrail_temp.questions_json[23] = tunnel(21523); 
-    }
-    if (Dem == 4) {
-        campaignTrail_temp.questions_json[23] = tunnel(21664); 
-    }
-    if (Dem == 5 && Sant > 1) {
-        campaignTrail_temp.questions_json[23] = tunnel(22701); 
-    }
-    else if (Dem == 5) {
-        campaignTrail_temp.questions_json[23] = tunnel(21759); 
-    }
-    if (Dem == 6) {
-        campaignTrail_temp.questions_json[23] = tunnel(21845); 
-    }
-    if (Dem == 7) {
-        campaignTrail_temp.questions_json[23] = tunnel(22017); 
-    }
-    if (ans == 22896 && Dem == 8) {
-        campaignTrail_temp.questions_json[23] = tunnel(22141); 
-    }
-    else if (Dem == 8) {
-        campaignTrail_temp.questions_json[23] = tunnel(22197); 
+if (e.noCounter === 23) {
+    if (Dem === 1) {
+        if (Buch === 2) {
+            campaignTrail_temp.questions_json[23] = tunnel(21363);
+        } else if (Cyber === 1 && Hillary === 0 && Agenda > 4) {
+            campaignTrail_temp.questions_json[23] = tunnel(23945);
+        } else if (Cyber === 1) {
+            campaignTrail_temp.questions_json[23] = tunnel(23931);
+        } else {
+            campaignTrail_temp.questions_json[23] = tunnel(21349);
+        }
+    } else if (Dem === 2) {
+        campaignTrail_temp.questions_json[23] = tunnel(21480);
+    } else if (Dem === 3) {
+        if (Crazy === 1) {
+            campaignTrail_temp.questions_json[23] = tunnel(22635);
+        } else {
+            campaignTrail_temp.questions_json[23] = tunnel(21523);
+        }
+    } else if (Dem === 4) {
+        campaignTrail_temp.questions_json[23] = tunnel(21664);
+    } else if (Dem === 5) {
+        if (Sant > 1) {
+            campaignTrail_temp.questions_json[23] = tunnel(22701);
+        } else {
+            campaignTrail_temp.questions_json[23] = tunnel(21759);
+        }
+    } else if (Dem === 6) {
+        campaignTrail_temp.questions_json[23] = tunnel(21845);
+    } else if (Dem === 7) {
+        campaignTrail_temp.questions_json[23] = tunnel(22017);
+    } else if (Dem === 8) {
+        if (ans === 22896) {
+            campaignTrail_temp.questions_json[23] = tunnel(22141);
+        } else {
+            campaignTrail_temp.questions_json[23] = tunnel(22197);
+        }
     }
 }
 
