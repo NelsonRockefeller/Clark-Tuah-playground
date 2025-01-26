@@ -1447,6 +1447,42 @@ campaignTrail_temp.questions_json = [
             "description": "In a violent display of the Russian Giant's hubris, they've trampled over Georgia's borders under the guise of \"Georgia committing genocide against South Ossetia.\", looking to relive the glory days of Titanomachy. You may have suspected he'd commit forces to this, but you never expected him to act this fast. Putin's knee-jerk response to the idea that NATO would accept Georgia as a member is turning into a media circus. He's called your bluff, looking across the table and laying his cards. What's in your hand, Clark?",
             "likelihood": 1
         }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 24166,
+        "fields": {
+            "priority": 0,
+            "description": "You prepare for another mundane briefing as Panetta enters the Oval Office for another of your periodic meetings. But your interest is piqued as he mentions the search for Osama bin Laden along a trail believed to have gone cold. His intelligence, he says, points to a compound in Abbottabad, Pakistan, sheltering the terrorist leader. He explains a variety of options that you could take, but one of them in particular stands out. What will you do?\"\n",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 24178,
+        "fields": {
+            "priority": 0,
+            "description": "This is it. The crescendo of all the hysteria brought about on September 11th. Osama Bin Laden, the man who brought the World Trade Center tumbling down, is within your reach. CIA Director Leon Panetta awaits your decision to fly two Blackhawk helicopters 150 miles into the night and finally put a close on this national nightmare once and for all. Will you allow the operation to commence?\n",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 24187,
+        "fields": {
+            "priority": 0,
+            "description": "This is it. The crescendo of all the hysteria brought about on September 11th. Osama Bin Laden, the man who brought the World Trade Center tumbling down, is within your reach. CIA Director Leon Panetta awaits your decision to fly two Blackhawk helicopters 150 miles into the night and finally put a close on this national nightmare once and for all. Will you allow the operation to commence?\n",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 24196,
+        "fields": {
+            "priority": 0,
+            "description": "This is it. The crescendo of all the hysteria brought about on September 11th. Osama Bin Laden, the man who brought the World Trade Center tumbling down, is within your reach. CIA Director Leon Panetta awaits your decision to fly two Blackhawk helicopters 150 miles into the night and finally put a close on this national nightmare once and for all. Will you allow the operation to commence?\n",
+            "likelihood": 1
+        }
     }
 ]
 
@@ -6001,6 +6037,78 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 24149,
             "description": "We need a willing coalition to save Georgia. This is more than a regional problem. Let's discuss a possible united coalition with the British and French to help Georgia take on the Russian Menace.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 24167,
+        "fields": {
+            "question": 24166,
+            "description": "Smoke and mirrors nonsense was the biggest failing of the Bush administration, and I won't repeat their mistakes. It's time for the Pakistani government to yield so we can catch and eliminate Osama Bin Laden.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 24170,
+        "fields": {
+            "question": 24166,
+            "description": "There's no use in bartering with the Pakistani government when they're in deep ties with the Taliban. Don't let them get a word of this; continue our drone operations as is. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 24174,
+        "fields": {
+            "question": 24166,
+            "description": "I can't risk sending a SEAL team into hostile territory. If the Pakistanis were to surround them, our administration would be history. I think the route of sending a B-2 bomber to destroy the compound is our best bet."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 24179,
+        "fields": {
+            "question": 24178,
+            "description": "If this operation fails, the public will hang us on the gallows. Tell McRaven to pull it back and wait. We can't risk this with the election right around the corner. \n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 24183,
+        "fields": {
+            "question": 24178,
+            "description": "It's time to return the terrorist threat to its maker. They have full authority invested in me to find and kill Osama Bin Laden."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 24188,
+        "fields": {
+            "question": 24187,
+            "description": "If this operation fails, the public will hang us on the gallows. Tell McRaven to pull it back and wait. We can't risk this with the election right around the corner. \n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 24192,
+        "fields": {
+            "question": 24187,
+            "description": "It's time to return the terrorist threat to its maker. They have full authority invested in me to find and kill Osama Bin Laden."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 24197,
+        "fields": {
+            "question": 24196,
+            "description": "If this operation fails, the public will hang us on the gallows. Tell McRaven to pull it back and wait. We can't risk this with the election right around the corner. \n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 24201,
+        "fields": {
+            "question": 24196,
+            "description": "It's time to return the terrorist threat to its maker. They have full authority invested in me to find and kill Osama Bin Laden."
         }
     }
 ]
@@ -18052,6 +18160,96 @@ campaignTrail_temp.answer_score_global_json = [
             "affected_candidate": 201,
             "global_multiplier": 0.019
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 24169,
+        "fields": {
+            "answer": 24167,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 24172,
+        "fields": {
+            "answer": 24170,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 24176,
+        "fields": {
+            "answer": 24174,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 24181,
+        "fields": {
+            "answer": 24179,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 24185,
+        "fields": {
+            "answer": 24183,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 24190,
+        "fields": {
+            "answer": 24188,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 24194,
+        "fields": {
+            "answer": 24192,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.08
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 24199,
+        "fields": {
+            "answer": 24197,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 24203,
+        "fields": {
+            "answer": 24201,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.08
+        }
     }
 ]
 
@@ -21294,6 +21492,66 @@ campaignTrail_temp.answer_score_issue_json = [
             "issue": 102,
             "issue_score": -0.9,
             "issue_importance": 12
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 24177,
+        "fields": {
+            "answer": 24174,
+            "issue": 102,
+            "issue_score": -0.7,
+            "issue_importance": 7
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 24182,
+        "fields": {
+            "answer": 24179,
+            "issue": 102,
+            "issue_score": 0.8,
+            "issue_importance": 7
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 24191,
+        "fields": {
+            "answer": 24188,
+            "issue": 102,
+            "issue_score": 0.8,
+            "issue_importance": 7
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 24195,
+        "fields": {
+            "answer": 24192,
+            "issue": 102,
+            "issue_score": 0.9,
+            "issue_importance": 7
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 24200,
+        "fields": {
+            "answer": 24197,
+            "issue": 102,
+            "issue_score": 0.8,
+            "issue_importance": 7
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 24204,
+        "fields": {
+            "answer": 24201,
+            "issue": 102,
+            "issue_score": 0.9,
+            "issue_importance": 7
         }
     }
 ]
@@ -35901,6 +36159,87 @@ campaignTrail_temp.answer_feedback_json = [
             "candidate": 201,
             "answer_feedback": "You enter talks with NATO allies. They look at one another, utterly terrified of you and your mission, but not one of them dares to cross you now. After much strong-arming and persuasion, they agree, and a coalition force is prepared to save Georgia."
         }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 24168,
+        "fields": {
+            "answer": 24167,
+            "candidate": 201,
+            "answer_feedback": "Panetta warns of the dead end that awaits you in negotiations with the reluctant Pakistani government, and it seems he was right. News of the talks leaks, and you're informed that any chance Osama Bin Laden could be caught off guard is foiled.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 24171,
+        "fields": {
+            "answer": 24170,
+            "candidate": 201,
+            "answer_feedback": "Panetta agrees, and Adm. McRaven begins to prepare for a covert operation into Pakistan while drone footage reveals that a man who looks like Osama Bin Laden is going on a morning run around the compound every day."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 24175,
+        "fields": {
+            "answer": 24174,
+            "candidate": 201,
+            "answer_feedback": "-Panetta nods along and orders the strike, eviscerating the compound and all its residences; unfortunately, with no evidence that Osama Bin Laden was in the compound and word of collateral damage in civilian lives, the media scores the decision."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 24180,
+        "fields": {
+            "answer": 24179,
+            "candidate": 201,
+            "answer_feedback": "A metaphorical pause is put on the operation, frustrating your top brass officials, but you've avoided a public outrage over a potential failure. You can't help but wonder how it would have felt to bask in the glory of killing the bastard."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 24184,
+        "fields": {
+            "answer": 24183,
+            "candidate": 201,
+            "answer_feedback": "You sit in the situation room, garnering intelligence by the minute; the first Blackhawk has an issue requiring both teams to land and head into the compound on foot. For 25 minutes, it goes quiet until you hear the words \"For God and country Geronimo, Geronimo, Geronimo.\" Osama Bin Laden is dead."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 24189,
+        "fields": {
+            "answer": 24188,
+            "candidate": 201,
+            "answer_feedback": "A metaphorical pause is put on the operation, frustrating your top brass officials, but you've avoided a public outrage over a potential failure. You can't help but wonder how it would have felt to bask in the glory of killing the bastard."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 24193,
+        "fields": {
+            "answer": 24192,
+            "candidate": 201,
+            "answer_feedback": "You sit in the situation room, garnering intelligence by the minute; the first Blackhawk has an issue requiring both teams to land and head into the compound on foot. For 25 minutes, it goes quiet until you hear of the disaster; Pakistani police arrive at the scene, causing confusion and allowing Osama Bin Laden to slip away.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 24198,
+        "fields": {
+            "answer": 24197,
+            "candidate": 201,
+            "answer_feedback": "A metaphorical pause is put on the operation, frustrating your top brass officials, but you've avoided a public outrage over a potential failure. You can't help but wonder how it would have felt to bask in the glory of killing the bastard."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 24202,
+        "fields": {
+            "answer": 24201,
+            "candidate": 201,
+            "answer_feedback": "You sit in the situation room, garnering intelligence by the minute. The first Blackhawk has an issue requiring both teams to land and head into the compound on foot. For 25 minutes, it goes quiet until you hear, \"Geronimo, no sightings.\" Public pandemonium over possibly your greatest failure begins.\n"
+        }
     }
 ]
 
@@ -35958,6 +36297,7 @@ var Econ = 0;
 var Cyber = 0;
 var Blackwater = 0;
 var Schiavo = 0;
+var Hunt = 0;
 var speakerDetermined = false;
 var foeDetermined = false;
 e.noCounter = 0
@@ -36454,6 +36794,10 @@ cyoAdventure = function(a) {
         Blackwater += 1;
     }
 
+    if(ans == 23695 ){
+        Hunt += 1;
+    }
+
     ///Foreign Policy
         ///Isolationist
         if (ans == 6666) {
@@ -36559,6 +36903,10 @@ cyoAdventure = function(a) {
         Nato += 1;
     }
     if(ans == 24062 ){
+        Nato += 1;
+    }
+
+    if(ans == 23695 ){
         Nato += 1;
     }
 
@@ -36737,12 +37085,17 @@ if (e.noCounter == 11) {
     if (Troops > 0) {
         campaignTrail_temp.questions_json[11] = tunnel(22757); 
     }
-    if (Notroops > 0 && Agenda > 3) {
+    if (Notroops > 0 && Hunt > 0) {
+        campaignTrail_temp.questions_json[11] = tunnel(24166); 
+    }
+    else if (Notroops > 0 && Agenda > 4) {
         campaignTrail_temp.questions_json[11] = tunnel(23771); 
     }
 }
 
-
+    if(ans == 24170 ){
+        Hunt += 1;
+    }
 
     ///Economy explodedd
 if (e.noCounter == 12) {
@@ -37425,25 +37778,36 @@ if (e.noCounter == 25) {
         campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/IxtS6Yj.png';
     }
 }
+
 if (e.noCounter == 26) {
+  // First set of conditions (random selection for question 27)
+  if (e.player_answers.includes(24170) && Notroops > 0 && Nato > 5 && Econ > 2 && Math.random() < 0.4) {
+    const randomValue = Math.random(); // Generate a random number between 0 and 1
+
+    if (randomValue < 0.33) { // ~33% chance
+      campaignTrail_temp.questions_json[26] = tunnel(24178);
+    } else if (randomValue < 0.66) { // ~33% chance
+      campaignTrail_temp.questions_json[26] = tunnel(24187);
+    } else { // ~33% chance
+      campaignTrail_temp.questions_json[26] = tunnel(24196);
+    }
+  }
+  // Second set of conditions (Econ-based selection for question 27)
+  else {
     if (Econ == 0 && Pelosi == 1) {
-        campaignTrail_temp.questions_json[26] = tunnel(23857); 
+      campaignTrail_temp.questions_json[26] = tunnel(23857);
+    } else if (Econ == 0) {
+      campaignTrail_temp.questions_json[26] = tunnel(23847);
+    } else if (Econ == 1) {
+      campaignTrail_temp.questions_json[26] = tunnel(23869);
+    } else if (Econ == 2) {
+      campaignTrail_temp.questions_json[26] = tunnel(23880);
+    } else if (Econ == 3) {
+      campaignTrail_temp.questions_json[26] = tunnel(23891);
+    } else if (Econ == 4) {
+      campaignTrail_temp.questions_json[26] = tunnel(23901);
     }
-    else if (Econ == 0) {
-        campaignTrail_temp.questions_json[26] = tunnel(23847); 
-    }
-    if (Econ == 1) {
-        campaignTrail_temp.questions_json[26] = tunnel(23869); 
-    }
-    if (Econ == 2) {
-        campaignTrail_temp.questions_json[26] = tunnel(23880); 
-    }
-    if (Econ == 3) {
-        campaignTrail_temp.questions_json[26] = tunnel(23891); 
-    }
-    if (Econ == 4) {
-        campaignTrail_temp.questions_json[26] = tunnel(23901); 
-    }
+  }
 }
 
 if (e.noCounter == 27) {
