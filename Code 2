@@ -36948,6 +36948,10 @@ cyoAdventure = function(a) {
         Neo += 1;
     }
 
+    if(ans == 24170 ){
+        Neo += 1;
+    }
+
     ///Russia nukes a blazing trigger answers, some opponent related answers can trigger this
     if(ans == 22847 ){
         Russia += 2;
