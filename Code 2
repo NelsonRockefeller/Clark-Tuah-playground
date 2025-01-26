@@ -36614,6 +36614,7 @@ cyoAdventure = function(a) {
         Win += 2;
     }
 
+
     if(ans == 22670 ){
         Win += 2;
     }
@@ -36751,7 +36752,7 @@ cyoAdventure = function(a) {
             campaignTrail_temp.questions_json[5] = tunnel(22698); 
         }
         else if (ans == 20747) {
-            campaignTrail_temp.questions_json[5] = tunnel(20884); 
+            campaignTrail_temp.questions_json[5] = tunnel(23831); 
         }
 
     }
