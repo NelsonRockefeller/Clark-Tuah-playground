@@ -37068,7 +37068,7 @@ cyoAdventure = function(a) {
         Cyber += 1;
     }
 
-    if (e.noCounter == 8) {
+    if (e.noCounter == 7) {
         speakerDetermined = true;
     }
 
@@ -37785,15 +37785,15 @@ if (e.noCounter == 25) {
 }
 
 if (e.noCounter == 26) {
-  // First set of conditions (random selection for question 27)
-  if (e.player_answers.includes(24170) && Notroops > 0 && Nato > 5 && Econ > 2 && Math.random() < 0.4) {
+  // First set of conditions (random selection for Bin Laden raid question 27)
+  if (e.player_answers.includes(24170) && Notroops > 0 && Nato > 5 && Econ > 2) {
     const randomValue = Math.random(); // Generate a random number between 0 and 1
 
-    if (randomValue < 0.33) { // ~33% chance
+    if (randomValue < 0.4) { // ~40% chance success
       campaignTrail_temp.questions_json[26] = tunnel(24178);
-    } else if (randomValue < 0.66) { // ~33% chance
+    } else if (randomValue < 0.7) { // ~30% chance police intervention
       campaignTrail_temp.questions_json[26] = tunnel(24187);
-    } else { // ~33% chance
+    } else { // ~30% chance Osama escape
       campaignTrail_temp.questions_json[26] = tunnel(24196);
     }
   }
@@ -38442,11 +38442,11 @@ function openHeadquarter() {
     hqDiv.style.display = 'flex'; // Set layout to flex to allow columns
     hqDiv.style.color = 'white';
     hqDiv.style.backgroundColor = '#383838';
-    hqDiv.style.backgroundImage = 'url(https://i.imgur.com/q32EENT.png)'; // Set background image. I would recommend using the same file size as the original image, ~959 x 327. Otherwise it will stretch the image. Comment or remove this line of text if you don't want a background image and instead want hqDiv.style.backgroundColor to set your background color
+    hqDiv.style.backgroundImage = 'url(https://i.imgur.com/F6xHPXG.jpeg)'; // Set background image. I would recommend using the same file size as the original image, ~959 x 327. Otherwise it will stretch the image. Comment or remove this line of text if you don't want a background image and instead want hqDiv.style.backgroundColor to set your background color
     hqDiv.style.backgroundSize = 'cover';
     hqDiv.style.border = '5px solid rgb(23, 55, 107)';
     hqDiv.style.borderRadius = '10px';
-    hqDiv.style.height = '56%';
+    hqDiv.style.height = '54%';
     hqDiv.style.flexDirection = 'column';
     hqDiv.style.alignItems = 'center';
     hqDiv.style.position = 'relative'; // Add this line
@@ -38536,10 +38536,10 @@ function openHeadquarter() {
     
     // Update speaker based on variables
     if (typeof speakerDetermined !== 'undefined' && speakerDetermined) {
-        if (typeof Pelosi !== 'undefined' && Pelosi > 0) {
+        if (Win > 7) {
             speakerImage = 'https://i.imgur.com/U8Jhc8t.png'; 
             speakerName = 'Nancy Pelosi<br><small>Clever girl</small>';
-        } else if (typeof Boner !== 'undefined' && Boner > 0) {
+        } else if (Win > 5) {
             speakerImage = 'https://i.imgur.com/egn6waw.png'; 
             speakerName = 'John Boehner<br><small>Pain in the ass</small>';
         } else {
@@ -38577,7 +38577,7 @@ function openHeadquarter() {
     
     let img2 = document.createElement('img');
     // Default foe image
-    let foeImage = 'https://i.imgur.com/rHXfD0v.gif'; // Default image
+    let foeImage = 'https://i.imgur.com/b0zFCwh.gif'; // Default image
     let foeName = 'Satan';
     let foeLabel = 'Likely Foe';
     
@@ -38608,7 +38608,7 @@ function openHeadquarter() {
             foeImage = 'https://i.imgur.com/9gSLBJz.png'; 
             foeName = 'The Commoner';
         } else {
-            foeImage = 'https://i.imgur.com/rHXfD0v.gif'; 
+            foeImage = 'https://i.imgur.com/b0zFCwh.gif'; 
             foeName = 'Partisan Hack';
         }
     }
@@ -38616,30 +38616,30 @@ function openHeadquarter() {
     if (foeDetermined) {
         if (Dem == 8) {
             foeImage = 'https://i.imgur.com/mYlZH3q.png'; 
-            foeName = 'Dick Cheney';
+            foeName = 'Dick Cheney<br><small>Olympia Snowe</small>';
         } else if (Dem == 7) {
             foeImage = 'https://i.imgur.com/DJ529PW.png'; 
-            foeName = 'Sam Brownback';
+            foeName = 'Sam Brownback<br><small>Michele Bachmann</small>';
         } else if (Dem == 6) {
             foeImage = 'https://i.imgur.com/HvDWV76.png'; 
-            foeName = 'Mike Huckabee';
+            foeName = 'Mike Huckabee<br><small>Fred Thompson</small>';
         } else if (Dem == 5) {
             foeImage = 'https://i.imgur.com/rKYHvr1.png'; 
-            foeName = 'Ron Paul';
+            foeName = 'Ron Paul<br><small>Gary Johnson</small>';
         } else if (Dem == 4) {
             foeImage = 'https://i.imgur.com/zrebC42.png'; 
-            foeName = 'Rudy Giuliani';
+            foeName = 'Rudy Giuliani<br><small>Mike Pence</small>';
         } else if (Dem == 3) {
             foeImage = 'https://i.imgur.com/tRIFmwd.png'; 
-            foeName = 'Jeb Bush';
+            foeName = 'Jeb Bush<br><small>Tom Ridge</small>';
         } else if (Dem == 2) {
             foeImage = 'https://i.imgur.com/ZQAeYjB.png'; 
-            foeName = 'Mitt Romney';
+            foeName = 'Mitt Romney<br><small>Charlie Crist</small>';
         } else if (Dem == 1) {
             foeImage = 'https://i.imgur.com/aSJJQp7.png'; 
-            foeName = 'John McCain';
+            foeName = 'John McCain<br><small>Joe Lieberman</small>';
         } else {
-            foeImage = 'https://i.imgur.com/rHXfD0v.gif'; 
+            foeImage = 'https://i.imgur.com/b0zFCwh.gif'; 
             foeName = 'Partisan Hack';
         }
     }
