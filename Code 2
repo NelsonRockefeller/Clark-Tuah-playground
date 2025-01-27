@@ -1,5 +1,3 @@
-
-
 campaignTrail_temp.questions_json = [
     {
         "model": "campaign_trail.question",
@@ -1095,7 +1093,7 @@ campaignTrail_temp.questions_json = [
         "pk": 22846,
         "fields": {
             "priority": 0,
-            "description": "You've returned home to Washington after a round trip through states ripped to shreds by Hurricane Katrina, and you're informed that House Majority Leader Tom DeLay has been indicted and resigned after much public pressure. With his resignation, the people's trust in the Republican Congress has gone. Minority Leader Pelosi was looking to meet with you to go over possible domestic pushes in response to this, but you've gone abroad, not wanting to waste effort cutting through the jungles of Congress.  NATO is disunited and in need of a rallying flag. How will you reunite the West?",
+            "description": "You've returned home to Washington after a round trip through states ripped to shreds by Hurricane Katrina, and you're informed that House Majority Leader Tom DeLay has been indicted and resigned after much public pressure. With his resignation, the people's trust in the Republican Congress has gone. Minority Leader Pelosi was looking to meet with you to go over possible domestic pushes in response to this, but you've gone abroad, not wanting to waste effort cutting through the jungles of Congress.  NATO is disunited and in need of a rallying flag. How will you reunite the West?",
             "likelihood": 1
         }
     },
@@ -1485,6 +1483,15 @@ campaignTrail_temp.questions_json = [
             "description": "This is it. The crescendo of all the hysteria brought about on September 11th. Osama Bin Laden, the man who brought the World Trade Center tumbling down, is within your reach. CIA Director Leon Panetta awaits your decision to fly two Blackhawk helicopters 150 miles into the night and finally put a close on this national nightmare once and for all. Will you allow the operation to commence?\n",
             "likelihood": 1
         }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 24205,
+        "fields": {
+            "priority": 0,
+            "description": "It's over; the long national nightmare has come to a close. Crowds gather around Olympus; spectators at the Phillies - Yankees game shout, \"USA! USA! USA!\" Americans far and wide cheer as you deliver your remarks informing the nation of the death of Osama Bin Laden. In Sisyphean fashion, you've climbed the hill and secured victory. With reports coming in of the entire operation, from Blackhawk 1 getting clipped on the compound's wall to the strange box collection the terrorist had on his shelves, it's glorious. Now, with the election coming to a close, you must make one final stop to close the chapter; where will it be, Clark?\n",
+            "likelihood": 1
+        }
     }
 ]
 
@@ -1742,7 +1749,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5220,
         "fields": {
             "question": 1065,
-            "description": "It's clear that we can't play this issue in Congress; they aren't going for it, and I can't rely on my party here. That does not mean we cannot try. We will get at this with the powers of the executive. "
+            "description": "It's clear that we can't play this issue in Congress; they aren't going for it, and I can't rely on my party here. That does not mean we cannot try. We will get at this with the powers of the executive. "
         }
     },
     {
@@ -6111,6 +6118,14 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 24196,
             "description": "It's time to return the terrorist threat to its maker. They have full authority invested in me to find and kill Osama Bin Laden."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 24206,
+        "fields": {
+            "question": 24205,
+            "description": "I can't think of a better place to celebrate this monumental occasion than ending this campaign in New York City. Tell Senator Clinton and Schumer we're on our way, and see if Mayor Bloomberg is willing to celebrate with us."
         }
     }
 ]
@@ -18251,6 +18266,16 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 201,
             "affected_candidate": 201,
             "global_multiplier": -0.08
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 24208,
+        "fields": {
+            "answer": 24206,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.01
         }
     }
 ]
@@ -31172,6 +31197,17 @@ campaignTrail_temp.answer_score_state_json = [
             "affected_candidate": 200,
             "state_multiplier": -0.15
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 24209,
+        "fields": {
+            "answer": 24206,
+            "state": 1031,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.06
+        }
     }
 ]
 
@@ -35709,7 +35745,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 23799,
             "candidate": 201,
-            "answer_feedback": "Demanding such massive reforms of a tired congress was a disaster waiting to happen. The bill soon dies in gridlock, to your dismay. You're the President, and these ungrateful bastards think they can step out of line. \n"
+            "answer_feedback": "Demanding such massive reforms of a tired congress was a disaster waiting to happen. The bill soon dies in gridlock, to your dismay. You're the President, and these ungrateful bastards think they can step out of line. \n"
         }
     },
     {
@@ -36240,7 +36276,16 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 24201,
             "candidate": 201,
-            "answer_feedback": "You sit in the situation room, garnering intelligence by the minute. The first Blackhawk has an issue requiring both teams to land and head into the compound on foot. For 25 minutes, it goes quiet until you hear, \"Geronimo, no sightings.\" Public pandemonium over possibly your greatest failure begins.\n"
+            "answer_feedback": "You sit in the situation room, garnering intelligence by the minute. The first Blackhawk has an issue requiring both teams to land and head into the compound on foot. For 25 minutes, it goes quiet until you hear, \"Geronimo, no sighting.\" Public pandemonium over possibly your greatest failure begins.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 24207,
+        "fields": {
+            "answer": 24206,
+            "candidate": 201,
+            "answer_feedback": "New Yorkers cheer and cry as you hold one last rally at Madison Square Garden shortly after paying respects to Ground Zero. The crowd was filled with happy faces, disguising the great pain felt that day. With optimism shooting upwards, it's your job to make sure America no longer punishes the world for what happened on September 11th. "
         }
     }
 ]
@@ -36267,7 +36312,6 @@ campaignTrail_temp.jet_data = [{
     "ending_data": {}
 }
 ]
-
 
 
 
@@ -36301,6 +36345,7 @@ var Cyber = 0;
 var Blackwater = 0;
 var Schiavo = 0;
 var Hunt = 0;
+var Kill = 0;
 var speakerDetermined = false;
 var foeDetermined = false;
 e.noCounter = 0
@@ -37286,7 +37331,7 @@ if (e.noCounter == 16) {
 
     ///Iraq shockwave
 if (e.noCounter == 18) {
-    if (Notroops == 1 && Loyalist == 1 && Agenda > 3) {
+    if (Notroops == 1 && Loyalist == 1 && Agenda > 4) {
         campaignTrail_temp.questions_json[18] = tunnel(23700); 
     }
     else if (Notroops == 1 && Nato > 2) {
@@ -37826,8 +37871,15 @@ if (e.noCounter == 26) {
   }
 }
 
+    if(ans == 24183 ){
+        Kill += 1;
+    }
+
 if (e.noCounter == 27) {
-    if (Russia > 3 && Cyber < 1 && Dem > 0) {
+    if (Kill > 0 && Dem > 0) {
+        campaignTrail_temp.questions_json[27] = tunnel(24205); 
+    }
+    else if (Russia > 3 && Cyber < 1 && Dem > 0) {
         campaignTrail_temp.questions_json[27] = tunnel(22609); 
     }
     else if (Dem == 1) {
