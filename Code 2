@@ -301,7 +301,7 @@ campaignTrail_temp.questions_json = [
         "pk": 20909,
         "fields": {
             "priority": 0,
-            "description": "Your refusal to call for a troop surge is commendable. However, Iraqi forces still request a formal withdrawal date for the remaining U.S. forces and a timetable to coincide with that. At the same time, British Prime Minister Blair, along with many other coalition governments, have announced their plans to begin withdrawing troops from Iraq. You feel pride as you plan to turn the page on this long national mistake. How shall the country withdraw from Iraq, President Clark?",
+            "description": "Your refusal to call for a troop surge is commendable. However, the Iraqi parliament still requests a formal withdrawal timetable. At the same time, British Prime Minister Blair, along with many other coalition governments, have announced their plans to begin withdrawing troops from Iraq. You feel pride as you plan to turn the page on this long national mistake. How shall the country withdraw from Iraq, President Clark?",
             "likelihood": 1
         }
     },
@@ -310,7 +310,7 @@ campaignTrail_temp.questions_json = [
         "pk": 20923,
         "fields": {
             "priority": 0,
-            "description": "While you've stuck your neck out to help the Iraqi government survive, they've returned the favor in the form of 144 Iraqi lawmakers petitioning you to set a timetable for a withdrawal date. At the same time, Prime Minister Tony Blair announced that British troops would begin to withdraw from Basra following Operation Sinbad. This, along with other coalition governments planning their withdrawal dates, is putting pressure on your administration. How will you handle the Iraq quagmire from here?",
+            "description": "While you've stuck your neck out to help the Iraqi government survive, they've returned the favor in the form of 144 Iraqi lawmakers petitioning you to set a timetable for a withdrawal date. Prime Minister Tony Blair announced that British troops would begin to withdraw from Basra following Operation Sinbad. At the same time, many of your European allies who believed your victory in 2004 was a turning point now wallow in despair. Former Prime Minister Laurent Fabius lambasted your choice, calling it a betrayal of the mandate given to you. Pressure is on your administration to respond. How will you handle the Iraq quagmire from here?",
             "likelihood": 1
         }
     },
@@ -616,7 +616,7 @@ campaignTrail_temp.questions_json = [
         "pk": 21603,
         "fields": {
             "priority": 0,
-            "description": "Rudy Giuliani didn't get to this point with humility and grace. Not a second goes by without him telling a brave story of that fateful day. The stories make him the talk of the town and the number one War on Terror candidate, even if we are sick of hearing about it. With Bin Laden still not within America's grasp, he has all the ammo to pummel you. \"Clark is too soft on terror.\" \"Clark is letting Bin Laden go free.\" He's relentless, but you know how to wipe the smile off his face, don't you, Wes?",
+            "description": "Rudy Giuliani is the municipal superhero without a cape, a media avenger who embodies the will to vanquish terrorism. Not a second goes by without him telling a brave story of that fateful day. The stories make him the talk of the town and the number one War on Terror candidate, even if we are sick of hearing about it. With Bin Laden still not within America's grasp, he has all the ammo to pummel you. \"Clark is too soft on terror.\" \"Clark is letting Bin Laden go free.\" He's relentless, but you know how to wipe the smile off his face, don't you, Wes?",
             "likelihood": 1
         }
     },
@@ -625,7 +625,7 @@ campaignTrail_temp.questions_json = [
         "pk": 21633,
         "fields": {
             "priority": 0,
-            "description": "Iraq is crumbling, and so is the faith in your administration. With Condoleezza Rice by his ear at every waking moment, Mayor Giuliani is on the stage thrashing your foreign policy decisions. You can tell the words aren't his; he's a fool. She is using him like a puppet. We all saw what went down in the primaries; he was a mess. Now he looks good, like a pampered prince. However, you have this unshakable feeling that it's all talk. It always is with Giuliani. How will you repel Giuliani's gains?",
+            "description": "Iraq is crumbling, and so is the faith in your administration. With Condoleezza Rice by his ear at every waking moment, Mayor Giuliani is on the stage, thrashing your foreign policy decisions while highlighting his success in bringing peace to the streets of NYC. You can tell the words aren't his; he's a fool. She is using him like a puppet. We all saw what went down in the primaries; he was a mess. Now he looks good, like a pampered prince. However, you have this unshakable feeling that it's all talk. It always is with Giuliani. How will you repel Giuliani's gains?",
             "likelihood": 1
         }
     },
@@ -733,7 +733,7 @@ campaignTrail_temp.questions_json = [
         "pk": 21794,
         "fields": {
             "priority": 0,
-            "description": "All lights are on you now, Clark. Here he is, America's Mayor, standing across from you. There's no team to protect him now. No amount of debate preparation can stop his inevitable defeat. Rice can't shield him from the dangers of a presidential debate. It's you and him now, and you are determined to destroy him. How will you ensure that Giuliani is wiped across the map?",
+            "description": "All lights are on you now, Clark. Here he is, America's Mayor, standing across from you. There's no team to protect him now. No amount of debate preparation can stop his inevitable defeat. Rice can't shield him from the dangers of a presidential debate. Rudy enters loud and proud, confirming the tales of his gladiatorial combat style. It's you and him now, and you are determined to destroy him. How will you ensure that Giuliani is wiped across the map?",
             "likelihood": 1
         }
     },
@@ -1525,7 +1525,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5144,
         "fields": {
             "question": 1043,
-            "description": "I sympathize with this case, but it shouldn't concern the executive branch; I have more significant problems to look over. If Congress wishes to get involved, then that's their prerogative.\n"
+            "description": "Please tell me where in the constitution Congress is granted powers to step into a case as personal as this? I won't have it; tell Dellinger to stop this in its tracks before Republicans run with the narrative.\n"
         }
     },
     {
@@ -1533,7 +1533,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5145,
         "fields": {
             "question": 1043,
-            "description": "The rush to exploit this tragedy is disturbing, and I have no plans to follow Republicans down the drain. I want Vice President Landrieu to unite Senate Democrats in opposition to kill this phony intervention.\n"
+            "description": "Look at what's happening. From Florida to Colorado, people are up in arms, calling for \"renegade justices\" to step down. This is nobody's business but the Schiavo family, and I won't hesitate to veto any bill related to this case.\n"
         }
     },
     {
@@ -1565,7 +1565,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5150,
         "fields": {
             "question": 1044,
-            "description": "We need to end the American monopoly in Iraq. We must call for a summit with our allies, from the United Kingdom to Japan, to recreate a new unifying coalition that can both keep Iraq safe and also show that we are no longer going at this alone."
+            "description": "It's time to end the American monopoly in Iraq. We must call for a summit with our allies, from the United Kingdom to Japan, to recreate a new unifying coalition that can both keep Iraq safe and also show that we are no longer going at this alone."
         }
     },
     {
@@ -2205,7 +2205,7 @@ campaignTrail_temp.answers_json = [
         "pk": 20928,
         "fields": {
             "question": 20923,
-            "description": "The Iraqis have spoken, and clearly, we need to hand over the reins to them eventually. I'll back a limited withdrawal to keep appearances, but we can't hastily pull out too soon. Iran is positioning itself to benefit greatly from our failures. \n"
+            "description": "The French were outspoken critics of the Bush Administration, and for good reason. This is a misunderstanding, and I believe it is fixable. A diplomatic trip is needed to reassure our European friends that I am still working to do right by the world."
         }
     },
     {
@@ -2213,7 +2213,7 @@ campaignTrail_temp.answers_json = [
         "pk": 20931,
         "fields": {
             "question": 20923,
-            "description": "The Iraqi army has spoken, but neither they nor our allies can fully comprehend the threat that remains in Iraq. If we turn our attention elsewhere, the forces looking to bring down everything we've built will be ready to feast on the opportunity. The loss of American soldiers must not be in vain!\n"
+            "description": "The Iraqis have spoken, but neither they nor our allies can fully comprehend the threat that remains in Iraq. If we turn our attention elsewhere, the forces looking to bring down everything we've built will be ready to feast on the opportunity. The loss of American soldiers must not be in vain!\n"
         }
     },
     {
@@ -2445,7 +2445,7 @@ campaignTrail_temp.answers_json = [
         "pk": 21112,
         "fields": {
             "question": 21111,
-            "description": "Mayor Rudy is a powder keg ready to implode he's— a joke. Highlighting his ever-growing list of scandals, the affair should put his chances into the ground.\n"
+            "description": "It's disgusting that the same man who used every loophole and a deferment letter from a buddy judge of his to avoid service in Vietnam has the gall to attack my patriotism. I took the full force of an AK-47 for this country; the most Rudy has taken is waiting. \n"
         }
     },
     {
@@ -3085,7 +3085,7 @@ campaignTrail_temp.answers_json = [
         "pk": 21645,
         "fields": {
             "question": 21633,
-            "description": "Congress needs to approve another aid package to Iraq if we want to confront this problem swiftly. I don't care what Kucinich has to say. We need aid for Iraq now. \n"
+            "description": "\nNew York City's record low crime rates that he loved to tout isn't some glory he may bask in freely. Giuliani did nothing to combat the cases of NYPD brutality and soaring police misconduct. Discrimination has no place in the police force.\n"
         }
     },
     {
@@ -5445,7 +5445,7 @@ campaignTrail_temp.answers_json = [
         "pk": 23581,
         "fields": {
             "question": 21111,
-            "description": "Rudy is questioning me. Seriously? This guy doesn't know anything about our country's foreign policy. He ran around playing ass-kisser for Bush for the last 8 years; this should be a wipeout.\n"
+            "description": "A Giuliani administration will directly attack the social safety nets that protect millions of Americans nationwide. He withheld food stamps and Medicaid benefits from over a half million people, most of which were children.\n"
         }
     },
     {
@@ -11715,7 +11715,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5144,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": -0.02
+            "global_multiplier": 0.02
         }
     },
     {
@@ -13745,7 +13745,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 21645,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": -0.01
+            "global_multiplier": 0.01
         }
     },
     {
@@ -18466,9 +18466,9 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 2834,
         "fields": {
             "answer": 5144,
-            "issue": 100,
-            "issue_score": 0.425,
-            "issue_importance": 2
+            "issue": 103,
+            "issue_score": 0.8,
+            "issue_importance": 8
         }
     },
     {
@@ -18708,7 +18708,7 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 20924,
             "issue": 102,
             "issue_score": -0.5,
-            "issue_importance": 5
+            "issue_importance": 7
         }
     },
     {
@@ -19226,9 +19226,9 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 21648,
         "fields": {
             "answer": 21645,
-            "issue": 102,
-            "issue_score": -0.5,
-            "issue_importance": 5
+            "issue": 100,
+            "issue_score": 0.8,
+            "issue_importance": 7
         }
     },
     {
@@ -20248,7 +20248,7 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 22719,
             "issue": 102,
             "issue_score": -0.9,
-            "issue_importance": 3
+            "issue_importance": 6
         }
     },
     {
@@ -21578,6 +21578,56 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 24201,
             "issue": 102,
             "issue_score": 0.9,
+            "issue_importance": 7
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 24210,
+        "fields": {
+            "answer": 5145,
+            "issue": 103,
+            "issue_score": 0.6,
+            "issue_importance": 7
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 24211,
+        "fields": {
+            "answer": 20740,
+            "issue": 103,
+            "issue_score": 0.4,
+            "issue_importance": 7
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 24219,
+        "fields": {
+            "answer": 20928,
+            "issue": 102,
+            "issue_score": 0.4,
+            "issue_importance": 7
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 24220,
+        "fields": {
+            "answer": 21112,
+            "issue": 102,
+            "issue_score": -0.8,
+            "issue_importance": 7
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 24221,
+        "fields": {
+            "answer": 23581,
+            "issue": "100",
+            "issue_score": 0.8,
             "issue_importance": 7
         }
     }
@@ -23220,7 +23270,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1043,
             "candidate": 201,
             "affected_candidate": 202,
-            "state_multiplier": 0.5
+            "state_multiplier": 0.2
         }
     },
     {
@@ -23473,7 +23523,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1033,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.2
+            "state_multiplier": -0.1
         }
     },
     {
@@ -23484,7 +23534,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1033,
             "candidate": 201,
             "affected_candidate": 202,
-            "state_multiplier": 0.7
+            "state_multiplier": 0.3
         }
     },
     {
@@ -23495,7 +23545,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1040,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.2
+            "state_multiplier": -0.1
         }
     },
     {
@@ -23506,7 +23556,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1040,
             "candidate": 201,
             "affected_candidate": 202,
-            "state_multiplier": 0.7
+            "state_multiplier": 0.3
         }
     },
     {
@@ -25090,7 +25140,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1043,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.5
+            "state_multiplier": -0.2
         }
     },
     {
@@ -25101,7 +25151,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1043,
             "candidate": 201,
             "affected_candidate": 202,
-            "state_multiplier": 0.5
+            "state_multiplier": 0.2
         }
     },
     {
@@ -25662,7 +25712,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1043,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.5
+            "state_multiplier": -0.2
         }
     },
     {
@@ -25673,7 +25723,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1043,
             "candidate": 201,
             "affected_candidate": 202,
-            "state_multiplier": 0.5
+            "state_multiplier": 0.2
         }
     },
     {
@@ -27125,7 +27175,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1033,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.2
+            "state_multiplier": -0.1
         }
     },
     {
@@ -27136,7 +27186,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1033,
             "candidate": 201,
             "affected_candidate": 202,
-            "state_multiplier": 0.7
+            "state_multiplier": 0.3
         }
     },
     {
@@ -27147,7 +27197,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1040,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.2
+            "state_multiplier": -0.1
         }
     },
     {
@@ -27158,7 +27208,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1040,
             "candidate": 201,
             "affected_candidate": 202,
-            "state_multiplier": 0.7
+            "state_multiplier": 0.3
         }
     },
     {
@@ -27631,7 +27681,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1033,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.2
+            "state_multiplier": -0.1
         }
     },
     {
@@ -27642,7 +27692,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1033,
             "candidate": 201,
             "affected_candidate": 202,
-            "state_multiplier": 0.7
+            "state_multiplier": 0.3
         }
     },
     {
@@ -27653,7 +27703,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1040,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.2
+            "state_multiplier": -0.1
         }
     },
     {
@@ -27664,7 +27714,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1040,
             "candidate": 201,
             "affected_candidate": 202,
-            "state_multiplier": 0.7
+            "state_multiplier": 0.3
         }
     },
     {
@@ -28137,7 +28187,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1033,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.2
+            "state_multiplier": -0.1
         }
     },
     {
@@ -28148,7 +28198,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1033,
             "candidate": 201,
             "affected_candidate": 202,
-            "state_multiplier": 0.7
+            "state_multiplier": 0.3
         }
     },
     {
@@ -28159,7 +28209,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1040,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.2
+            "state_multiplier": -0.1
         }
     },
     {
@@ -28170,7 +28220,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1040,
             "candidate": 201,
             "affected_candidate": 202,
-            "state_multiplier": 0.7
+            "state_multiplier": 0.3
         }
     },
     {
@@ -31206,7 +31256,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1031,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.06
+            "state_multiplier": -0.03
         }
     }
 ]
@@ -31245,7 +31295,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5144,
             "candidate": 201,
-            "answer_feedback": "Congress passed a resolution in an attempt to intervene, but the public backlash was scathing, and both Republicans and Democrats were scorned for the matter.\n"
+            "answer_feedback": "The Justice Department steps in, scaring Congress from acting. Meanwhile, dozens of protesters sealed their mouths with tape with the word \"LIFE\" written in prayer outside Michael Schiavo's home. The Republicans got what they wanted anyway—an excited base."
         }
     },
     {
@@ -31254,7 +31304,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5145,
             "candidate": 201,
-            "answer_feedback": "Sadly, too many Senate Democrats like Tom Harkin went across the aisle to pass a resolution, and public opinion turned firmly against congressional intervention. The increased public scrutiny of Senate Democrats pinned partial blame on your party.\n"
+            "answer_feedback": "Hastert, the fat bastard, reigns in plenty of conservative Democrats to pass the house, and while the bill dies in the senate, the points Republicans have scored with their base make up for the loss. Conservative media can't get enough of it."
         }
     },
     {
@@ -31902,7 +31952,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 20928,
             "candidate": 201,
-            "answer_feedback": "Secretary Kerry begins drawing plans to withdraw troops over the next six years to return to pre-troop surge levels. The hope for a quick withdrawal is dying as Gravel and Kucinich are making more rounds in the news.\n"
+            "answer_feedback": "The time when trips abroad fixed your problems is long gone. Europe wants action, not platitudes. More than 200 Socialist members of the European parliament issued a statement calling the fiasco \"the beginning of a second four-year nightmare.\"\n"
         }
     },
     {
@@ -32118,7 +32168,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 21112,
             "candidate": 201,
-            "answer_feedback": "Giuliani will never escape the coat he hangs in his mistress's apartment. However, He's garnering enough notable conservative endorsements from the likes of Sam Brownback to stop the bleeding."
+            "answer_feedback": "In his own words, it was a \"minor hearing problem.\" It's total nonsense, and this early in the game, he's already beginning to crumble. The attacks wrote themselves: draft dogging and Judge McMahon's deferment. When you contrast it, the blemish is all too noticeable."
         }
     },
     {
@@ -32847,7 +32897,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 21645,
             "candidate": 201,
-            "answer_feedback": "Congress approves another round of aid, but most see it as too little, too late. Rudy, on the other hand, is promising, if elected, that he'll clean up the streets of Baghdad the same way he cleaned up New York City in the 1990s.\n"
+            "answer_feedback": "Giuliani's tough-on-crime spiel does a great deal in making gains with middle America, and your \"anti-police\" rhetoric helps him further these gains. At the same time, you garner little in return since Rudy already faces record-low support with the African American community."
         }
     },
     {
@@ -35529,7 +35579,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 23581,
             "candidate": 201,
-            "answer_feedback": "Rudy has always been able to bullshit a crowd nicely with empty platitudes. However, this time, he's different, more calculated and prepared. This can't be him, can it?"
+            "answer_feedback": "Giuliani isn't afraid to pat himself on the back for such a \"beautiful operation\" he oversaw. It essentially became a party-line issue despite the draconian policies he championed and tried to expand in the form of kicking entire families off welfare if they hadn't met the workfare requirements."
         }
     },
     {
@@ -37008,6 +37058,14 @@ cyoAdventure = function(a) {
         Neo += 1;
     }
 
+    if(ans == 20747 ){
+        Neo += 2;
+    }
+
+    if(ans == 5262 ){
+        Neo += 2;
+    }
+
     ///Russia nukes a blazing trigger answers, some opponent related answers can trigger this
     if(ans == 22847 ){
         Russia += 2;
@@ -37340,7 +37398,7 @@ if (e.noCounter == 18) {
     else if (Notroops == 1) {
         campaignTrail_temp.questions_json[18] = tunnel(22019); 
     }
-    if (Troops == 1 && Patriot == 1 && Neo > 0) {
+    if (Troops == 1 && Patriot == 1 && Neo > 5) {
         campaignTrail_temp.questions_json[18] = tunnel(22780); 
     }
     else if (Troops == 1 && Blackwater == 0) {
@@ -38261,6 +38319,38 @@ const rudyWin = new Playlist();
 rudyWin.addSong(rudyWinSong);
 changePlaylist(rudyWin);
 }
+else if (quickstats[0] <= 170 && Dem == 5) { // big loss - paul
+e.pages.push(`<h3><i>Overrun</i></h3>
+          <p><b>The drawbridge was lowered, and the gates were raised. It was a people's movement, and the people demanded that the magnificent vessel of libertarianism be granted entry. Olympus had been swooned by a madman. The corrupt oligarchy bartering the fates of its populace had been repudiated.</b></p> <p><b>As the vessel lowered its ramp, off came hundreds of crazed loons hungry for revenge. As the Revolutionary walked down draped in riches, he ordered his enemies to be hung by sundown. He, who had begun to take on many names, walked like a king but refused to take on such a title.</b></p> <p><b>Icarus collapsed onto his throne, bleeding from the armor-piercing arrows of liberty. Unadulterated fear for the fall of his empire, the fall of what leaders had built before him. The Madman entered the royal palace ready to behead Icarus and rip down the empire to create a new and free land for all.</b></p><p><b>Icarus attempted to stand, but he was far too weak; the revolution had taken his strength. As the Madman walked toward the throne, Icarus's vision spun. Looking him dead in the eyes, he saw his complete opposite.</b></p><p><b>There was no hope for even a glimpse of his legacy to remain. Not wanting to grant the Madman any further pleasure, Icarus pushed the arrow deeper and pierced his heart. Falling to the floor, making way for his successor and sealing the fate of Olympus.</b></p>`)
+          // idk how to add playlists but to do that you create a new playlist in code1 with just that song and put changePlaylist(nameOfYourEndingPlaylist) right here
+//e.image = ""
+e.executable.push([0, (() => {e.image = e.image = 'https://i.imgur.com/KtbYOZm.png'})])
+const paulWin = new Playlist();
+  const paulWinSong = new Song(
+    "In The House, In A Heart Beat",
+    "John Murphy",
+    "https://i.imgur.com/JEX5tYO.gif",
+    "https://audio.jukehost.co.uk/smxRnKbXacXTXf9ksjXHdeih0iYIECM3"
+  );
+paulWin.addSong(paulWinSong);
+changePlaylist(paulWin);
+}
+else if (quickstats[0] >= 269 && Dem == 5) { // low win - paul
+e.pages.push(`<h3><i>Thrill</i></h3>
+          <p><b>Icarus felt thrilled. Never before in his life had he been granted a challenge so colorful and unique. It was an abomination of his own making. Icarus ruled with pure hubris and vanity while eating like a king in hopes of backlash. He donned his shining wings, ready for a battle like no other.</b></p> <p><b>As he admired his physique, he heard the noise come to a screeching halt. The Horse of Libertarianism was here. Not wasting a moment, Icarus practically threw himself out the doors of his palace. He could hear the Madman shout and pander to his crowd of crazed loyalists. The Madman promised many things, chief among them retribution. The oligarchy that brought Olympus to its knees with its incompetence would be rebuked.</b></p> <p><b>It was utter nonsense to Icarus, but he admired it. It was everything he had hoped for, after all. A challenger who would throw out the rules and rewrite history. Finally, a worthy opponent. Icarus wasted no time demanding the gates be raised, and his legion stand down.</b></p> <p><b>This fight was his, and he wasn't about to allow one drop of blood to be spilled from anyone but him. The Madman entered Olympus surrounded by weak and meager crowds, hungry, lost, and desperate. The ideals were dangerous, but so was keeping to the status quo. Icarus examined his foe, grinning eagerly. The Madman sought to inspire the lower class of Olympus, preaching the revolution. He promised to save them from the tyrant.</b></p><p><b>Icarus had his fill of talk; it was time for action. The two men stood completely still, waiting for one another to make a move. Suddenly, the Madman's army charged in, setting fires and throwing explosives. It was time to fight, and the arch-foes lunged toward one another. The Madman tackled Icarus, beating him senselessly until Icarus began to cackle without a care in the world.</b></p><p><b>Then came Icarus's wing piercing through the Madman's heart, shocking onlookers. It was over; the army of libertarianism was weak, quickly crumbling underneath the high guard of Olympus. Icarus threw the revolutionary's body to the side. He made quick work of the remnants of his coalition. A tactician at heart, Icarus knew the Madman was no real danger to his power. Evil cleansed once more; the establishment pillars of Olympus were safe, and so was his throne.</b></p>`)
+          // idk how to add playlists but to do that you create a new playlist in code1 with just that song and put changePlaylist(nameOfYourEndingPlaylist) right here
+//e.image = ""
+e.executable.push([0, (() => {e.image = e.image = 'https://i.imgur.com/g57w36G.png'})])
+const paulWin = new Playlist();
+  const paulWinSong = new Song(
+    "Zombie",
+    "The Cranberries",
+    "https://i.imgur.com/iGCLdbm.gif",
+    "https://audio.jukehost.co.uk/erF7R1F04FwL1kAMH34cobRsXFxZHOYo"
+  );
+paulWin.addSong(paulWinSong);
+changePlaylist(paulWin);
+}
 else if (quickstats[0] >= 355 && Dem == 5) { // big win - paul
 e.pages.push(`<h3><i>Hollow Power</i></h3>
           <p><b>Icarus considered himself a conqueror. Entire realms were brought underneath his whims. Utterly despised by the little man, he had become the antithesis of his promises. Like a chameleon, Icarus naturally blended in with his co-conspirators, who plotted and schemed much like his predecessor.</b></p> <p><b> He had almost forgotten the time the Madman was due to arrive, but he was nowhere in sight. Curious, he went looking for trouble, hungry for a challenge, and passed by the heads of Sirens and Harpies slain during his conquests. Families hid and refused to meet his gaze as he strolled through the streets of Olympus.</b></p> <p><b>Quiet, it was deafening and irritating.  Where was his challenge? The spoils? He took flight, hoping to glimpse his challenge on its way. That's when his gaze met a great disappointment.</b></p> <p><b>The Horse, the vehicle of revolutionary ideas, had collapsed long before reaching the gates of his domain. There was no challenge, great victory, or glorious conquest. Olympus was safe from the ideals of freedom at a cost of nothing. All Icarus could feel in response was apathy.</b></p>`)
@@ -38289,6 +38379,22 @@ const brownbackWin = new Playlist();
     "Queen",
     "https://i.imgur.com/z3Bzw9i.gif",
     "https://audio.jukehost.co.uk/XlqOkzXpCoVAgjK2GrztwHCneqmhH5VB"
+  );
+brownbackWin.addSong(brownbackWinSong);
+changePlaylist(brownbackWin);
+}
+if (quickstats[0] >= 355 && Dem == 7) { // Weak Defeat - Brownback
+e.pages.push(`<h3><i>Engulfed</i></h3>
+          <p><b>Olympus depended on Icarus to save it from the Underworld; The "God" Warrior pointed a hoard in his direction. The preacher of all of what's supposedly holy had only one emotion to convey: hate. Icarus prepared his wings and armor; this was not going to be easy; Olympus's defenses were strong, many believed they would hold against The God Warrior's primal tactics.</b></p> <p><b>However, the gates were blown open by a holy light, and a great hoard took the courtyard by storm. Icarus watched as his brave soldier fought them off, wave after wave. As he prepared to take flight, he remembered the warnings all his advisors had offered him. He could have prevented this; he should have averted this battle.</b></p> <p><b>It was too late for second thoughts. The God Warrior was in sight, and so Icarus took flight. He looked down at the battlefield, and it looked like Olympus could be saved. That was until a bright and scorching light blew him back. Icarus fell from high and cratered into the staircase into the palace. When Icarus opened his eyes, he saw that the tide had turned.</b></p> <p><b>The defense was failing, and it was all turning red. He limped back into the palace, hearing the vulnerable populous squeal and wail as the "Holy Men" dragged them out of their homes and beat them down. All those Icarus had sworn to protect were to be subjected to The God Warrior's whims and desires.</b></p><p><b>As Icarus collapsed onto the carpet leading to his throne, he was engulfed by a shadow. He heard footsteps grow closer as blood traveled down the walls. Icarus lifted himself to look at his dastardly foe. He felt fear as he looked into the lifeless eyes of a man holding zero empathy for his actions. Icarus collapsed again, and The God Warrior walked right over him to take his place on the throne.</b></p>`)
+          // idk how to add playlists but to do that you create a new playlist in code1 with just that song and put changePlaylist(nameOfYourEndingPlaylist) right here
+//e.image = ""
+e.executable.push([0, (() => {e.image = e.image = 'https://i.imgur.com/um5mJz3.png'})])
+const brownbackWin = new Playlist();
+  const brownbackWinSong = new Song(
+    "GirlDeMo",
+    "Thousand Enemies",
+    "https://i.imgur.com/URIpOYt.gif",
+    "https://audio.jukehost.co.uk/ZkVwKzSGH88AoimjgfuJzbZyG67zTOYT"
   );
 brownbackWin.addSong(brownbackWinSong);
 changePlaylist(brownbackWin);
@@ -38360,6 +38466,11 @@ e.executable.push([1, (() => {e.image = e.image = 'https://i.imgur.com/iKKfILD.p
 }
 
 // midterm
+if ( quickstats[0] <= 269 && Dem == 3) { // romnercare
+e.pages.push(`<h3>The New Yorker | <i>Did Mitt Romney Save His Soul?</i></h3>
+<p><b>The American Health Insurance Connector Authority reveals a liberal steak to the all-but liberal President</b></p> <p>Published in August, 2011</p> <p>In a small, cramped back-room in the halls of the ever glamorous and historical West Wing we find President Romney, sitting alongside Senate leaders Harry Reid and Mitch McConnell. Reid looks at the President and inquires into his positivity in the project to reinvent the American Healthcare system. McConnell looks more glum than usual, selecting instead to stare in idly at the carpeted floors of this chosen room away from prying eyes. Romney glances at McConnell and asks if he can throw him a bone, McConnell shakes his head, The President then understood he was in fact going at this alone.</p><p>It was perhaps less unorthodox for a Republican to see to do something like this in Massachusetts, territory of the liberal-leaning Republican and the progressive democrat but in national politics the line of left-and-right was not so blurred, nor was the cameras not as bright. His next steps were going to be covered thoroughly, so he’d have to tread carefully.</b></p><p>Months of cajoling, talks across the aisle and a little bit of watering down to bring some Republicans across, the American Healthcare Reform Act was signed into law by President Romney to the relative chagrin of many Republicans he pleaded with to support the law. With re-election around the corner there is muted praise from the democratic candidates and even former Vice President Crist, who since departing early this year has started what some called a hopeless campaign for the Democratic Party’s nomination just one week prior to the signing.</p><p>While the last three years have indeed been confusing politically, Romney’s rather sturdy sense of pride in the bill is evident as he recalled at the signing it was not ‘100% what everyone in this roomed wanted but it will 100% help many Americans, and I cannot think of a more noble and righteous goal in this office I have been bestowed.’</p><p>The question still lays on if the President’s bold bipartisan move will help or hurt him in the national theatre of political discourse but it is perhaps fitting to say this will without a shadow of a doubt be the most historically significant moment of his first term, perhaps with the exception of the success of Operation Neptune Spear this past spring. President Romney has absconded from Republican thinking of healthcare, will the party absconded from him next November and will he lose happily with a cleared conscience?</p>`)
+e.executable.push([2, (() => {e.image = e.image = 'https://i.imgur.com/X6uVu2a.png'})])
+}
 if ( quickstats[0] <= 269 && Dem == 4) { // rudycare
 e.pages.push(`<h3>CNN: <i>What happened to RudyCare?</i></h3>
 <p><b>Jack Wells</b></p> <p>One of then-Mayor Giuliani's few domestic proposals on the campaign trail was to give working families greater control and more healthcare options. President Giuliani had made tax reform his priority, slashing taxes across the board, much to the dismay of Congressional Democrats.</p> <p>Giuliani has taken reform to the tax code as his primary focus to fixing our broken healthcare system, which has primarily caused most to scratch their heads in confusion. Among other worthless solutions, Giuliani also passed a bill that provides a "Forward Thinking Grant" to "innovative" states to encourage states to improve healthcare quality and make health insurance more affordable by offering block grants to encourage innovation, reduce health costs, enroll eligible uninsured, and solve adverse selection issues.</p><p>The solutions have done nothing to satisfy anyone, with most Republican members of Congress believing it's a waste of time, but President Giuliani has hailed the program as a great success. Most within the President's inner circle say he's declared victory over the battle for greater Healthcare and is planning to move on to greater things.</p><p>Democrats nationwide condemn the President for abandoning the average American's interests, with recent polls showing that over 63% of Americans believe the President hasn't done enough, while 23% think he's accomplished enough.</b></p><p>Many Republicans are beginning to sweat since the 2010 midterms loom over Giuliani's tenure like a storm already showing signs of trouble as the Massachusetts Senate election held in January to fill the late Senator Ted Kennedy's seat was won by Democrats with impressive margins.</p>`)
