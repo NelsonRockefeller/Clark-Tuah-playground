@@ -1492,6 +1492,15 @@ campaignTrail_temp.questions_json = [
             "description": "It's over; the long national nightmare has come to a close. Crowds gather around Olympus; spectators at the Phillies - Yankees game shout, \"USA! USA! USA!\" Americans far and wide cheer as you deliver your remarks informing the nation of the death of Osama Bin Laden. In Sisyphean fashion, you've climbed the hill and secured victory. With reports coming in of the entire operation, from Blackhawk 1 getting clipped on the compound's wall to the strange box collection the terrorist had on his shelves, it's glorious. Now, with the election coming to a close, you must make one final stop to close the chapter; where will it be, Clark?\n",
             "likelihood": 1
         }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 24222,
+        "fields": {
+            "priority": 0,
+            "description": "The Russian 58th Army's armored march through the mountain passes can credit all its success to one strategic point: The Roki Tunnel, the blight of Georgia's resistance, crippling their war effort, and you know what needs to be done. The Air Force is waiting for your go-ahead to bury the Russians, and after that, NATO will pile into Georgia. It's time to vanquish your greatest foe and finish what you started back in Kosovo. Will you save Georgia?\n",
+            "likelihood": 1
+        }
     }
 ]
 
@@ -6126,6 +6135,14 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 24205,
             "description": "I can't think of a better place to celebrate this monumental occasion than ending this campaign in New York City. Tell Senator Clinton and Schumer we're on our way, and see if Mayor Bloomberg is willing to celebrate with us."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 24223,
+        "fields": {
+            "question": 24222,
+            "description": "The United States can no longer play coy in the face of an apparent resurgence of Cold War attitudes. It is time for us to accept our national responsibility and destroy Putin's regime. Saving Georgia is our top priority.\n"
         }
     }
 ]
@@ -18277,6 +18294,16 @@ campaignTrail_temp.answer_score_global_json = [
             "affected_candidate": 201,
             "global_multiplier": 0.01
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 24225,
+        "fields": {
+            "answer": 24223,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.06
+        }
     }
 ]
 
@@ -21629,6 +21656,16 @@ campaignTrail_temp.answer_score_issue_json = [
             "issue": "100",
             "issue_score": 0.8,
             "issue_importance": 7
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 24226,
+        "fields": {
+            "answer": 24223,
+            "issue": 102,
+            "issue_score": -1,
+            "issue_importance": 14
         }
     }
 ]
@@ -36337,6 +36374,15 @@ campaignTrail_temp.answer_feedback_json = [
             "candidate": 201,
             "answer_feedback": "New Yorkers cheer and cry as you hold one last rally at Madison Square Garden shortly after paying respects to Ground Zero. The crowd was filled with happy faces, disguising the great pain felt that day. With optimism shooting upwards, it's your job to make sure America no longer punishes the world for what happened on September 11th. "
         }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 24224,
+        "fields": {
+            "answer": 24223,
+            "candidate": 201,
+            "answer_feedback": "Ignoring loud opposition from Congress claiming you don't have a right to start a war like this, you take full advantage of your predecessor's work in getting a blank check to combat terror, and you have all the reason to call Russia a terrorist state. Soon, you engulf the war in an unfathomable fire that may never rest."
+        }
     }
 ]
 
@@ -36396,6 +36442,7 @@ var Blackwater = 0;
 var Schiavo = 0;
 var Hunt = 0;
 var Kill = 0;
+var War = 0;
 var speakerDetermined = false;
 var foeDetermined = false;
 e.noCounter = 0
@@ -36450,7 +36497,7 @@ function updateQuestionBanner() {
     }
     if(Dem == 2 && Opp == 1)
     {
-        img.src = 'https://i.imgur.com/FXylfRq.jpg';
+        img.src = 'https://i.imgur.com/uNpfiem.jpeg';
     }
     if(Dem == 3 && Opp == 1)
     {
@@ -37151,6 +37198,18 @@ cyoAdventure = function(a) {
     if(ans == 21566 ){
         Opp += 1;
     }
+    if(ans == 24150 ){
+        Opp += 1;
+    }
+    if(ans == 24154 ){
+        Opp += 1;
+    }
+    if(ans == 24158 ){
+        Opp += 1;
+    }
+    if(ans == 24162 ){
+        Opp += 1;
+    }
 
     ///my schizo way of getting clark banner back
 
@@ -37520,6 +37579,9 @@ if (e.noCounter == 21) {
     }
 }
 
+    if(ans == 24162 ){
+        War += 1;
+    }
 
 if (e.noCounter == 22) {
     if (Dem == 1) {
@@ -37934,7 +37996,10 @@ if (e.noCounter == 26) {
     }
 
 if (e.noCounter == 27) {
-    if (Kill > 0 && Dem > 0) {
+    if (War > 0 && Dem > 0) {
+        campaignTrail_temp.questions_json[27] = tunnel(24222); 
+    }
+    else if (Kill > 0 && Dem > 0) {
         campaignTrail_temp.questions_json[27] = tunnel(24205); 
     }
     else if (Russia > 3 && Cyber < 1 && Dem > 0) {
