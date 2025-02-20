@@ -40514,7 +40514,7 @@ if (e.noCounter == 27) {
     else if (Dem == 7) {
         campaignTrail_temp.questions_json[27] = tunnel(22937); 
     }
-    else if (Dem == 8) {
+    else if (Dem == 8 && Heart == 1) {
         campaignTrail_temp.questions_json[27] = tunnel(24354); 
     }
     else if (Dem == 8) {
