@@ -21746,7 +21746,7 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 20976,
             "issue": 102,
             "issue_score": 0.5,
-            "issue_importance": 8
+            "issue_importance": 2
         }
     },
     {
@@ -21756,7 +21756,7 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 21012,
             "issue": 102,
             "issue_score": -0.7,
-            "issue_importance": 7
+            "issue_importance": 2
         }
     },
     {
@@ -23806,7 +23806,7 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 20975,
             "issue": 100,
             "issue_score": 0.9,
-            "issue_importance": 8
+            "issue_importance": 3
         }
     },
     {
@@ -23816,7 +23816,7 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 20977,
             "issue": 102,
             "issue_score": -0.7,
-            "issue_importance": 7
+            "issue_importance": 2
         }
     },
     {
@@ -23856,7 +23856,7 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 21009,
             "issue": 100,
             "issue_score": 0.7,
-            "issue_importance": 7
+            "issue_importance": 2
         }
     },
     {
@@ -23866,7 +23866,7 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 21017,
             "issue": 102,
             "issue_score": 0.5,
-            "issue_importance": 5
+            "issue_importance": 2
         }
     },
     {
@@ -25576,7 +25576,7 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 20978,
             "issue": 100,
             "issue_score": 0.5,
-            "issue_importance": 5
+            "issue_importance": 2
         }
     },
     {
@@ -25586,7 +25586,7 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 25346,
             "issue": 100,
             "issue_score": 0.9,
-            "issue_importance": 8
+            "issue_importance": 2
         }
     },
     {
@@ -25596,7 +25596,7 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 25350,
             "issue": 102,
             "issue_score": 0.5,
-            "issue_importance": 8
+            "issue_importance": 2
         }
     },
     {
@@ -25606,7 +25606,7 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 25355,
             "issue": 102,
             "issue_score": -0.7,
-            "issue_importance": 7
+            "issue_importance": 2
         }
     },
     {
@@ -25616,7 +25616,7 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 25360,
             "issue": 100,
             "issue_score": 0.5,
-            "issue_importance": 5
+            "issue_importance": 2
         }
     },
     {
@@ -25676,7 +25676,7 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 21020,
             "issue": 100,
             "issue_score": 0.5,
-            "issue_importance": 6
+            "issue_importance": 2
         }
     },
     {
@@ -25686,7 +25686,7 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 25395,
             "issue": 100,
             "issue_score": 0.7,
-            "issue_importance": 7
+            "issue_importance": 2
         }
     },
     {
@@ -25696,7 +25696,7 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 25399,
             "issue": 102,
             "issue_score": -0.7,
-            "issue_importance": 7
+            "issue_importance": 2
         }
     },
     {
@@ -25706,7 +25706,7 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 25403,
             "issue": 102,
             "issue_score": 0.5,
-            "issue_importance": 5
+            "issue_importance": 2
         }
     },
     {
@@ -25716,7 +25716,7 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 25408,
             "issue": 100,
             "issue_score": 0.5,
-            "issue_importance": 6
+            "issue_importance": 2
         }
     },
     {
