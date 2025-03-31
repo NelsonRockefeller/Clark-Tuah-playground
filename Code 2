@@ -46143,10 +46143,10 @@ cyoAdventure = function(a) {
     }
 
     //neoliberling
-    if (ans == 24797 || ans == 22853 || ans == 20773 || ans == 20902 || ans == 22456 || ans == 22460 || ans == 22761 || ans == 22765 || ans == 24052 || ans == 24056 || ans == 24170 || ans == 5149 || ans == 22035 || ans == 22039 || ans == 24035 || ans == 24039) {
+    if (ans == 20946 ||ans == 24797 || ans == 22853 || ans == 20773 || ans == 20902 || ans == 22456 || ans == 22460 || ans == 22765 || ans == 24052 || ans == 24056 || ans == 24170 || ans == 5149 || ans == 22035 || ans == 22039 || ans == 24035 || ans == 24039) {
         Neo += 1;
     } 
-    if (ans == 22768 || ans == 20747 || ans == 5262) {
+    if (ans == 22768 || ans == 20747 || ans == 5262 || ans == 22761) {
         Neo += 2;
     }
 
@@ -46314,7 +46314,7 @@ cyoAdventure = function(a) {
     }
 
     ///my schizo way of getting clark banner back
-    if(ans == 22725 || ans == 22728 || ans == 22732 || ans == 22735 || ans == 22742 || ans == 22743 || ans == 22744 || ans == 22745 || ans == 22794 || ans == 22795 || ans == 22796 || ans == 22797 || ans == 22892 || ans == 22896 || ans == 22900 || ans == 22904 || ans == 22943 || ans == 22947 || ans == 22951 || ans == 22955 || ans == 22982 || ans == 22986 || ans == 22990 || ans == 22994 || ans == 23002 || ans == 23006 || ans == 23010 || ans == 23014 || ans == 23018 || ans == 23022 || ans == 23026 || ans == 24555 || ans == 24556 || ans == 24557 || ans == 24558 || ans == 24806 || ans == 24812 || ans == 24818 || ans == 24824) {
+    if(ans == 22725 || ans == 22728 || ans == 22732 || ans == 22735 || ans == 22742 || ans == 22743 || ans == 22744 || ans == 22745 || ans == 22794 || ans == 22795 || ans == 22796 || ans == 22797 || ans == 22892 || ans == 22896 || ans == 22900 || ans == 22904 || ans == 22943 || ans == 22947 || ans == 22951 || ans == 22955 || ans == 22982 || ans == 22986 || ans == 22990 || ans == 22994 || ans == 23002 || ans == 23006 || ans == 23010 || ans == 23014 || ans == 23018 || ans == 23022 || ans == 23026 || ans == 24555 || ans == 24556 || ans == 24557 || ans == 24558 || ans == 24806 || ans == 24812 || ans == 24818 || ans == 24824 || ans == 25190 || ans == 25194 || ans == 25198 || ans == 25202) {
         Back += 1;
     }
 
@@ -46739,7 +46739,7 @@ cyoAdventure = function(a) {
 
     /// you have enough nato cred to send troops to georgia or managing iran
     if (e.noCounter == 21) {
-        if (e.player_answers.includes(25094)) {
+        if (e.player_answers.includes(25094) && Nato < 20) {
             campaignTrail_temp.questions_json[21] = tunnel(25150);
         }
         if (Germany == 0 || France == 0) {
