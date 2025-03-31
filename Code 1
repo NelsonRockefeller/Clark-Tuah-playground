@@ -381,6 +381,10 @@ body {
 #headquarter_button {
   margin-left: 5px;
 }
+ 
+.game_header {
+    max-height: 60px;
+}
 
 #game_window {
   max-width: 1000px;
