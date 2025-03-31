@@ -30,7 +30,7 @@ campaignTrail_temp.election_json = [
         "model": "campaign_trail.election",
         "pk": 20,
         "fields": {
-            "year": 2016,
+            "year": 2008,
             "summary": "The post-9/11 era saw a desperate Democratic Party cowardly pivot toward the center and bow to the Bush Administration's whims. Harbingers of War hell-bent on abusing the mandate bestowed by tragedy led to a crowded but divided opposition. Looking outward for an answer of any kind, the Democrats poached General Wesley K. Clark, who quickly rose to the challenge, beating out weak fringe candidates and, against all the odds, beating President George W. Bush.\n<p>\nWith victory secured, he must take on new conquests, mapping his way through entrenched party lines in Congress or skipping the swamps to repair the alliances that Bush torched. However, as the economy begins to show signs of worry, it's unknown whether he'll be able to fly toward an easy victory.",
             "image_url": "https://i.imgur.com/sMZXhCd.gif",
             "winning_electoral_vote_number": 270,
@@ -219,6 +219,16 @@ credits = function() {
   alert(text)
 }
 
+campaignTrail_temp.modBoxTheme = {
+  "header_color": "#17376b",
+  "header_text_color": "#FFFFFF",
+  "description_text_color": "#FFFFFF",
+  "description_background_color": "#17376b",
+  "main_color": "#17376b",
+  "secondary_color": "#5D7397",
+  "ui_text_color": "#FFFFFF"
+}
+
 jet_data = {
     "headerColor": "#17376b",
     "windowColor": "#17376b",
@@ -290,7 +300,7 @@ document.head.innerHTML += `<style>
   padding: 10px; /* Add padding for better spacing */
   font-weight: 700;
   font-size: 1.5em;
-  background: rgba(23, 55, 107, 0.3); /* Near-clear dark blue background */
+  background: rgba(23, 55, 107, 0.5); /* Near-clear dark blue background */
   backdrop-filter: blur(10px); /* Frosted glass effect */
   -webkit-backdrop-filter: blur(10px); /* For Safari support */
   color: #fff; /* White text */
@@ -343,6 +353,33 @@ body {
   display: flex !important;
   font-family: "Segoe UI", Segoe, Tahoma, Geneva, Verdana, sans-serif !important;
   color: #000000 !important;
+}
+
+#map_footer {
+  position: relative;
+  top: 20px; /* Adjust the value as needed */
+}
+
+.inner_window_question {
+  height: 340px; /* Fixed height */
+  position: relative; /* Needed for absolute button positioning */
+}
+
+/* Button container styles */
+#answer_select_button,
+#view_electoral_map,
+#headquarter_button {
+  margin-top: 12px;  /* Magic property that pushes to bottom */
+  align-self: flex-start;
+}
+
+/* Optional: Add spacing between buttons */
+#view_electoral_map {
+  margin-left: 5px;
+}
+
+#headquarter_button {
+  margin-left: 5px;
 }
 
 #game_window {
@@ -450,7 +487,7 @@ addDynamicCSS();
     {searchString: "Daschle", explanationText: "<img src=https://i.imgur.com/yQV5dHj_d.png?maxwidth=520&shape=thumb&fidelity=high> He has much to thank you for, from saving his career to getting him a promotion. He's your Senate Majority Leader and if you lead the country well, he'll keep his job throughout your term."},
     {searchString: "Kerry", explanationText: "<img src=https://i.imgur.com/tIs5HFA.png> Took a heavy loss in Iowa, but hey, he's a good sport, and joined the administration moments after being asked. He previously represented Massachusetts in the United States Senate from 1985 to 2005 and will now serve as a guiding hand of your administration."},
     {searchString: "Limbaugh", explanationText: "<img src=https://i.imgur.com/wWf3fIs.png> Putrid being, called Landrieu a “high priced prostitute” for her efforts in getting Hurricane Katrina aid."},
-    {searchString: "Dellinger ", explanationText: "<img src=https://i.imgur.com/fPwZvBM.jpeg> Your Attorney General made his mark during the Clinton years and has since established friendships with Supreme Court Justices like Stephen Bryer. He's a well-suited man for the job of fighting against hate wherever it presents itself."},
+    {searchString: "Dellinger", explanationText: "<img src=https://i.imgur.com/fPwZvBM.jpeg> Your Attorney General made his mark during the Clinton years and has since established friendships with Supreme Court Justices like Stephen Bryer. He's a well-suited man for the job of fighting against hate wherever it presents itself."},
     {searchString: "Altman", explanationText: "<img src=https://i.imgur.com/XXEYxyT.png> He may have fired you but damn are Clinton's people useful. Roger Altman is an American investment banker, and former Deputy Secretary of the Treasury under Bill Clinton."},
     {searchString: "Religious Freedom Doctrine", explanationText: "<img src=https://i.imgur.com/j5Eq0Ps.png> The Bible's answer to solving all problems, by letting them fester in the background."},
     {searchString: "Terri Schiavo Case", explanationText: "<img src=https://i.imgur.com/QfY3x33.png> series of court and legislative actions in the United States from 1998 to 2005, regarding the care of Theresa Marie Schiavo, a woman in an irreversible persistent vegetative state."},   
