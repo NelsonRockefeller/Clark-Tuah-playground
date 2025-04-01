@@ -45835,7 +45835,11 @@ function updateQuestionBanner() {
     {
         img.src = 'https://i.imgur.com/0DuAQAe.jpg';
     }
-    if(Dem == 5 && Opp == 1 && Neo > 9)
+    if(Dem == 5 && Opp == 1 && e.player_answers.includes(25094))
+    {
+        img.src = 'https://i.imgur.com/sBqfc9O.jpg';
+    }
+    else if(Dem == 5 && Opp == 1 && Neo > 9)
     {
         img.src = 'https://i.imgur.com/JkRw8cA.png';
     }
@@ -46683,7 +46687,7 @@ cyoAdventure = function(a) {
         if (Dem == 1) {
             campaignTrail_temp.questions_json[19] = tunnel(21319); 
         }
-        if (Dem == 2 && Nato < 3) {
+        if (Dem == 2 && Nato > 3) {
             campaignTrail_temp.questions_json[19] = tunnel(25372); 
         }
         if (Dem == 2) {
@@ -46761,9 +46765,6 @@ cyoAdventure = function(a) {
             updateByPK(campaignTrail_temp.answers_json, 25164, 'description', "If we allow Prime Minister Al-Maliki to play fortress with the Iraqi Congress, we'll be in deep trouble. Clinton and Levin have the right idea: The prime Minister has to go. Pressure the Iraqi Congress to have him removed—whatever it takes.");
             updateByPK(campaignTrail_temp.answer_feedback_json, 25165, 'answer_feedback', "Iraq's Prime Minister has been a recurring problem for your administration, so it's no surprise that you'd reject their democracy at the first opportunity. However, Maliki used his leverage with the Iraqi Congress to argue that he was the only man who could stop Clark's authoritarian exercise.");
             updateByPK(campaignTrail_temp.answer_score_global_json, 25166, 'global_multiplier', "-0.03");
-        } 
-        else if (e.player_answers.includes(25094) && Nato < 3) {
-            campaignTrail_temp.questions_json[21] = tunnel(25170);
         } 
         else if (Nato < 20) {
             campaignTrail_temp.questions_json[21] = tunnel(24149);
