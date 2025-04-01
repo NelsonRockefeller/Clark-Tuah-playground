@@ -7415,6 +7415,190 @@ campaignTrail_temp.answers_json = [
             "question": 25394,
             "description": "All across the country, I hear the cry for help. Despite constant assurances from bad actors, the economy has failed to meet the needs of the American people. Under my continued leadership, we will pursue rapid economic reforms and eliminate the loopholes left by years of deregulation!"
         }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 26669,
+        "fields": {
+            "question": 9999,
+            "description": "We need a willing coalition to save Georgia. This is more than a regional problem. Let's discuss a possible united coalition with the British and French to help Georgia take on the Russian Menace."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 241541,
+        "fields": {
+            "question": 9999,
+            "description": "Reagan faced a similar threat of Russian aggression, and I will deal with it much to his tune by uniting NATO and the rest of the world to condemn and sanction Russia for its brutal and illegal invasion of Georgia!"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 241542,
+        "fields": {
+            "question": 9999,
+            "description": "Reagan faced a similar threat of Russian aggression, and I will deal with it much to his tune by uniting NATO and the rest of the world to condemn and sanction Russia for its brutal and illegal invasion of Georgia!"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 241502,
+        "fields": {
+            "question": 9999,
+            "description": "Back in Kosovo, we learned how to end a brutal conflict by making bold and sometimes controversial moves. There was a lot of pushback from Cohen then, but Georgia's independence is a non-negotiable now. I want our ships in the Black Sea to make a statement."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 241582,
+        "fields": {
+            "question": 9999,
+            "description": "The French have the right idea: This has to be negotiated into an immediate peace settlement as soon as possible. Putin knows what we want, and I know what he wants. Let's come to the table and settle this like men before this mess gets any hotter."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 251522,
+        "fields": {
+            "question": 9999,
+            "description": "NATO needs to unite against Iran. By the looks of it, this sounds similar to my predecessor's actions, but we have the justification this time and the credibility to back up the facts presented. Let's meet with Sarkozy and Merkel to cool relations."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 251562,
+        "fields": {
+            "question": 9999,
+            "description": "Turkey has the most to gain in the vacuum left by Iran's fall. Once we take out the Shia Muslim's rallying flag, Syria will be declared open for business by the Sunnis essentially. Erdogan and Gül must back our efforts if they want a good piece of the pie."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 251602,
+        "fields": {
+            "question": 9999,
+            "description": "Since World War 1, America and the United Kingdom have had a special bond. Our alliance goes beyond convenience and is a sort of sibling-like relationship. It's unbreakable, and my friend Prime Minister Gordon Brown has been an invaluable friend. I'm sure they are willing to join us."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 251642,
+        "fields": {
+            "question": 9999,
+            "description": "If we allow Prime Minister Al-Maliki to play fortress with the Iraqi Congress, we'll be in deep trouble. Clinton and Levin have the right idea: The prime Minister has to go. Pressure the Iraqi Congress to have him removed—whatever it takes."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 209752,
+        "fields": {
+            "question": 9999,
+            "description": "The Democratic Party has consistently been the party that gets things done. From Roosevelt to Kennedy, today, we stand united in the face of crisis with an accomplished record to back us as we move forward, confronting the recession and delivering a second term defined by a New American Patriotism!"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 209762,
+        "fields": {
+            "question": 9999,
+            "description": "My administration's success deserves loyalty. I've done nothing but scratch the back of the party establishment. I expect them to come swinging for me. I want Senators Clinton, Biden, and Kennedy to sing my praises."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 209772,
+        "fields": {
+            "question": 9999,
+            "description": "Sixty-one years ago, when America first faced its responsibilities as the world's dominant power, Winston Churchill came to our shores to deliver a warning and to call us to a higher purpose. I have delivered on that higher purpose by uniting NATO against terrorism."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 209782,
+        "fields": {
+            "question": 9999,
+            "description": "All across the country, I hear the cry for help. Despite constant assurances from bad actors, the economy has failed to meet the needs of the American people. Under my continued leadership, we will pursue rapid economic reforms and eliminate the loopholes left by years of deregulation!"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 253462,
+        "fields": {
+            "question": 9999,
+            "description": "The Democratic Party has consistently been the party that gets things done. From Roosevelt to Kennedy, today, we stand united in the face of crisis with an accomplished record to back us as we move forward, confronting the recession and delivering a second term defined by a New American Patriotism!"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 253502,
+        "fields": {
+            "question": 9999,
+            "description": "My administration's success deserves loyalty. I've done nothing but scratch the back of the party establishment. I expect them to come swinging for me. I want Senators Clinton, Biden, and Kennedy to sing my praises."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 253552,
+        "fields": {
+            "question": 9999,
+            "description": "Sixty-one years ago, when America first faced its responsibilities as the world's dominant power, Winston Churchill came to our shores to deliver a warning and to call us to a higher purpose. I have delivered on that higher purpose by uniting NATO against terrorism."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 253602,
+        "fields": {
+            "question": 9999,
+            "description": "All across the country, I hear the cry for help. Despite constant assurances from bad actors, the economy has failed to meet the needs of the American people. Under my continued leadership, we will pursue rapid economic reforms and eliminate the loopholes left by years of deregulation!"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 210092,
+        "fields": {
+            "question": 9999,
+            "description": "The Democratic Party has consistently been the party that gets things done. From Roosevelt to Kennedy, today, we stand united in the face of crisis with an accomplished record to back us as we move forward, confronting the recession and delivering a second term defined by a New American Patriotism!"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 210122,
+        "fields": {
+            "question": 9999,
+            "description": "Sixty-one years ago, when America first faced its responsibilities as the world's dominant power, Winston Churchill came to our shores to deliver a warning and to call us to a higher purpose. I have delivered on that higher purpose by uniting NATO against terrorism."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 210202,
+        "fields": {
+            "question": 9999,
+            "description": "All across the country, I hear the cry for help. Despite constant assurances from bad actors, the economy has failed to meet the needs of the American people. Under my continued leadership, we will pursue rapid economic reforms and eliminate the loopholes left by years of deregulation!"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 253952,
+        "fields": {
+            "question": 9999,
+            "description": "The Democratic Party has consistently been the party that gets things done. From Roosevelt to Kennedy, today, we stand united in the face of crisis with an accomplished record to back us as we move forward, confronting the recession and delivering a second term defined by a New American Patriotism!"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 253992,
+        "fields": {
+            "question": 9999,
+            "description": "Sixty-one years ago, when America first faced its responsibilities as the world's dominant power, Winston Churchill came to our shores to deliver a warning and to call us to a higher purpose. I have delivered on that higher purpose by uniting NATO against terrorism."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 254082,
+        "fields": {
+            "question": 9999,
+            "description": "All across the country, I hear the cry for help. Despite constant assurances from bad actors, the economy has failed to meet the needs of the American people. Under my continued leadership, we will pursue rapid economic reforms and eliminate the loopholes left by years of deregulation!"
+        }
     }
 ]
 
@@ -21244,6 +21428,236 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 201,
             "affected_candidate": 201,
             "global_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 24164,
+        "fields": {
+            "answer": 26669,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 24156,
+        "fields": {
+            "answer": 241541,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 241562,
+        "fields": {
+            "answer": 241542,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 241522,
+        "fields": {
+            "answer": 241502,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 241602,
+        "fields": {
+            "answer": 241582,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 251542,
+        "fields": {
+            "answer": 251522,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 251582,
+        "fields": {
+            "answer": 251562,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 251622,
+        "fields": {
+            "answer": 251602,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 251662,
+        "fields": {
+            "answer": 251642,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 209802,
+        "fields": {
+            "answer": 209752,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.025
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 209852,
+        "fields": {
+            "answer": 209762,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 235112,
+        "fields": {
+            "answer": 209772,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 209892,
+        "fields": {
+            "answer": 209782,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 253482,
+        "fields": {
+            "answer": 253462,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.025
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 253532,
+        "fields": {
+            "answer": 253502,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 253582,
+        "fields": {
+            "answer": 253552,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 253622,
+        "fields": {
+            "answer": 253602,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 210112,
+        "fields": {
+            "answer": 210092,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.025
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 210152,
+        "fields": {
+            "answer": 210122,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 210232,
+        "fields": {
+            "answer": 210202,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 253972,
+        "fields": {
+            "answer": 253952,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.025
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 254012,
+        "fields": {
+            "answer": 253992,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 254102,
+        "fields": {
+            "answer": 254082,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.03
         }
     }
 ]
@@ -45707,6 +46121,213 @@ campaignTrail_temp.answer_feedback_json = [
             "candidate": 201,
             "answer_feedback": "With a Democratic Congress behind you working around the clock to deliver relief to the American people, you look confident and ready to take on the coming storm. Followed by the first female speaker of the House, Nancy Pelosi, conducting a symphony of cheers, optimism remains high as you steady the ship."
         }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 24163,
+        "fields": {
+            "answer": 26669,
+            "candidate": 201,
+            "answer_feedback": "Your allies think you're a lunatic as an international crisis, much like the one you barely avoided in 1999, begins to unravel. They don't want to start World War Three for you."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 24155,
+        "fields": {
+            "answer": 241541,
+            "candidate": 201,
+            "answer_feedback": "Feckless members like Germany's Chancellor Merkel, who is unwilling to take a side beyond claiming that both sides are probably to blame. With NATO's divisions hitting the center of Europe, the idea of a coordinated response falls apart, and so does the far-fetched notion of international condemnation."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 241552,
+        "fields": {
+            "answer": 241542,
+            "candidate": 201,
+            "answer_feedback": "After four years of Bush, it was unlikely that a day like this would come, but the reinstated credibility you've brought to the Oval Office has borne its fruits. Bringing NATO under your wing was easy, but neutral nations like Brazil, Argentina, and other South American countries, along with nations in Africa and Southeast Asia, joined in on Georgia's side. While it's unlikely to stop the invasion, you've garnered a powerful coalition of the willing."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 241512,
+        "fields": {
+            "answer": 241502,
+            "candidate": 201,
+            "answer_feedback": "Turkey kills this idea in the cutting room, promising to stop American warships from piling through the Bosphorus. Turkish President Abdullah Gül tells you he's not as eager to start a third World War as you. No aid, no ships, nothing; they will allow nothing."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 241592,
+        "fields": {
+            "answer": 241582,
+            "candidate": 201,
+            "answer_feedback": "President Sarkozy spearheads another round of calls for an immediate ceasefire and peace settlement. Putin smells weakness in the alliance and orders his troops to keep pushing, knowing total victory is possible. At a press conference, you threaten to use military and economic force to bring Putin to the negotiating table. There has been no reply on that front, either."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 251532,
+        "fields": {
+            "answer": 251522,
+            "candidate": 201,
+            "answer_feedback": "When hellfire rained over Baghdad, France and Germany were the first of the NATO lineup to voice their opposition. Begging them to ignore the obvious delight against natural order is asking a lot of the alliance. While moving through France, a local protester drenches your suit with a milkshake. As the police arrest him, he calls you a criminal."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 251572,
+        "fields": {
+            "answer": 251562,
+            "candidate": 201,
+            "answer_feedback": "Turkey knows its position well and is always looking to exploit it. With its own ongoing oil crisis and its energy deal being cut short with Iran, Turkey demands many concessions that you aren't willing to give. It only commits the necessary help and intelligence to appease the press."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 251612,
+        "fields": {
+            "answer": 251602,
+            "candidate": 201,
+            "answer_feedback": "Brown, burdened by waning political capital and still recovering from the wounds left by Blair's exit, is very hesitant to stand by your conquest through the Middle East. He's planning to lead his party to reelection, too, tip-toeing the line, afraid to make the wrong move. He only delivers best wishes."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 251652,
+        "fields": {
+            "answer": 251642,
+            "candidate": 201,
+            "answer_feedback": "Iraq's Prime Minister has been a recurring problem for your administration, so it's no surprise that you'd reject their democracy at the first opportunity. However, Maliki used his leverage with the Iraqi Congress to argue that he was the only man who could stop Clark's authoritarian exercise."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 209792,
+        "fields": {
+            "answer": 209752,
+            "candidate": 201,
+            "answer_feedback": "Before you stand a tired crowd, tired of words with nothing to follow them, promises that aren't kept. You speak of these great accomplishments, but where are they? Much of what you promised to accomplish has yet to come to fruition, and you expect them to hand you another four long and arguably more tumultuous years while you have little to show thus far."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 209812,
+        "fields": {
+            "answer": 209762,
+            "candidate": 201,
+            "answer_feedback": "Before you stand a tired crowd, tired of words with nothing to follow them, promises that aren't kept. You speak of these great accomplishments, but where are they? Much of what you promised to accomplish has yet to come to fruition, and you expect them to hand you another four long and arguably more tumultuous years while you have little to show thus far."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 209832,
+        "fields": {
+            "answer": 209772,
+            "candidate": 201,
+            "answer_feedback": "Around the podium you speak from resides a disheveled and hurting people; at their lowest moment, you beseech them to look abroad. An enormous economic crisis has uprooted their homes, bank accounts, and livelihoods, and their president shouts of foreign enemies abroad. The crowd leaves the convention wanting much more."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 209872,
+        "fields": {
+            "answer": 209782,
+            "candidate": 201,
+            "answer_feedback": "Asking for confidence in your ability to lead the way is already challenging, but below you resides a bickering congressional apparatus that they wouldn't trust to run a hot dog stand. Trust is long gone, and so is much of your mandate to barter with it."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 253472,
+        "fields": {
+            "answer": 253462,
+            "candidate": 201,
+            "answer_feedback": "Before you stand a tired crowd, tired of words with nothing to follow them, promises that aren't kept. You speak of these great accomplishments, but where are they? Much of what you promised to accomplish has yet to come to fruition, and you expect them to hand you another four long and arguably more tumultuous years while you have little to show thus far."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 253512,
+        "fields": {
+            "answer": 253502,
+            "candidate": 201,
+            "answer_feedback": "Before you stand a tired crowd, tired of words with nothing to follow them, promises that aren't kept. You speak of these great accomplishments, but where are they? Much of what you promised to accomplish has yet to come to fruition, and you expect them to hand you another four long and arguably more tumultuous years while you have little to show thus far."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 253562,
+        "fields": {
+            "answer": 253552,
+            "candidate": 201,
+            "answer_feedback": "Around the podium you speak from resides a disheveled and hurting people; at their lowest moment, you beseech them to look abroad. An enormous economic crisis has uprooted their homes, bank accounts, and livelihoods, and their president shouts of foreign enemies abroad. The crowd leaves the convention wanting much more."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 253612,
+        "fields": {
+            "answer": 253602,
+            "candidate": 201,
+            "answer_feedback": "Asking for confidence in your ability to lead the way is already challenging, but below you resides a bickering congressional apparatus that they wouldn't trust to run a hot dog stand. Trust is long gone, and so is much of your mandate to barter with it."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 210102,
+        "fields": {
+            "answer": 210092,
+            "candidate": 201,
+            "answer_feedback": "Before you stand a tired crowd, tired of words with nothing to follow them, promises that aren't kept. You speak of these great accomplishments, but where are they? Much of what you promised to accomplish has yet to come to fruition, and you expect them to hand you another four long and arguably more tumultuous years while you have little to show thus far."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 210132,
+        "fields": {
+            "answer": 210122,
+            "candidate": 201,
+            "answer_feedback": "Around the podium you speak from resides a disheveled and hurting people; at their lowest moment, you beseech them to look abroad. An enormous economic crisis has uprooted their homes, bank accounts, and livelihoods, and their president shouts of foreign enemies abroad. The crowd leaves the convention wanting much more."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 210212,
+        "fields": {
+            "answer": 210202,
+            "candidate": 201,
+            "answer_feedback": "Asking for confidence in your ability to lead the way is already challenging, but below you resides a bickering congressional apparatus that they wouldn't trust to run a hot dog stand. Trust is long gone, and so is much of your mandate to barter with it."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 253962,
+        "fields": {
+            "answer": 253952,
+            "candidate": 201,
+            "answer_feedback": "Before you stand a tired crowd, tired of words with nothing to follow them, promises that aren't kept. You speak of these great accomplishments, but where are they? Much of what you promised to accomplish has yet to come to fruition, and you expect them to hand you another four long and arguably more tumultuous years while you have little to show thus far."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 254002,
+        "fields": {
+            "answer": 253992,
+            "candidate": 201,
+            "answer_feedback": "Around the podium you speak from resides a disheveled and hurting people; at their lowest moment, you beseech them to look abroad. An enormous economic crisis has uprooted their homes, bank accounts, and livelihoods, and their president shouts of foreign enemies abroad. The crowd leaves the convention wanting much more."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 254092,
+        "fields": {
+            "answer": 254082,
+            "candidate": 201,
+            "answer_feedback": "Asking for confidence in your ability to lead the way is already challenging, but below you resides a bickering congressional apparatus that they wouldn't trust to run a hot dog stand. Trust is long gone, and so is much of your mandate to barter with it."
+        }
     }
 ]
 
@@ -45835,11 +46456,7 @@ function updateQuestionBanner() {
     {
         img.src = 'https://i.imgur.com/0DuAQAe.jpg';
     }
-    if(Dem == 5 && Opp == 1 && e.player_answers.includes(25094))
-    {
-        img.src = 'https://i.imgur.com/sBqfc9O.jpg';
-    }
-    else if(Dem == 5 && Opp == 1 && Neo > 9)
+    if(Dem == 5 && Opp == 1 && Neo > 9)
     {
         img.src = 'https://i.imgur.com/JkRw8cA.png';
     }
@@ -45878,17 +46495,18 @@ function tunnel(new_q){
     return e.questions_json[e.questions_json.map(f=>f.pk).indexOf(new_q)];
 } 
 
-
-function updateByPK(array, pk, updateKey, newValue) {
-
-    const index = array.findIndex(obj => obj.pk === pk);
-  
-    if (index !== -1) {
-      array[index].fields[updateKey] = newValue;
-      console.log("Object updated:", array[index]);
-    } else {
-      console.log("Object with the specified PK not found.");
-    }
+function swapAnswers(answersArray, targetQuestionId, answerToDisablePk, replacementAnswerPk, fakeQuestionId) {
+    answersArray.forEach(answer => {
+        // Disable original answer by moving it to fake question
+        if (answer.pk === answerToDisablePk && answer.fields.question === targetQuestionId) {
+            answer.fields.question = fakeQuestionId;
+        }
+        
+        // Enable hidden answer by assigning to target question
+        if (answer.pk === replacementAnswerPk) {
+            answer.fields.question = targetQuestionId;
+        }
+    });
 }
 
 //Clark coloor
@@ -46457,82 +47075,40 @@ cyoAdventure = function(a) {
     if (e.noCounter == 13) {
         if (Troops > 0 && Fred > 0) {
             campaignTrail_temp.questions_json[13] = tunnel(20974);
-            if (Agenda < 4) {
-                updateByPK(campaignTrail_temp.answers_json, 20975, 'description', "The Democratic Party has consistently been the party that gets things done. From Roosevelt to Kennedy, today, we stand united in the face of crisis with an accomplished record to back us as we move forward, confronting the recession and delivering a second term defined by a New American Patriotism!");
-                updateByPK(campaignTrail_temp.answer_feedback_json, 20979, 'answer_feedback', "Before you stand a tired crowd, tired of words with nothing to follow them, promises that aren't kept. You speak of these great accomplishments, but where are they? Much of what you promised to accomplish has yet to come to fruition, and you expect them to hand you another four long and arguably more tumultuous years while you have little to show thus far.");
-                updateByPK(campaignTrail_temp.answer_score_global_json, 20980, 'global_multiplier', "-0.025");
-            }
-            if (Neo < 6) {
-                updateByPK(campaignTrail_temp.answers_json, 20976, 'description', "My administration's success deserves loyalty. I've done nothing but scratch the back of the party establishment. I expect them to come swinging for me. I want Senators Clinton, Biden, and Kennedy to sing my praises.");
-                updateByPK(campaignTrail_temp.answer_feedback_json, 20981, 'answer_feedback', "Before you stand a tired crowd, tired of words with nothing to follow them, promises that aren't kept. You speak of these great accomplishments, but where are they? Much of what you promised to accomplish has yet to come to fruition, and you expect them to hand you another four long and arguably more tumultuous years while you have little to show thus far.");
-                updateByPK(campaignTrail_temp.answer_score_global_json, 20985, 'global_multiplier', "-0.03");
-            }
-            if (Nato < 6) {
-                updateByPK(campaignTrail_temp.answers_json, 20977, 'description', "Sixty-one years ago, when America first faced its responsibilities as the world's dominant power, Winston Churchill came to our shores to deliver a warning and to call us to a higher purpose. I have delivered on that higher purpose by uniting NATO against terrorism.");
-                updateByPK(campaignTrail_temp.answer_feedback_json, 20983, 'answer_feedback', "Around the podium you speak from resides a disheveled and hurting people; at their lowest moment, you beseech them to look abroad. An enormous economic crisis has uprooted their homes, bank accounts, and livelihoods, and their president shouts of foreign enemies abroad. The crowd leaves the convention wanting much more.");
-                updateByPK(campaignTrail_temp.answer_score_global_json, 23511, 'global_multiplier', "-0.03");
-            }
-            if (Pelosi == 0 || Fred == 0) {
-                updateByPK(campaignTrail_temp.answers_json, 20978, 'description', "All across the country, I hear the cry for help. Despite constant assurances from bad actors, the economy has failed to meet the needs of the American people. Under my continued leadership, we will pursue rapid economic reforms and eliminate the loopholes left by years of deregulation!");
-                updateByPK(campaignTrail_temp.answer_feedback_json, 20987, 'answer_feedback', "Asking for confidence in your ability to lead the way is already challenging, but below you resides a bickering congressional apparatus that they wouldn't trust to run a hot dog stand. Trust is long gone, and so is much of your mandate to barter with it.");
-                updateByPK(campaignTrail_temp.answer_score_global_json, 20989, 'global_multiplier', "-0.03");
-            }
+                if (Agenda < 4) {
+                    swapAnswers(campaignTrail_temp.answers_json, 20974, 20975, 209752, 9999); }
+                if (Neo < 6 ) {
+                    swapAnswers(campaignTrail_temp.answers_json, 20974, 20976, 209762, 9999); }
+                if (Nato < 6 ) {
+                    swapAnswers(campaignTrail_temp.answers_json, 20974, 20977, 209772, 9999); }
+                if (Pelosi == 0 || Fred == 0) {
+                    swapAnswers(campaignTrail_temp.answers_json, 20974, 20978, 209782, 9999); }
         } else if (Troops > 0) {
             campaignTrail_temp.questions_json[13] = tunnel(25345);
-            if (Agenda < 4) {
-                updateByPK(campaignTrail_temp.answers_json, 25346, 'description', "The Democratic Party has consistently been the party that gets things done. From Roosevelt to Kennedy, today, we stand united in the face of crisis with an accomplished record to back us as we move forward, confronting the recession and delivering a second term defined by a New American Patriotism!");
-                updateByPK(campaignTrail_temp.answer_feedback_json, 25347, 'answer_feedback', "Before you stand a tired crowd, tired of words with nothing to follow them, promises that aren't kept. You speak of these great accomplishments, but where are they? Much of what you promised to accomplish has yet to come to fruition, and you expect them to hand you another four long and arguably more tumultuous years while you have little to show thus far.");
-                updateByPK(campaignTrail_temp.answer_score_global_json, 25348, 'global_multiplier', "-0.025");
-            }
-            if (Neo < 6) {
-                updateByPK(campaignTrail_temp.answers_json, 25350, 'description', "My administration's success deserves loyalty. I've done nothing but scratch the back of the party establishment. I expect them to come swinging for me. I want Senators Clinton, Biden, and Kennedy to sing my praises.");
-                updateByPK(campaignTrail_temp.answer_feedback_json, 25351, 'answer_feedback', "Before you stand a tired crowd, tired of words with nothing to follow them, promises that aren't kept. You speak of these great accomplishments, but where are they? Much of what you promised to accomplish has yet to come to fruition, and you expect them to hand you another four long and arguably more tumultuous years while you have little to show thus far.");
-                updateByPK(campaignTrail_temp.answer_score_global_json, 25353, 'global_multiplier', "-0.03");
-            }
-            if (Nato < 6) {
-                updateByPK(campaignTrail_temp.answers_json, 25355, 'description', "Sixty-one years ago, when America first faced its responsibilities as the world's dominant power, Winston Churchill came to our shores to deliver a warning and to call us to a higher purpose. I have delivered on that higher purpose by uniting NATO against terrorism.");
-                updateByPK(campaignTrail_temp.answer_feedback_json, 25356, 'answer_feedback', "Around the podium you speak from resides a disheveled and hurting people; at their lowest moment, you beseech them to look abroad. An enormous economic crisis has uprooted their homes, bank accounts, and livelihoods, and their president shouts of foreign enemies abroad. The crowd leaves the convention wanting much more.");
-                updateByPK(campaignTrail_temp.answer_score_global_json, 25358, 'global_multiplier', "-0.03");
-            }
-            if (Pelosi == 0 || Fred == 0) {
-                updateByPK(campaignTrail_temp.answers_json, 25360, 'description', "All across the country, I hear the cry for help. Despite constant assurances from bad actors, the economy has failed to meet the needs of the American people. Under my continued leadership, we will pursue rapid economic reforms and eliminate the loopholes left by years of deregulation!");
-                updateByPK(campaignTrail_temp.answer_feedback_json, 25361, 'answer_feedback', "Asking for confidence in your ability to lead the way is already challenging, but below you resides a bickering congressional apparatus that they wouldn't trust to run a hot dog stand. Trust is long gone, and so is much of your mandate to barter with it.");
-                updateByPK(campaignTrail_temp.answer_score_global_json, 25362, 'global_multiplier', "-0.03");
-            }
+                if (Agenda < 4) {
+                    swapAnswers(campaignTrail_temp.answers_json, 25345, 25346, 253462, 9999); }
+                if (Neo < 6 ) {
+                    swapAnswers(campaignTrail_temp.answers_json, 25345, 25350, 253502, 9999); }
+                if (Nato < 6 ) {
+                    swapAnswers(campaignTrail_temp.answers_json, 25345, 25355, 253552, 9999); }
+                if (Pelosi == 0 || Fred == 0) {
+                    swapAnswers(campaignTrail_temp.answers_json, 25345, 25360, 253602, 9999); }
         } else if (Notroops > 0 && Fred > 0) {
             campaignTrail_temp.questions_json[13] = tunnel(21008);
-            if (Agenda < 4) {
-                updateByPK(campaignTrail_temp.answers_json, 21009, 'description', "The Democratic Party has consistently been the party that gets things done. From Roosevelt to Kennedy, today, we stand united in the face of crisis with an accomplished record to back us as we move forward, confronting the recession and delivering a second term defined by a New American Patriotism!");
-                updateByPK(campaignTrail_temp.answer_feedback_json, 21010, 'answer_feedback', "Before you stand a tired crowd, tired of words with nothing to follow them, promises that aren't kept. You speak of these great accomplishments, but where are they? Much of what you promised to accomplish has yet to come to fruition, and you expect them to hand you another four long and arguably more tumultuous years while you have little to show thus far.");
-                updateByPK(campaignTrail_temp.answer_score_global_json, 21011, 'global_multiplier', "-0.025");
-            }
-            if (Nato < 6) {
-                updateByPK(campaignTrail_temp.answers_json, 21012, 'description', "Sixty-one years ago, when America first faced its responsibilities as the world's dominant power, Winston Churchill came to our shores to deliver a warning and to call us to a higher purpose. I have delivered on that higher purpose by uniting NATO against terrorism.");
-                updateByPK(campaignTrail_temp.answer_feedback_json, 21013, 'answer_feedback', "Around the podium you speak from resides a disheveled and hurting people; at their lowest moment, you beseech them to look abroad. An enormous economic crisis has uprooted their homes, bank accounts, and livelihoods, and their president shouts of foreign enemies abroad. The crowd leaves the convention wanting much more.");
-                updateByPK(campaignTrail_temp.answer_score_global_json, 21015, 'global_multiplier', "-0.03");
-            }
-            if (Pelosi == 0 || Fred == 0) {
-                updateByPK(campaignTrail_temp.answers_json, 21020, 'description', "All across the country, I hear the cry for help. Despite constant assurances from bad actors, the economy has failed to meet the needs of the American people. Under my continued leadership, we will pursue rapid economic reforms and eliminate the loopholes left by years of deregulation!");
-                updateByPK(campaignTrail_temp.answer_feedback_json, 21021, 'answer_feedback', "Asking for confidence in your ability to lead the way is already challenging, but below you resides a bickering congressional apparatus that they wouldn't trust to run a hot dog stand. Trust is long gone, and so is much of your mandate to barter with it.");
-                updateByPK(campaignTrail_temp.answer_score_global_json, 21023, 'global_multiplier', "-0.03");
-            }
+                if (Agenda < 4 ) {
+                    swapAnswers(campaignTrail_temp.answers_json, 21008, 21009, 210092, 9999); }
+                if (Nato < 6 ) {
+                    swapAnswers(campaignTrail_temp.answers_json, 21008, 21012, 210122, 9999); }
+                if (Pelosi == 0 || Fred == 0) {
+                    swapAnswers(campaignTrail_temp.answers_json, 21008, 21020, 210202, 9999); }
         } else if (Notroops > 0) {
             campaignTrail_temp.questions_json[13] = tunnel(25394);
-            if (Agenda < 4) {
-                updateByPK(campaignTrail_temp.answers_json, 25395, 'description', "The Democratic Party has consistently been the party that gets things done. From Roosevelt to Kennedy, today, we stand united in the face of crisis with an accomplished record to back us as we move forward, confronting the recession and delivering a second term defined by a New American Patriotism!");
-                updateByPK(campaignTrail_temp.answer_feedback_json, 25396, 'answer_feedback', "Before you stand a tired crowd, tired of words with nothing to follow them, promises that aren't kept. You speak of these great accomplishments, but where are they? Much of what you promised to accomplish has yet to come to fruition, and you expect them to hand you another four long and arguably more tumultuous years while you have little to show thus far.");
-                updateByPK(campaignTrail_temp.answer_score_global_json, 25397, 'global_multiplier', "-0.025");
-            }
-            if (Nato < 6) {
-                updateByPK(campaignTrail_temp.answers_json, 25399, 'description', "Sixty-one years ago, when America first faced its responsibilities as the world's dominant power, Winston Churchill came to our shores to deliver a warning and to call us to a higher purpose. I have delivered on that higher purpose by uniting NATO against terrorism.");
-                updateByPK(campaignTrail_temp.answer_feedback_json, 25400, 'answer_feedback', "Around the podium you speak from resides a disheveled and hurting people; at their lowest moment, you beseech them to look abroad. An enormous economic crisis has uprooted their homes, bank accounts, and livelihoods, and their president shouts of foreign enemies abroad. The crowd leaves the convention wanting much more.");
-                updateByPK(campaignTrail_temp.answer_score_global_json, 25401, 'global_multiplier', "-0.03");
-            }
-            if (Pelosi == 0 || Fred == 0) {
-                updateByPK(campaignTrail_temp.answers_json, 25408, 'description', "All across the country, I hear the cry for help. Despite constant assurances from bad actors, the economy has failed to meet the needs of the American people. Under my continued leadership, we will pursue rapid economic reforms and eliminate the loopholes left by years of deregulation!");
-                updateByPK(campaignTrail_temp.answer_feedback_json, 25409, 'answer_feedback', "Asking for confidence in your ability to lead the way is already challenging, but below you resides a bickering congressional apparatus that they wouldn't trust to run a hot dog stand. Trust is long gone, and so is much of your mandate to barter with it.");
-                updateByPK(campaignTrail_temp.answer_score_global_json, 25410, 'global_multiplier', "-0.03");
-            }
+                if (Agenda < 4 ) {
+                    swapAnswers(campaignTrail_temp.answers_json, 25394, 25395, 253952, 9999); }
+                if (Nato < 6 ) {
+                    swapAnswers(campaignTrail_temp.answers_json, 25394, 25399, 253992, 9999); }
+                if (Pelosi == 0 || Fred == 0) {
+                    swapAnswers(campaignTrail_temp.answers_json, 25394, 25408, 254082, 9999); }
         }
     }
 
@@ -46687,7 +47263,7 @@ cyoAdventure = function(a) {
         if (Dem == 1) {
             campaignTrail_temp.questions_json[19] = tunnel(21319); 
         }
-        if (Dem == 2 && Nato > 3) {
+        if (Dem == 2 && Nato < 3) {
             campaignTrail_temp.questions_json[19] = tunnel(25372); 
         }
         if (Dem == 2) {
@@ -46745,58 +47321,100 @@ cyoAdventure = function(a) {
     if (e.noCounter == 21) {
         if (e.player_answers.includes(25094) && Nato < 20) {
             campaignTrail_temp.questions_json[21] = tunnel(25150);
+                if (Germany == 0 || France == 0){
+                    swapAnswers(
+                        campaignTrail_temp.answers_json,
+                        25150,       // Target question ID
+                        25152,      // Answer PK to disable
+                        251522,     // Hidden answer PK to enable
+                        9999        // Fake question ID
+                    );
+                }
+                if (Turkey == 0) {
+                    swapAnswers(
+                        campaignTrail_temp.answers_json,
+                        25150,       // Target question ID
+                        25156,      // Answer PK to disable
+                        251562,     // Hidden answer PK to enable
+                        9999        // Fake question ID
+                    );
+                }
+                if (Britain == 0) {
+                    swapAnswers(
+                        campaignTrail_temp.answers_json,
+                        25150,       // Target question ID
+                        25160,      // Answer PK to disable
+                        251602,     // Hidden answer PK to enable
+                        9999        // Fake question ID
+                    );
+                }
+                if (Nato < 3) {
+                    swapAnswers(
+                        campaignTrail_temp.answers_json,
+                        25150,       // Target question ID
+                        25164,      // Answer PK to disable
+                        251642,     // Hidden answer PK to enable
+                        9999        // Fake question ID
+                    );
+                }
         }
-        if (Germany == 0 || France == 0) {
-            updateByPK(campaignTrail_temp.answers_json, 25152, 'description', "NATO needs to unite against Iran. By the looks of it, this sounds similar to my predecessor's actions, but we have the justification this time and the credibility to back up the facts presented. Let's meet with Sarkozy and Merkel to cool relations.");
-            updateByPK(campaignTrail_temp.answer_feedback_json, 25153, 'answer_feedback', "When hellfire rained over Baghdad, France and Germany were the first of the NATO lineup to voice their opposition. Begging them to ignore the obvious delight against natural order is asking a lot of the alliance. While moving through France, a local protester drenches your suit with a milkshake. As the police arrest him, he calls you a criminal.");
-            updateByPK(campaignTrail_temp.answer_score_global_json, 25154, 'global_multiplier', "-0.03");
-        }
-        if (Turkey == 0) {
-            updateByPK(campaignTrail_temp.answers_json, 25156, 'description', "Turkey has the most to gain in the vacuum left by Iran's fall. Once we take out the Shia Muslim's rallying flag, Syria will be declared open for business by the Sunnis essentially. Erdogan and Gül must back our efforts if they want a good piece of the pie.");
-            updateByPK(campaignTrail_temp.answer_feedback_json, 25157, 'answer_feedback', "Turkey knows its position well and is always looking to exploit it. With its own ongoing oil crisis and its energy deal being cut short with Iran, Turkey demands many concessions that you aren't willing to give. It only commits the necessary help and intelligence to appease the press.");
-            updateByPK(campaignTrail_temp.answer_score_global_json, 25158, 'global_multiplier', "-0.03");
-        }
-        if (Britain == 0) {
-            updateByPK(campaignTrail_temp.answers_json, 25160, 'description', "Since World War 1, America and the United Kingdom have had a special bond. Our alliance goes beyond convenience and is a sort of sibling-like relationship. It's unbreakable, and my friend Prime Minister Gordon Brown has been an invaluable friend. I'm sure they are willing to join us.");
-            updateByPK(campaignTrail_temp.answer_feedback_json, 25161, 'answer_feedback', "Brown, burdened by waning political capital and still recovering from the wounds left by Blair's exit, is very hesitant to stand by your conquest through the Middle East. He's planning to lead his party to reelection, too, tip-toeing the line, afraid to make the wrong move. He only delivers best wishes.");
-            updateByPK(campaignTrail_temp.answer_score_global_json, 25162, 'global_multiplier', "-0.03");
-        }
-        if (Nato < 3) {
-            updateByPK(campaignTrail_temp.answers_json, 25164, 'description', "If we allow Prime Minister Al-Maliki to play fortress with the Iraqi Congress, we'll be in deep trouble. Clinton and Levin have the right idea: The prime Minister has to go. Pressure the Iraqi Congress to have him removed—whatever it takes.");
-            updateByPK(campaignTrail_temp.answer_feedback_json, 25165, 'answer_feedback', "Iraq's Prime Minister has been a recurring problem for your administration, so it's no surprise that you'd reject their democracy at the first opportunity. However, Maliki used his leverage with the Iraqi Congress to argue that he was the only man who could stop Clark's authoritarian exercise.");
-            updateByPK(campaignTrail_temp.answer_score_global_json, 25166, 'global_multiplier', "-0.03");
+        else if (e.player_answers.includes(25094) && Nato < 3) {
+            campaignTrail_temp.questions_json[21] = tunnel(25170);
         } 
         else if (Nato < 20) {
             campaignTrail_temp.questions_json[21] = tunnel(24149);
-        }
-        if (Nato < 6) {
-            updateByPK(campaignTrail_temp.answers_json, 24162, 'description', "We need a willing coalition to save Georgia. This is more than a regional problem. Let's discuss a possible united coalition with the British and French to help Georgia take on the Russian Menace.");
-            updateByPK(campaignTrail_temp.answer_feedback_json, 24163, 'answer_feedback', "Your allies think you're a lunatic as an international crisis, much like the one you barely avoided in 1999, begins to unravel. They don't want to start World War Three for you.");
-            updateByPK(campaignTrail_temp.answer_score_global_json, 24164, 'global_multiplier', "-0.05");
-    
-            updateByPK(campaignTrail_temp.answers_json, 24154, 'description', "Reagan faced a similar threat of Russian aggression, and I will deal with it much to his tune by uniting NATO and the rest of the world to condemn and sanction Russia for its brutal and illegal invasion of Georgia!");
-            updateByPK(campaignTrail_temp.answer_feedback_json, 24155, 'answer_feedback', "Feckless members like Germany's Chancellor Merkel, who is unwilling to take a side beyond claiming that both sides are probably to blame. With NATO's divisions hitting the center of Europe, the idea of a coordinated response falls apart, and so does the far-fetched notion of international condemnation.");
-            updateByPK(campaignTrail_temp.answer_score_global_json, 24156, 'global_multiplier', "-0.03");
-        }
-        if (Nato > 5 && Notroops == 1) {
-            updateByPK(campaignTrail_temp.answers_json, 24154, 'description', "Reagan faced a similar threat of Russian aggression, and I will deal with it much to his tune by uniting NATO and the rest of the world to condemn and sanction Russia for its brutal and illegal invasion of Georgia!");
-            updateByPK(campaignTrail_temp.answer_feedback_json, 24155, 'answer_feedback', "After four years of Bush, it was unlikely that a day like this would come, but the reinstated credibility you've brought to the Oval Office has borne its fruits. Bringing NATO under your wing was easy, but neutral nations like Brazil, Argentina, and other South American countries, along with nations in Africa and Southeast Asia, joined in on Georgia's side. While it's unlikely to stop the invasion, you've garnered a powerful coalition of the willing.");
-            updateByPK(campaignTrail_temp.answer_score_global_json, 24156, 'global_multiplier', "0.03");
-        }
-        if (Nato < 6 && Turkey == 0) {
-            updateByPK(campaignTrail_temp.answers_json, 24150, 'description', "Back in Kosovo, we learned how to end a brutal conflict by making bold and sometimes controversial moves. There was a lot of pushback from Cohen then, but Georgia's independence is a non-negotiable now. I want our ships in the Black Sea to make a statement.");
-            updateByPK(campaignTrail_temp.answer_feedback_json, 24151, 'answer_feedback', "Turkey kills this idea in the cutting room, promising to stop American warships from piling through the Bosphorus. Turkish President Abdullah Gül tells you he's not as eager to start a third World War as you. No aid, no ships, nothing; they will allow nothing.");
-            updateByPK(campaignTrail_temp.answer_score_global_json, 24152, 'global_multiplier', "-0.03");
-        }
-        if (Nato < 3) {
-            updateByPK(campaignTrail_temp.answers_json, 24150, 'description', "Back in Kosovo, we learned how to end a brutal conflict by making bold and sometimes controversial moves. There was a lot of pushback from Cohen then, but Georgia's independence is a non-negotiable now. I want our ships in the Black Sea to make a statement.");
-            updateByPK(campaignTrail_temp.answer_feedback_json, 24151, 'answer_feedback', "Turkey kills this idea in the cutting room, promising to stop American warships from piling through the Bosphorus. Turkish President Abdullah Gül tells you he's not as eager to start a third World War as you. No aid, no ships, nothing; they will allow nothing.");
-            updateByPK(campaignTrail_temp.answer_score_global_json, 24152, 'global_multiplier', "-0.03");
-        }
-        if (France == 0 || Russia > 1) {
-            updateByPK(campaignTrail_temp.answers_json, 24158, 'description', "The French have the right idea: This has to be negotiated into an immediate peace settlement as soon as possible. Putin knows what we want, and I know what he wants. Let's come to the table and settle this like men before this mess gets any hotter.");
-            updateByPK(campaignTrail_temp.answer_feedback_json, 24159, 'answer_feedback', "President Sarkozy spearheads another round of calls for an immediate ceasefire and peace settlement. Putin smells weakness in the alliance and orders his troops to keep pushing, knowing total victory is possible. At a press conference, you threaten to use military and economic force to bring Putin to the negotiating table. There has been no reply on that front, either.");
-            updateByPK(campaignTrail_temp.answer_score_global_json, 24160, 'global_multiplier', "-0.03");
+                if (Nato < 6){
+                    swapAnswers(
+                        campaignTrail_temp.answers_json,
+                        24149,   // Target question ID
+                        24162,   // Answer PK to disable
+                        26669,   // Hidden answer PK to enable
+                        9999    // Fake question ID
+                    );
+                    swapAnswers(
+                        campaignTrail_temp.answers_json,
+                        24149,   // Target question ID
+                        24154,   // Answer PK to disable
+                        241541,   // Hidden answer PK to enable
+                        9999    // Fake question ID
+                    );
+                }
+                if (Nato > 5 && Notroops == 1){
+                    swapAnswers(
+                        campaignTrail_temp.answers_json,
+                        24149,   // Target question ID
+                        24154,   // Answer PK to disable
+                        241542,   // Hidden answer PK to enable
+                        9999    // Fake question ID
+                    );
+                }
+                if (Nato < 6 && Turkey == 0){
+                    swapAnswers(
+                        campaignTrail_temp.answers_json,
+                        24149,       // Target question ID
+                        24150,      // Answer PK to disable
+                        241502,     // Hidden answer PK to enable
+                        9999        // Fake question ID
+                    );
+                }
+                if (Nato < 3){
+                    swapAnswers(
+                        campaignTrail_temp.answers_json,
+                        24149,       // Target question ID
+                        24150,      // Answer PK to disable
+                        241502,     // Hidden answer PK to enable
+                        9999        // Fake question ID
+                    );
+                }
+                if (France == 0 || Russia > 1) {
+                    swapAnswers(
+                        campaignTrail_temp.answers_json,
+                        24149,       // Target question ID
+                        24158,      // Answer PK to disable
+                        241582,     // Hidden answer PK to enable
+                        9999        // Fake question ID
+                    );
+                }
         }
     }
 
