@@ -276,7 +276,7 @@ document.head.innerHTML += `<style>
   position: absolute;
   opacity: 1;
   filter: alpha(opacity=100);
-  background: rgba(255, 255, 255, 0.1); /* Near-clear white background */
+  background: rgba(255, 255, 255, 0.5); /* Near-clear white background */
   border-style: double;
   border-color: #C9C9C9;
   height: 72%;
