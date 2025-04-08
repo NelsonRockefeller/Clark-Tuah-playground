@@ -1,4 +1,3 @@
-
 campaignTrail_temp.questions_json = [
     {
         "model": "campaign_trail.question",
@@ -1427,7 +1426,7 @@ campaignTrail_temp.questions_json = [
         "pk": 24114,
         "fields": {
             "priority": 0,
-            "description": "What was once considered a smear on Jeb's gubernatorial record has become a proud badge; the Republican hopeful is sporting his actions in the Terri Schiavo Case. Some say the Governor's hubris has allowed him to embrace such a fatal elixir. It might be his running mate bolstering his confidence and luring the evangelical crowds. \"Jeb fought for her life; he'll fight for yours too.\" It's a shrewd move. How will you retake the narrative?\n",
+            "description": "What was once considered a smear on Jeb's gubernatorial record has become a proud badge; the Republican hopeful is sporting his actions in the Terri Schiavo Case. Some say the Governor's hubris has allowed him to embrace such a fatal elixir. \"Jeb fought for her life; he'll fight for yours too.\" It's a shrewd move. How will you retake the narrative?\n",
             "likelihood": 1
         }
     },
@@ -1436,7 +1435,7 @@ campaignTrail_temp.questions_json = [
         "pk": 24132,
         "fields": {
             "priority": 0,
-            "description": "What was once considered a smear on Jeb's gubernatorial record has become a proud badge; the Republican hopeful is sporting his actions in the Terri Schiavo Case. Some say the Governor's hubris has allowed him to embrace such a fatal elixir. It might be his running mate bolstering his confidence and luring the evangelical crowds. \"Jeb fought for her life; he'll fight for yours too.\" It's a shrewd move. How will you retake the narrative?\n",
+            "description": "What was once considered a smear on Jeb's gubernatorial record has become a proud badge; the Republican hopeful is sporting his actions in the Terri Schiavo Case. Some say the Governor's hubris has allowed him to embrace such a fatal elixir. \"Jeb fought for her life; he'll fight for yours too.\" It's a shrewd move. How will you retake the narrative?\n",
             "likelihood": 1
         }
     },
@@ -1634,7 +1633,7 @@ campaignTrail_temp.questions_json = [
         "pk": 24789,
         "fields": {
             "priority": 0,
-            "description": "You've returned home to Washington after a round trip through states ripped to shreds by Hurricane Katrina, and you're informed that House Majority Leader Tom DeLay has been indicted and resigned after much public pressure. With his resignation, the people's trust in the Republican Congress has gone. Pelosi wanted to meet with you to review a domestic push, but you've looked abroad. NATO is disunited and in need of a rallying flag. How will you reunite the West?",
+            "description": "You've returned home to Washington after a round trip through states ripped to shreds by Hurricane Katrina, and you're informed that House Majority Leader Tom DeLay has been indicted and resigned after much public pressure. With his resignation, the people's trust in the Republican Congress has gone. Pelosi wanted to meet with you to review a domestic push, but you've looked abroad. NATO is disunited and in need of a rallying flag. How will you reunite the West?",
             "likelihood": 1
         }
     },
@@ -1779,6 +1778,69 @@ campaignTrail_temp.questions_json = [
         "fields": {
             "priority": 0,
             "description": "When the campaign started in 2003, a wave of unity swept the nation, energizing people to fight for a shared dream. Just as then, the podium is now yours to turn the American dream into a tangible reality. That dream, however, is under attack. Government bailouts and Fannie Mae's and Freddie Mac's takeover have led to public protests. However, you command the support of a powerful Chimaera satisfied with the Iraq withdrawal date. What will you say to inspire the crowds and save our shared dream?\n",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 25417,
+        "fields": {
+            "priority": 0,
+            "description": "American economic prowess has collapsed in on itself: Fannie Mae, Freddie Mac, Lehman, and AIG are all gone. Chrysler and General Motors have declared bankruptcy following the failed passage of a bailout of any kind. Congressional incompetence, possibly even your own, has led to a full-scale disintegration of the economy. Bank Of America looks to follow in the trail of death; they're pleading for a bailout of any kind to help recover from the losses of their acquisition of Merrill Lynch. Behind you lay the graves of millions of careers, millions of happy families, and the death of America's Golden Age. How will you save Bank Of America?",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 25429,
+        "fields": {
+            "priority": 0,
+            "description": "put description here",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 25430,
+        "fields": {
+            "priority": 0,
+            "description": "Despite all the howling and barking of Republicans who act as if they know all that is to come from the past, present, and future, the list of hacks who refused to divulge further the details has been proven wrong. You're able to declare that over 10 United States combat brigades have returned home safe, leaving behind a quiet situation in Iraq, avoiding what many believed would cause a civil war in the region. With Kerry touting the success in interviews, you look almost vindicated. How will you capitalize on the success?",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 25443,
+        "fields": {
+            "priority": 0,
+            "description": "Despite all the howling and barking of Republicans who act as if they know all that is to come from the past, present, and future, the list of hacks who refused to divulge further the details has been proven wrong. You're able to declare that over 10 United States combat brigades have returned home safe, leaving behind a quiet situation in Iraq, avoiding what many believed would cause a civil war in the region. With Kerry touting the success in interviews, you look almost vindicated. How will you capitalize on the success?",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 25456,
+        "fields": {
+            "priority": 0,
+            "description": "Things are looking grim, Mr. Mayor. The Republican caucus is nearly in full revolt after hearing of your infidelity. The shallow credibility you had with the Republican base has dried up, and without it, your candidacy is up in the air. What's worse is that your loyal allies, all the sucking up to Bush-era folks, have begun to turn their heads, asking you to step aside for the sake of the party. How will you save yourself?",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 25464,
+        "fields": {
+            "priority": 0,
+            "description": "What a mess that was! Rudy was nearly withering away as Republicans pulled his name from the ticket. The billboards, the publicity, and all those damn interviews over these long and painful 4 years are worthless. Republicans cast him out, with even the mother of his poisonous candidacy dumping him down the mountain. Now replaced by a true Mr Republican archetype, Mike Pence. Flanked by the same woman who's made this campaign hell for you, Condoleezza Rice. Together, they make a deadly duo, but with all the stink Rudy left in the room, this should be easy for you, right?",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 25501,
+        "fields": {
+            "priority": 0,
+            "description": "Giuliani and many of the neoconservative analysts who held him up like a puppet are lost for words. Their nightmare, a pullout from Iraq ending what would have been the most excellent jumping point to perform their long-term policy coup, is being ripped from their clutches. Paul Wolfowitz rambles on with his charts, making a stink of preventing another 9/11 while Cheney drums up whatever storms he can, but the fear is slowly dissipating. All while Rudy is a lost puppy in the mix, crying for mommy. How will you deepen the wounds?",
             "likelihood": 1
         }
     }
@@ -2038,7 +2100,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5220,
         "fields": {
             "question": 1065,
-            "description": "It's clear that we can't play this issue in Congress; they aren't going for it, and I can't rely on my party here. That does not mean we cannot try. We will get at this with the powers of the executive. "
+            "description": "It's clear that we can't play this issue in Congress; they aren't going for it, and I can't rely on my party here. That does not mean we cannot try. We will get at this with the powers of the executive. "
         }
     },
     {
@@ -7419,186 +7481,122 @@ campaignTrail_temp.answers_json = [
     },
     {
         "model": "campaign_trail.answer",
-        "pk": 26669,
+        "pk": 25418,
         "fields": {
-            "question": 9999,
-            "description": "We need a willing coalition to save Georgia. This is more than a regional problem. Let's discuss a possible united coalition with the British and French to help Georgia take on the Russian Menace."
+            "question": 25417,
+            "description": "Congress can be damned; this is no longer a domestic dispute; our international security depends on our financial institutions! Altman can fix this, get him on it, and have him figure something out. We can't let Bank Of America die. I won't let them die."
         }
     },
     {
         "model": "campaign_trail.answer",
-        "pk": 241541,
+        "pk": 25421,
         "fields": {
-            "question": 9999,
-            "description": "Reagan faced a similar threat of Russian aggression, and I will deal with it much to his tune by uniting NATO and the rest of the world to condemn and sanction Russia for its brutal and illegal invasion of Georgia!"
+            "question": 25417,
+            "description": "I was elected to lead, and Congress was elected to legislate and manage domestic issues, but these morons have failed to act at every opportunity. Public backing is a powerful thing in a campaign for Bank Of America. Scare these idiots into passing something!"
         }
     },
     {
         "model": "campaign_trail.answer",
-        "pk": 241542,
+        "pk": 25424,
         "fields": {
-            "question": 9999,
-            "description": "Reagan faced a similar threat of Russian aggression, and I will deal with it much to his tune by uniting NATO and the rest of the world to condemn and sanction Russia for its brutal and illegal invasion of Georgia!"
+            "question": 25417,
+            "description": "The threat of being ousted from office has seemingly done nothing for these congressional freeloaders, so give them an order they won't forget. If Congress doesn't put up a bill to save Bank Of America, I'll have their asses sent to Guantanamo for deliberate sabotage of our economy!"
         }
     },
     {
         "model": "campaign_trail.answer",
-        "pk": 241502,
+        "pk": 25431,
         "fields": {
-            "question": 9999,
-            "description": "Back in Kosovo, we learned how to end a brutal conflict by making bold and sometimes controversial moves. There was a lot of pushback from Cohen then, but Georgia's independence is a non-negotiable now. I want our ships in the Black Sea to make a statement."
+            "question": 25430,
+            "description": "A fool would reject the help of his political adversaries, and I genuinely admire Petraeus's work in Iraq. Some would package this as a demotion, but we could really use his skills to focus solely on Afghanistan from here on out."
         }
     },
     {
         "model": "campaign_trail.answer",
-        "pk": 241582,
+        "pk": 25435,
         "fields": {
-            "question": 9999,
-            "description": "The French have the right idea: This has to be negotiated into an immediate peace settlement as soon as possible. Putin knows what we want, and I know what he wants. Let's come to the table and settle this like men before this mess gets any hotter."
+            "question": 25430,
+            "description": "Stay on, Osama Bin Laden; we've moved on from Iraq. He's the golden goose, and we need to save this administration. Keep tabs on the man in the house, and for the love of God, don't let those terrorist-sympathizing Pakistanis hear a peep of any of this."
         }
     },
     {
         "model": "campaign_trail.answer",
-        "pk": 251522,
+        "pk": 25439,
         "fields": {
-            "question": 9999,
-            "description": "NATO needs to unite against Iran. By the looks of it, this sounds similar to my predecessor's actions, but we have the justification this time and the credibility to back up the facts presented. Let's meet with Sarkozy and Merkel to cool relations."
+            "question": 25430,
+            "description": "It's only fair if we protect our people, and since the mandate is ours to barter with, I want these negotiations to hold a U.S. training force in exchange for these troops being granted immunity if something comes awry."
         }
     },
     {
         "model": "campaign_trail.answer",
-        "pk": 251562,
+        "pk": 25444,
         "fields": {
-            "question": 9999,
-            "description": "Turkey has the most to gain in the vacuum left by Iran's fall. Once we take out the Shia Muslim's rallying flag, Syria will be declared open for business by the Sunnis essentially. Erdogan and Gül must back our efforts if they want a good piece of the pie."
+            "question": 25443,
+            "description": "A fool would reject the help of his political adversaries, and I genuinely admire Petraeus's work in Iraq. Some would package this as a demotion, but we could really use his skills to focus solely on Afghanistan from here on out."
         }
     },
     {
         "model": "campaign_trail.answer",
-        "pk": 251602,
+        "pk": 25448,
         "fields": {
-            "question": 9999,
-            "description": "Since World War 1, America and the United Kingdom have had a special bond. Our alliance goes beyond convenience and is a sort of sibling-like relationship. It's unbreakable, and my friend Prime Minister Gordon Brown has been an invaluable friend. I'm sure they are willing to join us."
+            "question": 25443,
+            "description": "Stay on, Osama Bin Laden; we've moved on from Iraq. He's the golden goose, and we need to save this administration. Keep tabs on the man in the house, and for the love of God, don't let those terrorist-sympathizing Pakistanis hear a peep of any of this."
         }
     },
     {
         "model": "campaign_trail.answer",
-        "pk": 251642,
+        "pk": 25452,
         "fields": {
-            "question": 9999,
-            "description": "If we allow Prime Minister Al-Maliki to play fortress with the Iraqi Congress, we'll be in deep trouble. Clinton and Levin have the right idea: The prime Minister has to go. Pressure the Iraqi Congress to have him removed—whatever it takes."
+            "question": 25443,
+            "description": "It's only fair if we protect our people, and since the mandate is ours to barter with, I want these negotiations to hold a U.S. training force in exchange for these troops being granted immunity if something comes awry."
         }
     },
     {
         "model": "campaign_trail.answer",
-        "pk": 209752,
+        "pk": 25457,
         "fields": {
-            "question": 9999,
-            "description": "The Democratic Party has consistently been the party that gets things done. From Roosevelt to Kennedy, today, we stand united in the face of crisis with an accomplished record to back us as we move forward, confronting the recession and delivering a second term defined by a New American Patriotism!"
+            "question": 25456,
+            "description": "What the hell is going on? No, no, I'm the Republican's pick for president. These bastards need to get the hell in line. I worked my ass off to get where I am, and I will not step aside. I'm a true red-blooded Republican man, and they better get that straight."
         }
     },
     {
         "model": "campaign_trail.answer",
-        "pk": 209762,
+        "pk": 25465,
         "fields": {
-            "question": 9999,
-            "description": "My administration's success deserves loyalty. I've done nothing but scratch the back of the party establishment. I expect them to come swinging for me. I want Senators Clinton, Biden, and Kennedy to sing my praises."
+            "question": 25464,
+            "description": "I appreciate Republicans for making a direct tether to attack the failed Bush administration. Condoleezza Rice is more of the same brutish foreign policy that lacked the foresight to prepare itself for the cold reality of the Middle East."
         }
     },
     {
         "model": "campaign_trail.answer",
-        "pk": 209772,
+        "pk": 25485,
         "fields": {
-            "question": 9999,
-            "description": "Sixty-one years ago, when America first faced its responsibilities as the world's dominant power, Winston Churchill came to our shores to deliver a warning and to call us to a higher purpose. I have delivered on that higher purpose by uniting NATO against terrorism."
+            "question": 25464,
+            "description": "Rice is making all these publicity tours through college campuses, but the facts of her tenure are damn near criminal. Pay some furious kids to infiltrate her campaign events and raise hell. No stone will be left unturned on her record, and they must act."
         }
     },
     {
         "model": "campaign_trail.answer",
-        "pk": 209782,
+        "pk": 25489,
         "fields": {
-            "question": 9999,
-            "description": "All across the country, I hear the cry for help. Despite constant assurances from bad actors, the economy has failed to meet the needs of the American people. Under my continued leadership, we will pursue rapid economic reforms and eliminate the loopholes left by years of deregulation!"
+            "question": 25464,
+            "description": "Rudy tapped out, and as much as I'd love to harp on his failure, there's a new face leading the Republican charge. Shift our gears to Pence; his dark vision for America was too much to bear even for his run for Republican colleagues in the House. Don't let these liberals get fuzzy on the details; he's dangerous."
         }
     },
     {
         "model": "campaign_trail.answer",
-        "pk": 253462,
+        "pk": 25493,
         "fields": {
-            "question": 9999,
-            "description": "The Democratic Party has consistently been the party that gets things done. From Roosevelt to Kennedy, today, we stand united in the face of crisis with an accomplished record to back us as we move forward, confronting the recession and delivering a second term defined by a New American Patriotism!"
+            "question": 25464,
+            "description": "Republicans may be done with him, but I'm not. This whole ordeal is embarrassing for the party. Hit on the scandals on all cylinders; they made their bed; they can sleep in it."
         }
     },
     {
         "model": "campaign_trail.answer",
-        "pk": 253502,
+        "pk": 25502,
         "fields": {
-            "question": 9999,
-            "description": "My administration's success deserves loyalty. I've done nothing but scratch the back of the party establishment. I expect them to come swinging for me. I want Senators Clinton, Biden, and Kennedy to sing my praises."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 253552,
-        "fields": {
-            "question": 9999,
-            "description": "Sixty-one years ago, when America first faced its responsibilities as the world's dominant power, Winston Churchill came to our shores to deliver a warning and to call us to a higher purpose. I have delivered on that higher purpose by uniting NATO against terrorism."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 253602,
-        "fields": {
-            "question": 9999,
-            "description": "All across the country, I hear the cry for help. Despite constant assurances from bad actors, the economy has failed to meet the needs of the American people. Under my continued leadership, we will pursue rapid economic reforms and eliminate the loopholes left by years of deregulation!"
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 210092,
-        "fields": {
-            "question": 9999,
-            "description": "The Democratic Party has consistently been the party that gets things done. From Roosevelt to Kennedy, today, we stand united in the face of crisis with an accomplished record to back us as we move forward, confronting the recession and delivering a second term defined by a New American Patriotism!"
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 210122,
-        "fields": {
-            "question": 9999,
-            "description": "Sixty-one years ago, when America first faced its responsibilities as the world's dominant power, Winston Churchill came to our shores to deliver a warning and to call us to a higher purpose. I have delivered on that higher purpose by uniting NATO against terrorism."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 210202,
-        "fields": {
-            "question": 9999,
-            "description": "All across the country, I hear the cry for help. Despite constant assurances from bad actors, the economy has failed to meet the needs of the American people. Under my continued leadership, we will pursue rapid economic reforms and eliminate the loopholes left by years of deregulation!"
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 253952,
-        "fields": {
-            "question": 9999,
-            "description": "The Democratic Party has consistently been the party that gets things done. From Roosevelt to Kennedy, today, we stand united in the face of crisis with an accomplished record to back us as we move forward, confronting the recession and delivering a second term defined by a New American Patriotism!"
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 253992,
-        "fields": {
-            "question": 9999,
-            "description": "Sixty-one years ago, when America first faced its responsibilities as the world's dominant power, Winston Churchill came to our shores to deliver a warning and to call us to a higher purpose. I have delivered on that higher purpose by uniting NATO against terrorism."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 254082,
-        "fields": {
-            "question": 9999,
-            "description": "All across the country, I hear the cry for help. Despite constant assurances from bad actors, the economy has failed to meet the needs of the American people. Under my continued leadership, we will pursue rapid economic reforms and eliminate the loopholes left by years of deregulation!"
+            "question": 25501,
+            "description": "put description here"
         }
     }
 ]
@@ -15856,9 +15854,9 @@ campaignTrail_temp.answer_score_global_json = [
         "pk": 21975,
         "fields": {
             "answer": 21974,
-            "candidate": 200,
+            "candidate": 201,
             "affected_candidate": 200,
-            "global_multiplier": -0.01
+            "global_multiplier": -0.02
         }
     },
     {
@@ -15867,8 +15865,8 @@ campaignTrail_temp.answer_score_global_json = [
         "fields": {
             "answer": 21978,
             "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": 0.017
+            "affected_candidate": 200,
+            "global_multiplier": -0.027
         }
     },
     {
@@ -16247,8 +16245,8 @@ campaignTrail_temp.answer_score_global_json = [
         "fields": {
             "answer": 22129,
             "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": 0.011
+            "affected_candidate": 200,
+            "global_multiplier": -0.021
         }
     },
     {
@@ -16278,7 +16276,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 22142,
             "candidate": 201,
             "affected_candidate": 200,
-            "global_multiplier": -0.02
+            "global_multiplier": -0.025
         }
     },
     {
@@ -16288,7 +16286,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 22146,
             "candidate": 201,
             "affected_candidate": 200,
-            "global_multiplier": -0.013
+            "global_multiplier": -0.023
         }
     },
     {
@@ -16308,7 +16306,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 22154,
             "candidate": 201,
             "affected_candidate": 200,
-            "global_multiplier": -0.012
+            "global_multiplier": -0.022
         }
     },
     {
@@ -16357,8 +16355,8 @@ campaignTrail_temp.answer_score_global_json = [
         "fields": {
             "answer": 22172,
             "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": -0.008
+            "affected_candidate": 200,
+            "global_multiplier": 0.01
         }
     },
     {
@@ -16367,8 +16365,8 @@ campaignTrail_temp.answer_score_global_json = [
         "fields": {
             "answer": 22176,
             "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": -0.008
+            "affected_candidate": 200,
+            "global_multiplier": 0.01
         }
     },
     {
@@ -16378,7 +16376,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 22180,
             "candidate": 201,
             "affected_candidate": 200,
-            "global_multiplier": -0.015
+            "global_multiplier": -0.025
         }
     },
     {
@@ -16387,8 +16385,8 @@ campaignTrail_temp.answer_score_global_json = [
         "fields": {
             "answer": 22183,
             "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": 0.018
+            "affected_candidate": 200,
+            "global_multiplier": -0.018
         }
     },
     {
@@ -16397,8 +16395,8 @@ campaignTrail_temp.answer_score_global_json = [
         "fields": {
             "answer": 22186,
             "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": 0.02
+            "affected_candidate": 200,
+            "global_multiplier": -0.02
         }
     },
     {
@@ -16407,8 +16405,8 @@ campaignTrail_temp.answer_score_global_json = [
         "fields": {
             "answer": 22189,
             "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": -0.012
+            "affected_candidate": 200,
+            "global_multiplier": 0.022
         }
     },
     {
@@ -16417,8 +16415,8 @@ campaignTrail_temp.answer_score_global_json = [
         "fields": {
             "answer": 22192,
             "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": 0.025
+            "affected_candidate": 200,
+            "global_multiplier": -0.03
         }
     },
     {
@@ -16786,9 +16784,9 @@ campaignTrail_temp.answer_score_global_json = [
         "pk": 22575,
         "fields": {
             "answer": 22573,
-            "candidate": 200,
+            "candidate": 201,
             "affected_candidate": 200,
-            "global_multiplier": 0.008
+            "global_multiplier": -0.018
         }
     },
     {
@@ -17927,7 +17925,7 @@ campaignTrail_temp.answer_score_global_json = [
         "fields": {
             "answer": 22997,
             "candidate": 201,
-            "affected_candidate": 201,
+            "affected_candidate": 200,
             "global_multiplier": -0.025
         }
     },
@@ -21433,232 +21431,152 @@ campaignTrail_temp.answer_score_global_json = [
     },
     {
         "model": "campaign_trail.answer_score_global",
-        "pk": 24164,
+        "pk": 25420,
         "fields": {
-            "answer": 26669,
+            "answer": 25418,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": -0.05
+            "global_multiplier": -0.1
         }
     },
     {
         "model": "campaign_trail.answer_score_global",
-        "pk": 24156,
+        "pk": 25423,
         "fields": {
-            "answer": 241541,
+            "answer": 25421,
             "candidate": 201,
             "affected_candidate": 201,
+            "global_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 25426,
+        "fields": {
+            "answer": 25424,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 25433,
+        "fields": {
+            "answer": 25431,
+            "candidate": 201,
+            "affected_candidate": 200,
             "global_multiplier": -0.03
         }
     },
     {
         "model": "campaign_trail.answer_score_global",
-        "pk": 241562,
+        "pk": 25437,
         "fields": {
-            "answer": 241542,
+            "answer": 25435,
             "candidate": 201,
-            "affected_candidate": 201,
+            "affected_candidate": 200,
+            "global_multiplier": -0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 25441,
+        "fields": {
+            "answer": 25439,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "global_multiplier": -0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 25446,
+        "fields": {
+            "answer": 25444,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "global_multiplier": -0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 25450,
+        "fields": {
+            "answer": 25448,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "global_multiplier": -0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 25454,
+        "fields": {
+            "answer": 25452,
+            "candidate": 201,
+            "affected_candidate": 200,
             "global_multiplier": 0.03
         }
     },
     {
         "model": "campaign_trail.answer_score_global",
-        "pk": 241522,
+        "pk": 25459,
         "fields": {
-            "answer": 241502,
+            "answer": 25457,
             "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": -0.03
+            "affected_candidate": 202,
+            "global_multiplier": -56
         }
     },
     {
         "model": "campaign_trail.answer_score_global",
-        "pk": 241602,
+        "pk": 25483,
         "fields": {
-            "answer": 241582,
+            "answer": 25465,
             "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": -0.03
+            "affected_candidate": 200,
+            "global_multiplier": 0.03
         }
     },
     {
         "model": "campaign_trail.answer_score_global",
-        "pk": 251542,
+        "pk": 25487,
         "fields": {
-            "answer": 251522,
+            "answer": 25485,
             "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": -0.03
+            "affected_candidate": 200,
+            "global_multiplier": 0.02
         }
     },
     {
         "model": "campaign_trail.answer_score_global",
-        "pk": 251582,
+        "pk": 25491,
         "fields": {
-            "answer": 251562,
+            "answer": 25489,
             "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": -0.03
+            "affected_candidate": 200,
+            "global_multiplier": 0.03
         }
     },
     {
         "model": "campaign_trail.answer_score_global",
-        "pk": 251622,
+        "pk": 25495,
         "fields": {
-            "answer": 251602,
+            "answer": 25493,
             "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": -0.03
+            "affected_candidate": 200,
+            "global_multiplier": 0.045
         }
     },
     {
         "model": "campaign_trail.answer_score_global",
-        "pk": 251662,
+        "pk": 25497,
         "fields": {
-            "answer": 251642,
+            "answer": 25457,
             "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": -0.03
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 209802,
-        "fields": {
-            "answer": 209752,
-            "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": -0.025
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 209852,
-        "fields": {
-            "answer": 209762,
-            "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": -0.03
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 235112,
-        "fields": {
-            "answer": 209772,
-            "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": -0.03
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 209892,
-        "fields": {
-            "answer": 209782,
-            "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": -0.03
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 253482,
-        "fields": {
-            "answer": 253462,
-            "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": -0.025
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 253532,
-        "fields": {
-            "answer": 253502,
-            "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": -0.03
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 253582,
-        "fields": {
-            "answer": 253552,
-            "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": -0.03
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 253622,
-        "fields": {
-            "answer": 253602,
-            "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": -0.03
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 210112,
-        "fields": {
-            "answer": 210092,
-            "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": -0.025
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 210152,
-        "fields": {
-            "answer": 210122,
-            "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": -0.03
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 210232,
-        "fields": {
-            "answer": 210202,
-            "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": -0.03
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 253972,
-        "fields": {
-            "answer": 253952,
-            "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": -0.025
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 254012,
-        "fields": {
-            "answer": 253992,
-            "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": -0.03
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 254102,
-        "fields": {
-            "answer": 254082,
-            "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": -0.03
+            "affected_candidate": 200,
+            "global_multiplier": -0.15
         }
     }
 ]
@@ -22969,8 +22887,8 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 21976,
         "fields": {
             "answer": 21974,
-            "issue": 103,
-            "issue_score": 0.8,
+            "issue": 100,
+            "issue_score": 0.4,
             "issue_importance": 5
         }
     },
@@ -22981,7 +22899,7 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 21978,
             "issue": 103,
             "issue_score": 0.6,
-            "issue_importance": 3
+            "issue_importance": 5
         }
     },
     {
@@ -23300,8 +23218,8 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 22192,
             "issue": 100,
-            "issue_score": 0.9,
-            "issue_importance": 3
+            "issue_score": 0.4,
+            "issue_importance": 5
         }
     },
     {
@@ -25810,8 +25728,8 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 25232,
             "issue": 103,
-            "issue_score": -0.9,
-            "issue_importance": 8
+            "issue_score": 0.9,
+            "issue_importance": 6
         }
     },
     {
@@ -26142,6 +26060,126 @@ campaignTrail_temp.answer_score_issue_json = [
             "issue": 102,
             "issue_score": -0.2,
             "issue_importance": 4
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 25427,
+        "fields": {
+            "answer": 25424,
+            "issue": 102,
+            "issue_score": -0.8,
+            "issue_importance": 5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 25428,
+        "fields": {
+            "answer": 25421,
+            "issue": "100",
+            "issue_score": 0.5,
+            "issue_importance": 5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 25434,
+        "fields": {
+            "answer": 25431,
+            "issue": 102,
+            "issue_score": 0.4,
+            "issue_importance": 5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 25438,
+        "fields": {
+            "answer": 25435,
+            "issue": 102,
+            "issue_score": -0.7,
+            "issue_importance": 6
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 25442,
+        "fields": {
+            "answer": 25439,
+            "issue": 102,
+            "issue_score": -0.8,
+            "issue_importance": 7
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 25447,
+        "fields": {
+            "answer": 25444,
+            "issue": 102,
+            "issue_score": 0.4,
+            "issue_importance": 5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 25451,
+        "fields": {
+            "answer": 25448,
+            "issue": 102,
+            "issue_score": -0.7,
+            "issue_importance": 6
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 25455,
+        "fields": {
+            "answer": 25452,
+            "issue": 102,
+            "issue_score": 0.8,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 25484,
+        "fields": {
+            "answer": 25465,
+            "issue": 102,
+            "issue_score": 0.8,
+            "issue_importance": 5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 25488,
+        "fields": {
+            "answer": 25485,
+            "issue": 102,
+            "issue_score": 0.5,
+            "issue_importance": 5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 25492,
+        "fields": {
+            "answer": 25489,
+            "issue": 103,
+            "issue_score": 0.8,
+            "issue_importance": 7
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 25496,
+        "fields": {
+            "answer": 25493,
+            "issue": 103,
+            "issue_score": -0.6,
+            "issue_importance": 7
         }
     }
 ]
@@ -39918,6 +39956,237 @@ campaignTrail_temp.answer_score_state_json = [
             "affected_candidate": 200,
             "state_multiplier": 0.009
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 25458,
+        "fields": {
+            "answer": 25457,
+            "state": 1031,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 25461,
+        "fields": {
+            "answer": 25457,
+            "state": 1029,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 25462,
+        "fields": {
+            "answer": 25457,
+            "state": 1006,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 25463,
+        "fields": {
+            "answer": 25457,
+            "state": 1004,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 25466,
+        "fields": {
+            "answer": 25457,
+            "state": 1008,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 25467,
+        "fields": {
+            "answer": 25457,
+            "state": 1000,
+            "candidate": 200,
+            "affected_candidate": 200,
+            "state_multiplier": 0
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 25468,
+        "fields": {
+            "answer": 25457,
+            "state": 1003,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": 0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 25469,
+        "fields": {
+            "answer": 25457,
+            "state": 1009,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": 0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 25470,
+        "fields": {
+            "answer": 25457,
+            "state": 1016,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": 0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 25471,
+        "fields": {
+            "answer": 25457,
+            "state": 1041,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": 0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 25472,
+        "fields": {
+            "answer": 25457,
+            "state": 1014,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": 0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 25473,
+        "fields": {
+            "answer": 25457,
+            "state": 1017,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": 0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 25474,
+        "fields": {
+            "answer": 25457,
+            "state": 1022,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": 0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 25475,
+        "fields": {
+            "answer": 25457,
+            "state": 1023,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": 0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 25476,
+        "fields": {
+            "answer": 25457,
+            "state": 1032,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": 0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 25477,
+        "fields": {
+            "answer": 25457,
+            "state": 1039,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": 0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 25478,
+        "fields": {
+            "answer": 25457,
+            "state": 1048,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": 0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 25479,
+        "fields": {
+            "answer": 25457,
+            "state": 1034,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": 0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 25480,
+        "fields": {
+            "answer": 25457,
+            "state": 1024,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": 0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 25481,
+        "fields": {
+            "answer": 25457,
+            "state": 1000,
+            "candidate": 200,
+            "affected_candidate": 200,
+            "state_multiplier": 0
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 25500,
+        "fields": {
+            "answer": 25457,
+            "state": 1045,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": 0.1
+        }
     }
 ]
 
@@ -44410,7 +44679,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 23799,
             "candidate": 201,
-            "answer_feedback": "Demanding such massive reforms of a tired congress was a disaster waiting to happen. The bill soon dies in gridlock, to your dismay. You're the President, and these ungrateful bastards think they can step out of line. \n"
+            "answer_feedback": "Demanding such massive reforms of a tired congress was a disaster waiting to happen. The bill soon dies in gridlock, to your dismay. You're the President, and these ungrateful bastards think they can step out of line. \n"
         }
     },
     {
@@ -46125,209 +46394,128 @@ campaignTrail_temp.answer_feedback_json = [
     },
     {
         "model": "campaign_trail.answer_feedback",
-        "pk": 24163,
+        "pk": 25419,
         "fields": {
-            "answer": 26669,
+            "answer": 25418,
             "candidate": 201,
-            "answer_feedback": "Your allies think you're a lunatic as an international crisis, much like the one you barely avoided in 1999, begins to unravel. They don't want to start World War Three for you."
+            "answer_feedback": "Altman gets deep into the trenches of BOA's economic woes, and it's a horror show. 90 billion, no, now 118 billion in the hole, it just keeps getting larger, and the Treasury has no lawful right to bail out this sinking Titanic. They go down like the rest, and the graveness of it all finally sets in."
         }
     },
     {
         "model": "campaign_trail.answer_feedback",
-        "pk": 24155,
+        "pk": 25422,
         "fields": {
-            "answer": 241541,
+            "answer": 25421,
             "candidate": 201,
-            "answer_feedback": "Feckless members like Germany's Chancellor Merkel, who is unwilling to take a side beyond claiming that both sides are probably to blame. With NATO's divisions hitting the center of Europe, the idea of a coordinated response falls apart, and so does the far-fetched notion of international condemnation."
+            "answer_feedback": "Attempting to stage a public revolt to spook Congress has only encouraged Republicans to become more hard-headed, with Representative Ron Paul being the strongest advocate for these \"Let It Die\" activists hoping to destroy the economy. They get their wish soon enough."
         }
     },
     {
         "model": "campaign_trail.answer_feedback",
-        "pk": 241552,
+        "pk": 25425,
         "fields": {
-            "answer": 241542,
+            "answer": 25424,
             "candidate": 201,
-            "answer_feedback": "After four years of Bush, it was unlikely that a day like this would come, but the reinstated credibility you've brought to the Oval Office has borne its fruits. Bringing NATO under your wing was easy, but neutral nations like Brazil, Argentina, and other South American countries, along with nations in Africa and Southeast Asia, joined in on Georgia's side. While it's unlikely to stop the invasion, you've garnered a powerful coalition of the willing."
+            "answer_feedback": "Such a bold threat to these jesters did nothing more than sprout up talk of an impeachment. Possibly hoping to throw you under the bus of this walking nightmare of a crisis. Bank of America is dead and left out for the vultures to pick its assets apart in the following weeks."
         }
     },
     {
         "model": "campaign_trail.answer_feedback",
-        "pk": 241512,
+        "pk": 25432,
         "fields": {
-            "answer": 241502,
+            "answer": 25431,
             "candidate": 201,
-            "answer_feedback": "Turkey kills this idea in the cutting room, promising to stop American warships from piling through the Bosphorus. Turkish President Abdullah Gül tells you he's not as eager to start a third World War as you. No aid, no ships, nothing; they will allow nothing."
+            "answer_feedback": "A few publications smear the offer as a blatant move to handicap Petraeus and his future political prospects, but he has no objections. Willingly resigning his post to take the reins in Afghanistan, almost joyfully giddy. He may see a brighter future in this arena."
         }
     },
     {
         "model": "campaign_trail.answer_feedback",
-        "pk": 241592,
+        "pk": 25436,
         "fields": {
-            "answer": 241582,
+            "answer": 25435,
             "candidate": 201,
-            "answer_feedback": "President Sarkozy spearheads another round of calls for an immediate ceasefire and peace settlement. Putin smells weakness in the alliance and orders his troops to keep pushing, knowing total victory is possible. At a press conference, you threaten to use military and economic force to bring Putin to the negotiating table. There has been no reply on that front, either."
+            "answer_feedback": "The operation is near completion with tabs on the man who looks like the terrorist ringleader who makes a daily jog at an Abbottabad compound. If you quell this financial calamity, you may be able to catch the bastard before November 6th."
         }
     },
     {
         "model": "campaign_trail.answer_feedback",
-        "pk": 251532,
+        "pk": 25440,
         "fields": {
-            "answer": 251522,
+            "answer": 25439,
             "candidate": 201,
-            "answer_feedback": "When hellfire rained over Baghdad, France and Germany were the first of the NATO lineup to voice their opposition. Begging them to ignore the obvious delight against natural order is asking a lot of the alliance. While moving through France, a local protester drenches your suit with a milkshake. As the police arrest him, he calls you a criminal."
+            "answer_feedback": "Prime Minister Al-Maliki does all he can to unite Parliament against the motion, but his waning political capital folds in the face of pressure from Washington. The deal is sweetened for American interests, allowing for war crimes committed by U.S. troops to be punished with a slap on the wrist."
         }
     },
     {
         "model": "campaign_trail.answer_feedback",
-        "pk": 251572,
+        "pk": 25445,
         "fields": {
-            "answer": 251562,
+            "answer": 25444,
             "candidate": 201,
-            "answer_feedback": "Turkey knows its position well and is always looking to exploit it. With its own ongoing oil crisis and its energy deal being cut short with Iran, Turkey demands many concessions that you aren't willing to give. It only commits the necessary help and intelligence to appease the press."
+            "answer_feedback": "A few publications smear the offer as a blatant move to handicap Petraeus and his future political prospects, but he has no objections. Willingly resigning his post to take the reins in Afghanistan, almost joyfully giddy. He may see a brighter future in this arena."
         }
     },
     {
         "model": "campaign_trail.answer_feedback",
-        "pk": 251612,
+        "pk": 25449,
         "fields": {
-            "answer": 251602,
+            "answer": 25448,
             "candidate": 201,
-            "answer_feedback": "Brown, burdened by waning political capital and still recovering from the wounds left by Blair's exit, is very hesitant to stand by your conquest through the Middle East. He's planning to lead his party to reelection, too, tip-toeing the line, afraid to make the wrong move. He only delivers best wishes."
+            "answer_feedback": "The operation is near completion with tabs on the man who looks like the terrorist ringleader who makes a daily jog at an Abbottabad compound. If you quell this financial calamity, you may be able to catch the bastard before November 6th."
         }
     },
     {
         "model": "campaign_trail.answer_feedback",
-        "pk": 251652,
+        "pk": 25453,
         "fields": {
-            "answer": 251642,
+            "answer": 25452,
             "candidate": 201,
-            "answer_feedback": "Iraq's Prime Minister has been a recurring problem for your administration, so it's no surprise that you'd reject their democracy at the first opportunity. However, Maliki used his leverage with the Iraqi Congress to argue that he was the only man who could stop Clark's authoritarian exercise."
+            "answer_feedback": "Prime Minister Al-Maliki manages to pull his coalition bloc together to reject the deal, forcing you to fold in a somewhat minor embarrassment. This will leave a training force with no protections, much like yourself, in the coming days of media backlash."
         }
     },
     {
         "model": "campaign_trail.answer_feedback",
-        "pk": 209792,
+        "pk": 25460,
         "fields": {
-            "answer": 209752,
+            "answer": 25457,
             "candidate": 201,
-            "answer_feedback": "Before you stand a tired crowd, tired of words with nothing to follow them, promises that aren't kept. You speak of these great accomplishments, but where are they? Much of what you promised to accomplish has yet to come to fruition, and you expect them to hand you another four long and arguably more tumultuous years while you have little to show thus far."
+            "answer_feedback": "The campaign bunker is your last holdout to hide away from the backstabbing bastards, but it soon becomes an image similar to Custer's Last Stand. The establishment whittles you down and forces you to withdraw your name from the ballots. You begin to weep, knowing what could have been."
         }
     },
     {
         "model": "campaign_trail.answer_feedback",
-        "pk": 209812,
+        "pk": 25482,
         "fields": {
-            "answer": 209762,
+            "answer": 25465,
             "candidate": 201,
-            "answer_feedback": "Before you stand a tired crowd, tired of words with nothing to follow them, promises that aren't kept. You speak of these great accomplishments, but where are they? Much of what you promised to accomplish has yet to come to fruition, and you expect them to hand you another four long and arguably more tumultuous years while you have little to show thus far."
+            "answer_feedback": "The line of connection between the failures of Bush and Rice is weak, as her tenure was among the most approved aspects of that decrepit crew. In the meantime, Rice has redefined herself as a sensible voice on foreign affairs while still invoking fearful rhetoric of the Bushies terrorist theater ploys."
         }
     },
     {
         "model": "campaign_trail.answer_feedback",
-        "pk": 209832,
+        "pk": 25486,
         "fields": {
-            "answer": 209772,
+            "answer": 25485,
             "candidate": 201,
-            "answer_feedback": "Around the podium you speak from resides a disheveled and hurting people; at their lowest moment, you beseech them to look abroad. An enormous economic crisis has uprooted their homes, bank accounts, and livelihoods, and their president shouts of foreign enemies abroad. The crowd leaves the convention wanting much more."
+            "answer_feedback": "While attending a CNN panel on the Middle East, a CODEPINK activist, Desiree Fairooz, peacefully approached her with blood-colored hands, shouting \"war criminal\" while waving them in Rice's face. Among other showings that serve to prove her point about the Democrat's partisan shenanigans, it seems to slow her down as she begins avoiding unscripted events."
         }
     },
     {
         "model": "campaign_trail.answer_feedback",
-        "pk": 209872,
+        "pk": 25490,
         "fields": {
-            "answer": 209782,
+            "answer": 25489,
             "candidate": 201,
-            "answer_feedback": "Asking for confidence in your ability to lead the way is already challenging, but below you resides a bickering congressional apparatus that they wouldn't trust to run a hot dog stand. Trust is long gone, and so is much of your mandate to barter with it."
+            "answer_feedback": "Republicans unleash a wave of faith-healing advertising for Mike Pence. With an angelic jingle and soothing narrators, they tell a bold story of the man who opposed No Child Left Behind and your tax hikes in favor of Medicare funding. Mike Pence will restore family values, save America's fiscal health, and save us all."
         }
     },
     {
         "model": "campaign_trail.answer_feedback",
-        "pk": 253472,
+        "pk": 25494,
         "fields": {
-            "answer": 253462,
+            "answer": 25493,
             "candidate": 201,
-            "answer_feedback": "Before you stand a tired crowd, tired of words with nothing to follow them, promises that aren't kept. You speak of these great accomplishments, but where are they? Much of what you promised to accomplish has yet to come to fruition, and you expect them to hand you another four long and arguably more tumultuous years while you have little to show thus far."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 253512,
-        "fields": {
-            "answer": 253502,
-            "candidate": 201,
-            "answer_feedback": "Before you stand a tired crowd, tired of words with nothing to follow them, promises that aren't kept. You speak of these great accomplishments, but where are they? Much of what you promised to accomplish has yet to come to fruition, and you expect them to hand you another four long and arguably more tumultuous years while you have little to show thus far."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 253562,
-        "fields": {
-            "answer": 253552,
-            "candidate": 201,
-            "answer_feedback": "Around the podium you speak from resides a disheveled and hurting people; at their lowest moment, you beseech them to look abroad. An enormous economic crisis has uprooted their homes, bank accounts, and livelihoods, and their president shouts of foreign enemies abroad. The crowd leaves the convention wanting much more."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 253612,
-        "fields": {
-            "answer": 253602,
-            "candidate": 201,
-            "answer_feedback": "Asking for confidence in your ability to lead the way is already challenging, but below you resides a bickering congressional apparatus that they wouldn't trust to run a hot dog stand. Trust is long gone, and so is much of your mandate to barter with it."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 210102,
-        "fields": {
-            "answer": 210092,
-            "candidate": 201,
-            "answer_feedback": "Before you stand a tired crowd, tired of words with nothing to follow them, promises that aren't kept. You speak of these great accomplishments, but where are they? Much of what you promised to accomplish has yet to come to fruition, and you expect them to hand you another four long and arguably more tumultuous years while you have little to show thus far."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 210132,
-        "fields": {
-            "answer": 210122,
-            "candidate": 201,
-            "answer_feedback": "Around the podium you speak from resides a disheveled and hurting people; at their lowest moment, you beseech them to look abroad. An enormous economic crisis has uprooted their homes, bank accounts, and livelihoods, and their president shouts of foreign enemies abroad. The crowd leaves the convention wanting much more."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 210212,
-        "fields": {
-            "answer": 210202,
-            "candidate": 201,
-            "answer_feedback": "Asking for confidence in your ability to lead the way is already challenging, but below you resides a bickering congressional apparatus that they wouldn't trust to run a hot dog stand. Trust is long gone, and so is much of your mandate to barter with it."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 253962,
-        "fields": {
-            "answer": 253952,
-            "candidate": 201,
-            "answer_feedback": "Before you stand a tired crowd, tired of words with nothing to follow them, promises that aren't kept. You speak of these great accomplishments, but where are they? Much of what you promised to accomplish has yet to come to fruition, and you expect them to hand you another four long and arguably more tumultuous years while you have little to show thus far."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 254002,
-        "fields": {
-            "answer": 253992,
-            "candidate": 201,
-            "answer_feedback": "Around the podium you speak from resides a disheveled and hurting people; at their lowest moment, you beseech them to look abroad. An enormous economic crisis has uprooted their homes, bank accounts, and livelihoods, and their president shouts of foreign enemies abroad. The crowd leaves the convention wanting much more."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 254092,
-        "fields": {
-            "answer": 254082,
-            "candidate": 201,
-            "answer_feedback": "Asking for confidence in your ability to lead the way is already challenging, but below you resides a bickering congressional apparatus that they wouldn't trust to run a hot dog stand. Trust is long gone, and so is much of your mandate to barter with it."
+            "answer_feedback": "The cultural revival of the Republican Party amid Pence's entrance has overturned whatever gains you hoped to make off of Rudy's scorched coattails. Conversely, Rice has begun tearing apart your foreign policy in scholarly speeches, proving her potential to Republicans."
         }
     }
 ]
