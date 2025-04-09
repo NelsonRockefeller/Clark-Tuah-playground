@@ -49928,7 +49928,10 @@ cyoAdventure = function(a) {
         else if (Dem == 5) {
             campaignTrail_temp.questions_json[19] = tunnel(21727); 
         }
-        if (Dem == 6) {
+        if (Dem == 6 && Nato > 5) {
+            campaignTrail_temp.questions_json[19] = tunnel(24264); 
+        }
+        else if (Dem == 6) {
             campaignTrail_temp.questions_json[19] = tunnel(21815); 
         }
         if (Dem == 7 && Nato < 3) {
