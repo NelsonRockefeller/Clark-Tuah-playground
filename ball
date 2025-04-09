@@ -7780,7 +7780,16 @@ campaignTrail_temp.answers_json = [
             "question": 9999,
             "description": "All across the country, I hear the cry for help. Despite constant assurances from bad actors, the economy has failed to meet the needs of the American people. Under my continued leadership, we will pursue rapid economic reforms and eliminate the loopholes left by years of deregulation!"
         }
-    }
+     },
+     {
+        "model": "campaign_trail.question",
+        "pk": 9999,
+        "fields": {
+            "priority": 2,
+            "description": "i dont exist!",
+            "likelihood": 1
+        }
+    } 
 ]
 
 campaignTrail_temp.states_json = [
