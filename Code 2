@@ -13919,8 +13919,8 @@ campaignTrail_temp.answer_score_global_json = [
         "fields": {
             "answer": 5224,
             "candidate": 201,
-            "affected_candidate": 200,
-            "global_multiplier": 0.14
+            "affected_candidate": 201,
+            "global_multiplier": -0.14
         }
     },
     {
@@ -13929,8 +13929,8 @@ campaignTrail_temp.answer_score_global_json = [
         "fields": {
             "answer": 5225,
             "candidate": 201,
-            "affected_candidate": 200,
-            "global_multiplier": 0.145
+            "affected_candidate": 201,
+            "global_multiplier": -0.145
         }
     },
     {
@@ -13939,8 +13939,8 @@ campaignTrail_temp.answer_score_global_json = [
         "fields": {
             "answer": 5226,
             "candidate": 201,
-            "affected_candidate": 200,
-            "global_multiplier": 0.14
+            "affected_candidate": 201,
+            "global_multiplier": -0.14
         }
     },
     {
@@ -14409,8 +14409,8 @@ campaignTrail_temp.answer_score_global_json = [
         "fields": {
             "answer": 20949,
             "candidate": 201,
-            "affected_candidate": 200,
-            "global_multiplier": 0.149
+            "affected_candidate": 201,
+            "global_multiplier": -0.149
         }
     },
     {
@@ -51803,8 +51803,7 @@ function openWebBrowser() {
     webBrowserDiv.style.height = '85%';
     webBrowserDiv.style.position = 'relative';
 
-    // Append the image container to the webBrowserDiv
-    webBrowserDiv.appendChild(imageContainer);
+
 
     // Create header div
     let headerDiv = document.createElement('div');
