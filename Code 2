@@ -52226,7 +52226,7 @@ cyoAdventure = function(a) {
             Dem += 6;  
             campaignTrail_temp.questions_json[14] = tunnel(21198);
         }
-        else if (Notroops > 0 && Loyalist > 0 && Win < 7 || Notroops > 0 && Loyalist > 0 && Win < 5 && (e.player_answers.includes(5184) || e.player_answers.includes(20755)) {
+        else if (Notroops > 0 && Loyalist > 0 && Win < 7 || Notroops > 0 && Loyalist > 0 && Win < 5 && (e.player_answers.includes(5184) || e.player_answers.includes(20755))) {
             updateHistoricalData(newVpTableHistorical1, newHistHexcolour1, newHistName1, newHistEV1, newHistPV1, newHistPVP1);
 
             switcheroo12();
@@ -52277,7 +52277,7 @@ cyoAdventure = function(a) {
     }
 
     if (e.noCounter == 16) {
-        if (Dem == 1 && Win < 7 || Dem == 1 && Win < 5 && (e.player_answers.includes(5184) || e.player_answers.includes(20755)) {
+        if (Dem == 1 && Win < 7 || Dem == 1 && Win < 5 && (e.player_answers.includes(5184) || e.player_answers.includes(20755))) {
             campaignTrail_temp.questions_json[16] = tunnel(254481); 
         }
         else if (Dem == 1) {
