@@ -11938,7 +11938,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 200,
             "state": 1026,
-            "state_multiplier": 0.91
+            "state_multiplier": 0.9
         }
     },
     {
@@ -12397,7 +12397,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 201,
             "state": 1026,
-            "state_multiplier": 0.92
+            "state_multiplier": 0.88
         }
     },
     {
@@ -27815,7 +27815,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 254547,
         "fields": {
             "answer": 254536,
-            "issue": "100",
+            "issue": 100,
             "issue_score": 0.7,
             "issue_importance": 6
         }
@@ -38671,7 +38671,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1033,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.45
+            "state_multiplier": -0.32
         }
     },
     {
@@ -38715,7 +38715,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1040,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.45
+            "state_multiplier": -0.32
         }
     },
     {
@@ -39056,7 +39056,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1033,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.45
+            "state_multiplier": -0.32
         }
     },
     {
@@ -39100,7 +39100,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1040,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.45
+            "state_multiplier": -0.32
         }
     },
     {
@@ -39441,7 +39441,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1033,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.45
+            "state_multiplier": -0.32
         }
     },
     {
@@ -39485,7 +39485,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1040,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.45
+            "state_multiplier": -0.32
         }
     },
     {
@@ -51030,7 +51030,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 25171,
             "candidate": 201,
-            "answer_feedback": "When hellfire rained over Baghdad, France and Germany were the first of the NATO lineup to voice their opposition. Begging them to ignore the obvious delight against natural order is asking a lot of the alliance. While moving through France, a local protester drenches your suit with a milkshake. As the police arrest him, he calls you a criminal."
+            "answer_feedback": "When hellfire rained over Baghdad, France and Germany were the first of the NATO lineup to voice their opposition. Begging them to ignore the obvious slight against natural order is asking a lot of the alliance. While moving through France, a local protester drenches your suit with a milkshake. As the police arrest him, he calls you a criminal."
         }
     },
     {
@@ -51696,7 +51696,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 251522,
             "candidate": 201,
-            "answer_feedback": "When hellfire rained over Baghdad, France and Germany were the first of the NATO lineup to voice their opposition. Begging them to ignore the obvious delight against natural order is asking a lot of the alliance. While moving through France, a local protester drenches your suit with a milkshake. As the police arrest him, he calls you a criminal."
+            "answer_feedback": "When hellfire rained over Baghdad, France and Germany were the first of the NATO lineup to voice their opposition. Begging them to ignore the obvious slight against natural order is asking a lot of the alliance. While moving through France, a local protester drenches your suit with a milkshake. As the police arrest him, he calls you a criminal."
         }
     },
     {
@@ -52892,7 +52892,7 @@ cyoAdventure = function(a) {
                     swapAnswers(campaignTrail_temp.answers_json, 20974, 20975, 209752, 9999); }
                 if (Neo < 6 ) {
                     swapAnswers(campaignTrail_temp.answers_json, 20974, 20976, 209762, 9999); }
-                if (Nato < 6 ) {
+                if (Nato < 3 ) {
                     swapAnswers(campaignTrail_temp.answers_json, 20974, 20977, 209772, 9999); }
                 if (Pelosi == 0 || Fred == 0) {
                     swapAnswers(campaignTrail_temp.answers_json, 20974, 20978, 209782, 9999); }
@@ -52902,7 +52902,7 @@ cyoAdventure = function(a) {
                     swapAnswers(campaignTrail_temp.answers_json, 25345, 25346, 253462, 9999); }
                 if (Neo < 6 ) {
                     swapAnswers(campaignTrail_temp.answers_json, 25345, 25350, 253502, 9999); }
-                if (Nato < 6 ) {
+                if (Nato < 3 ) {
                     swapAnswers(campaignTrail_temp.answers_json, 25345, 25355, 253552, 9999); }
                 if (Pelosi == 0 || Fred == 0) {
                     swapAnswers(campaignTrail_temp.answers_json, 25345, 25360, 253602, 9999); }
@@ -52910,7 +52910,7 @@ cyoAdventure = function(a) {
             campaignTrail_temp.questions_json[13] = tunnel(21008);
                 if (Agenda < 4 ) {
                     swapAnswers(campaignTrail_temp.answers_json, 21008, 21009, 210092, 9999); }
-                if (Nato < 6 ) {
+                if (Nato < 3 ) {
                     swapAnswers(campaignTrail_temp.answers_json, 21008, 21012, 210122, 9999); }
                 if (Pelosi == 0 || Fred == 0) {
                     swapAnswers(campaignTrail_temp.answers_json, 21008, 21020, 210202, 9999); }
@@ -52918,7 +52918,7 @@ cyoAdventure = function(a) {
             campaignTrail_temp.questions_json[13] = tunnel(25394);
                 if (Agenda < 4 ) {
                     swapAnswers(campaignTrail_temp.answers_json, 25394, 25395, 253952, 9999); }
-                if (Nato < 6 ) {
+                if (Nato < 3 ) {
                     swapAnswers(campaignTrail_temp.answers_json, 25394, 25399, 253992, 9999); }
                 if (Pelosi == 0 || Fred == 0) {
                     swapAnswers(campaignTrail_temp.answers_json, 25394, 25408, 254082, 9999); }
@@ -54192,7 +54192,23 @@ const mccainWin = new Playlist();
 mccainWin.addSong(mccainWinSong);
 changePlaylist(mccainWin);
 }
-else if (quickstats[0] <= 170 && Dem == 3) { // big loss - paul
+else if (quickstats[0] <= 269 && Dem == 2) { // big loss - Mitt
+e.pages.push(`<h3><i>Exile</i></h3>
+          <p><b>Icarus expected nothing less than a glorious battle. His challenger crashing through the palace gates, the sky torn with fanfare, and the heavens roaring in anticipation. Advisors spoke of incredible tales of a man draped in finery, a figure so regal that even the word elitist felt inadequate.</b></p> <p><b>Time went by, and while the clocks ticked away, Icarus soon grew anxious, wondering if this coward skipped out on him. Where was the spectacle? Where were the blinding lights and thunderous music promised to announce this mighty foe? The silence was deafening. Wandering outside his palace, his gaze swept across the cracked marble and faded banners.</b></p> <p><b>Where was he? Where was the threat they warned him of? Could he have slipped by the gates unnoticed? It was impossible; the tales told of this champion were near royalty. His suspicion began to grow, and so did his doubts. Maybe he was hidden behind the faces of the very people he had sworn to protect. It would be a cheap trick, not a foreign concept to Olympus.</b></p><p><b>Returning to his chambers, he demanded his subordinates do a widespread hunt from within to force this Commoner into the open. A list was drawn—names of the suspicious, the unremarkable, and the silent. Icarus ordered them exiled, cast out of Olympus. The city emptied. Paranoid, he even began suspecting his own advisors. They would follow the same fate, banished.</b></p><p><b>He was alone and with nothing to show for his tireless search. There was no war to be waged; it was all static. Then, while sitting on his throne, a man entered his vision. Unassuming, plain, and unremarkable, the Commoner. Icarus leapt to his feet, vindicated at last. He shouted, demanding a battle. One final clash to justify it all.<b></b></p><p><b>Instead, the Commoner would shake his head and leave the palace. Icarus, now sent into a fit of rage, declared victory nonetheless. Following the man outside, he came to the grim realization that Olympus was empty. Its people had followed the Commoner, abandoning their god-king to his ruined throne. The kingdom now grew elsewhere, a quiet and humble life. Now realizing that he did nothing but surrender everything to a man who needed no sword to win, Icarus collapsed, feeling nothing but sorrow.</b></p>`)
+          // idk how to add playlists but to do that you create a new playlist in code1 with just that song and put changePlaylist(nameOfYourEndingPlaylist) right here
+//e.image = ""
+e.executable.push([0, (() => {e.image = e.image = 'https://i.imgur.com/yXJ8Fzn.png'})])
+const mittWin = new Playlist();
+  const mittWinSong = new Song(
+    "Common People",
+    "Pulp",
+    "https://i.imgur.com/kT6d7BV.gif",
+    "https://audio.jukehost.co.uk/xiC4PGugJ81BCCFX8HhmbSDrCWR77keM"
+  );
+mittWin.addSong(mittWinSong);
+changePlaylist(mittWin);
+}
+else if (quickstats[0] <= 170 && Dem == 3) { // big loss - Jeb
 e.pages.push(`<h3><i>Dynasty</i></h3>
           <p><b>It was too much to comprehend; the losses were drastic, and the men in the field were torn to shreds. The soldiers who could survive were running for their lives. Insurmountable odds had given Icarus false confidence; he'd faced this before, it came in waves.</b></p> <p><b>The first would hit hard and be a mirage for nothing backing it. Unlike his first conquests, the King had come prepared. Hostile forces crashed through three frontlines, effectively shattering any chance of a defensive stalemate. </b></p> <p><b>Icarus went toward the balcony to view the fight for himself. It was pitiful; all his strategizing laid waste, amounting to nothing more than a fleeting thrill. His queen pulled on his arm, pleading for him to leave. Icarus looked back at the field as the chariot crossed scattered bodies and shrapnel.</b></p><p><b>Thinking for a moment, he nodded and began his exit. He thought about staying behind to fight alongside his men, but he saw little point in such displays of heroism. Icarus fled alongside his trusted gang of wisdom. Looking back at Olympus one last time, he wondered what the point of all this was. Perhaps he misunderstood the mandate given to him.</b></p>`)
           // idk how to add playlists but to do that you create a new playlist in code1 with just that song and put changePlaylist(nameOfYourEndingPlaylist) right here
@@ -54208,7 +54224,7 @@ const jebWin = new Playlist();
 jebWin.addSong(jebWinSong);
 changePlaylist(jebWin);
 }
-else if (quickstats[0] <= 269 && Dem == 3) { // big loss - paul
+else if (quickstats[0] <= 269 && Dem == 3) { // big loss - Jeb
 e.pages.push(`<h3><i>Royal Blood</i></h3>
           <p><b>The royal bells drew closer, and his time on Olympus came to a close. Humiliated and bitter, Icarus stood defiantly despite his closest advisors recommending the retreat. The defenses were all buckling under the weight of the royal army's advance. Like a game of chess, Icarus was outmaneuvered and slowly closed in. His queen left his side hours before, escaping the incoming onslaught. Undeterred, Icarus waited, determined to lead this sinking ship regardless of its destination.</b></p> <p><b>So it came knocking on his doorstep, royalty of the same blood as his fallen predecessor. The gates were willingly lowered. There was no use in pretending they'd hold up against the cannon fire. Few of his subjects cared to stand up for him; he would be going to this battle alone. Dawning his shining armor, Icarus took flight toward the lively courtyard.</b></p> <p><b>The King stepped out of his chariot and onto the red carpet before him whilst looking at Icarus, disgusted that he remained. Subjects of the King were ordered to apprehend Icarus and bring him before the guillotine. After a struggle, they took the man in, clipping his wings and dragging him to his demise.</b></p><p><b>It was a long and drawn-out affair. The King participated in a bit of showboating here and there, choosing to make a grandstand spectacle of the event. The crowds began to cheer. Now, with ample bloodlust, the King captivated the crowd.</b></p><p>"Off with his head!" said the King.</p>`)
           // idk how to add playlists but to do that you create a new playlist in code1 with just that song and put changePlaylist(nameOfYourEndingPlaylist) right here
@@ -54477,6 +54493,16 @@ e.pages.push(`<h3>Reuters: <i>Why John McCain lost the White House</i></h3>
 <p><b>Phoenix (Reuters) - </b> Republican John McCain lost Tuesday's presidential election in an upset at the hands of President Wesley Clark. The veteran Senator, whose poll numbers had surged to astronomical numbers in September, came crashing down by election day.</p><p>As the blame game began, analysts on all sides of the aisle were scratching their heads. How could this happen? President Clark had completely crashed his campaign by attacking Senator McCain's service.</p><p>Clark's apology for such remarks was equally unpopular and most pathetic. The President's approval rating with veterans had dropped to dangerously low levels.</p><p>Despite a deeply unpopular Democratic President, a sputtering economy, and a generally tough political environment for Democrats, the Senator's hopes and dreams faded on election night.</p><p>Eight years after his original presidential campaign in 2000, Senator McCain often came off as a polished statesman with a respectable record.</p><p>But the surprise outcome isn't one without some reasoning. The Senator's selection of Democrat Joe Lieberman had stirred much criticism from his right flank, culminating in the surge of the Reform Party nominee Pat Buchanan.</p><p>In a solemn concession speech, Senator McCain reflected on his own mistakes and offered nothing but goodwill to the President.</p><p>"This was a difficult campaign but I'm proud of our enthusiastic support," he told his supporters at a somber post-election rally in Phoenix. "Now it's time for our nation to heal and I hope all the best for our nation and President Clark."</p><p>Republican strategist John Feehery said McCain's choice for Vice President had been the most obvious source to blame for the defeat.</p><p>"Senator McCain was often cautioned that a move of picking a running mate from the opposite party would come to this."</p><p>The financial crisis that erupted in September, followed by President Clark's remarks on Face The Nation, had seemingly given McCain an untouchable lead. Gallup polls in late September showed the Senator 15 points ahead of Clark.</p><p><b>OVERCONFIDENCE, BAD OPTICS</b></p><p>It's unavoidable that at least some reason McCain lost comes down simply to Joe Lieberman's selection. A pro-choice Democrat with a strong gay rights record was too much for the Republican base to consider.</p><p>He championed national security concerns and a return to a respectable foreign policy but often neglected the bread and butter issues like abortion. Lieberman only helped double down on these issues, limiting the campaign's range.</p><p>The financial crisis also put conservatism as an ideology under much speculation. While President Clark responded calmly and firmly, Senator McCain's proposals didn't go far enough. The offer of tax cuts and reigning in government spending during a crisis and calamity had fallen flat.</p><p>Aides of the Clark Administration seem equally bewildered by the outcome.</p><p>"It is highly doubtful that anyone will ever have an easier and more advantaged political climate than Senator McCain was given." - Nancy Parrish, White House Chief of Staff.</p><p>Top McCain campaign officials say that the outcome also blindsided McCain.</p><p>What about Lieberman? To most, McCain's pick for Vice President did nothing to sew ties with the right flank and potentially tanked the veteran Senator's campaign.</p><p>High-profile Republicans such as former Senator Rick Santorum rejected McCain partially because of Lieberman.</p><p>"McCain spent the entire summer drawing a contrast between his conservativism and Clark's liberalism and Lieberman through all that through the window," said Republican strategist Scott Reed. "(But) you can't blame Lieberman for the loss. He reigned in the moderate Democrats..."”</p><p>McCain senior adviser Nicolle Wallace said the Arizona senator got a rough deal electorally from Buchanan, who "sabotaged" the Republican ticket. As a result, President Clark was able to revive a long-dead electoral coalition in the South held together by ancestral Democrats, sometimes winning states while barely holding 40% of the vote share.</p><p>"No objective analysis suggests that the Clark campaign wasn't directly helped by Buchanan. It's fair to assume Democrats did their fair share of spreading the word of Buchanan's candidacy." She said.</p><p>Editing by Alan Elsner</p><p>Our Standards: <br>The Thomson Reuters Trust Principles.</br></p>`)
 e.executable.push([1, (() => {e.image = e.image = 'https://i.imgur.com/1elrxuk.png'})])
 }
+if ( quickstats[0] <= 269 && Dem == 2) { // romnerimmigrants
+e.pages.push(`<h3>The Onion | <i>Brave Immigrant Completes Spiritual Self Deportation Journey, Thanks President Romney for Giving Pointers.</i></h3>
+<p><b>April 18, 2010 </b>|| Albuquerque, New Mexico - In a dusty border town cafe just south of Arizona, 32-year-old Enrique Balbado wipes finishes the final chapter of his memoir, "The Healing Hike Home: How I Self-Deported in 2010 and Found Myself, Barefoot and Unemployed."</p> <p>Enrique is one of the thousands of immigrants who followed President Mitt Romney's self-deportation policy described as "a humane, optional exit strategy for people who have jobs and families, but also the audacity to want to stay."</p> <p>"I remember when ICE agents first knocked on my door," Enrique says. "They were so gentle suggesting I deport myself, they went through all my belongings hurrying me along and my house was torn apart but they assured me this was the most humane possible way to do it."</p><p>Motivated by Romney's immigration policy and ICE agents banging down his door, Enrique sold his truck, quit his landscaping job, and began walking toward Mexico. "I didn't even know which way was south," he admits. "I used the stars, the scent of cilantro, and an outdated Taco Bell receipt with a map on the back."</b></p><p>Romney's presidency now hailed as a success story for the National Etiquette Restoration Act, was marked by sweeping reforms, including the Voluntary Exodus Encouragement Act, which replaced all immigration forms with a mirror and a post-it note reading, "You know what to do."</p><p>Critics like Governor Rick Perry, who conducts more forceful immigration reform in Texas, like the establishment of Texans "own Guantanamo" on a floating island built by immigrants. Romney responded to the attacks, stating, "Look, if people want to stay in America, they'll stay. But they'll go if they don't want to be hassled by federal agents disguised as Pizza Hut delivery drivers. That's the free market of residence."</p><pEnrique’s journey was no easy task. "I was halfway through Arizona when I realized I forgot my passport. But I remembered Mitt said, 'When life gives you immigration status, give it back like a gentleman.' So I kept walking."</p><p>Enrique rebuilt his life in Sonora as a freelance sombrero consultant and occasionally appears back in America for TED Talks, giving motivational speeches about leaving the country.</p><p>No matter the struggle, Enrique holds no ill will toward the President. "Romney taught me something. If you don't belong somewhere, you should definitely leave quietly and let the economy figure it out. That's the American way."</p><p>When confronted, President Romney nodded and said, "Good. The system works."</p>`)
+e.executable.push([1, (() => {e.image = e.image = 'https://i.imgur.com/xzzafuc.png'})])
+}
+else if ( quickstats[0] <= 269 && Dem == 2 && Wins < 7) { // romnercare
+e.pages.push(`<h3>The New Yorker | <i>Did Mitt Romney Save His Soul?</i></h3>
+<p><b>The American Health Insurance Connector Authority reveals a liberal steak to the all-but liberal President</b></p> <p>Published in August, 2011</p> <p>In a small, cramped back-room in the halls of the ever glamorous and historical West Wing we find President Romney, sitting alongside Senate leaders Harry Reid and Mitch McConnell. Reid looks at the President and inquires into his positivity in the project to reinvent the American Healthcare system. McConnell looks more glum than usual, selecting instead to stare in idly at the carpeted floors of this chosen room away from prying eyes. Romney glances at McConnell and asks if he can throw him a bone, McConnell shakes his head, The President then understood he was in fact going at this alone.</p><p>It was perhaps less unorthodox for a Republican to see to do something like this in Massachusetts, territory of the liberal-leaning Republican and the progressive democrat but in national politics the line of left-and-right was not so blurred, nor was the cameras not as bright. His next steps were going to be covered thoroughly, so he’d have to tread carefully.</b></p><p>Months of cajoling, talks across the aisle and a little bit of watering down to bring some Republicans across, the American Healthcare Reform Act was signed into law by President Romney to the relative chagrin of many Republicans he pleaded with to support the law. With re-election around the corner there is muted praise from the democratic candidates and even former Vice President Crist, who since departing early this year has started what some called a hopeless campaign for the Democratic Party’s nomination just one week prior to the signing.</p><p>While the last three years have indeed been confusing politically, Romney’s rather sturdy sense of pride in the bill is evident as he recalled at the signing it was not ‘100% what everyone in this roomed wanted but it will 100% help many Americans, and I cannot think of a more noble and righteous goal in this office I have been bestowed.’</p><p>The question still lays on if the President’s bold bipartisan move will help or hurt him in the national theatre of political discourse but it is perhaps fitting to say this will without a shadow of a doubt be the most historically significant moment of his first term, perhaps with the exception of the success of Operation Neptune Spear this past spring. President Romney has absconded from Republican thinking of healthcare, will the party absconded from him next November and will he lose happily with a cleared conscience?</p>`)
+e.executable.push([1, (() => {e.image = e.image = 'https://i.imgur.com/kS9Fcx0.png'})])
+}
 if ( quickstats[0] <= 269 && Dem == 3 && Win < 7) { // Jeb L
 e.pages.push(`<h3> <i></i></h3>
 <p><b>The Board of Education welcomes you to the homepage for the Educational Opportunities and Advancement Act.</b></p><h3><i>Highlights</i></h3><br><span style="color:blue;"><u>Opportunity scholarships and vouchers</span></u><p>Each state is offered a federal grant to pay for school vouchers, which are given to successful students in failing schools who are pulled out and put into a nearby charter or private school.</p><br><span style="color:blue;"><u>State Hub for voucher applications</span></u><p>Application for state vouchers under Title IX, Part C, Section 9018 of the Educational Opportunities and Advancement Act. (Public Law 140-149.) Includes the Accountability Workbook.</p><br><span style="color:blue;"><u>State Hub for scholarship applications</span></u><p>Application for state scholarship under Title IX, Part D, Section 6098 of the Educational Opportunities and Advancement Act. (Public Law 150-159.)</p><br><span style="color:blue;"><u>Progress and performance report</span></u><p>State-by-state statistics tracker of the United States Department of Education. (Last updated July 8th 2010.)</p><br><span style="color:blue;"><u>Improving the quality of our teachers</span></u><p>Enacting the Proven Strength in Tenure Act holds teachers to greater standards as our first line of defense for greater education.</p>`)
@@ -54529,10 +54555,10 @@ e.executable.push([1, (() => {e.image = e.image = 'https://i.imgur.com/iKKfILD.p
 }
 
 // midterm
-if ( quickstats[0] <= 269 && Dem == 2) { // romnercare
-e.pages.push(`<h3>The New Yorker | <i>Did Mitt Romney Save His Soul?</i></h3>
-<p><b>The American Health Insurance Connector Authority reveals a liberal steak to the all-but liberal President</b></p> <p>Published in August, 2011</p> <p>In a small, cramped back-room in the halls of the ever glamorous and historical West Wing we find President Romney, sitting alongside Senate leaders Harry Reid and Mitch McConnell. Reid looks at the President and inquires into his positivity in the project to reinvent the American Healthcare system. McConnell looks more glum than usual, selecting instead to stare in idly at the carpeted floors of this chosen room away from prying eyes. Romney glances at McConnell and asks if he can throw him a bone, McConnell shakes his head, The President then understood he was in fact going at this alone.</p><p>It was perhaps less unorthodox for a Republican to see to do something like this in Massachusetts, territory of the liberal-leaning Republican and the progressive democrat but in national politics the line of left-and-right was not so blurred, nor was the cameras not as bright. His next steps were going to be covered thoroughly, so he’d have to tread carefully.</b></p><p>Months of cajoling, talks across the aisle and a little bit of watering down to bring some Republicans across, the American Healthcare Reform Act was signed into law by President Romney to the relative chagrin of many Republicans he pleaded with to support the law. With re-election around the corner there is muted praise from the democratic candidates and even former Vice President Crist, who since departing early this year has started what some called a hopeless campaign for the Democratic Party’s nomination just one week prior to the signing.</p><p>While the last three years have indeed been confusing politically, Romney’s rather sturdy sense of pride in the bill is evident as he recalled at the signing it was not ‘100% what everyone in this roomed wanted but it will 100% help many Americans, and I cannot think of a more noble and righteous goal in this office I have been bestowed.’</p><p>The question still lays on if the President’s bold bipartisan move will help or hurt him in the national theatre of political discourse but it is perhaps fitting to say this will without a shadow of a doubt be the most historically significant moment of his first term, perhaps with the exception of the success of Operation Neptune Spear this past spring. President Romney has absconded from Republican thinking of healthcare, will the party absconded from him next November and will he lose happily with a cleared conscience?</p>`)
-e.executable.push([2, (() => {e.image = e.image = 'https://i.imgur.com/X6uVu2a.png'})])
+if ( quickstats[0] <= 269 && Dem == 2) { // mitt ukrain
+e.pages.push(`<h3>CNN: <i>President warned that a "red line should not be crossed" regarding the integrity of Ukraine's borders."</i></h3>
+<p>Revolution recently rocked the balance of power in Ukraine, a development President Romney loudly praised as a rebuke of authoritarian control. The Russians, on the other hand, haven't been so keen on regime change and freely claimed that the United States was muddled in the politics of another country. While claiming there was no foul play on America's end, Secretary of State Robert Zoellick lambasted these claims and promised unilateral support to Ukraine's struggle for independence. </p><p>Ukraine underwent turbulent instability following the 2010 election. The Batkivshchyna party most sternly opposed Russian influence seeking a path to being admitted into the European Union and fiercely opposed agreements like the 2010 Ukrainian–Russian Naval Base for Natural Gas treaty and the incumbent government's close relations with Putin.</p><p>When the results came in, Yulia Tymoshenko of the Batkivshchyna Party won a plurality of the vote with 47.8% against Party of Religions candidate Viktor Yanukovych's 46.9%. Yanukovych immediately challenged the close results, and the Supreme Administrative Court of Ukraine suspended the results following an appeal, but due to Ukraine's constitution, Tymoshenko would be inaugurated before another election could be scheduled. </p><p>Yanukovych refused to concede nor withdraw his appeal, and soon, an armed conflict blew up in multiple regions along the Russian border backed by pro-Russian separatists. President Romney played quick geopolitics by recognizing the now pro-EU-led Ukrainian government while it hit utter turbulence.</p><p>Now, at its climactic hour with Putin eyeing up the Crimean peninsula as an easy grab, President Romney has issued his warning against any Russian attempts to take an inch of Ukrainian territory. "If Putin believes he can march into Crimea and take it for free, he has another thing coming. The highest sanctions will be thrust upon the Russian people for no reason other than for Putin's own hubris," Romney said during a CNN interview.</p><p>Administration outsiders claim Romney is only playing into Putin's hand with the aggressive stance. They cite former President Wesley Clark's failures to prevent Russian territorial gains during the Russo-Georgian war. Clark left office nearly humiliated by the conflict and his failure to prevent Georgia's capture.</p><p>President Romney now stands over a similar crisis. Just like his predecessor, he is attempting to hardball Putin, and it's unclear whether he or Putin will blink first.</p>`)
+e.executable.push([2, (() => {e.image = e.image = 'https://i.imgur.com/avJT64M.png'})])
 }
 if ( quickstats[0] <= 269 && Dem == 3) { // jeb tpp
 e.pages.push(`<h3>Larry King Live CNN: <i>Trump flirts with a presidential run, citing the President's "Abandonment of Hardworking Americans."</i></h3>
@@ -54590,6 +54616,11 @@ if ( quickstats[0] <= 269 && Dem == 1) { // mccain lybia
 e.pages.push(`<h3>NPR: <i>President McCain hails Libyan Rebels as "Heroes"</i></h3>
 <p><b>By Mike Holtz</b></p><p><b>March 4, 2011</b></p> <p>The President made remarks that drew criticism while on a trip through Benghazi to establish diplomatic ties with the rebellion government. The rebels have found their champion to offer support in their quest to topple Colonel Moammar Gaddafi.</p><p>President John McCain (Republican, Arizona): I've met these brave fighters who are not al-Qaida. They are Libyan patriots.</p><p>Such remarks have raised criticism about the necessity of aiding the rebels in the same vein the United States S. did in the 1980s with the mujahideen battling the Russians in Afghanistan. Some of those fighters Washington helped arm and train in Afghanistan later joined al-Qaeda. The President dismissed the criticism, saying that none of the leaders had any ties to radical Islam in their history.</p><p>Many within the President's inner circle have floated the idea of sending ground troops to Libya. While President McCain has made no assertions, he has made it clear that the United States will support the National Transitional Council in Benghazi to avert a possible stalemate.</p><p>President McCain: I'll be very frank. I do worry that if there is a stalemate here, it could open the door to radical Islamic fundamentalism because of the frustration that thousands and thousands of young people would feel as if they are deprived of participating in democracy in the united Libya.</p><p>The President has drastically increased NATO air strikes, deployed Predator drones to Libya, and refused calls to take the A10 and the AC130 out of combat. Amid low approval ratings stirred by McCain's legislative failures to reform social security and the second PATRIOT Act, it seems the President has turned all of his focus outward.</p> <br><b>More From NPR</b></br><span style="color:Blue;"><u>What does the Vice President's "Sqeeze Gaddafi" remark mean for the future of the administration's Libyan policy? </span></u> (Jan 9th 2011)</br></br><span style="color:Blue;"><u>Former President Clark lambasts McCain's escalation of the Libyan conflict in a CNN interview.</span></u> (Feb 14th 2011)</br></br><span style="color:Blue;"><u>How McCain's right flank intends to cripple the President's reelection campaign.</span></u> (Feb 20th 2011)</br></p>`)
 e.executable.push([3, (() => {e.image = e.image = 'https://i.imgur.com/FDShEaw.png'})])
+}
+if ( quickstats[0] <= 269 && Dem == 2) { // mitt 2012
+e.pages.push(`<h3>TheViewFrom32: <i>Undecided? Try the Match-O-Matic</i></h3>
+<p>If you don't know who to vote for in the 2012 elections and are having a hard time keeping track of who said what among the 11 candidates, help is here. ABC News and USA Today have created the Match-O-Matic, a cheery little game that asks you a handful of questions about the Economy, Immigration, Health Care and Hot Topics (gay marriage, taxation, global warming, and a candidate's experience) before spitting out a list of three candidates whose views are closest to yours. A scorecard on the side shows where you agreed and disagreed, and displays a short quote from the candidate addressing each issue.</p><p>The first time I tried, I answered as honestly as I could, without trying to influence the choice in a more liberal or conservative direction. That gave me Tom Steyer, Bernie Sanders and Caroline Kennedy as 1-2-3.</p><p>I tried again, this time being a bit more "realistic"—meaning conservative—with my answers. This time I got Joe Sestak, Tom Daschle and Rod Blagojevich.</p><p>Unfortunately the site says nothing about the methodology behind the game other than a statement that appears briefly on one screen that says "Answers gathered from statements and speeches by candidates and catalogued by USA Today." Not a very enlightening explanation of the research behind the game.</p><p>The final question on experience annoys me. Here are your choices:</p><p>What if I have no preference, or want both "U.S. Senate" and "served in military," or "has run a business" and "served as governor or mayor"? No go.</p><p>I don't know how heavily this question is weighted, but you can see that a single answer can push your choice toward a specific candidate.</p><p>So, is this anything more than a fun way to spend a few minutes on a Monday night? Actually, I think it is. I never gave a thought to Tom Steyer or Joe Sestak, but now I'm going to learn more about them. Sadly, of course, none of my top three candidates have a snowball's chance in hell of being on the ballot.</p><p>If you want more than a fun, painless suggestion on who to vote for, try the VoteMatch quiz instead. It's not as slick but is much more thoughtful. The questions are similar, but you give your answer on a scale of 1 to 5, from "Support" to "Oppose." Each question links to a detailed explanation of the topic, explaining what each answer means, giving background information and defining "buzzwords" often tossed around when the topic is discussed.</p><p>VoteMatch quiz results screen Steyer was at the top of my list again, but Clinton popped up at number two, and there's Caroline Kennedy again, coming in third.</p><p>You can answer the questions as quickly as with Match-O-Matic, maybe even faster because you don't have to wait for spiffy graphics to update. You can also take your time and read extensive background information on the questions and on the candidates when you get your results.</p><p>The site is quite transparent about its content and staff. Staff members are named, with a bit of information about each. You can find links to the source material used to determine a candidate's position on an issue. Steyer, for example, has listed 17 quotes on the Environment, 5 on Economic Equality, and 2 on Healthcare. Blagojevich has 26 on Anti Corruption, 10 on Crime, and 20 on Taxes. As Illinois Governor, his record on these topics are also shown.</p><p>Most importantly, for each possible answer in the VoteMatch quiz you can see exactly what statement by the candidate was used to determine his/her position as well as the number of points the answer is worth. Much more helpful than the "behind the green curtain" approach of Match-O-Matic. Give them both a try and let us know how it works out by clicking "Comments" below.</p> <p><b>Update (October 30, 2012)</b>It's hard to believe that anyone might be undecided after all the publicity about both candidates, but just in case... I've explained my reasons for voting for Steyer in an essay titled <b>What if?</b></p>`)
+e.executable.push([3, (() => {e.image = e.image = 'https://i.imgur.com/D4xNls5.png'})])
 }
 if ( quickstats[0] <= 269 && Dem == 3) { // mccain lybia
 e.pages.push(`<h3>FOX: <i>Democrat prepare to sack Hillary as a final rebuke of the Clinton years</i></h3>
