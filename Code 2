@@ -52520,7 +52520,7 @@ function switcheroo12() {
     e.candidate_json[id].fields.color_hex = "#e35587" 
 
 }
-function switcheroo12() {
+function switcheroo13() {
     var id = e.candidate_json.map(p=>p.pk).indexOf(200)
     e.candidate_json[id].fields.first_name = "John"
     e.candidate_json[id].fields.last_name = "McCain"  
@@ -53108,7 +53108,7 @@ cyoAdventure = function(a) {
         else if (Notroops > 0 && Loyalist > 0 && Win > 7 || Notroops > 0 && Loyalist > 0 && Win > 5 && (e.player_answers.includes(5184) || e.player_answers.includes(20755))) {
             updateHistoricalData(newVpTableHistorical1, newHistHexcolour1, newHistName1, newHistEV1, newHistPV1, newHistPVP1);
 
-            switcheroo12();
+            switcheroo13();
             switcheroo41();
             switcheroo21();
             Dem += 1;  
