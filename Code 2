@@ -1093,7 +1093,7 @@ campaignTrail_temp.questions_json = [
         "pk": 22846,
         "fields": {
             "priority": 0,
-            "description": "You've returned home to Washington after a round trip through states ripped to shreds by Hurricane Katrina, and you're informed that House Majority Leader Tom DeLay has been indicted and resigned after much public pressure. With his resignation, the people's trust in the Republican Congress has gone. Pelosi wanted to meet with you to review a domestic push, but you've looked abroad. NATO is disunited and in need of a rallying flag. How will you reunite the West?",
+            "description": "You've returned home to Washington after a round trip through states ripped to shreds by Hurricane Katrina, and you're informed that House Majority Leader Tom DeLay has been indicted and resigned after much public pressure. With his resignation, the people's trust in the Republican Congress has gone. Pelosi wanted to meet with you to review a domestic push, but you've looked abroad. NATO is disunited with newly reelected Chancellor Schöder's government in Germany declaring war on American foreign policy to Prime Minister Blair's flailing premiership; it's time to save the alliance. How will you reunite the West?",
             "likelihood": 1
         }
     },
@@ -5164,7 +5164,7 @@ campaignTrail_temp.answers_json = [
         "pk": 22850,
         "fields": {
             "question": 22846,
-            "description": "Broad and vague goals defined the Bush Administration's directionless foreign policy. What the world needs is a New Atlantic Charter to set more defined goals on combating terrorism and the buildup of weapons of mass destruction in rogue states like North Korea and Iran."
+            "description": "If Schröder believes he can stop American ambition, he's got a lesson or two to learn from me. I will never back down when confronted with a crisis. We are pursuing the New Atlantic Charter as the standard for combating terrorism worldwide."
         }
     },
     {
@@ -8125,6 +8125,14 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 254548,
             "description": "I'm not letting McCain make me look like a dove on National Security. I repealed The Patriot Act because almost all its sections outlived their uses. We don't need to breach the rights of our citizens for the sake of chasing ghosts.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 254609,
+        "fields": {
+            "question": 9999,
+            "description": "Schröder will not ruin this for me; this is my moment. Everything I've warned of is coming to pass, and if we do not act now, we will lose the second Cold War before it has even started. We need a united coalition to stand firm and denounce Putin's aggression!"
         }
     }
 ]
@@ -18124,7 +18132,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 22847,
             "candidate": 201,
             "affected_candidate": 200,
-            "global_multiplier": 0.01
+            "global_multiplier": 0.025
         }
     },
     {
@@ -18134,7 +18142,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 22850,
             "candidate": 201,
             "affected_candidate": 200,
-            "global_multiplier": 0.02
+            "global_multiplier": 0.04
         }
     },
     {
@@ -21034,7 +21042,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 24785,
             "candidate": 201,
             "affected_candidate": 200,
-            "global_multiplier": 0.008
+            "global_multiplier": 0.02
         }
     },
     {
@@ -22344,7 +22352,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 21575,
             "candidate": 201,
             "affected_candidate": 200,
-            "global_multiplier": -0.15
+            "global_multiplier": -0.015
         }
     },
     {
@@ -22805,6 +22813,16 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 201,
             "affected_candidate": 200,
             "global_multiplier": -0.025
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 254611,
+        "fields": {
+            "answer": 254609,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "global_multiplier": 0.035
         }
     }
 ]
@@ -38605,7 +38623,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1025,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.3
+            "state_multiplier": -0.2
         }
     },
     {
@@ -38990,7 +39008,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1025,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.3
+            "state_multiplier": -0.2
         }
     },
     {
@@ -39375,7 +39393,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1025,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.3
+            "state_multiplier": -0.2
         }
     },
     {
@@ -45117,7 +45135,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1023,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.06
+            "state_multiplier": -0.02
         }
     },
     {
@@ -45128,7 +45146,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1008,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.06
+            "state_multiplier": -0.02
         }
     },
     {
@@ -45250,6 +45268,105 @@ campaignTrail_temp.answer_score_state_json = [
             "candidate": 200,
             "affected_candidate": 200,
             "state_multiplier": 0
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254585,
+        "fields": {
+            "answer": 21031,
+            "state": 1021,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.08
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254586,
+        "fields": {
+            "answer": 21031,
+            "state": 1037,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": 0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254587,
+        "fields": {
+            "answer": 21408,
+            "state": 1021,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.08
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254588,
+        "fields": {
+            "answer": 21408,
+            "state": 1037,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": 0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254589,
+        "fields": {
+            "answer": 21413,
+            "state": 1021,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.08
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254590,
+        "fields": {
+            "answer": 21413,
+            "state": 1037,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": 0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254591,
+        "fields": {
+            "answer": 21418,
+            "state": 1021,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.08
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254592,
+        "fields": {
+            "answer": 21418,
+            "state": 1037,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": 0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254593,
+        "fields": {
+            "answer": 23969,
+            "state": 1017,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.04
         }
     }
 ]
@@ -47988,7 +48105,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 22479,
             "candidate": 201,
-            "answer_feedback": "The expected holdouts like Conrad and Ben Nelson give you a headache, but your efforts to pass gun legislation are saved by the likes of the new class of Senators, Carnahan, and Tester, who approve moderate bills. Your efforts with the shooting as a backdrop are praised."
+            "answer_feedback": "The expected holdouts, like Conrad and Ben Nelson, give you a headache. Still, your efforts to pass gun legislation are saved by the likes of the new class of Senators, Carnahan, and Tester, who approve the moderated bill. Your efforts with the shooting as a backdrop are praised."
         }
     },
     {
@@ -48753,7 +48870,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 22847,
             "candidate": 201,
-            "answer_feedback": "You make trips, sending Secretary Kerry to barter with the current holdouts in the alliance while you enter negotiations with Georgia. The effort is cut short when a buzzing crew of NATO leaders pulls you back after Russia threatens to back separatist movements in Abkhazia and South Ossetia, effectively killing the idea."
+            "answer_feedback": "As if NATO would let you burn the world down at this hour. Chancellor and part-time Russian oil baron Schröder drives a stake through the heart of your attempts to save Georgia before you can even get them off the ground. He may have helped you avoid a national crisis for now, at least."
         }
     },
     {
@@ -48762,7 +48879,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 22850,
             "candidate": 201,
-            "answer_feedback": "Turkey, Germany, and France, all burned by Bush, make high demands of your leadership. Turkey is looking to sink its teeth into the oil fields. Germany demands a comprehensive withdrawal plan from Iraq. France found your predecessor's actions highly hypocritical and isn't receptive to your calls. It's too much; you return home empty-handed."
+            "answer_feedback": "Negotiations take place in New York City, and unsurprisingly, the atmosphere is tense as you begin assailing the disunity within NATO. Schröder refuses to cede an inch toward compromise, much less a whole deal and the talks fall apart not long after."
         }
     },
     {
@@ -50760,7 +50877,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 24730,
             "candidate": 201,
-            "answer_feedback": "The expected holdouts like Conrad and Ben Nelson give you a headache, but your efforts to pass gun legislation are saved by the likes of the new class of Senators, Carnahan, and Tester, who approve moderate bills. Your efforts with the shooting as a backdrop are praised."
+            "answer_feedback": "The expected holdouts, like Conrad and Ben Nelson, give you a headache. Still, your efforts to pass gun legislation are saved by the likes of the new class of Senators, Carnahan, and Tester, who approve the moderated bill. Your efforts with the shooting as a backdrop are praised."
         }
     },
     {
@@ -50814,7 +50931,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 24764,
             "candidate": 201,
-            "answer_feedback": "As your administration lays out the plans for Iraq, including study groups that will aid in finding a solution, you head back to Europe—joining arms with the newly elected Chancellor Merkel of Germany to bring the alliance together. The talks find some middling success. Promises are made, smiles are given, but nothing firm is gained."
+            "answer_feedback": "As your administration lays out the plans for Iraq, including study groups that will aid in finding a solution, you head back to Europe, joining arms with Blair to bring the alliance together. The talks find some middling success. Promises are made, smiles are given, but nothing firm is gained."
         }
     },
     {
@@ -50823,7 +50940,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 24768,
             "candidate": 201,
-            "answer_feedback": "As your administration lays out the plans for Iraq, including study groups that will aid in finding a solution, you head back to Europe—joining arms with the newly elected Chancellor Merkel of Germany to bring the alliance together. The talks find some middling success. Promises are made, smiles are given, but nothing firm is gained."
+            "answer_feedback": "As your administration lays out the plans for Iraq, including study groups that will aid in finding a solution, you head back to Europe, joining arms with Blair to bring the alliance together. The talks find some middling success. Promises are made, smiles are given, but nothing firm is gained."
         }
     },
     {
@@ -50832,7 +50949,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 24772,
             "candidate": 201,
-            "answer_feedback": "As your administration lays out the plans for Iraq, including study groups that will aid in finding a solution, you head back to Europe—joining arms with the newly elected Chancellor Merkel of Germany to bring the alliance together. The talks find some middling success. Promises are made, smiles are given, but nothing firm is gained."
+            "answer_feedback": "As your administration lays out the plans for Iraq, including study groups that will aid in finding a solution, you head back to Europe, joining arms with Blair to bring the alliance together. The talks find some middling success. Promises are made, smiles are given, but nothing firm is gained."
         }
     },
     {
@@ -50841,7 +50958,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 24776,
             "candidate": 201,
-            "answer_feedback": "As your administration lays out the plans for Iraq, including study groups that will aid in finding a solution, you head back to Europe—joining arms with the newly elected Chancellor Merkel of Germany to bring the alliance together. The talks find some middling success. Promises are made, smiles are given, but nothing firm is gained."
+            "answer_feedback": "As your administration lays out the plans for Iraq, including study groups that will aid in finding a solution, you head back to Europe, joining arms with Blair to bring the alliance together. The talks find some middling success. Promises are made, smiles are given, but nothing firm is gained."
         }
     },
     {
@@ -50850,7 +50967,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 24780,
             "candidate": 201,
-            "answer_feedback": "As your administration lays out the plans for Iraq, including study groups that will aid in finding a solution, you head back to Europe—joining arms with the newly elected Chancellor Merkel of Germany to bring the alliance together. The talks find some middling success. Promises are made, smiles are given, but nothing firm is gained."
+            "answer_feedback": "As your administration lays out the plans for Iraq, including study groups that will aid in finding a solution, you head back to Europe, joining arms with Blair to bring the alliance together. The talks find some middling success. Promises are made, smiles are given, but nothing firm is gained."
         }
     },
     {
@@ -50859,7 +50976,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 24785,
             "candidate": 201,
-            "answer_feedback": "As your administration lays out the plans for Iraq, including study groups that will aid in finding a solution, you head back to Europe—joining arms with the newly elected Chancellor Merkel of Germany to bring the alliance together. The talks find some middling success. Promises are made, smiles are given, but nothing firm is gained."
+            "answer_feedback": "As your administration lays out the plans for Iraq, including study groups that will aid in finding a solution, you head back to Europe to bring the alliance together. The talks find rare success with Schröder at the helm in Germany, shutting you down."
         }
     },
     {
@@ -52103,6 +52220,15 @@ campaignTrail_temp.answer_feedback_json = [
             "candidate": 201,
             "answer_feedback": "McCain gives you a full lashing, calling you irresponsible and putting the American people at risk. He takes full control of the debate with rhetoric similar to the Bush years. Fear mongering."
         }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 254610,
+        "fields": {
+            "answer": 254609,
+            "candidate": 201,
+            "answer_feedback": "Even if you weren't questioning his loyalty to Europe over the creation of Nord Stream 1, Schröder has made himself an opponent of American war-mongering. He believes you are jeopardizing his work to acquire Russian gas and does all he can to sabotage your efforts."
+        }
     }
 ]
 
@@ -52142,6 +52268,7 @@ var Britain = 0;
 var France = 0;
 var Turkey = 0;
 var Germany = 0;
+var Shroder = 0;
 var Agenda = 0;
 var Neo = 0;
 var Patriot = 0;
@@ -52239,7 +52366,12 @@ function updateQuestionBanner() {
         img.src = 'https://i.imgur.com/0DuAQAe.jpg';
         console.log("banner change success");
     }
-    if(Dem == 5 && Opp == 1 && Neo > 9)
+    else if(Dem == 5 && Opp == 1 && e.player_answers.includes(25094))
+    {
+        img.src = 'https://i.imgur.com/sBqfc9O.jpg';
+        console.log("banner change success");
+    }
+    else if(Dem == 5 && Opp == 1 && Neo > 9)
     {
         img.src = 'https://i.imgur.com/JkRw8cA.png';
         console.log("banner change success");
@@ -52581,7 +52713,7 @@ cyoAdventure = function(a) {
     }
 
     //rusher? i hardly even know her
-    if (ans == 22847 || ans == 21552 || ans == 21561 || ans == 21566 || ans == 5237  || ans == 5235  || ans == 21471 || ans == 24150 || ans == 24158 || ans == 22580) {
+    if (ans == 21552 || ans == 21561 || ans == 21566 || ans == 5237  || ans == 5235  || ans == 21471 || ans == 24150 || ans == 24158 || ans == 22580) {
         Russia += 2;
     } 
     if (ans == 5236  || ans == 24154 || ans == 21536 || ans == 22573 || ans == 20777 || ans == 22863 || ans == 24790) {
@@ -52669,6 +52801,9 @@ cyoAdventure = function(a) {
     }
     if (ans == 20877 || ans == 5263 || ans == 20928) {
         France += 1;
+    }
+    if (ans == 5148 || ans == 5149) {
+        Shroder += 1;
     }
 
     ///pass your pet project that no one cares about
@@ -53109,7 +53244,7 @@ cyoAdventure = function(a) {
         if (Dem == 1) {
             campaignTrail_temp.questions_json[19] = tunnel(21319); 
         }
-        if (Dem == 2 && Nato < 3) {
+        if (Dem == 2 && Nato > 2) {
             campaignTrail_temp.questions_json[19] = tunnel(25372); 
         }
         else if (Dem == 2) {
@@ -53180,7 +53315,16 @@ cyoAdventure = function(a) {
     if (e.noCounter == 21) {
         if (e.player_answers.includes(25094) && Nato < 20) {
             campaignTrail_temp.questions_json[21] = tunnel(25150);
-                if (Germany == 0 || France == 0){
+                if (Shroder == 1){
+                    swapAnswers(
+                        campaignTrail_temp.answers_json,
+                        25150,       // Target question ID
+                        25152,      // Answer PK to disable
+                        254609,     // Hidden answer PK to enable
+                        9999        // Fake question ID
+                    );
+                }
+                else if (Germany == 0 || France == 0 && Shroder == 0){
                     swapAnswers(
                         campaignTrail_temp.answers_json,
                         25150,       // Target question ID
@@ -54590,25 +54734,30 @@ e.pages.push(`<h3>CNN NEWS: <i>Petraeus touts the Afghani army and police force 
 <p><b>by Jeanne Sahadi</b></p> <p>Among calls for a withdrawal plan from Iraq lay the confused and aimless effort in Afghanistan. Long overshadowed by its unpopular brother, the war in Afghanistan has remained an afterthought of the Clark Administration, floating a timed withdrawal but refusing to commit to anything of substance.</p> <p>Now, In the latest of General David Petraeus's "charm campaigns," he's stood by Afghanistan and denounced any ideas of a withdrawal from the region by 2013 as the Clark Administration has floated. The general has taken it upon himself to focus on the internal improvements of the Afghan army. He also described how they were steadily taking more responsibility from NATO allies.</p><p>President Clark's unpopularity with his left flank demanding he pull back from Iraq and Afghanistan has sent cryptic messages in a clear attempt to buy time for the public to get over it. Secretary of State John Kerry, who stayed on for the job despite repeated disagreements with the President's conduct, has been equally left washed ashore as word spreads of a possible resignation is looming.</p><p>Secretary Kerry has disavowed the claims, but his isolation from the rest of the State Department gives him all the reason to call it quits despite his high public approval. Insider sources claim the Secretary is aloof at times, and his lowbrow approach is unable to make much headway in an increasingly stubborn administration.</p><p>General Petraeus, on the other hand, is the hands-on type who seemingly has full control over the situation in Iraq and Afghanistan. With much speculation over a possible presidential run circling the media, he's also reaffirmed that he has no intention of running for the Republican Presidential nomination in 2012.</p> <br><b>CNN Coverage</b></br><span style="color:Blue;"><u>Newly turned Independent, Dennis Kucinich eyes up Ohio governor mansion considering a challenge to incumbent Governor Ted Strickland in 2010</span></u> (Sept 4th 2009)</br></br><span style="color:Blue;"><u>How the Tea Party is reinvigorating the isolationist movement</span></u> (Sept 7th 2009)</br></br><span style="color:Blue;"><u>Clark gives peace activists a nod during 9/11 memorial speech</span></u> (Aug 26th 2009)</br></p>`)
 e.executable.push([2, (() => {e.image = e.image = 'https://i.imgur.com/oggK2FF.png'})])
 }
-if ( quickstats[0] >= 269 && Notroops > 0 && e.player_answers.includes(22483)) { // jonkler clark
+else if ( quickstats[0] >= 269 && Notroops > 0 && e.player_answers.includes(24734)) { // jonkler clark
 e.pages.push(`<h3>The Glenn Beck Program: <i>General Secretary of The United Soviet States Wesley K. Clark stays firm on his goal of socialized medicine.</i></h3>
 <p><b>Politics | August 17, 2009</b></p> <p>President Wesley Clark, who won reelection last November by nothing short of a mistake from God, has now dropped the bipartisan mask and has become what we all knew he was: a full-fledged dictator. In a move that even blindsided his corrupt democrat buddies, he revealed himself to be the untrustworthy socialist Republicans have been warning about.</p> <p>If you put him in his military uniform and get him on a balcony, you will see a dictator. Republicans in Congress need to move to impeach this sociopathic pathological liar before he convinces his party to go forward with dismantling America!</p><p>The reasoning the President brought up was nothing more but utter fear-mongering; "No child in this country should grow up without regular medical checkups and care or regular exercise and physical fitness training and every adult should be provided access to the kind of diagnostic testing and preventive treatments which can slow the onset of aging diseases like diabetes or alzheimers."</p><p>The United States has the single best healthcare system in the world. You need to work hard for it, but the reward is impossible to beat. President Clark's proposal will not only lower the quality of our healthcare, but it will also shatter our economy, and in 10 years, America will be a third-world country.</p><p>He brought up his supposed "studies," which, I assure you, are nothing but the word of Marx. President Clark remarked, "In my study of this problem and experience over the years, this means transforming gradually, systematically from a workplace-centered private payer system toward some greater reliance on some form of a single-payer system to ease administrative burdens and reduce cost!"</p> <p>He's a liar; every single economist will tell you that healthcare to the extreme he wants will explode prices and require every American to give even more to the government, and we'll get tiny in return!</p> <p>Republicans and Democrats need to step up and dismantle the Clark Regime, but I doubt many of the Democratic Party are willing to stand up against their king given that they passed the stepping stone, Clark Care. America's fall to socialism is nothing short of a nightmare, but there is still hope. The midterm elections will allow us to make our voices loud and clear to kill President Clark's mandate once and for all.</p>`)
 e.executable.push([2, (() => {e.image = e.image = 'https://i.imgur.com/yfjCkPG.jpeg'})])
 }
-if ( quickstats[0] >= 269 && Notroops > 0 && e.player_answers.includes(22475)) { // gay clark
-e.pages.push(`<h3>Press Release From Republican Presidential Candidate, Herman Cain: <i>Speculation over Wesley Clark's marriage ramp up as multiple sources claim infidelity possibly even with a man is deeply concerning.</i></h3>
-<p><b>Herman Cain | Businessman</b></p><p><b>Feb 15, 2009</b></p> <p>The atmosphere within the White House is quite cold following Valentine's Day as it becomes clear to inside sources that the love between the President and his wife, Gertrude, of 42 years, has faded. Despite the White House presentation of their marriage, sources say Clark's wandering eye has landed on a 30-year-old staffer and possibly one of the male White House chefs.</p><p>First Lady Gertrude has checked out administration activities, possibly because the President botched her plan for guaranteed paid leave for working mothers nationwide. If we look deeper and observe the daily interactions, it's evident that Wes has lost a glimmer of love for his dear old wife.</p><p>If Clark has been smitten by a female staffer or possibly even a male, he should come out with it and resign accordingly. At the very least, congressional leaders should investigate this. What we discovered about Bill Clinton through those investigations was horrific. Clark comes from the same satanic worshiping cloth, so we should be hesitant to light a candle on his ass and get the truth!</p><p>The President has already sullied our military by allowing gay soldiers to openly indulge in sodomy. If Republicans continue to sit around in anguish over their loss last year, our country's culture will be burned to the ground. Who knows what Democrats plan to do next? They might just openly go for the churches and legalize gay marriage!</p> <p>Conservatives all across the country need to stand up and fight. This goes beyond protecting the sanctity of our institutions, or religious values are at stake!</p>`)
-e.executable.push([2, (() => {e.image = e.image = 'https://i.imgur.com/8NHcr6m.png'})])
+else if ( quickstats[0] >= 269 && Notroops > 0 && e.player_answers.includes(22479) || quickstats[0] >= 269 && Notroops > 0 && e.player_answers.includes(24704) || quickstats[0] >= 269 && Notroops > 0 && e.player_answers.includes(24730)) { // gun grab clark
+e.pages.push(`<h3>Press Release From Republican Presidential Candidate, Buddy Roemer: <i>The Great Democratic Beast cannot be wooed with good will. It must be slayed!</i></h3>
+<p><b>Buddy Roemer | Former Governor of Louisiana</b></p><p><b>Jan 26, 2009</b></p> <p>Today marks the beginning of the end of American freedom as we witness multiple Republican Senators join alongside the Democratic caucus in a showing of "bipartisanship" to kill our right to bear arms. It's the most profound betrayal of American values to reign in our rights given by the Constitution. These Senators took a knife and stabbed us in the back for nothing in return.</p><p>President Clark already breached the trust going after our guns by sunsetting much of the progress Bush made unraveling the Clinton years' draconian laws. By abusing the moment of tragedy, he passed hardline communist chicanery to hit the holder of the American firearm.</p><p>However, that wasn't enough to satisfy the mad King's lust for blood. Amid Republicans' drastic and humiliating defeat during the 2008 election, he sought to make history while ruling by near royal decree. He has gone for more regulation, more stops, and more tyranny. All while the Republican Party allows him to, he's gone mad, I tell you!</p><p>If Republicans want to slay the dragon of the Democratic Party, they need to get tough on the issues and abandon the party establishment! This party looks down the scope of uncertainty as we sail through rivers of defeat! A true conservative agenda cannot be hitched to the idea of handing out goodwill and freebies!</p> <p>I was once a Democrat, and during my time, I realized how long gone the party had become. No longer a party of pragmatism, I and many Louisianians witnessed the rapid decline of the party's sensibilities. If we allow Republicans to forget the people they represent, they will surely follow in their footsteps and fall far from the American people's positions on key issues.</p><p>That's why I am running for President: to save America from the President's radical agenda and enact sustainable change in the Republican Party. The midterms are fast approaching, and incumbents all across the country should fear for their positions, Republican and Democratic. It's an opportunity for a true American rebirth, only if Republicans are willing to allow change to come to Washington.</p>`)
+e.executable.push([2, (() => {e.image = e.image = 'https://i.imgur.com/vNS2c34.png'})])
 }
-if ( quickstats[0] >= 269 && Notroops > 0 && e.player_answers.includes(22479)) { // weapons
-e.pages.push(`<h3>assault weapons ending placement <i>Speculation over Wesley Clark's marriage ramp up as multiple sources claim infidelity possibly even with a man is deeply concerning.</i></h3>
+else if ( quickstats[0] >= 269 && Notroops > 0 && e.player_answers.includes(22475) || quickstats[0] >= 269 && Notroops > 0 && e.player_answers.includes(24700) || quickstats[0] >= 269 && Notroops > 0 && e.player_answers.includes(24713) || quickstats[0] >= 269 && Notroops > 0 && e.player_answers.includes(24726)) { // weapons
+e.pages.push(`<h3>Press Release From Republican Presidential Candidate, Herman Cain: <i>Speculation over Wesley Clark's marriage ramp up as multiple sources claim infidelity possibly even with a man is deeply concerning.</i></h3>
 <p><b>Herman Cain | Businessman</b></p><p><b>Sep 27, 2009</b></p> <p>The atmosphere within the White House is quite cold following Valentine's Day as it becomes clear to inside sources that the love between the President and his wife, Gertrude, of 42 years, has faded. Despite the White House presentation of their marriage, sources say Clark's wandering eye has landed on a 30-year-old staffer and possibly one of the male White House chefs.</p><p>First Lady Gertrude has checked out administration activities, possibly because the President botched her plan for guaranteed paid leave for working mothers nationwide. If we look deeper and observe the daily interactions, it's evident that Wes has lost a glimmer of love for his dear old wife.</p><p>If Clark has been smitten by a female staffer or possibly even a male, he should come out with it and resign accordingly. At the very least, congressional leaders should investigate this. What we discovered about Bill Clinton through those investigations was horrific. Clark comes from the same satanic worshiping cloth, so we should be hesitant to light a candle on his ass and get the truth!</p><p>The President has already sullied our military by allowing gay soldiers to openly indulge in sodomy. If Republicans continue to sit around in anguish over their loss last year, our country's culture will be burned to the ground. Who knows what Democrats plan to do next? They might just openly go for the churches and legalize gay marriage!</p> <p>Conservatives all across the country need to stand up and fight. This goes beyond protecting the sanctity of our institutions, or religious values are at stake!</p>`)
 e.executable.push([2, (() => {e.image = e.image = 'https://i.imgur.com/yfjCkPG.jpeg'})])
 }
-else if ( quickstats[0] >= 269 && e.player_answers.includes(20752) || quickstats[0] >= 269 && Pelosi == 0 && Boner == 0) { // libro mam
+else if ( quickstats[0] >= 269 && e.player_answers.includes(20752) && Pelosi == 0 || quickstats[0] >= 269 && e.player_answers.includes(25368) && Pelosi == 0 || quickstats[0] >= 269 && Pelosi == 0 && Boner == 0) { // libro mam
 e.pages.push(`<h3>AP News: <i>Senator Joe Lieberman makes it official and caucuses with Republicans.</i></h3>
 <p><b>By ZEKE MILLER</b></p><p><b>August 27, 2009</b></p> <p>Republican Senate Leader Mitch McConnell has often poached the Connecticut Senator to caucus with Republicans ever since the independent split with Democrats in 2006. Lieberman failed to be renominated by Democrats after Businessman Ned Lamont rode the wave of disgruntled Democrats upset with Lieberman's vote for the Iraq War. The Senator refused to quit and started his own Connecticut For Lieberman Party, which took the lead in polls and eventually beat Lamont despite President Clark hyper-fixating on the race as a target flip.</p><p>Clark and Lieberman's long-standing feud began the moment the General announced his intention to run for President. Lieberman often criticized Clark as a Republican in disguise who only ran because the opportunity opened up. Clark would beat back opponents skeptical of his party loyalty, and despite taking the White House and the Senate back for Democrats, Lieberman remained skeptical of the president-elect's intentions.</p><p>Soon, the tension between the two men would blow into a media firestorm as Lieberman, more often than not, stood in Clark's way. Clark began to refer to the Senator as a roadblock to progress and enthusiastically threw his support behind Lamont.</p><p>Now, after years of party alienation, Lieberman has chosen to throw his hat with the Republican for the latter half of his final term in office. The President has commented that it's a move fueled purely by spite. Lieberman, when announcing his choice to caucus with Republicans, stated, "The Democratic Party has foregone any efforts of bipartisanship in favor of appealing to a personality cult. My decision to caucus with Republicans will not change the way I choose to vote, I will simply seek to aid bipartisan efforts led by Senator Snowe and Collins."</p> <p>With President Clark eyeing up bolder legislative feats, this may jeopardize his agenda for the remainder of his term in office.</p>Associated Press writers Lisa Mascaro, Stephen Groves and Kevin Freking in Washington, Darlene Superville in Kissimmee, Fla., and Bill Barrow in Atlanta contributed to this report.<p><b>Associated Press writers Lisa Mascaro, Stephen Groves and Kevin Freking in Washington, Darlene Superville in Kissimmee, Fla., and Bill Barrow in Atlanta contributed to this report.</b></p>`)
 e.executable.push([2, (() => {e.image = e.image = 'https://i.imgur.com/p2Y6uy2.png'})])
+}
+else if ( quickstats[0] >= 269 && Boner == 1) { // boener flopp
+e.pages.push(`<h3>Quora: <i>Why is John Boehner resigning?</i></h3>
+<p><b>Kyle Doyle</b> - Economist with an Opinion on everything<u> Experienced in government and diplomacy Author has <b>2.6K</b> answers and <b>789.3K</b> answer views Updated 3m</u></p> <p>Resigning is putting the events nicely. It's safe to say that Republicans have not been able to heal the wounds left by the 2008 election disaster. The wounds are only a symptom of the growing friction between Republicans—congressmen like Boehner, who were holdovers from the Gingrich-led "Contract with America" era, and those who have joined Congress more recently. The Tea Party Movement quickly grew after the wilderness period following the dramatic defeat of George W. Bush's compassionate conservatism wing of the party in 2004.</p><p>Boehner had the label of a "compromiser" stuck to his forehead and would quickly lose grip over Congress after he helped pass different aspects of the Clark agenda. I suspect that Boehner has grown tired of the role, given the incessant dogfight that became the passage of the Matthew Shepard Act, which only boiled further Tea Party frustration with his tenure. Republicans are angry, and the loss to Wesley Clark last year put a deep dent in party morale. Boehner couldn't effectively channel that rage as a leader of the opposition.</p> <p><b>Marty Mascili</b> - I have studied my opposition my entire lifetime and i know them as well or better than my own side.<u>Author <b>40K</b> answers and <b>647k</b> answer views . Updated 9m</u></p>   <p>He's cashing in when the donors are clamoring for a change in leadership. Tea Party assholes botched the election for us by making Republicans look like jackasses, and now this. Think that I'm wrong? Imagine this: the most likely successor to take Boehner's position is Mike Pence, who failed to win party leadership in 2007. Now he's spearheading the drop John movement. I'll List my top 3 reasons I believe hes resigning for.</p><p><b>No power;</b> it was widely expected that Republicans would sweep the House in 2008, but in the exodus of a humiliating loss, the Republican base is hungry for change. Failing to win an election is one thing; failing to form an opposition to the incumbent party's legislation coherently is worse.</p> <p><b>His career has hit a plateau;</b> it was unlikely that Republicans would ever look to John Boehner as an optimal presidential or vice presidential candidate as they did for Speaker Gingrich. Although they are of the same ideology, Gingrich, at the height of his career, was a Republican trailblazer, and even then, the party would grow tired of him soon after 1996. I'll note that Gingrich might be planning a presidential run now, but it's a long shot. Boehner has nowhere to go but down, so he might try to bail himself out to avoid further shame on his legacy.</p><p><b>Something is coming, something terrible;</b> we can't ignore the previous speaker, Dennis Hastert, who underwent extreme career-ending allegations of pedophilia. Boehner, if not convinced to retire by the rapid growth of partisan politics in the Republican Party, might be running to escape something. All I'm saying is to keep a lookout for some damning evidence of wrongdoing on his part.</p><p><b>Sandy Dillon</b> - Mom who knows her stuff <u>Author has <b>1.1K</b> answers and <b>99.3K</b> answer views 6m</u></p><p>Republicans are tired of party leadership after consistent disappointment in both 2004, 2006, and 2008. Wesley Clark, ever coming within a sniff of the presidency, was a mistake, and he swept through the Senate, claiming a bare majority while still losing those who were promised a bold opposition party. Instead, we got a collapsing Republican leadership in the House, from Tom Delay's indictment to the Terri Schiavo nonsense backfiring. It all hit us twice as hard. The outcome of the last election shocked the world, and Republicans still can't pick up the pieces from the loss. McConnell should look to Boehner's resignation as an example of fear. Now we're hearing of more Republican Senators like Nevada's John Ensign possibly being involved in an affair. Democrats smell weakness. It's time for Republicans to get tough.</p>`)
+e.executable.push([2, (() => {e.image = e.image = 'https://i.imgur.com/QddtMdU.png'})])
 }
 
 // 2010-11
