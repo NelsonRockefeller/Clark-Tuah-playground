@@ -53289,11 +53289,11 @@ cyoAdventure = function(a) {
         else if (Dem == 2) {
             campaignTrail_temp.questions_json[19] = tunnel(21448); 
         }
-        if (Dem == 3 && Schiavo == 1 && Smooth == 1) {
-            campaignTrail_temp.questions_json[16] = tunnel(24114); 
+        if (Dem == 3 && Smooth == 1 && Schiavo == 1) {
+            campaignTrail_temp.questions_json[19] = tunnel(24114); 
         }
         else if (Dem == 3 && Smooth == 1) {
-            campaignTrail_temp.questions_json[16] = tunnel(24132); 
+            campaignTrail_temp.questions_json[19] = tunnel(24132); 
         }
         else if (Dem == 3) {
             campaignTrail_temp.questions_json[19] = tunnel(21507); 
