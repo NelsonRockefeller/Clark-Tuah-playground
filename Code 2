@@ -52269,6 +52269,12 @@ var France = 0;
 var Turkey = 0;
 var Germany = 0;
 var Shroder = 0;
+var Merkel = 0;
+var Blair = 0;
+var Royal = 0;
+var Sarkozy = 0;
+var Gul = 0;
+var Brown = 0;
 var Agenda = 0;
 var Neo = 0;
 var Patriot = 0;
@@ -52802,9 +52808,42 @@ cyoAdventure = function(a) {
     if (ans == 20877 || ans == 5263 || ans == 20928) {
         France += 1;
     }
-    if (ans == 5148 || ans == 5149) {
+
+    // german elections
+    if (e.noCounter == 3) {
+    if (Nato == 0) {
         Shroder += 1;
     }
+    if (Nato == 1) {
+        Merkel += 1;
+    }
+}
+
+    // britain
+    if (e.noCounter == 10) {
+    if (Nato > 3 && Notroops == 1) {
+        Blair += 1;
+    }
+    if (Nato < 4) {
+        Brown += 1;
+    }
+}
+
+    // France and Turkey elections
+    if (e.noCounter == 11) {
+    if (Nato < 3) {
+        Royal += 1;
+    }
+    if (Nato > 2) {
+        Sarkozy += 1;
+    }
+    if (Nato < 20) {
+        Gul += 1;
+    }
+    if (Nato > 3 && Blair == 0) {
+        Brown += 1;
+    }
+}
 
     ///pass your pet project that no one cares about
     if(ans == 22460 ){
