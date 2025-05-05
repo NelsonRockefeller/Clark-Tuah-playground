@@ -52703,7 +52703,7 @@ cyoAdventure = function(a) {
     }
 
     //Foreign policy successes
-    if (ans == 25448 || ans == 25444 || ans == 25435 || ans == 25431 || ans == 22853 || ans == 20915 || ans == 20924 || ans == 5190 || ans == 5147 || ans == 22758 || ans == 22043 || ans == 5150 || ans == 20877 || ans == 24059 || ans == 24062 || ans == 23695 || ans == 20946 || ans == 24170 || ans == 24768 || ans == 24772 || ans == 24764 || ans == 24776 || ans == 24780 || ans == 24785 || ans == 24797 || ans == 24800) {
+    if (ans == 254622 || ans == 254628 || ans == 25448 || ans == 25444 || ans == 25435 || ans == 25431 || ans == 22853 || ans == 20915 || ans == 20924 || ans == 5190 || ans == 5147 || ans == 22758 || ans == 22043 || ans == 5150 || ans == 20877 || ans == 24059 || ans == 24062 || ans == 23695 || ans == 20946 || ans == 24170 || ans == 24768 || ans == 24772 || ans == 24764 || ans == 24776 || ans == 24780 || ans == 24785 || ans == 24797 || ans == 24800) {
         Nato += 1;
     }
     if (ans == 23483 || ans == 22035 || ans == 22761 || ans == 24794 || ans == 25439) {
@@ -53040,6 +53040,9 @@ cyoAdventure = function(a) {
         else if (Notroops > 0 && Agenda > 4) {
             campaignTrail_temp.questions_json[11] = tunnel(24738); 
         }
+        else if (Notroops > 0 && Nato > 2) {
+            campaignTrail_temp.questions_json[11] = tunnel(254613); 
+        }
     }
 
     /// Economy exploded
@@ -53239,6 +53242,9 @@ cyoAdventure = function(a) {
         else if (Notroops == 1 && Nato > 3) {
             campaignTrail_temp.questions_json[18] = tunnel(25443);
         Smooth += 1;
+        }
+        else if (Notroops == 1 && Blair == 1) {
+            campaignTrail_temp.questions_json[18] = tunnel(254632); 
         }
         else if (Notroops == 1 && Loyalist == 1 && Agenda > 4) {
             campaignTrail_temp.questions_json[18] = tunnel(23700); 
