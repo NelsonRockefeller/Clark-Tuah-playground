@@ -1,3 +1,4 @@
+
 campaignTrail_temp.questions_json = [
     {
         "model": "campaign_trail.question",
@@ -103,7 +104,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1057,
         "fields": {
             "priority": 7,
-            "description": "At a cabinet meeting, you were informed that two subprime hedge funds owned by Bear Stearns had lost nearly all of their value amid a rapid decline in the market. More importantly, the CIA has collected leaks of an incoming Taliban resurgence. Secretary Kerry warns you that the leaks, if true, could spell doom to your supposed foreign policy expertise. Republicans are seething for an in to wedge a knife into your back at any moment. Do you have any plans to change the course of the war?\n",
+            "description": "The land where beauty, love, and revelry once flourished like ambrosia in the mortal world has now turned bitter and resentful of your failure to make amends. Socialist Party candidate Ségolène Royal has beaten our favored Nicolas Sarkozy in the French Presidential election on a promise to rebuke American aggression. She plans to pull all French troops from Afghanistan amid CIA intelligence findings that a Taliban resurgence is just around the corner. Meanwhile, the economy at home looks to be going belly up after two subprime hedge funds owned by Bear Stearns lost nearly all of their value amid a rapid decline in the market. There's no time for that; how will you stabilize the situation abroad?",
             "likelihood": 1
         }
     },
@@ -1057,7 +1058,7 @@ campaignTrail_temp.questions_json = [
         "pk": 22757,
         "fields": {
             "priority": 0,
-            "description": "At a cabinet meeting, you were informed that two subprime hedge funds owned by Bear Stearns had lost nearly all of their value amid a rapid decline in the market. However, you have little time to deal with the economy; the Bush Administration's negotiations for a nuclear deal with Iran, which you oversaw to completion, have been rebuked by President Mahmoud Ahmadinejad. Most within the party establishment are seduced to harsher measures in the form of building a free and democratic Iran. However, some still prefer the negotiating approach to save the deal. How will you approach this, Clark?",
+            "description": "Where iron and order once reigned, and the spirit of strategy and invention burned like divine fire, it has become a total rebuke of American military prowess. Germany and many other weak-willed nations stand at the crossroads of chaos and order and thrust themselves against your next noble crusade. The Bush Administration's negotiations for a nuclear deal with Iran, which you oversaw to completion, have been rebuked by President Mahmoud Ahmadinejad. At home, two subprime hedge funds owned by Bear Stearns had lost nearly all of their value amid a rapid decline in the market. You have little time to deal with the economy. How will you approach this, Clark?",
             "likelihood": 1
         }
     },
@@ -1915,6 +1916,42 @@ campaignTrail_temp.questions_json = [
             "description": "This is the final showdown, your last chance, Clark. Make this one count. Jim Lehrer goes through the motions of introducing you and McCain. You shake hands, possibly the most gentlemanly moment of this campaign. McCain looks ready and confident—how could he not? You've spent half the year with your foot in your mouth. Time is fleeting. You have one last chance to get ahead of McCain. How will you do it, Clark?",
             "likelihood": 1
         }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 254613,
+        "fields": {
+            "priority": 7,
+            "description": "Love is in the air as the mortal realm greets the victory of Nicolas Sarkozy in France as its next president. The balance of power shifted back toward the West as Sarkozy promised to work with Britain and America. It couldn't come at a more perfect time, as CIA intelligence findings indicate that a Taliban resurgence is just around the corner in Afghanistan. Meanwhile, the economy at home looks to be going belly up afterward. There's no time for that. How will you stabilize the situation abroad?",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 254632,
+        "fields": {
+            "priority": 0,
+            "description": "The fight for democracy was abandoned, and with it, the hopes for Iraqi freedom. Secretary Kerry and Levin enter the oval with solemn looks on their faces. They hand you the reports from Iraq, and it's a disaster. What's left of the coalition forces is in full retreat as insurgents continue to launch assault after assault on civilians and American soldiers. The images are horrifying, and your approval ratings, already sunk by the economy, sink further. A Sphinx demands you solve a riddle, or this will devour you. How will you respond to these events, Wes?",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 254649,
+        "fields": {
+            "priority": 0,
+            "description": "Where iron and order once reigned, and the spirit of strategy and invention burned like divine fire, it has become a total rebuke of American military prowess. Germany and many other weak-willed nations stand at the crossroads of chaos and order and thrust themselves against your next noble crusade. The Bush Administration's negotiations for a nuclear deal with Iran, which you oversaw to completion, have been rebuked by President Mahmoud Ahmadinejad. At home, two subprime hedge funds owned by Bear Stearns had lost nearly all of their value amid a rapid decline in the market. You have little time to deal with the economy. How will you approach this, Clark?",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 254664,
+        "fields": {
+            "priority": 0,
+            "description": "Where iron and order once reigned, and the spirit of strategy and invention burned like divine fire, it has become a total rebuke of American military prowess. Germany and many other weak-willed nations stand at the crossroads of chaos and order and thrust themselves against your next noble crusade. The Bush Administration's negotiations for a nuclear deal with Iran, which you oversaw to completion, have been rebuked by President Mahmoud Ahmadinejad. At home, two subprime hedge funds owned by Bear Stearns had lost nearly all of their value amid a rapid decline in the market. You have little time to deal with the economy. How will you approach this, Clark?",
+            "likelihood": 1
+        }
     }
 ]
 
@@ -2076,7 +2113,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5190,
         "fields": {
             "question": 1057,
-            "description": "This intelligence needs to be verified. We can't act before knowing the facts. I know the Taliban, and if they had some great crusade in the works, we'd see it a mile away. Shut down these rumors in the media; we can't start a circus over smoke and mirrors."
+            "description": "There's no use in poking the bear; Royal is an unstable leader, and if we give her any more reason to withdraw, it'll be our loss. Keep an eye on Uruzgan province, but do not act rashly. She's looking for an excuse to pull out, don't give it to her."
         }
     },
     {
@@ -2084,7 +2121,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5191,
         "fields": {
             "question": 1057,
-            "description": "I don't like to label things as victories or defeats, we have to go after Al-Qaeda. It's not a question of optimism for victory; it's a question of going after terrorists. The only victory we can take from this war is crushing Al-Qaeda. If the Taliban will stand in our way, then we must raise a firmer hand."
+            "description": "I don't like to label things as victories or defeats; we have to go after Al-Qaeda. It's not a question of optimism for victory; it's a question of going after terrorists. The only victory we can take from this war is crushing Al-Qaeda. If the Taliban stand in our way, then we must raise a firmer hand. "
         }
     },
     {
@@ -8133,6 +8170,126 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 9999,
             "description": "Schröder will not ruin this for me; this is my moment. Everything I've warned of is coming to pass, and if we do not act now, we will lose the second Cold War before it has even started. We need a united coalition to stand firm and denounce Putin's aggression!"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 254614,
+        "fields": {
+            "question": 254613,
+            "description": "Secretary Kerry needs to deploy the troops immediately. I have a gut feeling about this, and it's not good. There's a storm ahead of us, and if we don't act now, we'll be thrown overboard."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 254622,
+        "fields": {
+            "question": 254613,
+            "description": "I don't like to label things as victories or defeats; we have to go after Al-Qaeda. It's not a question of optimism for victory; it's a question of going after terrorists. The only victory we can take from this war is crushing Al-Qaeda. If the Taliban stand in our way, then we must raise a firmer hand. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 254628,
+        "fields": {
+            "question": 254613,
+            "description": "President Sarkozy's friendship is invaluable, and his words in the British Parliament were nothing short of heartwarming. I'll happily accept his offer to send additional troops to Afghanistan so we can close in on the remnants of the Taliban together."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 254633,
+        "fields": {
+            "question": 254632,
+            "description": "George W. Bush forgot the burdens of democracy, but I know it all too well. The prior administration's foreign policy frenzy racked up deficits and broken relationships. I'll urge other European powers to chip into a small coalition redeployment to help stabilize Iraq.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 254637,
+        "fields": {
+            "question": 254632,
+            "description": "This great geostrategic vision that you sweep through the Middle East, clean up these old, worn-out dictatorships, and knocking them down to start a democracy was ridiculous. We're taking this one battle at a time, and increasing aid to Iraq is our focus."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 254641,
+        "fields": {
+            "question": 254632,
+            "description": "After working with the Republican-dominated Congress, they didn't believe that the United States should act to prevent another war in the Balkan in the '90s. Republicans are desperate to throw me under the bus and will shovel their own beliefs in the hole with me.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 254645,
+        "fields": {
+            "question": 254632,
+            "description": "Fine, as much as I hate to admit it, I was wrong. Get me, General Petraeus; I need him to make a quick turnaround of this crap chute. Hand him the reigns; I can't let this situation worsen."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 254650,
+        "fields": {
+            "question": 254649,
+            "description": "We can still save these negotiations through the United Nations, and I have complete faith that Secretary Kerry is the most competent person to head this process.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 254653,
+        "fields": {
+            "question": 254649,
+            "description": "Iran has gone rogue because no incentives are implemented to keep them at the table. It's time we isolate Iran with heavy sanctions; this goes for the European Union, too; we must unite behind stopping Iran from pursuing nuclear weapons.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 254657,
+        "fields": {
+            "question": 254649,
+            "description": "We need to encourage groups within Iran to attack their corrupt institutions, like The National Council of Resistance of Iran. Acknowledging their struggle will go far, but funding them will go even further.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 254660,
+        "fields": {
+            "question": 254649,
+            "description": "Every option, including direct military action, must be left on the table. Let's establish a private committee of trusted allies to bounce ideas off each other.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 254665,
+        "fields": {
+            "question": 254664,
+            "description": "We can still save these negotiations through the United Nations, and I have complete faith that Secretary Kerry is the most competent person to head this process.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 254668,
+        "fields": {
+            "question": 254664,
+            "description": "Iran has gone rogue because no incentives are implemented to keep them at the table. It's time we isolate Iran with heavy sanctions; this goes for the European Union, too; we must unite behind stopping Iran from pursuing nuclear weapons.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 254672,
+        "fields": {
+            "question": 254664,
+            "description": "We need to encourage groups within Iran to attack their corrupt institutions, like The National Council of Resistance of Iran. Acknowledging their struggle will go far, but funding them will go even further.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 254675,
+        "fields": {
+            "question": 254664,
+            "description": "Every option, including direct military action, must be left on the table. Let's establish a private committee of trusted allies to bounce ideas off each other.\n"
         }
     }
 ]
@@ -14392,7 +14549,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5190,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.001
+            "global_multiplier": 0.01
         }
     },
     {
@@ -17901,8 +18058,8 @@ campaignTrail_temp.answer_score_global_json = [
         "fields": {
             "answer": 22761,
             "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": -0.004
+            "affected_candidate": 200,
+            "global_multiplier": -0.005
         }
     },
     {
@@ -22824,6 +22981,176 @@ campaignTrail_temp.answer_score_global_json = [
             "affected_candidate": 200,
             "global_multiplier": 0.035
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 254616,
+        "fields": {
+            "answer": 254614,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 254624,
+        "fields": {
+            "answer": 254622,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "global_multiplier": -0.012
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 254625,
+        "fields": {
+            "answer": 254622,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.007
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 254626,
+        "fields": {
+            "answer": 254622,
+            "candidate": 201,
+            "affected_candidate": 203,
+            "global_multiplier": 0.04
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 254630,
+        "fields": {
+            "answer": 254628,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "global_multiplier": -0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 254635,
+        "fields": {
+            "answer": 254633,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 254639,
+        "fields": {
+            "answer": 254637,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 254643,
+        "fields": {
+            "answer": 254641,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 254647,
+        "fields": {
+            "answer": 254645,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 254652,
+        "fields": {
+            "answer": 254650,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.004
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 254655,
+        "fields": {
+            "answer": 254653,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.025
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 254659,
+        "fields": {
+            "answer": 254657,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.012
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 254662,
+        "fields": {
+            "answer": 254660,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.002
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 254667,
+        "fields": {
+            "answer": 254665,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.004
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 254670,
+        "fields": {
+            "answer": 254668,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.035
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 254674,
+        "fields": {
+            "answer": 254672,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.012
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 254677,
+        "fields": {
+            "answer": 254675,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.002
+        }
     }
 ]
 
@@ -23025,7 +23352,7 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 5191,
             "issue": 102,
             "issue_score": -0.7,
-            "issue_importance": 10
+            "issue_importance": 5
         }
     },
     {
@@ -23205,7 +23532,7 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 5189,
             "issue": 102,
             "issue_score": -0.5,
-            "issue_importance": 7
+            "issue_importance": 5
         }
     },
     {
@@ -27896,6 +28223,126 @@ campaignTrail_temp.answer_score_issue_json = [
             "issue": 102,
             "issue_score": -0.4,
             "issue_importance": 3
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 254612,
+        "fields": {
+            "answer": 5190,
+            "issue": 102,
+            "issue_score": 0.5,
+            "issue_importance": 4
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 254617,
+        "fields": {
+            "answer": 254614,
+            "issue": 102,
+            "issue_score": -0.5,
+            "issue_importance": 5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 254627,
+        "fields": {
+            "answer": 254622,
+            "issue": 102,
+            "issue_score": -0.6,
+            "issue_importance": 5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 254631,
+        "fields": {
+            "answer": 254628,
+            "issue": 102,
+            "issue_score": -0.3,
+            "issue_importance": 3
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 254636,
+        "fields": {
+            "answer": 254633,
+            "issue": 102,
+            "issue_score": 0.8,
+            "issue_importance": 8
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 254640,
+        "fields": {
+            "answer": 254637,
+            "issue": 102,
+            "issue_score": 0.8,
+            "issue_importance": 7
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 254644,
+        "fields": {
+            "answer": 254641,
+            "issue": 100,
+            "issue_score": 0.8,
+            "issue_importance": 7
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 254648,
+        "fields": {
+            "answer": 254645,
+            "issue": 102,
+            "issue_score": 0.8,
+            "issue_importance": 7
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 254656,
+        "fields": {
+            "answer": 254653,
+            "issue": 102,
+            "issue_score": -0.8,
+            "issue_importance": 4
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 254663,
+        "fields": {
+            "answer": 254660,
+            "issue": 102,
+            "issue_score": -0.7,
+            "issue_importance": 1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 254671,
+        "fields": {
+            "answer": 254668,
+            "issue": 102,
+            "issue_score": -0.8,
+            "issue_importance": 4
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 254678,
+        "fields": {
+            "answer": 254675,
+            "issue": 102,
+            "issue_score": -0.7,
+            "issue_importance": 1
         }
     }
 ]
@@ -45540,7 +45987,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5189,
             "candidate": 201,
-            "answer_feedback": "CLARK'S PREMONITION OF DISASTER TURNS INTO NOTHING MORE THAN A FEW SKIRMISHES. The headlines speak for themselves. The Taliban had no real remarkable resurgence; their forces are an assortment of volunteers and scared kids. Punching down as usual for the U.S. military."
+            "answer_feedback": "She calls your bluff of a Taliban resurgence straight away as you send in another couple of thousand troops to find the pests. After weeks of waiting, the resurgence never manifests, and Royal loudly proclaims America is nothing but a raging bull with a promise to pull out troops within the next 6 months."
         }
     },
     {
@@ -45549,7 +45996,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5191,
             "candidate": 201,
-            "answer_feedback": "CLARK'S MASSIVE EXPANSION IN AFGHANISTAN ONLY RESULTS IN MORE LIVES LOST! Your constant need to squash the terrorist threat ends in massacres of Afghani lives; it turned out that the Taliban resurgence was a farce."
+            "answer_feedback": "CLARK'S MASSIVE EXPANSION IN AFGHANISTAN ONLY RESULTS IN MORE LIVES LOST! Your constant need to squash the terrorist threat ends in massacres of Afghan lives; it turned out that the Taliban resurgence was a farce. Royal, on the other hand, raised the gates of socialist rage in her country, happily pulling troops home in the next six months."
         }
     },
     {
@@ -45954,7 +46401,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5190,
             "candidate": 201,
-            "answer_feedback": "The anticipated resurgence doesn't seem to have turned out. The skirmishes that coalition forces engage in are squashed quickly. The Taliban aren't nearly as well trained as the warmongers want them to be."
+            "answer_feedback": "After weeks of waiting, your instincts prove correct as the faulty intelligence fails to manifest its above minor skirmishes in a couple of towns. Royal eventually resigns from keeping to the status quo as her chance to pull troops out fades away."
         }
     },
     {
@@ -48699,7 +49146,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 22761,
             "candidate": 201,
-            "answer_feedback": "Iran continues to bark at your efforts. Still, you led your Western allies to victory in 4 separate U.N. Security Council resolutions that sanctioned Iranian missile and nuclear-related entities and persons, imposed asset freezes and travel bans, and required international vigilance regarding arms sales to Iran."
+            "answer_feedback": "Cabinet members had their doubts about the stability of a coalition to support your crusade, but Chancellor Merkel sees the light you are bestowing over the Middle East and willingly backs your efforts as others follow. You led them to three separate victories over Iran in the international court."
         }
     },
     {
@@ -52229,6 +52676,141 @@ campaignTrail_temp.answer_feedback_json = [
             "candidate": 201,
             "answer_feedback": "Even if you weren't questioning his loyalty to Europe over the creation of Nord Stream 1, Schröder has made himself an opponent of American war-mongering. He believes you are jeopardizing his work to acquire Russian gas and does all he can to sabotage your efforts."
         }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 254615,
+        "fields": {
+            "answer": 254614,
+            "candidate": 201,
+            "answer_feedback": "She calls your bluff of a Taliban resurgence straight away as you send in another couple of thousand troops to find the pests. After weeks of waiting, the resurgence never manifests, and Sarkozy distances himself from the embarrassment."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 254623,
+        "fields": {
+            "answer": 254622,
+            "candidate": 201,
+            "answer_feedback": "CLARK'S MASSIVE EXPANSION IN AFGHANISTAN ONLY RESULTS IN MORE LIVES LOST! Your constant need to squash the terrorist threat ends in massacres of Afghan lives; it turned out that the Taliban resurgence was a farce. Socialists in France decry your decision, but Sarkozy does his best to calm the crowds."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 254629,
+        "fields": {
+            "answer": 254628,
+            "candidate": 200,
+            "answer_feedback": "Leaders of France's opposition Socialist party decry Sarkozy's betrayal of French values, but he can ignore them blissfully. After negotiations, he agrees to double French involvement, sending in an additional 1,500 troops as a sign of goodwill."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 254634,
+        "fields": {
+            "answer": 254633,
+            "candidate": 201,
+            "answer_feedback": "Prime Minister Blair understands your desperation. After much begging of him and other NATO allies like Poland, you've managed to assemble an emergency task force of nations to save Iraq. Republicans, on the other hand, bark and call it a farce."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 254638,
+        "fields": {
+            "answer": 254637,
+            "candidate": 201,
+            "answer_feedback": "General Petraeus is livid, but for what it's worth, the aid packages fly through Congress and put a temporary bandage on to stop the bleeding. The neocons are worked up and marching to kick you out of office."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 254642,
+        "fields": {
+            "answer": 254641,
+            "candidate": 201,
+            "answer_feedback": "Republicans across the nation can't hold themselves together from laughter at your attempts to turn the narrative against them. Most media networks continue to lambast your name as Iraq crumbles under our watch."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 254646,
+        "fields": {
+            "answer": 254645,
+            "candidate": 201,
+            "answer_feedback": "You and Petraeus have butt heads since the day you refused to enact the troop surge, but he's a good sport and is dying for the media spotlight. He'll be able to coordinate the forces in Iraq after forcing your hand to put more troops in."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 254651,
+        "fields": {
+            "answer": 254650,
+            "candidate": 201,
+            "answer_feedback": "Iran is stubborn, and the negotiations are long and murky, but Kerry broke new ground with them during the P5+1 and Iran summit, eventually leading to the JCPOA nuclear agreement. Kerry's personal approval ratings skyrocketed, but yours continued to stagnate.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 254654,
+        "fields": {
+            "answer": 254653,
+            "candidate": 201,
+            "answer_feedback": "Doubts within your cabinet prove right, as Chancellor Merkel is the first to opt out of your crusade, as do others who feel there is too much bad blood for American ventures. You go at it alone, failing to convince anyone in the UN and resorting to imposing additional sanctions on Iran yourself."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 254658,
+        "fields": {
+            "answer": 254657,
+            "candidate": 201,
+            "answer_feedback": "The National Council of Resistance of Iran has been planning to form a National Solidarity Front to overthrow the religious dictatorship ruling Iran for decades now, and most movements within the country are snuffed out even with United States funding. You can't brute force this process, Clark."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 254661,
+        "fields": {
+            "answer": 254660,
+            "candidate": 201,
+            "answer_feedback": "You collect the neoliberal establishment like Biden and Clinton into a thought-provoking team discussing how to create a mirror image of the Bush administration's work. After long and arduous talks, plans for a troop build-up in Iraq were made to prepare for such a scenario."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 254666,
+        "fields": {
+            "answer": 254665,
+            "candidate": 201,
+            "answer_feedback": "Iran is stubborn, and the negotiations are long and murky, but Kerry broke new ground with them during the P5+1 and Iran summit, eventually leading to the JCPOA nuclear agreement. Kerry's personal approval ratings skyrocketed, but yours continued to stagnate.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 254669,
+        "fields": {
+            "answer": 254668,
+            "candidate": 201,
+            "answer_feedback": "Chancellor Schröder laughs off the suggestion of any crusade against Iran's nuclear program, seeing it as blatant American aggression. Others follow suit, forcing you to go at this alone, eventually failing to impress the UN, resorting to lay additional sanctions on Iran yourself."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 254673,
+        "fields": {
+            "answer": 254672,
+            "candidate": 201,
+            "answer_feedback": "The National Council of Resistance of Iran has been planning to form a National Solidarity Front to overthrow the religious dictatorship ruling Iran for decades now, and most movements within the country are snuffed out even with United States funding. You can't brute force this process, Clark."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 254676,
+        "fields": {
+            "answer": 254675,
+            "candidate": 201,
+            "answer_feedback": "You collect the neoliberal establishment like Biden and Clinton into a thought-provoking team discussing how to create a mirror image of the Bush administration's work. After long and arduous talks, plans for a troop build-up in Iraq were made to prepare for such a scenario."
+        }
     }
 ]
 
@@ -52254,6 +52836,7 @@ campaignTrail_temp.jet_data = [{
     "ending_data": {}
 }
 ]
+
 
 
 
@@ -52372,7 +52955,7 @@ function updateQuestionBanner() {
         img.src = 'https://i.imgur.com/0DuAQAe.jpg';
         console.log("banner change success");
     }
-    else if(Dem == 5 && Opp == 1 && e.player_answers.includes(25094))
+    else if(Dem == 5 && Opp == 1 && e.player_answers.includes(25094) || Dem == 5 && Opp == 1 && e.player_answers.includes(254675) || Dem == 5 && Opp == 1 && e.player_answers.includes(254660))
     {
         img.src = 'https://i.imgur.com/sBqfc9O.jpg';
         console.log("banner change success");
@@ -52703,7 +53286,7 @@ cyoAdventure = function(a) {
     }
 
     //Foreign policy successes
-    if (ans == 254622 || ans == 254628 || ans == 25448 || ans == 25444 || ans == 25435 || ans == 25431 || ans == 22853 || ans == 20915 || ans == 20924 || ans == 5190 || ans == 5147 || ans == 22758 || ans == 22043 || ans == 5150 || ans == 20877 || ans == 24059 || ans == 24062 || ans == 23695 || ans == 20946 || ans == 24170 || ans == 24768 || ans == 24772 || ans == 24764 || ans == 24776 || ans == 24780 || ans == 24785 || ans == 24797 || ans == 24800) {
+    if (ans == 254675 || ans == 254665 || ans == 254660 || ans == 254650 || ans == 254622 || ans == 254628 || ans == 25448 || ans == 25444 || ans == 25435 || ans == 25431 || ans == 22853 || ans == 20915 || ans == 20924 || ans == 5190 || ans == 5147 || ans == 22758 || ans == 22043 || ans == 5150 || ans == 20877 || ans == 24059 || ans == 24062 || ans == 23695 || ans == 20946 || ans == 24170 || ans == 24768 || ans == 24772 || ans == 24764 || ans == 24776 || ans == 24780 || ans == 24785 || ans == 24797 || ans == 24800) {
         Nato += 1;
     }
     if (ans == 23483 || ans == 22035 || ans == 22761 || ans == 24794 || ans == 25439) {
@@ -53028,8 +53611,14 @@ cyoAdventure = function(a) {
 
     /// Foreign policy event or domestic clark tuah
     if (e.noCounter == 11) {
-        if (Troops > 0) {
+        if (Troops > 0 && Merkel == 1 && Nato > 2) {
             campaignTrail_temp.questions_json[11] = tunnel(22757); 
+        }
+        else if (Troops > 0 && Merkel == 1) {
+            campaignTrail_temp.questions_json[11] = tunnel(254649); 
+        }
+        else if (Troops > 0 && Schroder == 1) {
+            campaignTrail_temp.questions_json[11] = tunnel(254664); 
         }
         if (Notroops > 0 && Hunt > 0) {
             campaignTrail_temp.questions_json[11] = tunnel(24166); 
@@ -53255,7 +53844,7 @@ cyoAdventure = function(a) {
         else if (Notroops == 1) {
             campaignTrail_temp.questions_json[18] = tunnel(22019); 
         }
-        if (Dem == 5 && Nato > 2 && e.player_answers.includes(22768)) {
+        if (Dem == 5 && Nato > 2 && e.player_answers.includes(22768) || Dem == 5 && Nato > 2 && e.player_answers.includes(254675) || Dem == 5 && Nato > 2 && e.player_answers.includes(254660)) {
             campaignTrail_temp.questions_json[18] = tunnel(25093); 
         }
         else if (Dem == 5 && Troops == 1 && Patriot == 1 && Neo > 9) {
@@ -53310,7 +53899,7 @@ cyoAdventure = function(a) {
         else if (Dem == 4) {
             campaignTrail_temp.questions_json[19] = tunnel(21633); 
         }
-        if (Dem == 5 && e.player_answers.includes(25094)) {
+        if (Dem == 5 && e.player_answers.includes(25094) || Dem == 5 && e.player_answers.includes(254660) || Dem == 5 && e.player_answers.includes(254675)) {
             campaignTrail_temp.questions_json[19] = tunnel(25106);
             updateHistoricalData(newVpTableHistorical7, newHistHexcolour7, newHistName7, newHistEV7, newHistPV7, newHistPVP7); 
             switcheroo100();
@@ -53358,7 +53947,7 @@ cyoAdventure = function(a) {
 
     /// you have enough nato cred to send troops to georgia or managing iran
     if (e.noCounter == 21) {
-        if (e.player_answers.includes(25094) && Nato < 20) {
+        if (e.player_answers.includes(25094) && Nato < 20 || Dem == 5 && Nato > 20 && e.player_answers.includes(254660) || Dem == 5 && Nato >20 && e.player_answers.includes(254675)) {
             campaignTrail_temp.questions_json[21] = tunnel(25150);
                 if (Shroder == 1){
                     swapAnswers(
@@ -53406,7 +53995,7 @@ cyoAdventure = function(a) {
                     );
                 }
         }
-        else if (e.player_answers.includes(25094) && Nato < 3) {
+        else if (e.player_answers.includes(25094) && Nato < 3 || Nato < 3 && e.player_answers.includes(254660) || Nato < 3 && e.player_answers.includes(254675)) {
             campaignTrail_temp.questions_json[21] = tunnel(25170);
         } 
         else if (Nato < 20) {
@@ -53557,7 +54146,7 @@ cyoAdventure = function(a) {
             campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/E1Yib8b.png';
             corrr=`\n<h2>Tested, Ready, Now</h2>`;
         }
-        else if (Dem == 5 && e.player_answers.includes(25094)) {
+        else if (Dem == 5 && e.player_answers.includes(25094) || Dem == 5 && e.player_answers.includes(254660) || Dem == 5 && e.player_answers.includes(254675)) {
             campaignTrail_temp.questions_json[22] = tunnel(25189); 
             document.getElementById("header").src = "https://i.imgur.com/1R13wIy.jpg";
             nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#c62c2b";
@@ -53705,7 +54294,7 @@ cyoAdventure = function(a) {
             campaignTrail_temp.questions_json[23] = tunnel(21664);
             }
         } else if (Dem === 5) {
-            if (e.player_answers.includes(25094)) {
+            if (e.player_answers.includes(25094) || e.player_answers.includes(254660) || e.player_answers.includes(254675)) {
                 campaignTrail_temp.questions_json[23] = tunnel(25206);
             } else if (Neo > 9) {
                 campaignTrail_temp.questions_json[23] = tunnel(24570);
@@ -53744,7 +54333,7 @@ cyoAdventure = function(a) {
         else if (Dem == 4) {
             campaignTrail_temp.questions_json[24] = tunnel(21700); 
         }
-        if (Dem == 5 && e.player_answers.includes(25094)) {
+        if (Dem == 5 && e.player_answers.includes(25094) || Dem == 5 && e.player_answers.includes(254660) || Dem == 5 && e.player_answers.includes(254675)) {
             campaignTrail_temp.questions_json[24] = tunnel(25223); 
         }
         else if (Dem == 5) {
@@ -53788,7 +54377,7 @@ cyoAdventure = function(a) {
         else if (Dem == 4) {
             campaignTrail_temp.questions_json[25] = tunnel(21794); 
         }
-        if (Dem == 5 && e.player_answers.includes(25094)) {
+        if (Dem == 5 && e.player_answers.includes(25094) || Dem == 5 && e.player_answers.includes(254660) || Dem == 5 && e.player_answers.includes(254675)) {
             campaignTrail_temp.questions_json[25] = tunnel(25240); 
         }
         else if (Dem == 5 && Neo > 9 && e.player_answers.includes(24571)) {
@@ -53834,7 +54423,7 @@ cyoAdventure = function(a) {
         }
         // Second set of conditions (Econ-based selection for question 27)
         else {
-            if (Dem == 5 && e.player_answers.includes(25094)) {
+            if (Dem == 5 && e.player_answers.includes(25094) || Dem == 5 && e.player_answers.includes(254660) || Dem == 5 && e.player_answers.includes(254675)) {
                 campaignTrail_temp.questions_json[26] = tunnel(25257);
             } else if (Econ == 0 && Fred == 0) {
                 campaignTrail_temp.questions_json[26] = tunnel(25417);
@@ -53882,7 +54471,7 @@ cyoAdventure = function(a) {
         else if (Dem == 4) {
             campaignTrail_temp.questions_json[27] = tunnel(22936); 
         }
-        else if (Dem == 5 && e.player_answers.includes(25094)) {
+        else if (Dem == 5 && e.player_answers.includes(25094) || Dem == 5 && e.player_answers.includes(254660) || Dem == 5 && e.player_answers.includes(254675)) {
             campaignTrail_temp.questions_json[27] = tunnel(25269); 
         }
         else if (Dem == 5) {
