@@ -1,4 +1,3 @@
-
 campaignTrail_temp.questions_json = [
     {
         "model": "campaign_trail.question",
@@ -1952,6 +1951,51 @@ campaignTrail_temp.questions_json = [
             "description": "Where iron and order once reigned, and the spirit of strategy and invention burned like divine fire, it has become a total rebuke of American military prowess. Germany and many other weak-willed nations stand at the crossroads of chaos and order and thrust themselves against your next noble crusade. The Bush Administration's negotiations for a nuclear deal with Iran, which you oversaw to completion, have been rebuked by President Mahmoud Ahmadinejad. At home, two subprime hedge funds owned by Bear Stearns had lost nearly all of their value amid a rapid decline in the market. You have little time to deal with the economy. How will you approach this, Clark?",
             "likelihood": 1
         }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 254702,
+        "fields": {
+            "priority": 7,
+            "description": "In classic Russian Gigantomachy, Putin is attempting to push around NATO with a tiny country on the border of his regime. The country is struggling to keep its independence in the face of Russia's interests. Secretary Kerry visited the young nation, hoping to secure its independence, favoring the approach of letting Georgia decide its path. Georgia is looking to join NATO, making relations with Russia turbulent. How will you deal with this conflict, Wes?",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 254750,
+        "fields": {
+            "priority": 7,
+            "description": "In classic Russian Gigantomachy, Putin is attempting to push around NATO with a tiny country on the border of his regime. The country is struggling to keep its independence in the face of Russia's interests. Secretary Kerry visited the young nation, hoping to secure its independence, favoring the approach of letting Georgia decide its path. Georgia is looking to join NATO, making relations with Russia turbulent. How will you deal with this conflict, Wes?",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 254774,
+        "fields": {
+            "priority": 7,
+            "description": "In classic Russian Gigantomachy, Putin is attempting to push around NATO with a tiny country on the border of his regime. The country is struggling to keep its independence in the face of Russia's interests. Secretary Kerry visited the young nation, hoping to secure its independence, favoring the approach of letting Georgia decide its path. Georgia is looking to join NATO, making relations with Russia turbulent. How will you deal with this conflict, Wes?",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 254806,
+        "fields": {
+            "priority": 0,
+            "description": "Slowly but surely, your decision to call for a troop surge in Iraq is vindicated. Secretary Kerry and Secretary Levine pass you the reports, and your smile begins to show as you look them over. The situation in Iraq has stabilized, and the media finally has something good to chew on from your administration. The anti-war sentiment has dimmed, as guys like Kucinich and Gravel seem small. Despite the success, an emboldened Cerberus lies ahead, ready to block your passage if you do not blend with your newfound support. How will you capitalize on this significant victory?",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 254840,
+        "fields": {
+            "priority": 0,
+            "description": "Slowly but surely, your decision to call for a troop surge in Iraq is vindicated. Secretary Kerry and Secretary Levine pass you the reports, and your smile begins to show as you look them over. The situation in Iraq has stabilized, and the media finally has something good to chew on from your administration. The anti-war sentiment has dimmed, as guys like Kucinich and Gravel seem small. Despite the success, an emboldened Cerberus lies ahead, ready to block your passage if you do not blend with your newfound support. How will you capitalize on this significant victory?",
+            "likelihood": 1
+        }
     }
 ]
 
@@ -2337,7 +2381,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5237,
         "fields": {
             "question": 1069,
-            "description": "I am not giving Russia a free pass to trample over a free country. The Bush Administration rolled over too often for this tyrant; we need to accept that this is the new Cold War. Put pressure on Putin. Make it clear that if he wants to use Russia's influence, the United States will respond with whatever means necessary.\n"
+            "description": "NATO needs to convene to formulate a plan to deal with Georgia. I'm not willing to leave them out to dry, so my friends abroad better get behind me to show that we will respond with whatever means necessary to stop Russian aggression."
         }
     },
     {
@@ -4137,7 +4181,7 @@ campaignTrail_temp.answers_json = [
         "pk": 22047,
         "fields": {
             "question": 22034,
-            "description": "The victory speaks for itself. We need to push our focus on domestic issues. I've spent too much time worrying about what's happening abroad. The American people need to know I'm working to solve this crisis.\n"
+            "description": "Despite their long history of fear-mongering about my strategy, I'm willing to accept an apology from President Sarkozy if he announces his endorsement of my plan and the French promise to work alongside U.S. forces in the future."
         }
     },
     {
@@ -6337,7 +6381,7 @@ campaignTrail_temp.answers_json = [
         "pk": 24047,
         "fields": {
             "question": 24034,
-            "description": "The victory speaks for itself. We need to push our focus on domestic issues. I've spent too much time worrying about what's happening abroad. The American people need to know I'm working to solve this crisis.\n"
+            "description": "Despite their long history of fear-mongering about my strategy, I'm willing to accept an apology from President Royal if she announces her endorsement of my plan and the French promise to work alongside U.S. forces in the future."
         }
     },
     {
@@ -8290,6 +8334,182 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 254664,
             "description": "Every option, including direct military action, must be left on the table. Let's establish a private committee of trusted allies to bounce ideas off each other.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 254703,
+        "fields": {
+            "question": 254702,
+            "description": "Putin is attempting to bully an independent nation with the false sense that it belongs to him. If we don't make the first move, a free and fair democracy will be crushed. I want Georgia's NATO membership sped up now.\n\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 254708,
+        "fields": {
+            "question": 254702,
+            "description": "What Georgia needs now more than ever is the reassurance that the United States will protect them. Get me on a plane; I'll meet with President Saakashvili and swear he has all our support.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 254712,
+        "fields": {
+            "question": 254702,
+            "description": "I am not giving Russia a free pass to trample over a free country. The Bush Administration rolled over too often for this tyrant; we need to accept that this is the new Cold War. Put pressure on Putin. Make it clear that if he wants to use Russia's influence, the United States will respond with whatever means necessary.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 254719,
+        "fields": {
+            "question": 254702,
+            "description": "I'm willing to consider the help of unnatural allies, such as President Royal's efforts to negotiate this thing away. Bring Putin to the table with Saakashvili. We'll settle this before it gets out of hand."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 254751,
+        "fields": {
+            "question": 254750,
+            "description": "Putin is attempting to bully an independent nation with the false sense that it belongs to him. If we don't make the first move, a free and fair democracy will be crushed. I want Georgia's NATO membership sped up now.\n\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 254756,
+        "fields": {
+            "question": 254750,
+            "description": "What Georgia needs now more than ever is the reassurance that the United States will protect them. Get me on a plane; I'll meet with President Saakashvili and swear he has all our support.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 254760,
+        "fields": {
+            "question": 254750,
+            "description": "NATO needs to convene to formulate a plan to deal with Georgia. I'm not willing to leave them out to dry, so my friends abroad better get behind me to show that we will respond with whatever means necessary to stop Russian aggression."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 254767,
+        "fields": {
+            "question": 254750,
+            "description": "The Free World is in danger if we let Russia normalize this behavior. We need the European Union's help in preventive measures to cease all hostilities. President Sarkozy has the most influence and can get Russia back to the table.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 254775,
+        "fields": {
+            "question": 254774,
+            "description": "Putin is attempting to bully an independent nation with the false sense that it belongs to him. If we don't make the first move, a free and fair democracy will be crushed. I want Georgia's NATO membership sped up now.\n\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 254780,
+        "fields": {
+            "question": 254774,
+            "description": "What Georgia needs now more than ever is the reassurance that the United States will protect them. Get me on a plane; I'll meet with President Saakashvili and swear he has all our support.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 254784,
+        "fields": {
+            "question": 254774,
+            "description": "I am not giving Russia a free pass to trample over a free country. The Bush Administration rolled over too often for this tyrant; we need to accept that this is the new Cold War. Put pressure on Putin. Make it clear that if he wants to use Russia's influence, the United States will respond with whatever means necessary.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 254791,
+        "fields": {
+            "question": 254774,
+            "description": "I'm willing to consider the help of unnatural allies, such as President Royal's efforts to negotiate this thing away. Bring Putin to the table with Saakashvili. We'll settle this before it gets out of hand."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 254798,
+        "fields": {
+            "question": 9999,
+            "description": "Despite their long history of fear-mongering about my strategy, I'm willing to accept President Sarkozy's apology if he announces his endorsement of my plan and the French promise to work alongside U.S. forces in the future."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 254802,
+        "fields": {
+            "question": 9999,
+            "description": "Despite their long history of fear-mongering about my strategy, I'm willing to accept President Royal's apology if he announces his endorsement of my plan and the French promise to work alongside U.S. forces in the future."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 254807,
+        "fields": {
+            "question": 254806,
+            "description": "Levin and Clinton have the right idea. Prime Minister al-Maliki needs to go. We have the leverage to get him out of there. His government is divisive, and the corruption is reprehensible. I want him removed.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 254811,
+        "fields": {
+            "question": 254806,
+            "description": "With Iraq secure, we can focus on our nation's future. The threat of Al-Qaeda remains, and we can always be more vigilant. I'd like for us to begin focusing our attention on combating terrorism and killing Osama Bin Laden.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 254815,
+        "fields": {
+            "question": 254806,
+            "description": "I want to give a speech to not only honor this success but to repudiate the Bush administration's failures and the coup of our foreign policy. We've taken the nation back to being respected and safe from terror.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 254819,
+        "fields": {
+            "question": 254806,
+            "description": "Despite their long history of fear-mongering about my strategy, I'm willing to accept an apology from President Sarkozy if he announces her endorsement of my plan and the French promise to work alongside U.S. forces in the future."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 254841,
+        "fields": {
+            "question": 254840,
+            "description": "Levin and Clinton have the right idea. Prime Minister al-Maliki needs to go. We have the leverage to get him out of there. His government is divisive, and the corruption is reprehensible. I want him removed.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 254845,
+        "fields": {
+            "question": 254840,
+            "description": "With Iraq secure, we can focus on our nation's future. The threat of Al-Qaeda remains, and we can always be more vigilant. I'd like for us to begin focusing our attention on combating terrorism and killing Osama Bin Laden.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 254849,
+        "fields": {
+            "question": 254840,
+            "description": "I want to give a speech to not only honor this success but to repudiate the Bush administration's failures and the coup of our foreign policy. We've taken the nation back to being respected and safe from terror.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 254853,
+        "fields": {
+            "question": 254840,
+            "description": "Despite their long history of fear-mongering about my strategy, I'm willing to accept an apology from President Royal if she announces his endorsement of my plan and the French promise to work alongside U.S. forces in the future."
         }
     }
 ]
@@ -14318,8 +14538,8 @@ campaignTrail_temp.answer_score_global_json = [
         "fields": {
             "answer": 5237,
             "candidate": 201,
-            "affected_candidate": 201,
-            "global_multiplier": -0.017
+            "affected_candidate": 200,
+            "global_multiplier": -0.01
         }
     },
     {
@@ -16787,9 +17007,9 @@ campaignTrail_temp.answer_score_global_json = [
         "pk": 22067,
         "fields": {
             "answer": 22064,
-            "candidate": 200,
-            "affected_candidate": 200,
-            "global_multiplier": -0.09
+            "candidate": 201,
+            "affected_candidate": 203,
+            "global_multiplier": -0.2
         }
     },
     {
@@ -20039,7 +20259,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 24047,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.018
+            "global_multiplier": -0.018
         }
     },
     {
@@ -23150,6 +23370,226 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 201,
             "affected_candidate": 201,
             "global_multiplier": -0.002
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 254705,
+        "fields": {
+            "answer": 254703,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.013
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 254710,
+        "fields": {
+            "answer": 254708,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 254714,
+        "fields": {
+            "answer": 254712,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.017
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 254721,
+        "fields": {
+            "answer": 254719,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.016
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 254753,
+        "fields": {
+            "answer": 254751,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.013
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 254758,
+        "fields": {
+            "answer": 254756,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 254762,
+        "fields": {
+            "answer": 254760,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "global_multiplier": -0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 254769,
+        "fields": {
+            "answer": 254767,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.006
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 254777,
+        "fields": {
+            "answer": 254775,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.013
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 254782,
+        "fields": {
+            "answer": 254780,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 254786,
+        "fields": {
+            "answer": 254784,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "global_multiplier": -0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 254793,
+        "fields": {
+            "answer": 254791,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.016
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 254800,
+        "fields": {
+            "answer": 254798,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "global_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 254804,
+        "fields": {
+            "answer": 254802,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 254809,
+        "fields": {
+            "answer": 254807,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 254813,
+        "fields": {
+            "answer": 254811,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.021
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 254817,
+        "fields": {
+            "answer": 254815,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.023
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 254821,
+        "fields": {
+            "answer": 254819,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "global_multiplier": -0.028
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 254843,
+        "fields": {
+            "answer": 254841,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 254847,
+        "fields": {
+            "answer": 254845,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.021
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 254851,
+        "fields": {
+            "answer": 254849,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.023
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 254855,
+        "fields": {
+            "answer": 254853,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.018
         }
     }
 ]
@@ -28344,6 +28784,216 @@ campaignTrail_temp.answer_score_issue_json = [
             "issue_score": -0.7,
             "issue_importance": 1
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 254691,
+        "fields": {
+            "answer": 5236,
+            "issue": 102,
+            "issue_score": -0.3,
+            "issue_importance": 3
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 254692,
+        "fields": {
+            "answer": 5235,
+            "issue": 102,
+            "issue_score": -0.7,
+            "issue_importance": 3
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 254706,
+        "fields": {
+            "answer": 254703,
+            "issue": 102,
+            "issue_score": -0.7,
+            "issue_importance": 3
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 254711,
+        "fields": {
+            "answer": 254708,
+            "issue": 102,
+            "issue_score": -0.3,
+            "issue_importance": 3
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 254715,
+        "fields": {
+            "answer": 254712,
+            "issue": 102,
+            "issue_score": -0.7,
+            "issue_importance": 4
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 254754,
+        "fields": {
+            "answer": 254751,
+            "issue": 102,
+            "issue_score": -0.7,
+            "issue_importance": 3
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 254759,
+        "fields": {
+            "answer": 254756,
+            "issue": 102,
+            "issue_score": -0.3,
+            "issue_importance": 3
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 254763,
+        "fields": {
+            "answer": 254760,
+            "issue": 102,
+            "issue_score": -0.7,
+            "issue_importance": 4
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 254778,
+        "fields": {
+            "answer": 254775,
+            "issue": 102,
+            "issue_score": -0.7,
+            "issue_importance": 3
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 254783,
+        "fields": {
+            "answer": 254780,
+            "issue": 102,
+            "issue_score": -0.3,
+            "issue_importance": 3
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 254787,
+        "fields": {
+            "answer": 254784,
+            "issue": 102,
+            "issue_score": -0.7,
+            "issue_importance": 4
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 254801,
+        "fields": {
+            "answer": 254798,
+            "issue": 102,
+            "issue_score": -0.4,
+            "issue_importance": 4
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 254805,
+        "fields": {
+            "answer": 254802,
+            "issue": 102,
+            "issue_score": 0.4,
+            "issue_importance": 4
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 254810,
+        "fields": {
+            "answer": 254807,
+            "issue": 102,
+            "issue_score": -0.6,
+            "issue_importance": 7
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 254814,
+        "fields": {
+            "answer": 254811,
+            "issue": 102,
+            "issue_score": -0.6,
+            "issue_importance": 7
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 254818,
+        "fields": {
+            "answer": 254815,
+            "issue": 102,
+            "issue_score": 0.6,
+            "issue_importance": 7
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 254822,
+        "fields": {
+            "answer": 254819,
+            "issue": 102,
+            "issue_score": -0.6,
+            "issue_importance": 7
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 254844,
+        "fields": {
+            "answer": 254841,
+            "issue": 102,
+            "issue_score": -0.6,
+            "issue_importance": 7
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 254848,
+        "fields": {
+            "answer": 254845,
+            "issue": 102,
+            "issue_score": -0.6,
+            "issue_importance": 7
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 254852,
+        "fields": {
+            "answer": 254849,
+            "issue": 102,
+            "issue_score": 0.6,
+            "issue_importance": 7
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 254856,
+        "fields": {
+            "answer": 254853,
+            "issue": 104,
+            "issue_score": -0.6,
+            "issue_importance": 7
+        }
     }
 ]
 
@@ -31235,17 +31885,6 @@ campaignTrail_temp.answer_score_state_json = [
         "pk": 22788,
         "fields": {
             "answer": 22785,
-            "state": 1020,
-            "candidate": 201,
-            "affected_candidate": 200,
-            "state_multiplier": 0.14
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 22792,
-        "fields": {
-            "answer": 22789,
             "state": 1020,
             "candidate": 201,
             "affected_candidate": 200,
@@ -41363,17 +42002,6 @@ campaignTrail_temp.answer_score_state_json = [
     },
     {
         "model": "campaign_trail.answer_score_state",
-        "pk": 25072,
-        "fields": {
-            "answer": 5145,
-            "state": 1005,
-            "candidate": 201,
-            "affected_candidate": 200,
-            "state_multiplier": -0.01
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
         "pk": 25074,
         "fields": {
             "answer": 22662,
@@ -45815,6 +46443,479 @@ campaignTrail_temp.answer_score_state_json = [
             "affected_candidate": 200,
             "state_multiplier": -0.04
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254679,
+        "fields": {
+            "answer": 5143,
+            "state": 1008,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": 0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254680,
+        "fields": {
+            "answer": 5143,
+            "state": 1005,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": 0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254681,
+        "fields": {
+            "answer": 5143,
+            "state": 1001,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": 0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254682,
+        "fields": {
+            "answer": 5144,
+            "state": 1008,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": 0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254683,
+        "fields": {
+            "answer": 5144,
+            "state": 1005,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": 0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254684,
+        "fields": {
+            "answer": 5144,
+            "state": 1002,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": 0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254685,
+        "fields": {
+            "answer": 5145,
+            "state": 1002,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": 0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254686,
+        "fields": {
+            "answer": 5145,
+            "state": 1005,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": 0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254687,
+        "fields": {
+            "answer": 5145,
+            "state": 1008,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": 0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254688,
+        "fields": {
+            "answer": 20740,
+            "state": 1005,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": 0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254689,
+        "fields": {
+            "answer": 20740,
+            "state": 1002,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": 0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254693,
+        "fields": {
+            "answer": 20877,
+            "state": 1017,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254694,
+        "fields": {
+            "answer": 20877,
+            "state": 1020,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254695,
+        "fields": {
+            "answer": 20877,
+            "state": 1021,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254696,
+        "fields": {
+            "answer": 20877,
+            "state": 1024,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254697,
+        "fields": {
+            "answer": 5235,
+            "state": 1033,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": 0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254698,
+        "fields": {
+            "answer": 5237,
+            "state": 1014,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254699,
+        "fields": {
+            "answer": 5237,
+            "state": 1049,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254700,
+        "fields": {
+            "answer": 5237,
+            "state": 1022,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254707,
+        "fields": {
+            "answer": 254703,
+            "state": 1033,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": 0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254716,
+        "fields": {
+            "answer": 254712,
+            "state": 1014,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254717,
+        "fields": {
+            "answer": 254712,
+            "state": 1049,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254718,
+        "fields": {
+            "answer": 254712,
+            "state": 1022,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254722,
+        "fields": {
+            "answer": 254719,
+            "state": 1017,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": 0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254723,
+        "fields": {
+            "answer": 254719,
+            "state": 1020,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": 0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254724,
+        "fields": {
+            "answer": 254719,
+            "state": 1021,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254725,
+        "fields": {
+            "answer": 254719,
+            "state": 1024,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": 0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254755,
+        "fields": {
+            "answer": 254751,
+            "state": 1033,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": 0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254764,
+        "fields": {
+            "answer": 254760,
+            "state": 1014,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254765,
+        "fields": {
+            "answer": 254760,
+            "state": 1049,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254766,
+        "fields": {
+            "answer": 254760,
+            "state": 1022,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254770,
+        "fields": {
+            "answer": 254767,
+            "state": 1017,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254771,
+        "fields": {
+            "answer": 254767,
+            "state": 1020,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254772,
+        "fields": {
+            "answer": 254767,
+            "state": 1021,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254773,
+        "fields": {
+            "answer": 254767,
+            "state": 1024,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254779,
+        "fields": {
+            "answer": 254775,
+            "state": 1033,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": 0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254788,
+        "fields": {
+            "answer": 254784,
+            "state": 1014,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254789,
+        "fields": {
+            "answer": 254784,
+            "state": 1049,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254790,
+        "fields": {
+            "answer": 254784,
+            "state": 1022,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254794,
+        "fields": {
+            "answer": 254791,
+            "state": 1017,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": 0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254795,
+        "fields": {
+            "answer": 254791,
+            "state": 1020,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": 0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254796,
+        "fields": {
+            "answer": 254791,
+            "state": 1021,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254797,
+        "fields": {
+            "answer": 254791,
+            "state": 1024,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": 0.03
+        }
     }
 ]
 
@@ -46410,7 +47511,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5237,
             "candidate": 201,
-            "answer_feedback": "Putin is unmoved by threats, no matter how serious they sound. Even if it wanted to, the United States isn't in a position to do much about an impending invasion while the economy is sinking into oblivion.\n"
+            "answer_feedback": "Some NATO members, like Britain, uphold their fighting stance against Russia, although they are just as uneasy as the rest. Merkel in Germany is reluctant to commit much to this conflict, but she agrees to keep a ready-to-act appearance. "
         }
     },
     {
@@ -48138,7 +49239,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 22047,
             "candidate": 201,
-            "answer_feedback": "While it's good to let the American people know you're looking out for them, it couldn't hurt to revel in your victory. You're getting very few of those lately."
+            "answer_feedback": "It's a bit theatrical, but given the successful news, Sarkozy is willing to publicly congratulate you and promise French cooperation in the near future. It's one grand pat on the back for putting a bandaid over a shotgun wound that your predecessor gave the Middle East."
         }
     },
     {
@@ -50613,7 +51714,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 24047,
             "candidate": 201,
-            "answer_feedback": "While it's good to let the American people know you're looking out for them, it couldn't hurt to revel in your victory. You're getting very few of those lately."
+            "answer_feedback": "Royal laughs at the suggestion of an apology of any kind, private or public, and declares France an opposition force to NATO aggression. Continuing the degrading relations, she rolls back plans to reintegrate France into the military command structure of NATO."
         }
     },
     {
@@ -52811,6 +53912,204 @@ campaignTrail_temp.answer_feedback_json = [
             "candidate": 201,
             "answer_feedback": "You collect the neoliberal establishment like Biden and Clinton into a thought-provoking team discussing how to create a mirror image of the Bush administration's work. After long and arduous talks, plans for a troop build-up in Iraq were made to prepare for such a scenario."
         }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 254704,
+        "fields": {
+            "answer": 254703,
+            "candidate": 201,
+            "answer_feedback": "You're asking for the impossible. Most NATO members are not looking to start a Third World War because you're an irresponsible moron, and they make it clear that it's not happening. A band of uneasy nations sink your demands, and the press light a fire under your administration's behind."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 254709,
+        "fields": {
+            "answer": 254708,
+            "candidate": 201,
+            "answer_feedback": "Your whirlwind trip to Georgia has created a media circus. The Georgians appreciate your advocacy, but most Americans can't pinpoint where Georgia is on a map, much less support going to war with Russia for them."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 254713,
+        "fields": {
+            "answer": 254712,
+            "candidate": 201,
+            "answer_feedback": "You've rushed into a fighting stance to combat Russia, but it seems you had misplaced trust in your flank. Schröder leads the dissent against committing NATO's credibility to Georgia's territorial integrity. Georgia is left at the whim of Putin."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 254720,
+        "fields": {
+            "answer": 254719,
+            "candidate": 201,
+            "answer_feedback": "You hadn't known that French President Royal had essentially set a trap to thrust the blame of the conflict on NATO aggression. She leans heavily toward Putin's whims, allowing Russia to set the narrative. America walks out of the talks with nothing gained besides bad media attention."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 254752,
+        "fields": {
+            "answer": 254751,
+            "candidate": 201,
+            "answer_feedback": "You're asking for the impossible. Most NATO members are not looking to start a Third World War because you're an irresponsible moron, and they make it clear that it's not happening. A band of uneasy nations sink your demands, and the press light a fire under your administration's behind."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 254757,
+        "fields": {
+            "answer": 254756,
+            "candidate": 201,
+            "answer_feedback": "Your whirlwind trip to Georgia has created a media circus. The Georgians appreciate your advocacy, but most Americans can't pinpoint where Georgia is on a map, much less support going to war with Russia for them."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 254761,
+        "fields": {
+            "answer": 254760,
+            "candidate": 201,
+            "answer_feedback": "You've rushed into a fighting stance to combat Russia, but it seems you had misplaced trust in your flank. Schröder leads the dissent against committing NATO's credibility to Georgia's territorial integrity. Georgia is left at the whim of Putin."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 254768,
+        "fields": {
+            "answer": 254767,
+            "candidate": 201,
+            "answer_feedback": "French President Sarkozy does what he can to calm the hostilities, but he's unsuccessful. Russia and Georgia are at an impasse that can't be talked down from. Secretary Kerry does all he can to please the press in the meantime, and it holds them over for now.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 254776,
+        "fields": {
+            "answer": 254775,
+            "candidate": 201,
+            "answer_feedback": "You're asking for the impossible. Most NATO members are not looking to start a Third World War because you're an irresponsible moron, and they make it clear that it's not happening. A band of uneasy nations sink your demands, and the press light a fire under your administration's behind."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 254781,
+        "fields": {
+            "answer": 254780,
+            "candidate": 201,
+            "answer_feedback": "Your whirlwind trip to Georgia has created a media circus. The Georgians appreciate your advocacy, but most Americans can't pinpoint where Georgia is on a map, much less support going to war with Russia for them."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 254785,
+        "fields": {
+            "answer": 254784,
+            "candidate": 201,
+            "answer_feedback": "You've rushed into a fighting stance to combat Russia, but it seems you had misplaced trust in your flank. Schröder leads the dissent against committing NATO's credibility to Georgia's territorial integrity. Georgia is left at the whim of Putin."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 254792,
+        "fields": {
+            "answer": 254791,
+            "candidate": 201,
+            "answer_feedback": "You hadn't known that French President Royal had essentially set a trap to thrust the blame of the conflict on NATO aggression. She leans heavily toward Putin's whims, allowing Russia to set the narrative. America walks out of the talks with nothing gained besides bad media attention."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 254799,
+        "fields": {
+            "answer": 254798,
+            "candidate": 201,
+            "answer_feedback": "It's a bit theatrical, but given the successful news, Sarkozy is willing to congratulate you and promise French cooperation shortly publicly. It's one grand pat on the back for putting a band-aid over a shotgun wound that your predecessor gave the Middle East."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 254803,
+        "fields": {
+            "answer": 254802,
+            "candidate": 201,
+            "answer_feedback": "Royal laughs at the suggestion of an apology of any kind, private or public, and declares France an opposition force to NATO aggression. Continuing the degrading relations, she rolls back plans to reintegrate France into the military command structure of NATO."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 254808,
+        "fields": {
+            "answer": 254807,
+            "candidate": 201,
+            "answer_feedback": "Iraq's Prime Minister has been a recurring problem for your administration, so it's no surprise that you'd reject their democracy at the first opportunity. However, Maliki outflanks you by rehashing the Blackwater Shooting as justification for why American oversight has failed."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 254812,
+        "fields": {
+            "answer": 254811,
+            "candidate": 201,
+            "answer_feedback": "Kerry and Levin draw up plans to increase surveillance across the Middle East as the United States begins secretive drone strikes on unsuspecting terrorists. You're informed of civilian casualties, but they're pushed under the rug."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 254816,
+        "fields": {
+            "answer": 254815,
+            "candidate": 201,
+            "answer_feedback": "You talk up a Seven War's Policy Coup, and the speech soars into headlines as former Secretary of Defense Donald Rumsfeld is being investigated for torture and war crime allegations—the Bush administration nostalgia plummets across the board."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 254820,
+        "fields": {
+            "answer": 254819,
+            "candidate": 201,
+            "answer_feedback": "It's a bit theatrical, but given the successful news, Sarkozy is willing to publicly congratulate you and promise French cooperation in the near future. It's one grand pat on the back for putting a band-aid over a shotgun wound that your predecessor gave the Middle East."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 254842,
+        "fields": {
+            "answer": 254841,
+            "candidate": 201,
+            "answer_feedback": "Iraq's Prime Minister has been a recurring problem for your administration, so it's no surprise that you'd reject their democracy at the first opportunity. Maliki soon buckles under your pressure and resigns in disgrace, leaving a trail of corruption and scandals that signal change for the better in the region."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 254846,
+        "fields": {
+            "answer": 254845,
+            "candidate": 201,
+            "answer_feedback": "Kerry and Levin draw up plans to increase surveillance across the Middle East as the United States begins secretive drone strikes on unsuspecting terrorists. You're informed of civilian casualties, but they're pushed under the rug."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 254850,
+        "fields": {
+            "answer": 254849,
+            "candidate": 201,
+            "answer_feedback": "You talk up a Seven War's Policy Coup, and the speech soars into headlines as former Secretary of Defense Donald Rumsfeld is being investigated for torture and war crime allegations—the Bush administration nostalgia plummets across the board."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 254854,
+        "fields": {
+            "answer": 254853,
+            "candidate": 201,
+            "answer_feedback": "Royal laughs at the suggestion of an apology of any kind, private or public, and declares France an opposition force to NATO aggression. Continuing the degrading relations, she rolls back plans to reintegrate France into the military command structure of NATO."
+        }
     }
 ]
 
@@ -52836,7 +54135,6 @@ campaignTrail_temp.jet_data = [{
     "ending_data": {}
 }
 ]
-
 
 
 
@@ -53286,10 +54584,10 @@ cyoAdventure = function(a) {
     }
 
     //Foreign policy successes
-    if (ans == 254675 || ans == 254665 || ans == 254660 || ans == 254650 || ans == 254622 || ans == 254628 || ans == 25448 || ans == 25444 || ans == 25435 || ans == 25431 || ans == 22853 || ans == 20915 || ans == 20924 || ans == 5190 || ans == 5147 || ans == 22758 || ans == 22043 || ans == 5150 || ans == 20877 || ans == 24059 || ans == 24062 || ans == 23695 || ans == 20946 || ans == 24170 || ans == 24768 || ans == 24772 || ans == 24764 || ans == 24776 || ans == 24780 || ans == 24785 || ans == 24797 || ans == 24800) {
+    if (ans == 254767 || ans == 254675 || ans == 254665 || ans == 254660 || ans == 254650 || ans == 254622 || ans == 254628 || ans == 25448 || ans == 25444 || ans == 25435 || ans == 25431 || ans == 22853 || ans == 20915 || ans == 20924 || ans == 5190 || ans == 5147 || ans == 22758 || ans == 22043 || ans == 5150 || ans == 20877 || ans == 24059 || ans == 24062 || ans == 23695 || ans == 20946 || ans == 24170 || ans == 24768 || ans == 24772 || ans == 24764 || ans == 24776 || ans == 24780 || ans == 24785 || ans == 24797 || ans == 24800) {
         Nato += 1;
     }
-    if (ans == 23483 || ans == 22035 || ans == 22761 || ans == 24794 || ans == 25439) {
+    if (ans == 254841 || ans == 22047 || ans == 254819 || ans == 23483 || ans == 22035 || ans == 22761 || ans == 24794 || ans == 25439) {
         Nato += 2;
     }
 
@@ -53302,10 +54600,10 @@ cyoAdventure = function(a) {
     }
 
     //rusher? i hardly even know her
-    if (ans == 21552 || ans == 21561 || ans == 21566 || ans == 5237  || ans == 5235  || ans == 21471 || ans == 24150 || ans == 24158 || ans == 22580) {
+    if (ans == 254775 || ans == 254751 || ans == 254703 || ans == 21552 || ans == 21561 || ans == 21566 || ans == 5237  || ans == 5235  || ans == 21471 || ans == 24150 || ans == 24158 || ans == 22580) {
         Russia += 2;
     } 
-    if (ans == 5236  || ans == 24154 || ans == 21536 || ans == 22573 || ans == 20777 || ans == 22863 || ans == 24790) {
+    if (ans == 254784  || ans == 254780  || ans == 254760  || ans == 254756  || ans == 254712  || ans == 254708  || ans == 5236  || ans == 24154 || ans == 21536 || ans == 22573 || ans == 20777 || ans == 22863 || ans == 24790) {
         Russia += 1;
     } 
     if (ans == 22584) {
@@ -53786,6 +55084,18 @@ cyoAdventure = function(a) {
         campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/XZC6hgY.png';
     }
 
+    if (e.noCounter == 15) {
+        if (Royal == 1 && Schroder == 1) {
+            campaignTrail_temp.questions_json[15] = tunnel(254702); 
+        }
+        else if (Sarkozy == 1 && Schroder == 1) {
+            campaignTrail_temp.questions_json[15] = tunnel(254750); 
+        }
+        else if (Royal == 1 && Merkel == 1) {
+            campaignTrail_temp.questions_json[15] = tunnel(254774); 
+        }
+}
+
     if (e.noCounter == 16) {
         if (Dem == 1 && Win > 7 || Dem == 1 && Win > 5 && (e.player_answers.includes(5184) || e.player_answers.includes(20755))) {
             campaignTrail_temp.questions_json[16] = tunnel(254481); 
@@ -53860,11 +55170,17 @@ cyoAdventure = function(a) {
         else if (Troops == 1 && Nato < 3) {
             campaignTrail_temp.questions_json[18] = tunnel(25307); 
         }
-        else if (Troops == 1 && Blackwater == 0) {
+        else if (Troops == 1 && Blackwater == 0 && Sarkozy == 1) {
             campaignTrail_temp.questions_json[18] = tunnel(24034); 
         }
-        else if (Troops == 1) {
+        else if (Troops == 1 && Blackwater == 1 && Royal == 1) {
             campaignTrail_temp.questions_json[18] = tunnel(22034); 
+        }
+        else if (Troops == 1 && Blackwater == 1 && Sarkozy == 1) {
+            campaignTrail_temp.questions_json[18] = tunnel(254806); 
+        }
+        else if (Troops == 1 && Blackwater == 0 && Royal == 1) {
+            campaignTrail_temp.questions_json[18] = tunnel(254840); 
         }
     }
 
@@ -55178,6 +56494,22 @@ const paulWin = new Playlist();
 paulWin.addSong(paulWinSong);
 changePlaylist(paulWin);
 }
+else if (quickstats[0] <= 269 && Dem == 6) { // big loss - Huckabee
+e.pages.push(`<h3><i>Animal</i></h3>
+          <p><b>The earth shook as a great stampede approached Olympus at the behest of the Hunter's rallying cry. Through charm and a facade of love, the next grand champion of Olympus had coalesced a mighty army of animals to crash through the pearly gates and slay Icarus.</b></p> <p><b>It was a terrifyingly similar sight to the day he took down his predecessor. Destiny had arrived at his doorstep, but Icarus wasn't one to go down without a glorious battle. Embracing his battle-hardened gear from years of conquest, he ventured out wanting to face this Hunter himself.</b></p> <p><b>He could hear the first army collide with the walls outside. The Hunter was here, ready to clash like a primordial beast. Icarus accepted such primitive terms, hoping to prove a good match on the Hunter's turf. And so they went at it like animals, tearing into one another, discarding their humanity in front of all. Icarus held out as long as he could, but he proved no match for the Hunter.</b></p> <p><b>Collapsing beneath him, he witnessed the desecration of his throne and the respect it once held, a loss that weighed heavily on his defeated spirit. Gone was the status quo, and in was the nature of Olympus and its disgusting reality.</b></p>`)
+          // idk how to add playlists but to do that you create a new playlist in code1 with just that song and put changePlaylist(nameOfYourEndingPlaylist) right here
+//e.image = ""
+e.executable.push([0, (() => {e.image = e.image = 'https://i.imgur.com/oNoEdWA.png'})])
+const huckWin = new Playlist();
+  const huckWinSong = new Song(
+    "Run Away",
+    "Kanye West",
+    "https://i.imgur.com/Ns41m5K.gif",
+    "https://audio.jukehost.co.uk/lNINxMqrU3SuAlLRzOvhHczawRRjDBIv"
+  );
+huckWin.addSong(huckWinSong);
+changePlaylist(huckWin);
+}
 else if (quickstats[0] <= 170 && Dem == 6) { // big loss - Huckabee
 e.pages.push(`<h3><i>Prey</i></h3>
           <p><b>Everyone expected it to be close, a battle of passion, with each side proclaiming their excitement and pride, but when it began, events quickly unraveled. It was soon out of Icarus's favor, and everything came crashing down upon him.</b></p> <p><b>His vision was blurred, his face bleeding. Icarus was bewildered; it all happened so fast; one moment, he was commanding a defense to be proud of, and the next, he was overwhelmed. A stampede of crazed acolytes ran through Olympus.</b></p> <p><b>He leaned up, hoping it was all a mere dream. It wasn’t; Olympus was burning to the ground. The source of his gut-wrenching defeat met his gaze. The Hunter sat mere feet away, grinning eagerly, waiting to finish off his prey.</b></p> <p><b>Icarus tried to muster all his energy to fend off the fiend but was useless. The Hunter shoved an arrow deep into his abdomen, practically laying on top of Icarus. He made it a deeply personal affair; Icarus could only groan in pain.</b></p><p><b>Everything he fought for was lost, and he was soon to be gutted by this nightmare. Not wasting another second, the Hunter sank his teeth into Icarus, ripping him apart. Gone was a dream of equality.</b></p>`)
@@ -55348,37 +56680,27 @@ e.pages.push(`<h3>CNN: <i>What happened to RudyCare?</i></h3>
 <p><b>Jack Wells</b></p> <p>One of then-Mayor Giuliani's few domestic proposals on the campaign trail was to give working families greater control and more healthcare options. President Giuliani had made tax reform his priority, slashing taxes across the board, much to the dismay of Congressional Democrats.</p> <p>Giuliani has taken reform to the tax code as his primary focus to fixing our broken healthcare system, which has primarily caused most to scratch their heads in confusion. Among other worthless solutions, Giuliani also passed a bill that provides a "Forward Thinking Grant" to "innovative" states to encourage states to improve healthcare quality and make health insurance more affordable by offering block grants to encourage innovation, reduce health costs, enroll eligible uninsured, and solve adverse selection issues.</p><p>The solutions have done nothing to satisfy anyone, with most Republican members of Congress believing it's a waste of time, but President Giuliani has hailed the program as a great success. Most within the President's inner circle say he's declared victory over the battle for greater Healthcare and is planning to move on to greater things.</p><p>Democrats nationwide condemn the President for abandoning the average American's interests, with recent polls showing that over 63% of Americans believe the President hasn't done enough, while 23% think he's accomplished enough.</b></p><p>Many Republicans are beginning to sweat since the 2010 midterms loom over Giuliani's tenure like a storm already showing signs of trouble as the Massachusetts Senate election held in January to fill the late Senator Ted Kennedy's seat was won by Democrats with impressive margins.</p>`)
 e.executable.push([2, (() => {e.image = e.image = 'https://i.imgur.com/ZjHn4oU.png'})])
 }
+if ( quickstats[0] <= 269 && Dem == 6 && Win < 6) { // heritage huck
+e.pages.push(`<h3><i>MEMORANDUM</i></h3>
+<p><b>DATE: APRIL 9TH, 2009</b></p><p><b>TO: PUBLIC</b></p><p><b>FROM: HERITAGE OVERSIGHT PROJECT</b></p><p><b>SUBJECT: KEY PROPOSALS SUBMITTED TO THE HUCKABEE ADMINISTRATION</b></p><p><b>REGARDING CONSTITUTIONAL CONVENTION</b></p> <p>The Heritage Foundation's Oversight Project has just submitted a list of high-value proposals for President Mike Huckabee to consider when calling a constitutional convention. In accordance with the submittal, the Oversight Project has also requested a formal meeting with the President and a seat at the table if such a convention were to be called. If the President were to act by our wishes, we would aid him in his effort to rewrite the wrongs of the Founding Fathers.</p> <p>Key proposals for such a convention include a national ban on gay marriage, a national abortion ban, a balanced budget amendment, a freedom of religious speech amendment, a national ban on gun control, a Ten Commandments amendment, a flat tax amendment, an amendment deregulating the energy industry, and a closed borders amendment.</p><p><b>President Huckabee has yet to respond to our goals, but his political alignment gives us confidence that a major step forward is at hand. In the coming days, Heritage Foundation agents will coalesce in Washington to discuss the path forward to getting our proposals through Congress in the case President Huckabee backs down. Regardless, the path toward enacting our agenda has never been clearer with the sturdy Republican Congress.</p>`)
+e.executable.push([2, (() => {e.image = e.image = 'https://i.imgur.com/ZjHn4oU.png'})])
+}
 if ( quickstats[0] <= 269 && Dem == 7 && War == 0) { // suicide
 e.pages.push(`<h3>NBC NEWS: <i>Mother of gay South Carolina teen who died by suicide claims his school participated in his untimely demise.</i></h3>
 <p><b>August 12, 2010, 12:57 PM EDT / Updated August 12, 2010, 6:53 PM EDT</b></p> <p><b>By Janet Griffin</b></p><p>The mother of a recently passed gay teen alleges school and government played a part in the death of her son. She gave her public statement statement to NBC News reporters here:</p> <p>"After my son passed, I learned that he had several discussions about homosexuality with school administrators and was told that being gay was a choice, he was told that he was making a mistake. My son is dead, he wasn't a mistake, he wasn't making a choice and you are the people responsible for this. When the Vice President stands for bullying, when our President demonizes people for their sexuality, this is the result. Are you happy now, was it worth it, all you propagandists telling the world that people, kids like my son are dangerous? Just so you can pass some fucking amendment? Well guess what you got your wish, my son is dead, you killed my son President Brownback. I hope you're fucking happy."</p><p>Sadly, This news is one of many we've witnessed in the last few months. Mrs. James was gracious enough to share the note left behind from her son. Please be advised of its dark content.</p><p><b>"Dear Mom, I'm writing this to say goodbye and hopefully help give you comfort. Thank you for giving me life, I don't want you to cry, I need you to be strong. You were an amazing mother, nothing you could do would have changed my decision. I just can't handle it anymore, the name calling, the bullying it all hurts. If it was only that I could stay strong but I feel wrong, I'm able to ignore it most times but they make me feel so weak. They constantly tell me I'm a mistake, I don't know who found out I was gay but the rumor spread around the whole school and I feel other kids are constantly watching me. My friends won't talk to me anymore and when I tried to bring it up with Mrs. Shelby told me being gay was a choice. I don't know how I made the choice but I feel wrong and I just want everything to go back to normal. I want to be normal, but I can't. I don't know why I'm like this. Tell Alice she can have my room and that I'll miss her a lot. I'll miss you a lot mom, I want you to know that. This isn't your fault. It's mine. Goodbye."</b></p><p>Seeing the number of stories we're seeing come through is horrifying. Anti-bullying and gay rights activists have joined forces to protest and advocate for legislation and the repeal of the Federal Marriage Amendment. These tragedies make the case more apparent than ever. We need to do better, America; we need to be a kinder and more accepting nation.</p>`)
 e.executable.push([2, (() => {e.image = e.image = 'https://i.imgur.com/m8fWsw4.png'})])
 }
-if ( quickstats[0] >= 269 && Neo > 6 && Troops > 0) { // low neolib while troop surge
-e.pages.push(`<h3>MSNBC: <i>President Clark expected to send more troops to Iran, citing the need to "squash and kill the terrorist industrial complex from its source."</i></h3>
-<p><b>NEWS</b></p> <p>In response to the severe terrorist attack in Israel on September 12th, President Clark led the charge in blaming Iran for funding a deep terrorist network with malicious intent. In a fashion much similar to his predecessor's handling of the Iraq War, President Clark dove head first into calling for Congress to give the go-ahead and declare war on the Islamic Republic of Iran. </p> <p>Spearheaded by like-minded allies such as newly confirmed Secretary of State Hillary Clinton and Senator Joe Biden, Congress gave Clark a speedy reply, granting him his wish. Iran was to feel the full, insurmountable weight of American military prowess.</p><p>Two months in American resolve remains substantial, but logistical headway into cracking Iranian strength and willpower has found little success. President Clark hails the effort as extraordinary, with victory just approaching. However, administration insider doubts lay with officials from the State Department foretelling of Iranian troop movements to block access to oil fields to begin a larger oil shortage.</p><p>Widespread protests against the war have already begun to blip up, and if an oil shortage were to further the binds of which American citizens are held, it may erupt into a large-scale public revolt. President Clark has disavowed the idea that the United States would take a step further to launch a tactical nuclear weapon, but skeptics are unwilling to give him the benefit of the doubt.</p><p>Washington stepped up the bombing campaign against Iranian military targets, including alleged nuclear facilities, despite publicly pushing for a negotiated settlement. Israel has led the charge in pointing out where the United States should strike, and President Clark, like a lap dog, ordered strikes on alleged nuclear facilities throughout Syria and Iran.</p><p>With the U.S. Joint Chiefs of Staff expected to provide more comprehensive requests like further troop deployments into Iran, it seems the administration is all but doubling its efforts to take down the "pillar of the terrorist industrial complex."</p> <br><b>MSNBC Coverage</b></br><span style="color:Blue;"><u>Why NATO allies are refusing to support Clark's war. </span></u> (Dec 4th 2009)</br></br><span style="color:Blue;"><u>Why Illinois Senator Barack Obama abstained the Iran vote.</span></u> (Dec 14th 2009)</br></br><span style="color:Blue;"><u>Democrats struggle to find an identity beyond Clark's marching orders.</span></u> (Dec 15th 2009)</br></p>`)
-e.executable.push([2, (() => {e.image = e.image = 'https://i.imgur.com/nRt0uat.png'})])
-}
-else if ( quickstats[0] >= 269 && Neo < 6 && Troops > 0) { // low neolib while troop surge
-e.pages.push(`<h3>CBS NEWS: <i>The Humanitarian Crisis in Syria is one of President Clark's making."</i></h3>
-<p><b>August 27, 2011, 3:42 PM ET</b></p> <p>Under President Wesley Clark's command, the United States Air Force conducted a bombing campaign of the Assad Regime. The strategic bombing of chemical weapons sites was meant to halt and prevent their usage.</p> <p>Bashar al-Assad's regime ordered the use of chemical weapons in the mass revolt and protests affecting his nation and many other Arab countries in the wider Arab Spring, which had deposed many other regimes like his. President Clark had warned Assad that he would come down on him twice as hard if he threw out international law. Assad called Clark's buff and didn't hesitate to act to prevent a disaster.</p><p>However, the large-scale bombing reflective of the president's style in the Kosovo war has backfired tenfold with a chemical disaster at multiple government sites leading to mass civilian displacement and sickness throughout various sites close to Damascus: a military base in the Dimas area, army depots in the eastern Qalamoun; the Kiswah area, where Iran is believed to have been building a base; and a site in the Qasioun hills, and a research center in Masyaf. Reports from the town of Khan Sheikhoun say that more than 80 people were killed in a chemical explosion.</p><p>Russian President Vladimir Putin has condemned the Western strikes "in the most serious way." The Syrian Civil War has become a quasi-proxy war between the United States and Russia, with most Democrats joining in with President Clark's rhetoric warning of a "Second Cold War."</p><p>Other critics of the United States' actions in Syria lambast the president as a fearmonger. Many within the Republican Party have even begun to denounce neoliberalism at work, with the emergence of the Tea Party Movement advocating for a more isolationist foreign policy.</p> <br><b>CBS Coverage</b></br><span style="color:Blue;"><u>Senator John McCain lambasts the president's handling of the conflict in Syria as "poorly planned" </span></u> (Feb 4th 2010)</br></br><span style="color:Blue;"><u>Can Bachmann pull off an upset, primarying Pawlenty?</span></u> (Feb 14th 2010)</br></br><span style="color:Blue;"><u>Shrouded in failure, can Landrieu fight her way into a term of her own?</span></u> (Feb 20th 2010)</br></p>`)
-e.executable.push([2, (() => {e.image = e.image = 'https://i.imgur.com/k7OLlMF.png'})])
-}
-else if ( quickstats[0] >= 269 && Neo < 3 && Troops > 0) { // low neolib while troop surge
-e.pages.push(`<h3>CNN NEWS: <i>Petraeus touts the Afghani army and police force as "increasingly credible."</i></h3>
-<p><b>by Jeanne Sahadi</b></p> <p>Among calls for a withdrawal plan from Iraq lay the confused and aimless effort in Afghanistan. Long overshadowed by its unpopular brother, the war in Afghanistan has remained an afterthought of the Clark Administration, floating a timed withdrawal but refusing to commit to anything of substance.</p> <p>Now, In the latest of General David Petraeus's "charm campaigns," he's stood by Afghanistan and denounced any ideas of a withdrawal from the region by 2013 as the Clark Administration has floated. The general has taken it upon himself to focus on the internal improvements of the Afghan army. He also described how they were steadily taking more responsibility from NATO allies.</p><p>President Clark's unpopularity with his left flank demanding he pull back from Iraq and Afghanistan has sent cryptic messages in a clear attempt to buy time for the public to get over it. Secretary of State John Kerry, who stayed on for the job despite repeated disagreements with the President's conduct, has been equally left washed ashore as word spreads of a possible resignation is looming.</p><p>Secretary Kerry has disavowed the claims, but his isolation from the rest of the State Department gives him all the reason to call it quits despite his high public approval. Insider sources claim the Secretary is aloof at times, and his lowbrow approach is unable to make much headway in an increasingly stubborn administration.</p><p>General Petraeus, on the other hand, is the hands-on type who seemingly has full control over the situation in Iraq and Afghanistan. With much speculation over a possible presidential run circling the media, he's also reaffirmed that he has no intention of running for the Republican Presidential nomination in 2012.</p> <br><b>CNN Coverage</b></br><span style="color:Blue;"><u>Newly turned Independent, Dennis Kucinich eyes up Ohio governor mansion considering a challenge to incumbent Governor Ted Strickland in 2010</span></u> (Sept 4th 2009)</br></br><span style="color:Blue;"><u>How the Tea Party is reinvigorating the isolationist movement</span></u> (Sept 7th 2009)</br></br><span style="color:Blue;"><u>Clark gives peace activists a nod during 9/11 memorial speech</span></u> (Aug 26th 2009)</br></p>`)
-e.executable.push([2, (() => {e.image = e.image = 'https://i.imgur.com/oggK2FF.png'})])
-}
-else if ( quickstats[0] >= 269 && Notroops > 0 && e.player_answers.includes(24734)) { // jonkler clark
+else if ( quickstats[0] >= 269 && e.player_answers.includes(24734)) { // jonkler clark
 e.pages.push(`<h3>The Glenn Beck Program: <i>General Secretary of The United Soviet States Wesley K. Clark stays firm on his goal of socialized medicine.</i></h3>
 <p><b>Politics | August 17, 2009</b></p> <p>President Wesley Clark, who won reelection last November by nothing short of a mistake from God, has now dropped the bipartisan mask and has become what we all knew he was: a full-fledged dictator. In a move that even blindsided his corrupt democrat buddies, he revealed himself to be the untrustworthy socialist Republicans have been warning about.</p> <p>If you put him in his military uniform and get him on a balcony, you will see a dictator. Republicans in Congress need to move to impeach this sociopathic pathological liar before he convinces his party to go forward with dismantling America!</p><p>The reasoning the President brought up was nothing more but utter fear-mongering; "No child in this country should grow up without regular medical checkups and care or regular exercise and physical fitness training and every adult should be provided access to the kind of diagnostic testing and preventive treatments which can slow the onset of aging diseases like diabetes or alzheimers."</p><p>The United States has the single best healthcare system in the world. You need to work hard for it, but the reward is impossible to beat. President Clark's proposal will not only lower the quality of our healthcare, but it will also shatter our economy, and in 10 years, America will be a third-world country.</p><p>He brought up his supposed "studies," which, I assure you, are nothing but the word of Marx. President Clark remarked, "In my study of this problem and experience over the years, this means transforming gradually, systematically from a workplace-centered private payer system toward some greater reliance on some form of a single-payer system to ease administrative burdens and reduce cost!"</p> <p>He's a liar; every single economist will tell you that healthcare to the extreme he wants will explode prices and require every American to give even more to the government, and we'll get tiny in return!</p> <p>Republicans and Democrats need to step up and dismantle the Clark Regime, but I doubt many of the Democratic Party are willing to stand up against their king given that they passed the stepping stone, Clark Care. America's fall to socialism is nothing short of a nightmare, but there is still hope. The midterm elections will allow us to make our voices loud and clear to kill President Clark's mandate once and for all.</p>`)
 e.executable.push([2, (() => {e.image = e.image = 'https://i.imgur.com/yfjCkPG.jpeg'})])
 }
-else if ( quickstats[0] >= 269 && Notroops > 0 && e.player_answers.includes(22479) || quickstats[0] >= 269 && Notroops > 0 && e.player_answers.includes(24704) || quickstats[0] >= 269 && Notroops > 0 && e.player_answers.includes(24730)) { // gun grab clark
+else if ( quickstats[0] >= 269 && e.player_answers.includes(22479) || quickstats[0] >= 269 && Notroops > 0 && e.player_answers.includes(24704) || quickstats[0] >= 269 && Notroops > 0 && e.player_answers.includes(24730)) { // gun grab clark
 e.pages.push(`<h3>Press Release From Republican Presidential Candidate, Buddy Roemer: <i>The Great Democratic Beast cannot be wooed with good will. It must be slayed!</i></h3>
 <p><b>Buddy Roemer | Former Governor of Louisiana</b></p><p><b>Jan 26, 2009</b></p> <p>Today marks the beginning of the end of American freedom as we witness multiple Republican Senators join alongside the Democratic caucus in a showing of "bipartisanship" to kill our right to bear arms. It's the most profound betrayal of American values to reign in our rights given by the Constitution. These Senators took a knife and stabbed us in the back for nothing in return.</p><p>President Clark already breached the trust going after our guns by sunsetting much of the progress Bush made unraveling the Clinton years' draconian laws. By abusing the moment of tragedy, he passed hardline communist chicanery to hit the holder of the American firearm.</p><p>However, that wasn't enough to satisfy the mad King's lust for blood. Amid Republicans' drastic and humiliating defeat during the 2008 election, he sought to make history while ruling by near royal decree. He has gone for more regulation, more stops, and more tyranny. All while the Republican Party allows him to, he's gone mad, I tell you!</p><p>If Republicans want to slay the dragon of the Democratic Party, they need to get tough on the issues and abandon the party establishment! This party looks down the scope of uncertainty as we sail through rivers of defeat! A true conservative agenda cannot be hitched to the idea of handing out goodwill and freebies!</p> <p>I was once a Democrat, and during my time, I realized how long gone the party had become. No longer a party of pragmatism, I and many Louisianians witnessed the rapid decline of the party's sensibilities. If we allow Republicans to forget the people they represent, they will surely follow in their footsteps and fall far from the American people's positions on key issues.</p><p>That's why I am running for President: to save America from the President's radical agenda and enact sustainable change in the Republican Party. The midterms are fast approaching, and incumbents all across the country should fear for their positions, Republican and Democratic. It's an opportunity for a true American rebirth, only if Republicans are willing to allow change to come to Washington.</p>`)
 e.executable.push([2, (() => {e.image = e.image = 'https://i.imgur.com/vNS2c34.png'})])
 }
-else if ( quickstats[0] >= 269 && Notroops > 0 && e.player_answers.includes(22475) || quickstats[0] >= 269 && Notroops > 0 && e.player_answers.includes(24700) || quickstats[0] >= 269 && Notroops > 0 && e.player_answers.includes(24713) || quickstats[0] >= 269 && Notroops > 0 && e.player_answers.includes(24726)) { // weapons
+else if ( quickstats[0] >= 269 && e.player_answers.includes(22475) || quickstats[0] >= 269 && Notroops > 0 && e.player_answers.includes(24700) || quickstats[0] >= 269 && Notroops > 0 && e.player_answers.includes(24713) || quickstats[0] >= 269 && Notroops > 0 && e.player_answers.includes(24726)) { // weapons
 e.pages.push(`<h3>Press Release From Republican Presidential Candidate, Herman Cain: <i>Speculation over Wesley Clark's marriage ramp up as multiple sources claim infidelity possibly even with a man is deeply concerning.</i></h3>
 <p><b>Herman Cain | Businessman</b></p><p><b>Sep 27, 2009</b></p> <p>The atmosphere within the White House is quite cold following Valentine's Day as it becomes clear to inside sources that the love between the President and his wife, Gertrude, of 42 years, has faded. Despite the White House presentation of their marriage, sources say Clark's wandering eye has landed on a 30-year-old staffer and possibly one of the male White House chefs.</p><p>First Lady Gertrude has checked out administration activities, possibly because the President botched her plan for guaranteed paid leave for working mothers nationwide. If we look deeper and observe the daily interactions, it's evident that Wes has lost a glimmer of love for his dear old wife.</p><p>If Clark has been smitten by a female staffer or possibly even a male, he should come out with it and resign accordingly. At the very least, congressional leaders should investigate this. What we discovered about Bill Clinton through those investigations was horrific. Clark comes from the same satanic worshiping cloth, so we should be hesitant to light a candle on his ass and get the truth!</p><p>The President has already sullied our military by allowing gay soldiers to openly indulge in sodomy. If Republicans continue to sit around in anguish over their loss last year, our country's culture will be burned to the ground. Who knows what Democrats plan to do next? They might just openly go for the churches and legalize gay marriage!</p> <p>Conservatives all across the country need to stand up and fight. This goes beyond protecting the sanctity of our institutions, or religious values are at stake!</p>`)
 e.executable.push([2, (() => {e.image = e.image = 'https://i.imgur.com/yfjCkPG.jpeg'})])
@@ -55410,7 +56732,7 @@ e.pages.push(`<h3>FOX: <i>Democrat prepare to sack Hillary as a final rebuke of 
 <p><b>By Jim Kelly</b></p><p><b>TV Host Donald J. Trump took the debate stage by storm last night, listing off his grievances about Democratic frontrunner, Senator Hillary Clinton, calling her a "Republican at heart" and a "warmonger." Senator Clinton has come under fire from many other Democratic opponents like John Edwards for working too closely with the Bush administration.</p><p>Mr. Trump then went into a tirade, lambasting President Bush, claiming he was a "no show on the job" getting paid to go on vacations abroad and asking, "Why would you pay a man $400,000 a year for a no-show job?" Much of the reality TV host's candidacy has been orbiting President Bush's failures to protect the American worker from "immigrants taking our jobs" and his push for free trade deals that "sell American farmers out."</p><p>The once-crowded field of establishment Democratic candidates has slowly dwindled after Trump's surprising victory in Iowa and the New Hampshire upset outcome of Senator Bernie Sanders taking the plurality. This effectively handicaps Senator Hillary Clinton's campaign as the candidates prepare to enter the South Carolina contest in what may decide who the next Democratic nominee will be.</p><p>Of those who remain, Former House Majority Leader Gephardt, after placing fourth in Iowa, many wonder why he's chosen to remain in the race, with many suspecting he hopes to revive his campaign at South Carolina or make a bid for VP of one of the mainline candidates.</p><p>While Senator Bernie Sanders polls poorly in most primaries leading up to Super Tuesday, he may drop out and throw his support behind Trump as an anti-establishment last stand.</p><p>Trump is expected to perform admirably in South Carolina, but if Edwards becomes the frontrunner in the long term, he may be in for a tough time.</p><p>Senator Clinton stands the most bruised in the race as most expected her to take the New Hampshire Primary with relative ease, now must place all her bets on beating Edwards in South Carolina.</p><p>John Edwards appears to be the front runner in waiting, and with Clinton's campaign is faltering, her defeat here can effectively boot her out of the race. If Edwards can secure the position as the last man with any ties to the establishment left, he'd enjoy frontrunner status and be able to watch as Trump and Sanders fizzle out by Super Tuesday.</p><p>Polls predict an Edwards victory after campaigning heavily with leaders of the black community in South Carolina.</p><h3>   34-37% Edwards</h3><h3>   26-28% Clinton</h3><h3>   15-18% Trump</h3><h3></h3><h3>   12-14% Sanders</h3><h3>   5-9% Gephardt</h3></p>`)
 e.executable.push([3, (() => {e.image = e.image = 'https://i.imgur.com/Opfvrri.png'})])
 }
-else if ( quickstats[0] <= 269 && Dem == 3) { // mccain lybia
+else if ( quickstats[0] <= 269 && Dem == 3 && Crazy > 0) { // mccain lybia
 e.pages.push(`<h3>FOX: <i>Democrat prepare to sack Hillary as a final rebuke of the Clinton years</i></h3>
 <p><b>By Jim Kelly</b></p><p><b>TV Host Donald J. Trump took the debate stage by storm last night, listing off his grievances about Democratic frontrunner, Senator Hillary Clinton, calling her a "Republican at heart" and a "warmonger." Senator Clinton has come under fire from many other Democratic opponents like John Edwards for working too closely with the Bush administration.</p><p>Mr. Trump then went into a tirade, lambasting President Bush, claiming he was a "no show on the job" getting paid to go on vacations abroad and asking, "Why would you pay a man $400,000 a year for a no-show job?" Much of the reality TV host's candidacy has been orbiting President Bush's failures to protect the American worker from "immigrants taking our jobs" and his push for free trade deals that "sell American farmers out."</p><p>The once-crowded field of establishment Democratic candidates has slowly dwindled after Trump's surprising victory in Iowa and the New Hampshire upset outcome of Senator Bernie Sanders taking the plurality. This effectively handicaps Senator Hillary Clinton's campaign as the candidates prepare to enter the South Carolina contest in what may decide who the next Democratic nominee will be.</p><p>Of those who remain, Former House Majority Leader Gephardt, after placing fourth in Iowa, many wonder why he's chosen to remain in the race, with many suspecting he hopes to revive his campaign at South Carolina or make a bid for VP of one of the mainline candidates.</p><p>While Senator Bernie Sanders polls poorly in most primaries leading up to Super Tuesday, he may drop out and throw his support behind Trump as an anti-establishment last stand.</p><p>Trump is expected to perform admirably in South Carolina, but if Edwards becomes the frontrunner in the long term, he may be in for a tough time.</p><p>Senator Clinton stands the most bruised in the race as most expected her to take the New Hampshire Primary with relative ease, now must place all her bets on beating Edwards in South Carolina.</p><p>John Edwards appears to be the front runner in waiting, and with Clinton's campaign is faltering, her defeat here can effectively boot her out of the race. If Edwards can secure the position as the last man with any ties to the establishment left, he'd enjoy frontrunner status and be able to watch as Trump and Sanders fizzle out by Super Tuesday.</p><p>Polls predict an Edwards victory after campaigning heavily with leaders of the black community in South Carolina.</p><h3>34-37% Edwards</h3><h3>26-28% Clinton</h3><h3>15-18% Trump</h3><h3></h3><h3>12-14% Sanders</h3><h3>5-9% Gephardt</h3>`)
 e.executable.push([3, (() => {e.image = e.image = 'https://i.imgur.com/FDShEaw.png'})])
@@ -55420,10 +56742,30 @@ e.pages.push(`<h3>The Washington Post: <i>4th-grader quizzes Rice on the War in 
 <p><b>By Alec MacGillis</b></p><p><b>Washington Post Staff Writer</b></p><p><b>February 4, 2010</b></p> <p>Days after justifying an emergency troop surge to Stanford University, Secretary of State Condoleezza Rice was again pressed by a 4th-grade student at Washington School on her role in sending more troops to Baghdad.</p><p>She stroked up controversy when asked to comment on President Giuliani's handling of what she called an "Iraqi civil war," which she had blamed former President Wesley Clark for allowing to take place.</p><p>Rice, in her first appearance in Washington since returning home from her visit to Baghdad, attended the Jewish Primary Day School of the Nation's Capital before giving an evening lecture at the Sixth & I Historic Synagogue.</p><p>The questions were developed beforehand by students and were not screened by the Secretary. They started innocently, asking what it was like growing up in segregated Birmingham, Alabama, until they took a darker tone.</p><p><b>Misha Lerner</b>, a student from Bethesda, asked the Secretary what she thought of the casualty rate of U.S. troops skyrocketing after President Giuliani's proposed troop surge went into effect.</p><p>The Secretary coldly stated, "It's a sad necessity following the disastrous state in which President Clark left the country."</p><p>She added: "I hope you understand that it was a very difficult time. We were all so terrified of another attack on the country. September 11 was the worst day of my life in government, watching 3,000 Americans die. Even under those most difficult circumstances, the president was not prepared to do something illegal, and I hope people understand that we were trying to protect the country."</p><p><b>Misha's mother warned the Secretary that the question her son had was even tougher</b>, "Are you going to end the war so people stop dying?"</p><p>"Nothing within President Giuliani's authority as Commander in Chief is off the table and we're doing everything we can to ensure this conflict comes to a swift conclusion soon. We will not abandon Iraq under any circumstances but we will look into alternative methods to wage war on terror to ensure another 9/11 never happens again."</p><p>The remarks drew criticism, with most claiming Secretary Rice alluded to the nuclear option. She has disavowed these claims and reiterated that the United States military only seeks conventional warfare methods.</p><p><b>2009 Washington Post Company</b></p>`)
 e.executable.push([3, (() => {e.image = e.image = 'https://i.imgur.com/x4pIEwj.png'})])
 }
+if ( quickstats[0] <= 269 && Dem == 6 && War == 0) { // suicide
+e.pages.push(`<h3>FOX: <i>President FURIOUS over AIG bonus bailout</i></h3>
+<p><b>By Andrew Scott</b></p> <p>American International Group was saved while on the brink of collapse during the 2008 Great Recession by then President Clark's administration and at the time it was justified as a “non-negotiable” to save the economy. Now just a year later The Washington Post has broken the story that AIG plans to use part of the bailout funds to payout over 165 million dollars worth of bonuses to 400 employees.</p> <p>The outrage stirred by multiple news organizations like The New York Times which reminded us “the same business unit that brought the company to the brink of collapse last year.” National outrage over an almost comical situation followed the story's landfall. President Huckabee has propelled himself to the forefront of this outrage threatening executive action against AIG if it were to follow through with these bonus bailouts. “America had to foot the bill for your mistakes and now you want to use that money to pat yourselves on the back for a good job?” Huckabee said when addressing the controversy.</p><p>It's a strange unifying movement behind the outrage between the left and right with Independent and self proclaimed socialist Senator Bernie Sanders passionately denouncing the scandal. Many are advocating that President Huckabee go after AIG and force them to repay the bailouts by the end of the year. Huckabee has flirted with the idea and also debated shutting down all government agencies used to bailout private firms and businesses.</p><p>Arguments in favor of AIG's position state that AIG would have trouble attracting and retaining talent “if employees believe their compensation is subject to continued and arbitrary adjustment by the U.S. Treasury.” The Huckabee Administration has found thus totally unacceptable and signaled that action against the bonuses will be taken in some form.</p><p><b>Related Articles</b></p><span style="color:blue;"><u>Impeachment? Democrats cry as Huckabee ramps up the gas on a constitutional reformation.</span></u> (May 4th 2010)<br><span style="color:blue;"><u>Secretary of Treasury Rush Limbaugh? Huckabee jokes but how likely is this?</span></u> (April 11th 2010)<br><span style="color:blue;"><u>Huckabee infrastructure projects, where the money is going and is the president really putting his face on money forwarded to them?</span></u> (March 22nd 2010)</p>`)
+e.executable.push([3, (() => {e.image = e.image = 'https://i.imgur.com/nOt4KoF.png'})])
+}
 if ( quickstats[0] <= 269 && Dem == 7 && War == 0) { // suicide
 e.pages.push(`<h3>The Guardian: <i>China's economy to overtake U.S. in next two years, says OECD.</i></h3>
 <p><b>Josephine Moulds</b></p> <p>According to a leading international think tank, China will overtake the U.S. economy in the next two years and become the largest economy in the world by 2013.</p> <p>The Paris-based Organisation for Economic Co-operation and Development (OECD) said that due to the U.S. economy hitting its 7th consecutive quarter of GDP decline since President Brownback's "Great American Tax Experiment," China can overtake the U.S. economy by the end of 2012. Asa Johansson, senior economist at the OECD, said: "It is quite a shift in the balance of economic power we are going to see in the future."</p><p>The tax cuts were the largest in American history and caused massive budget shortfalls. To save the economy, the Republican House cut deep into education and transportation spending, which received an equally large backlash. When the 2010 midterms came, the massive majority Republicans held in both the Senate and House was obliterated. Now facing a volatile Democratic caucus, President Brownback has stubbornly barked at any reversal of his policies.</p><p>The global shockwave of the 2007-2008 global financial crash allowed this development's conditions to take place. Although the crash also hit China, the U.S. hit more significant downturns, and President Brownback's government mismanagement has turned what was once a recession into a full-scale depression, the likes of which hasn't been seen since the 1930s.</b></p><p>A bipartisan coalition is forming in the House and Senate, and it seeks to repeal most of the President's tax cuts despite his assurances that a bright future is ahead of the country. House Speaker Nancy Pelosi led the movements to repeal the tax cuts shortly after the 2010 midterms saw Democrats retake the House in a strong rebuke of the President. Whether repealing the tax cuts can reverse China's emergence as the world's leading economy remains to be seen.</p><p><b>Thu 2 Jan 2011 07.11 EST</b></p>`)
 e.executable.push([3, (() => {e.image = e.image = 'https://i.imgur.com/nOt4KoF.png'})])
+}
+if ( quickstats[0] >= 269 && Neo > 6 && Troops > 0) { // low neolib while troop surge
+e.pages.push(`<h3>MSNBC: <i>President Clark expected to send more troops to Iran, citing the need to "squash and kill the terrorist industrial complex from its source."</i></h3>
+<p><b>NEWS</b></p> <p>In response to the severe terrorist attack in Israel on September 12th, President Clark led the charge in blaming Iran for funding a deep terrorist network with malicious intent. In a fashion much similar to his predecessor's handling of the Iraq War, President Clark dove head first into calling for Congress to give the go-ahead and declare war on the Islamic Republic of Iran. </p> <p>Spearheaded by like-minded allies such as newly confirmed Secretary of State Hillary Clinton and Senator Joe Biden, Congress gave Clark a speedy reply, granting him his wish. Iran was to feel the full, insurmountable weight of American military prowess.</p><p>Two months in American resolve remains substantial, but logistical headway into cracking Iranian strength and willpower has found little success. President Clark hails the effort as extraordinary, with victory just approaching. However, administration insider doubts lay with officials from the State Department foretelling of Iranian troop movements to block access to oil fields to begin a larger oil shortage.</p><p>Widespread protests against the war have already begun to blip up, and if an oil shortage were to further the binds of which American citizens are held, it may erupt into a large-scale public revolt. President Clark has disavowed the idea that the United States would take a step further to launch a tactical nuclear weapon, but skeptics are unwilling to give him the benefit of the doubt.</p><p>Washington stepped up the bombing campaign against Iranian military targets, including alleged nuclear facilities, despite publicly pushing for a negotiated settlement. Israel has led the charge in pointing out where the United States should strike, and President Clark, like a lap dog, ordered strikes on alleged nuclear facilities throughout Syria and Iran.</p><p>With the U.S. Joint Chiefs of Staff expected to provide more comprehensive requests like further troop deployments into Iran, it seems the administration is all but doubling its efforts to take down the "pillar of the terrorist industrial complex."</p> <br><b>MSNBC Coverage</b></br><span style="color:Blue;"><u>Why NATO allies are refusing to support Clark's war. </span></u> (Dec 4th 2009)</br></br><span style="color:Blue;"><u>Why Illinois Senator Barack Obama abstained the Iran vote.</span></u> (Dec 14th 2009)</br></br><span style="color:Blue;"><u>Democrats struggle to find an identity beyond Clark's marching orders.</span></u> (Dec 15th 2009)</br></p>`)
+e.executable.push([3, (() => {e.image = e.image = 'https://i.imgur.com/nRt0uat.png'})])
+}
+else if ( quickstats[0] >= 269 && Neo < 6 && Troops > 0) { // low neolib while troop surge
+e.pages.push(`<h3>CBS NEWS: <i>The Humanitarian Crisis in Syria is one of President Clark's making."</i></h3>
+<p><b>August 27, 2011, 3:42 PM ET</b></p> <p>Under President Wesley Clark's command, the United States Air Force conducted a bombing campaign of the Assad Regime. The strategic bombing of chemical weapons sites was meant to halt and prevent their usage.</p> <p>Bashar al-Assad's regime ordered the use of chemical weapons in the mass revolt and protests affecting his nation and many other Arab countries in the wider Arab Spring, which had deposed many other regimes like his. President Clark had warned Assad that he would come down on him twice as hard if he threw out international law. Assad called Clark's buff and didn't hesitate to act to prevent a disaster.</p><p>However, the large-scale bombing reflective of the president's style in the Kosovo war has backfired tenfold with a chemical disaster at multiple government sites leading to mass civilian displacement and sickness throughout various sites close to Damascus: a military base in the Dimas area, army depots in the eastern Qalamoun; the Kiswah area, where Iran is believed to have been building a base; and a site in the Qasioun hills, and a research center in Masyaf. Reports from the town of Khan Sheikhoun say that more than 80 people were killed in a chemical explosion.</p><p>Russian President Vladimir Putin has condemned the Western strikes "in the most serious way." The Syrian Civil War has become a quasi-proxy war between the United States and Russia, with most Democrats joining in with President Clark's rhetoric warning of a "Second Cold War."</p><p>Other critics of the United States' actions in Syria lambast the president as a fearmonger. Many within the Republican Party have even begun to denounce neoliberalism at work, with the emergence of the Tea Party Movement advocating for a more isolationist foreign policy.</p> <br><b>CBS Coverage</b></br><span style="color:Blue;"><u>Senator John McCain lambasts the president's handling of the conflict in Syria as "poorly planned" </span></u> (Feb 4th 2010)</br></br><span style="color:Blue;"><u>Can Bachmann pull off an upset, primarying Pawlenty?</span></u> (Feb 14th 2010)</br></br><span style="color:Blue;"><u>Shrouded in failure, can Landrieu fight her way into a term of her own?</span></u> (Feb 20th 2010)</br></p>`)
+e.executable.push([3, (() => {e.image = e.image = 'https://i.imgur.com/k7OLlMF.png'})])
+}
+else if ( quickstats[0] >= 269 && Neo < 3 && Troops > 0) { // low neolib while troop surge
+e.pages.push(`<h3>CNN NEWS: <i>Petraeus touts the Afghani army and police force as "increasingly credible."</i></h3>
+<p><b>by Jeanne Sahadi</b></p> <p>Among calls for a withdrawal plan from Iraq lay the confused and aimless effort in Afghanistan. Long overshadowed by its unpopular brother, the war in Afghanistan has remained an afterthought of the Clark Administration, floating a timed withdrawal but refusing to commit to anything of substance.</p> <p>Now, In the latest of General David Petraeus's "charm campaigns," he's stood by Afghanistan and denounced any ideas of a withdrawal from the region by 2013 as the Clark Administration has floated. The general has taken it upon himself to focus on the internal improvements of the Afghan army. He also described how they were steadily taking more responsibility from NATO allies.</p><p>President Clark's unpopularity with his left flank demanding he pull back from Iraq and Afghanistan has sent cryptic messages in a clear attempt to buy time for the public to get over it. Secretary of State John Kerry, who stayed on for the job despite repeated disagreements with the President's conduct, has been equally left washed ashore as word spreads of a possible resignation is looming.</p><p>Secretary Kerry has disavowed the claims, but his isolation from the rest of the State Department gives him all the reason to call it quits despite his high public approval. Insider sources claim the Secretary is aloof at times, and his lowbrow approach is unable to make much headway in an increasingly stubborn administration.</p><p>General Petraeus, on the other hand, is the hands-on type who seemingly has full control over the situation in Iraq and Afghanistan. With much speculation over a possible presidential run circling the media, he's also reaffirmed that he has no intention of running for the Republican Presidential nomination in 2012.</p> <br><b>CNN Coverage</b></br><span style="color:Blue;"><u>Newly turned Independent, Dennis Kucinich eyes up Ohio governor mansion considering a challenge to incumbent Governor Ted Strickland in 2010</span></u> (Sept 4th 2009)</br></br><span style="color:Blue;"><u>How the Tea Party is reinvigorating the isolationist movement</span></u> (Sept 7th 2009)</br></br><span style="color:Blue;"><u>Clark gives peace activists a nod during 9/11 memorial speech</span></u> (Aug 26th 2009)</br></p>`)
+e.executable.push([3, (() => {e.image = e.image = 'https://i.imgur.com/oggK2FF.png'})])
 }
 if ( quickstats[0] >= 269 && Econ == 0) { // suicide
 e.pages.push(`<h3>Reuters: <i>Recession declared over by NBER</i></h3>
