@@ -1633,7 +1633,7 @@ campaignTrail_temp.questions_json = [
         "pk": 24789,
         "fields": {
             "priority": 0,
-            "description": "You've returned home to Washington after a round trip through states ripped to shreds by Hurricane Katrina, and you're informed that House Majority Leader Tom DeLay has been indicted and resigned after much public pressure. With his resignation, the people's trust in the Republican Congress has gone. Pelosi wanted to meet with you to review a domestic push, but you've looked abroad. NATO is disunited and in need of a rallying flag. How will you reunite the West?",
+            "description": "You've returned home to Washington after a round trip through states ripped to shreds by Hurricane Katrina, and you're informed that House Majority Leader Tom DeLay has been indicted and resigned after much public pressure. With his resignation, the people's trust in the Republican Congress has gone. Pelosi wanted to meet with you to review a domestic push, but you've looked abroad. NATO is disunited and in need of a rallying flag. How will you reunite the West?",
             "likelihood": 1
         }
     },
@@ -2262,7 +2262,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5220,
         "fields": {
             "question": 1065,
-            "description": "It's clear that we can't play this issue in Congress; they aren't going for it, and I can't rely on my party here. That does not mean we cannot try. We will get at this with the powers of the executive. "
+            "description": "It's clear that we can't play this issue in Congress; they aren't going for it, and I can't rely on my party here. That does not mean we cannot try. We will get at this with the powers of the executive. "
         }
     },
     {
@@ -51901,7 +51901,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 23799,
             "candidate": 201,
-            "answer_feedback": "Demanding such massive reforms of a tired congress was a disaster waiting to happen. The bill soon dies in gridlock, to your dismay. You're the President, and these ungrateful bastards think they can step out of line. \n"
+            "answer_feedback": "Demanding such massive reforms of a tired congress was a disaster waiting to happen. The bill soon dies in gridlock, to your dismay. You're the President, and these ungrateful bastards think they can step out of line. \n"
         }
     },
     {
@@ -55444,7 +55444,7 @@ cyoAdventure = function(a) {
         else if (Troops > 0 && Merkel == 1) {
             campaignTrail_temp.questions_json[11] = tunnel(254649); 
         }
-        else if (Troops > 0 && Schroder == 1) {
+        else if (Troops > 0 && Shroder == 1) {
             campaignTrail_temp.questions_json[11] = tunnel(254664); 
         }
         if (Notroops > 0 && Hunt > 0) {
@@ -55614,10 +55614,10 @@ cyoAdventure = function(a) {
     }
 
     if (e.noCounter == 15) {
-        if (Royal == 1 && Schroder == 1) {
+        if (Royal == 1 && Shroder == 1) {
             campaignTrail_temp.questions_json[15] = tunnel(254702); 
         }
-        else if (Sarkozy == 1 && Schroder == 1) {
+        else if (Sarkozy == 1 && Shroder == 1) {
             campaignTrail_temp.questions_json[15] = tunnel(254750); 
         }
         else if (Royal == 1 && Merkel == 1) {
@@ -55794,7 +55794,7 @@ cyoAdventure = function(a) {
 
     /// you have enough nato cred to send troops to georgia or managing iran
     if (e.noCounter == 21) {
-        if (e.player_answers.includes(25094) && Nato < 20 || Dem == 5 && Nato > 20 && e.player_answers.includes(254660) || Dem == 5 && Nato > 20 && e.player_answers.includes(254675)) {
+        if (e.player_answers.includes(25094) && Nato < 20) {
             campaignTrail_temp.questions_json[21] = tunnel(25150);
                 if (Germany == 0 || France == 0){
                     swapAnswers(
