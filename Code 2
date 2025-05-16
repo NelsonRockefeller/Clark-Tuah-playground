@@ -1633,7 +1633,7 @@ campaignTrail_temp.questions_json = [
         "pk": 24789,
         "fields": {
             "priority": 0,
-            "description": "You've returned home to Washington after a round trip through states ripped to shreds by Hurricane Katrina, and you're informed that House Majority Leader Tom DeLay has been indicted and resigned after much public pressure. With his resignation, the people's trust in the Republican Congress has gone. Pelosi wanted to meet with you to review a domestic push, but you've looked abroad. NATO is disunited and in need of a rallying flag. How will you reunite the West?",
+            "description": "You've returned home to Washington after a round trip through states ripped to shreds by Hurricane Katrina, and you're informed that House Majority Leader Tom DeLay has been indicted and resigned after much public pressure. With his resignation, the people's trust in the Republican Congress has gone. Pelosi wanted to meet with you to review a domestic push, but you've looked abroad. NATO is disunited and in need of a rallying flag. How will you reunite the West?",
             "likelihood": 1
         }
     },
@@ -2005,6 +2005,15 @@ campaignTrail_temp.questions_json = [
             "description": "Romney's grand cross is prominent; it deflects in every corner of him. He is a businessman, and thus comes the baggage of that business, Bain Capital being the loud and proud showstopper. His actions in that position left thousands unemployed and catapulted him to further extravagant wealth. Alongside this comes another swath of information about his strange relationship with his father’s 1968 campaign; in a recent leak provided to the New York Times, Romney has run his campaign to be the polar opposite of his dad’s, down to who he hires and where they come from. Which way do we wish to hit him?",
             "likelihood": 1
         }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 254909,
+        "fields": {
+            "priority": 0,
+            "description": "They failed you. Pelosi, Daschle, and the jeering fools across the aisle are blind to the catastrophe unleashed by this economic collapse. The shores of Olympus are stained with the blood of the fallen, while they laugh behind closed doors, smug in their self-congratulation: snakes, all of them. The power granted to you four years ago is no longer enough to save Earth. The lawmakers have revealed their ineptitude, and now it's time they face the reckoning they have earned. Will you rise and conquer Olympus?",
+            "likelihood": 1
+        }
     }
 ]
 
@@ -2262,7 +2271,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5220,
         "fields": {
             "question": 1065,
-            "description": "It's clear that we can't play this issue in Congress; they aren't going for it, and I can't rely on my party here. That does not mean we cannot try. We will get at this with the powers of the executive. "
+            "description": "It's clear that we can't play this issue in Congress; they aren't going for it, and I can't rely on my party here. That does not mean we cannot try. We will get at this with the powers of the executive. "
         }
     },
     {
@@ -8552,6 +8561,14 @@ campaignTrail_temp.answers_json = [
             "question": 254859,
             "description": "Mitt is deathly afraid of his daddy's legacy. I'm not sure why. If he were more like his father, he'd be joining in civil rights marches instead of catering to the racists within his party."
         }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 254910,
+        "fields": {
+            "question": 254909,
+            "description": "I have seen it all. This is no longer a game of right or wrong; it's a war of will and might. My opponents may cower in the shadows all they like. It's time to make a move, and I'm done waiting for approval."
+        }
     }
 ]
 
@@ -14510,7 +14527,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5224,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": -0.14
+            "global_multiplier": -0.1
         }
     },
     {
@@ -14520,7 +14537,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5225,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": -0.145
+            "global_multiplier": -0.1
         }
     },
     {
@@ -14530,7 +14547,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5226,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": -0.14
+            "global_multiplier": -0.1
         }
     },
     {
@@ -15000,7 +15017,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 20949,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": -0.149
+            "global_multiplier": -0.1
         }
     },
     {
@@ -20170,7 +20187,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 23956,
             "candidate": 201,
             "affected_candidate": 200,
-            "global_multiplier": -0.12
+            "global_multiplier": -0.06
         }
     },
     {
@@ -23105,46 +23122,6 @@ campaignTrail_temp.answer_score_global_json = [
     },
     {
         "model": "campaign_trail.answer_score_global",
-        "pk": 254508,
-        "fields": {
-            "answer": 254280,
-            "candidate": 201,
-            "affected_candidate": 200,
-            "global_multiplier": -0.04
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 254509,
-        "fields": {
-            "answer": 254330,
-            "candidate": 201,
-            "affected_candidate": 200,
-            "global_multiplier": -0.04
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 254510,
-        "fields": {
-            "answer": 254380,
-            "candidate": 201,
-            "affected_candidate": 200,
-            "global_multiplier": -0.04
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 254511,
-        "fields": {
-            "answer": 254430,
-            "candidate": 201,
-            "affected_candidate": 200,
-            "global_multiplier": -0.04
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
         "pk": 254535,
         "fields": {
             "answer": 254533,
@@ -23671,6 +23648,36 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 201,
             "affected_candidate": 201,
             "global_multiplier": 0.025
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 254912,
+        "fields": {
+            "answer": 254910,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "global_multiplier": -80
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 254913,
+        "fields": {
+            "answer": 254910,
+            "candidate": 201,
+            "affected_candidate": 202,
+            "global_multiplier": -80
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 254914,
+        "fields": {
+            "answer": 254910,
+            "candidate": 201,
+            "affected_candidate": 203,
+            "global_multiplier": -80
         }
     }
 ]
@@ -28593,7 +28600,7 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 254430,
             "issue": 102,
             "issue_score": 0.8,
-            "issue_importance": 5
+            "issue_importance": 4
         }
     },
     {
@@ -28633,7 +28640,7 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 254280,
             "issue": 103,
             "issue_score": -0.9,
-            "issue_importance": 7
+            "issue_importance": 3
         }
     },
     {
@@ -28643,7 +28650,7 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 254330,
             "issue": 103,
             "issue_score": -0.9,
-            "issue_importance": 7
+            "issue_importance": 3
         }
     },
     {
@@ -28653,7 +28660,7 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 254380,
             "issue": 103,
             "issue_score": -0.9,
-            "issue_importance": 7
+            "issue_importance": 3
         }
     },
     {
@@ -28663,7 +28670,7 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 254430,
             "issue": 103,
             "issue_score": -0.9,
-            "issue_importance": 7
+            "issue_importance": 3
         }
     },
     {
@@ -51901,7 +51908,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 23799,
             "candidate": 201,
-            "answer_feedback": "Demanding such massive reforms of a tired congress was a disaster waiting to happen. The bill soon dies in gridlock, to your dismay. You're the President, and these ungrateful bastards think they can step out of line. \n"
+            "answer_feedback": "Demanding such massive reforms of a tired congress was a disaster waiting to happen. The bill soon dies in gridlock, to your dismay. You're the President, and these ungrateful bastards think they can step out of line. \n"
         }
     },
     {
@@ -54639,6 +54646,15 @@ campaignTrail_temp.answer_feedback_json = [
             "candidate": 201,
             "answer_feedback": "Romney drastically improved Massachusetts healthcare and ran his primary campaign, pivoting and buying conservative votes while hiding his record. It's safe to say this attack leaves him exposed and on the run.\n\n"
         }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 254911,
+        "fields": {
+            "answer": 254910,
+            "candidate": 201,
+            "answer_feedback": "History is made when he with nothing to lose, realizes his true potential. Supreme Allied Commander of the World Wesley K. Clark ascends to a greater calling. With the army following his command, he seized power from Congress, dismissing them and the courts who dared to step in his sight. For the sake of his country, he shredded the constitution and paved the way for the West, with his enemies powerless to stop him."
+        }
     }
 ]
 
@@ -54857,6 +54873,30 @@ function switcheroo100() {
     e.candidate_json[id].fields.first_name = "Wesley K."
     e.candidate_json[id].fields.last_name = "Clark"
     e.candidate_json[id].fields.color_hex = "#192347" 
+}
+function switcheroo101() {
+    var id = e.candidate_json.map(p=>p.pk).indexOf(201)
+    e.candidate_json[id].fields.first_name = "The Man Dubbed"
+    e.candidate_json[id].fields.last_name = "Icarus"
+    e.candidate_json[id].fields.color_hex = "#2b3f5a" 
+}
+function switcheroo102() {
+    var id = e.candidate_json.map(p=>p.pk).indexOf(200)
+    e.candidate_json[id].fields.first_name = "Shell Of"
+    e.candidate_json[id].fields.last_name = "An Enemy"
+    e.candidate_json[id].fields.color_hex = "#27161b" 
+}
+function switcheroo103() {
+    var id = e.candidate_json.map(p=>p.pk).indexOf(202)
+    e.candidate_json[id].fields.first_name = "Harrowing"
+    e.candidate_json[id].fields.last_name = "Cries Of Help"
+    e.candidate_json[id].fields.color_hex = "#645f4a" 
+}
+function switcheroo104() {
+    var id = e.candidate_json.map(p=>p.pk).indexOf(203)
+    e.candidate_json[id].fields.first_name = "Hopefully"
+    e.candidate_json[id].fields.last_name = "Our Future"
+    e.candidate_json[id].fields.color_hex = "#55644a" 
 }
 
 //The reps
@@ -55489,7 +55529,7 @@ cyoAdventure = function(a) {
                     swapAnswers(campaignTrail_temp.answers_json, 20974, 20977, 209772, 9999); }
                 if (Pelosi == 0 || Fred == 0) {
                     swapAnswers(campaignTrail_temp.answers_json, 20974, 20978, 209782, 9999); }
-        } else if (Troops > 0) {
+        } else if (Troops > 0 && Fred == 0) {
             campaignTrail_temp.questions_json[13] = tunnel(25345);
                 if (Agenda < 4) {
                     swapAnswers(campaignTrail_temp.answers_json, 25345, 25346, 253462, 9999); }
@@ -55507,7 +55547,7 @@ cyoAdventure = function(a) {
                     swapAnswers(campaignTrail_temp.answers_json, 21008, 21012, 210122, 9999); }
                 if (Pelosi == 0 || Fred == 0) {
                     swapAnswers(campaignTrail_temp.answers_json, 21008, 21020, 210202, 9999); }
-        } else if (Notroops > 0) {
+        } else if (Notroops > 0 && Fred == 0) {
             campaignTrail_temp.questions_json[13] = tunnel(25394);
                 if (Agenda < 4 ) {
                     swapAnswers(campaignTrail_temp.answers_json, 25394, 25395, 253952, 9999); }
@@ -56294,7 +56334,14 @@ cyoAdventure = function(a) {
     }
 
     if (e.noCounter == 27) {
-        if (War > 0 && Dem > 0) {
+        if (Econ == 0 && Fred == 0 && Nato > 5) {
+            campaignTrail_temp.questions_json[27] = tunnel(254909); 
+            switcheroo101();
+            switcheroo102();
+            switcheroo103();
+            switcheroo104();
+        }
+        else if (War > 0 && Dem > 0) {
             campaignTrail_temp.questions_json[27] = tunnel(24222); 
         }
         else if (Kill > 0 && Dem > 0) {
