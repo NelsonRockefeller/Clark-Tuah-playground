@@ -1777,7 +1777,7 @@ campaignTrail_temp.questions_json = [
         "pk": 25394,
         "fields": {
             "priority": 0,
-            "description": "When the campaign started in 2003, a wave of unity swept the nation, energizing people to fight for a shared dream. Just as then, the podium is now yours to turn the American dream into a tangible reality. That dream, however, is under attack. Government bailouts and Fannie Mae's and Freddie Mac's takeover have led to public protests. However, you command the support of a powerful Chimaera satisfied with the Iraq withdrawal date. What will you say to inspire the crowds and save our shared dream?\n",
+            "description": "When the campaign started in 2003, a wave of unity swept the nation, energizing people to fight for a shared dream. Just as then, the podium is now yours to turn the American dream into a tangible reality. That dream, however, couldn't look bleaker. Fannie Mae and Freddie Mac declared bankruptcy with no hope of a federal bailout. The economy is spiraling deep into an abyss, with Sirens luring you to your untimely demise. What will you say to inspire the crowds and save our shared dream?\n",
             "likelihood": 1
         }
     },
@@ -2127,7 +2127,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5176,
         "fields": {
             "question": 1053,
-            "description": "The systematic risks we let these bankers take have rutted our economy. We must initiate a large multi-action plan to save Americans before this spirals further. Reform, Aid, and stimulus will lift families back up and prevent a crisis like this from happening in the future.\n"
+            "description": "Christ speaking to these congressional freaks is worse than facing a military tribunal. They want me to act calm? What the hell is calm about any of this? No, we need to carpet bomb this crisis with stimulus and temporarily halt foreclosures, too."
         }
     },
     {
@@ -2135,7 +2135,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5177,
         "fields": {
             "question": 1053,
-            "description": "We need to focus on halting the crisis from becoming a total disaster. We need to save the banks; if they go, we all go. Contact Pelosi and Blunt. We need to crack out something to lift ourselves out of this mess."
+            "description": "Strategy—a well-thought-out battle plan is what this crisis requires. Assemble the platoon of economic experts, Altman, Summers, Volcker, Geithner, and some Bush administration people waiting to sink their teeth into this. They'll craft a worthy package."
         }
     },
     {
@@ -2143,7 +2143,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5178,
         "fields": {
             "question": 1053,
-            "description": "Dodd is lying through his teeth, trying to save his skin. Fannie Mae and Freddie Mac cannot sustain the growing number of delinquencies, and if we don't act now, their bonds will explode in our faces. \n"
+            "description": "Dodd is lying through his teeth. Summers has the information, and it's as clear as day. Fannie Mae and Freddie Mac are nearing a collision course! Significant stimulus needs to pass, and those two are to be government property if they want us to save them."
         }
     },
     {
@@ -2151,7 +2151,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5179,
         "fields": {
             "question": 1053,
-            "description": "This is very serious for our national security, and most Republicans will call for tax cuts. We need to bounce off the public pressure to get real stimulus for the people first.\n"
+            "description": "Wise economics can't rely on the public sector for everything, but stimulus needs to come through to save the necessities. Bill and Hillary are tapped into what the folks at Merrill Lynch need, and I trust their advice. Let's stick to what's necessary."
         }
     },
     {
@@ -2783,7 +2783,7 @@ campaignTrail_temp.answers_json = [
         "pk": 20958,
         "fields": {
             "question": 20957,
-            "description": "The systematic risks we let these bankers take have rutted our economy. We must initiate a large multi-action plan to save Americans before this spirals further. Reform, Aid, and stimulus will lift families back up and prevent a crisis like this from happening in the future.\n"
+            "description": "Christ speaking to these congressional freaks is worse than facing a military tribunal. They want me to act calm? What the hell is calm about any of this? No, we need to carpet bomb this crisis with stimulus and temporarily halt foreclosures, too."
         }
     },
     {
@@ -2791,7 +2791,7 @@ campaignTrail_temp.answers_json = [
         "pk": 20961,
         "fields": {
             "question": 20957,
-            "description": "We need to focus on halting the crisis from becoming a total disaster. We need to save the banks, if they go we all go. Contact Pelosi and Boehner. We need to crack out something to lift ourselves out of this mess."
+            "description": "Dodd is lying through his teeth. Summers has the information, and it's as clear as day. Fannie Mae and Freddie Mac are nearing a collision course! Significant stimulus needs to pass, and those two are to be government property if they want us to save them."
         }
     },
     {
@@ -2799,7 +2799,7 @@ campaignTrail_temp.answers_json = [
         "pk": 20964,
         "fields": {
             "question": 20957,
-            "description": "Dodd is lying through his teeth, trying to save his skin. Fannie Mae and Freddie Mac cannot sustain the growing number of delinquencies, and if we don't act now, their bonds will explode in our faces. \n"
+            "description": "Wise economics can't rely on the public sector for everything, but stimulus needs to come through to save the necessities. Bill and Hillary are tapped into what the folks at Merrill Lynch need, and I trust their advice. Let's stick to what's necessary."
         }
     },
     {
@@ -2807,7 +2807,7 @@ campaignTrail_temp.answers_json = [
         "pk": 20969,
         "fields": {
             "question": 20957,
-            "description": "This is very serious for our national security, and most Republicans think it's time to dig in and play games. We must bounce off the public pressure to get real stimulus and bailouts through Congress.\n"
+            "description": "Strategy—a well-thought-out battle plan is what this crisis requires. Assemble the platoon of economic experts, Altman, Summers, Volcker, Geithner, and some Bush administration people waiting to sink their teeth into this. They'll craft a worthy package."
         }
     },
     {
@@ -3247,7 +3247,7 @@ campaignTrail_temp.answers_json = [
         "pk": 21449,
         "fields": {
             "question": 21448,
-            "description": "Governor Romney is woefully ignorant of not just Iraq but the entire situation in the Middle East. My administration will make a lasting deal to stomp out any possibilities of nukes in Iran for example.\n"
+            "description": "Governor Romney is woefully ignorant of not just Iraq but the entire situation in the Middle East. My administration will make a lasting deal to stomp out any possibilities of nukes in Iran, for example.\n"
         }
     },
     {
@@ -4591,7 +4591,7 @@ campaignTrail_temp.answers_json = [
         "pk": 22490,
         "fields": {
             "question": 22489,
-            "description": "The systematic risks we let these bankers take have rutted our economy. We must initiate a large multi-action plan to save Americans before this spirals further. Reform, Aid, and stimulus will lift families back up and prevent a crisis like this from happening in the future.\n"
+            "description": "Christ speaking to these congressional freaks is worse than facing a military tribunal. They want me to act calm? What the hell is calm about any of this? No, we need to carpet bomb this crisis with stimulus and temporarily halt foreclosures, too."
         }
     },
     {
@@ -4599,7 +4599,7 @@ campaignTrail_temp.answers_json = [
         "pk": 22493,
         "fields": {
             "question": 22489,
-            "description": "We need to focus on halting the crisis from becoming a total disaster. We need to save the banks; if they go, we all go. Contact Pelosi and Boehner. We need to crack out something to lift ourselves out of this mess."
+            "description": "Dodd is lying through his teeth. Summers has the information, and it's as clear as day. Fannie Mae and Freddie Mac are nearing a collision course! Significant stimulus needs to pass, and those two are to be government property if they want us to save them."
         }
     },
     {
@@ -5319,7 +5319,7 @@ campaignTrail_temp.answers_json = [
         "pk": 22874,
         "fields": {
             "question": 22489,
-            "description": "Dodd is lying through his teeth, trying to save his skin. Fannie Mae and Freddie Mac cannot sustain the growing number of delinquencies, and if we don't act now, their bonds will explode in our faces. \n"
+            "description": "Strategy—a well-thought-out battle plan is what this crisis requires. Assemble the platoon of economic experts, Altman, Summers, Volcker, Geithner, and some Bush administration people waiting to sink their teeth into this. They'll craft a worthy package."
         }
     },
     {
@@ -6103,7 +6103,7 @@ campaignTrail_temp.answers_json = [
         "pk": 23790,
         "fields": {
             "question": 23789,
-            "description": "The systematic risks we let these bankers take have rutted our economy. We must initiate a large multi-action plan to save Americans before this spirals further. Reform, Aid, and stimulus will lift families back up and prevent a crisis like this from happening in the future.\n"
+            "description": "Christ speaking to these congressional freaks is worse than facing a military tribunal. They want me to act calm? What the hell is calm about any of this? No, we need to carpet bomb this crisis with stimulus and temporarily halt foreclosures, too."
         }
     },
     {
@@ -6111,7 +6111,7 @@ campaignTrail_temp.answers_json = [
         "pk": 23793,
         "fields": {
             "question": 23789,
-            "description": "We need to focus on halting the crisis from becoming a total disaster. We need to save the banks; if they go, we all go. Contact Pelosi and Boehner. We need to crack out something to lift ourselves out of this mess."
+            "description": "Strategy—a well-thought-out battle plan is what this crisis requires. Assemble the platoon of economic experts, Altman, Summers, Volcker, Geithner, and some Bush administration people waiting to sink their teeth into this. They'll craft a worthy package."
         }
     },
     {
@@ -6119,7 +6119,7 @@ campaignTrail_temp.answers_json = [
         "pk": 23796,
         "fields": {
             "question": 23789,
-            "description": "Dodd is lying through his teeth, trying to save his skin. Fannie Mae and Freddie Mac cannot sustain the growing number of delinquencies, and if we don't act now, their bonds will explode in our faces. \n"
+            "description": "Dodd is lying through his teeth. Summers has the information, and it's as clear as day. Fannie Mae and Freddie Mac are nearing a collision course! Significant stimulus needs to pass, and those two are to be government property if they want us to save them."
         }
     },
     {
@@ -7047,7 +7047,7 @@ campaignTrail_temp.answers_json = [
         "pk": 24739,
         "fields": {
             "question": 24738,
-            "description": "The systematic risks we let these bankers take have rutted our economy. We must initiate a large multi-action plan to save Americans before this spirals further. Reform, Aid, and stimulus will lift families back up and prevent a crisis like this from happening in the future.\n"
+            "description": "Christ speaking to these congressional freaks is worse than facing a military tribunal. They want me to act calm? What the hell is calm about any of this? No, we need to carpet bomb this crisis with stimulus and temporarily halt foreclosures, too."
         }
     },
     {
@@ -7055,7 +7055,7 @@ campaignTrail_temp.answers_json = [
         "pk": 24742,
         "fields": {
             "question": 24738,
-            "description": "We need to focus on halting the crisis from becoming a total disaster. We need to save the banks; if they go, we all go. Contact Pelosi and Boehner. We need to crack out something to lift ourselves out of this mess."
+            "description": "Strategy—a well-thought-out battle plan is what this crisis requires. Assemble the platoon of economic experts, Altman, Summers, Volcker, Geithner, and some Bush administration people waiting to sink their teeth into this. They'll craft a worthy package."
         }
     },
     {
@@ -7063,7 +7063,7 @@ campaignTrail_temp.answers_json = [
         "pk": 24745,
         "fields": {
             "question": 24738,
-            "description": "Dodd is lying through his teeth, trying to save his skin. Fannie Mae and Freddie Mac cannot sustain the growing number of delinquencies, and if we don't act now, their bonds will explode in our faces. \n"
+            "description": "Dodd is lying through his teeth. Summers has the information, and it's as clear as day. Fannie Mae and Freddie Mac are nearing a collision course! Significant stimulus needs to pass, and those two are to be government property if they want us to save them."
         }
     },
     {
@@ -8569,6 +8569,14 @@ campaignTrail_temp.answers_json = [
             "question": 254909,
             "description": "I have seen it all. This is no longer a game of right or wrong; it's a war of will and might. My opponents may cower in the shadows all they like. It's time to make a move, and I'm done waiting for approval."
         }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 254951,
+        "fields": {
+            "question": 21448,
+            "description": "Now hold on just a minute. If Romney wants to pigeonhole himself into foreign affairs, let him. If you look at the historical precedent of American voting patterns, the economy will always be the number one issue. Clinton taught us all that we should stick to what the people want.\n"
+        }
     }
 ]
 
@@ -9374,7 +9382,7 @@ campaignTrail_temp.state_issue_score_json = [
             "state": 1000,
             "issue": 101,
             "state_issue_score": -0.45,
-            "weight": 0.5
+            "weight": 1
         }
     },
     {
@@ -9424,7 +9432,7 @@ campaignTrail_temp.state_issue_score_json = [
             "state": 1001,
             "issue": 101,
             "state_issue_score": -0.5,
-            "weight": 0.5
+            "weight": 1
         }
     },
     {
@@ -9474,7 +9482,7 @@ campaignTrail_temp.state_issue_score_json = [
             "state": 1002,
             "issue": 101,
             "state_issue_score": -0.5,
-            "weight": 0.5
+            "weight": 1
         }
     },
     {
@@ -9524,7 +9532,7 @@ campaignTrail_temp.state_issue_score_json = [
             "state": 1003,
             "issue": 101,
             "state_issue_score": -0.35,
-            "weight": 0.5
+            "weight": 1
         }
     },
     {
@@ -9574,7 +9582,7 @@ campaignTrail_temp.state_issue_score_json = [
             "state": 1004,
             "issue": 101,
             "state_issue_score": 0.6,
-            "weight": 0.5
+            "weight": 1
         }
     },
     {
@@ -9624,7 +9632,7 @@ campaignTrail_temp.state_issue_score_json = [
             "state": 1005,
             "issue": 101,
             "state_issue_score": -0.3,
-            "weight": 0.5
+            "weight": 1
         }
     },
     {
@@ -9674,7 +9682,7 @@ campaignTrail_temp.state_issue_score_json = [
             "state": 1006,
             "issue": 101,
             "state_issue_score": 0.5,
-            "weight": 0.5
+            "weight": 1
         }
     },
     {
@@ -9724,7 +9732,7 @@ campaignTrail_temp.state_issue_score_json = [
             "state": 1007,
             "issue": 101,
             "state_issue_score": 0.5,
-            "weight": 0.5
+            "weight": 1
         }
     },
     {
@@ -9774,7 +9782,7 @@ campaignTrail_temp.state_issue_score_json = [
             "state": 1008,
             "issue": 101,
             "state_issue_score": -0.2,
-            "weight": 0.5
+            "weight": 1
         }
     },
     {
@@ -9824,7 +9832,7 @@ campaignTrail_temp.state_issue_score_json = [
             "state": 1009,
             "issue": 101,
             "state_issue_score": -0.5,
-            "weight": 0.5
+            "weight": 1
         }
     },
     {
@@ -9874,7 +9882,7 @@ campaignTrail_temp.state_issue_score_json = [
             "state": 1010,
             "issue": 101,
             "state_issue_score": 0.3,
-            "weight": 0.5
+            "weight": 1
         }
     },
     {
@@ -9924,7 +9932,7 @@ campaignTrail_temp.state_issue_score_json = [
             "state": 1011,
             "issue": 101,
             "state_issue_score": -0.5,
-            "weight": 0.5
+            "weight": 1
         }
     },
     {
@@ -9974,7 +9982,7 @@ campaignTrail_temp.state_issue_score_json = [
             "state": 1012,
             "issue": 101,
             "state_issue_score": -0.25,
-            "weight": 0.75
+            "weight": 1
         }
     },
     {
@@ -10024,7 +10032,7 @@ campaignTrail_temp.state_issue_score_json = [
             "state": 1013,
             "issue": 101,
             "state_issue_score": -0.65,
-            "weight": 0.75
+            "weight": 1
         }
     },
     {
@@ -10074,7 +10082,7 @@ campaignTrail_temp.state_issue_score_json = [
             "state": 1014,
             "issue": 101,
             "state_issue_score": 0.25,
-            "weight": 0.5
+            "weight": 1
         }
     },
     {
@@ -10124,7 +10132,7 @@ campaignTrail_temp.state_issue_score_json = [
             "state": 1015,
             "issue": 101,
             "state_issue_score": -0.55,
-            "weight": 0.5
+            "weight": 1
         }
     },
     {
@@ -10173,8 +10181,8 @@ campaignTrail_temp.state_issue_score_json = [
         "fields": {
             "state": 1016,
             "issue": 101,
-            "state_issue_score": -0.25,
-            "weight": 0.5
+            "state_issue_score": -0.45,
+            "weight": 1
         }
     },
     {
@@ -10224,7 +10232,7 @@ campaignTrail_temp.state_issue_score_json = [
             "state": 1017,
             "issue": 101,
             "state_issue_score": -0.65,
-            "weight": 0.5
+            "weight": 1
         }
     },
     {
@@ -10274,7 +10282,7 @@ campaignTrail_temp.state_issue_score_json = [
             "state": 1018,
             "issue": 101,
             "state_issue_score": 0,
-            "weight": 0.75
+            "weight": 1
         }
     },
     {
@@ -10423,8 +10431,8 @@ campaignTrail_temp.state_issue_score_json = [
         "fields": {
             "state": 1021,
             "issue": 101,
-            "state_issue_score": 0.4,
-            "weight": 2
+            "state_issue_score": 0.6,
+            "weight": 1
         }
     },
     {
@@ -10473,8 +10481,8 @@ campaignTrail_temp.state_issue_score_json = [
         "fields": {
             "state": 1022,
             "issue": 101,
-            "state_issue_score": 0.2,
-            "weight": 0.75
+            "state_issue_score": 0.5,
+            "weight": 1
         }
     },
     {
@@ -10524,7 +10532,7 @@ campaignTrail_temp.state_issue_score_json = [
             "state": 1023,
             "issue": 101,
             "state_issue_score": -0.6,
-            "weight": 0.5
+            "weight": 1
         }
     },
     {
@@ -10574,7 +10582,7 @@ campaignTrail_temp.state_issue_score_json = [
             "state": 1024,
             "issue": 101,
             "state_issue_score": -0.2,
-            "weight": 0.5
+            "weight": 1
         }
     },
     {
@@ -10624,7 +10632,7 @@ campaignTrail_temp.state_issue_score_json = [
             "state": 1025,
             "issue": 101,
             "state_issue_score": -0.5,
-            "weight": 0.5
+            "weight": 1
         }
     },
     {
@@ -10674,7 +10682,7 @@ campaignTrail_temp.state_issue_score_json = [
             "state": 1026,
             "issue": 101,
             "state_issue_score": -0.5,
-            "weight": 0.5
+            "weight": 1
         }
     },
     {
@@ -10724,7 +10732,7 @@ campaignTrail_temp.state_issue_score_json = [
             "state": 1027,
             "issue": 101,
             "state_issue_score": -0.2,
-            "weight": 0.5
+            "weight": 1
         }
     },
     {
@@ -10773,7 +10781,7 @@ campaignTrail_temp.state_issue_score_json = [
         "fields": {
             "state": 1028,
             "issue": 101,
-            "state_issue_score": -0.2,
+            "state_issue_score": -0.5,
             "weight": 1
         }
     },
@@ -10824,7 +10832,7 @@ campaignTrail_temp.state_issue_score_json = [
             "state": 1029,
             "issue": 101,
             "state_issue_score": 0.4,
-            "weight": 0.5
+            "weight": 1
         }
     },
     {
@@ -10874,7 +10882,7 @@ campaignTrail_temp.state_issue_score_json = [
             "state": 1030,
             "issue": 101,
             "state_issue_score": 0.45,
-            "weight": 0.5
+            "weight": 1
         }
     },
     {
@@ -10924,7 +10932,7 @@ campaignTrail_temp.state_issue_score_json = [
             "state": 1031,
             "issue": 101,
             "state_issue_score": 0.75,
-            "weight": 0.75
+            "weight": 1
         }
     },
     {
@@ -10973,8 +10981,8 @@ campaignTrail_temp.state_issue_score_json = [
         "fields": {
             "state": 1032,
             "issue": 101,
-            "state_issue_score": -0.4,
-            "weight": 0.5
+            "state_issue_score": -0.3,
+            "weight": 1
         }
     },
     {
@@ -11024,7 +11032,7 @@ campaignTrail_temp.state_issue_score_json = [
             "state": 1033,
             "issue": 101,
             "state_issue_score": -0.55,
-            "weight": 0.5
+            "weight": 1
         }
     },
     {
@@ -11073,8 +11081,8 @@ campaignTrail_temp.state_issue_score_json = [
         "fields": {
             "state": 1034,
             "issue": 101,
-            "state_issue_score": 0.25,
-            "weight": 3
+            "state_issue_score": -0.25,
+            "weight": 1
         }
     },
     {
@@ -11124,7 +11132,7 @@ campaignTrail_temp.state_issue_score_json = [
             "state": 1035,
             "issue": 101,
             "state_issue_score": -0.7,
-            "weight": 0.5
+            "weight": 1
         }
     },
     {
@@ -11173,8 +11181,8 @@ campaignTrail_temp.state_issue_score_json = [
         "fields": {
             "state": 1036,
             "issue": 101,
-            "state_issue_score": -0.15,
-            "weight": 0.5
+            "state_issue_score": 0.25,
+            "weight": 1
         }
     },
     {
@@ -11223,8 +11231,8 @@ campaignTrail_temp.state_issue_score_json = [
         "fields": {
             "state": 1037,
             "issue": 101,
-            "state_issue_score": 0.35,
-            "weight": 0.5
+            "state_issue_score": -0.35,
+            "weight": 1
         }
     },
     {
@@ -11324,7 +11332,7 @@ campaignTrail_temp.state_issue_score_json = [
             "state": 1039,
             "issue": 101,
             "state_issue_score": -0.45,
-            "weight": 0.5
+            "weight": 1
         }
     },
     {
@@ -11374,7 +11382,7 @@ campaignTrail_temp.state_issue_score_json = [
             "state": 1040,
             "issue": 101,
             "state_issue_score": -0.55,
-            "weight": 0.5
+            "weight": 1
         }
     },
     {
@@ -11424,7 +11432,7 @@ campaignTrail_temp.state_issue_score_json = [
             "state": 1041,
             "issue": 101,
             "state_issue_score": -0.35,
-            "weight": 0.5
+            "weight": 1
         }
     },
     {
@@ -11474,7 +11482,7 @@ campaignTrail_temp.state_issue_score_json = [
             "state": 1042,
             "issue": 101,
             "state_issue_score": -0.45,
-            "weight": 0.5
+            "weight": 1
         }
     },
     {
@@ -11524,7 +11532,7 @@ campaignTrail_temp.state_issue_score_json = [
             "state": 1043,
             "issue": 101,
             "state_issue_score": -0.6,
-            "weight": 0.5
+            "weight": 1
         }
     },
     {
@@ -11574,7 +11582,7 @@ campaignTrail_temp.state_issue_score_json = [
             "state": 1044,
             "issue": 101,
             "state_issue_score": 0.5,
-            "weight": 0.5
+            "weight": 1
         }
     },
     {
@@ -11623,8 +11631,8 @@ campaignTrail_temp.state_issue_score_json = [
         "fields": {
             "state": 1045,
             "issue": 101,
-            "state_issue_score": -0.1,
-            "weight": 0.5
+            "state_issue_score": -0.5,
+            "weight": 1
         }
     },
     {
@@ -11674,7 +11682,7 @@ campaignTrail_temp.state_issue_score_json = [
             "state": 1046,
             "issue": 101,
             "state_issue_score": 0.4,
-            "weight": 0.5
+            "weight": 1
         }
     },
     {
@@ -11724,7 +11732,7 @@ campaignTrail_temp.state_issue_score_json = [
             "state": 1047,
             "issue": 101,
             "state_issue_score": 0.7,
-            "weight": 0.5
+            "weight": 1
         }
     },
     {
@@ -11823,8 +11831,8 @@ campaignTrail_temp.state_issue_score_json = [
         "fields": {
             "state": 1049,
             "issue": 101,
-            "state_issue_score": 0.2,
-            "weight": 1.5
+            "state_issue_score": -0.2,
+            "weight": 1
         }
     },
     {
@@ -11874,7 +11882,7 @@ campaignTrail_temp.state_issue_score_json = [
             "state": 1050,
             "issue": 101,
             "state_issue_score": -0.5,
-            "weight": 0.5
+            "weight": 1
         }
     },
     {
@@ -12273,7 +12281,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 200,
             "state": 1014,
-            "state_multiplier": 0.7
+            "state_multiplier": 0.75
         }
     },
     {
@@ -12588,7 +12596,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 200,
             "state": 1049,
-            "state_multiplier": 0.99
+            "state_multiplier": 1.05
         }
     },
     {
@@ -12624,7 +12632,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 201,
             "state": 1002,
-            "state_multiplier": 0.99
+            "state_multiplier": 0.93
         }
     },
     {
@@ -12822,7 +12830,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 201,
             "state": 1024,
-            "state_multiplier": 0.98
+            "state_multiplier": 0.92
         }
     },
     {
@@ -13047,7 +13055,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 201,
             "state": 1049,
-            "state_multiplier": 0.994
+            "state_multiplier": 0.944
         }
     },
     {
@@ -14017,7 +14025,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5179,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": -0.128
+            "global_multiplier": -0.11
         }
     },
     {
@@ -15077,7 +15085,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 20964,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": -0.11
+            "global_multiplier": -0.1
         }
     },
     {
@@ -15697,7 +15705,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 21463,
             "candidate": 201,
             "affected_candidate": 200,
-            "global_multiplier": -0.025
+            "global_multiplier": -0.015
         }
     },
     {
@@ -23679,6 +23687,16 @@ campaignTrail_temp.answer_score_global_json = [
             "affected_candidate": 203,
             "global_multiplier": -80
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 254953,
+        "fields": {
+            "answer": 254951,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "global_multiplier": 0.025
+        }
     }
 ]
 
@@ -24390,7 +24408,7 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 21458,
             "issue": 102,
             "issue_score": -0.6,
-            "issue_importance": 8
+            "issue_importance": 5
         }
     },
     {
@@ -26478,9 +26496,9 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 23826,
         "fields": {
             "answer": 21463,
-            "issue": 102,
+            "issue": 101,
             "issue_score": -0.6,
-            "issue_importance": 7
+            "issue_importance": 6
         }
     },
     {
@@ -30243,7 +30261,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1003,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.03
+            "state_multiplier": -0.035
         }
     },
     {
@@ -30397,7 +30415,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1032,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.15
+            "state_multiplier": -0.12
         }
     },
     {
@@ -30408,7 +30426,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1032,
             "candidate": 201,
             "affected_candidate": 202,
-            "state_multiplier": 0.7
+            "state_multiplier": 0.4
         }
     },
     {
@@ -30441,7 +30459,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1039,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.25
+            "state_multiplier": -0.2
         }
     },
     {
@@ -34489,7 +34507,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1003,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.03
+            "state_multiplier": -0.035
         }
     },
     {
@@ -34643,7 +34661,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1032,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.15
+            "state_multiplier": -0.12
         }
     },
     {
@@ -34687,7 +34705,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1039,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.25
+            "state_multiplier": -0.2
         }
     },
     {
@@ -34863,7 +34881,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1003,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.03
+            "state_multiplier": -0.035
         }
     },
     {
@@ -35017,7 +35035,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1032,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.15
+            "state_multiplier": -0.12
         }
     },
     {
@@ -35061,7 +35079,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1039,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.25
+            "state_multiplier": -0.2
         }
     },
     {
@@ -35237,7 +35255,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1003,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.03
+            "state_multiplier": -0.035
         }
     },
     {
@@ -35391,7 +35409,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1032,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.15
+            "state_multiplier": -0.12
         }
     },
     {
@@ -35435,7 +35453,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1039,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.25
+            "state_multiplier": -0.2
         }
     },
     {
@@ -37393,7 +37411,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1011,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.15
+            "state_multiplier": -0.05
         }
     },
     {
@@ -37404,7 +37422,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1011,
             "candidate": 201,
             "affected_candidate": 202,
-            "state_multiplier": 0.2
+            "state_multiplier": 0.05
         }
     },
     {
@@ -44180,7 +44198,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1042,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.2
+            "state_multiplier": -0.15
         }
     },
     {
@@ -44686,7 +44704,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1042,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.2
+            "state_multiplier": -0.15
         }
     },
     {
@@ -44730,7 +44748,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1035,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.2
+            "state_multiplier": -0.15
         }
     },
     {
@@ -45192,7 +45210,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1042,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.2
+            "state_multiplier": -0.15
         }
     },
     {
@@ -45236,7 +45254,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1035,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.2
+            "state_multiplier": -0.15
         }
     },
     {
@@ -45709,7 +45727,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1042,
             "candidate": 201,
             "affected_candidate": 202,
-            "state_multiplier": 0.2
+            "state_multiplier": 0.15
         }
     },
     {
@@ -45742,7 +45760,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1035,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.2
+            "state_multiplier": -0.15
         }
     },
     {
@@ -47702,6 +47720,171 @@ campaignTrail_temp.answer_score_state_json = [
             "affected_candidate": 200,
             "state_multiplier": -0.025
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254943,
+        "fields": {
+            "answer": 21449,
+            "state": 1003,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.035
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254944,
+        "fields": {
+            "answer": 21449,
+            "state": 1017,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.035
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254946,
+        "fields": {
+            "answer": 21458,
+            "state": 1002,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254947,
+        "fields": {
+            "answer": 21458,
+            "state": 1003,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254949,
+        "fields": {
+            "answer": 21463,
+            "state": 1017,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.014
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254954,
+        "fields": {
+            "answer": 254951,
+            "state": 1021,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.04
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254955,
+        "fields": {
+            "answer": 254951,
+            "state": 1037,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.04
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254956,
+        "fields": {
+            "answer": 254951,
+            "state": 1049,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.04
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254957,
+        "fields": {
+            "answer": 254951,
+            "state": 1034,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.035
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254959,
+        "fields": {
+            "answer": 21481,
+            "state": 1003,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254960,
+        "fields": {
+            "answer": 21481,
+            "state": 1041,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254962,
+        "fields": {
+            "answer": 21486,
+            "state": 1003,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": 0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254963,
+        "fields": {
+            "answer": 21486,
+            "state": 1017,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": 0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254964,
+        "fields": {
+            "answer": 21486,
+            "state": 1037,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254965,
+        "fields": {
+            "answer": 21486,
+            "state": 1021,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.01
+        }
     }
 ]
 
@@ -47829,7 +48012,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5176,
             "candidate": 201,
-            "answer_feedback": "King Roy slams his gavel, and you receive the news that almost everything you proposed was shot down and buried beneath a Republican stampede, and they're cackling. You're nearly sent into a rage from the display of blatant partisan chicanery."
+            "answer_feedback": "A wave of Clinton-era advisors hound your office, pleading that you pull this back, but you won't. Republicans look befuddled at the bill you lay on their desks. They happily reject it as government overreach, and the Dow plummets further."
         }
     },
     {
@@ -47838,7 +48021,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5177,
             "candidate": 201,
-            "answer_feedback": "King Roy doesn't give a damn and throws your proposals out as he's not willing to risk his career as a speaker on helping you. Meanwhile your left flank led by Senator Bernie Sanders condemns trying to give the banks a free pass."
+            "answer_feedback": "You gather the wisest economic wizards for a meeting to devise the perfect solution, and while their ideas vary,  a hefty stimulus package is proposed to Congress. When confronted with the chance to act, Blunt spits in your face, calling the package a disgrace to bipartisanship."
         }
     },
     {
@@ -47847,7 +48030,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5178,
             "candidate": 201,
-            "answer_feedback": "Congress drags its feet, with Republican Congressman Stewart McKinney coining the term \"Too Big To Fail\" regarding most bailouts. King Roy puts the kibosh on it, and unbelievably, they do indeed fail and go bankrupt months later. \n"
+            "answer_feedback": "Dodd and a long list of Too Big To Fail morons sing their disagreements like a choir and they convince their colleagues that everything is fine. Not long after it all crashes down on them, and you, when they both fail. The Dow sinks alongside them."
         }
     },
     {
@@ -47856,7 +48039,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5179,
             "candidate": 201,
-            "answer_feedback": "Public pressure on King Roy shows minimal effects, as it's outside complaints against keeping his job. However, you are steering public opinion, which may be your best path toward reelection.\n"
+            "answer_feedback": "Oh, the Clintons and their dazzling skills provide a limited stimulus plan that avoids a heavy burden on the public sector. Bill's advisory status to Merrill Lynch leads to their sunk ship being gobbled up by Bank of America. Congress approved the measure not long after."
         }
     },
     {
@@ -48459,7 +48642,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 20958,
             "candidate": 201,
-            "answer_feedback": "Boehner slams his gavel, and you receive the news that almost everything you proposed was shot down and buried beneath a Republican stampede, and they're cackling. You're nearly sent into a rage from the display of blatant partisan chicanery."
+            "answer_feedback": "A wave of Clinton-era advisors hound your office, pleading that you pull this back, but you won't. Republicans look befuddled at the bill you lay on their desks. They happily reject it as government overreach, and the Dow plummets further."
         }
     },
     {
@@ -48468,7 +48651,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 20961,
             "candidate": 201,
-            "answer_feedback": "It's like pulling teeth, but Boehner realizes that he'd only hurt the party by spearheading a defiance of you. He plays ball, and bank bailouts fly through even though less than 50% of House Republicans voted for the bill."
+            "answer_feedback": "While Dodd and his fellow Too Big To Fail morons tell brave stories about the secure market but you run over them and focus on the objective; saving the economy. Congress bows to your demands and passes worthwhile stimulus, and you acquire Fannie Mae and Freddie Mac not long after."
         }
     },
     {
@@ -48477,7 +48660,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 20964,
             "candidate": 201,
-            "answer_feedback": "Congress dragged its feet, with Republican Congressman Stewart McKinney coining the term \"Too Big To Fail\" regarding most bailouts. However, after torturous negotiations, Boehner ceded, and the Federal Housing Finance Agency was created to save them just in time.\n"
+            "answer_feedback": "Oh, the Clintons and their dazzling skills provide a limited stimulus plan that avoids a heavy burden on the public sector. Bill's advisory status to Merrill Lynch leads to their sinking ship being gobbled up by Bank of America. Congress approved the measure not long after."
         }
     },
     {
@@ -48486,7 +48669,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 20969,
             "candidate": 201,
-            "answer_feedback": "Public pressure on Boehner wears him down, and he agrees to a moderate stimulus plan that includes bailouts for key finacial institutions. You are steering public opinion, which may be your best path toward reelection.\n"
+            "answer_feedback": "You gather the wisest economic wizards for a meeting to devise the perfect solution, and while their ideas vary,  a hefty stimulus package is proposed to Congress. When confronted with the chance to act, Boehner loses his grit to stand in the way and allows the package to fly through."
         }
     },
     {
@@ -50457,7 +50640,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 22490,
             "candidate": 201,
-            "answer_feedback": "Pelosi is quick to compromise on some of your demands. Most of the reform you would have liked is pulled, but you're granted the stimulus for needing families and banks worth nearly 200 billion. It was passed along party lines, but it landed at your desk."
+            "answer_feedback": "Pelosi gulps at the tall task you lay on her desk, but she doesn't second-guess you and finds the grit to push this thing through. You get calls asking how you plan to get Republicans on board for this. You tell them, \"What do we need from Republicans, we have the majority.\" They argue, but they don't dare to sink you now."
         }
     },
     {
@@ -50466,7 +50649,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 22493,
             "candidate": 201,
-            "answer_feedback": "Pelosi is quick to act and passes sweeping bailouts to the banks within the limits of what Democrats are willing to back, of course, leaving families out in the cold for now."
+            "answer_feedback": "Dodd and a long list of Too Big To Fail morons sing their disagreements like a choir and they convince their colleagues that everything is fine. Not long after it all crashes down on them, and you, when they both fail. The Dow sinks alongside them."
         }
     },
     {
@@ -51267,7 +51450,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 22874,
             "candidate": 201,
-            "answer_feedback": "Even when controlling both chambers of Congress, the urge to do nothing plagues most creatures. However, you whip them back into a march, and the Federal Housing Finance Agency is born to save Fannie Mae and Freddie Mac despite naysayers calling it unnecessary."
+            "answer_feedback": "You gather the wisest economic wizards for a meeting to devise the perfect solution. While their ideas vary, a hefty stimulus package is proposed to Congress. When confronted with the chance to act, Pelosi signs aboard, and so does the rest of the party."
         }
     },
     {
@@ -52167,7 +52350,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 23790,
             "candidate": 201,
-            "answer_feedback": "Pelosi is quick to compromise on some of your demands. Most of the reform you would have liked is pulled, but you're granted the stimulus for needing families and banks worth nearly 200 billion. It was passed along party lines, but it landed at your desk."
+            "answer_feedback": "Pelosi gulps at the tall task you lay on her desk, but she doesn't second-guess you and finds the grit to push this thing through. You get calls asking how you plan to get Republicans on board for this. You tell them, \"What do we need from Republicans, we have the majority.\" They argue, but they don't dare to sink you now."
         }
     },
     {
@@ -52176,7 +52359,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 23793,
             "candidate": 201,
-            "answer_feedback": "Pelosi is quick to act and passes sweeping bailouts to the banks within the limits of what Democrats are willing to back, of course, leaving families out in the cold for now."
+            "answer_feedback": "You gather the wisest economic wizards for a meeting to devise the perfect solution. While their ideas vary, a hefty stimulus package is proposed to Congress. When confronted with the chance to act, Pelosi signs aboard, and so does the rest of the party."
         }
     },
     {
@@ -52185,7 +52368,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 23796,
             "candidate": 201,
-            "answer_feedback": "Even when controlling both chambers of Congress, the urge to do nothing plagues most creatures. However, you whip them back into a march, and the Federal Housing Finance Agency is born to save Fannie Mae and Freddie Mac despite naysayers calling it unnecessary."
+            "answer_feedback": "While Dodd and his fellow Too Big To Fail morons tell brave stories about the secure market but you run over them and focus on the objective; saving the economy. Congress bows to your demands and passes worthwhile stimulus, and you acquire Fannie Mae and Freddie Mac not long after."
         }
     },
     {
@@ -53229,7 +53412,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 24739,
             "candidate": 201,
-            "answer_feedback": "Pelosi is quick to compromise on some of your demands. Most of the reform you would have liked is pulled, but you're granted the stimulus for needing families and banks worth nearly 200 billion. It was passed along party lines, but it landed at your desk."
+            "answer_feedback": "Pelosi gulps at the tall task you lay on her desk, but she doesn't second-guess you and finds the grit to push this thing through. You get calls asking how you plan to get Republicans on board for this. You tell them, \"What do we need from Republicans,  we have the majority.\" They argue, but they don't dare to sink you now."
         }
     },
     {
@@ -53238,7 +53421,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 24742,
             "candidate": 201,
-            "answer_feedback": "Pelosi is quick to act and passes sweeping bailouts to the banks within the limits of what Democrats are willing to back, of course, leaving families out in the cold for now."
+            "answer_feedback": "You gather the wisest economic wizards for a meeting to devise the perfect solution. While their ideas vary, a hefty stimulus package is proposed to Congress. When confronted with the chance to act, Pelosi signs aboard, and so does the rest of the party.\n"
         }
     },
     {
@@ -53247,7 +53430,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 24745,
             "candidate": 201,
-            "answer_feedback": "Even when controlling both chambers of Congress, the urge to do nothing plagues most creatures. However, you whip them back into a march, and the Federal Housing Finance Agency is born to save Fannie Mae and Freddie Mac despite naysayers calling it unnecessary."
+            "answer_feedback": "Dodd and a long list of Too Big To Fail morons sing their disagreements like a choir and they convince their colleagues that everything is fine. Not long after it all crashes down on them, and you, when they both fail. The Dow sinks alongside them."
         }
     },
     {
@@ -53805,7 +53988,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 25350,
             "candidate": 201,
-            "answer_feedback": "Backstabbers all of them, they speak your praises sheepishly without a caring phrase. They go through the motions, failing to hide their dissatisfaction with your administration, and the crowd is no less tired of the vague platitudes you speak to make up the difference."
+            "answer_feedback": "Like puppets, they march up and spout whatever narrative you want them to speak. Kennedy, especially the dying bastard, praises everything you've done. Unknowingly handing the keys to the party to a man who lacks any care for his values."
         }
     },
     {
@@ -54941,6 +55124,15 @@ campaignTrail_temp.answer_feedback_json = [
             "candidate": 201,
             "answer_feedback": "History is made when he with nothing to lose, realizes his true potential. Supreme Allied Commander of the World Wesley K. Clark ascends to a greater calling. With the army following his command, he seized power from Congress, dismissing them and the courts who dared to step in his sight. For the sake of his country, he shredded the constitution and paved the way for the West, with his enemies powerless to stop him."
         }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 254952,
+        "fields": {
+            "answer": 254951,
+            "candidate": 201,
+            "answer_feedback": "This is a risky play, but as many analysts fear, Romney will spend the next weeks talking about Iraq instead of the dire economic situation or mending wounds with his base. As presented, the Democratic message is clear, and although the economy is sagging, your words are hitting the right people."
+        }
     }
 ]
 
@@ -54966,6 +55158,7 @@ campaignTrail_temp.jet_data = [{
     "ending_data": {}
 }
 ]
+
 
 
 
@@ -55587,7 +55780,7 @@ cyoAdventure = function(a) {
     }
 
     //do you save financial institutions
-    if (ans == 20964 || ans == 20969 || ans == 22490 || ans == 22493 || ans == 22874 || ans == 23790 || ans == 23793 || ans == 23796 ||ans == 24739 || ans == 24742 || ans == 24745 || ans == 24748) {
+    if (ans == 5179 || ans == 20964 || ans == 20969 || ans == 22490 || ans == 22493 || ans == 22874 || ans == 23790 || ans == 23793 || ans == 23796 ||ans == 24739 || ans == 24742 || ans == 24745 || ans == 24748) {
         Fred += 1;
     }
 
@@ -55958,11 +56151,11 @@ cyoAdventure = function(a) {
         else if (Dem == 1) {
             campaignTrail_temp.questions_json[16] = tunnel(21243); 
         }
-        if (Dem == 2) {
-            campaignTrail_temp.questions_json[16] = tunnel(21429); 
-        }
-        else if (Dem == 2 && Neo < 4) {
+        if (Dem == 2 && Neo < 5) {
             campaignTrail_temp.questions_json[16] = tunnel(254873); 
+        }
+        else if (Dem == 2) {
+            campaignTrail_temp.questions_json[16] = tunnel(21429); 
         }
         if (Dem == 3) {
             campaignTrail_temp.questions_json[16] = tunnel(21494); 
@@ -57631,12 +57824,17 @@ e.pages.push(`<h3>CNN NEWS: <i>Petraeus touts the Afghani army and police force 
 <p><b>by Jeanne Sahadi</b></p> <p>Among calls for a withdrawal plan from Iraq lay the confused and aimless effort in Afghanistan. Long overshadowed by its unpopular brother, the war in Afghanistan has remained an afterthought of the Clark Administration, floating a timed withdrawal but refusing to commit to anything of substance.</p> <p>Now, In the latest of General David Petraeus's "charm campaigns," he's stood by Afghanistan and denounced any ideas of a withdrawal from the region by 2013 as the Clark Administration has floated. The general has taken it upon himself to focus on the internal improvements of the Afghan army. He also described how they were steadily taking more responsibility from NATO allies.</p><p>President Clark's unpopularity with his left flank demanding he pull back from Iraq and Afghanistan has sent cryptic messages in a clear attempt to buy time for the public to get over it. Secretary of State John Kerry, who stayed on for the job despite repeated disagreements with the President's conduct, has been equally left washed ashore as word spreads of a possible resignation is looming.</p><p>Secretary Kerry has disavowed the claims, but his isolation from the rest of the State Department gives him all the reason to call it quits despite his high public approval. Insider sources claim the Secretary is aloof at times, and his lowbrow approach is unable to make much headway in an increasingly stubborn administration.</p><p>General Petraeus, on the other hand, is the hands-on type who seemingly has full control over the situation in Iraq and Afghanistan. With much speculation over a possible presidential run circling the media, he's also reaffirmed that he has no intention of running for the Republican Presidential nomination in 2012.</p> <br><b>CNN Coverage</b></br><span style="color:Blue;"><u>Newly turned Independent, Dennis Kucinich eyes up Ohio governor mansion considering a challenge to incumbent Governor Ted Strickland in 2010</span></u> (Sept 4th 2009)</br></br><span style="color:Blue;"><u>How the Tea Party is reinvigorating the isolationist movement</span></u> (Sept 7th 2009)</br></br><span style="color:Blue;"><u>Clark gives peace activists a nod during 9/11 memorial speech</span></u> (Aug 26th 2009)</br></p>`)
 e.executable.push([3, (() => {e.image = e.image = 'https://i.imgur.com/oggK2FF.png'})])
 }
-if ( quickstats[0] >= 269 && Econ == 0) { // suicide
+else if ( quickstats[0] >= 269 && Notroops > 0 && Brown == 1) { // low neolib while troop surge
+e.pages.push(`<h3>Youtube: <i>Chancellor Alistair Darling: "We will cut deeper than Margaret Thatcher.""</i></h3>
+<p>Description: <b>Alistair Darling unveiled the new Labour policy plank, which would cut "deeper" and "tougher" on spending than even Margaret Thatcher's efforts in the 80s.</b></p> <p><b>[leafyisafraud67]</b></p><p>2 hours ago</p><p><b>Can you believe this shit? Labour has begun to roll over for Tory demands to hopefully outdo even Margaret Thatcher. Prime Minister Brown had warned of austerity, and he's willfully letting his government lay the groundwork for it!</b></p><p>124 likes<b> | Reply</b></p> <p><b>[Justanotherwank1]</b></p><p>1 hour ago</p><p>@leafyisafraud67 It's funny to see the British left whine over something that essentially every party has accepted. The Labour rule has been catastrophic; it's time to rein it all in.</p><p>14 likes<b> | Reply</b></p> <p><b>[Younglovin6]</b></p><p>1 hour ago</p><p>@leafyisafraud67 It's inevitable that Brown will accept austerity as the only solution. Labour has accepted its utility, as have the Liberal Democrats. The Tories might actually lose if Labour outflanks them on this.</p><p>4 likes<b> | Reply</b></p> <p><b>[Justanotherwank1]</b></p><p>1 hour ago</p><p>@leafyisafraud67 It's funny to see the British left whine over something that essentially every party has accepted. The Labour rule has been catastrophic; it's time to rein it all in.</p><p>14 likes<b> | Reply</b></p> <p><b>[masterchief117]</b></p><p>2 hour ago</p><p><b>I like this change after a decade of failing liberalism. It's time for a new Labour Party in this next decade. The deficit is killing us. Go, Gordon! Save Britain!</b></p><p>26 likes<b> | Reply</b></p>   <p><b>[Killingwillow76]</b></p><p>2 hour ago</p><p>@masterchief117 You genuinely have no fucking idea how badly cutting benefits will effect our children. Gordon Brown needs to take a stand against these austerity-shouting lunatics. Tories and liberal democrats have lost their way!</p><p>35 likes<b> | Reply</b></p>   <p><b>[teamedward37]</b></p><p>2 hour ago</p><p><b>I'm still undecided, but after the recession, I'm hoping for change. I was happy to see our troops finally come from Iraq, so if Gordon Brown's Labour Party is looking to deliver a final rebuke of the Blair years, I'm all for it. Go austerity, go Labour!</b></p><p>89 likes<b> | Reply</b></p>  <p><b>[silentwalker5]</b></p><p>2 hour ago</p><p>@teamedward37 If you're looking for change, you should vote Conservative! Electing more failed Labour leaders will only hurt Britain!</p><p>29 likes<b> | Reply</b></p>  <p><b>[janicehill]</b></p><p>1 hour ago</p><p><b>I don't understand, Prime Minister Brown recently hit back on austerity! His efforts have successfully fought the recession, and we're recovering! Why is he doing this now? After their pivot toward austerity, I already wrote off the idea of voting Lib Dem. FIGHT THE PRESSURE, BROWN. DON'T LET AUSTERITY TEMPT YOU!</b></p><p>4 likes<b> | Reply</b></p>  <p><b>[mikehawking]</b></p><p>1 hour ago</p><p>@janicehill This is why Labour is doomed to lose. They're unable to move on from the past. The decade of economic prosperity is over, and we need someone tough at the helm to accept reality and rein in the deficit. Vote David Cameron!</p><p>44 likes<b> | Reply</b></p>  <p><b>[outflyingkites]</b></p><p>1 hour ago</p><p>@janicehill Labour voters have lost the plot; nothing is good! Hardworking Brits have gone penniless, and you think just allowing freeloaders to make bank off our backs is the way? Vote Chris Huhne for the Liberal Democratic Party that reigns in the minority government to do right by Britain.</p><p>24 likes<b> | Reply</b></p>`)
+e.executable.push([3, (() => {e.image = e.image = 'https://i.imgur.com/P21UGUR.png'})])
+}
+else if ( quickstats[0] >= 269 && Econ == 0) { // suicide
 e.pages.push(`<h3>Reuters: <i>Recession declared over by NBER</i></h3>
 <p>The Business Cycle Dating Committee of the National Bureau of Economic Research met yesterday by conference call. At its meeting, the committee determined a trough in business activity in the US economy in June 2010. The trough marks the end of the recession that began in December 2007 and the beginning of an expansion.</p><p>The recession's length exceeded most economists' expectations following the sudden collapse of General Motors due to Congressional deadlock, which prevented any economic bailout of these corporations. Just two of the many American financial institutions collapsed during the heat of the recession in 2008 and would later be followed by the collapse of AIG, "American International Group" in February 2009."</p><p>President Wesley Clark, frustrated by the lack of action, chastised Congress often following his reelection and made it his first priority to break the congressional deadlock, eventually breaking a deal of a 450 Billion stimulus bill that established the TARP program, which would be used to bail out Bank of America.</p><p>The committee's declaration of the end of a recession does not mean that the economy has recovered. Most institutions have yet to get back on their feet, and most families across America still feel the effects of the recession.</p><p>The declaration was followed by President Clark, who stated, "Economists may believe the recession has ended, but American families are still struggling to pay their bills day to day, and it's our job to offer more relief to the American people. The Republican Congress begs to differ, with most Republican leadership opposing further aid, citing the budget.</p><p>"Due to the lack of improvement in the labor market, particularly the stubbornly high unemployment rate, the recovery still feels like a recession to many households," said Harm Bandholz, chief U.S. economist at UniCredit Research in New York. "The NBER does not seem to be too enthusiastic about the economic outlook either."</p><p>Editing by John Estler</p><p>Our Standards: <br>The Thomson Reuters Trust Principles.</br></p>`)
 e.executable.push([3, (() => {e.image = e.image = 'https://i.imgur.com/3EkRyt5.png'})])
 }
-if ( quickstats[0] >= 269 && Econ == 3) { // suicide
+else if ( quickstats[0] >= 269 && Econ == 3) { // suicide
 e.pages.push(`<h3>NBC: <i>Home Owners Loan Corporation becomes a mountain of success for the Republicans to climb over.</i></h3>
 <p><b>Updated March 4, 2011, 11:49 PM EST By NBC News</b></p> <p>President Clark's resurrection of the Home Owners Loan Corporation amid the 2008 financial crisis was a drastic solution, and to most at the time, it was necessary. The bill, which reestablished the corporation along with a 1.1 trillion dollar bailout, was put forward by Senator Hillary Clinton (New York) and was credited for the late surge in President Clark's re-election polling and eventual victory over his Republican opponent.</p><p>Today, the corporation accounts for nearly 15 percent of owner-occupied nonfarm mortgages. Many credit it as a necessary lifeline to millions of families across the United States.</p><p>However, Republican primary candidates feel much differently. Governor Rick Perry (Texas) has taken the lead in the discussion, blaming President Clark's "destructive homeownership policies" as the leading cause of the housing crisis. Other candidates like former Senator Rick Santorum, who ran in the 2008 Republican primaries, tend to agree. In particular, Santorum has been scrutinized after taking out a loan with the corporation himself when a tax assessment of his $2 million, five-acre home fell 25% in value. The former Senator's polling has dropped after the revelation came to light.</p><p>President Clark and the Democratic Party have stood by the corporation and hailed it as a success despite the sluggish economy. Vice President Landrieu has staked part of her presidential campaign on allowing the corporation to continue its work in the face of Republican calls to disband it.</p><p>As Democrats pick up the pieces of the steep losses during the midterms, the corporation's results have become a beacon of light for the party to coalesce around. It's hard to deny that the message "We kept you in your homes" isn't powerful. Republican deficit hawks claim billions of dollars are wasted within the corporation's work, but polls show at least 55% of Americans approve of the Home Owners Loan Corporation, while 39% disapprove and 6% are unsure.</p>`)
 e.executable.push([3, (() => {e.image = e.image = 'https://i.imgur.com/rOepdV2.png'})])
