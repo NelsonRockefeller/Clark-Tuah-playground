@@ -13,7 +13,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1044,
         "fields": {
             "priority": 2,
-            "description": "No amount of fearmongering and partisan chicanery could save Bush, and you've slain the\nemperor presiding over the darkest deeds of Olympus. Democrats have reclaimed the\nSenate by a hair and made gains in the House but fell short of a majority. However, it's not\nall sunshine and rainbows, as most Republicans that you attempted to get on board as\nunity picks have either ignored your calls or declined outright. You settled with some\nbasics: Kerry at State, Levin at Defense, and Altman at Treasury alongside a smattering\nof less high-profile picks vetted for loyalty. Where will you place focus for your first\n100 days?",
+            "description": "No amount of fearmongering and partisan chicanery could save Bush, and you've slain the\nemperor presiding over the darkest deeds of Olympus. Democrats have reclaimed the\nSenate by a hair and made gains in the House but fell short of a majority. However, it's not\nall sunshine and rainbows, as most Republicans that you attempted to get on board as\nunity picks have either ignored your calls or declined outright. You settled with some\nbasics: Kerry at State, Levin at Defense, and Summers at Treasury alongside a smattering\nof less high-profile picks vetted for loyalty. Where will you place focus for your first\n100 days?",
             "likelihood": 1
         }
     },
@@ -1588,7 +1588,7 @@ campaignTrail_temp.questions_json = [
         "pk": 24658,
         "fields": {
             "priority": 0,
-            "description": "Establishment Democrats are growing quite wary of your consistent bullying of Congress. You've been giving marching orders and blowing through as much political capital as possible. Many of these Blue Dog and Conservative Democrats expected you'd focus abroad. Still, you've read through the economic trends after hearing that two subprime hedge funds owned by Bear Stearns had lost nearly all of their value amid a rapid decline in the market. You've assembled the party demanding a bill to put more gas into the economy. What is it you demand?\n",
+            "description": "Establishment Democrats are growing quite wary of your consistent bullying of Congress. You've been giving marching orders and blowing through as much political capital as possible. Many of these Blue Dog and Conservative Democrats expected you'd focus abroad. Still, you've read through the economic trends after hearing that two subprime hedge funds owned by Bear Stearns had lost nearly all of their value amid a rapid decline in the market. Secretary Summers has given you a list of recommendations, and at the top of the list, he's asked you to jolt the economy with a stimulus of up to 100 billion dollars. With Congress in your pocket, you can package this bill in many ways. How will you do it?\n",
             "likelihood": 1
         }
     },
@@ -2014,6 +2014,78 @@ campaignTrail_temp.questions_json = [
             "description": "They failed you. Pelosi, Daschle, and the jeering fools across the aisle are blind to the catastrophe unleashed by this economic collapse. The shores of Olympus are stained with the blood of the fallen, while they laugh behind closed doors, smug in their self-congratulation: snakes, all of them. The power granted to you four years ago is no longer enough to save Earth. The lawmakers have revealed their ineptitude, and now it's time they face the reckoning they have earned. Will you rise and conquer Olympus?",
             "likelihood": 1
         }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 254966,
+        "fields": {
+            "priority": -7,
+            "description": "This is it; you're facing a Typhon, and it's ready to destroy you. Lehman Brothers is heading toward a total collapse. Their Bankruptcy will only serve to spill oil onto the flames of the economic crisis. Lehman Brothers is bouncing around like a pinball machine, desperate to come to some deal to avoid Bankruptcy. Most of Congress and the public are steadfastly against bailing them out. The Federal Reserve is unwilling to step in on Lehman Brothers' behalf. The Sphinx offers you a riddle of guidance. What will you do, Wes?\n",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 254995,
+        "fields": {
+            "priority": -7,
+            "description": "This is it; you're facing a Typhon, and it's ready to destroy you. Lehman Brothers is heading toward a total collapse. Their Bankruptcy will only serve to spill oil onto the flames of the economic crisis. Lehman Brothers is bouncing around like a pinball machine, desperate to come to some deal to avoid Bankruptcy. Most of Congress and the public are steadfastly against bailing them out. The Federal Reserve is unwilling to step in on Lehman Brothers' behalf. The Sphinx offers you a riddle of guidance. What will you do, Wes?\n",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 255024,
+        "fields": {
+            "priority": -7,
+            "description": "This is it; you're facing a Typhon, and it's ready to destroy you. Lehman Brothers is heading toward a total collapse. Their Bankruptcy will only serve to spill oil onto the flames of the economic crisis. Lehman Brothers is bouncing around like a pinball machine, desperate to come to some deal to avoid Bankruptcy. Most of Congress and the public are steadfastly against bailing them out. The Federal Reserve is unwilling to step in on Lehman Brothers' behalf. The Sphinx offers you a riddle of guidance. What will you do, Wes?\n",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 255053,
+        "fields": {
+            "priority": 0,
+            "description": "At last, after mastering the greatest trials and weaving a better fate for all, you've returned home scarred but triumphant. The Dow is rising, the markets are cooling, the middle and lower classes are under your protection, and the world's leaders are ready to act in unison to repel this global crisis. While the various New Deal Era agencies you've resurrected work around the clock to hold the ship steady, you stand at the helm ready to confront whatever comes next. Secretary Larry Summers and his posse of analysts enter your office, unveiling the last push for the session of Congress. While your political capital is exhausted, you can throw one more dart at the board alongside this next stimulus package. What will it be, Clark?",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 255068,
+        "fields": {
+            "priority": 0,
+            "description": "To quell the wrath of Lehman Brothers failure, you cast much of your political capital to flames, hoping to spare America from its collapse. As Secretary Summers' feared saving Wall Street has enabled much of Congress to duck their head back in the sand. Without a significant crash resistance to your calls for a bailout, you have made garnering support for a heavy package asinine. However, the plot of this extravagant tale isn't entirely written until you drop the pen. How will you venture through this impasse?",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 255083,
+        "fields": {
+            "priority": 0,
+            "description": "To quell the wrath of Lehman Brothers failure, you cast much of your political capital to flames, hoping to spare America from its collapse. As Secretary Summers' feared saving Wall Street has enabled much of Congress to duck their head back in the sand. Without a significant crash resistance to your calls for a bailout, you have made garnering support for a heavy package asinine. However, the plot of this extravagant tale isn't entirely written until you drop the pen. How will you venture through this impasse?",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 255098,
+        "fields": {
+            "priority": 0,
+            "description": "To quell the wrath of Lehman Brothers failure, you cast much of your political capital to flames, hoping to spare America from its collapse. As Secretary Summers' feared saving Wall Street has enabled much of Congress to duck their head back in the sand. Without a significant crash resistance to your calls for a bailout, you have made garnering support for a heavy package asinine. However, the plot of this extravagant tale isn't entirely written until you drop the pen. How will you venture through this impasse?",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 255113,
+        "fields": {
+            "priority": 0,
+            "description": "To quell the wrath of Lehman Brothers failure, you cast much of your political capital to flames, hoping to spare America from its collapse. As Secretary Summers' feared saving Wall Street has enabled much of Congress to duck their head back in the sand. Without a significant crash resistance to your calls for a bailout, you have made garnering support for a heavy package asinine. However, the plot of this extravagant tale isn't entirely written until you drop the pen. How will you venture through this impasse?",
+            "likelihood": 1
+        }
     }
 ]
 
@@ -2295,7 +2367,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5224,
         "fields": {
             "question": 1066,
-            "description": "Let's see if we can save that deal, the one with Barclay. The British are friends of mine. I think if we give them a bit of a push, they'll allow the deal to go through without a hitch.\n"
+            "description": "Let's see if we can save that deal with Barclay. The British are friends of mine. I think if we give them a bit of a push, they'll allow the deal to go through without a hitch.\n"
         }
     },
     {
@@ -2303,7 +2375,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5225,
         "fields": {
             "question": 1066,
-            "description": "The fate of Lehman Brothers rests on the Federal Reserve's shoulders. It's crucial to get Altman to make the necessary calls and initiate a deal to bail them out.\n"
+            "description": "Historically, in times of crisis, the lower branches of government have had to relinquish their authority to the executive in hopes that an elastic leadership able to interpret its own rules can get at it hard and fast. I will not repeat Hoover's mistakes; tell Summers to save Lehman at all costs."
         }
     },
     {
@@ -2439,7 +2511,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5246,
         "fields": {
             "question": 1072,
-            "description": "We ought to be smart with our proposal. Congress has rejected Secretary Altman's proposals twice now. We can't waste any more time; the Emergency Economic Reform and Relief Act needs to pass. As a preemptive measure, we'll pull some of the banking reforms from the bill.\n"
+            "description": "We ought to be smart with our proposal. Congress has rejected Secretary Summers' proposals twice now. We can't waste more time; the Emergency Economic Reform and Relief Act must pass. We'll pull some of the banking reforms from the bill as a preemptive measure.\n"
         }
     },
     {
@@ -2775,7 +2847,7 @@ campaignTrail_temp.answers_json = [
         "pk": 20949,
         "fields": {
             "question": 1066,
-            "description": "This is a nightmare, and the effects down the line will sink our national security in the face of rising powers like China and India. I know they'll give me hell for it, but I'll push for Congress to save Lehman Brothers. \n"
+            "description": "America's greatest intellectuals have proven themselves useless and the poorest class are rising in rebellion. However, I do not subscribe to the beliefs of these Let It Die activists. Congress must approve a bill to allow us to save Lehman Brothers."
         }
     },
     {
@@ -4207,7 +4279,7 @@ campaignTrail_temp.answers_json = [
         "pk": 22053,
         "fields": {
             "question": 22052,
-            "description": "We ought to be smart with our proposal. Congress has rejected Secretary Altman's proposals twice now. We can't waste any more time; the Emergency Economic Reform and Relief Act needs to pass. As a preemptive measure, we'll pull some of the banking reforms from the bill.\n"
+            "description": "We ought to be smart with our proposal. Congress has rejected Secretary Summers' proposals twice now. We can't waste more time; the Emergency Economic Reform and Relief Act must pass. We'll pull some of the banking reforms from the bill as a preemptive measure.\n"
         }
     },
     {
@@ -4231,7 +4303,7 @@ campaignTrail_temp.answers_json = [
         "pk": 22064,
         "fields": {
             "question": 22052,
-            "description": "I'm not one to dismiss opposing views. If we can bring Senator Sanders on board, we can forge a united front. He advocates for reforms, and we'll ensure that Glass Steagall's principles are upheld. A united coalition is key to our success. \n"
+            "description": "Returning to the status quo is not on the table. Let's take on Senator Sanders' message: Our economy faces unprecedented failures, and there's a class to blame. We are overhauling the banking system and punishing the people who knowingly hitched the taxpayers' dollars to empty shells."
         }
     },
     {
@@ -4607,7 +4679,7 @@ campaignTrail_temp.answers_json = [
         "pk": 22507,
         "fields": {
             "question": 22506,
-            "description": "We ought to be smart with our proposal. We can't waste more time; the Emergency Economic Reform and Relief Act must pass. As a preemptive measure, we'll remove some of the banking reforms from the bill.\n"
+            "description": "We ought to be smart with our proposal. Congress has rejected Secretary Summers' proposals twice now. We can't waste more time; the Emergency Economic Reform and Relief Act must pass. We'll pull some of the banking reforms from the bill as a preemptive measure.\n"
         }
     },
     {
@@ -4631,7 +4703,7 @@ campaignTrail_temp.answers_json = [
         "pk": 22517,
         "fields": {
             "question": 22506,
-            "description": "I'm not one to dismiss opposing views. We can forge a united front if we can bring Senator Sanders on board. He advocates for reform, and we'll ensure that Glass Steagall's principles are upheld. A united coalition is key to our success. \n"
+            "description": "Returning to the status quo is not on the table. Let's take on Senator Sanders' message: Our economy faces unprecedented failures, and there's a class to blame. We are overhauling the banking system and punishing the people who knowingly hitched the taxpayers' dollars to empty shells."
         }
     },
     {
@@ -4703,7 +4775,7 @@ campaignTrail_temp.answers_json = [
         "pk": 22555,
         "fields": {
             "question": 22554,
-            "description": "We ought to be smart with our proposal. We can't waste more time; the Emergency Economic Reform and Relief Act must pass. We'll pull some of the banking reforms from the bill as a preemptive measure.\n"
+            "description": "We ought to be smart with our proposal. Congress has rejected Secretary Summers' proposals twice now. We can't waste more time; the Emergency Economic Reform and Relief Act must pass. We'll pull some of the banking reforms from the bill as a preemptive measure.\n"
         }
     },
     {
@@ -4727,7 +4799,7 @@ campaignTrail_temp.answers_json = [
         "pk": 22565,
         "fields": {
             "question": 22554,
-            "description": "I'm not one to dismiss opposing views. We can forge a united front if we can bring Senator Sanders on board. He advocates for reform, and we'll ensure that Glass Steagall's principles are upheld. A united coalition is key to our success. \n"
+            "description": "Returning to the status quo is not on the table. Let's take on Senator Sanders' message: Our economy faces unprecedented failures, and there's a class to blame. We are overhauling the banking system and punishing the people who knowingly hitched the taxpayers' dollars to empty shells."
         }
     },
     {
@@ -5991,7 +6063,7 @@ campaignTrail_temp.answers_json = [
         "pk": 23718,
         "fields": {
             "question": 23717,
-            "description": "We ought to be smart with our proposal. We can't waste more time; the Emergency Economic Reform and Relief Act must pass. We'll pull some of the banking reforms from the bill as a preemptive measure.\n"
+            "description": "We ought to be smart with our proposal. Congress has rejected Secretary Summers' proposals twice now. We can't waste more time; the Emergency Economic Reform and Relief Act must pass. We'll pull some of the banking reforms from the bill as a preemptive measure.\n"
         }
     },
     {
@@ -6007,7 +6079,7 @@ campaignTrail_temp.answers_json = [
         "pk": 23728,
         "fields": {
             "question": 23717,
-            "description": "I'm not one to dismiss opposing views. We can forge a united front if we can bring Senator Sanders on board. He advocates for reform, and we'll ensure that Glass Steagall's principles are upheld. A united coalition is key to our success. \n"
+            "description": "Returning to the status quo is not on the table. Let's take on Senator Sanders' message: Our economy faces unprecedented failures, and there's a class to blame. We are overhauling the banking system and punishing the people who knowingly hitched the taxpayers' dollars to empty shells."
         }
     },
     {
@@ -6015,7 +6087,7 @@ campaignTrail_temp.answers_json = [
         "pk": 23733,
         "fields": {
             "question": 23732,
-            "description": "We ought to be smart with our proposal. Congress has rejected Secretary Altman's proposals twice now. We can't waste any more time; the Emergency Economic Reform and Relief Act needs to pass. As a preemptive measure, we'll pull some of the banking reforms from the bill.\n"
+            "description": "We ought to be smart with our proposal. Congress has rejected Secretary Summers' proposals twice now. We can't waste more time; the Emergency Economic Reform and Relief Act must pass. We'll pull some of the banking reforms from the bill as a preemptive measure.\n"
         }
     },
     {
@@ -6031,7 +6103,7 @@ campaignTrail_temp.answers_json = [
         "pk": 23743,
         "fields": {
             "question": 23732,
-            "description": "I'm not one to dismiss opposing views. If we can bring Senator Sanders on board, we can forge a united front. He advocates for reforms, and we'll ensure that Glass Steagall's principles are upheld. A united coalition is key to our success. \n"
+            "description": "Returning to the status quo is not on the table. Let's take on Senator Sanders' message: Our economy faces unprecedented failures, and there's a class to blame. We are overhauling the banking system and punishing the people who knowingly hitched the taxpayers' dollars to empty shells."
         }
     },
     {
@@ -8576,6 +8648,254 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 21448,
             "description": "Now hold on just a minute. If Romney wants to pigeonhole himself into foreign affairs, let him. If you look at the historical precedent of American voting patterns, the economy will always be the number one issue. Clinton taught us all that we should stick to what the people want.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 254967,
+        "fields": {
+            "question": 254966,
+            "description": "Blair owes me more than anyone could ever imagine. I'm the only reason he's still here. It's time to cash in on our friendship. Tell him to let this deal with Barclay go through. If the Lehman Brothers are to survive, they need to be ported out of American borders."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 254974,
+        "fields": {
+            "question": 254966,
+            "description": "Historically, in times of crisis, the lower branches of government have had to relinquish their authority to the executive in hopes that an elastic leadership able to interpret its own rules can get at it hard and fast. I will not repeat Hoover's mistakes; tell Summers to save Lehman at all costs."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 254981,
+        "fields": {
+            "question": 254966,
+            "description": "There's nothing to do but face the facts: Lehman is toast. They're unwilling to give any management control to KBD, and every attempt to attract foreign investment has failed. We can't afford to bail them out, and the public backlash would be a storm.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 254988,
+        "fields": {
+            "question": 254966,
+            "description": "America's greatest intellectuals have proven themselves useless and the poorest class are rising in rebellion. However, I do not subscribe to the beliefs of these Let It Die activists. Congress must approve a bill to allow us to save Lehman Brothers."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 254996,
+        "fields": {
+            "question": 254995,
+            "description": "Blair owes me more than anyone could ever imagine. I'm the only reason he's still here. It's time to cash in on our friendship. Tell him to let this deal with Barclay go through. If the Lehman Brothers are to survive, they need to be ported out of American borders."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 255003,
+        "fields": {
+            "question": 254995,
+            "description": "Historically, in times of crisis, the lower branches of government have had to relinquish their authority to the executive in hopes that an elastic leadership able to interpret its own rules can get at it hard and fast. I will not repeat Hoover's mistakes; tell Summers to save Lehman at all costs."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 255010,
+        "fields": {
+            "question": 254995,
+            "description": "There's nothing to do but face the facts: Lehman is toast. They're unwilling to give any management control to KBD, and every attempt to attract foreign investment has failed. We can't afford to bail them out, and the public backlash would be a storm.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 255017,
+        "fields": {
+            "question": 254995,
+            "description": "America's greatest intellectuals have proven themselves useless and the poorest class are rising in rebellion. However, I do not subscribe to the beliefs of these Let It Die activists. Congress must approve a bill to allow us to save Lehman Brothers."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 255025,
+        "fields": {
+            "question": 255024,
+            "description": "Let's see if we can save that deal with Barclay. The British are friends of mine. I think if we give them a bit of a push, they'll allow the deal to go through without a hitch.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 255032,
+        "fields": {
+            "question": 255024,
+            "description": "Historically, in times of crisis, the lower branches of government have had to relinquish their authority to the executive in hopes that an elastic leadership able to interpret its own rules can get at it hard and fast. I will not repeat Hoover's mistakes; tell Summers to save Lehman at all costs."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 255039,
+        "fields": {
+            "question": 255024,
+            "description": "There's nothing to do but face the facts: Lehman is toast. They're unwilling to give any management control to KBD, and every attempt to attract foreign investment has failed. We can't afford to bail them out, and the public backlash would be a storm.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 255046,
+        "fields": {
+            "question": 255024,
+            "description": "America's greatest intellectuals have proven themselves useless and the poorest class are rising in rebellion. However, I do not subscribe to the beliefs of these Let It Die activists. Congress must approve a bill to allow us to save Lehman Brothers."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 255054,
+        "fields": {
+            "question": 255053,
+            "description": "If their predictions are correct, unemployment is the crisis of the future. If we shoot high enough with stimulus, we can accomplish near-zero unemployment before 2010. Let's not underestimate this and shoot for 2 trillion to gun this issue down."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 255057,
+        "fields": {
+            "question": 255053,
+            "description": "Despite numerous attempts to nit the bud nicely, education opportunities remain a headline issue. Students must be able to pursue higher education without breaking the bank. Back in 2004, I proposed free college for the first two years as a trial run. Let's go for it."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 255060,
+        "fields": {
+            "question": 255053,
+            "description": "Minimum wage—the carrot and stick working-class voters will chase around, and it's a worthy solution to rising income inequality. Since we have the majority, let's shoot for a home run. Raise the federal minimum wage to $12 an hour."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 255069,
+        "fields": {
+            "question": 255068,
+            "description": "We ought to be smart with our proposal. Congress has rejected Secretary Summers' proposals twice now. We can't waste more time; the Emergency Economic Reform and Relief Act must pass. We'll pull some of the banking reforms from the bill as a preemptive measure.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 255073,
+        "fields": {
+            "question": 255068,
+            "description": "If we act now, this fiasco can be remedied and prevented. We can't compromise on this; we need the bill to pass to save the American people from this now and in the future. Full speed ahead; we aren't getting the bill for anything.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 255076,
+        "fields": {
+            "question": 255068,
+            "description": "After serious discussions with Senator Clinton, we can accomplish the most with her proposal of mortgage assistance by reestablishing the Home Owners' Loan Corporation. In addition, we'll call for a moratorium on foreclosures and freezing rate hikes in adjustable-rate mortgages.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 255079,
+        "fields": {
+            "question": 255068,
+            "description": "Returning to the status quo is not on the table. Let's take on Senator Sanders' message: Our economy faces unprecedented failures, and there's a class to blame. We are overhauling the banking system and punishing the people who knowingly hitched the taxpayers' dollars to empty shells."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 255084,
+        "fields": {
+            "question": 255083,
+            "description": "We ought to be smart with our proposal. Congress has rejected Secretary Summers' proposals twice now. We can't waste more time; the Emergency Economic Reform and Relief Act must pass. We'll pull some of the banking reforms from the bill as a preemptive measure.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 255088,
+        "fields": {
+            "question": 255083,
+            "description": "If we act now, this fiasco can be remedied and prevented. We can't compromise on this; we need the bill to pass to save the American people from this now and in the future. Full speed ahead; we aren't getting the bill for anything.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 255091,
+        "fields": {
+            "question": 255083,
+            "description": "After serious discussions with Senator Clinton, we can accomplish the most with her proposal of mortgage assistance by reestablishing the Home Owners' Loan Corporation. In addition, we'll call for a moratorium on foreclosures and freezing rate hikes in adjustable-rate mortgages.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 255094,
+        "fields": {
+            "question": 255083,
+            "description": "Returning to the status quo is not on the table. Let's take on Senator Sanders' message: Our economy faces unprecedented failures, and there's a class to blame. We are overhauling the banking system and punishing the people who knowingly hitched the taxpayers' dollars to empty shells."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 255099,
+        "fields": {
+            "question": 255098,
+            "description": "We ought to be smart with our proposal. Congress has rejected Secretary Summers' proposals twice now. We can't waste more time; the Emergency Economic Reform and Relief Act must pass. We'll pull some of the banking reforms from the bill as a preemptive measure.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 255103,
+        "fields": {
+            "question": 255098,
+            "description": "If we act now, this fiasco can be remedied and prevented. We can't compromise on this; we need the bill to pass to save the American people from this now and in the future. Full speed ahead; we aren't getting the bill for anything.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 255106,
+        "fields": {
+            "question": 255098,
+            "description": "After serious discussions with Senator Clinton, we can accomplish the most with her proposal of mortgage assistance by reestablishing the Home Owners' Loan Corporation. In addition, we'll call for a moratorium on foreclosures and freezing rate hikes in adjustable-rate mortgages.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 255109,
+        "fields": {
+            "question": 255098,
+            "description": "Returning to the status quo is not on the table. Let's take on Senator Sanders' message: Our economy faces unprecedented failures, and there's a class to blame. We are overhauling the banking system and punishing the people who knowingly hitched the taxpayers' dollars to empty shells."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 255114,
+        "fields": {
+            "question": 255113,
+            "description": "We ought to be smart with our proposal. Congress has rejected Secretary Summers' proposals twice now. We can't waste more time; the Emergency Economic Reform and Relief Act must pass. We'll pull some of the banking reforms from the bill as a preemptive measure.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 255118,
+        "fields": {
+            "question": 255113,
+            "description": "If we act now, this fiasco can be remedied and prevented. We can't compromise on this; we need the bill to pass to save the American people from this now and in the future. Full speed ahead; we aren't getting the bill for anything.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 255121,
+        "fields": {
+            "question": 255113,
+            "description": "After serious discussions with Senator Clinton, we can accomplish the most with her proposal of mortgage assistance by reestablishing the Home Owners' Loan Corporation. In addition, we'll call for a moratorium on foreclosures and freezing rate hikes in adjustable-rate mortgages.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 255124,
+        "fields": {
+            "question": 255113,
+            "description": "Returning to the status quo is not on the table. Let's take on Senator Sanders' message: Our economy faces unprecedented failures, and there's a class to blame. We are overhauling the banking system and punishing the people who knowingly hitched the taxpayers' dollars to empty shells."
         }
     }
 ]
@@ -14085,7 +14405,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5246,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.02
+            "global_multiplier": 0.035
         }
     },
     {
@@ -19695,7 +20015,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 23718,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.025
+            "global_multiplier": 0.035
         }
     },
     {
@@ -19735,7 +20055,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 23733,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.02
+            "global_multiplier": 0.035
         }
     },
     {
@@ -23696,6 +24016,396 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 201,
             "affected_candidate": 200,
             "global_multiplier": 0.025
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 254969,
+        "fields": {
+            "answer": 254967,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.06
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 254976,
+        "fields": {
+            "answer": 254974,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 254983,
+        "fields": {
+            "answer": 254981,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 254990,
+        "fields": {
+            "answer": 254988,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 254998,
+        "fields": {
+            "answer": 254996,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.06
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 255005,
+        "fields": {
+            "answer": 255003,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.06
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 255012,
+        "fields": {
+            "answer": 255010,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 255019,
+        "fields": {
+            "answer": 255017,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.065
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 255027,
+        "fields": {
+            "answer": 255025,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 255034,
+        "fields": {
+            "answer": 255032,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.06
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 255041,
+        "fields": {
+            "answer": 255039,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 255048,
+        "fields": {
+            "answer": 255046,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.065
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 255056,
+        "fields": {
+            "answer": 255054,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 255059,
+        "fields": {
+            "answer": 255057,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 255062,
+        "fields": {
+            "answer": 255060,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.09
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 255071,
+        "fields": {
+            "answer": 255069,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 255072,
+        "fields": {
+            "answer": 255069,
+            "candidate": 201,
+            "affected_candidate": 203,
+            "global_multiplier": 0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 255075,
+        "fields": {
+            "answer": 255073,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 255078,
+        "fields": {
+            "answer": 255076,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 255081,
+        "fields": {
+            "answer": 255079,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 255082,
+        "fields": {
+            "answer": 255079,
+            "candidate": 201,
+            "affected_candidate": 203,
+            "global_multiplier": -0.2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 255086,
+        "fields": {
+            "answer": 255084,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.035
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 255087,
+        "fields": {
+            "answer": 255084,
+            "candidate": 201,
+            "affected_candidate": 203,
+            "global_multiplier": 0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 255090,
+        "fields": {
+            "answer": 255088,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 255093,
+        "fields": {
+            "answer": 255091,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 255096,
+        "fields": {
+            "answer": 255094,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 255097,
+        "fields": {
+            "answer": 255094,
+            "candidate": 201,
+            "affected_candidate": 203,
+            "global_multiplier": -0.2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 255101,
+        "fields": {
+            "answer": 255099,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.035
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 255102,
+        "fields": {
+            "answer": 255099,
+            "candidate": 201,
+            "affected_candidate": 203,
+            "global_multiplier": 0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 255105,
+        "fields": {
+            "answer": 255103,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.06
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 255108,
+        "fields": {
+            "answer": 255106,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 255111,
+        "fields": {
+            "answer": 255109,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 255112,
+        "fields": {
+            "answer": 255109,
+            "candidate": 201,
+            "affected_candidate": 203,
+            "global_multiplier": -0.2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 255116,
+        "fields": {
+            "answer": 255114,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.035
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 255117,
+        "fields": {
+            "answer": 255114,
+            "candidate": 201,
+            "affected_candidate": 203,
+            "global_multiplier": 0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 255120,
+        "fields": {
+            "answer": 255118,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.06
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 255123,
+        "fields": {
+            "answer": 255121,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.07
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 255126,
+        "fields": {
+            "answer": 255124,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.08
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 255127,
+        "fields": {
+            "answer": 255124,
+            "candidate": 201,
+            "affected_candidate": 203,
+            "global_multiplier": -0.2
         }
     }
 ]
@@ -47885,6 +48595,567 @@ campaignTrail_temp.answer_score_state_json = [
             "affected_candidate": 200,
             "state_multiplier": -0.01
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254970,
+        "fields": {
+            "answer": 254967,
+            "state": 1021,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254971,
+        "fields": {
+            "answer": 254967,
+            "state": 1008,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254972,
+        "fields": {
+            "answer": 254967,
+            "state": 1002,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254973,
+        "fields": {
+            "answer": 254967,
+            "state": 1027,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254977,
+        "fields": {
+            "answer": 254974,
+            "state": 1021,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254978,
+        "fields": {
+            "answer": 254974,
+            "state": 1008,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254979,
+        "fields": {
+            "answer": 254974,
+            "state": 1027,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254980,
+        "fields": {
+            "answer": 254974,
+            "state": 1002,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254984,
+        "fields": {
+            "answer": 254981,
+            "state": 1002,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254985,
+        "fields": {
+            "answer": 254981,
+            "state": 1008,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254986,
+        "fields": {
+            "answer": 254981,
+            "state": 1021,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254987,
+        "fields": {
+            "answer": 254981,
+            "state": 1027,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254991,
+        "fields": {
+            "answer": 254988,
+            "state": 1002,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254992,
+        "fields": {
+            "answer": 254988,
+            "state": 1008,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254993,
+        "fields": {
+            "answer": 254988,
+            "state": 1021,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254994,
+        "fields": {
+            "answer": 254988,
+            "state": 1027,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 254999,
+        "fields": {
+            "answer": 254996,
+            "state": 1021,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 255000,
+        "fields": {
+            "answer": 254996,
+            "state": 1008,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 255001,
+        "fields": {
+            "answer": 254996,
+            "state": 1002,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 255002,
+        "fields": {
+            "answer": 254996,
+            "state": 1027,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 255006,
+        "fields": {
+            "answer": 255003,
+            "state": 1021,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 255007,
+        "fields": {
+            "answer": 255003,
+            "state": 1008,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 255008,
+        "fields": {
+            "answer": 255003,
+            "state": 1027,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 255009,
+        "fields": {
+            "answer": 255003,
+            "state": 1002,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 255013,
+        "fields": {
+            "answer": 255010,
+            "state": 1002,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 255014,
+        "fields": {
+            "answer": 255010,
+            "state": 1008,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 255015,
+        "fields": {
+            "answer": 255010,
+            "state": 1021,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 255016,
+        "fields": {
+            "answer": 255010,
+            "state": 1027,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 255020,
+        "fields": {
+            "answer": 255017,
+            "state": 1002,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 255021,
+        "fields": {
+            "answer": 255017,
+            "state": 1008,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 255022,
+        "fields": {
+            "answer": 255017,
+            "state": 1021,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 255023,
+        "fields": {
+            "answer": 255017,
+            "state": 1027,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 255028,
+        "fields": {
+            "answer": 255025,
+            "state": 1021,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 255029,
+        "fields": {
+            "answer": 255025,
+            "state": 1008,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 255030,
+        "fields": {
+            "answer": 255025,
+            "state": 1002,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 255031,
+        "fields": {
+            "answer": 255025,
+            "state": 1027,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 255035,
+        "fields": {
+            "answer": 255032,
+            "state": 1021,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 255036,
+        "fields": {
+            "answer": 255032,
+            "state": 1008,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 255037,
+        "fields": {
+            "answer": 255032,
+            "state": 1027,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 255038,
+        "fields": {
+            "answer": 255032,
+            "state": 1002,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 255042,
+        "fields": {
+            "answer": 255039,
+            "state": 1002,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 255043,
+        "fields": {
+            "answer": 255039,
+            "state": 1008,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 255044,
+        "fields": {
+            "answer": 255039,
+            "state": 1021,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 255045,
+        "fields": {
+            "answer": 255039,
+            "state": 1027,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 255049,
+        "fields": {
+            "answer": 255046,
+            "state": 1002,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 255050,
+        "fields": {
+            "answer": 255046,
+            "state": 1008,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 255051,
+        "fields": {
+            "answer": 255046,
+            "state": 1021,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 255052,
+        "fields": {
+            "answer": 255046,
+            "state": 1027,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 255065,
+        "fields": {
+            "answer": 255060,
+            "state": 1034,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 255066,
+        "fields": {
+            "answer": 255060,
+            "state": 1021,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 255067,
+        "fields": {
+            "answer": 255060,
+            "state": 1049,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.05
+        }
     }
 ]
 
@@ -48318,7 +49589,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5225,
             "candidate": 201,
-            "answer_feedback": "Forcing the Federal Reserve to revisit this case has brought the same results. Treasury Secretary Altman can't save the Lehman Brothers, and they will soon file for Bankruptcy.\n"
+            "answer_feedback": "Summers has worked all the relationships he can to provide Lehman Brothers with a cushion to save itself. Still, his efforts fail after his plan to auction Lehman's assets falls through, since no other bank at home or abroad is looking to inherit the American disease."
         }
     },
     {
@@ -50226,7 +51497,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 22057,
             "candidate": 201,
-            "answer_feedback": "Despite Boehner's protests, his back is up against the wall. While it's a messy affair, the Emergency Economic Reform and Relief Act passes by the skin of its teeth. You gain praise as you justify its bailouts in exchange for banking reforms to the public.\n"
+            "answer_feedback": "Despite Boehner's protests, his back is up against the wall. While it's a messy affair, the Emergency Economic Reform and Relief Act passes by the skin of its teeth. You gain praise as you justify the bailouts in exchange for banking reforms to the public.\n"
         }
     },
     {
@@ -50793,7 +52064,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 22562,
             "candidate": 201,
-            "answer_feedback": "The Clinton Plan is sent to Congress, and while Republicans form a great wall of opposition, the plan is passed. The full action plan to save American home owners will pay dividends at the voting booth. "
+            "answer_feedback": "The Clinton Plan is sent to Congress, and while Republicans form a great wall of opposition, the plan is passed. The full action plan to save American homeowners will pay dividends at the voting booth. "
         }
     },
     {
@@ -55133,6 +56404,285 @@ campaignTrail_temp.answer_feedback_json = [
             "candidate": 201,
             "answer_feedback": "This is a risky play, but as many analysts fear, Romney will spend the next weeks talking about Iraq instead of the dire economic situation or mending wounds with his base. As presented, the Democratic message is clear, and although the economy is sagging, your words are hitting the right people."
         }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 254968,
+        "fields": {
+            "answer": 254967,
+            "candidate": 201,
+            "answer_feedback": "Prime Minister Tony Blair is, at this point, nothing but a subordinate, and despite knowing the hell there will be to pay if he allows this deal to follow through, he lacks the backbone to push back. Chancellor Brown sighs as Barclay is allowed to acquire Lehman Brothers, avoiding what would have been a catastrophe, but markets still sink nonetheless."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 254975,
+        "fields": {
+            "answer": 254974,
+            "candidate": 201,
+            "answer_feedback": "Summers has worked all the relationships he can to provide Lehman Brothers with a cushion to save itself. Still, his efforts fail after his plan to auction Lehman's assets falls through, since no other bank at home or abroad is looking to inherit the American disease."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 254982,
+        "fields": {
+            "answer": 254981,
+            "candidate": 201,
+            "answer_feedback": "Without immediate action, Lehman Brothers will inevitably file for bankruptcy, dragging the economy down.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 254989,
+        "fields": {
+            "answer": 254988,
+            "candidate": 201,
+            "answer_feedback": "The public pandemonium is a firestorm, and multiple senators within your party are protesting the decision. Senator Sanders fully denounces the idea, and behind him are crowds of rageful families marching down Wall Street. It's not happening, Clark."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 254997,
+        "fields": {
+            "answer": 254996,
+            "candidate": 201,
+            "answer_feedback": "Prime Minister Tony Blair is, at this point, nothing but a subordinate, and despite knowing the hell there will be to pay if he allows this deal to follow through, he lacks the backbone to push back. Chancellor Brown sighs as Barclay is allowed to acquire Lehman Brothers, avoiding what would have been a catastrophe, but markets still sink nonetheless."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 255004,
+        "fields": {
+            "answer": 255003,
+            "candidate": 201,
+            "answer_feedback": "Using 1930s legislation crafted to allow the Fed broad authority to save the falling banks, Secretary Summers travels through the gray area of legal mandates and pulls enough strings to keep Lehman Brothers afloat via auctioning their assets and buying up the rest. Your administration catches extreme flak for corporate handouts, but you've avoided what could have been a catastrophe."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 255011,
+        "fields": {
+            "answer": 255010,
+            "candidate": 201,
+            "answer_feedback": "Without immediate action, Lehman Brothers will inevitably file for bankruptcy, dragging the economy down.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 255018,
+        "fields": {
+            "answer": 255017,
+            "candidate": 201,
+            "answer_feedback": "You are at the peak of your political capital, and although many in Congress heckle your efforts, like Senator Bernie Sanders, what he sees as socialism for the rich, you realize is the only way to save the markets. The public backlash is immense, but you are no stranger to such luxury."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 255026,
+        "fields": {
+            "answer": 255025,
+            "candidate": 201,
+            "answer_feedback": "As Chancellor of the Exchequer, Alistair Darling put it, he doesn't \"want to import the American disease. \" Essentially, you're being left out in the cold, and Lehman Brothers soon files for Bankruptcy."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 255033,
+        "fields": {
+            "answer": 255032,
+            "candidate": 201,
+            "answer_feedback": "Using 1930s legislation crafted to allow the Fed broad authority to save the falling banks, Secretary Summers travels through the gray area of legal mandates and pulls enough strings to keep Lehman Brothers afloat via auctioning their assets and buying up the rest. Your administration catches extreme flak for corporate handouts, but you've avoided what could have been a catastrophe."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 255040,
+        "fields": {
+            "answer": 255039,
+            "candidate": 201,
+            "answer_feedback": "Without immediate action, Lehman Brothers will inevitably file for bankruptcy, dragging the economy down.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 255047,
+        "fields": {
+            "answer": 255046,
+            "candidate": 201,
+            "answer_feedback": "You are at the peak of your political capital, and although many in Congress heckle your efforts, like Senator Bernie Sanders, what he sees as socialism for the rich, you realize is the only way to save the markets. The public backlash is immense, but you are no stranger to such luxury."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 255055,
+        "fields": {
+            "answer": 255054,
+            "candidate": 201,
+            "answer_feedback": "Republicans cry socialism, but they hold no cards able to halt your party's advance. The party cranks who would cry about too much spending get in line as the public support for the measure at this hour reigns far above their expectations. You sign the stimulus into law, marking the eviction notices of countless Republican incumbents nationwide."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 255058,
+        "fields": {
+            "answer": 255057,
+            "candidate": 201,
+            "answer_feedback": "McConnell and Boehner clutch their purses and weep as you finally deliver true education reform. Conservative Democrats howl in pain, but they don't dare to question you now. The bill comes to your desk, and the American people begin to soar."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 255061,
+        "fields": {
+            "answer": 255060,
+            "candidate": 201,
+            "answer_feedback": "Democrats will start carrying in duffle bags the worth of union donations after you announce a federal minimum wage increase. Republicans attempt trench warfare to slow the march of equality, but their efforts prove futile in the face of your unrelenting resolve."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 255070,
+        "fields": {
+            "answer": 255069,
+            "candidate": 201,
+            "answer_feedback": "Congress makes short work of your heavy demands and sinks your bailout initiative, and with that, the Dow plummets. In the eyes of the public, you look like another Wall Street-favoring elitist who only delivered sanctuary to the rich while leaving everyone else to rot."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 255074,
+        "fields": {
+            "answer": 255073,
+            "candidate": 201,
+            "answer_feedback": "Congress makes short work of your heavy demands and sinks your bailout initiative, and with that, the Dow plummets. In the eyes of the public, you look like another Wall Street-favoring elitist who only delivered sanctuary to the rich while leaving everyone else to rot."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 255077,
+        "fields": {
+            "answer": 255076,
+            "candidate": 201,
+            "answer_feedback": "Congress makes short work of your heavy demands and sinks your bailout initiative, and with that, the Dow plummets. In the eyes of the public, you look like another Wall Street-favoring elitist who only delivered sanctuary to the rich while leaving everyone else to rot."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 255080,
+        "fields": {
+            "answer": 255079,
+            "candidate": 201,
+            "answer_feedback": "Congress makes short work of your heavy demands and sinks your bailout initiative, and with that, the Dow plummets. In the eyes of the public, you look like another Wall Street-favoring elitist who only delivered sanctuary to the rich while leaving everyone else to rot."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 255085,
+        "fields": {
+            "answer": 255084,
+            "candidate": 201,
+            "answer_feedback": "Despite Boehner's protests, his back is up against the wall. While it's a messy affair, the Emergency Economic Reform and Relief Act passes by the skin of its teeth. You gain praise for the bill's passage, but feel so much more can be done."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 255089,
+        "fields": {
+            "answer": 255088,
+            "candidate": 201,
+            "answer_feedback": "Congress makes short work of your heavy demands and sinks your bailout initiative, and with that, the Dow plummets. In the eyes of the public, you look like another Wall Street-favoring elitist who only delivered sanctuary to the rich while leaving everyone else to rot."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 255092,
+        "fields": {
+            "answer": 255091,
+            "candidate": 201,
+            "answer_feedback": "Congress makes short work of your heavy demands and sinks your bailout initiative, and with that, the Dow plummets. In the eyes of the public, you look like another Wall Street-favoring elitist who only delivered sanctuary to the rich while leaving everyone else to rot."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 255095,
+        "fields": {
+            "answer": 255094,
+            "candidate": 201,
+            "answer_feedback": "Congress makes short work of your heavy demands and sinks your bailout initiative, and with that, the Dow plummets. In the eyes of the public, you look like another Wall Street-favoring elitist who only delivered sanctuary to the rich while leaving everyone else to rot."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 255100,
+        "fields": {
+            "answer": 255099,
+            "candidate": 201,
+            "answer_feedback": "Despite Boehner's protests, his back is up against the wall. While it's a messy affair, the Emergency Economic Reform and Relief Act passes by the skin of its teeth. You gain praise for the bill's passage, but feel so much more can be done."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 255104,
+        "fields": {
+            "answer": 255103,
+            "candidate": 201,
+            "answer_feedback": "Despite Republican uproar, some would rather sink their teeth into saving the economy, even if it's just to keep their jobs. You gain praise as you justify its bailouts in exchange for banking reforms to the public."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 255107,
+        "fields": {
+            "answer": 255106,
+            "candidate": 201,
+            "answer_feedback": "Congress makes short work of your heavy demands and sinks your bailout initiative, and with that, the Dow plummets. In the eyes of the public, you look like another Wall Street-favoring elitist who only delivered sanctuary to the rich while leaving everyone else to rot."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 255110,
+        "fields": {
+            "answer": 255109,
+            "candidate": 201,
+            "answer_feedback": "Congress makes short work of your heavy demands and sinks your bailout initiative, and with that, the Dow plummets. In the eyes of the public, you look like another Wall Street-favoring elitist who only delivered sanctuary to the rich while leaving everyone else to rot."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 255115,
+        "fields": {
+            "answer": 255114,
+            "candidate": 201,
+            "answer_feedback": "Despite Boehner's protests, his back is up against the wall. While it's a messy affair, the Emergency Economic Reform and Relief Act passes by the skin of its teeth. You gain praise for the bill's passage, but feel so much more can be done."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 255119,
+        "fields": {
+            "answer": 255118,
+            "candidate": 201,
+            "answer_feedback": "Despite Republican uproar, some would rather sink their teeth into saving the economy, even if it's just to keep their jobs. You gain praise as you justify its bailouts in exchange for banking reforms to the public."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 255122,
+        "fields": {
+            "answer": 255121,
+            "candidate": 201,
+            "answer_feedback": "The Clinton Plan is sent to Congress, and while Republicans form a great wall of opposition, the plan is passed. The full action plan to save American homeowners will pay dividends at the voting booth. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 255125,
+        "fields": {
+            "answer": 255124,
+            "candidate": 201,
+            "answer_feedback": "He and other experts devised a solution to add a Resolution Trust Corporation and a Reconstruction Finance Corporation, among other reforms, to radically crack down on the banks. When it's put to the House floor, it's a battle like no other, but you grasp the party establishment's spine, and the bill is sent to your desk."
+        }
     }
 ]
 
@@ -55158,7 +56708,6 @@ campaignTrail_temp.jet_data = [{
     "ending_data": {}
 }
 ]
-
 
 
 
@@ -55196,6 +56745,7 @@ var Dumb = 0;
 var Boner = 0;
 var Pelosi = 0;
 var Fred = 0;
+var Lehman = 0;
 var Russia = 0;
 var Opp = 0;
 var Back = 0;
@@ -55784,22 +57334,27 @@ cyoAdventure = function(a) {
         Fred += 1;
     }
 
+    //do you save lehman bros
+    if (ans == 254967 || ans == 254996 || ans == 255003 || ans == 255017 || ans == 255032 || ans == 255046) {
+        Lehman += 1;
+    }
+
     // Fall out with killdawg means no HOLC for you loserrr
     if (ans == 23701 || ans == 23705 || ans == 23709) {
         Hillary += 1; 
     }
 
     //how bigly do you save the economy
-    if (ans == 5246 || ans == 22053 || ans == 22507 || ans == 22555 || ans == 23718 || ans == 23733) {
+    if (ans == 255084 || ans == 255099 || ans == 255114 || ans == 5246 || ans == 22053 || ans == 22507 || ans == 22555 || ans == 23718 || ans == 23733) {
         Econ += 1;
     } 
-    if (ans == 22057 || ans == 22511 || ans == 22559 || ans == 23722 || ans == 23737) {
+    if (ans == 255118 || ans == 255103 || ans == 22057 || ans == 22511 || ans == 22559 || ans == 23722 || ans == 23737) {
         Econ += 2;
     }
-    if (ans == 22514 || ans == 22562) {
+    if (ans == 255121 || ans == 22514 || ans == 22562) {
         Econ += 3;
     }
-    if (ans == 22565 || ans == 23728) {
+    if (ans == 255124 || ans == 22565 || ans == 23728) {
         Econ += 4;
     }
 
@@ -56189,6 +57744,18 @@ cyoAdventure = function(a) {
         }
     }
 
+    if (e.noCounter == 17) {
+        if (Blair == 1 && Agenda > 5) {
+            campaignTrail_temp.questions_json[17] = tunnel(254995); 
+        }
+        else if (Agenda > 5) {
+            campaignTrail_temp.questions_json[17] = tunnel(255024); 
+        }
+        else if (Blair == 1) {
+            campaignTrail_temp.questions_json[17] = tunnel(254966); 
+        }
+}
+
   /// Iraq shockwave
     if (e.noCounter == 18) {
         if (Notroops == 1 && Nato > 3 && Neo < 3) {
@@ -56202,7 +57769,7 @@ cyoAdventure = function(a) {
         else if (Notroops == 1 && Blair == 1) {
             campaignTrail_temp.questions_json[18] = tunnel(254632); 
         }
-        else if (Notroops == 1 && Loyalist == 1 && Agenda > 4) {
+        else if (Notroops == 1 && Loyalist == 1 && Agenda > 4 && Nato < 3) {
             campaignTrail_temp.questions_json[18] = tunnel(23700); 
         }
         else if (Notroops == 1 && Nato > 2) {
@@ -56294,16 +57861,28 @@ cyoAdventure = function(a) {
 
     /// Economic response
     if (e.noCounter == 20) {
-        if (Boner == 1) {
+        if (Lehman == 1 && Pelosi == 0 && Boner == 0) {
+            campaignTrail_temp.questions_json[20] = tunnel(255068); 
+        }
+        else if (Lehman == 1 && Boner == 1) {
+            campaignTrail_temp.questions_json[20] = tunnel(255083); 
+        }
+        else if (Lehman == 1 && Pelosi == 1 && Agenda > 5) {
+            campaignTrail_temp.questions_json[20] = tunnel(255113); 
+        }
+        else if (Lehman == 1 && Pelosi == 1) {
+            campaignTrail_temp.questions_json[20] = tunnel(255098); 
+        }
+        else if (Boner == 1) {
             campaignTrail_temp.questions_json[20] = tunnel(22052); 
         }
-        if (Pelosi == 1 && Hillary == 1 && Agenda > 3 && Nato > 3 && Win > 8) {
+        else if (Pelosi == 1 && Hillary == 1 && Agenda > 3 && Nato > 3 && Win > 8 || Pelosi == 1 && Hillary == 1 && Agenda > 5 && Win > 8 ) {
             campaignTrail_temp.questions_json[20] = tunnel(23717); 
         }
         else if (Pelosi == 1 && Hillary == 1) {
             campaignTrail_temp.questions_json[20] = tunnel(23732); 
         }
-        else if (Pelosi == 1 && Agenda > 3 && Nato > 3 && Win > 8) {
+        else if (Pelosi == 1 && Agenda > 3 && Nato > 3 && Win > 8 || Pelosi == 1 && Agenda > 5 && Win > 8 ) {
             campaignTrail_temp.questions_json[20] = tunnel(22554); 
         }
         else if (Pelosi == 1) {
@@ -56357,6 +57936,15 @@ cyoAdventure = function(a) {
         } 
         else if (Nato < 20) {
             campaignTrail_temp.questions_json[21] = tunnel(24149);
+                if (Nato < 6){
+                    swapAnswers(
+                        campaignTrail_temp.answers_json,
+                        24149,   // Target question ID
+                        24162,   // Answer PK to disable
+                        26669,   // Hidden answer PK to enable
+                        9999    // Fake question ID
+                    );
+                }
                 if (Shroder == 1){
                     swapAnswers(
                         campaignTrail_temp.answers_json,
@@ -56366,14 +57954,7 @@ cyoAdventure = function(a) {
                         9999        // Fake question ID
                     );
                 }
-                if (Nato < 6){
-                    swapAnswers(
-                        campaignTrail_temp.answers_json,
-                        24149,   // Target question ID
-                        24162,   // Answer PK to disable
-                        26669,   // Hidden answer PK to enable
-                        9999    // Fake question ID
-                    );
+                if (Nato < 6 && Shroder == 0){
                     swapAnswers(
                         campaignTrail_temp.answers_json,
                         24149,   // Target question ID
@@ -56791,7 +58372,9 @@ cyoAdventure = function(a) {
         else {
             if (Dem == 5 && e.player_answers.includes(25094) || Dem == 5 && e.player_answers.includes(254660) || Dem == 5 && e.player_answers.includes(254675)) {
                 campaignTrail_temp.questions_json[26] = tunnel(25257);
-            } else if (Econ == 0 && Fred == 0) {
+            } else if (Econ == 4 && Lehman == 1 && Fred == 1) {
+                campaignTrail_temp.questions_json[26] = tunnel(255053);
+            } else if (Econ == 0 && Fred == 0 && Lehman == 0) {
                 campaignTrail_temp.questions_json[26] = tunnel(25417);
             } else if (Econ == 0 && Pelosi == 1) {
                 campaignTrail_temp.questions_json[26] = tunnel(23857);;
