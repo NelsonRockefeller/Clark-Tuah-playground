@@ -2020,7 +2020,7 @@ campaignTrail_temp.questions_json = [
         "pk": 254966,
         "fields": {
             "priority": -7,
-            "description": "This is it; you're facing a Typhon, and it's ready to destroy you. Lehman Brothers is heading toward a total collapse. Their Bankruptcy will only serve to spill oil onto the flames of the economic crisis. Lehman Brothers is bouncing around like a pinball machine, desperate to come to some deal to avoid Bankruptcy. Most of Congress and the public are steadfastly against bailing them out. The Federal Reserve is unwilling to step in on Lehman Brothers' behalf. The Sphinx offers you a riddle of guidance. What will you do, Wes?\n",
+            "description": "This is it; you're facing a Typhon, and it's ready to destroy you. Lehman Brothers is heading toward a total collapse. Their Bankruptcy will only serve to spill oil onto the flames of the economic crisis. Lehman Brothers is bouncing around like a pinball machine, desperate to come to some deal to avoid Bankruptcy. Most of Congress and the public are steadfastly against bailing them out. The Federal Reserve is unwilling to step in on Lehman Brothers' behalf. The Sphinx hands you a riddle of guidance. What will you do, Wes?\n",
             "likelihood": 1
         }
     },
@@ -2029,7 +2029,7 @@ campaignTrail_temp.questions_json = [
         "pk": 254995,
         "fields": {
             "priority": -7,
-            "description": "This is it; you're facing a Typhon, and it's ready to destroy you. Lehman Brothers is heading toward a total collapse. Their Bankruptcy will only serve to spill oil onto the flames of the economic crisis. Lehman Brothers is bouncing around like a pinball machine, desperate to come to some deal to avoid Bankruptcy. Most of Congress and the public are steadfastly against bailing them out. The Federal Reserve is unwilling to step in on Lehman Brothers' behalf. The Sphinx offers you a riddle of guidance. What will you do, Wes?\n",
+            "description": "This is it; you're facing a Typhon, and it's ready to destroy you. Lehman Brothers is heading toward a total collapse. Their Bankruptcy will only serve to spill oil onto the flames of the economic crisis. Lehman Brothers is bouncing around like a pinball machine, desperate to come to some deal to avoid Bankruptcy. Most of Congress and the public are steadfastly against bailing them out. The Federal Reserve is unwilling to step in on Lehman Brothers' behalf. The Sphinx bestows upon you a riddle of guidance. What will you do, Wes?\n",
             "likelihood": 1
         }
     },
@@ -2038,7 +2038,7 @@ campaignTrail_temp.questions_json = [
         "pk": 255024,
         "fields": {
             "priority": -7,
-            "description": "This is it; you're facing a Typhon, and it's ready to destroy you. Lehman Brothers is heading toward a total collapse. Their Bankruptcy will only serve to spill oil onto the flames of the economic crisis. Lehman Brothers is bouncing around like a pinball machine, desperate to come to some deal to avoid Bankruptcy. Most of Congress and the public are steadfastly against bailing them out. The Federal Reserve is unwilling to step in on Lehman Brothers' behalf. The Sphinx offers you a riddle of guidance. What will you do, Wes?\n",
+            "description": "This is it; you're facing a Typhon, and it's ready to destroy you. Lehman Brothers is heading toward a total collapse. Their Bankruptcy will only serve to spill oil onto the flames of the economic crisis. Lehman Brothers is bouncing around like a pinball machine, desperate to come to some deal to avoid Bankruptcy. Most of Congress and the public are steadfastly against bailing them out. The Federal Reserve is unwilling to step in on Lehman Brothers' behalf. The Sphinx grants you a riddle of guidance. What will you do, Wes?\n",
             "likelihood": 1
         }
     },
@@ -56439,7 +56439,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 254967,
             "candidate": 201,
-            "answer_feedback": "Prime Minister Tony Blair is, at this point, nothing but a subordinate, and despite knowing the hell there will be to pay if he allows this deal to follow through, he lacks the backbone to push back. Chancellor Brown sighs as Barclay is allowed to acquire Lehman Brothers, avoiding what would have been a catastrophe, but markets still sink nonetheless."
+            "answer_feedback": "British Prime Minister Tony Blair is, at this point, nothing but a subordinate, and despite knowing the hell there will be to pay if he allows this deal to follow through, he lacks the backbone to push back. Chancellor Brown sighs as Barclay is allowed to acquire Lehman Brothers, avoiding what would have been a catastrophe, but markets still sink nonetheless."
         }
     },
     {
@@ -56457,7 +56457,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 254981,
             "candidate": 201,
-            "answer_feedback": "Without immediate action, Lehman Brothers will inevitably file for bankruptcy, dragging the economy down.\n"
+            "answer_feedback": "Lacking immediate action, Lehman Brothers will inevitably file for bankruptcy, dragging the economy down.\n"
         }
     },
     {
@@ -56475,7 +56475,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 254996,
             "candidate": 201,
-            "answer_feedback": "Prime Minister Tony Blair is, at this point, nothing but a subordinate, and despite knowing the hell there will be to pay if he allows this deal to follow through, he lacks the backbone to push back. Chancellor Brown sighs as Barclay is allowed to acquire Lehman Brothers, avoiding what would have been a catastrophe, but markets still sink nonetheless."
+            "answer_feedback": "Prime Minister Tony Blair is, at this point, nothing but a subordinate, and despite knowing the hell there will be to pay if he allows this deal to follow through, he lacks the backbone to push back. Chancellor Brown sighs as Barclay is allowed to acquire Lehman Brothers, avoiding what would have been a disaster, but markets still sink nonetheless."
         }
     },
     {
@@ -56484,7 +56484,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 255003,
             "candidate": 201,
-            "answer_feedback": "Using 1930s legislation crafted to allow the Fed broad authority to save the falling banks, Secretary Summers travels through the gray area of legal mandates and pulls enough strings to keep Lehman Brothers afloat via auctioning their assets and buying up the rest. Your administration catches extreme flak for corporate handouts, but you've avoided what could have been a catastrophe."
+            "answer_feedback": "Using 1930s legislation crafted to allow the Fed broad authority to save the falling banks, Secretary Summers travels through the gray area of legal mandates and pulls enough strings to keep Lehman Brothers afloat via auctioning their assets and buying up the rest. Your administration catches heavy flak for corporate handouts, but you've avoided what could have been a catastrophe."
         }
     },
     {
@@ -56493,7 +56493,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 255010,
             "candidate": 201,
-            "answer_feedback": "Without immediate action, Lehman Brothers will inevitably file for bankruptcy, dragging the economy down.\n"
+            "answer_feedback": "Lacking immediate action, Lehman Brothers will inevitably file for bankruptcy, dragging the economy down.\n"
         }
     },
     {
@@ -56502,7 +56502,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 255017,
             "candidate": 201,
-            "answer_feedback": "You are at the peak of your political capital, and although many in Congress heckle your efforts, like Senator Bernie Sanders, what he sees as socialism for the rich, you realize is the only way to save the markets. The public backlash is immense, but you are no stranger to such luxury."
+            "answer_feedback": "You are at the peak of your political capital, and although many in Congress heckle your efforts, like Senator Bernie Sanders, what he sees as socialism for the rich, you realize is the only way to save the markets. The public backlash is immense, but you are no stranger to such royalties."
         }
     },
     {
@@ -56520,7 +56520,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 255032,
             "candidate": 201,
-            "answer_feedback": "Using 1930s legislation crafted to allow the Fed broad authority to save the falling banks, Secretary Summers travels through the gray area of legal mandates and pulls enough strings to keep Lehman Brothers afloat via auctioning their assets and buying up the rest. Your administration catches extreme flak for corporate handouts, but you've avoided what could have been a catastrophe."
+            "answer_feedback": "By using 1930s legislation crafted to allow the Fed broad authority to save the falling banks, Secretary Summers travels through the gray area of legal mandates and pulls enough strings to keep Lehman Brothers afloat via auctioning their assets and buying up the rest. Your administration catches extreme flak for corporate handouts, but you've avoided what could have been a catastrophe."
         }
     },
     {
@@ -56529,7 +56529,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 255039,
             "candidate": 201,
-            "answer_feedback": "Without immediate action, Lehman Brothers will inevitably file for bankruptcy, dragging the economy down.\n"
+            "answer_feedback": "Lacking immediate action, Lehman Brothers will inevitably file for bankruptcy, dragging the economy down.\n"
         }
     },
     {
@@ -56538,7 +56538,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 255046,
             "candidate": 201,
-            "answer_feedback": "You are at the peak of your political capital, and although many in Congress heckle your efforts, like Senator Bernie Sanders, what he sees as socialism for the rich, you realize is the only way to save the markets. The public backlash is immense, but you are no stranger to such luxury."
+            "answer_feedback": "You stand at the peak of your political capital, and although many in Congress heckle your efforts, like Senator Bernie Sanders, what he sees as socialism for the rich, you realize is the only way to save the markets. The public backlash is immense, but you are no stranger to such luxury."
         }
     },
     {
