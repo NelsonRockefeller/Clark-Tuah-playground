@@ -2535,7 +2535,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5249,
         "fields": {
             "question": 1072,
-            "description": "I'm not one to dismiss opposing views. If we can bring Senator Sanders on board, we can forge a united front. He advocates for reforms, and we'll ensure that Glass Steagall's principles are upheld. A united coalition is key to our success. \n"
+            "description": "Returning to the status quo is not on the table. Let's take on Senator Sanders' message: Our economy faces unprecedented failures, and there's a class to blame. We are overhauling the banking system and punishing the people who knowingly hitched the taxpayers' dollars to empty shells."
         }
     },
     {
@@ -8439,7 +8439,7 @@ campaignTrail_temp.answers_json = [
         "pk": 254708,
         "fields": {
             "question": 254702,
-            "description": "What Georgia needs now more than ever is the reassurance that the United States will protect them. Get me on a plane; I'll meet with President Saakashvili and swear he has all our support.\n"
+            "description": "Schröder will not ruin this for me; this is my moment. Everything I've warned of is coming to pass, and if we do not act now, we will lose the second Cold War before it has even started. We need a united coalition to stand strong and denounce Putin's aggression!"
         }
     },
     {
@@ -8896,6 +8896,14 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 255113,
             "description": "Returning to the status quo is not on the table. Let's take on Senator Sanders' message: Our economy faces unprecedented failures, and there's a class to blame. We are overhauling the banking system and punishing the people who knowingly hitched the taxpayers' dollars to empty shells."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 255128,
+        "fields": {
+            "question": 9999,
+            "description": "President Royal may have lost her mind, but I have not, and I'm fully prepared to oversee negotiations to bring this conflict to an immediate ceasefire and hopefully end this mess: ring Putin and Saakashvili up to see what we can hammer out."
         }
     }
 ]
@@ -24407,6 +24415,16 @@ campaignTrail_temp.answer_score_global_json = [
             "affected_candidate": 203,
             "global_multiplier": -0.2
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 255130,
+        "fields": {
+            "answer": 255128,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.02
+        }
     }
 ]
 
@@ -29866,9 +29884,19 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 254894,
         "fields": {
             "answer": 22189,
-            "issue": "100",
+            "issue": 100,
             "issue_score": 0.8,
             "issue_importance": 3
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 255131,
+        "fields": {
+            "answer": 255128,
+            "issue": 102,
+            "issue_score": 0.4,
+            "issue_importance": 4
         }
     }
 ]
@@ -49292,7 +49320,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5177,
             "candidate": 201,
-            "answer_feedback": "You gather the wisest economic wizards for a meeting to devise the perfect solution, and while their ideas vary,  a hefty stimulus package is proposed to Congress. When confronted with the chance to act, Blunt spits in your face, calling the package a disgrace to bipartisanship."
+            "answer_feedback": "You gather the wisest economic wizards for a meeting to devise the perfect solution, and while their ideas vary, a hefty stimulus package is proposed to Congress. When confronted with the chance to act, Blunt spits in your face, calling the package a disgrace to bipartisanship."
         }
     },
     {
@@ -49940,7 +49968,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 20969,
             "candidate": 201,
-            "answer_feedback": "You gather the wisest economic wizards for a meeting to devise the perfect solution, and while their ideas vary,  a hefty stimulus package is proposed to Congress. When confronted with the chance to act, Boehner loses his grit to stand in the way and allows the package to fly through."
+            "answer_feedback": "You gather the wisest economic wizards for a meeting to devise the perfect solution, and while their ideas vary, a hefty stimulus package is proposed to Congress. When confronted with the chance to act, Boehner loses his grit to stand in the way and allows the package to fly through."
         }
     },
     {
@@ -54683,7 +54711,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 24739,
             "candidate": 201,
-            "answer_feedback": "Pelosi gulps at the tall task you lay on her desk, but she doesn't second-guess you and finds the grit to push this thing through. You get calls asking how you plan to get Republicans on board for this. You tell them, \"What do we need from Republicans,  we have the majority.\" They argue, but they don't dare to sink you now."
+            "answer_feedback": "Pelosi gulps at the tall task you lay on her desk, but she doesn't second-guess you and finds the grit to push this thing through. You get calls asking how you plan to get Republicans on board for this. You tell them, \"What do we need from Republicans, we have the majority.\" They argue, but they don't dare to sink you now."
         }
     },
     {
@@ -56683,6 +56711,15 @@ campaignTrail_temp.answer_feedback_json = [
             "candidate": 201,
             "answer_feedback": "He and other experts devised a solution to add a Resolution Trust Corporation and a Reconstruction Finance Corporation, among other reforms, to radically crack down on the banks. When it's put to the House floor, it's a battle like no other, but you grasp the party establishment's spine, and the bill is sent to your desk."
         }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 255129,
+        "fields": {
+            "answer": 255128,
+            "candidate": 201,
+            "answer_feedback": "You embark on a journey to save Georgia while framing the conflict as another case of brutal Russian aggression. However, your negotiating skills prove unable to outshine your paranoia on Georgia's behalf, and when the security of joining NATO is put as a nonnegotiable, Putin turns the offer down."
+        }
     }
 ]
 
@@ -57963,7 +58000,7 @@ cyoAdventure = function(a) {
                         9999    // Fake question ID
                     );
                 }
-                if (Nato > 5 && Notroops == 1){
+                if (Nato > 5 && Notroops == 1 && Shroder == 1 || Nato > 5 && Notroops == 1 && Shroder == 0 ){
                     swapAnswers(
                         campaignTrail_temp.answers_json,
                         24149,   // Target question ID
@@ -57990,12 +58027,21 @@ cyoAdventure = function(a) {
                         9999        // Fake question ID
                     );
                 }
-                if (France == 0 || Russia > 1) {
+                if (Sarkozy == 1 && France == 0 || Sarkozy == 1 && Russia > 1) {
                     swapAnswers(
                         campaignTrail_temp.answers_json,
                         24149,       // Target question ID
                         24158,      // Answer PK to disable
                         241582,     // Hidden answer PK to enable
+                        9999        // Fake question ID
+                    );
+                }
+                if (Royal == 1) {
+                    swapAnswers(
+                        campaignTrail_temp.answers_json,
+                        24149,       // Target question ID
+                        24158,      // Answer PK to disable
+                        255128,     // Hidden answer PK to enable
                         9999        // Fake question ID
                     );
                 }
