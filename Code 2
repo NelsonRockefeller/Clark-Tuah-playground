@@ -56942,8 +56942,8 @@ function switcheroo100() {
 }
 function switcheroo101() {
     var id = e.candidate_json.map(p=>p.pk).indexOf(201)
-    e.candidate_json[id].fields.first_name = "The Man Dubbed"
-    e.candidate_json[id].fields.last_name = "Icarus"
+    e.candidate_json[id].fields.first_name = "I"
+    e.candidate_json[id].fields.last_name = "The Sun"
     e.candidate_json[id].fields.color_hex = "#2b3f5a" 
 }
 function switcheroo102() {
@@ -57982,7 +57982,7 @@ cyoAdventure = function(a) {
                         9999    // Fake question ID
                     );
                 }
-                if (Shroder == 1){
+                if (Shroder == 1 && Nato < 3){
                     swapAnswers(
                         campaignTrail_temp.answers_json,
                         25150,       // Target question ID
