@@ -20538,32 +20538,12 @@ campaignTrail_temp.answer_score_global_json = [
     },
     {
         "model": "campaign_trail.answer_score_global",
-        "pk": 23960,
-        "fields": {
-            "answer": 21031,
-            "candidate": 201,
-            "affected_candidate": 200,
-            "global_multiplier": 0.035
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
         "pk": 23961,
         "fields": {
             "answer": 21408,
             "candidate": 201,
             "affected_candidate": 202,
             "global_multiplier": -0.7
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 23962,
-        "fields": {
-            "answer": 21408,
-            "candidate": 201,
-            "affected_candidate": 200,
-            "global_multiplier": 0.035
         }
     },
     {
@@ -20578,32 +20558,12 @@ campaignTrail_temp.answer_score_global_json = [
     },
     {
         "model": "campaign_trail.answer_score_global",
-        "pk": 23964,
-        "fields": {
-            "answer": 21413,
-            "candidate": 201,
-            "affected_candidate": 200,
-            "global_multiplier": 0.035
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
         "pk": 23965,
         "fields": {
             "answer": 21418,
             "candidate": 201,
             "affected_candidate": 202,
             "global_multiplier": -0.7
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 23966,
-        "fields": {
-            "answer": 21418,
-            "candidate": 201,
-            "affected_candidate": 200,
-            "global_multiplier": 0.035
         }
     },
     {
@@ -40605,7 +40565,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1015,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.35
+            "state_multiplier": -0.3
         }
     },
     {
@@ -40990,7 +40950,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1015,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.35
+            "state_multiplier": -0.3
         }
     },
     {
@@ -41375,7 +41335,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1015,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.35
+            "state_multiplier": -0.3
         }
     },
     {
@@ -57703,10 +57663,10 @@ cyoAdventure = function(a) {
 
     // britain
     if (e.noCounter == 10) {
-    if (Nato > 3 && Notroops == 1) {
+    if (Nato > 2 && Notroops == 1) {
         Blair += 1;
     }
-    if (Nato < 4) {
+    if (Nato < 3) {
         Brown += 1;
     }
 }
@@ -58110,7 +58070,7 @@ cyoAdventure = function(a) {
             campaignTrail_temp.questions_json[16] = tunnel(21243); 
         }
         if (Dem == 2 && Neo < 5) {
-            campaignTrail_temp.questions_json[16] = tunnel(254873); 
+            campaignTrail_temp.questions_json[16] = tunnel(254859); 
         }
         else if (Dem == 2) {
             campaignTrail_temp.questions_json[16] = tunnel(21429); 
@@ -59847,7 +59807,12 @@ e.pages.push(`<h3>Esquire: <i>Vice President Lieberman announces he will not run
 <p><b>Announcement:</b> At a press conference this morning, Vice President Lieberman announced his wish to retire from politics and said he would not seek the Republican Vice Presidential nomination again.</u><br><br> "I'm making this decision for my family, and it has absolutely nothing to do with President McCain's reelection bid."</b><br><u> This announcement comes amid President McCain's brutal battle with former Senator Rick Santorum in the Republican primaries. Lieberman has stood as a political liability for the President, holding an approval rating below 29%. Vice President Lieberman made himself an enemy of the Democratic Party after he pushed for the "Internet Kill Switch." Republicans hold very little love for the Vice president, especially after Lieberman pushed for repealing Don't Ask, Don't Tell, which was among the reasons former Senator Santorum launched his primary challenge to President McCain.<br><br>This development has sent a ripple through the Republican Party, and many say it might save President McCain's chances in the Republican Primaries. Whether the President can win the general election remains to be seen.</br><br><b>Esquire Coverage</b></br><span style="color:white;"><u>Santorum's upset win in Iowa, how did we get here?</span></u> (Jan 4th 2012)<br><span style="color:white;"><u>McCain holds the line in New Hampshire</span></u> (Jan 11th 2012)<br><span style="color:white;"><u>McCain barely holds off Santorum in South Carolina, reelection prospects look grim</span></u> (Jan 22nd 2012)<br><span style="color:white;"><u>McCain hits Florida begging for votes</span></u> (Jan 26th 2012)</p>`)
 e.executable.push([4, (() => {e.image = e.image = 'https://i.imgur.com/uF3VTNT.png'})])
 }
-if ( quickstats[0] >= 269 && Neo > 4 && Troops > 0) { // literally 1945
+if ( quickstats[0] >= 269 && Nato < 3 && Russia == 4 && War == 0) { // clark snl meltdown
+e.pages.push(`<h3>SNL Title: <i> White House Game Night Gets Ugly</i></h3>
+<p><b>Setting:</b>The packed Oval Office</p> <p><b>Wesley Clark – </b>The President who recently had a mental breakdown after witnessing Russia conduct a complete takeover of Ukraine and the new Republic of Latgalians People's Republic(breakaway state from Latvia) (played by the host Jon Hamm)</p><p><b>Mary Landrieu – </b>The Skeptical Vice President attempting to smooth over relations(Rebel Wilson)</p><p><b>John Kerry – </b>Soon to be retired Secretary of State, completely done with the administration, one foot out the door(Seth Meyers)</p><p><b>Hillary Clinton – </b>The gossip girl who can't wait to get her foot in the door of this administration and hopefully sideline the vice president (Amy Poehler)</p><p><b>WHITE HOUSE. OVAL OFFICE – NIGHT</b></p><p>(Clark paces back and forth, rubbing his temple and mumbling utter nonsense while Landrieu quietly enters the office)</p><p><b>MARY</b></p><p>Uh… hi. Are you okay… Mr. President?</p><p><b>WESLEY</b>(without looking up)</p><p>Mr. President… yeah, that's me, Mr. Terrible PR-esident, Mr. Failure, Mr. Can't Catch a Break!</p><p><b>Mary</b> (nervous laugh)</p><p>Mr. President, uh.. what are you doing with that box full of guns?</p><p><b>WESLEY</b>(finally looks up)</p><p><b></b></p><p><b></b></p>`)
+e.executable.push([4, (() => {e.image = e.image = 'https://i.imgur.com/yXJ8Fzn.png'})])
+}
+else if ( quickstats[0] >= 269 && Neo > 4 && Troops > 0) { // literally 1945
 e.pages.push(`<h3>The Intercept_: <i>California Supreme Court strikes down President Clark's executive order, stopping the creation of internment camps for "radical Muslims."</i></h3>
 <p><b>By Murtaza Hussain</b></p> <p>President Clark made history weeks ago when he signed Executive Order 13767, which effectively revived internment camps styled after those used in WW2.</p><p>The executive order was crafted in response to the Charlottesville shooting in which eight civilians were killed in what was later labeled a domestic terrorist attack. President Clark justified the decision at a press conference where he stated:</p><p>"If these people are radicalized and they don't support the United States and they are disloyal to the United States as a matter of principle, fine. It's their right and it's our right and obligation to segregate them from the normal community for the duration of the conflict, if someone supported Nazi Germany at the expense of the United States, we didn't say that was freedom of speech, we put him in a camp, they were prisoners of war."</p><p>This was in response to heavy criticism of his decision to remain in Iraq and Afghanistan and expand drone warfare, taking out targets in Pakistan and Syria. With mass protests at home and abroad, he's faced intense scrutiny from many within his own party, who call for the President to back down from this hill.</p><p>Multiple courts across the country immediately questioned the executive order's legality and put it to the test, halting the creation of a single camp. Now, in a 6-1 decision, the teeth of the executive order have essentially been pulled before it could even be put into action.</p><p>The entire debacle has become a political bruise for the President, with most of his party distancing themselves from his decision.</p><p><b>ABOUT</b></p><p><b>SUPPORT US</b></p><p><b>NEWSLETTER</b></p>`)
 e.executable.push([4, (() => {e.image = e.image = 'https://i.imgur.com/yXJ8Fzn.png'})])
