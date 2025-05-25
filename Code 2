@@ -57561,10 +57561,10 @@ cyoAdventure = function(a) {
     }
 
     //rusher? i hardly even know her
-    if (ans == 254775 || ans == 254751 || ans == 254703 || ans == 21552 || ans == 21561 || ans == 21566 || ans == 5237  || ans == 5235  || ans == 21471 || ans == 24150 || ans == 24158 || ans == 22580) {
+    if (ans == 255128 || ans == 241502 || ans == 26669 || ans == 254775 || ans == 254751 || ans == 254703 || ans == 21552 || ans == 21561 || ans == 21566 || ans == 5237  || ans == 5235  || ans == 21471 || ans == 24150 || ans == 24158 || ans == 22580) {
         Russia += 2;
     } 
-    if (ans == 254784  || ans == 254780  || ans == 254760  || ans == 254756  || ans == 254712  || ans == 254708  || ans == 5236  || ans == 24154 || ans == 21536 || ans == 22573 || ans == 20777 || ans == 22863 || ans == 24790) {
+    if (ans == 241582  || ans == 241542  || ans == 241541  || ans == 254784  || ans == 254780  || ans == 254760  || ans == 254756  || ans == 254712  || ans == 254708  || ans == 5236  || ans == 24154 || ans == 21536 || ans == 22573 || ans == 20777 || ans == 22863 || ans == 24790) {
         Russia += 1;
     } 
     if (ans == 22584) {
@@ -58195,7 +58195,7 @@ cyoAdventure = function(a) {
         else if (Dem == 4) {
             campaignTrail_temp.questions_json[19] = tunnel(21633); 
         }
-        if (Dem == 5 && e.player_answers.includes(25094) || Dem == 5 && e.player_answers.includes(254660) || Dem == 5 && e.player_answers.includes(254675)) {
+        if (Dem == 5 && e.player_answers.includes(25094)) {
             campaignTrail_temp.questions_json[19] = tunnel(25106);
             updateHistoricalData(newVpTableHistorical7, newHistHexcolour7, newHistName7, newHistEV7, newHistPV7, newHistPVP7); 
             switcheroo100();
@@ -58465,7 +58465,7 @@ cyoAdventure = function(a) {
             campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/E1Yib8b.png';
             corrr=`\n<h2>Tested, Ready, Now</h2>`;
         }
-        else if (Dem == 5 && e.player_answers.includes(25094) || Dem == 5 && e.player_answers.includes(254660) || Dem == 5 && e.player_answers.includes(254675)) {
+        else if (Dem == 5 && e.player_answers.includes(25094)) {
             campaignTrail_temp.questions_json[22] = tunnel(25189); 
             document.getElementById("header").src = "https://i.imgur.com/1R13wIy.jpg";
             nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#c62c2b";
@@ -58613,7 +58613,7 @@ cyoAdventure = function(a) {
             campaignTrail_temp.questions_json[23] = tunnel(21664);
             }
         } else if (Dem === 5) {
-            if (e.player_answers.includes(25094) || e.player_answers.includes(254660) || e.player_answers.includes(254675)) {
+            if (e.player_answers.includes(25094)) {
                 campaignTrail_temp.questions_json[23] = tunnel(25206);
             } else if (Neo > 9) {
                 campaignTrail_temp.questions_json[23] = tunnel(24570);
@@ -58652,7 +58652,7 @@ cyoAdventure = function(a) {
         else if (Dem == 4) {
             campaignTrail_temp.questions_json[24] = tunnel(21700); 
         }
-        if (Dem == 5 && e.player_answers.includes(25094) || Dem == 5 && e.player_answers.includes(254660) || Dem == 5 && e.player_answers.includes(254675)) {
+        if (Dem == 5 && e.player_answers.includes(25094)) {
             campaignTrail_temp.questions_json[24] = tunnel(25223); 
         }
         else if (Dem == 5) {
@@ -58696,7 +58696,7 @@ cyoAdventure = function(a) {
         else if (Dem == 4) {
             campaignTrail_temp.questions_json[25] = tunnel(21794); 
         }
-        if (Dem == 5 && e.player_answers.includes(25094) || Dem == 5 && e.player_answers.includes(254660) || Dem == 5 && e.player_answers.includes(254675)) {
+        if (Dem == 5 && e.player_answers.includes(25094)) {
             campaignTrail_temp.questions_json[25] = tunnel(25240); 
         }
         else if (Dem == 5 && Neo > 9 && e.player_answers.includes(24571)) {
@@ -58742,7 +58742,7 @@ cyoAdventure = function(a) {
         }
         // Second set of conditions (Econ-based selection for question 27)
         else {
-            if (Dem == 5 && e.player_answers.includes(25094) || Dem == 5 && e.player_answers.includes(254660) || Dem == 5 && e.player_answers.includes(254675)) {
+            if (Dem == 5 && e.player_answers.includes(25094)) {
                 campaignTrail_temp.questions_json[26] = tunnel(25257);
             } else if (Econ == 4 && Lehman == 1 && Fred == 1) {
                 campaignTrail_temp.questions_json[26] = tunnel(255053);
@@ -58799,7 +58799,7 @@ cyoAdventure = function(a) {
         else if (Dem == 4) {
             campaignTrail_temp.questions_json[27] = tunnel(22936); 
         }
-        else if (Dem == 5 && e.player_answers.includes(25094) || Dem == 5 && e.player_answers.includes(254660) || Dem == 5 && e.player_answers.includes(254675)) {
+        else if (Dem == 5 && e.player_answers.includes(25094)) {
             campaignTrail_temp.questions_json[27] = tunnel(25269); 
         }
         else if (Dem == 5) {
@@ -59809,8 +59809,8 @@ e.executable.push([4, (() => {e.image = e.image = 'https://i.imgur.com/uF3VTNT.p
 }
 if ( quickstats[0] >= 269 && Nato < 3 && Russia == 4 && War == 0) { // clark snl meltdown
 e.pages.push(`<h3>SNL Title: <i> White House Game Night Gets Ugly</i></h3>
-<p><b>Setting:</b>The packed Oval Office</p> <p><b>Wesley Clark – </b>The President who recently had a mental breakdown after witnessing Russia conduct a complete takeover of Ukraine and the new Republic of Latgalians People's Republic(breakaway state from Latvia) (played by the host Jon Hamm)</p><p><b>Mary Landrieu – </b>The Skeptical Vice President attempting to smooth over relations(Rebel Wilson)</p><p><b>John Kerry – </b>Soon to be retired Secretary of State, completely done with the administration, one foot out the door(Seth Meyers)</p><p><b>Hillary Clinton – </b>The gossip girl who can't wait to get her foot in the door of this administration and hopefully sideline the vice president (Amy Poehler)</p><p><b>WHITE HOUSE. OVAL OFFICE – NIGHT</b></p><p>(Clark paces back and forth, rubbing his temple and mumbling utter nonsense while Landrieu quietly enters the office)</p><p><b>MARY</b></p><p>Uh… hi. Are you okay… Mr. President?</p><p><b>WESLEY</b>(without looking up)</p><p>Mr. President… yeah, that's me, Mr. Terrible PR-esident, Mr. Failure, Mr. Can't Catch a Break!</p><p><b>Mary</b> (nervous laugh)</p><p>Mr. President, uh.. what are you doing with that box full of guns?</p><p><b>WESLEY</b>(finally looks up)</p><p><b></b></p><p><b></b></p>`)
-e.executable.push([4, (() => {e.image = e.image = 'https://i.imgur.com/yXJ8Fzn.png'})])
+<p><b>Title: White House Game Night Gets UglySetting: </b>The packed Oval Office</p><p><b>Wesley Clark – </b>The President who recently had a mental breakdown after witnessing Russia conduct a complete takeover of Ukraine and the new Republic of Latgalians People's Republic(breakaway state from Latvia) (played by the host Jon Hamm)</p><p><b>Mary Landrieu – </b>The Skeptical Vice President attempting to smooth over relations(Rebel Wilson)</p><p><b>John Kerry – </b>Soon to be retired Secretary of State, completely done with the administration, one foot out the door(Seth Meyers)</p><p><b>Hillary Clinton – </b>The gossip girl who can't wait to get her foot in the door of this administration and hopefully sideline the vice president (Amy Poehler)</p><p><b>—</b></p><p><b>WHITE HOUSE. OVAL OFFICE – NIGHT</b></p><p>(Clark paces back and forth, rubbing his temple and mumbling utter nonsense while Landrieu quietly enters the office)</p><p><b>MARY</b></p><p>Uh… hi. Are you okay… Mr. President?</p><p><b>WESLEY </b>(without looking up)</p><p>Mr. President… yeah, that's me, Mr. Terrible PR-esident, Mr. Failure, Mr. Can't Catch a Break!</p><p><b>Mary</b> (nervous laugh)</p><p>Mr. President, uh.. what are you doing with that box full of guns?</p> <p><b> WESLEY </b>(finally looks up)</p><p><b>MARY</b></p><p>Sir, are those real guns in there?</p><p>(Wesley pulls a real fucking AK-47 out of the box, holding it like a trophy.)</p><p><b>WESLEY </b></p><p>Well, yes, you see, I couldn't get my hands on Laser Tag equipment in time, so I just took a trip down to Texas. And oh, you know the kids down there, they sell guns like they sell lemonade.</p><p>(Secretary John Kerry enters the room, and Clark jokingly shoots at the floor in front of him)</p><p>JOHN</b> (startled)</p><p>What? What the hell are you doing?</p><p>MARY </b>(eyes wide)</p><p>Mr. President, you should put the weapon down; that's dangerous.</p><p>(Hillary Clinton walks forward from the wall behind them, revealing herself covered in makeup of the same color as the wall.)</p><p><b>HILLARY</b></p><p>Oh, don't be such a stiff, Mary. If I were still living in the South, I'd have my hands on guns like these all the time. I'll always miss the days using Bill for target practice.</p><p><b>WESLEY </b>(smirking)</p><p>See, she gets it, Mary! You better start following the new groove around here, or I'll consider endorsing her in 2012 haha.</p><p>(Dramatic thunder sound effect. Lights flicker.)</p><p><b>MARY</b></p><p>Yes sir! Will do!</p><p>(Mary grabs a gun from the box and shoots at John, nearly grazing his skin)</p><p><b>JOHN</b></p><p>Ah! Dammit, Mary, that could have killed me!</p><p><b>HILLARY </b>(rolls her eyes)</p><p>Oh, John, your career has been dead for years. What will your actual death do to change the world?</p><p>(Just then, the doorbell dings..)</p><p><b>WESLEY </b></p><p>Oh, that must be the Prime Minister and the rest of my cabinet. Hopefully, they got the memo for this meeting.</p><p>(The four begin putting on the bulletproof vests and other equipment)</p><p><b>Mary</b></p><p>Are these vests safe to shoot at?</p><p><b>HILLARY</b></p><p>Let's test it!</p><p>(Hillary shoots Mary in the dead center of her chest)</p><p><b>MARY </b>(groans in pain on the floor)</p><p>Ow! Are you trying to kill me?</p><p><b>HILLARY</b></p><p>I might be~</p><p><b>WESLEY </b>(calmly)</p><p>Alright, get ready, folks, 'cause I'm not holding back on any of you.</p><p><b>---</b></p><p><b>GUNSHOT CUT TO BLACK.</b></p><p><b>[TITLE CARD: "White House Game Night Gets Ugly"]</b></p><p><b>[SCENE CONTEXT: Shots fire from within the White House allegedly fired by President Clark, letting off steam after the news that Russia successfully annexed both Belarus and the breakaway state from the Republic of Latvia]</b></p>`)
+e.executable.push([4, (() => {e.image = e.image = 'https://i.imgur.com/SIYHxJU.png'})])
 }
 else if ( quickstats[0] >= 269 && Neo > 4 && Troops > 0) { // literally 1945
 e.pages.push(`<h3>The Intercept_: <i>California Supreme Court strikes down President Clark's executive order, stopping the creation of internment camps for "radical Muslims."</i></h3>
