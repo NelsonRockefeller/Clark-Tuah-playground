@@ -1633,7 +1633,7 @@ campaignTrail_temp.questions_json = [
         "pk": 24789,
         "fields": {
             "priority": 0,
-            "description": "You've returned home to Washington after a round trip through states ripped to shreds by Hurricane Katrina, and you're informed that House Majority Leader Tom DeLay has been indicted and resigned after much public pressure. With his resignation, the people's trust in the Republican Congress has gone. Pelosi wanted to meet with you to review a domestic push, but you've looked abroad. NATO is disunited and in need of a rallying flag. How will you reunite the West?",
+            "description": "You've returned home to Washington after a round trip through states ripped to shreds by Hurricane Katrina, and you're informed that House Majority Leader Tom DeLay has been indicted and resigned after much public pressure. With his resignation, the people's trust in the Republican Congress has gone. Pelosi wanted to meet with you to review a domestic push, but you've looked abroad. NATO is disunited and in need of a rallying flag. How will you reunite the West?",
             "likelihood": 1
         }
     },
@@ -2343,7 +2343,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5220,
         "fields": {
             "question": 1065,
-            "description": "It's clear that we can't play this issue in Congress; they aren't going for it, and I can't rely on my party here. That does not mean we cannot try. We will get at this with the powers of the executive. "
+            "description": "It's clear that we can't play this issue in Congress; they aren't going for it, and I can't rely on my party here. That does not mean we cannot try. We will get at this with the powers of the executive. "
         }
     },
     {
@@ -54002,7 +54002,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 23799,
             "candidate": 201,
-            "answer_feedback": "Demanding such massive reforms of a tired congress was a disaster waiting to happen. The bill soon dies in gridlock, to your dismay. You're the President, and these ungrateful bastards think they can step out of line. \n"
+            "answer_feedback": "Demanding such massive reforms of a tired congress was a disaster waiting to happen. The bill soon dies in gridlock, to your dismay. You're the President, and these ungrateful bastards think they can step out of line. \n"
         }
     },
     {
@@ -57540,7 +57540,7 @@ cyoAdventure = function(a) {
     }
 
     // Domestic Agenda passed tracker
-    if (ans == 5148 || ans == 22670 || ans == 22460 || ans == 20890 || ans == 22475 || ans == 22479 || ans == 22483 || ans == 22490 || ans == 23781 || ans == 23772 || ans == 23790 || ans == 5155 || ans == 5149 || ans == 20934 || ans == 20943 || ans == 24635 || ans == 24700 || ans == 24704 || ans == 24713 || ans == 24726 || ans == 24730 || ans == 24734 || ans == 24794) {
+    if (ans == 255248 || ans == 5148 || ans == 22670 || ans == 22460 || ans == 20890 || ans == 22475 || ans == 22479 || ans == 22483 || ans == 22490 || ans == 23781 || ans == 23772 || ans == 23790 || ans == 5155 || ans == 5149 || ans == 20934 || ans == 20943 || ans == 24635 || ans == 24700 || ans == 24704 || ans == 24713 || ans == 24726 || ans == 24730 || ans == 24734 || ans == 24794) {
         Agenda += 1;
     }
 
@@ -57575,12 +57575,12 @@ cyoAdventure = function(a) {
     }
 
     //Boner is your speaker
-    if (ans == 20899 || ans == 20906 || ans == 20902) {
+    if (ans == 20899 || ans == 20906 || ans == 20902 || ans == 255228 || ans == 255232 || ans == 255236) {
         Boner += 1;
     }
 
     //girlboss Pelosi is your speaker
-    if (ans == 22453 || ans == 22456 || ans == 22460) {
+    if (ans == 22453 || ans == 22456 || ans == 22460 || ans == 255240 || ans == 255244 || ans == 255248) {
         Pelosi += 1;
     }
     
@@ -57600,7 +57600,7 @@ cyoAdventure = function(a) {
     }
 
     //fail to pass your gay pet project
-    if(ans == 20777 || ans == 20906 ){
+    if(ans == 20777 || ans == 20906 || ans == 255223 || ans == 255236 ){
         Dumb += 1;
     }
 
@@ -57843,10 +57843,19 @@ cyoAdventure = function(a) {
 
     /// wins determining who yo speaker is
     if (e.noCounter == 7) {
-        if (Win > 5) {
+        if (Win > 7 && Promise == 1 || Win > 7 && Promise == 3 ) {
+            campaignTrail_temp.questions_json[7] = tunnel(255239); 
+        }
+        else if (Win > 5 && Promise == 1 || Win > 5 && Promise == 3 ) {
+            campaignTrail_temp.questions_json[7] = tunnel(255227); 
+        }
+        else if (Win < 6 && Promise == 1 || Win < 6 && Promise == 3 ) {
+            campaignTrail_temp.questions_json[7] = tunnel(255215); 
+        }
+        else if (Win > 5) {
             campaignTrail_temp.questions_json[7] = tunnel(20898); 
         }
-        if (Win > 7) {
+        else if (Win > 7) {
             campaignTrail_temp.questions_json[7] = tunnel(22452); 
         }
     }
@@ -58069,7 +58078,13 @@ cyoAdventure = function(a) {
         else if (Dem == 1) {
             campaignTrail_temp.questions_json[16] = tunnel(21243); 
         }
-        if (Dem == 2 && Neo < 5) {
+        if (Dem == 2 && (e.player_answers.includes(24734)) {
+            campaignTrail_temp.questions_json[16] = tunnel(255292); 
+        }
+        else if (Dem == 2 && (e.player_answers.includes(22483)) {
+            campaignTrail_temp.questions_json[16] = tunnel(255275); 
+        }
+        else if (Dem == 2 && Neo < 5) {
             campaignTrail_temp.questions_json[16] = tunnel(254859); 
         }
         else if (Dem == 2) {
