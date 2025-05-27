@@ -1633,7 +1633,7 @@ campaignTrail_temp.questions_json = [
         "pk": 24789,
         "fields": {
             "priority": 0,
-            "description": "You've returned home to Washington after a round trip through states ripped to shreds by Hurricane Katrina, and you're informed that House Majority Leader Tom DeLay has been indicted and resigned after much public pressure. With his resignation, the people's trust in the Republican Congress has gone. Pelosi wanted to meet with you to review a domestic push, but you've looked abroad. NATO is disunited and in need of a rallying flag. How will you reunite the West?",
+            "description": "You've returned home to Washington after a round trip through states ripped to shreds by Hurricane Katrina, and you're informed that House Majority Leader Tom DeLay has been indicted and resigned after much public pressure. With his resignation, the people's trust in the Republican Congress has gone. Pelosi wanted to meet with you to review a domestic push, but you've looked abroad. NATO is disunited and in need of a rallying flag. How will you reunite the West?",
             "likelihood": 1
         }
     },
@@ -2388,7 +2388,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5220,
         "fields": {
             "question": 1065,
-            "description": "It's clear that we can't play this issue in Congress; they aren't going for it, and I can't rely on my party here. That does not mean we cannot try. We will get at this with the powers of the executive. "
+            "description": "It's clear that we can't play this issue in Congress; they aren't going for it, and I can't rely on my party here. That does not mean we cannot try. We will get at this with the powers of the executive. "
         }
     },
     {
@@ -55086,7 +55086,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 23799,
             "candidate": 201,
-            "answer_feedback": "Demanding such massive reforms of a tired congress was a disaster waiting to happen. The bill soon dies in gridlock, to your dismay. You're the President, and these ungrateful bastards think they can step out of line. \n"
+            "answer_feedback": "Demanding such massive reforms of a tired congress was a disaster waiting to happen. The bill soon dies in gridlock, to your dismay. You're the President, and these ungrateful bastards think they can step out of line. \n"
         }
     },
     {
@@ -58792,7 +58792,7 @@ cyoAdventure = function(a) {
     if (ans == 255128 || ans == 241502 || ans == 26669 || ans == 254775 || ans == 254751 || ans == 254703 || ans == 21552 || ans == 21561 || ans == 21566 || ans == 5237  || ans == 5235  || ans == 21471 || ans == 24150 || ans == 24158 || ans == 22580) {
         Russia += 2;
     } 
-    if (ans == 241582  || ans == 241542  || ans == 241541  || ans == 254784  || ans == 254780  || ans == 254760  || ans == 254756  || ans == 254712  || ans == 254708  || ans == 5236  || ans == 24154 || ans == 21536 || ans == 22573 || ans == 20777 || ans == 22863 || ans == 24790) {
+    if (ans == 254675  || ans == 254660  || ans == 241582  || ans == 241542  || ans == 241541  || ans == 254784  || ans == 254780  || ans == 254760  || ans == 254756  || ans == 254712  || ans == 254708  || ans == 5236  || ans == 24154 || ans == 21536 || ans == 22573 || ans == 20777 || ans == 22863 || ans == 24790) {
         Russia += 1;
     } 
     if (ans == 22584) {
@@ -59080,11 +59080,11 @@ cyoAdventure = function(a) {
         else if (Win < 6 && Promise == 1 || Win < 6 && Promise == 3 ) {
             campaignTrail_temp.questions_json[7] = tunnel(255215); 
         }
-        else if (Win > 5) {
-            campaignTrail_temp.questions_json[7] = tunnel(20898); 
-        }
         else if (Win > 7) {
             campaignTrail_temp.questions_json[7] = tunnel(22452); 
+        }
+        else if (Win > 5) {
+            campaignTrail_temp.questions_json[7] = tunnel(20898); 
         }
     }
 
@@ -60477,7 +60477,7 @@ const clarkWin = new Playlist();
 clarkWin.addSong(clarkWinSong);
 changePlaylist(clarkWin);
 }
-else if (quickstats[0] <= 269) { // ww3 loss - 
+else if (quickstats[0] <= 181) { // ww3 loss - 
 e.pages.push(`<h3><i>Icarus</i></h3>
           <p><b>Falling—it was agony.</b></p> <p><b>A rapid plunge into the abyss, and not one hand reached out to save him. Icarus could only imagine how he became the protagonist of such a tale. His once-celebrated achievements quickly dissolved into oblivion, while critics from every corner emerged to seize the pen writing this story.</b></p> <p><b>Those who once lifted him now parrot the same words: he flew too close to the sun. As if ambition alone explained his fall—as if striving too far, too fast made him some reckless overachiever, doomed by pride. They hope to sidestep the wrath of his defeat by washing their hands of guilt as if they are innocent victims. His loyal second hand began to fly as far away from him as she could.</b></p> <p><b>Cowards, all of them.</b></p> <p><b>The painful truth is that they will likely get their wish and find future opportunities to squander. Outsiders drew their conclusions. They say Icarus was too cautious and too wasteful by squandering rare opportunities and charging into battle, lacking those on the ground to cheer him on. They argue that he might have triumphed if he had pursued bolder conquests and chased grander spoils. It was a tug of war between those wanting more and those fearing it was too much.</b></p> <p><b>The prevailing narrative concluded that Icarus failed to please either. The game was over, and as the figure of Icarus fell to the floor Clark's vision snapped to reality.</b></p> <p><b>As his office was swiftly dissected for his successor to paint anew, Clark looked out toward the streets of Washington. Unsure whether to feel regret or believe that he did everything he could. He turned away, hoping to move on from this mess. The diorama representing his journey was soon tossed in a box and shipped alongside him.</b></p> <p><b>His story had concluded, and Clark no longer cared to ponder alternate tales. He had lost the war. And soldiers on the losing side are rarely remembered as anything more.</b></p>`)
           // idk how to add playlists but to do that you create a new playlist in code1 with just that song and put changePlaylist(nameOfYourEndingPlaylist) right here
