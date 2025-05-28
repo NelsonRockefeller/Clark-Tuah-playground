@@ -2156,7 +2156,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5143,
         "fields": {
             "question": 1043,
-            "description": "If the Republican Congress wants to shoot itself in the foot, I see no reason to stop them, make our objections loud, but let them vote however they please.\n"
+            "description": "During my service, we were taught not to stop your enemy when he's making a mistake. I see no reason to get involved, make our objections loud, and let them vote however they please.\n"
         }
     },
     {
@@ -50611,7 +50611,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5143,
             "candidate": 201,
-            "answer_feedback": "The media picks up your opposition, but the Senate votes in favor of a resolution by voice vote, disguising party dissent. Soon, Republicans came to regret the decision as public opinion turned firmly against congressional intervention. Luckily, Terri Schiavo's tube is removed, and the autopsy finds irreversible damage to her brain.\n"
+            "answer_feedback": "The media picks up your opposition, but the Senate votes in favor of a resolution by voice vote, disguising party dissent. Soon, Republicans came to regret the decision as public opinion turned firmly against congressional intervention, and the public dragged them for it. Luckily, Terri Schiavo's tube was eventually removed, and the autopsy found irreversible damage to her brain.\n"
         }
     },
     {
@@ -50629,7 +50629,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5145,
             "candidate": 201,
-            "answer_feedback": "Hastert, the fat bastard, reigns in plenty of conservative Democrats to pass the house, and while the bill dies in the senate, the points Republicans have scored with their base make up for the loss. Conservative media can't get enough of it."
+            "answer_feedback": "Hastert, the fat bastard, reigns in plenty of conservative Democrats to pass the house, and while the bill dies in the senate, the points Republicans have scored with their base make up for the loss. Conservative media can't get enough of it, but at least you've stuck by your agenda."
         }
     },
     {
@@ -58750,7 +58750,7 @@ cyoAdventure = function(a) {
     if (ans == 22940) {
         Win += 3;
     }
-    if (ans == 23192 || ans == 22622 || ans == 22632) {
+    if (ans == 5144 || ans == 23192 || ans == 22622 || ans == 22632) {
         Win -= 1;
     }
     if (ans == 23202) {
@@ -58758,7 +58758,7 @@ cyoAdventure = function(a) {
     }
 
     // Domestic Agenda passed tracker
-    if (ans == 255248 || ans == 5148 || ans == 22670 || ans == 22460 || ans == 20890 || ans == 22475 || ans == 22479 || ans == 22483 || ans == 22490 || ans == 23781 || ans == 23772 || ans == 23790 || ans == 5155 || ans == 5149 || ans == 20934 || ans == 20943 || ans == 24635 || ans == 24700 || ans == 24704 || ans == 24713 || ans == 24726 || ans == 24730 || ans == 24734 || ans == 24794) {
+    if (ans == 5144 || ans == 5145 || ans == 255248 || ans == 5148 || ans == 22670 || ans == 22460 || ans == 20890 || ans == 22475 || ans == 22479 || ans == 22483 || ans == 22490 || ans == 23781 || ans == 23772 || ans == 23790 || ans == 5155 || ans == 5149 || ans == 20934 || ans == 20943 || ans == 24635 || ans == 24700 || ans == 24704 || ans == 24713 || ans == 24726 || ans == 24730 || ans == 24734 || ans == 24794) {
         Agenda += 1;
     }
 
@@ -58771,7 +58771,7 @@ cyoAdventure = function(a) {
     }
 
     //neoliberling
-    if (ans == 255232 || ans == 255244 || ans == 255219 || ans == 254657 || ans == 254653 || ans == 254668 || ans == 254672 || ans == 20946 || ans == 24797 || ans == 22853 || ans == 20773 || ans == 20902 || ans == 22456 || ans == 22460 || ans == 22765 || ans == 24052 || ans == 24056 || ans == 24170 || ans == 5149 || ans == 22035 || ans == 22039 || ans == 24035 || ans == 24039) {
+    if (ans == 5143 || ans == 255232 || ans == 255244 || ans == 255219 || ans == 254657 || ans == 254653 || ans == 254668 || ans == 254672 || ans == 20946 || ans == 24797 || ans == 22853 || ans == 20773 || ans == 20902 || ans == 22456 || ans == 22460 || ans == 22765 || ans == 24052 || ans == 24056 || ans == 24170 || ans == 5149 || ans == 22035 || ans == 22039 || ans == 24035 || ans == 24039) {
         Neo += 1;
     } 
     if (ans == 254675 || ans == 254660 || ans == 22768 || ans == 20747 || ans == 5262 || ans == 22761) {
