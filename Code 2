@@ -1633,7 +1633,7 @@ campaignTrail_temp.questions_json = [
         "pk": 24789,
         "fields": {
             "priority": 0,
-            "description": "You've returned home to Washington after a round trip through states ripped to shreds by Hurricane Katrina, and you're informed that House Majority Leader Tom DeLay has been indicted and resigned after much public pressure. With his resignation, the people's trust in the Republican Congress has gone. Pelosi wanted to meet with you to review a domestic push, but you've looked abroad. NATO is disunited and in need of a rallying flag. How will you reunite the West?",
+            "description": "You've returned home to Washington after a round trip through states ripped to shreds by Hurricane Katrina, and you're informed that House Majority Leader Tom DeLay has been indicted and resigned after much public pressure. With his resignation, the people's trust in the Republican Congress has gone. Pelosi wanted to meet with you to review a domestic push, but you've looked abroad. NATO is disunited and in need of a rallying flag. How will you reunite the West?",
             "likelihood": 1
         }
     },
@@ -2056,7 +2056,7 @@ campaignTrail_temp.questions_json = [
         "pk": 255068,
         "fields": {
             "priority": 0,
-            "description": "To quell the wrath of Lehman Brothers failure, you cast much of your political capital to flames, hoping to spare America from its collapse. As Secretary Summers' feared saving Wall Street has enabled much of Congress to duck their head back in the sand. Without a significant crash resistance to your calls for a bailout, you have made garnering support for a heavy package asinine. However, the plot of this extravagant tale isn't entirely written until you drop the pen. How will you venture through this impasse?",
+            "description": "To quell the wrath of Lehman Brothers' failure, you cast much of your political capital to the flames, hoping to spare America from its collapse. As Secretary Summers feared, saving Wall Street has enabled much of Congress to bury their head back in the sand. Without significant market persuasion, your calls for a bailout have fallen on deaf ears. However, the plot of this extravagant tale isn't entirely written until you drop the pen. How will you venture through this impasse?",
             "likelihood": 1
         }
     },
@@ -2065,7 +2065,7 @@ campaignTrail_temp.questions_json = [
         "pk": 255083,
         "fields": {
             "priority": 0,
-            "description": "To quell the wrath of Lehman Brothers failure, you cast much of your political capital to flames, hoping to spare America from its collapse. As Secretary Summers' feared saving Wall Street has enabled much of Congress to duck their head back in the sand. Without a significant crash resistance to your calls for a bailout, you have made garnering support for a heavy package asinine. However, the plot of this extravagant tale isn't entirely written until you drop the pen. How will you venture through this impasse?",
+            "description": "To quell the wrath of Lehman Brothers' failure, you cast much of your political capital to the flames, hoping to spare America from its collapse. As Secretary Summers feared, saving Wall Street has enabled much of Congress to bury their head back in the sand. Without significant market persuasion, your calls for a bailout have fallen on deaf ears. However, the plot of this extravagant tale isn't entirely written until you drop the pen. How will you venture through this impasse?",
             "likelihood": 1
         }
     },
@@ -2074,7 +2074,7 @@ campaignTrail_temp.questions_json = [
         "pk": 255098,
         "fields": {
             "priority": 0,
-            "description": "To quell the wrath of Lehman Brothers failure, you cast much of your political capital to flames, hoping to spare America from its collapse. As Secretary Summers' feared saving Wall Street has enabled much of Congress to duck their head back in the sand. Without a significant crash resistance to your calls for a bailout, you have made garnering support for a heavy package asinine. However, the plot of this extravagant tale isn't entirely written until you drop the pen. How will you venture through this impasse?",
+            "description": "To quell the wrath of Lehman Brothers' failure, you cast much of your political capital to the flames, hoping to spare America from its collapse. As Secretary Summers feared, saving Wall Street has enabled much of Congress to bury their head back in the sand. Without significant market persuasion, your calls for a bailout have fallen on deaf ears. However, the plot of this extravagant tale isn't entirely written until you drop the pen. How will you venture through this impasse?",
             "likelihood": 1
         }
     },
@@ -2083,7 +2083,7 @@ campaignTrail_temp.questions_json = [
         "pk": 255113,
         "fields": {
             "priority": 0,
-            "description": "To quell the wrath of Lehman Brothers failure, you cast much of your political capital to flames, hoping to spare America from its collapse. As Secretary Summers' feared saving Wall Street has enabled much of Congress to duck their head back in the sand. Without a significant crash resistance to your calls for a bailout, you have made garnering support for a heavy package asinine. However, the plot of this extravagant tale isn't entirely written until you drop the pen. How will you venture through this impasse?",
+            "description": "To quell the wrath of Lehman Brothers' failure, you cast much of your political capital to the flames, hoping to spare America from its collapse. As Secretary Summers feared, saving Wall Street has enabled much of Congress to bury their head back in the sand. Without significant market persuasion, your calls for a bailout have fallen on deaf ears. However, the plot of this extravagant tale isn't entirely written until you drop the pen. How will you venture through this impasse?",
             "likelihood": 1
         }
     },
@@ -2388,7 +2388,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5220,
         "fields": {
             "question": 1065,
-            "description": "It's clear that we can't play this issue in Congress; they aren't going for it, and I can't rely on my party here. That does not mean we cannot try. We will get at this with the powers of the executive. "
+            "description": "It's clear that we can't play this issue in Congress; they aren't going for it, and I can't rely on my party here. That does not mean we cannot try. We will get at this with the powers of the executive. "
         }
     },
     {
@@ -9833,7 +9833,7 @@ campaignTrail_temp.issues_json = [
             "stance_desc_4": 0,
             "stance_5": "Civil Unions",
             "stance_desc_5": 0,
-            "stance_6": "Repeal DOMA",
+            "stance_6": "Civil Unions",
             "stance_desc_6": 0,
             "stance_7": "Freedom to Marry!",
             "stance_desc_7": 0,
@@ -18676,7 +18676,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 22706,
             "candidate": 201,
             "affected_candidate": 200,
-            "global_multiplier": -0.07
+            "global_multiplier": -0.03
         }
     },
     {
@@ -18696,7 +18696,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 22710,
             "candidate": 201,
             "affected_candidate": 200,
-            "global_multiplier": -0.04
+            "global_multiplier": -0.02
         }
     },
     {
@@ -21446,7 +21446,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 24571,
             "candidate": 201,
             "affected_candidate": 200,
-            "global_multiplier": -0.07
+            "global_multiplier": -0.01
         }
     },
     {
@@ -21466,7 +21466,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 24575,
             "candidate": 201,
             "affected_candidate": 200,
-            "global_multiplier": -0.07
+            "global_multiplier": -0.03
         }
     },
     {
@@ -21486,7 +21486,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 24579,
             "candidate": 201,
             "affected_candidate": 200,
-            "global_multiplier": -0.04
+            "global_multiplier": -0.03
         }
     },
     {
@@ -24796,7 +24796,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 255308,
             "candidate": 201,
             "affected_candidate": 200,
-            "global_multiplier": -0.045
+            "global_multiplier": -0.035
         }
     }
 ]
@@ -30348,8 +30348,8 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 255308,
             "issue": "100",
-            "issue_score": 0.6,
-            "issue_importance": 4
+            "issue_score": 0.9,
+            "issue_importance": 7
         }
     }
 ]
@@ -40890,7 +40890,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1002,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.15
+            "state_multiplier": -0.2
         }
     },
     {
@@ -40912,7 +40912,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1005,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.1
+            "state_multiplier": -0.05
         }
     },
     {
@@ -40978,7 +40978,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1015,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.3
+            "state_multiplier": -0.25
         }
     },
     {
@@ -41154,7 +41154,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1035,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.3
+            "state_multiplier": -0.25
         }
     },
     {
@@ -41275,7 +41275,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1002,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.15
+            "state_multiplier": -0.2
         }
     },
     {
@@ -41297,7 +41297,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1005,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.1
+            "state_multiplier": -0.05
         }
     },
     {
@@ -41363,7 +41363,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1015,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.3
+            "state_multiplier": -0.25
         }
     },
     {
@@ -41539,7 +41539,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1035,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.3
+            "state_multiplier": -0.5
         }
     },
     {
@@ -41660,7 +41660,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1002,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.15
+            "state_multiplier": -0.2
         }
     },
     {
@@ -41682,7 +41682,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1005,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.1
+            "state_multiplier": -0.05
         }
     },
     {
@@ -41748,7 +41748,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1015,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.3
+            "state_multiplier": -0.25
         }
     },
     {
@@ -41924,7 +41924,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1035,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.3
+            "state_multiplier": -0.25
         }
     },
     {
@@ -49976,7 +49976,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1005,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.03
+            "state_multiplier": -0.01
         }
     },
     {
@@ -49987,7 +49987,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1008,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": 0.03
+            "state_multiplier": 0.01
         }
     },
     {
@@ -49998,7 +49998,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1037,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.03
+            "state_multiplier": -0.01
         }
     },
     {
@@ -50009,7 +50009,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1045,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.03
+            "state_multiplier": -0.005
         }
     },
     {
@@ -50020,7 +50020,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1008,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.03
+            "state_multiplier": -0.01
         }
     },
     {
@@ -50031,7 +50031,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1049,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.03
+            "state_multiplier": -0.01
         }
     },
     {
@@ -50042,7 +50042,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1003,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.03
+            "state_multiplier": -0.01
         }
     },
     {
@@ -50053,7 +50053,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1017,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.03
+            "state_multiplier": -0.01
         }
     },
     {
@@ -50135,24 +50135,13 @@ campaignTrail_temp.answer_score_state_json = [
     },
     {
         "model": "campaign_trail.answer_score_state",
-        "pk": 255189,
-        "fields": {
-            "answer": 22475,
-            "state": 1037,
-            "candidate": 201,
-            "affected_candidate": 200,
-            "state_multiplier": -0.04
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
         "pk": 255190,
         "fields": {
             "answer": 22475,
             "state": 1005,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.04
+            "state_multiplier": -0.015
         }
     },
     {
@@ -50174,7 +50163,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1045,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.035
+            "state_multiplier": -0.02
         }
     },
     {
@@ -50196,7 +50185,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1049,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.032
+            "state_multiplier": -0.02
         }
     },
     {
@@ -50229,7 +50218,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1005,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.03
+            "state_multiplier": -0.015
         }
     },
     {
@@ -50240,7 +50229,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1045,
             "candidate": 200,
             "affected_candidate": 200,
-            "state_multiplier": 0.035
+            "state_multiplier": 0.015
         }
     },
     {
@@ -50262,7 +50251,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1005,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.035
+            "state_multiplier": -0.015
         }
     },
     {
@@ -50284,7 +50273,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1045,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.035
+            "state_multiplier": -0.015
         }
     },
     {
@@ -50317,7 +50306,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1005,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.035
+            "state_multiplier": -0.015
         }
     },
     {
@@ -50328,7 +50317,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1045,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.045
+            "state_multiplier": -0.02
         }
     },
     {
@@ -50515,7 +50504,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1003,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.04
+            "state_multiplier": -0.02
         }
     },
     {
@@ -50526,7 +50515,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1017,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.04
+            "state_multiplier": -0.02
         }
     },
     {
@@ -50559,7 +50548,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1003,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.04
+            "state_multiplier": -0.02
         }
     },
     {
@@ -50570,7 +50559,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1017,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.04
+            "state_multiplier": -0.02
         }
     },
     {
@@ -50613,7 +50602,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5140,
             "candidate": 201,
-            "answer_feedback": "The crowd erupts in cheers as you double down on possibly the most volatile issue in politics. Nevertheless, it gives you the strength to boldly take on President Bush, and the American people repudiate his blatantly partisan campaign. The work to get this done won't be easy, Clark, but we are determined."
+            "answer_feedback": "The crowd erupts in cheers as you double down on possibly the most volatile political issue. Nevertheless, it gives you the strength to boldly take on President Bush, and the American people repudiate his blatantly partisan campaign. Surprisingly, gay activists scored victories by defeating marriage-defining amendments in Oregon and Michigan with your help. The work to get this done won't be easy, Clark, but we are determined."
         }
     },
     {
@@ -55086,7 +55075,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 23799,
             "candidate": 201,
-            "answer_feedback": "Demanding such massive reforms of a tired congress was a disaster waiting to happen. The bill soon dies in gridlock, to your dismay. You're the President, and these ungrateful bastards think they can step out of line. \n"
+            "answer_feedback": "Demanding such massive reforms of a tired congress was a disaster waiting to happen. The bill soon dies in gridlock, to your dismay. You're the President, and these ungrateful bastards think they can step out of line. \n"
         }
     },
     {
@@ -58302,6 +58291,7 @@ campaignTrail_temp.jet_data = [{
 
 
 
+
 e.cyoa = true
 var Dem = 0;
 var Promise = 0;
@@ -58418,7 +58408,7 @@ function updateQuestionBanner() {
         img.src = 'https://i.imgur.com/0DuAQAe.jpg';
         console.log("banner change success");
     }
-    else if(Dem == 5 && Opp == 1 && e.player_answers.includes(25094) || Dem == 5 && Opp == 1 && e.player_answers.includes(254675) || Dem == 5 && Opp == 1 && e.player_answers.includes(254660))
+    else if(Dem == 5 && Opp == 1 && e.player_answers.includes(25094))
     {
         img.src = 'https://i.imgur.com/sBqfc9O.jpg';
         console.log("banner change success");
@@ -58781,10 +58771,10 @@ cyoAdventure = function(a) {
     }
 
     //neoliberling
-    if (ans == 20946 ||ans == 24797 || ans == 22853 || ans == 20773 || ans == 20902 || ans == 22456 || ans == 22460 || ans == 22765 || ans == 24052 || ans == 24056 || ans == 24170 || ans == 5149 || ans == 22035 || ans == 22039 || ans == 24035 || ans == 24039) {
+    if (ans == 255232 || ans == 255244 || ans == 255219 || ans == 254657 || ans == 254653 || ans == 254668 || ans == 254672 || ans == 20946 || ans == 24797 || ans == 22853 || ans == 20773 || ans == 20902 || ans == 22456 || ans == 22460 || ans == 22765 || ans == 24052 || ans == 24056 || ans == 24170 || ans == 5149 || ans == 22035 || ans == 22039 || ans == 24035 || ans == 24039) {
         Neo += 1;
     } 
-    if (ans == 22768 || ans == 20747 || ans == 5262 || ans == 22761) {
+    if (ans == 254675 || ans == 254660 || ans == 22768 || ans == 20747 || ans == 5262 || ans == 22761) {
         Neo += 2;
     }
 
@@ -58921,7 +58911,7 @@ cyoAdventure = function(a) {
     }
 
     //do you save financial institutions
-    if (ans == 5179 || ans == 20964 || ans == 20969 || ans == 22490 || ans == 22493 || ans == 22874 || ans == 23790 || ans == 23793 || ans == 23796 ||ans == 24739 || ans == 24742 || ans == 24745 || ans == 24748) {
+    if (ans == 20961 || ans == 5179 || ans == 20964 || ans == 20969 || ans == 22490 || ans == 22493 || ans == 22874 || ans == 23790 || ans == 23793 || ans == 23796 ||ans == 24739 || ans == 24742 || ans == 24745 || ans == 24748) {
         Fred += 1;
     }
 
