@@ -60974,7 +60974,7 @@ e.executable.push([2, (() => {e.image = e.image = 'https://i.imgur.com/vNS2c34.p
 else if ( quickstats[0] >= 269 && e.player_answers.includes(22475) || quickstats[0] >= 269 && Notroops > 0 && e.player_answers.includes(24700) || quickstats[0] >= 269 && Notroops > 0 && e.player_answers.includes(24713) || quickstats[0] >= 269 && Notroops > 0 && e.player_answers.includes(24726)) { // weapons
 e.pages.push(`<h3>Press Release From Republican Presidential Candidate, Herman Cain: <i>Speculation over Wesley Clark's marriage ramp up as multiple sources claim infidelity possibly even with a man is deeply concerning.</i></h3>
 <p><b>Herman Cain | Businessman</b></p><p><b>Sep 27, 2009</b></p> <p>The atmosphere within the White House is quite cold following Valentine's Day as it becomes clear to inside sources that the love between the President and his wife, Gertrude, of 42 years, has faded. Despite the White House presentation of their marriage, sources say Clark's wandering eye has landed on a 30-year-old staffer and possibly one of the male White House chefs.</p><p>First Lady Gertrude has checked out administration activities, possibly because the President botched her plan for guaranteed paid leave for working mothers nationwide. If we look deeper and observe the daily interactions, it's evident that Wes has lost a glimmer of love for his dear old wife.</p><p>If Clark has been smitten by a female staffer or possibly even a male, he should come out with it and resign accordingly. At the very least, congressional leaders should investigate this. What we discovered about Bill Clinton through those investigations was horrific. Clark comes from the same satanic worshiping cloth, so we should be hesitant to light a candle on his ass and get the truth!</p><p>The President has already sullied our military by allowing gay soldiers to openly indulge in sodomy. If Republicans continue to sit around in anguish over their loss last year, our country's culture will be burned to the ground. Who knows what Democrats plan to do next? They might just openly go for the churches and legalize gay marriage!</p> <p>Conservatives all across the country need to stand up and fight. This goes beyond protecting the sanctity of our institutions, or religious values are at stake!</p>`)
-e.executable.push([2, (() => {e.image = e.image = 'https://i.imgur.com/yfjCkPG.jpeg'})])
+e.executable.push([2, (() => {e.image = e.image = 'https://i.imgur.com/8NHcr6m.png'})])
 }
 else if ( quickstats[0] >= 269 && e.player_answers.includes(20752) && Pelosi == 0 || quickstats[0] >= 269 && e.player_answers.includes(25368) && Pelosi == 0 || quickstats[0] >= 269 && Pelosi == 0 && Boner == 0) { // libro mam
 e.pages.push(`<h3>AP News: <i>Senator Joe Lieberman makes it official and caucuses with Republicans.</i></h3>
@@ -61073,16 +61073,16 @@ e.executable.push([4, (() => {e.image = e.image = 'https://i.imgur.com/SIYHxJU.p
 }
 else if ( quickstats[0] >= 269 && Nato > 2 && Russia == 3 && War == 0) { // nord go boom
 e.pages.push(`<h3>BBC: <i>The "Who Done It?" of our generation, who bombed the Nord Stream Pipeline?</i></h3>
-<p>18 hours ago</p><p><b>Kelly Agner</b> BBC News</p><p>At midnight on October 11th, 2010, an explosion was heard from the fabled Nord Stream Pipeline being created to pump Russian gas into Europe. With ongoing investigations, I will look into the possible culprits of the attack.</p><p><b>Suspect #1:</b> The Americans</p><p>American opposition to the Nord Stream pipeline creation was not some hidden secret. From its very signing under Chancellor Gerhard Schröder, President Wesley Clark forewarned the deal to pump Russian gas to Germany's ports via the Nord Stream 1 pipeline as an easy bargaining chip for Russia to wage when needed. After the Russo-Georgian war had gone underway, the American President made it his goal to give NATO its next purpose. Hardened by his experience fighting in the Vietnam War, Wesley Clark became a preacher of the Second Cold War, which had begun. At a NATO summit in Brussels, Clark brought up the famed Nord Stream pipeline that was near completion and labeled it a "geopolitical weapon," not a pipeline. So when the pipeline exploded last month, it was only natural for the country labeling Putin as the "Russian menace" to come under suspicion.</p><p><b>Suspect #2:</b> The Russians</p><p>It's no secret that after Wesley Clark's victory in the 2004 United States presidential election, Putin had prepared to deal with a hostile Western Hemisphere. General Clark was famed for his career saving Kosovo from the vilified Serbians, a close brother nation to Russia. It is well known that Clark nearly brought the conflict to a worldwide affair by ordering troops to engage Russian troops at Pristina Airport, and if not for insubordination in his ranks, none of us would be here right now. From the first moment Clark took his seat in the Oval Office, he made wariness of the threat posed by Russia a headline at every opportunity. So Putin might have chosen to pull the plug on this project, given the strange unity between NATO nations.</p><p><b>Suspect #3:</b>Al-Qaeda</p><p>Still reeling from the death of their ring leader, Osama Bin Laden, the terrorist organization has been a key suspect floated by both the United States and Russia as the culprit. Given the tension between the two countries, many suspect the terrorists behind 9/11 were hoping to reignite it to get the two powers to throw their weight at each other. Al-Qaeda has hopes to shake attention from both the United States in Iraq and Russia's interest in Syria. It's not impossible to imagine that they'd go to these lengths to achieve those ends.</p><p>We will likely not know who was behind this bombing until investigations by both Germany and Russia conclude, but nobody is above suspicion.</p><br><span style="color:blue;"><u>What the Clark Administration "Better no gas than a chokehold" memo implies</span></u> (Jan 11th 2011)<br><span style="color:blue;"><u>Second Cold War or another round of cheating puffing?</span></u> (Jan 22nd 2011)<br><span style="color:blue;"><u>Senator Jeff Sessions leads the pack of wolves in the Senate, hoping to reel in Clark's Cold War 2 rhetoric</span></u> (Jan 21st 2011)</p>`)
+<p>18 hours ago</p><p><b>Kelly Agner</b> BBC News</p><p>At midnight on October 11th, 2010, an explosion was heard from the fabled Nord Stream Pipeline being created to pump Russian gas into Europe. With ongoing investigations, I will look into the possible culprits of the attack.</p><p><b>Suspect #1:</b> The Americans</p><p>American opposition to the Nord Stream pipeline creation was not some hidden secret. From its very signing under Chancellor Gerhard Schröder, President Wesley Clark forewarned the deal to pump Russian gas to Germany's ports via the Nord Stream 1 pipeline as an easy bargaining chip for Russia to wage when needed. After the Russo-Georgian war had gone underway, the American President made it his goal to give NATO its next purpose. Hardened by his experience fighting in the Vietnam War, Wesley Clark became a preacher of the Second Cold War, which had begun. At a NATO summit in Brussels, Clark brought up the famed Nord Stream pipeline that was near completion and labeled it a "geopolitical weapon," not a pipeline. So when the pipeline exploded last month, it was only natural for the country labeling Putin as the "Russian menace" to come under suspicion.</p><p><b>Suspect #2:</b> The Russians</p><p>It's no secret that after Wesley Clark's victory in the 2004 United States presidential election, Putin had prepared to deal with a hostile Western Hemisphere. General Clark was famed for his career saving Kosovo from the vilified Serbians, a close brother nation to Russia. It is well known that Clark nearly brought the conflict to a worldwide affair by ordering troops to engage Russian troops at Pristina Airport, and if not for insubordination in his ranks, none of us would be here right now. From the first moment Clark took his seat in the Oval Office, he made wariness of the threat posed by Russia a headline at every opportunity. So Putin might have chosen to pull the plug on this project, given the strange unity between NATO nations.</p><p><b>Suspect #3: </b>Al-Qaeda</p><p>Still reeling from the death of their ring leader, Osama Bin Laden, the terrorist organization has been a key suspect floated by both the United States and Russia as the culprit. Given the tension between the two countries, many suspect the terrorists behind 9/11 were hoping to reignite it to get the two powers to throw their weight at each other. Al-Qaeda has hopes to shake attention from both the United States in Iraq and Russia's interest in Syria. It's not impossible to imagine that they'd go to these lengths to achieve those ends.</p><p>We will likely not know who was behind this bombing until investigations by both Germany and Russia conclude, but nobody is above suspicion.</p><br><span style="color:blue;"><u>What the Clark Administration "Better no gas than a chokehold" memo implies</span></u> (Jan 11th 2011)<br><span style="color:blue;"><u>Second Cold War or another round of cheating puffing?</span></u> (Jan 22nd 2011)<br><span style="color:blue;"><u>Senator Jeff Sessions leads the pack of wolves in the Senate, hoping to reel in Clark's Cold War 2 rhetoric</span></u> (Jan 21st 2011)</p>`)
 e.executable.push([4, (() => {e.image = e.image = 'https://i.imgur.com/tqjw3ZT.png'})])
 }
 else if ( quickstats[0] >= 269 && Royal == 1 && Russia == 2 && War == 0) { // nord go boom
-e.pages.push(`<h3>4chan: <i>Did Libya Secretly Influence Elections in the West? Gaddafi's Explosive Claims Stir Global Controversy.</i></h3>
+e.pages.push(`<h3>4chan: <i>Marine Le Pen Wins French Presidency — Vows Closer Ties with Russia</i></h3>
 <p><b>Anonymous 05/07/12(Mon)06:42:13 No.32488721</b></p><p> > be me </p><p>Wake up</p><p>Le Pen just won the French presidential election </p><p>Wtf.jpg</p><p>She's calling nato “an American leash led by Wesley Clark a cold war relic with a Messiah complex”</p><p>tfw the Fifth Republic just went full Gaullist-Putinist</p><p>Is it NATOver anons? </p><p><b>Anonymous 05/07/12(Mon)06:43:55 No.32488736</b></p><p> > France elects a nationalist nut job who diplomatically outflanks America by being a surrender monkey.</p><p><b>Anonymous 05/07/12(Mon)06:45:02 No.32488768</b></p><p> > Clark seething on CNN calling France “one step toward a collapsing world order” <p>Le Pen hits back calling him a war fetishist</p><p>Based and sovereign-pilled</p><p><b>Anonymous 05/07/12(Mon)06:47:19 No.32488802</b></p><p> > Le Pen wants to pull back NATO reintegration efforts and lift sanctions on Russia.</p><p>The rest of Europe starts fantasizing about that cheap cheap Russian gas.</p><p>American officials have a collective aneurysm while having to watch all of their control over Europe rapidly head east.</p><p>Blessed.png</p><p><b>Anonymous 05/07/12(Mon)06:55:39 No.32488990</b></p><p> > French left has a meltdown in unison. Opposition leaders immediately fade from public eye.</p><p>Clarkdoomandgloom.gif</p><p>Le Pen Might actually follow through with this new Gaullist Interregnum and kill NATO.</p><p>God fucking please just give me this.</p><p>Praying.png</p>`)
 e.executable.push([4, (() => {e.image = e.image = 'https://i.imgur.com/kIouHI0.png'})])
 }
 else if ( quickstats[0] >= 269 && Sarkozy == 1 && Russia == 2 && War == 0) { // nord go boom
-e.pages.push(`<h3>The New York Times: <i>Marine Le Pen Wins French Presidency — Vows Closer Ties with Russia</i></h3>
+e.pages.push(`<h3>The New York Times: <i>Did Libya Secretly Influence Elections in the West? Gaddafi's Explosive Claims Stir Global Controversy.</i></h3>
 <p>By <b>[Lisa Fargo]</b></p><p><b>May 23, 2011</b></p><p><b>TRIPOLI—</b>The international scene has recently erupted due to Libyan Dictator Muammar Gaddafi's claims of donating money to influence various Western elections, spurring a political upheaval in those countries. The most damning claims were made against U.S. President Wesley Clark and French President Nicholas Sarkozy, whom Gaddafi stated to have donated money toward their respective elections in 2008 and 2007. As both leaders attempt to fight the fires brought about by these claims, Gaddafi continues to fight for the soul of his nation, with the ongoing Libyan Revolution threatening his position.</p><p>Are his claims valid? No one can say for sure now, but opposition leaders in France and the United States have come forward demanding an investigation. President Clark, whose turbulent 2008 reelection bid victory had been attributed to his leadership in dealing with the economic crisis, is now under speculation for foreign influence. Clark, who made a point that the situation in Libya needs to be handled delicately, faces allegations that he's too close to Gaddafi. The election interference claims now serve to further muddy the waters he treads, but there is no concrete evidence to say that the Clark campaign used or received any funds from Libya. Congressional Republican leaders have called to open an impeachment inquiry to "collect the facts properly," but Democrats remain at the President's defense.</p><p>Sarkozy, however, faces a much greater challenge as the 2012 French presidential election looms over his mandate like a storm. The claims that he took funds from Libya hold more weight with the opposition since, following his 2007 victory, he pursued a policy of detente with Libya. The recent reversal of Sarkozy's Libya policy has put the President under fire for "trying to save face" and avoid an investigation.</p><p>Since 2007, both the United States and France have sought to deepen ties with both leaders, hoping to undo the frosty relations of the early 2000s, but this scandal serves to uproot such progress. The socialist opposition in France has repeatedly attacked President Clark as a divisive force on the national stage. Their qualms lie in the President's policy in dealing with conflicts like the Russo-Georgian war and the declining relations between Ukraine and Russia. If Sarkozy were to be ousted, President Clark's united NATO dream could be soiled by a socialist fire breather taking the reins in France. </p><p>For now, the world watches as two presidents attempt to cleanse the aroma of controversy without losing the mandate they rule by.</p>`)
 e.executable.push([4, (() => {e.image = e.image = 'https://i.imgur.com/4Dzv2NM.png'})])
 }
@@ -61112,6 +61112,7 @@ e.executable.push([7, (() => {e.image = e.image = 'https://i.imgur.com/xnrJS36.p
 }
 return construct(0);
 }
+
 
 /*
 Welcome to Astro's Variable Headquarters
@@ -61274,6 +61275,20 @@ function openHeadquarter() {
     }
     headerDiv.appendChild(congressButton);
 
+    // Add a button to switch to the Web Browser page
+    let browserButton = document.createElement('button');
+    browserButton.innerText = 'Conquests & Leaders';
+    browserButton.style.margin = '5px';
+    browserButton.style.backgroundColor = 'grey';
+    browserButton.style.position = 'absolute';
+    browserButton.style.top = '16px';
+    browserButton.style.right = '150px';
+    browserButton.onclick = function () {
+        hqDiv.remove();
+        openPotentialConquests();
+    };
+    headerDiv.appendChild(browserButton);
+
     // This is a header text that you can add if you want to. It is not necessary. - Astro
     let headerText = document.createElement('h3');
     headerText.textContent = 'Your Administration';
@@ -61399,7 +61414,7 @@ function openHeadquarter() {
         } else if (Notroops > 0) {
             foeImage = 'https://i.imgur.com/MTwy7bN.png';
             foeName = 'The King';
-        } else if (Troops > 0 && Gay > 0) {
+        } else if (Troops > 0 && Patriot > 0 && Gay > 0) {
             foeImage = 'https://i.imgur.com/i5LyHYY.png';
             foeName = 'The God Warrior';
         } else if (Troops > 0) {
@@ -61447,6 +61462,11 @@ function openHeadquarter() {
         foeName = 'Olympia Snowe<br><small>John Ashcroft</small>';
     }
 
+    if (Dem == 8 && Messiah == 1) {
+        foeImage = 'https://i.imgur.com/soqgIDW.png';
+        foeName = 'Mike Pence<br><small>Condoleezza Rice</small>';
+    }
+
     if (foeDetermined) {
         foeLabel = 'Your Foe';
     }
@@ -61474,162 +61494,6 @@ function openHeadquarter() {
     // Add the pairs to the right column
     rightCol.appendChild(pair1);
     rightCol.appendChild(pair2);
-}
-
-function openWebBrowser() {
-    let questions = document.querySelector(".inner_window_question");
-    questions.style.display = 'none';
-
-    // Clear the Congressional Makeup screen if it exists
-    const existingCongressDiv = document.getElementById('headquarter');
-    if (existingCongressDiv) {
-        existingCongressDiv.remove();
-    }
-
-    // Create and set up the Web Browser div
-    let webBrowserDiv = document.createElement('div');
-    webBrowserDiv.id = 'web_browser';
-    webBrowserDiv.style.display = 'flex';
-    webBrowserDiv.style.flexDirection = 'column';
-    webBrowserDiv.style.alignItems = 'center';
-    webBrowserDiv.style.color = 'white';
-    webBrowserDiv.style.backgroundColor = '#383838';
-    webBrowserDiv.style.backgroundImage = 'url(https://i.imgur.com/CB8ErnK.png)';
-    webBrowserDiv.style.backgroundSize = 'cover';
-    webBrowserDiv.style.border = '5px solid rgb(23, 55, 107)';
-    webBrowserDiv.style.borderRadius = '10px';
-    webBrowserDiv.style.height = '85%';
-    webBrowserDiv.style.position = 'relative';
-
-
-
-    // Create header div
-    let headerDiv = document.createElement('div');
-    headerDiv.style.display = 'flex';
-    headerDiv.style.justifyContent = 'space-between';
-    headerDiv.style.width = '100%';
-    headerDiv.style.alignItems = 'center';
-
-    // Add a button to switch to the Congressional Makeup screen
-    let congressButton = document.createElement('button');
-    congressButton.innerText = 'Battle for Olympus';
-    congressButton.style.margin = '5px';
-    congressButton.style.backgroundColor = 'grey';
-    congressButton.style.position = 'absolute';
-    congressButton.style.top = '-5px';
-    congressButton.style.left = '0px';
-    congressButton.onclick = function () {
-        webBrowserDiv.remove(); // Remove the Web Browser screen
-        showCongressionalMakeup(); // Recreate the Congressional Makeup screen
-    };
-    headerDiv.appendChild(congressButton);
-
-    // Append headerDiv to the main webBrowserDiv
-    webBrowserDiv.appendChild(headerDiv);
-
-    // Create a container for the bulleted list
-    let bulletListContainer = document.createElement('div');
-    bulletListContainer.id = 'bullet-list-container';
-    bulletListContainer.style.position = 'absolute'; // Use absolute positioning
-    bulletListContainer.style.top = '270px'; // Move it 50px from the top
-    bulletListContainer.style.left = '325px'; // Move it 20px from the left
-    bulletListContainer.style.width = '280px';
-    bulletListContainer.style.color = 'black';
-    bulletListContainer.style.textAlign = 'left';
-    bulletListContainer.style.fontSize = '16px';
-    bulletListContainer.style.overflowY = 'auto'; // Add a vertical scrollbar
-    bulletListContainer.style.maxHeight = '240px';
-
-    // Create an unordered list element
-    let bulletList = document.createElement('ul');
-    bulletList.id = 'decision-list';
-    bulletList.style.listStyleType = 'disc';
-    bulletList.style.paddingLeft = '20px';
-
-    // Append the list to the container
-    bulletListContainer.appendChild(bulletList);
-
-    // Append the bullet list container to the webBrowserDiv
-    webBrowserDiv.appendChild(bulletListContainer);
-
-    // Function to add a decision to the bulleted list
-    function addDecisionToBulletList(decisionText) {
-        let listItem = document.createElement('li');
-        listItem.innerText = decisionText;
-        bulletList.appendChild(listItem);
-    }
-
-    const decisionMessages = {
-        5148: 'You have passed the Clean Air Plan.',
-        5150: 'You have held a NATO summit.',
-        5149: 'You have increased funding for the Citizen Corps and American Corps.',
-        20890: 'You have axed the Bush Tax Cuts.',
-        22666: 'You have achieved minor reforms to No Child Left Behind.',
-        21279: 'You have achieved minor reforms to No Child Left Behind.',
-        22670: 'You have majorly reformed No Child Left Behind.',
-        5155: 'You have repealed the PATRIOT Act.',
-        22460: 'You have passed the Cyber Intelligence Protection Act.',
-        5263: 'You have set an Iraqi withdrawal date.',
-        5262: 'You have proposed a plan to rebuild Iraq.',
-        20943: 'You have lowered prescription costs for seniors.',
-        24708: 'You have passed ClarkCare.',
-        22483: 'You have passed ClarkCare.',
-        24734: 'You have passed ClarkCare.',
-        24700: "You have repealed Don't Ask, Don't Tell.",
-        22475: "You have repealed Don't Ask, Don't Tell.",
-        24713: "You have repealed Don't Ask, Don't Tell.",
-        24726: "You have repealed Don't Ask, Don't Tell.",
-        24704: 'You have renewed the assault weapons ban.',
-        22479: 'You have renewed the assault weapons ban.',
-        24730: 'You have renewed the assault weapons ban.',
-        22758: 'You have negotiated the JCPOA nuclear agreement.',
-        22490: 'You have passed stimulus for families and banks.',
-        23790: 'You have passed stimulus for families and banks.',
-        24739: 'You have passed stimulus for families and banks.',
-        20969: 'You have passed minor stimulus.',
-        24748: 'You have passed the Financial Stimulus and Corporate Reform Act.',
-        24635: 'You have passed Universal Preschool.',
-        22874: 'You have saved Fannie Mae and Freddie Mac.',
-        20964: 'You have saved Fannie Mae and Freddie Mac.',
-        23796: 'You have saved Fannie Mae and Freddie Mac.',
-        24745: 'You have saved Fannie Mae and Freddie Mac.',
-        23781: 'You have created the Homeland and Hometown Security Fund.',
-        23772: 'You have passed a union card check bill.',
-        22493: 'You have passed bank bailouts.',
-        23793: 'You have passed bank bailouts.',
-        24742: 'You have passed bank bailouts.',
-        22761: 'You have passed U.N. resolutions to sanction Iran.',
-        22035: 'You have deposed Iraqi Prime Minister al-Maliki.',
-        20946: 'You have visited the troops in the Middle East.',
-        23483: 'You have deployed a coalition of nations to stabilize Iraq.',
-        5246: 'You have created the Troubled Asset Relief Program.',
-        22053: 'You have created the Troubled Asset Relief Program.',
-        22555: 'You have created the Troubled Asset Relief Program.',
-        23718: 'You have created the Troubled Asset Relief Program.',
-        23733: 'You have created the Troubled Asset Relief Program.',
-        22507: 'You have created the Troubled Asset Relief Program.',
-        22511: 'You have created the Troubled Asset Relief Program and the Foreclosure Relief Program.',
-        22057: 'You have created the Troubled Asset Relief Program and the Foreclosure Relief Program.',
-        22559: 'You have created the Troubled Asset Relief Program and the Foreclosure Relief Program.',
-        23722: 'You have created the Troubled Asset Relief Program and the Foreclosure Relief Program.',
-        23737: 'You have created the Troubled Asset Relief Program and the Foreclosure Relief Program.',
-        22514: 'You have passed the Clinton Plan.',
-        22562: 'You have passed the Clinton Plan.',
-        22565: 'You have passed tax hikes on the top 1%, reestablished a combination of a Resolution Trust Corporation and a Reconstruction Finance Corporation, and reestablished the Home Owners’ Loan Corporation.',
-        23728: 'You have passed tax hikes on the top 1%, reestablished a combination of a Resolution Trust Corporation and a Reconstruction Finance Corporation, and reestablished the Home Owners’ Loan Corporation.',
-        21552: 'You have provided military aid to Georgia.',
-        24183: 'You have killed Osama bin Laden.',
-        24162: 'You have convinced NATO to save Georgia.',
-    };
-    
-    e.player_answers.forEach(answer => {
-        if (decisionMessages[answer]) {
-            addDecisionToBulletList(decisionMessages[answer]);
-        }
-    });
-
-    // Insert the Web Browser screen into the DOM
-    questions.parentNode.insertBefore(webBrowserDiv, questions.nextSibling);
 }
 
 function showCongressionalMakeup() {
@@ -61692,20 +61556,6 @@ function showCongressionalMakeup() {
         openHeadquarter();
     };
     headerDiv.appendChild(adminButton);
-
-    // Add a button to switch to the Web Browser page
-    let browserButton = document.createElement('button');
-    browserButton.innerText = 'whitehouse.gov';
-    browserButton.style.margin = '5px';
-    browserButton.style.backgroundColor = 'grey';
-    browserButton.style.position = 'absolute';
-    browserButton.style.top = '16px';
-    browserButton.style.right = '10px';
-    browserButton.onclick = function () {
-        hqDiv.remove();
-        openWebBrowser();
-    };
-    headerDiv.appendChild(browserButton);
 
     // Add header text
     let headerText = document.createElement('h3');
@@ -62543,6 +62393,699 @@ function showCongressionalMakeup() {
 
     // Insert the Congressional Makeup screen into the DOM
     questions.parentNode.insertBefore(hqDiv, questions.nextSibling);
+}
+
+function openPotentialConquests() {
+
+    let questions = document.querySelector(".inner_window_question");
+    questions.style.display = 'none';
+
+    const candidatePic = document.getElementById('candidate_pic');
+    const runningMatePic = document.getElementById('running_mate_pic');
+    const signDisplay = document.querySelector('.inner_window_sign_display');
+
+    if (candidatePic) candidatePic.style.display = 'none';
+    if (runningMatePic) runningMatePic.style.display = 'none';
+    if (signDisplay) signDisplay.style.display = 'none';
+
+    // Remove previous version if it exists
+    const existingDiv = document.getElementById('conquests_browser');
+    if (existingDiv) existingDiv.remove();
+
+    // Create main container
+    let conquestDiv = document.createElement('div');
+    conquestDiv.id = 'conquests_browser';
+    conquestDiv.style.display = 'flex';
+    conquestDiv.style.flexDirection = 'column';
+    conquestDiv.style.alignItems = 'center';
+    conquestDiv.style.backgroundColor = '#383838';
+    conquestDiv.style.backgroundImage = 'url(https://i.imgur.com/4Bj7T6b.gif)';
+    conquestDiv.style.backgroundSize = 'cover';
+    conquestDiv.style.border = '5px solid rgb(23, 55, 107)';
+    conquestDiv.style.borderRadius = '10px';
+    conquestDiv.style.height = '80%';
+    conquestDiv.style.margin = 'auto';
+    conquestDiv.style.overflow = 'hidden auto';
+    conquestDiv.style.color = 'white';
+    conquestDiv.style.position = 'relative';
+    conquestDiv.style.padding = '10px';
+
+    // Header + return button
+    let header = document.createElement('div');
+    header.style.display = 'flex';
+    header.style.justifyContent = 'space-between';
+    header.style.width = '100%';
+
+    let returnButton = document.createElement('button');
+    returnButton.innerText = 'Your Administration';
+    returnButton.style.margin = '5px';
+    returnButton.style.backgroundColor = 'grey';
+    returnButton.style.position = 'absolute';
+    returnButton.style.top = '12px';
+    returnButton.style.left = '10px';
+    returnButton.onclick = function () {
+        conquestDiv.remove();
+        // Restore hidden elements when switching back to Administration page
+        if (candidatePic) candidatePic.style.display = 'block';
+        if (runningMatePic) runningMatePic.style.display = 'block';
+        if (signDisplay) signDisplay.style.display = 'block';
+        openHeadquarter();
+    };
+
+    header.appendChild(returnButton);
+    conquestDiv.appendChild(header);
+
+    // Create main content container with two columns
+    let mainContentContainer = document.createElement('div');
+    mainContentContainer.style.display = 'flex';
+    mainContentContainer.style.width = '100%';
+    mainContentContainer.style.overflowX = 'hidden';
+    mainContentContainer.style.gap = '20px';
+    mainContentContainer.style.padding = '1px';
+
+    // Left column - Conquest Cards
+    let conquestsColumn = document.createElement('div');
+    conquestsColumn.style.display = 'flex';
+    conquestsColumn.style.flexDirection = 'column';
+    conquestsColumn.style.flex = '1';
+    conquestsColumn.style.width = '60%';
+    conquestsColumn.style.gap = '1px';
+
+    // Right column - Leaders
+    let leadersColumn = document.createElement('div');
+    leadersColumn.style.display = 'flex';
+    leadersColumn.style.flexDirection = 'column';
+    leadersColumn.style.width = '40%';
+    leadersColumn.style.flexShrink = '0';
+    leadersColumn.style.gap = '1px';
+
+    // Create vertical container for cards
+    let cardsContainer = document.createElement('div');
+    cardsContainer.style.display = 'flex';
+    cardsContainer.style.flexDirection = 'column';
+    cardsContainer.style.gap = '20px';
+    cardsContainer.style.width = '100%';
+    cardsContainer.style.padding = '1px';
+    cardsContainer.style.overflowY = 'auto';
+
+    // Function to determine rating style
+    function getRatingStyle(rating) {
+        const styles = {
+            "Respectable": {
+                color: '#00ff00',
+                backgroundColor: '#003300',
+                border: '1px solid #00ff00'
+            },
+            "Likely": {
+                color: '#aaff00',
+                backgroundColor: '#334400',
+                border: '1px solid #aaff00'
+            },
+            "Uninspired": {
+                color: '#ffff00',
+                backgroundColor: '#444400',
+                border: '1px solid #ffff00'
+            },
+            "Ambitious": {
+                color: '#ff6600',
+                backgroundColor: '#442200',
+                border: '1px solid #ff6600'
+            },
+            "Unlikely": {
+                color: '#ff0000',
+                backgroundColor: '#440000',
+                border: '1px solid #ff0000'
+            }
+        };
+        return styles[rating] || {};
+    }
+
+    let conquestsTitle = document.createElement('h3');
+    conquestsTitle.innerText = "Conquests";
+    conquestsTitle.style.color = 'white';
+    conquestsTitle.style.backgroundColor = 'rgba(23, 55, 107, 0.8)';
+    conquestsTitle.style.margin = '0 0 10px 0';
+    conquestsTitle.style.width = '100%';
+    conquestsTitle.style.textAlign = 'center';
+    conquestsTitle.style.padding = '8px';
+    conquestsTitle.style.borderRadius = '5px';
+    conquestsTitle.classList.add('custom-h3');
+    conquestsColumn.appendChild(conquestsTitle);
+
+    // Function to create conquest cards
+    function createConquestCard(imageUrl, description, billName, rating) {
+        let card = document.createElement('div');
+        card.style.display = 'flex';
+        card.style.alignItems = 'flex-start';
+        card.style.background = 'linear-gradient(135deg, #f0f9ff, #e0f2fe)';
+        card.style.border = '1px solid #bae6fd';
+        card.style.padding = '10px';
+        card.style.width = '100%';
+        card.style.boxSizing = 'border-box';
+        card.style.borderRadius = '8px';
+        card.style.boxShadow = '0 2px 5px rgba(2, 132, 199, 0.1)';
+        card.style.position = 'relative';
+        
+        // Add subtle blue accent in corner
+        let cornerAccent = document.createElement('div');
+        cornerAccent.style.position = 'absolute';
+        cornerAccent.style.top = '0';
+        cornerAccent.style.right = '0';
+        cornerAccent.style.width = '40px';
+        cornerAccent.style.height = '40px';
+        cornerAccent.style.background = 'linear-gradient(135deg, rgba(2, 132, 199, 0.2) 50%, transparent 50%)';
+        card.appendChild(cornerAccent);
+
+        // Left column (image + rating)
+        let leftColumn = document.createElement('div');
+        leftColumn.style.display = 'flex';
+        leftColumn.style.flexDirection = 'column';
+        leftColumn.style.flexShrink = '0';
+        leftColumn.style.marginLeft = '10px';
+        leftColumn.style.width = '220px';
+        leftColumn.style.alignItems = 'center';
+        leftColumn.style.zIndex = '1';
+
+        // Image with blue border
+        let imgContainer = document.createElement('div');
+        imgContainer.style.width = '200px';
+        imgContainer.style.height = '200px';
+        imgContainer.style.borderRadius = '6px';
+        imgContainer.style.overflow = 'hidden';
+        imgContainer.style.border = '2px solid #bae6fd';
+        imgContainer.style.background = '#f0f9ff';
+        
+        let img = document.createElement('img');
+        img.src = imageUrl;
+        img.alt = 'Bill image';
+        img.style.width = '100%';
+        img.style.height = '100%';
+        img.style.objectFit = 'cover';
+        
+        imgContainer.appendChild(img);
+        leftColumn.appendChild(imgContainer);
+
+        // Rating badge with blue gradient
+        let ratingStyle = getRatingStyle(rating);
+        let ratingContainer = document.createElement('div');
+        ratingContainer.style.display = 'flex';
+        ratingContainer.style.alignItems = 'center';
+        ratingContainer.style.justifyContent = 'center';
+        ratingContainer.style.marginTop = '15px';
+        ratingContainer.style.padding = '6px 15px';
+        ratingContainer.style.borderRadius = '20px';
+        ratingContainer.style.fontWeight = '600';
+        ratingContainer.style.fontSize = '14px';
+        ratingContainer.style.boxShadow = '0 2px 4px rgba(2, 132, 199, 0.2)';
+        Object.assign(ratingContainer.style, ratingStyle);
+        
+        ratingContainer.innerText = rating;
+        leftColumn.appendChild(ratingContainer);
+        card.appendChild(leftColumn);
+
+        // Right column (text content)
+        let rightColumn = document.createElement('div');
+        rightColumn.style.display = 'flex';
+        rightColumn.style.flexDirection = 'column';
+        rightColumn.style.flexGrow = '1';
+        rightColumn.style.zIndex = '1';
+
+        // Bill name with permanent blue underline
+        let name = document.createElement('h3');
+        name.innerText = billName;
+        name.style.fontWeight = '600';
+        name.style.fontSize = '20px';
+        name.style.margin = '0 0 15px 0';
+        name.style.color = '#0369a1';
+        name.style.position = 'relative';
+        name.style.paddingBottom = '8px';
+        
+        // Permanent underline with blue gradient
+        let underline = document.createElement('div');
+        underline.style.position = 'absolute';
+        underline.style.bottom = '0';
+        underline.style.left = '0';
+        underline.style.width = '100%';
+        underline.style.height = '2px';
+        underline.style.background = 'linear-gradient(90deg, #0284c7, #38bdf8)';
+        underline.style.borderRadius = '2px';
+        
+        name.appendChild(underline);
+        rightColumn.appendChild(name);
+
+        // Description text
+        let desc = document.createElement('p');
+        desc.innerText = description;
+        desc.style.margin = '0';
+        desc.style.fontSize = '15px';
+        desc.style.lineHeight = '1.5';
+        desc.style.color = '#334155';
+        rightColumn.appendChild(desc);
+
+        card.appendChild(rightColumn);
+
+        return card;
+    }
+
+    const exampleCards = [ ];
+
+    if (e.player_answers.includes(5148)) { //clean air plan
+        exampleCards.push({
+            imageUrl: 'https://i.imgur.com/yCV04P0.gif', 
+            description: 'Enacted by the 109th Congress, Sponsored by Markey, Edward [D-MA, 1976-????]. Setting limits on the four major pollutants from power plants and establishing new programs to reduce airborne toxins and carcinogens. Initially, a cap-and-trade system provision was proposed to reduce greenhouse gas emissions, but it was pulled from the bill to ensure its passage.', 
+            billName: 'The Airborne Threat Reduction and Environmental Security Act of 2005 (ATRESA)', 
+            rating: 'Ambitious' 
+        });
+    }
+
+    if (e.player_answers.includes(5149)) { //peace corps
+        exampleCards.push({
+            imageUrl: ' ', 
+            description: ' ', 
+            billName: 'peace corps', 
+            rating: 'Ambitious' 
+        });
+    }
+
+    if (e.player_answers.includes(24794)) { //atlantic charter
+        exampleCards.push({
+            imageUrl: 'https://i.imgur.com/ldqPE50.gif', 
+            description: 'Enacted by the Clark Administration, negotiated by Secretary of State John Kerry [D-MA, 2005-????]. Established a renewed NATO commitment to combating terrorism, creating an extension of the Nuclear Non-Proliferation Treaty which binds NATO to sanction a state breaking any provision of the treaty.', 
+            billName: 'New Atlantic Charter (NAC)', 
+            rating: 'Ambitious' 
+        });
+    }
+
+    if (e.player_answers.includes(20897)) { //fma
+        exampleCards.push({
+            imageUrl: ' ', 
+            description: ' ', 
+            billName: 'freedom to marry act', 
+            rating: 'Ambitious' 
+        });
+    }
+        
+    if (e.player_answers.includes(20890)) { //axe bush tax cuts
+        exampleCards.push({
+            imageUrl: ' ', 
+            description: ' ', 
+            billName: 'tax reform', 
+            rating: 'Ambitious' 
+        });
+    }
+
+    if (e.player_answers.includes(22670)) { //nclb reform
+        exampleCards.push({
+            imageUrl: ' ', 
+            description: ' ', 
+            billName: 'no child left behind reform', 
+            rating: 'Ambitious' 
+        });
+    }
+
+    if (e.player_answers.includes(255248)) { //nasa
+        exampleCards.push({
+            imageUrl: ' ', 
+            description: ' ', 
+            billName: 'light speed', 
+            rating: 'Ambitious' 
+        });
+    }
+
+    if (e.player_answers.includes(22460)) { //cybersecurity
+        exampleCards.push({
+            imageUrl: ' ', 
+            description: ' ', 
+            billName: 'cybersecurity', 
+            rating: 'Ambitious' 
+        });
+    }
+
+    if (e.player_answers.includes(20935)) { //matthew shepard act
+        exampleCards.push({
+            imageUrl: ' ', 
+            description: ' ', 
+            billName: 'matthew shepard act', 
+            rating: 'Ambitious' 
+        });
+    }
+
+    if (e.player_answers.includes(22479) || e.player_answers.includes(24704)) { //gun reform
+        exampleCards.push({
+            imageUrl: ' ', 
+            description: ' ', 
+            billName: 'gun reform', 
+            rating: 'Ambitious' 
+        });
+    }
+    
+    if (e.player_answers.includes(24730)) { //assault weapons ban
+        exampleCards.push({
+            imageUrl: ' ', 
+            description: ' ', 
+            billName: 'assault weapons ban', 
+            rating: 'Ambitious' 
+        });
+    }
+
+    if (e.player_answers.includes(20943)) { //prescriptions
+        exampleCards.push({
+            imageUrl: 'https://i.imgur.com/ZpfXEJv.gif', 
+            description: 'Enacted by the 110th Congress, Sponsored by Byron Dorgon [D-ND, 1992-????]. Removed trade limits on FDA-approved drugs from Canada. Passed to lower prescription drug costs in America and criticized by pharmaceutical companies for lowering supply chain integrity.', 
+            billName: 'Prescription Drug Cost Defense Act (PDCDA)', 
+            rating: 'Uninspired' 
+        });
+    }
+
+    if (e.player_answers.includes(22483)) { //basic clarkcare
+        exampleCards.push({
+            imageUrl: 'https://i.imgur.com/r9N0SN2.gif', 
+            description: 'Enacted by the 110th Congress, sponsored by Neal, Richard [D-MA2, 1989-2012] providing an individual mandate amending the Public Health Service Act of 1944 and inserted new provisions on affordable care into Title 42 of the United States Code. Regulating individual insurance markets and expanding Medicare and Medicaid Coverage.', 
+            billName: 'The Strategic Health Access and Affordability Act (SHAAA)', 
+            rating: 'Respectable' 
+        });
+    }
+
+    if (e.player_answers.includes(24734)) { //universal clarkcare
+        exampleCards.push({
+            imageUrl: 'https://i.imgur.com/02BTIx8.gif', 
+            description: 'Enacted by the 110th Congress, Sponsored by Rangel, Charles [D–NY, 1971-2017] Providing both an Individual and Public option mandate amending the Public Health Service Act of 1944 and inserted new provisions on affordable care into Title 42 of the United States Code. Massively overhauling individual Insurance Markets and introducing a state funded health insurance agency that will compete with other private health insurance agencies across America.', 
+            billName: 'The Public Health Protections and Defense Act', 
+            rating: 'Ambitious' 
+        });
+    }
+
+    if (e.player_answers.includes(23772)) { //card check
+        exampleCards.push({
+            imageUrl: 'https://i.imgur.com/6QGTgup.gif', 
+            description: 'Enacted by the 110th Congress, Sponsored by Tom Harkin [D-IA, 1985-????]. Allows unions to bypass a standard secret ballot election and unionize if over 50% of workers in a facility sign a card approving the measure. Fiercely criticized by employers especially for section 3 of the bill which forces an employer to collectively bargain with the newly formed union within 10 days of its formation.', 
+            billName: 'The Card Check Mobilization Act', 
+            rating: 'Ambitious' 
+        });
+    }
+
+    if (e.player_answers.includes(24635)) { //universal pre k
+        exampleCards.push({
+            imageUrl: ' ', 
+            description: ' ', 
+            billName: 'universal pre k', 
+            rating: 'Ambitious' 
+        });
+    }
+
+    if (e.player_answers.includes(23781)) { //Homeland and Hometown Security Fund
+        exampleCards.push({
+            imageUrl: ' ', 
+            description: ' ', 
+            billName: 'Homeland and Hometown Security Fund', 
+            rating: 'Ambitious' 
+        });
+    }
+
+    if (e.player_answers.includes(25093)) { //invade iran
+        exampleCards.push({
+            imageUrl: ' ', 
+            description: ' ', 
+            billName: 'invade iran', 
+            rating: 'Ambitious' 
+        });
+    }
+
+    if (Econ == 1) { //weak econ bill
+        exampleCards.push({
+            imageUrl: ' ', 
+            description: ' ', 
+            billName: 'weak econ bill', 
+            rating: 'Ambitious' 
+        });
+    }
+
+    if (Econ == 2) { //your econ bill
+        exampleCards.push({
+            imageUrl: ' ', 
+            description: ' ', 
+            billName: 'your econ bill', 
+            rating: 'Ambitious' 
+        });
+    }
+
+    if (Econ == 3) { //clinton econ bill
+        exampleCards.push({
+            imageUrl: 'https://i.imgur.com/e9BmPq4.gif', 
+            description: 'Enacted by the 110th Congress, Sponsored by Clinton, Hillary [D-NY, 2001-????]. Establishing a Troubled Assets Relief Program (TARP) whose funds would purchase toxic assets from failing banks. The bill would also reestablish the New Deal Era, Home Owners’ Loan Corporation which would refinance failing mortgages while a moratorium on foreclosures was put in place.', 
+            billName: 'Emergency Economic and Housing Stabilization Act', 
+            rating: 'Ambitious' 
+        });
+    }
+
+    if (Econ == 4) { //bernie econ bill
+        exampleCards.push({
+            imageUrl: ' ', 
+            description: ' ', 
+            billName: 'bernie econ bill', 
+            rating: 'Ambitious' 
+        });
+    }
+
+    if (e.player_answers.includes(24183)) { //kill osama
+        exampleCards.push({
+            imageUrl: ' ', 
+            description: ' ', 
+            billName: 'kill osama', 
+            rating: 'Ambitious' 
+        });
+    }
+
+    if (e.player_answers.includes(255057)) { //free college
+        exampleCards.push({
+            imageUrl: ' ', 
+            description: ' ', 
+            billName: 'free college', 
+            rating: 'Ambitious' 
+        });
+    }
+
+    if (e.player_answers.includes(255054)) { //2 trilly stimmy
+        exampleCards.push({
+            imageUrl: ' ', 
+            description: ' ', 
+            billName: '2 trilly stimmy', 
+            rating: 'Ambitious' 
+        });
+    }
+
+    if (e.player_answers.includes(255060)) { //minimum wage
+        exampleCards.push({
+            imageUrl: ' ', 
+            description: ' ', 
+            billName: 'minimum wage', 
+            rating: 'Ambitious' 
+        });
+    }
+
+    exampleCards.forEach(card => {
+        cardsContainer.appendChild(createConquestCard(
+            card.imageUrl,
+            card.description,
+            card.billName,
+            card.rating
+        ));
+    });
+    
+
+    conquestsColumn.appendChild(cardsContainer);
+
+// --- Foreign Leaders Card Section ---
+let leadersTitle = document.createElement('h3');
+leadersTitle.innerText = "Foreign Leaders";
+leadersTitle.style.color = 'white';
+leadersTitle.style.backgroundColor = 'rgba(23, 55, 107, 0.8)';
+leadersTitle.style.margin = '0 0 10px 0';
+leadersTitle.style.width = '100%';
+leadersTitle.style.textAlign = 'center';
+leadersTitle.style.padding = '8px';
+leadersTitle.style.borderRadius = '5px';
+leadersTitle.classList.add('custom-h3');
+leadersColumn.appendChild(leadersTitle);
+
+let leadersContainer = document.createElement('div');
+leadersContainer.style.display = 'flex';
+leadersContainer.style.flexDirection = 'column';
+leadersContainer.style.gap = '10px';
+leadersContainer.style.padding = '1px';
+leadersContainer.style.backgroundColor = 'rgba(30, 41, 59, 0.7)';
+leadersContainer.style.borderRadius = '1px';
+leadersContainer.style.overflow = 'hidden auto';
+leadersContainer.style.border = '1px solid #0284c7';
+
+// Function to create leader card
+function createLeaderCard(imgUrl, nameTitle, alignment, description) {
+    let card = document.createElement('div');
+    card.style.display = 'flex';
+    card.style.flexDirection = 'column';
+    card.style.alignItems = 'center';
+    card.style.backgroundColor = '#1e293b';
+    card.style.border = '2px solid #0284c7';
+    card.style.borderRadius = '1px';
+    card.style.padding = '5px'; // Reduced from 1px
+    card.style.color = 'white'; // Explicit white text
+    card.style.boxShadow = '0 2px 6px rgba(0, 0, 0, 0.3)';
+    card.style.width = '100%';
+
+    let img = document.createElement('img');
+    img.src = imgUrl;
+    img.alt = nameTitle;
+    img.style.width = '140px'; // Increased from 120px
+    img.style.height = '160px'; // Increased from 120px (taller aspect ratio)
+    img.style.borderRadius = '6px';
+    img.style.objectFit = 'cover';
+    img.style.border = '2px solid #0284c7';
+    card.appendChild(img);
+
+    let name = document.createElement('p');
+    name.innerText = nameTitle;
+    name.style.marginTop = '8px'; // Reduced from 10px
+    name.style.fontWeight = '600';
+    name.style.fontSize = '16px';
+    name.style.textAlign = 'center';
+    name.style.color = 'white'; // Explicit white text
+    name.classList.add('custom-p');
+    card.appendChild(name);
+
+    let desc = document.createElement('p');
+    desc.innerText = description;
+    desc.style.marginTop = '6px'; 
+    desc.style.padding = '0 5px'; 
+    desc.style.fontSize = '14px';
+    desc.style.textAlign = 'center';
+    desc.style.color = 'white';
+    desc.classList.add('custom-p');
+    card.appendChild(desc);
+
+    let status = document.createElement('div');
+    status.innerText = alignment;
+    status.style.marginTop = '6px'; 
+    status.style.padding = '4px 8px'; 
+    status.style.borderRadius = '20px';
+    status.style.fontWeight = '500';
+    status.style.fontSize = '14px';
+    status.style.backgroundColor = alignment === 'Loyal Subordinate' ? '#16a34a' : '#dc2626';
+    status.style.color = 'white';
+    card.appendChild(status);
+
+    return card;
+}
+
+// Determine leaders based on variables 
+let currentLeaders = [];
+
+// Britain
+if (Blair == 1) {
+    currentLeaders.push({
+        imgUrl: 'https://i.imgur.com/Daa6zqm.gif',
+        nameTitle: 'Prime Minister Tony Blair - UK',
+        alignment: 'Loyal Subordinate',
+        description: 'Despite a few hiccups from 2005 and pressure from Brown to resign, Tony Blair has fought and clawed his way up from near oblivion. Whether he can continue the fight in 2010 is another question.'
+    });
+} else if (Brown == 1) {
+    currentLeaders.push({
+        imgUrl: 'https://i.imgur.com/hgyMAWf.gif',
+        nameTitle: 'Prime Minister Gordon Brown - UK',
+        alignment: 'Hesitant Merchant',
+        description: 'The new Prime Minister has made a name for himself thus far as indecisive. After witnessing American foreign policy rip his party to shreds, he\'s looking to create distance. You won\'t be able to bounce around him like you did Blair. Gordon Brown is a man of intellect who is not afraid to browse through a library or two to find a solution.'
+    });
+} else if (Brown == 2) {
+    currentLeaders.push({
+        imgUrl: 'https://i.imgur.com/GdWenQ5.gif',
+        nameTitle: 'Prime Minister Gordon Brown - UK',
+        alignment: 'Loyal Subordinate',
+        description: 'After leading his party to a steady victory in 2007, Gordon Brown feels confident and generous. With a 4th Labour term secured, he\'s surely willing to work with you when you call for help. In these uncertain times, that\'s the most you can hope for.'
+    });
+} else {
+    currentLeaders.push({
+        imgUrl: 'https://i.imgur.com/1LfXEqw.gif',
+        nameTitle: 'Prime Minister Tony Blair - UK',
+        alignment: 'Hesitant Merchant',
+        description: 'The man stuck in the shadow of his prime. Tony Blair has long been burnt and left for dead by the Bush Administration, but if you give him some time and room to grow, he can be useful.'
+    });
+}
+
+// France
+if (Sarkozy == 1) {
+    currentLeaders.push({
+        imgUrl: 'https://i.imgur.com/PSzFRdX.gif',
+        nameTitle: 'President Nicolas Sarkozy - France',
+        alignment: 'Hesitant Merchant',
+        description: 'Good old Sarkozy is just what we needed to rebalance the West and get a man looking to fix problems instead of shouting about them. He\'s a negotiator, someone willing to strengthen ties with us.'
+    });
+} else if (Royal == 1) {
+    currentLeaders.push({
+        imgUrl: 'https://i.imgur.com/CdGPuES.gif',
+        nameTitle: 'President Ségolène Royal - France',
+        alignment: 'Unwilling Vassal',
+        description: 'Nightmare, this is an utter nightmare; Royal is a walking bomb ready to explode in the West. Hailing from the French Socialist Party, she won the 2007 election partly on a promise of obstruction. Hoping to sink your agenda, she\'s stacked all her bets on stopping you'
+    });
+} else {
+    currentLeaders.push({
+        imgUrl: 'https://i.imgur.com/6yJourJ.gif',
+        nameTitle: 'President Jacques Chirac - France',
+        alignment: 'Unwilling Vassal',
+        description: 'Since the dawn of his second term, President Chiraq has done nothing but oppose and impede American ventures. He opposed the Bush Administration\'s conduct in Iraq and is in bed with Putin on weekends. He\'s a problem, but maybe his successor will change course.'
+    });
+}
+
+// Turkey
+if (Gul == 1) {
+    currentLeaders.push({
+        imgUrl: 'https://i.imgur.com/8ZP60vh.gif',
+        nameTitle: 'President Abdullah Gül - Turkey',
+        alignment: 'Hesitant Merchant',
+        description: 'Forced to accept American meddling in regions he hopes to influence, President Gül has made it his job to ensure his country\'s benefit first. If you plan to barter with him, you\'d better make a good offer he can\'t help but take.'
+    });
+} else {
+    currentLeaders.push({
+        imgUrl: 'https://i.imgur.com/YVFXRLs.gif',
+        nameTitle: 'President Ahmet Necdet Sezer - Turkey',
+        alignment: 'Hesitant Merchant',
+        description: 'Turkey was naturally the closest ally to the wars Bush waged in the Middle East. Over the span of his presidency, Sezer gave a quiet nod to American foreign policy and struck an indecisive tone about where he stood when confronted by you. He\'s not a problem unless you make him one.'
+    });
+}
+
+// Germany
+if (Merkel == 1) {
+    currentLeaders.push({
+        imgUrl: 'https://i.imgur.com/5NSefzA.gif',
+        nameTitle: 'Chancellor Angela Merkel - Germany',
+        alignment: 'Hesitant Merchant',
+        description: 'Merkel was the likely successor to Schröder\'s failures, but her party\'s performance disappointed expectations despite that. Forced to lead a Grand Coalition with the SPD, she\'s likely reluctant to follow you in making any bold moves.'
+    });
+} else {
+    currentLeaders.push({
+        imgUrl: 'https://i.imgur.com/eBq8nF9.gif',
+        nameTitle: 'Chancellor Gerhard Schröder - Germany',
+        alignment: 'Unwilling Vassal',
+        description: 'Bush made him nothing short of an enemy of the West under his leadership, and if your history shows anything, it\'s that you and Schröder are likely to butt heads in the future. Especially once you begin targeting Russia and the oil that he\'s worked so hard to secure.'
+    });
+}
+
+// Add leaders to container
+currentLeaders.forEach(leader => {
+    leadersContainer.appendChild(createLeaderCard(
+        leader.imgUrl, 
+        leader.nameTitle, 
+        leader.alignment, 
+        leader.description
+    ));
+});
+
+// Add container to column
+leadersColumn.appendChild(leadersContainer);
+mainContentContainer.appendChild(conquestsColumn);
+mainContentContainer.appendChild(leadersColumn);
+conquestDiv.appendChild(mainContentContainer);
+
+// Insert into DOM
+questions.parentNode.insertBefore(conquestDiv, questions.nextSibling);
 }
 
 function handleMutations(mutationsList, observer) {
