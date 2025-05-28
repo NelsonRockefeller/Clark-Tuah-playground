@@ -58880,7 +58880,7 @@ cyoAdventure = function(a) {
 }
 
     // britain
-    if (e.noCounter == 10) {
+    if (e.noCounter == 9) {
     if (Nato > 1 && Notroops == 1) {
         Blair += 1;
     }
@@ -58900,6 +58900,10 @@ cyoAdventure = function(a) {
     if (Nato < 20) {
         Gul += 1;
     }
+}
+
+    // France and Turkey elections
+    if (e.noCounter == 12) {
     if (Nato > 3 && Blair == 0) {
         Brown += 1;
     }
@@ -59341,10 +59345,10 @@ cyoAdventure = function(a) {
     }
 
     if (e.noCounter == 17) {
-        if (Blair == 1 && Agenda > 5) {
+        if (Blair == 1 && Agenda > 3) {
             campaignTrail_temp.questions_json[17] = tunnel(254995); 
         }
-        else if (Agenda > 5) {
+        else if (Agenda > 3) {
             campaignTrail_temp.questions_json[17] = tunnel(255024); 
         }
         else if (Blair == 1) {
@@ -60866,7 +60870,7 @@ e.executable.push([1, (() => {e.image = e.image = 'https://i.imgur.com/1elrxuk.p
 }
 if ( quickstats[0] <= 269 && Dem == 2) { // romnerimmigrants
 e.pages.push(`<h3>The Onion | <i>Brave Immigrant Completes Spiritual Self Deportation Journey, Thanks President Romney for Giving Pointers.</i></h3>
-<p><b>April 18, 2010 </b>|| Albuquerque, New Mexico - In a dusty border town cafe just south of Arizona, 32-year-old Enrique Balbado wipes finishes the final chapter of his memoir, "The Healing Hike Home: How I Self-Deported in 2010 and Found Myself, Barefoot and Unemployed."</p> <p>Enrique is one of the thousands of immigrants who followed President Mitt Romney's self-deportation policy described as "a humane, optional exit strategy for people who have jobs and families, but also the audacity to want to stay."</p> <p>"I remember when ICE agents first knocked on my door," Enrique says. "They were so gentle suggesting I deport myself, they went through all my belongings hurrying me along and my house was torn apart but they assured me this was the most humane possible way to do it."</p><p>Motivated by Romney's immigration policy and ICE agents banging down his door, Enrique sold his truck, quit his landscaping job, and began walking toward Mexico. "I didn't even know which way was south," he admits. "I used the stars, the scent of cilantro, and an outdated Taco Bell receipt with a map on the back."</b></p><p>Romney's presidency now hailed as a success story for the National Etiquette Restoration Act, was marked by sweeping reforms, including the Voluntary Exodus Encouragement Act, which replaced all immigration forms with a mirror and a post-it note reading, "You know what to do."</p><p>Critics like Governor Rick Perry, who conducts more forceful immigration reform in Texas, like the establishment of Texans "own Guantanamo" on a floating island built by immigrants. Romney responded to the attacks, stating, "Look, if people want to stay in America, they'll stay. But they'll go if they don't want to be hassled by federal agents disguised as Pizza Hut delivery drivers. That's the free market of residence."</p><pEnrique’s journey was no easy task. "I was halfway through Arizona when I realized I forgot my passport. But I remembered Mitt said, 'When life gives you immigration status, give it back like a gentleman.' So I kept walking."</p><p>Enrique rebuilt his life in Sonora as a freelance sombrero consultant and occasionally appears back in America for TED Talks, giving motivational speeches about leaving the country.</p><p>No matter the struggle, Enrique holds no ill will toward the President. "Romney taught me something. If you don't belong somewhere, you should definitely leave quietly and let the economy figure it out. That's the American way."</p><p>When confronted, President Romney nodded and said, "Good. The system works."</p>`)
+<p><b>April 18, 2010 </b>|| Albuquerque, New Mexico - In a dusty border town cafe just south of Arizona, 32-year-old Enrique Balbado finishes the final chapter of his memoir, "The Healing Hike Home: How I Self-Deported in 2010 and Found Myself, Barefoot and Unemployed."</p> <p>Enrique is one of the thousands of immigrants who followed President Mitt Romney's self-deportation policy described as "a humane, optional exit strategy for people who have jobs and families, but also the audacity to want to stay."</p> <p>"I remember when ICE agents first knocked on my door," Enrique says. "They were so gentle suggesting I deport myself, they went through all my belongings hurrying me along and my house was torn apart but they assured me this was the most humane possible way to do it."</p><p>Motivated by Romney's immigration policy and ICE agents banging down his door, Enrique sold his truck, quit his landscaping job, and began walking toward Mexico. "I didn't even know which way was south," he admits. "I used the stars, the scent of cilantro, and an outdated Taco Bell receipt with a map on the back."</b></p><p>Romney's presidency now hailed as a success story for the National Etiquette Restoration Act, was marked by sweeping reforms, including the Voluntary Exodus Encouragement Act, which replaced all immigration forms with a mirror and a post-it note reading, "You know what to do."</p><p>Critics like Governor Rick Perry, who conducts more forceful immigration reform in Texas, like the establishment of Texans "own Guantanamo" on a floating island built by immigrants. Romney responded to the attacks, stating, "Look, if people want to stay in America, they'll stay. But they'll go if they don't want to be hassled by federal agents disguised as Pizza Hut delivery drivers. That's the free market of residence."</p><pEnrique’s journey was no easy task. "I was halfway through Arizona when I realized I forgot my passport. But I remembered Mitt said, 'When life gives you immigration status, give it back like a gentleman.' So I kept walking."</p><p>Enrique rebuilt his life in Sonora as a freelance sombrero consultant and occasionally appears back in America for TED Talks, giving motivational speeches about leaving the country.</p><p>No matter the struggle, Enrique holds no ill will toward the President. "Romney taught me something. If you don't belong somewhere, you should definitely leave quietly and let the economy figure it out. That's the American way."</p><p>When confronted, President Romney nodded and said, "Good. The system works."</p>`)
 e.executable.push([1, (() => {e.image = e.image = 'https://i.imgur.com/xzzafuc.png'})])
 }
 else if ( quickstats[0] <= 269 && Dem == 2 && Wins < 7) { // romnercare
