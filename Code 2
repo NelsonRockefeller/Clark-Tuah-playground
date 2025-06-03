@@ -61143,7 +61143,7 @@ cyoAdventure = function(a) {
     }
 
     //Wins to determine midterms
-    if (ans == 5148 || ans == 5150 || ans == 5143 || ans == 20752 || ans == 5155 || ans == 20890 || ans == 23844 || ans == 22625 || ans == 23197 || ans == 24794) {
+    if (ans == 5145 || ans == 5148 || ans == 5150 || ans == 5143 || ans == 20752 || ans == 5155 || ans == 20890 || ans == 23844 || ans == 22625 || ans == 23197 || ans == 24794) {
         Win += 1;
     }
     if (ans == 20740 || ans == 22670 || ans == 20755 || ans == 23832 || ans == 21037) {
