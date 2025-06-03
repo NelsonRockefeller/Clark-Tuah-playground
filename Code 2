@@ -62877,7 +62877,7 @@ const clarkWin = new Playlist();
 clarkWin.addSong(clarkWinSong);
 changePlaylist(clarkWin);
 }
-else if (quickstats[0] <= 181) { // ww3 loss - 
+else if (quickstats[0] <= 138) { // ww3 loss - 
 e.pages.push(`<h3><i>Icarus</i></h3>
           <p><b>Falling—it was agony.</b></p> <p><b>A rapid plunge into the abyss, and not one hand reached out to save him. Icarus could only imagine how he became the protagonist of such a tale. His once-celebrated achievements quickly dissolved into oblivion, while critics from every corner emerged to seize the pen writing this story.</b></p> <p><b>Those who once lifted him now parrot the same words: he flew too close to the sun. As if ambition alone explained his fall—as if striving too far, too fast made him some reckless overachiever, doomed by pride. They hope to sidestep the wrath of his defeat by washing their hands of guilt as if they are innocent victims. His loyal second hand began to fly as far away from him as she could.</b></p> <p><b>Cowards, all of them.</b></p> <p><b>The painful truth is that they will likely get their wish and find future opportunities to squander. Outsiders drew their conclusions. They say Icarus was too cautious and too wasteful by squandering rare opportunities and charging into battle, lacking those on the ground to cheer him on. They argue that he might have triumphed if he had pursued bolder conquests and chased grander spoils. It was a tug of war between those wanting more and those fearing it was too much.</b></p> <p><b>The prevailing narrative concluded that Icarus failed to please either. The game was over, and as the figure of Icarus fell to the floor Clark's vision snapped to reality.</b></p> <p><b>As his office was swiftly dissected for his successor to paint anew, Clark looked out toward the streets of Washington. Unsure whether to feel regret or believe that he did everything he could. He turned away, hoping to move on from this mess. The diorama representing his journey was soon tossed in a box and shipped alongside him.</b></p> <p><b>His story had concluded, and Clark no longer cared to ponder alternate tales. He had lost the war. And soldiers on the losing side are rarely remembered as anything more.</b></p>`)
           // idk how to add playlists but to do that you create a new playlist in code1 with just that song and put changePlaylist(nameOfYourEndingPlaylist) right here
@@ -63229,18 +63229,18 @@ const brownbackWin = new Playlist();
 brownbackWin.addSong(brownbackWinSong);
 changePlaylist(brownbackWin);
 }
-else if (quickstats[0] <= 200 && Dem == 8 && Russia > 3) { // Landslide Defeat - Cheney
-e.pages.push(`<h3><i>Icarus</i></h3>
+else if (quickstats[0] <= 269 && Dem == 8) { // Landslide Defeat - Cheney
+e.pages.push(`<h3><i>Abyss</i></h3>
           <p><b>Olympus has fallen; there was no denying it. Well, before the battle began, it was undeniable that there would be no victory at the end of the tunnel.</b></p> <p><b>While drifting through the crumbling palace he called home, Icarus felt great regret. The Storm was upon him, and he was weak, sickly. Olympus had undergone a terrible change, and he couldn't course direct its descent into darkness. The people were hungry and starving in the streets. Doors were being kicked in, families were left penniless, stability abroad had collapsed, the defenses of Olympus were weakened, and Icarus was dying.</b></p> <p><b>Sitting on his throne one last time, he looked up at the art on his walls. The judgmental faces of his most valued predecessors haunted him. He tore their portraits down; behind them were his abode's broken and tattered walls. There was no more time to lament his failures; the bells were ringing, and it was time for him to take flight.</b></p> <p><b>The ground shook as he pushed forward through the halls of Olympus. Finally ready to soar into the sunset, well he hoped as he looked far out into the distance, he saw it. The Storm was here.</b></p> <p><b>Icarus took flight, knowing he wouldn't land gracefully. He met the storm face to face. Lightning struck Icarus deep in the heart, sending him plummeting from the clouds. As he descended into the abyss, so did Olympus; his fate was tied to it and was forever lost.</b></p>`)
           // idk how to add playlists but to do that you create a new playlist in code1 with just that song and put changePlaylist(nameOfYourEndingPlaylist) right here
 //e.image = ""
 e.executable.push([0, (() => {e.image = e.image = 'https://i.imgur.com/Ui4PWNZ.gif'})])
 const cheneyWin = new Playlist();
   const cheneyWinSong = new Song(
-    "No Surprises",
-    "Juliana Chahayed",
+    "Sweet Dreams",
+    "Marilyn Manson",
     "https://i.imgur.com/8UjJ7XG.gif",
-    "https://audio.jukehost.co.uk/E4LTrnk4QmiTWPnP39nRwXF6bBRq1MZt"
+    "https://audio.jukehost.co.uk/jsAmOj6zQTTuRv1X2mhC9fP0Xalr8Riq"
   );
 cheneyWin.addSong(cheneyWinSong);
 changePlaylist(cheneyWin);
