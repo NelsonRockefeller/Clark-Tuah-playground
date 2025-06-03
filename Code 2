@@ -62411,7 +62411,7 @@ cyoAdventure = function(a) {
     }
 
     if (e.noCounter == 27) {
-        if (Econ == 0 && Fred == 0 && Nato > 5 && Agenda > 3) {
+        if (Econ == 0 && Fred == 0 && Lehman == 0 && Nato > 5 && Agenda > 3) {
             campaignTrail_temp.questions_json[27] = tunnel(254909); 
             switcheroo101();
             switcheroo102();
