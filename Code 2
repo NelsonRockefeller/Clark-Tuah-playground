@@ -61470,7 +61470,7 @@ cyoAdventure = function(a) {
             campaignTrail_temp.questions_json[11] = tunnel(23771); 
         }
         else if (Notroops > 0 && Agenda > 4) {
-            campaignTrail_temp.questions_json[11] = tunnel(24738); 
+            campaignTrail_temp.questions_json[11] = tunnel(24658); 
         }
         else if (Notroops > 0 && Nato > 2) {
             campaignTrail_temp.questions_json[11] = tunnel(254613); 
@@ -61482,7 +61482,7 @@ cyoAdventure = function(a) {
         if (Boner > 0) {
             campaignTrail_temp.questions_json[12] = tunnel(20957); 
         }
-        if (Pelosi > 0 && Agenda > 5 && Win > 9) {
+        else if (Pelosi > 0 && Agenda > 5 && Win > 9) {
             campaignTrail_temp.questions_json[12] = tunnel(24738); 
         }
         else if (Pelosi > 0 && Agenda > 5) {
