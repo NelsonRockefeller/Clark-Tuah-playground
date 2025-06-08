@@ -60614,7 +60614,6 @@ campaignTrail_temp.jet_data = [{
 
 
 
-
 e.cyoa = true
 var Dem = 0;
 var Promise = 0;
