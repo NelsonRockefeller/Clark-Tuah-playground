@@ -265,130 +265,195 @@ document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_wi
 
 //#endcode
 
+e.ElectionPopup = "Stick around to receive the concession call... or make one."
+e.WinPopup = "wes its glup shitto, i lost"
+e.LosePopup = "glup shitto its wes, i lost"
+
 document.head.innerHTML += `<link
   rel="stylesheet"
   href="https://unpkg.com/7.css"
 >`;
 
-// Add custom styles
 document.head.innerHTML += `<style>
-.overlay_window {
-  position: absolute;
-  opacity: 1;
-  filter: alpha(opacity=100);
-  background: rgba(255, 255, 255, 0.5); /* Near-clear white background */
-  border-style: double;
-  border-color: #C9C9C9;
-  height: 72%;
-  width: 54%;
-  top: 17%;
-  left: 25%;
-  z-index: 101;
-  transition: opacity 0.3s ease, backdrop-filter 0.3s ease; /* Smooth transitions */
-  -webkit-filter: blur(0px);
-  -webkit-animation: fadein linear 0.15s;
+  :root {
+    --window-background: initial !important;
+    --window-background-color: initial !important;
+  }
 
-  /* Aero Glass Effect */
-  backdrop-filter: blur(10px); /* Blur the background behind the element */
-  -webkit-backdrop-filter: blur(10px); /* For Safari support */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Subtle shadow */
-  border-radius: 8px; /* Rounded corners */
-}
+  /* Base typography */
+  body {
+    display: flex !important;
+    font-family: "Segoe UI", Segoe, Tahoma, Geneva, Verdana, sans-serif !important;
+    color: #000000 !important;
+  }
 
-.overlay_window h3 {
-  margin: 0;
-  padding: 10px; /* Add padding for better spacing */
-  font-weight: 700;
-  font-size: 1.5em;
-  background: rgba(23, 55, 107, 0.5); /* Near-clear dark blue background */
-  backdrop-filter: blur(10px); /* Frosted glass effect */
-  -webkit-backdrop-filter: blur(10px); /* For Safari support */
-  color: #fff; /* White text */
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Subtle text shadow */
-  border-bottom: double;
-  border-color: #707070;
-  border-radius: 8px 8px 0 0; /* Rounded corners at the top */
-}
+  /* General h3 styles (lower specificity) */
+  body h3 {
+    font-size: 1.17em !important;
+    font-family: inherit !important;
+    color: #000000 !important;
+  }
 
-.overlay_window p {
-  color: #333; /* Darker text for better readability */
-  padding: 10px; /* Add padding for better spacing */
-}
+  .custom-h3 {
+    font-size: 1.17em !important;
+    color: white !important;
+  }
 
-h3 {
-  font-size: 1.17em !important;
-  font-family: "Segoe UI", Segoe, Tahoma, Geneva, Verdana, sans-serif !important;
-  color: #000000 !important;
-}
+  h4 {
+    font-size: 1em !important;
+    font-family: inherit !important;
+    color: #000000 !important;
+  }
 
-.custom-h3 {
-  font-size: 1.17em !important;
-  font-family: "Segoe UI", Segoe, Tahoma, Geneva, Verdana, sans-serif !important;
-  color: white !important;
-}
+  label {
+    font-size: 0.92em !important;
+    font-family: inherit !important;
+    color: #000000 !important;
+  }
 
-h4 {
-  font-size: 1em !important; /* Adjust the size as needed */
-  font-family: "Segoe UI", Segoe, Tahoma, Geneva, Verdana, sans-serif !important;
-  color: #000000 !important;
-}
+  /* General p styles (lower specificity) */
+  body p {
+    font-family: inherit !important;
+    color: #000000 !important;
+  }
 
-label {
-  font-size: 0.92em !important;
-  font-family: "Segoe UI", Segoe, Tahoma, Geneva, Verdana, sans-serif !important;
-  color: #000000 !important;
-}
+  .custom-p {
+    color: white !important;
+  }
 
-p {
-  font-family: "Segoe UI", Segoe, Tahoma, Geneva, Verdana, sans-serif !important;
-  color: #000000 !important;
-}
+  .overlay_window {
+    position: absolute;
+    width: 54%;
+    height: 72%;
+    top: 17%;
+    left: 25%;
+    z-index: 101;
+    
+    background: rgba(255, 255, 255, 0.5) !important;
+    backdrop-filter: blur(10px) !important;
+    -webkit-backdrop-filter: blur(10px) !important;
+    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3) !important;
+    backdrop-filter: blur(10px) !important;
+    -webkit-backdrop-filter: blur(10px) !important;
+  }
 
-.custom-p {
-  font-family: "Segoe UI", Segoe, Tahoma, Geneva, Verdana, sans-serif !important;
-  color: white !important;
-}
+  .overlay_window h3 {
+    
+    margin: 0 !important;
+    padding: 10px !important;
+    font-size: 1.5em !important;
+    font-weight: 700 !important;
+    color: #fff !important;
+    background: rgba(23, 55, 107, 0.5) !important;
+    border-bottom: double #707070 !important;
+    border-radius: 8px 8px 0 0 !important;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5) !important;
+    backdrop-filter: blur(10px) !important;
+    -webkit-backdrop-filter: blur(10px) !important;
+  } 
 
-body {
-  display: flex !important;
-  font-family: "Segoe UI", Segoe, Tahoma, Geneva, Verdana, sans-serif !important;
-  color: #000000 !important;
-}
+  /* Improve paragraph readability */
+  .overlay_window p {
+    color: #333 !important;
+    padding: 10px;
+  }
 
-#map_footer {
-  position: relative;
-  top: 20px; /* Adjust the value as needed */
-}
+  /* Rest of your existing styles remain unchanged */
+  #conquest_success_box {
+    width: 400px;
+    height: 100px;
+    border-radius: 4px;
+    border: 2px solid #4CAF50;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    display: none;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    z-index: 1000; 
+  }
 
-.inner_window_question {
-  height: 340px; /* Fixed height */
-  position: relative; /* Needed for absolute button positioning */
-}
+  #conquest_success_box.with-image {
+    color: white;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.8);
+  }
 
-/* Button container styles */
-#answer_select_button,
-#view_electoral_map,
-#headquarter_button {
-  margin-top: 12px;  /* Magic property that pushes to bottom */
-  align-self: flex-start;
-}
+  #conquest_success_box.without-image {
+    background-color: #f0f8ff;
+  }
 
-/* Optional: Add spacing between buttons */
-#view_electoral_map {
-  margin-left: 5px;
-}
+  #conquest_success_box .popup-content {
+    text-align: center;
+    padding: 20px;
+    border-radius: 4px;
+  }
 
-#headquarter_button {
-  margin-left: 5px;
-}
- 
-.game_header {
+  #conquest_success_box.with-image .popup-content {
+    background-color: rgba(0,0,0,0.5);
+  }
+
+  #conquest_success_box h3 {
+    margin: 0 0 8px 0;
+    font-size: 18px !important;
+    font-weight: bold !important;
+  }
+
+  #conquest_success_box.with-image h3 {
+    color: white !important;
+  }
+
+  #conquest_success_box.without-image h3 {
+    color: #2E7D32 !important;
+  }
+
+  #conquest_success_box p {
+    margin: 0;
+    font-size: 16px !important;
+  }
+
+  #conquest_success_box.with-image p {
+    color: white !important;
+  }
+
+  #conquest_success_box.without-image p {
+    color: #333 !important;
+  }
+
+  /* Layout components */
+  .game_header {
     max-height: 60px;
-}
+  }
 
-#game_window {
-  max-width: 1000px;
-}
+  #game_window {
+    max-width: 1000px;
+  }
+
+  #map_footer {
+    position: relative;
+    top: 20px;
+  }
+
+  .inner_window_question {
+    height: 340px;
+    position: relative;
+  }
+
+  /* Button container styles */
+  #answer_select_button,
+  #view_electoral_map,
+  #headquarter_button {
+    margin-top: 12px;
+    align-self: flex-start;
+  }
+
+  #view_electoral_map,
+  #headquarter_button {
+    margin-left: 5px;
+  }
 </style>`;
 
 function addDynamicCSS() {
@@ -492,7 +557,7 @@ addDynamicCSS();
     {searchString: "Kerry", explanationText: "<img src=https://i.imgur.com/tIs5HFA.png> Took a heavy loss in Iowa, but hey, he's a good sport, and joined the administration moments after being asked. He previously represented Massachusetts in the United States Senate from 1985 to 2005 and will now serve as a guiding hand of your administration."},
     {searchString: "Limbaugh", explanationText: "<img src=https://i.imgur.com/wWf3fIs.png> Putrid being, called Landrieu a “high priced prostitute” for her efforts in getting Hurricane Katrina aid."},
     {searchString: "Dellinger", explanationText: "<img src=https://i.imgur.com/fPwZvBM.jpeg> Your Attorney General made his mark during the Clinton years and has since established friendships with Supreme Court Justices like Stephen Bryer. He's a well-suited man for the job of fighting against hate wherever it presents itself."},
-    {searchString: "Summers", explanationText: "<img src=https://i.imgur.com/GlnK2wE.png> Lawrence Summers, former Secretary of Treasury under your friend Bill. With economic uncertainty becoming a prevailing issue for you during the election, who better to pick than the man who worked to solve financial crises in Asia and Russia. He'll likely be a vital source of knowledge to pick a few pointers."},
+    {searchString: "Altman", explanationText: "<img src=https://i.imgur.com/XXEYxyT.png> He may have fired you but damn are Clinton's people useful. Roger Altman is an American investment banker, and former Deputy Secretary of the Treasury under Bill Clinton."},
     {searchString: "Religious Freedom Doctrine", explanationText: "<img src=https://i.imgur.com/j5Eq0Ps.png> The Bible's answer to solving all problems, by letting them fester in the background."},
     {searchString: "Terri Schiavo Case", explanationText: "<img src=https://i.imgur.com/QfY3x33.png> series of court and legislative actions in the United States from 1998 to 2005, regarding the care of Theresa Marie Schiavo, a woman in an irreversible persistent vegetative state."},   
     {searchString: "Connecticut for Lieberman", explanationText: "<img src=https://i.imgur.com/7cSe3G7.png> Joe Lieberman's pity party to cry over his failure to win a primary."},
@@ -510,7 +575,7 @@ addDynamicCSS();
     {searchString: "Cyber Intelligence Protection Act", explanationText: "<img src=https://i.imgur.com/iHuTxvq.jpg> Significant regulations on the industrial and aerospace industries, the energy and power sectors, and the public sector relate to securing data and strengthening firewalls. Republicans see this as massive government overreach, Democrats see it as a waste of time, and the public—well, they couldn't care less for your little pet project."},
     {searchString: "Former Vice President Dick Cheney", explanationText: "<img src=https://i.imgur.com/DnOC2pD.png> This has to be a joke, Dick Cheney has stolen the nomination from the evangelicals rising star Mike Huckabee and despite it all this election is close by your sheer incompetence. You've dragged him back into the political ring by causing chaos abroad and at home and further embarrassing yourself with a failed cyber security law and the failed Defense of Marriage repeal. Cheney has made a lot of enemies but so have you. "},
     {searchString: "Mike Huckabee answered", explanationText: "<img src=https://i.imgur.com/ix9IWRJ.png> The most charismatic of the line up, Governor Mike Huckabee has clinched the nomination spurred by evangelical turnout from the attempted repeal of the Defense of Marriage Act and by pointing the finger and lambasting the gutting of the Patriot Act and the abandonment of Iraq. Still he's no expert on any one issue and will be working an offensive strategy."},
-    {searchString: "Senator Sam Brownback of Kansas has done it", explanationText: "<img src=https://i.imgur.com/GHXkztg.png> Pure hatred, that's the only reason Sam Brownback is the Republican nominee. Iraq is stable but there's only one thing that matters to his voters. You attempted to repeal the Defense of Marriage Act and now he's prepared to unleash the Christian bomb-throwing wrath. He's unsettling, and his ideas are insane, you need to make him out to be the loon that he is."},
+    {searchString: "Senator Sam Brownback of Kansas has done it", explanationText: "<img src=https://i.imgur.com/GHXkztg.png> Pure hatred, that's the only reason Sam Brownback is the Republican nominee. Iraq is stable, the Patriot Act remains intact but there's only one thing that matters to his voters. You attempted to repeal the Defense of Marriage Act and now he's prepared to unleash the Christian bomb-throwing wrath. He's unsettling, and his ideas are insane, you need to make him out to be the loon that he is."},
     {searchString: "Ron Paul grasps the podium", explanationText: "<img src=https://i.imgur.com/iYDbgsV.png> A chaotic coronation, some call it a coup. Ron Paul had clinched the nomination and has refused any compromise with the establishment. You've managed to propel him here by ruling much like your predecessor on foreign policy and national security with the exception of raising taxes. He bruised a lot of egos to get here and a third party bid from fellow Republican Rick Santorum may end his rise to power."},
     {searchString: "Rudy Giuliani takes the stage.", explanationText: "<img src=https://i.imgur.com/tq723vU.png> This was pure destiny, since 9/11 there's been only one celebrity politician with the amount of name recognition to take the nomination, Mayor Giuliani has taken what was rightfully his. Spurred by your complete repudiation of the Bush years, the Patriot Act, Iraq and his tax cuts. He's here to revive the legacy but he has a soft underbelly which can be exploited."},
     {searchString: "Senator McCain has finally propelled himself", explanationText: "<img src=https://i.imgur.com/mvwM8ue.jpeg> A military peer of yours, John McCain has swooped in to take the Republican nomination after honing in on the unstable situation in Iraq and national security concerns spurred by your gutting of the Patriot Act. McCain is waiting to dutifully exploit these things but he has blown much of his lead on the selection of a Democrat as his vp."},
@@ -531,77 +596,50 @@ addDynamicCSS();
     {searchString: "Cerberus", explanationText: "<img src=https://i.imgur.com/xO0mBlD.png> Cerberus, The conservative democrats, the southern roots, they are happy you've abandoned the anti-war firebrand label but may require additional soothing."},
     {searchString: "A Sphinx demands", explanationText: "<img src=https://i.imgur.com/EXonLNi.jpg> Riddle: What is it that has one voice and yet becomes four-footed and two-footed and three-footed?"},
     {searchString: "The Sphinx offers", explanationText: "<img src=https://i.imgur.com/P6pbuEX.jpg> Riddle: A rich man needs it, a poor man has it, if we eat it, we die, and when we die, we bring it with us."},
-    {searchString: "The Sphinx grants", explanationText: "<img src=https://i.imgur.com/P6pbuEX.jpg> Riddle: You curse my name, you dread my face, but still you need me in my place. For though I sting and often burn, You know there’s much from me to learn."},
-    {searchString: "The Sphinx hands", explanationText: "<img src=https://i.imgur.com/P6pbuEX.jpg> Riddle: I'm built on trust, not stone or thread. Without me, your dreams are dead."},
-    {searchString: "The Sphinx bestows", explanationText: "<img src=https://i.imgur.com/P6pbuEX.jpg> Riddle: I offer many doors although they seem bleak, A branching web for those who seek. Though journeys vary, twists may trace, Most find me in the same old place."},
     {searchString: "the Sphinx reappears, offering you a riddle.", explanationText: "<img src=https://i.imgur.com/NSDBRjh.jpeg> Riddle: What can be given and can be accepted, is worth a great deal but costs nothing yet has no monetary value?"},
     {searchString: "Many see your apology to McCain as nothing more than a political ploy. McCain accepts it easily and graciously, but the voters you've lost with this debacle will take a lot more to get back.", explanationText: "<img src=https://i.imgur.com/95VFisx.jpeg> Answer: An Apology."},
     {searchString: "Without immediate action, Lehman Brothers will inevitably file for bankruptcy, dragging the economy down.", explanationText: "<img src=https://i.imgur.com/PcXlhhm.png> Answer: Nothing, you can do nothing."},
-    {searchString: "Prime Minister Tony Blair is, at this point, nothing but a subordinate, and despite knowing the hell there will be to pay if he allows this deal to follow through, he lacks the backbone to push back. Chancellor Brown sighs as Barclay is allowed to acquire Lehman Brothers, avoiding what would have been a disaster, but markets still sink nonetheless.", explanationText: "<img src=https://i.imgur.com/PcXlhhm.png> Answer: Choices, which you have many."},
-    {searchString: "Using 1930s legislation crafted to allow the Fed broad authority to save the falling banks, Secretary Summers travels through the gray area of legal mandates and pulls enough strings to keep Lehman Brothers afloat via auctioning their assets and buying up the rest. Your administration catches heavy flak for corporate handouts, but you've avoided what could have been a catastrophe.", explanationText: "<img src=https://i.imgur.com/PcXlhhm.png> Answer: Choices, which you have many."},
-    {searchString: "You are at the peak of your political capital, and although many in Congress heckle your efforts, like Senator Bernie Sanders, what he sees as socialism for the rich, you realize is the only way to save the markets. The public backlash is immense, but you are no stranger to such royalties.", explanationText: "<img src=https://i.imgur.com/PcXlhhm.png> Answer: Choices, which you have many."},
-    {searchString: "You stand at the peak of your political capital, and although many in Congress heckle your efforts, like Senator Bernie Sanders, what he sees as socialism for the rich, you realize is the only way to save the markets. The public backlash is immense, but you are no stranger to such luxury.", explanationText: "<img src=https://i.imgur.com/FxxGtW4.png> Answer: Sometimes you must save something even if you hate it."},
-    {searchString: "By using 1930s legislation crafted to allow the Fed broad authority to save the falling banks, Secretary Summers travels through the gray area of legal mandates and pulls enough strings to keep Lehman Brothers afloat via auctioning their assets and buying up the rest. Your administration catches extreme flak for corporate handouts, but you've avoided what could have been a catastrophe.", explanationText: "<img src=https://i.imgur.com/FxxGtW4.png> Answer: Sometimes you must save something even if you hate it."},
-    {searchString: "British Prime Minister Tony Blair is, at this point, nothing but a subordinate, and despite knowing the hell there will be to pay if he allows this deal to follow through, he lacks the backbone to push back. Chancellor Brown sighs as Barclay is allowed to acquire Lehman Brothers, avoiding what would have been a catastrophe, but markets still sink nonetheless.", explanationText: "<img src=https://i.imgur.com/4Ppzekx.png> Answer: A friend always comes handy."},
     {searchString: "Prime Minister Brown understands your desperation. After much begging of him and other NATO allies like Poland, you've managed to assemble an emergency task force of nations to save Iraq. Republicans, on the other hand, bark and call it a farce.", explanationText: "<img src=https://i.imgur.com/FEaQUsX.png> Answer: Man crawls on all fours in infancy, walks on two feet when grown, and leans on a staff in old age. You are the old man, and thankfully, NATO has become your staff."},
-    {searchString: "Prime Minister Blair understands your desperation. After much begging of him and other NATO allies like Poland, you've managed to assemble an emergency task force of nations to save Iraq. Republicans, on the other hand, bark and call it a farce.", explanationText: "<img src=https://i.imgur.com/FEaQUsX.png> Answer: Man crawls on all fours in infancy, walks on two feet when grown, and leans on a staff in old age. You are the old man, and thankfully, NATO has become your staff."},
     {searchString: "Typhon", explanationText: "<img src=https://i.imgur.com/RuNSFeH.png> The destruction of your rule of Olympus, the challenge that promises to burn you to a crisp.  Lehman Brothers must go."},
     {searchString: "Harpies", explanationText: "<img src=https://i.imgur.com/hdgDQa6.png> The base has turned on you, unsatisfied with the surge of troops into Iraq. Outraged that there is not firm withdrawal date in sight, you've lost them and if you continue to ignore them they will be your demise."},
     {searchString: "Chimaera", explanationText: "<img src=https://i.imgur.com/uFgVOV2.png> The scattered hopes of those who demand America comes home, reminiscent of George McGovern's base of support they now are formed together to keep you in command of Olympus."},
     {searchString: "We ought to be smart with our proposal.", explanationText: "<img src=https://i.imgur.com/u9wqOzi.png> Establishes a Troubled Asset Relief Program and acquires up to $600 billion of mortgage-backed securities. Offers no assistance to families."},
     {searchString: "If we act now, this fiasco can be remedied and prevented.", explanationText: "<img src=https://i.imgur.com/u9wqOzi.png> Valued at around 900 billion in a Troubled Asset Relief Program and the establishment of a Foreclosure Relief Program that provides additional foreclosure avoidance and homeowner assistance along with freezing government-acquired adjustable rate mortgages. In addition, it offers massive banking reforms that prohibit member banks from affiliating with firms engaged principally in securities activities and prohibit officer, director, and employee interlocks between member banks and securities firms."},
     {searchString: "After serious discussions with Senator Clinton,", explanationText: "<img src=https://i.imgur.com/u9wqOzi.png> Administer a national program to help homeowners refinance their mortgages and establish a moratorium on foreclosures and freezing of rate hikes in adjustable rate mortgages, in addition to a Troubled Asset Relief Program, which would acquire up to $900 billion worth of mortgage-backed securities."},
-    {searchString: "Returning to the status quo is not on the table.", explanationText: "<img src=https://i.imgur.com/u9wqOzi.png> Tax Hikes on the top 1% and the reestablishment of a combination of a Resolution Trust Corporation and a Reconstruction Finance Corporation, along with the reestablishment of the Home Owners’ Loan Corporation. A bill so radical it would be dead on arrival."}
+    {searchString: "I'm not one to dismiss opposing views.", explanationText: "<img src=https://i.imgur.com/u9wqOzi.png> Tax Hikes on the top 1% and the reestablishment of a combination of a Resolution Trust Corporation and a Reconstruction Finance Corporation, along with the reestablishment of the Home Owners’ Loan Corporation. A bill so radical it would be dead on arrival."}
   ];
 
 
   e.collect_results = true;
   
   RecReading=true
+
+  // Mutation Observer Setup
+const windowsAdvisorObserver = new MutationObserver((mutationList, observer) => {
+    const visitWindow = document.getElementsByClassName("overlay_window")[0];
+    if (!visitWindow || visitWindow.classList.contains("done")) return;
     
-   
-   // Select the node that will be observed for mutations
-const windowsAdvisorTargetNode = document.getElementById("game_window");
-
-// Options for the observer (which mutations to observe)
-const windowsAdvisorConfig = { attributes: true, childList: true, subtree: true };
-
-// Callback function to execute when mutations are observed
-const callback = (mutationList, observer) => {
-    visitWindow = document.getElementsByClassName("overlay_window")[0];
-
-    if(visitWindow == null || visitWindow.classList.contains("done")) {
-        return;
+    visitWindow.classList.add("done", "window");
+    const titleBar = visitWindow.querySelector("h3");
+    if (titleBar) {
+        titleBar.classList.add("title-bar", "title-bar-text");
+        titleBar.style.paddingLeft = "3px";
     }
-    visitWindow.classList.add("done");
-    visitWindow.classList.add("window");
-    let titleBar = visitWindow.querySelector("h3");
-    titleBar.classList.add("title-bar");
-    titleBar.classList.add("title-bar-text")
-    titleBar.style.paddingLeft = "3px";
-};
+});
 
+windowsAdvisorObserver.observe(document.getElementById("game_window"), {
+    attributes: true,
+    childList: true,
+    subtree: true
+});
+
+// Music Player Classes
 class Song {
     constructor(title, artist, coverLink, audioLink) {
         this.title = title;
         this.artist = artist;
         this.coverLink = coverLink;
         this.audioLink = audioLink;
-    }
-    getTitle() {
-        return this.title;
-    }
-
-    getArtist() {
-        return this.artist;
-    }
-
-    getCoverLink() {
-        return this.coverLink;
-    }
-
-    getAudioLink() {
-        return this.audioLink;
     }
 }
 
@@ -627,383 +665,530 @@ class Playlist {
         this.currentSongIndex = (this.currentSongIndex - 1 + this.songs.length) % this.songs.length;
     }
 }
-window.Playlist=Playlist
-window.Song=Song
 
-function changePlaylist(newPlaylist) {
-    playlist = newPlaylist;
-    playlist.currentSongIndex = 0;
-    updateUI(playlist);
-    const audio = document.getElementById("audio");
-    audio.src = playlist.getCurrentSong().audioLink;
-    audio.play();
+// DOM Helper Functions
+function createElement(type, className, innerHTML, attributes = {}) {
+    const element = document.createElement(type);
+    if (className) element.className = className;
+    if (innerHTML) element.innerHTML = innerHTML;
+    Object.entries(attributes).forEach(([attr, value]) => element.setAttribute(attr, value));
+    return element;
 }
-window.changePlaylist=changePlaylist
 
+function formatTime(seconds) {
+    if (isNaN(seconds)) return "0:00";
+    const mins = Math.floor(seconds / 60);
+    const secs = Math.floor(seconds % 60);
+    return `${mins}:${secs < 10 ? '0' : ''}${secs}`;
+}
+
+// Player UI Functions
 function updateUI(playlist) {
     const currentSong = playlist.getCurrentSong();
-    var player = document.getElementById("player");
+    const player = document.getElementById("player");
     
-    // Only update UI if player exists
     if (player) {
         const coverElement = player.querySelector("#cover");
         const titleElement = player.querySelector("#title");
         const artistElement = player.querySelector("#artist");
         
-        if (coverElement) coverElement.src = currentSong.getCoverLink();
-        if (titleElement) titleElement.textContent = currentSong.getTitle();
-        if (artistElement) artistElement.textContent = currentSong.getArtist();
+        if (coverElement) coverElement.src = currentSong.coverLink;
+        if (titleElement) titleElement.textContent = currentSong.title;
+        if (artistElement) artistElement.textContent = currentSong.artist;
     }
 }
-window.updateUI=updateUI
 
-function setupMusicPlayer() {
-    playlist = new Playlist();
-
-    const song1 = new Song(
-        "Resistance",
-        "Muse",
-        "https://i.imgur.com/R1eqBUo.gif",
-        "https://audio.jukehost.co.uk/6tAoejj3zTSwW7GF0dEMY0KUbaclWWIY"
-    );
-
-    const song2 = new Song(
-        "Take Me Out",
-        "Franz Ferdinand",
-        "https://i.imgur.com/8KKKzar.gif",
-        "https://audio.jukehost.co.uk/rSx6VDEzc1B9Ax4H3Xw4xzKKs4T5zt9B"
-    );
-
-    const song3 = new Song(
-        "Mr. Brightside",
-        "The Killers",
-        "https://i.imgur.com/kIOK2FE.gif",
-        "https://audio.jukehost.co.uk/rD8tW884kzcHZejcr1tfIK2OgemXbuTF"
-    );
-
-    const song4 = new Song(
-        "Hot N Cold",
-        "Katy Perry",
-        "https://i.imgur.com/SzCK0uX.gif",
-        "https://audio.jukehost.co.uk/cAUldU7GY3YpJD7Slp8Da49voPk6xKFm"
-    );
-
-    const song5 = new Song(
-        "Vertigo",
-        "U2",
-        "https://i.imgur.com/C3Lzdfv.gif",
-        "https://audio.jukehost.co.uk/MZZfCLu3oBkAjJGyzHac3Hi6MNVmyoW2"
-    );
-
-    const song6 = new Song(
-        "Thunder In My Heart",
-        "Meck feat. Leo Slayer",
-        "https://i.imgur.com/WVh9fD3.gif",
-        "https://audio.jukehost.co.uk/CyrL8gEJ965fVCZY8rimZrNslJesE61O"
-    );
-
-    const song7 = new Song(
-        "In The End",
-        "Linkin Park",
-        "https://i.imgur.com/afW8i15.gif",
-        "https://audio.jukehost.co.uk/EnAFf8JaF1hEzTLyAmBWRPlxi2H8BkSr"
-    );
-
-    const song8 = new Song(
-        "On Melancholy Hill",
-        "Gorillaz",
-        "https://i.imgur.com/TDAl9HT.gif",
-        "https://audio.jukehost.co.uk/SMMYL9tzVfimUbQAgWeym87kEFE4qziw"
-    );
-
-    playlist.addSong(song1);
-    playlist.addSong(song2);
-    playlist.addSong(song3);
-    playlist.addSong(song4);
-    playlist.addSong(song5);
-    playlist.addSong(song6);
-    playlist.addSong(song7);
-    playlist.addSong(song8);
-
-    const playerContainer = document.createElement("div");
-    playerContainer.id = "player";
-  
-   const displayBox = document.createElement("div");
-  displayBox.id = "display-box";
-  
-  const coverElement = document.createElement("img");
-  coverElement.id = "cover";
-  displayBox.appendChild(coverElement);
-  
-  const infoContainer = document.createElement("div");
-  infoContainer.id = "info-container";
-  infoContainer.style.backgroundImage = "url('https://i.imgur.com/GZ5BxFS.png')";
-  infoContainer.style.backgroundSize = "150px 180px";
-  infoContainer.style.backgroundRepeat = "no-repeat";
-  infoContainer.style.color = "black"; // Set text color to white
-  
-  const songInfo = document.createElement("div");
-  songInfo.id = "song-info";
-  
-  const titleElement = document.createElement("h3");
-  titleElement.id = "title";
-  titleElement.style.fontWeight = 'bold'; // Make it normal as per previous request
-  songInfo.appendChild(titleElement);
-  
-  const artistElement = document.createElement("p");
-  artistElement.id = "artist";
-  songInfo.appendChild(artistElement);
-
-  const genreElement = document.createElement("p");
-  genreElement.id = "genre";
-  songInfo.appendChild(genreElement);
-
-  const yearElement = document.createElement("p");
-  yearElement.id = "year";
-  songInfo.appendChild(yearElement);
-  
-  infoContainer.appendChild(songInfo);
-  displayBox.appendChild(infoContainer);
-  
-  playerContainer.appendChild(displayBox);
-  
-  const controlsContainer = document.createElement("div");
-  controlsContainer.id = "controls-container";
-  
-  const controls = document.createElement("div");
-  controls.id = "controls";
-  
-  const prevButton = document.createElement("img");
-  prevButton.id = "prevButton";
-  prevButton.src = "https://i.imgur.com/WXBOiAF.png";
-  prevButton.alt = "Previous";
-  controls.appendChild(prevButton);
-  
-  const playPauseButton = document.createElement("img");
-  playPauseButton.id = "playPauseButton";
-  playPauseButton.src = "https://i.imgur.com/S73R9N1.png"; // Set the default play image
-  playPauseButton.alt = "Play/Pause";
-  controls.appendChild(playPauseButton);
-  
-  const nextButton = document.createElement("img");
-  nextButton.id = "nextButton";
-  nextButton.src = "https://i.imgur.com/Y0rjHS0.png";
-  nextButton.alt = "Next";
-  controls.appendChild(nextButton);
-  
-  controlsContainer.appendChild(controls);
-  
-  playPauseButton.addEventListener("click", function () {
-    const audio = document.getElementById("audio");
-    if (audio.paused) {
-      audio.play();
-      playPauseButton.src = "https://i.imgur.com/S73R9N1.png"; // Set the pause image
-    } else {
-      audio.pause();
-      playPauseButton.src = "https://i.imgur.com/8HAsU6M.png"; // Set the play image
-    }
-  });
-  
-  nextButton.addEventListener("click", function () {
-    playlist.playNext();
-    updateUI(playlist);
-    const audio = document.getElementById("audio");
-    audio.src = playlist.getCurrentSong().audioLink;
-    audio.play();
-  });
-  
-  prevButton.addEventListener("click", function () {
-    playlist.playPrevious();
-    updateUI(playlist);
-    const audio = document.getElementById("audio");
-    audio.src = playlist.getCurrentSong().audioLink;
-    audio.play();
-  });
-  
-    const progressBarContainer = document.createElement("div");
-    progressBarContainer.id = "progress-bar-container";
-    progressBarContainer.role = "progressbar";
-  
-    const progressBar = document.createElement("div");
-    progressBar.role = "paused";
-    progressBar.id = "progress";
-  
-  
-    progressBarContainer.appendChild(progressBar);
-    controlsContainer.appendChild(progressBarContainer);
-    playerContainer.appendChild(controlsContainer);
-  
-   const volumeContainer = document.createElement("div");
-      volumeContainer.id = "volume-container";
-  
-  const volumeLabel = document.createElement("img");
-  volumeLabel.src = "https://i.imgur.com/CSlERUK.png";
-  volumeLabel.alt = "Volume";
-  volumeContainer.appendChild(volumeLabel);
-  
-      const volumeSliderContainer = document.createElement("div");
-      volumeSliderContainer.classList.add("is-vertical");
-      volumeSliderContainer.style.marginLeft = "45%";
-      volumeSliderContainer.style.height = "126px";
-  
-      const volumeSlider = document.createElement("input");
-      volumeSlider.type = "range";
-      volumeSlider.id = "volumeSlider";
-      volumeSlider.min = 0;
-      volumeSlider.max = 9;
-      volumeSlider.step = 1;
-      volumeSlider.value = 2; // Initial volume
-  
-      volumeSliderContainer.appendChild(volumeSlider);
-  
-      const volumeDisplay = document.createElement("span");
-      volumeDisplay.id = "volume-display";
-      volumeDisplay.style.fontWeight = 'bold'; 
-      volumeDisplay.style.display = 'none';
-      volumeDisplay.textContent = "1";
-  
-      volumeContainer.appendChild(volumeSliderContainer);
-      volumeContainer.appendChild(volumeDisplay);
-  
-      playerContainer.appendChild(volumeContainer);
-  
-    gameWindow_player.insertAdjacentElement("afterend", playerContainer);
-  
-  
-    function updateProgressBar() {
-      const audio = document.getElementById("audio");
-      const progress = (audio.currentTime / audio.duration) * 100;
-      try{progressBar.style.width = progress + "%";}
-      catch{}
-    }
-  
-   
-    progressBar.addEventListener("input", function () {
-      const audio = document.getElementById("audio");
-      const seekTime = (progressBar.value / 100) * audio.duration;
-      audio.currentTime = seekTime;
+function setupEventListeners(playlist, audio) {
+    const playPauseButton = document.querySelector(".vista-play-btn");
+    const nextButton = document.querySelector(".vista-next-btn");
+    const prevButton = document.querySelector(".vista-prev-btn");
+    const volumeSlider = document.querySelector(".vista-volume-slider");
+    const progressTrack = document.querySelector(".vista-progress-track");
+    
+    playPauseButton?.addEventListener("click", () => {
+        if (audio.paused) {
+            audio.play();
+            playPauseButton.innerHTML = '<img src="https://i.imgur.com/1qhhG4D.png" alt="Pause" width="40" height="40">';
+            playPauseButton.classList.add("vista-pause-btn");
+            playPauseButton.classList.remove("vista-play-btn");
+        } else {
+            audio.pause();
+            playPauseButton.innerHTML = '<img src="https://i.imgur.com/fCa72EP.png" alt="Play" width="40" height="40">';
+            playPauseButton.classList.add("vista-play-btn");
+            playPauseButton.classList.remove("vista-pause-btn");
+        }
     });
-  
-    const audio = document.createElement("audio");
-    audio.id = "audio";
-    audio.src = playlist.getCurrentSong().audioLink;
-    audio.volume = 1/9;
-  
-    audio.addEventListener("timeupdate", updateProgressBar);
-    audio.addEventListener("ended", function () {
-        // Play the next song when the current song ends
+
+    nextButton?.addEventListener("click", () => {
         playlist.playNext();
         updateUI(playlist);
         audio.src = playlist.getCurrentSong().audioLink;
         audio.play();
-      });
-  
-      let currentVolume = 2; // Initial volume
-  
-      volumeSlider.addEventListener("input", function () {
-        currentVolume = parseInt(volumeSlider.value, 10);
-        updateVolumeDisplay();
-        updateAudioVolume();
-      });
-  
-      function updateVolumeDisplay() {
-        volumeDisplay.textContent = currentVolume;
-      }
-  
-     function updateAudioVolume() {
-      const audio = document.getElementById("audio");
-      audio.volume = currentVolume / 9; // Set volume between 0 and 1
-    }
-  
-    document.body.appendChild(audio);
-    audio.play();
-  
-    // Update the UI when the page loads
-    updateUI(playlist);
-  }
-  
-  const style = document.createElement("style");
-  style.textContent = `
-  #player {
-      border: 3px solid #636b83; /* Add your desired border style */
-      display: flex;
-      flex-direction: row;
-      height:191px;
-      background-Image: url("https://i.imgur.com/QSZtrhi.png");
-    }
-  
-    #display-box {
-      display: flex;
-      align-items: center;
-      width: 50%;
-    }
+        playPauseButton.innerHTML = '<img src="https://i.imgur.com/1qhhG4D.png" alt="Pause">';
+    });
 
-    p#credits {
-      color: white;
-    }
-  
-    #cover {
-      width: 176px;
-      height:176px;
-    }
+    prevButton?.addEventListener("click", () => {
+        playlist.playPrevious();
+        updateUI(playlist);
+        audio.src = playlist.getCurrentSong().audioLink;
+        audio.play();
+        playPauseButton.innerHTML = '<img src="https://i.imgur.com/1qhhG4D.png" alt="Pause">';
+    });
 
-    #final_results_description p {
-      color: white;
-    }
-  
-    #info-container {
-      display: flex;
-      flex-direction: row;
-      height:185px;
-      width:185px;
-      margin-top: 3px;
-      font-family: Segoe UI;
-    }
-  
-    #song-info {
-      width: 100%;
-      padding:5px;
-    }
-  
-    #controls-container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin: 10px;
-      width:100%;
-      padding-top:15px;
-  
-    }
-    .is-vertical #volumeSlider {
-    width: 125px;
-  }
-  
-    #controls {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      width: 80%;
-    }
-  
-    #progress-bar-container {
-      width: 100%;
-    }
-  
-    #progress-bar {
-      width: 80%;
-      margin: auto;
-      display: flex;
-      margin-Top: 20px;
-    }
+    volumeSlider?.addEventListener("input", (e) => {
+        audio.volume = volumeSlider.value / 100;
+        
+        // Update the CSS variable for WebKit browsers
+        volumeSlider.style.setProperty('--fill-height', `${volumeSlider.value}%`);
+    });
+
+    progressTrack?.addEventListener("click", (e) => {
+        const rect = progressTrack.getBoundingClientRect();
+        const pos = (e.clientX - rect.left) / rect.width;
+        audio.currentTime = pos * audio.duration;
+    });
+
+    audio.addEventListener("timeupdate", () => {
+        const progressFill = document.querySelector(".vista-progress-fill");
+        const currentTimeDisplay = document.querySelector(".vista-current-time");
+        
+        if (progressFill) {
+            progressFill.style.width = `${(audio.currentTime / audio.duration) * 100}%`;
+        }
+        
+        if (currentTimeDisplay) {
+            currentTimeDisplay.textContent = formatTime(audio.currentTime);
+            const durationDisplay = document.querySelector(".vista-duration");
+            if (durationDisplay && !isNaN(audio.duration)) {
+                durationDisplay.textContent = formatTime(audio.duration);
+            }
+        }
+    });
+
+    audio.addEventListener("ended", () => {
+        playlist.playNext();
+        updateUI(playlist);
+        audio.src = playlist.getCurrentSong().audioLink;
+        audio.play();
+    });
+}
+
+function createPlayerUI() {
+    const playerContainer = createElement("div", "vista-player", "", { id: "player" });
     
-  `;
-  
-  document.head.appendChild(style);
-  
-  const gameWindow_player = document.getElementById("game_window");
-  //use this function directly or put it in an event listener to start the music on the press of a certain button
-  setupMusicPlayer();
+    // Title Bar
+    playerContainer.appendChild(createElement("div", "vista-title-bar", `
+        <div class="vista-title-text">Windows Media Player</div>
+        <div class="vista-title-controls">
+            <span class="vista-minimize">🗕</span>
+            <span class="vista-maximize">🗖</span>
+            <span class="vista-close">🗙</span>
+        </div>
+    `));
 
-addDynamicCSS();
+    // Main Content
+    const mainContent = createElement("div", "vista-main-content");
+    const displayBox = createElement("div", "vista-display-box");
+
+    // Cover Art and Info
+    const coverElement = createElement("img", "vista-cover", "", { id: "cover" });
+    const infoContainer = createElement("div", "vista-info-container");
+    const nowPlayingLabel = createElement("div", "vista-now-playing", "Now Playing");
+    infoContainer.appendChild(nowPlayingLabel);
+    infoContainer.appendChild(createElement("div", "vista-song-info", `
+        <h3 id="title" class="vista-title">Song Title</h3>
+        <p id="artist" class="vista-artist">Artist Name</p>
+    `));
+
+    // Controls
+    const controlsContainer = createElement("div", "vista-controls-container");
+    controlsContainer.innerHTML = `
+        <div class="vista-progress-container">
+            <div class="vista-progress-bar">
+                <div class="vista-progress-track">
+                    <div class="vista-progress-fill"></div>
+                </div>
+                <div class="vista-time-display">
+                    <span class="vista-current-time">0:00</span>
+                    <span class="vista-duration">0:00</span>
+                </div>
+            </div>
+        </div>
+        <div class="vista-controls">
+            <button class="vista-control-btn vista-prev-btn">
+                <img src="https://i.imgur.com/a2skFGw.png" alt="Previous" width="60" height="60">
+            </button>
+            <button class="vista-control-btn vista-play-btn">
+                <img src="https://i.imgur.com/fCa72EP.png" alt="Play" width="80" height="80">
+            </button>
+            <button class="vista-control-btn vista-next-btn">
+                <img src="https://i.imgur.com/DZ7Igxr.png" alt="Next" width="60" height="60">
+            </button>
+        </div>
+    `;
+
+    const volumeControl = createElement("div", "vista-volume-container", `
+        <div class="vista-volume-control">
+            <input type="range" min="0" max="100" value="50" 
+                   class="vista-volume-slider vertical-slider" orient="vertical">
+            <img src="https://i.imgur.com/CSlERUK.png" alt="Volume" class="vista-volume-icon">
+        </div>
+    `);
+
+    // Assemble Player
+    playerContainer.appendChild(volumeControl);
+    displayBox.append(coverElement, infoContainer);
+    mainContent.append(displayBox, controlsContainer);
+    playerContainer.append(mainContent);
+    
+    return playerContainer;
+}
+
+function initializePlayer() {
+    let playlist = new Playlist();
+    
+    // Add songs to playlist
+    const songs = [
+        new Song("Resistance", "Muse", "https://i.imgur.com/R1eqBUo.gif", "https://audio.jukehost.co.uk/6tAoejj3zTSwW7GF0dEMY0KUbaclWWIY"),
+        new Song("Take Me Out", "Franz Ferdinand", "https://i.imgur.com/8KKKzar.gif", "https://audio.jukehost.co.uk/rSx6VDEzc1B9Ax4H3Xw4xzKKs4T5zt9B"),
+        new Song("Mr. Brightside", "The Killers", "https://i.imgur.com/kIOK2FE.gif", "https://audio.jukehost.co.uk/rD8tW884kzcHZejcr1tfIK2OgemXbuTF"),
+        new Song("Hot N Cold", "Katy Perry", "https://i.imgur.com/SzCK0uX.gif", "https://audio.jukehost.co.uk/cAUldU7GY3YpJD7Slp8Da49voPk6xKFm"),
+        new Song("Vertigo", "U2", "https://i.imgur.com/C3Lzdfv.gif", "https://audio.jukehost.co.uk/MZZfCLu3oBkAjJGyzHac3Hi6MNVmyoW2"),
+        new Song("Thunder In My Heart", "Meck feat. Leo Slayer", "https://i.imgur.com/WVh9fD3.gif", "https://audio.jukehost.co.uk/CyrL8gEJ965fVCZY8rimZrNslJesE61O"),
+        new Song("In The End", "Linkin Park", "https://i.imgur.com/afW8i15.gif", "https://audio.jukehost.co.uk/EnAFf8JaF1hEzTLyAmBWRPlxi2H8BkSr"),
+        new Song("On Melancholy Hill", "Gorillaz", "https://i.imgur.com/TDAl9HT.gif", "https://audio.jukehost.co.uk/SMMYL9tzVfimUbQAgWeym87kEFE4qziw")
+    ];
+    
+    songs.forEach(song => playlist.addSong(song));
+
+    // Create and setup audio element
+    const audio = createElement("audio", "", "", {
+        id: "audio",
+        src: playlist.getCurrentSong().audioLink,
+        autoplay: "true"
+    });
+    audio.volume = 0.5;
+
+    // Create and setup player UI
+    const playerContainer = createPlayerUI();
+    document.getElementById("game_window").insertAdjacentElement("afterend", playerContainer);
+    document.body.appendChild(audio);
+
+    // Setup event listeners
+    setupEventListeners(playlist, audio);
+    updateUI(playlist);
+
+    // Set initial play/pause state
+    const playPauseButton = document.querySelector(".vista-play-btn");
+    audio.play().then(() => {
+        // Successfully started playing
+        playPauseButton.innerHTML = '<img src="https://i.imgur.com/1qhhG4D.png" alt="Pause" width="40" height="40">';
+        playPauseButton.classList.add("vista-pause-btn");
+        playPauseButton.classList.remove("vista-play-btn");
+    }).catch(e => {
+        // Autoplay was prevented
+        console.log("Autoplay prevented:", e);
+        playPauseButton.innerHTML = '<img src="https://i.imgur.com/fCa72EP.png" alt="Play" width="40" height="40">';
+    });
+
+    // Expose to window
+    window.Playlist = Playlist;
+    window.Song = Song;
+    window.changePlaylist = (newPlaylist) => {
+        playlist = newPlaylist;
+        playlist.currentSongIndex = 0;
+        updateUI(playlist);
+        audio.src = playlist.getCurrentSong().audioLink;
+        audio.play();
+    };
+    window.updateUI = updateUI;
+}
+
+// Add Vista-style CSS
+const vistaStyle = document.createElement("style");
+vistaStyle.textContent = `
+.vista-player {
+    width: 960px;
+    height: 250px;
+    position: relative;
+    background: linear-gradient(to bottom, #e2e8f5 0%, #b8c7e0 100%) !important;
+    border: 1px solid #a5acb5;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3) !important;
+    overflow: hidden;
+    font-family: "Segoe UI", Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.vista-title-bar {
+    background: linear-gradient(to bottom, #4b6bc6 0%, #3a56a0 100%) !important;
+    color: white;
+    padding: 6px 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+    border-bottom: 1px solid #2c3f7a;
+}
+
+.vista-title-text {
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+}
+
+.vista-title-controls span {
+    margin-left: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.vista-title-controls span:hover {
+    opacity: 1;
+}
+
+.vista-main-content {
+    display: flex;
+    flex: 1;
+    padding: 10px;
+}
+
+.vista-display-box {
+    flex: 1;
+    display: flex;
+    padding: 10px;
+}
+
+.vista-cover {
+    width: 180px;
+    height: 180px;
+    border: 1px solid #a5acb5;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.vista-now-playing {
+    background: linear-gradient(to bottom, #4b6bc6 0%, #3a56a0 100%);
+    color: white;
+    padding: 4px 8px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 3px 3px 0 0;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    margin-bottom: -1px;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+
+.vista-info-container {
+    position: absolute;
+    left: 210px;
+    bottom: 20px;
+    width: 220px;
+}
+
+.vista-song-info {
+    background: rgba(255, 255, 255, 0.7) !important;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    height: 60px;
+}
+
+.vista-title {
+    margin: 0 0 5px 0;
+    font-size: 16px;
+    color: #2a3f8f;
+}
+
+.vista-artist {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+}
+
+.vista-controls-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+    position: relative;
+}
+
+.vista-progress-container {
+    margin-bottom: 15px;
+}
+
+.vista-progress-track {
+    height: 4px;
+    background: #c5cdd9;
+    border-radius: 2px;
+    cursor: pointer;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.vista-progress-fill {
+    height: 100%;
+    background: linear-gradient(to right, #4b6bc6 0%, #7a9ae2 100%) !important;
+    border-radius: 2px;
+    width: 0%;
+}
+
+.vista-time-display {
+    display: flex;
+    justify-content: space-between;
+    font-size: 11px;
+    color: #555;
+}
+
+.vista-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px; 
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.vista-control-btn {
+    background: transparent !important;
+    border: none !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: none !important;
+    padding: 0;
+}
+
+/* Previous/Next buttons */
+.vista-prev-btn, .vista-next-btn {
+    width: 60px;
+    height: 60px;
+}
+
+.vista-prev-btn img, .vista-next-btn img {
+    width: 60px !important;
+    height: 60px !important;
+    filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.3));
+}
+
+/* Play/Pause button - larger */
+.vista-play-btn, .vista-pause-btn {
+    width: 80px;
+    height: 80px;
+}
+
+.vista-play-btn img, .vista-pause-btn img {
+    width: 80px !important;
+    height: 80px !important;
+    filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.3));
+}
+
+.vista-volume-container {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    width: 40px;
+    height: 100px;
+    background: rgba(255, 255, 255, 0.7) !important;
+    padding: 10px 8px;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    z-index: 10;
+}
+
+.vista-volume-slider.vertical-slider {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 6px;
+    height: 80px;
+    padding: 0 8px;
+    background: #c5cdd9; /* Gray track background */
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+}
+
+/* WebKit browsers (Chrome, Safari) */
+.vista-volume-slider.vertical-slider::-webkit-slider-runnable-track {
+    width: 6px;
+    background: #c5cdd9; /* Gray track */
+    border-radius: 3px;
+}
+
+.vista-volume-slider.vertical-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 16px;
+    height: 16px;
+    background: linear-gradient(to bottom, #f6f8fa 0%, #e5ebf2 100%);
+    border: 1px solid #b5bdc8;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    margin-left: -5px;
+    position: relative;
+    z-index: 1;
+}
+
+/* Fill the track below the thumb with blue */
+.vista-volume-slider.vertical-slider::-webkit-slider-container {
+    background: linear-gradient(to bottom, #4b6bc6 0%, #7a9ae2 100%);
+    background-size: 100% var(--fill-height, 0%);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    border-radius: 3px;
+}
+
+/* Firefox */
+.vista-volume-slider.vertical-slider::-moz-range-track {
+    width: 6px;
+    background: #c5cdd9; /* Gray track */
+    border-radius: 3px;
+}
+
+.vista-volume-slider.vertical-slider::-moz-range-thumb {
+    width: 16px;
+    height: 16px;
+    background: linear-gradient(to bottom, #f6f8fa 0%, #e5ebf2 100%);
+    border: 1px solid #b5bdc8;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Fill the track below the thumb with blue in Firefox */
+.vista-volume-slider.vertical-slider::-moz-range-progress {
+    background: linear-gradient(to bottom, #4b6bc6 0%, #7a9ae2 100%);
+    border-radius: 3px;
+}
+
+.vista-volume-control {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.vista-volume-icon {
+    width: 18px;
+    height: 18px;
+}
+`;
+document.head.appendChild(vistaStyle);
+
+// Initialize the player
+initializePlayer();
 
 e = campaignTrail_temp
