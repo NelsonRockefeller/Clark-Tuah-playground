@@ -15094,7 +15094,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5224,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": -0.085
+            "global_multiplier": -0.07
         }
     },
     {
@@ -15104,7 +15104,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5225,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": -0.085
+            "global_multiplier": -0.07
         }
     },
     {
@@ -15114,7 +15114,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5226,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": -0.085
+            "global_multiplier": -0.07
         }
     },
     {
@@ -15544,7 +15544,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 20949,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": -0.085
+            "global_multiplier": -0.07
         }
     },
     {
@@ -24004,7 +24004,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 254967,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": -0.065
+            "global_multiplier": -0.055
         }
     },
     {
@@ -24014,7 +24014,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 254974,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": -0.085
+            "global_multiplier": -0.07
         }
     },
     {
@@ -24024,7 +24024,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 254981,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": -0.085
+            "global_multiplier": -0.07
         }
     },
     {
@@ -24034,7 +24034,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 254988,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": -0.085
+            "global_multiplier": -0.07
         }
     },
     {
@@ -24044,7 +24044,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 254996,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": -0.065
+            "global_multiplier": -0.055
         }
     },
     {
@@ -24054,7 +24054,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 255003,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": -0.07
+            "global_multiplier": -0.06
         }
     },
     {
@@ -24064,7 +24064,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 255010,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": -0.085
+            "global_multiplier": -0.07
         }
     },
     {
@@ -24074,7 +24074,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 255017,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": -0.075
+            "global_multiplier": -0.067
         }
     },
     {
@@ -24084,7 +24084,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 255025,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": -0.085
+            "global_multiplier": -0.07
         }
     },
     {
@@ -24094,7 +24094,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 255032,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": -0.065
+            "global_multiplier": -0.06
         }
     },
     {
@@ -24104,7 +24104,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 255039,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": -0.085
+            "global_multiplier": -0.07
         }
     },
     {
@@ -24114,7 +24114,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 255046,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": -0.07
+            "global_multiplier": -0.065
         }
     },
     {
@@ -60614,6 +60614,7 @@ campaignTrail_temp.jet_data = [{
 
 
 
+
 e.cyoa = true
 var Dem = 0;
 var Promise = 0;
@@ -62384,66 +62385,69 @@ cyoAdventure = function(a) {
 
     if (Dem === 8 && War === 1 && Heart === 1) {
         e.WinPopup = "As much as you'd like to hear your opponent spill their soul over the phone, you have greater conquests to wage. The world will not kneel to the menace in the Far East. Georgia's fate is in your hands, as is much of the world.";
-        e.LosePopup = "Don't let your ego blind the necessity to usher in Snowe and my people. You must do everything you can to speed up the transition, she will clean up the mess you've made.";
+        e.LosePopup = "Cheney: Don't let your ego blind the necessity to usher in Snowe and my people. You must do everything you can to speed up the transition, she will clean up the mess you've made.";
     } else if (Dem === 8 && War === 1) {
         e.WinPopup = "As much as you'd like to hear your opponent spill their soul over the phone, you have greater conquests to wage. The world will not kneel to the menace in the Far East. Georgia's fate is in your hands, as is much of the world.";
-        e.LosePopup = "I understand the situation is dire and I believe for the sake of our national security you must enact the Wilson plan to avoid the lame duck period as we face this threat, Mr. President.";
-    } else (Dem === 8 && Heart === 1) {
-        e.WinPopup = "The phone rings, and you hear the various sounds of hospital equipment on the other end. Cheney took it upon himself to concede on Snowe's behalf. The results are not to my party's benefit. It's not a question of if, anymore, you've won. Congratulations.";
-        e.LosePopup = "Contrary to your confidence after the debate fiasco, you've lost. With the phone in your hand, you give her a call. Greetings, Mr. President. I'm happy to receive your call. I've always believed that presidential politics were not to be made a battlefield, and I'm glad we can come to a peaceful conclusion.";
-    } else (Dem === 8) {
-        e.WinPopup = "The phone rings, and your fingertips nearly freeze as you hear his voice on the other line. Mr. President, you've won, congratulations. Don't spend this time gloating and making a scene. Clean up the mess you made, for all our sakes. Goodbye.";
-        e.LosePopup = "It's mind-numbing that the Bush Administration has finally been vindicated, and you need to obey tradition and give this bastard a call. You barely get a point across before he says, Thank you, Mr. President. Your words are very appreciated. Goodbye.";
-    } else (Dem === 7 && War === 1) {
+        e.LosePopup = "Cheney: I understand the situation is dire and I believe for the sake of our national security you must enact the Wilson plan to avoid the lame duck period as we face this threat, Mr. President.";
+    } else if (Dem === 8 && Heart === 1) {
+        e.WinPopup = "The phone rings, and you hear the various sounds of hospital equipment on the other end. Cheney took it upon himself to concede on Snowe's behalf. Cheney: The results are not to my party's benefit. It's not a question of if, anymore, you've won. Congratulations.";
+        e.LosePopup = "Contrary to your confidence after the debate fiasco, you've lost. With the phone in your hand, you give her a call. Snowe: Greetings, Mr. President. I'm happy to receive your call. I've always believed that presidential politics were not to be made a battlefield, and I'm glad we can come to a peaceful conclusion.";
+    } else if (Dem === 8) {
+        e.WinPopup = "The phone rings, and your fingertips nearly freeze as you hear his voice on the other line. Cheney: Mr. President, you've won, congratulations. Don't spend this time gloating and making a scene. Clean up the mess you made, for all our sakes. Goodbye.";
+        e.LosePopup = "It's mind-numbing that the Bush Administration has finally been vindicated, and you need to obey tradition and give this bastard a call. You barely get a point across before he says, Cheney: Thank you, Mr. President. Your words are very appreciated. Goodbye.";
+    } else if (Dem === 7 && War === 1) {
         e.WinPopup = "As much as you'd like to hear your opponent spill their soul over the phone, you have greater conquests to wage. The world will not kneel to the menace in the Far East. Georgia's fate is in your hands, as is much of the world.";
-        e.LosePopup = "I believe that the Lord is able to forgive many sins but you have condemned millions. May humanity survive the coming years.";
+        e.LosePopup = "Brownback: I believe that the Lord is able to forgive many sins but you have condemned millions. May humanity survive the coming years.";
     } else if (Dem === 7) {
-        e.WinPopup = "The phone rings while a hoard claws at the walls outside your rally. He speaks in a measured tone unfitting for the terror he brought upon your land. Mr. President I and many fellow Christians made our point very clear. Do not follow in the steps of the catholics and ignore the thesis we pinned to the door of your church.";
-        e.LosePopup = "Pain - blood - utter bloodshed. You feel as if you are shackled, walking down the church aisle, handing America to a lunatic. Mr. President, you need not to offer platitudes in the face of the Lord's wrath. You were mistaken and I know that with time and effort on your part you can seek his forgiveness.";
-    } else (Dem === 6 && War === 1) {
+        e.WinPopup = "The phone rings while a hoard claws at the walls outside your rally. He speaks in a measured tone unfitting for the terror he brought upon your land. Brownback: Mr. President I and many fellow Christians made our point very clear. Do not follow in the steps of the catholics and ignore the thesis we pinned to the door of your church.";
+        e.LosePopup = "Pain - blood - utter bloodshed. You feel as if you are shackled, walking down the church aisle, handing America to a lunatic. Brownback: Mr. President, you need not to offer platitudes in the face of the Lord's wrath. You were mistaken and I know that with time and effort on your part you can seek his forgiveness.";
+    } else if (Dem === 6 && War === 1) {
         e.WinPopup = "As much as you'd like to hear your opponent spill their soul over the phone, you have greater conquests to wage. The world will not kneel to the menace in the Far East. Georgia's fate is in your hands, as is much of the world.";
-        e.LosePopup = "May the Lord bless us as we go about this holy crusade to save Georgia. Believe me when I say that you have my full support and whatever advice you have to give me will be accepted with open arms.";
+        e.LosePopup = "Huckabee: May the Lord bless us as we go about this holy crusade to save Georgia. Believe me when I say that you have my full support and whatever advice you have to give me will be accepted with open arms.";
     } else if (Dem === 6) {
-        e.WinPopup = "The phone rings, and on the other line, you hear a holy choir preaching gospel to soothe a rageful crowd. Well, my folks always taught me to be open and direct. You won, Mr. President. Congratulations. How about you and I meet for a beer sometime and bury the political hatchet?";
-        e.LosePopup = "If the loss weren't painful enough, the migraine you feel while picking up the phone for the dreaded concession call eats at you. Well thank you for the kind words Mr. President. Hey don't feel down. I may not be a man of math but I'm often a man of miracles. Take care now.";
-    } else (Dem === 5 && War === 1) {
+        e.WinPopup = "The phone rings, and on the other line, you hear a holy choir preaching gospel to soothe a rageful crowd. Huckabee: Well, my folks always taught me to be open and direct. You won, Mr. President. Congratulations. How about you and I meet for a beer sometime and bury the political hatchet?";
+        e.LosePopup = "If the loss weren't painful enough, the migraine you feel while picking up the phone for the dreaded concession call eats at you. Huckabee: Well thank you for the kind words Mr. President. Hey don't feel down. I may not be a man of math but I'm often a man of miracles. Take care now.";
+    } else if (Dem === 5 && War === 1) {
         e.WinPopup = "As much as you'd like to hear your opponent spill their soul over the phone, you have greater conquests to wage. The world will not kneel to the menace in the Far East. Georgia's fate is in your hands, as is much of the world.";
-        e.LosePopup = "The world will remember you for the tyrant who nearly set the world aflame. The revolution will save America from your hubris and you will face the most severe consequences. I refuse to volunteer more American lives for your egotistical conquest.";
+        e.LosePopup = "Paul: The world will remember you for the tyrant who nearly set the world aflame. The revolution will save America from your hubris and you will face the most severe consequences. I refuse to volunteer more American lives for your egotistical conquest.";
     } else if (Dem === 5 && Neo > 9) {
-        e.WinPopup = "The phone rings, and on the other end is a petulant little man unable to contain his frustration. Freedom was a novel and beautiful concept that you shred to bits Mr. President! Take a minute to listen to the movement that challenged you and maybe we can recover. Congratulations.";
-        e.LosePopup = "The phone rings, and instead of the voice of that revolution-crying moron, it's a man of equal lunacy. Grandpa Gravel wants to say his peace before he retreats into retirement. The American people are terrified of you, Mr. President. You've quelled their rage temporarily, but in the coming years, the next generation will rise and take the future that is rightfully theirs!";
+        e.WinPopup = "The phone rings, and on the other end is a petulant little man unable to contain his frustration. Paul: Freedom was a novel and beautiful concept that you shred to bits Mr. President! Take a minute to listen to the movement that challenged you and maybe we can recover. Congratulations.";
+        e.LosePopup = "The phone rings, and instead of the voice of that revolution-crying moron, it's a man of equal lunacy. Grandpa Gravel wants to say his peace before he retreats into retirement. Gravel: The American people are terrified of you, Mr. President. You've quelled their rage temporarily, but in the coming years, the next generation will rise and take the future that is rightfully theirs!";
     } else if (Dem === 5) {
-        e.WinPopup = "The phone rings, and on the other end is a petulant little man unable to contain his frustration. Freedom was a novel and beautiful concept that you shred to bits Mr. President! Take a minute to listen to the movement that challenged you and maybe we can recover. Congratulations.";
-        e.LosePopup = "You can't help but feel as if you are in a nightmare. He's won, and that lunatic has assembled a scrap yard coalition of those you discarded. You pick up the phone expecting a jubilant voice, but instead, another lecture. I told you, Mr. President, repeatedly, the American people felt betrayed by your antics. This was a well-deserved revolution.";
-    } else (Dem === 4 && War === 1 && Messiah == 1) {
+        e.WinPopup = "The phone rings, and on the other end is a petulant little man unable to contain his frustration. Paul: Freedom was a novel and beautiful concept that you shred to bits Mr. President! Take a minute to listen to the movement that challenged you and maybe we can recover. Congratulations.";
+        e.LosePopup = "You can't help but feel as if you are in a nightmare. He's won, and that lunatic has assembled a scrap yard coalition of those you discarded. You pick up the phone expecting a jubilant voice, but instead, another lecture. Paul: I told you, Mr. President, repeatedly, the American people felt betrayed by your antics. This was a well-deserved revolution.";
+    } else if (Dem === 4 && War === 1 && Messiah == 1) {
         e.WinPopup = "As much as you'd like to hear your opponent spill their soul over the phone, you have greater conquests to wage. The world will not kneel to the menace in the Far East. Georgia's fate is in your hands, as is much of the world.";
-        e.LosePopup = "Psalm 144:1, Blessed be the Lord my strength, which teacheth my hands to war, and my fingers to fight.";
+        e.LosePopup = "Pence: Psalm 144:1, Blessed be the Lord my strength, which teacheth my hands to war, and my fingers to fight.";
+    } else if (Dem === 4 && War === 1 && Messiah == 0) {
+        e.WinPopup = "As much as you'd like to hear your opponent spill their soul over the phone, you have greater conquests to wage. The world will not kneel to the menace in the Far East. Georgia's fate is in your hands, as is much of the world.";
+        e.LosePopup = "Guiliani: I consider myself a man with guts, but Christ, you've gone and thrown us into the firing line quickly. Not many chicken-shit liberals are willing to make such bold moves. Whatever you need me to do, I'm here.";
     } else if (Dem === 4 && Messiah === 1) {
-        e.WinPopup = "The phone rings, and your gospel-preaching opponent speaks on the other end. Mr. President, I've always believed in the character of our institutions, as many before me have. I congratulate you and pray you can lead the American people through these trying times.";
-        e.LosePopup = "It's tragic. After everything you've accomplished, the American people have rejected you in favor of a far-right loon. You pick up the phone and dial him. Thank you for the call, Mr. President. I hope you realize how important it is to lead with values defined by Jesus. I wish you well.";
+        e.WinPopup = "The phone rings, and your gospel-preaching opponent speaks on the other end. Pence: Mr. President, I've always believed in the character of our institutions, as many before me have. I congratulate you and pray you can lead the American people through these trying times.";
+        e.LosePopup = "It's tragic. After everything you've accomplished, the American people have rejected you in favor of a far-right loon. You pick up the phone and dial him. Pence: Thank you for the call, Mr. President. I hope you realize how important it is to lead with values defined by Jesus. I wish you well.";
     } else if (Dem === 4) {
-        e.WinPopup = "When the phone rings long after you've given your victory speech, you hear him clear his raspy throat on the other end. Uh, Mr. President, this was unexpected. The line goes silent for a moment. We'd like to challenge the numbers, but that road is for suckers like Gore, so congratulations.";
-        e.LosePopup = "Nothing stings more than a bruised ego—except maybe the feeling of having to feed into another's ego by calling the mythical warrior himself. Mr. President, I was fearing you'd duck out on calling me, but hey, you're not that stupid, it seems. Look now; you don't need to feel down. You were facing a legend, after all.";
-    } else (Dem === 3 && War === 1) {
+        e.WinPopup = "When the phone rings long after you've given your victory speech, you hear him clear his raspy throat on the other end. Guiliani: Uh, Mr. President, this was unexpected. The line goes silent for a moment. We'd like to challenge the numbers, but that road is for suckers like Gore, so congratulations.";
+        e.LosePopup = "Nothing stings more than a bruised ego—except maybe the feeling of having to feed into another's ego by calling the mythical warrior himself. Guiliani: Mr. President, I was fearing you'd duck out on calling me, but hey, you're not that stupid, it seems. Look now; you don't need to feel down. You were facing a legend, after all.";
+    } else if (Dem === 3 && War === 1) {
         e.WinPopup = "As much as you'd like to hear your opponent spill their soul over the phone, you have greater conquests to wage. The world will not kneel to the menace in the Far East. Georgia's fate is in your hands, as is much of the world.";
-        e.LosePopup = "Mr. President, we've gathered the reports and just know despite our differences I stand by American interests to protect Georgia and will work alongside you in the coming months to deter and eliminate the Russian advance.";
+        e.LosePopup = "Bush: Mr. President, we've gathered the reports and just know despite our differences I stand by American interests to protect Georgia and will work alongside you in the coming months to deter and eliminate the Russian advance.";
     } else if (Dem === 3) {
-        e.WinPopup = "The phone rings, and when you pick up the phone, a sense of Deja Vu washes over you. "Well, hello, Mr. President. The results aren't what we hoped for, but I hope you've learned the importance of accountability and how it's integral to our beloved democracy. Act with more precision in the future. Bye, now.";
-        e.LosePopup = "You pick up the phone, wondering if this journey was one great mistake. That destiny had recalibrated itself with another Bush to correct itself. Thank you, Mr. President, for the kind words, and I'd like to thank you for leading the nation honorably. I assure you I will protect El sueño americano!";
-    } else (Dem === 2 && War === 1) {
+        e.WinPopup = "The phone rings, and when you pick up the phone, a sense of Deja Vu washes over you. Bush: Well, hello, Mr. President. The results aren't what we hoped for, but I hope you've learned the importance of accountability and how it's integral to our beloved democracy. Act with more precision in the future. Bye, now.";
+        e.LosePopup = "You pick up the phone, wondering if this journey was one great mistake. That destiny had recalibrated itself with another Bush to correct itself. Bush: Thank you, Mr. President, for the kind words, and I'd like to thank you for leading the nation honorably. I assure you I will protect El sueño americano!";
+    } else if (Dem === 2 && War === 1) {
         e.WinPopup = "As much as you'd like to hear your opponent spill their soul over the phone, you have greater conquests to wage. The world will not kneel to the menace in the Far East. Georgia's fate is in your hands, as is much of the world.";
-        e.LosePopup = "Mr. President, we've heard the news, America is facing its greatest geopolitical foe and just know that we here will do whatever we can to help a steady transition through these dire months.";
+        e.LosePopup = "Romney: Mr. President, we've heard the news, America is facing its greatest geopolitical foe and just know that we here will do whatever we can to help a steady transition through these dire months.";
     } else if (Dem === 2) {
-        e.WinPopup = "The phone rings, and when you pick it up, there is deafening static until utter bewilderment comes through. Well, uh gosh, Mr. President, congratulations. We face a great many challenges, and I hope you are able to rise to the occasion—goodbye.";
-        e.LosePopup = "The screen sits still as it becomes clear that the Governor has taken the race home. Your hand robotically picks up the phone and dials his number. Jubilantly, he responds, Well, thank you, Mr. President. We both knew this outcome was likely, but that doesn't shirk the responsibility to smoothen out our differences. I look forward to meeting you during the transition.";
-    } else (Dem === 1 && War === 1) {
+        e.WinPopup = "The phone rings, and when you pick it up, there is deafening static until utter bewilderment comes through. Romney: Well, uh gosh, Mr. President, congratulations. We face a great many challenges, and I hope you are able to rise to the occasion—goodbye.";
+        e.LosePopup = "The screen sits still as it becomes clear that the Governor has taken the race home. Your hand robotically picks up the phone and dials his number. Jubilantly, he responds, Romney: Well, thank you, Mr. President. We both knew this outcome was likely, but that doesn't shirk the responsibility to smoothen out our differences. I look forward to meeting you during the transition.";
+    } else if (Dem === 1 && War === 1) {
         e.WinPopup = "As much as you'd like to hear your opponent spill their soul over the phone, you have greater conquests to wage. The world will not kneel to the menace in the Far East. Georgia's fate is in your hands, as is much of the world.";
-        e.LosePopup = "Mr. President, I know we've had our differences, but I want nothing more than to discard past feuds in favor of our national security. Whatever you need, the Republican Party stands by you.";
+        e.LosePopup = "McCain: Mr. President, I know we've had our differences, but I want nothing more than to discard past feuds in favor of our national security. Whatever you need, the Republican Party stands by you.";
     } else if (Dem === 1 && Win > 7 || Dem == 1 && Win > 5 && (e.player_answers.includes(5184) || e.player_answers.includes(20755))) {
-        e.WinPopup = "The phone rings, and you are surprised to hear the voice of your old foe, Lieberman. Mr. President, I'll make this short and sweet. With all due respect, you have clenched victory with label-based politics and spit in the face of bipartisanship. Congratulations.";
+        e.WinPopup = "The phone rings, and you are surprised to hear the voice of your old foe. Lieberman: Mr. President, I'll make this short and sweet. With all due respect, you have clenched victory with label-based politics and spit in the face of bipartisanship. Congratulations.";
         e.LosePopup = "The Face The Nation interview repeats in your brain a million times over. None of it makes sense, but here you look at a sea of vital victories for McCain. That cocky bastard is expecting a concession call to solidify his undeserved victory. The call won't come.";
     } else if (Dem === 1) {
-        e.WinPopup = "The phone rings, and like in the military, you coldly answer, expecting him to address you as his superior. Mr. President, I'm brave enough to admit when I'm beaten. I know what it means to serve, even if you'd like to disagree. Congratulations.";
+        e.WinPopup = "The phone rings, and like in the military, you coldly answer, expecting him to address you as his superior. McCain: Mr. President, I'm brave enough to admit when I'm beaten. I know what it means to serve, even if you'd like to disagree. Congratulations.";
         e.LosePopup = "The Face The Nation interview repeats in your brain a million times over. None of it makes sense, but here you look at a sea of vital victories for McCain. That cocky bastard is expecting a concession call to solidify his undeserved victory. The call won't come.";
     } else {
         e.WinPopup = "wes its glup shitto, i lost";
