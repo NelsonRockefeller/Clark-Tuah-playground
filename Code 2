@@ -1633,7 +1633,7 @@ campaignTrail_temp.questions_json = [
         "pk": 24789,
         "fields": {
             "priority": 0,
-            "description": "You've returned home to Washington after a round trip through states ripped to shreds by Hurricane Katrina, and you're informed that House Majority Leader Tom DeLay has been indicted and resigned after much public pressure. With his resignation, the people's trust in the Republican Congress has gone. Pelosi wanted to meet with you to review a domestic push, but you've looked abroad. NATO is disunited and in need of a rallying flag. How will you reunite the West?",
+            "description": "You've returned home to Washington after a round trip through states ripped to shreds by Hurricane Katrina, and you're informed that House Majority Leader Tom DeLay has been indicted and resigned after much public pressure. With his resignation, the people's trust in the Republican Congress has gone. Pelosi wanted to meet with you to review a domestic push, but you've looked abroad. NATO is disunited and in need of a rallying flag. How will you reunite the West?",
             "likelihood": 1
         }
     },
@@ -2182,7 +2182,7 @@ campaignTrail_temp.questions_json = [
         "pk": 255669,
         "fields": {
             "priority": 0,
-            "description": "Stepping onto the debate stage feels less like a discussion forum and more like locking yourself in a cage with the hungry beast you call your opponent. Mike Huckabee can barely uphold his famous TV charm facade when faced after the knives had already come out long before this common election tradition. As the debate moderator tallies out the rules, you feel the aura of rage erradiate from your right. Almost immediately, as the metaphorical bell was rung, he tore into your record, calling you a disgrace of a president, the worst since Johnson. The gloves are off, the defenses are down; you need not to shield your record but to defame his. How will you take your shot at him?",
+            "description": "Stepping onto the debate stage feels less like a discussion forum and more like locking yourself in a cage with the hungry beast you call your opponent. Mike Huckabee can barely uphold his famous TV charm facade after the knives had already come out long before this common election tradition. As the debate moderator tallies out the rules, you feel the aura of rage emanate from your right. Almost immediately, as the metaphorical bell was rung, he tore into your record, calling you a disgrace of a president, the worst since Johnson. The gloves are off, the defenses are down; you need not shield your record but to defame his. How will you take your shot at him?",
             "likelihood": 1
         }
     }
@@ -2442,7 +2442,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5220,
         "fields": {
             "question": 1065,
-            "description": "It's clear that we can't play this issue in Congress; they aren't going for it, and I can't rely on my party here. That does not mean we cannot try. We will get at this with the powers of the executive. "
+            "description": "It's clear that we can't play this issue in Congress; they aren't going for it, and I can't rely on my party here. That does not mean we cannot try. We will get at this with the powers of the executive. "
         }
     },
     {
@@ -4050,7 +4050,7 @@ campaignTrail_temp.answers_json = [
         "pk": 21816,
         "fields": {
             "question": 21815,
-            "description": "Let's unleash the big guns if he wants to go below the belt. Wayne Dumond, does that name ring a bell? He pressured the Arkansas Parole Board to free a convicted rapist who went on to kill again. You know what? Go for a decisive strike and release the letters between him and Dumond."
+            "description": "Let's unleash the big guns if he wants to go below the belt. Wayne DuMond, does that name ring a bell? He pressured the Arkansas Parole Board to free a convicted rapist who went on to kill again. You know what? Go for a decisive strike and release the letters between him and Dumond."
         }
     },
     {
@@ -40810,7 +40810,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1001,
             "candidate": 201,
             "affected_candidate": 203,
-            "state_multiplier": 0.5
+            "state_multiplier": 0.7
         }
     },
     {
@@ -40843,7 +40843,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1001,
             "candidate": 201,
             "affected_candidate": 203,
-            "state_multiplier": 0.5
+            "state_multiplier": 0.7
         }
     },
     {
@@ -40876,7 +40876,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1001,
             "candidate": 201,
             "affected_candidate": 203,
-            "state_multiplier": 0.5
+            "state_multiplier": 0.7
         }
     },
     {
@@ -40909,7 +40909,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1001,
             "candidate": 201,
             "affected_candidate": 203,
-            "state_multiplier": 0.5
+            "state_multiplier": 0.7
         }
     },
     {
@@ -53517,6 +53517,270 @@ campaignTrail_temp.answer_score_state_json = [
             "affected_candidate": 200,
             "state_multiplier": -0.015
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 255695,
+        "fields": {
+            "answer": 24523,
+            "state": 1019,
+            "candidate": 201,
+            "affected_candidate": 203,
+            "state_multiplier": -10
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 255696,
+        "fields": {
+            "answer": 24533,
+            "state": 1019,
+            "candidate": 201,
+            "affected_candidate": 203,
+            "state_multiplier": -10
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 255697,
+        "fields": {
+            "answer": 24540,
+            "state": 1019,
+            "candidate": 201,
+            "affected_candidate": 203,
+            "state_multiplier": -10
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 255698,
+        "fields": {
+            "answer": 24548,
+            "state": 1019,
+            "candidate": 201,
+            "affected_candidate": 203,
+            "state_multiplier": -10
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 255699,
+        "fields": {
+            "answer": 24523,
+            "state": 1028,
+            "candidate": 201,
+            "affected_candidate": 203,
+            "state_multiplier": 0.2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 255700,
+        "fields": {
+            "answer": 24523,
+            "state": 1048,
+            "candidate": 201,
+            "affected_candidate": 203,
+            "state_multiplier": 0.2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 255701,
+        "fields": {
+            "answer": 24533,
+            "state": 1028,
+            "candidate": 201,
+            "affected_candidate": 203,
+            "state_multiplier": 0.2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 255702,
+        "fields": {
+            "answer": 24533,
+            "state": 1048,
+            "candidate": 201,
+            "affected_candidate": 203,
+            "state_multiplier": 0.2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 255703,
+        "fields": {
+            "answer": 24540,
+            "state": 1048,
+            "candidate": 201,
+            "affected_candidate": 203,
+            "state_multiplier": 0.2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 255704,
+        "fields": {
+            "answer": 24540,
+            "state": 1028,
+            "candidate": 201,
+            "affected_candidate": 203,
+            "state_multiplier": 0.2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 255705,
+        "fields": {
+            "answer": 24548,
+            "state": 1028,
+            "candidate": 201,
+            "affected_candidate": 203,
+            "state_multiplier": 0.2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 255706,
+        "fields": {
+            "answer": 24548,
+            "state": 1048,
+            "candidate": 201,
+            "affected_candidate": 203,
+            "state_multiplier": 0.2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 255707,
+        "fields": {
+            "answer": 24523,
+            "state": 1021,
+            "candidate": 201,
+            "affected_candidate": 203,
+            "state_multiplier": 0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 255708,
+        "fields": {
+            "answer": 24523,
+            "state": 1005,
+            "candidate": 201,
+            "affected_candidate": 203,
+            "state_multiplier": 0.2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 255709,
+        "fields": {
+            "answer": 24523,
+            "state": 1046,
+            "candidate": 201,
+            "affected_candidate": 203,
+            "state_multiplier": 0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 255710,
+        "fields": {
+            "answer": 24533,
+            "state": 1005,
+            "candidate": 201,
+            "affected_candidate": 203,
+            "state_multiplier": 0.2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 255711,
+        "fields": {
+            "answer": 24533,
+            "state": 1021,
+            "candidate": 201,
+            "affected_candidate": 203,
+            "state_multiplier": 0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 255712,
+        "fields": {
+            "answer": 24533,
+            "state": 1046,
+            "candidate": 201,
+            "affected_candidate": 203,
+            "state_multiplier": 0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 255713,
+        "fields": {
+            "answer": 24540,
+            "state": 1005,
+            "candidate": 201,
+            "affected_candidate": 203,
+            "state_multiplier": 0.2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 255714,
+        "fields": {
+            "answer": 24540,
+            "state": 1021,
+            "candidate": 201,
+            "affected_candidate": 203,
+            "state_multiplier": 0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 255715,
+        "fields": {
+            "answer": 24540,
+            "state": 1046,
+            "candidate": 201,
+            "affected_candidate": 203,
+            "state_multiplier": 0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 255716,
+        "fields": {
+            "answer": 24548,
+            "state": 1021,
+            "candidate": 201,
+            "affected_candidate": 203,
+            "state_multiplier": 0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 255717,
+        "fields": {
+            "answer": 24548,
+            "state": 1005,
+            "candidate": 201,
+            "affected_candidate": 203,
+            "state_multiplier": 0.2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 255718,
+        "fields": {
+            "answer": 24548,
+            "state": 1046,
+            "candidate": 201,
+            "affected_candidate": 203,
+            "state_multiplier": 0.1
+        }
     }
 ]
 
@@ -54319,7 +54583,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 20976,
             "candidate": 201,
-            "answer_feedback": "Backstabbers all of them, they speak your praises sheepishly without a caring phrase. They go through the motions, failing to hide their dissatisfaction with your administration, and the crowd is no less tired of the vague platitudes you speak to make up the difference."
+            "answer_feedback": "Like puppets, they march up and spout whatever narrative you want them to speak. Kennedy, the dying bastard, praises everything you've done. Unknowingly handing the party's keys to a man who lacks any care for his values."
         }
     },
     {
@@ -57991,7 +58255,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 23799,
             "candidate": 201,
-            "answer_feedback": "Demanding such massive reforms of a tired congress was a disaster waiting to happen. The bill soon dies in gridlock, to your dismay. You're the President, and these ungrateful bastards think they can step out of line. \n"
+            "answer_feedback": "Demanding such massive reforms of a tired congress was a disaster waiting to happen. The bill soon dies in gridlock, to your dismay. You're the President, and these ungrateful bastards think they can step out of line. \n"
         }
     },
     {
@@ -61405,6 +61669,7 @@ campaignTrail_temp.jet_data = [{
 
 
 
+
 e.cyoa = true
 var Dem = 0;
 var Promise = 0;
@@ -63282,9 +63547,9 @@ cyoAdventure = function(a) {
     } else if (Dem === 5 && War === 1) {
         e.WinPopup = "As much as you'd like to hear your opponent spill their soul over the phone, you have greater conquests to wage. The world will not kneel to the menace in the Far East. Georgia's fate is in your hands, as is much of the world.";
         e.LosePopup = "Paul: The world will remember you for the tyrant who nearly set the world aflame. The revolution will save America from your hubris and you will face the most severe consequences. I refuse to volunteer more American lives for your egotistical conquest.";
-    } else if (Dem === 5 && Neo > 9) {
-        e.WinPopup = "The phone rings, and on the other end is a petulant little man unable to contain his frustration. Paul: Freedom was a novel and beautiful concept that you shred to bits Mr. President! Take a minute to listen to the movement that challenged you and maybe we can recover. Congratulations.";
-        e.LosePopup = "The phone rings, and instead of the voice of that revolution-crying moron, it's a man of equal lunacy. Grandpa Gravel wants to say his peace before he retreats into retirement. Gravel: The American people are terrified of you, Mr. President. You've quelled their rage temporarily, but in the coming years, the next generation will rise and take the future that is rightfully theirs!";
+    } else if (Dem === 5 && Neo > 8) {
+        e.WinPopup = "The phone rings, and instead of the voice of that revolution-crying moron, it's a man of equal lunacy. Grandpa Gravel wants to say his peace before he retreats into retirement. Gravel: The American people are terrified of you, Mr. President. You've quelled their rage temporarily, but in the coming years, the next generation will rise and take the future that is rightfully theirs!";
+        e.LosePopup = "You can't help but feel as if you are in a nightmare. He's won, and that lunatic has assembled a scrap yard coalition of those you discarded. You pick up the phone expecting a jubilant voice, but instead, another lecture. Paul: I told you, Mr. President, repeatedly, the American people felt betrayed by your antics. This was a well-deserved revolution.";
     } else if (Dem === 5) {
         e.WinPopup = "The phone rings, and on the other end is a petulant little man unable to contain his frustration. Paul: Freedom was a novel and beautiful concept that you shred to bits Mr. President! Take a minute to listen to the movement that challenged you and maybe we can recover. Congratulations.";
         e.LosePopup = "You can't help but feel as if you are in a nightmare. He's won, and that lunatic has assembled a scrap yard coalition of those you discarded. You pick up the phone expecting a jubilant voice, but instead, another lecture. Paul: I told you, Mr. President, repeatedly, the American people felt betrayed by your antics. This was a well-deserved revolution.";
