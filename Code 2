@@ -1633,7 +1633,7 @@ campaignTrail_temp.questions_json = [
         "pk": 24789,
         "fields": {
             "priority": 0,
-            "description": "You've returned home to Washington after a round trip through states ripped to shreds by Hurricane Katrina, and you're informed that House Majority Leader Tom DeLay has been indicted and resigned after much public pressure. With his resignation, the people's trust in the Republican Congress has gone. Pelosi wanted to meet with you to review a domestic push, but you've looked abroad. NATO is disunited and in need of a rallying flag. How will you reunite the West?",
+            "description": "You've returned home to Washington after a round trip through states ripped to shreds by Hurricane Katrina, and you're informed that House Majority Leader Tom DeLay has been indicted and resigned after much public pressure. With his resignation, the people's trust in the Republican Congress has gone. Pelosi wanted to meet with you to review a domestic push, but you've looked abroad. NATO is disunited and in need of a rallying flag. How will you reunite the West?",
             "likelihood": 1
         }
     },
@@ -2442,7 +2442,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5220,
         "fields": {
             "question": 1065,
-            "description": "It's clear that we can't play this issue in Congress; they aren't going for it, and I can't rely on my party here. That does not mean we cannot try. We will get at this with the powers of the executive. "
+            "description": "It's clear that we can't play this issue in Congress; they aren't going for it, and I can't rely on my party here. That does not mean we cannot try. We will get at this with the powers of the executive. "
         }
     },
     {
@@ -57991,7 +57991,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 23799,
             "candidate": 201,
-            "answer_feedback": "Demanding such massive reforms of a tired congress was a disaster waiting to happen. The bill soon dies in gridlock, to your dismay. You're the President, and these ungrateful bastards think they can step out of line. \n"
+            "answer_feedback": "Demanding such massive reforms of a tired congress was a disaster waiting to happen. The bill soon dies in gridlock, to your dismay. You're the President, and these ungrateful bastards think they can step out of line. \n"
         }
     },
     {
@@ -61590,6 +61590,40 @@ function swapAnswers(answersArray, targetQuestionId, answerToDisablePk, replacem
     });
 }
 
+function conquestSuccessPopup(imageUrl = "") {
+    
+    if (window.location.hostname !== "campaigntrailshowcase.com") {
+        console.log(`Blocked popup - not on the right domain.`);
+        return;
+    }
+
+    if (0 == e.answer_feedback_flg) return;
+
+    var template = document.createElement("div");
+    template.id = "conquest_success_box";
+    template.className = imageUrl ? "with-image" : "without-image";
+    
+    if (imageUrl) {
+        template.style.background = `url('${imageUrl}') center/cover no-repeat`;
+    }
+
+    template.innerHTML = `
+        <div class="popup-content">
+            <h3>SUCCESSFUL CONQUEST!</h3>
+            <p>Check the Conquests page for details</p>
+        </div>`;
+    
+    document.body.appendChild(template);
+
+    $("#conquest_success_box").fadeIn(500);
+
+    window.setTimeout(function() {
+        $("#conquest_success_box").fadeOut(1000, function() {
+            $(this).remove();
+        });
+    }, 4000);
+}
+
 //Clark coloor
 function switcheroo100() {
     var id = e.candidate_json.map(p=>p.pk).indexOf(201)
@@ -62102,6 +62136,11 @@ cyoAdventure = function(a) {
         Kill += 1;
     }
 
+    //popup for success
+    if (ans == 5148 || ans == 5149 || ans == 24794 || ans == 20890 || ans == 22670 || ans == 255248 || ans == 22460 ||  ans == 20935 || ans == 22479 || ans == 24704 || ans == 24730 ||  ans == 20943 || ans == 22483 || ans == 24734 || ans == 23772 ||  ans == 24635 || ans == 23781 || ans == 25093 || ans == 24183 || ans == 255057 || ans == 255054 || ans == 255060 || ans == 255084 || ans == 255099 || ans == 255114 || ans == 5246 || ans == 22053 || ans == 22507 || ans == 22555 || ans == 23718 || ans == 23733 || ans == 255118 || ans == 255103 || ans == 22057 || ans == 22511 || ans == 22559 || ans == 23722 || ans == 23737 || ans == 255121 || ans == 22514 || ans == 22562 || ans == 255124 || ans == 22565 || ans == 23728) {
+        conquestSuccessPopup("https://i.imgur.com/sR974Lg.gif");
+    }
+
     //shitty way of making admin tab work
     if (e.noCounter == 7) {
         speakerDetermined = true;
@@ -62315,6 +62354,8 @@ cyoAdventure = function(a) {
     /// RNC
     if (e.noCounter == 14) {
         if (Notroops > 0 && Loyalist > 0 && Gay > 0 && Dumb > 0) {
+            updateHistoricalData(newVpTableHistorical13, newHistHexcolour13, newHistName13, newHistEV13, newHistPV13, newHistPVP13);
+
             switcheroo9();
             switcheroo48();
             switcheroo28();
@@ -62376,6 +62417,8 @@ cyoAdventure = function(a) {
             campaignTrail_temp.questions_json[14] = tunnel(21025); 
         }
         else if (Notroops > 0) {
+            updateHistoricalData(newVpTableHistorical10, newHistHexcolour10, newHistName10, newHistEV10, newHistPV10, newHistPVP10);
+
             switcheroo3();
             switcheroo23();
             switcheroo43();
@@ -63147,6 +63190,7 @@ cyoAdventure = function(a) {
                 campaignTrail_temp.questions_json[26] = tunnel(23869);
             } else if (Econ == 2 & Heart == 1) {
                 campaignTrail_temp.questions_json[26] = tunnel(24338);
+                updateHistoricalData(newVpTableHistorical11, newHistHexcolour11, newHistName11, newHistEV11, newHistPV11, newHistPVP11);
                 switcheroo11();
             } else if (Econ == 2) {
                 campaignTrail_temp.questions_json[26] = tunnel(23880);
@@ -63161,6 +63205,7 @@ cyoAdventure = function(a) {
     if (e.noCounter == 27) {
         if (Econ == 0 && Fred == 0 && Lehman == 0 && Nato > 5 && Agenda > 3) {
             campaignTrail_temp.questions_json[27] = tunnel(254909); 
+            updateHistoricalData(newVpTableHistorical12, newHistHexcolour12, newHistName12, newHistEV12, newHistPV12, newHistPVP12);
             switcheroo101();
             switcheroo102();
             switcheroo103();
@@ -63312,7 +63357,7 @@ vpTable = {
     "Pat Buchanan" : "Ted Weill",
     "Bob Barr" : "Wayne Root",
     "Steve Kubby" : "Mike Jingozian",
-    "Alan Keyes" : "Chuck Baldwin",
+    "Tom Tancredo" : "Chuck Baldwin",
     "Rick Santorum" : "Mike DeWine",
     "Ron Paul" : "Gary Johnson",
     "Wayne Root" : "Mary Ruwart",
@@ -63436,11 +63481,11 @@ newHistPVP7 = [" ", " ", " ", " "];
 newVpTableHistorical8 = { //Giuliani
     "⠀Wesley K. Clark" : "Mary Landrieu",
     "⠀Rudy Giuliani" : "Mike Pence",
-    "⠀Alan Keyes" : "Chuck Baldwin",
+    "⠀Tom Tancredo" : "Chuck Baldwin",
     "⠀Jack Johnson" : "Jesse Johnson",
 };
 newHistHexcolour8 = ["#4b7db6","#a41f3c","#b779c9","#1e661e" ];
-newHistName8 = ["⠀Wesley K. Clark","⠀Rudy Giuliani","⠀Alan Keyes","⠀Jack Johnson"];
+newHistName8 = ["⠀Wesley K. Clark","⠀Rudy Giuliani","⠀Tom Tancredo","⠀Jack Johnson"];
 newHistEV8 = [321,217,0,0];
 newHistPV8 = [" ", " ", " ", " "];
 newHistPVP8 = [" ", " ", " ", " "];
@@ -63456,6 +63501,54 @@ newHistName9 = ["⠀Mike Pence","⠀Wesley K. Clark","⠀l","⠀J"];
 newHistEV9 = [538,0,0,0];
 newHistPV9 = [" ", " ", " ", " "];
 newHistPVP9 = [" ", " ", " ", " "];
+
+newVpTableHistorical10 = { //Bush
+    "⠀Jeb Bush" : "Tom Ridge",
+    "⠀Wesley K. Clark" : "Mary Landrieu",
+    "⠀Steve Kubby" : "Mike Jingozian",
+    "⠀Ralph Nader" : "Cynthia McKinney",
+};
+newHistHexcolour10 = ["#b25d60","#4b7db6","#dbbe87","#33b033" ];
+newHistName10 = ["⠀Jeb Bush","⠀Wesley K. Clark","⠀Steve Kubby","⠀Ralph Nader"];
+newHistEV10 = [335,203,0,0];
+newHistPV10 = [" ", " ", " ", " "];
+newHistPVP10 = [" ", " ", " ", " "];
+
+newVpTableHistorical11 = { //Snowe
+    "⠀Wesley K. Clark" : "Mary Landrieu",   
+    "⠀Olympia Snowe" : "John Ashcroft",
+    "⠀Ron Paul" : "Gary Johnson",
+    "⠀Randall Terry" : "Stephen Broden",
+};
+newHistHexcolour11 = ["#4b7db6","#693251","#c9b34c","#afb7e3"];
+newHistName11 = ["⠀Wesley K. Clark","⠀Olympia Snowe","⠀Ron Paul","⠀Randall Terry"];
+newHistEV11 = [328,210,0,0];
+newHistPV11 = [" ", " ", " ", " "];
+newHistPVP11 = [" ", " ", " ", " "];
+
+newVpTableHistorical12 = { //Super secret
+    "⠀I The Sun" : "She The Moon",
+    "⠀Shell Of An Enemy" : "Flesh Of A Traitor",
+    "⠀Harrowing Cries Of Help" : "Deafening Silence",
+    "⠀Hopefully Our Future" : "Foolishly We Dream",
+};
+newHistHexcolour12 = ["#2b3f5a","#27161b","#645f4a","#55644a"];
+newHistName12 = ["⠀I The Sun","⠀Shell Of An Enemy","⠀Harrowing Cries Of Help","⠀Hopefully Our Future"];
+newHistEV12 = [538,0,0,0];
+newHistPV12 = ["131,322,071", "0", "0", "0"];
+newHistPVP12 = ["100.0%", "0.0%", "0.0%", "0.0%"];
+
+newvpTableHistorical13 = { //Cheney
+    "⠀Dick Cheney" : "Olympia Snowe",
+    "⠀Wesley K. Clark" : "Mary Landrieu",
+    "⠀Ron Paul" : "Gary Johnson",
+    "⠀Randall Terry" : "Stephen Broden",
+}
+newHistHexcolour13=["#742b2b","#4b7db6","#c9b34c","#afb7e3"];
+newHistName13=["⠀Dick Cheney","⠀Wesley K. Clark","⠀Ron Paul","⠀Randall Terry"];
+newHistEV13=[450,88,0,0];
+newHistPV13=["76,349,206","49,534,833","3,117,218","2,041,414"];
+newHistPVP13=["58.3%","37.8%","2.4%","1.5%"];
 
 
 function onGameWindowChangeCandidates() {
@@ -63675,6 +63768,168 @@ e.pages = ["<p></p>",
         "<p></p>"]
 */
 
+function getStateNamesMap() {
+    const stateNamesMap = {};
+    campaignTrail_temp.states_json.forEach((state) => {
+        stateNamesMap[state.pk] = state.fields.name;
+    });
+    return stateNamesMap;
+}
+
+// Function to map candidate PKs to their names for better readability
+function getCandidateNamesMap() {
+    const candidateNamesMap = {};
+    campaignTrail_temp.candidate_json.forEach((candidate) => {
+        candidateNamesMap[candidate.pk] = candidate.fields.last_name;
+    });
+    return candidateNamesMap;
+}
+
+// Function to get the percentage of votes per candidate in each state
+function getVotePercentages() {
+    if (!e.player_answers.includes(21146) && !e.player_answers.includes(22333) && !e.player_answers.includes(22390)) {
+        return; 
+    }
+    const votePercentages = {};
+    campaignTrail_temp.final_state_results.forEach((result) => {
+        const statePK = result.state;
+        votePercentages[statePK] = result.result.map((candidateResult) => ({
+            candidate: candidateResult.candidate,
+            percentage: candidateResult.percent * 100,
+        }));
+    });
+    return votePercentages;
+}
+
+function campaignSummary() {
+    const stateNamesMap = getStateNamesMap();
+    const candidateNamesMap = getCandidateNamesMap();
+    const votes = getVotePercentages();
+
+    // Initialize boolean flags
+    let santorumWinsAlabama = false;
+    let gravelWinsAlaska = false;
+
+    for (const statePK in votes) {
+        const stateName = stateNamesMap[statePK] || `Unknown State (${statePK})`;
+        console.log(`State: ${stateName}`);
+        console.log(`Vote Percentages:`);
+
+        let maxVotes = 0;
+        let candidateMax = "";
+
+        votes[statePK].forEach((voteData) => {
+            const candidateName = candidateNamesMap[voteData.candidate] || `Candidate ${voteData.candidate}`;
+            console.log(`  ${candidateName}: ${voteData.percentage.toFixed(2)}%`);
+
+            if (voteData.percentage > maxVotes) {
+                maxVotes = voteData.percentage;
+                candidateMax = candidateName;
+            }
+        });
+
+        // Check conditions
+        if (stateName === "Alabama" && candidateMax === "Santorum") {
+            santorumWinsAlabama = true;
+            console.log(`Santorum won Alabama!`);
+        }
+        
+        if (stateName === "Alaska" && candidateMax === "Gravel") {
+            gravelWinsAlaska = true;
+            console.log(`Gravel won Alaska!`);
+        }
+
+        console.log("-----------------------------");
+    }
+
+    console.log(`Santorum wins Alabama: ${santorumWinsAlabama}`);
+    console.log(`Gravel wins Alaska: ${gravelWinsAlaska}`);
+
+    // Return the results if needed by other functions
+    return {
+        santorumWinsAlabama,
+        gravelWinsAlaska
+    };
+}
+
+const campaignResults = campaignSummary();
+
+changeState = (statePK, candidateId, amount = true) => {
+    
+    if (!e.player_answers.includes(21146) && !e.player_answers.includes(22333) && !e.player_answers.includes(22390)) {
+        return; 
+    }
+
+    const state = e.states_json[e.states_json.map(f=>f.pk).indexOf(statePK)];
+    const electoralVoteCount = state.fields.electoral_votes;
+    const sMI = e.final_state_results.map(f=>f.state).indexOf(statePK);
+    
+    // find candidate's results in the state
+    const candidateResults = e.final_state_results[sMI].result[
+        e.final_state_results[sMI].result.map(f=>f.candidate).indexOf(candidateId)
+    ];
+
+    let change;
+    
+    if (Neo > 7) { // Only proceed if Neo score is above 7
+        const winner = e.final_state_results[sMI].result[0].candidate;
+        
+        if (amount === true) {
+            // clear existing EV allocations
+            e.final_state_results[sMI].result.forEach((a, i, arr) => {
+                arr[i].electoral_votes = 0;
+            });
+        
+            // give candidate all EVs
+            candidateResults.electoral_votes = electoralVoteCount;
+            change = electoralVoteCount;
+        } else {
+            // clear existing EV allocations
+            e.final_state_results[sMI].result.forEach((a, i, arr) => {
+                arr[i].electoral_votes = 0;
+            });
+            e.final_state_results[sMI].result[0].electoral_votes = electoralVoteCount - amount;
+        
+            // give candidate specified EVs
+            candidateResults.electoral_votes = amount;
+            change = amount;
+        }
+    
+        const candidateOverall = e.final_overall_results[
+            e.final_overall_results.map(f=>f.candidate).indexOf(candidateId)
+        ];
+        const winnerOverall = e.final_overall_results[
+            e.final_overall_results.map(f=>f.candidate).indexOf(winner)
+        ];
+        candidateOverall.electoral_votes += change;
+        winnerOverall.electoral_votes -= change;
+    }
+}
+
+const { santorumWinsAlabama, gravelWinsAlaska } = campaignResults;
+
+if (!e.initDC) {
+    e.initDC = true;
+    
+    if (e.player_answers.includes(21146) || e.player_answers.includes(22333) || e.player_answers.includes(22390)) {
+        if (Neo > 7 && Neo <= 9 && !santorumWinsAlabama) {
+            changeState(1000, 202, 2); //2 Alabama for Santorum
+        }
+        else if (Neo > 9) {
+            if (!santorumWinsAlabama && !gravelWinsAlaska) {
+                changeState(1000, 202, 2); //2 Alabama for Santorum
+                changeState(1044, 203, 1); //1 Alaska for Gravel
+            }
+            else if (santorumWinsAlabama && !gravelWinsAlaska) {
+                changeState(1044, 203, 1); //1 Alaska for Gravel
+            }
+            else if (!santorumWinsAlabama && gravelWinsAlaska) {
+                changeState(1000, 202, 2); //2 Alabama for Santorum
+            } 
+        }
+    }
+}
+
 e.pages = []
 e.header = "";
 e.executable = []
@@ -63685,7 +63940,11 @@ e.pages.push(`<h3><i>Invisible Threat</i></h3>
           <p><b></b></p>`)
           // idk how to add playlists but to do that you create a new playlist in code1 with just that song and put changePlaylist(nameOfYourEndingPlaylist) right here
 //e.image = ""
-e.executable.push([0, (() => {e.image = e.image = 'https://i.imgur.com/zvmE8js.gif'})])
+e.executable.push([0, (() => {
+    e.image = 'https://i.imgur.com/zvmE8js.gif';
+    const audio = document.getElementById("audio");
+    if (audio) audio.loop = true; 
+})]);
 const clarkWin = new Playlist();
   const clarkWinSong = new Song(
     "No Surprises",
@@ -63701,7 +63960,11 @@ e.pages.push(`<h3><i>Icarus</i></h3>
           <p><b>Falling—it was agony.</b></p> <p><b>A rapid plunge into the abyss, and not one hand reached out to save him. Icarus could only imagine how he became the protagonist of such a tale. His once-celebrated achievements quickly dissolved into oblivion, while critics from every corner emerged to seize the pen writing this story.</b></p> <p><b>Those who once lifted him now parrot the same words: he flew too close to the sun. As if ambition alone explained his fall—as if striving too far, too fast made him some reckless overachiever, doomed by pride. They hope to sidestep the wrath of his defeat by washing their hands of guilt as if they are innocent victims. His loyal second hand began to fly as far away from him as she could.</b></p> <p><b>Cowards, all of them.</b></p> <p><b>The painful truth is that they will likely get their wish and find future opportunities to squander. Outsiders drew their conclusions. They say Icarus was too cautious and too wasteful by squandering rare opportunities and charging into battle, lacking those on the ground to cheer him on. They argue that he might have triumphed if he had pursued bolder conquests and chased grander spoils. It was a tug of war between those wanting more and those fearing it was too much.</b></p> <p><b>The prevailing narrative concluded that Icarus failed to please either. The game was over, and as the figure of Icarus fell to the floor Clark's vision snapped to reality.</b></p> <p><b>As his office was swiftly dissected for his successor to paint anew, Clark looked out toward the streets of Washington. Unsure whether to feel regret or believe that he did everything he could. He turned away, hoping to move on from this mess. The diorama representing his journey was soon tossed in a box and shipped alongside him.</b></p> <p><b>His story had concluded, and Clark no longer cared to ponder alternate tales. He had lost the war. And soldiers on the losing side are rarely remembered as anything more.</b></p>`)
           // idk how to add playlists but to do that you create a new playlist in code1 with just that song and put changePlaylist(nameOfYourEndingPlaylist) right here
 //e.image = ""
-e.executable.push([0, (() => {e.image = e.image = 'https://i.imgur.com/ibObdh4.gif'})])
+e.executable.push([0, (() => {
+    e.image = 'https://i.imgur.com/ibObdh4.gif';
+    const audio = document.getElementById("audio");
+    if (audio) audio.loop = true; 
+})]);
 const clarkWin = new Playlist();
   const clarkWinSong = new Song(
     "Let Down",
@@ -63717,10 +63980,14 @@ e.pages.push(`<h3><i>Scorched</i></h3>
           <p><b>When Icarus took flight, he knew four more years wouldn't be bestowed on him. The polls had him down nearly everywhere; it was to be a tsunami that swept the nation red. Whether someone else could have dug themselves out of the hole the recession had put them in is inarguably true that Icarus did himself no favors and only kept digging down.</b></p> <p><b>State after state called for the Maverick and it was clear. Icarus had been scorched. The concession was given quickly, and Icarus was unable to hold back the ever-slight bitterness in his voice. Expecting the ritual cannibalization Democrats perform while looking desperately for some excuse to hoist the blame upon Icarus, he flicked through each channel: CNN, MSNBC, and NPR. The chatter was low and depressing, but their faces didn't look shocked. They could predict this result from a mile away;</b></p> <p>Jon Stewart from The Daily Show put it best<i> "This election was really about two candidates having a truthful, substantive discussion about how much they FUCKING HATE EACH OTHER."</i></p> <p><b>Icarus made it deeply personal; he wasn't quite sure why he felt it necessary to demean a fellow veteran's service in such a way. Perhaps it was a deeper insecurity he had, or he believed he was truly deserving of being president just by rank.</b></p> <p><b>The voters have swept his administration under the incoming Maverick administration, which holds its hopes high to execute much with its mandate.</b></p>`)
           // idk how to add playlists but to do that you create a new playlist in code1 with just that song and put changePlaylist(nameOfYourEndingPlaylist) right here
 //e.image = ""
-e.executable.push([0, (() => {e.image = e.image = 'https://i.imgur.com/7VLX0cu.png'})])
+e.executable.push([0, (() => {
+    e.image = 'https://i.imgur.com/7VLX0cu.png';
+    const audio = document.getElementById("audio");
+    if (audio) audio.loop = true; 
+})]);
 const mccainWin = new Playlist();
   const mccainWinSong = new Song(
-    "Give it up",
+    "Give It Up",
     "LCD Soundsystem",
     "https://i.imgur.com/W2Uz5hy.gif",
     "https://audio.jukehost.co.uk/UGouMnjsoNMXJBVi729uJUzdUDhzc2ZT"
@@ -63733,7 +64000,11 @@ e.pages.push(`<h3><i>No Apologies</i></h3>
           <p><b>When he prepared to take flight, Icarus knew it'd be his last. The Maverick had taken the base who swept him into office the day he made that damn gaffe. He reminisced the good he had done or tried to do, now doubtful that his legacy would remain intact. The Maverick promised to undo it all, he'd bring back the massive surveillance, the war in Iraq and possibly expand it.</b></p> <p><b>Icarus could only lament as the states were called one by one, but a glimmer of hope would overtake his mind as states became to close to call. His staff made calls in and out of each swing state, it was close this was going to be decided by a few states. The team was sweating, was it possible? Could Icarus have actually turned the race around enough to win? The Maverick camp was equally ancy as Carl Rove ranted on FOX how it was impossible, Icarus couldn't be winning these states,</b></p> <p><i>it was too early to call</i> he said.</p> <p><b>Hanging on a prayer Icarus felt as if he was soaring. However his hopes were struck down along with him. The Maverick had won the tipping point state and Icarus was no more. The Maverick underperformed the polls severely however and the damned Traitor remains a dividing force within Republican circles. The Maverick's tenure would be marked by economic downturns and spiraling negativity. He got his desired tax cuts through congress but his cuts to Social Security would be filibusters into the ground. The Maverick was desperate to catch a win especially once the 2010 midterms swept the nation in a blue tsunami. Lacking options he focused solely on the mission of killing Osama Bin Laden. It wasn't easy but soon the nation would rejoice in unison.</b></p> <p><b>Even still the outlook hasn't looked great for the Maverick's reelection bid. A poorly timed health scare in 2011 sent the nation worrying but most importantly the Republican Party was terrified. A former Democrat too far out of the Republican mainstream was one deteriorating heartbeat away from the presidency. These fears were raised even higher when the Traitor convinced the president to back the repeal of Don't Ask Don't Tell. It was the last straw, the Traitor had to go and maybe even the Maverick.</b></p>`)
           // idk how to add playlists but to do that you create a new playlist in code1 with just that song and put changePlaylist(nameOfYourEndingPlaylist) right here
 //e.image = ""
-e.executable.push([0, (() => {e.image = e.image = 'https://i.imgur.com/yLAWebg.png'})])
+e.executable.push([0, (() => {
+    e.image = 'https://i.imgur.com/yLAWebg.png';
+    const audio = document.getElementById("audio");
+    if (audio) audio.loop = true; 
+})]);
 const mccainWin = new Playlist();
   const mccainWinSong = new Song(
     "Who Are You",
@@ -63749,7 +64020,11 @@ e.pages.push(`<h3><i>Career Killer</i></h3>
           <p><b>Hate is a powerful motivator. The once calm and honorable Icarus is now consumed entirely by it. His achievements and tireless work should hail among the greats, yet the ungrateful Olympus citizens were fixated on a counterfeit, a lesser version of him. He couldn’t fathom the public’s admiration for the Maverick. The idolization was baffling.</b></p><p><b>Icarus had confidence, power, and a formidable record compared to his predecessors. Yet they adored the other man—a rival warrior who had clawed his way up on merit alone, seasoned and scarred like Icarus but lacking the divine spark that set him apart—or so he believed.</b></p><p><b>In his mind, the idea of a fair fight was beneath him. Facing a challenger so far beneath him wasn’t just insulting—it was unacceptable. So, he prepared for a wild course redirection. A trap. One that would end the Maverick’s reputation without throwing a single blow.</b></p><p><b>He retained his patience. When the day came, he rose from his throne with a spark in his eye, stepping onto the grand stage, while the Maverick did the same.</b></p><p><b>Like wildfire, a rumor spread, poisoning the crowd. It was a bold and fabricated lie but devastating in its precision. Even his allies recoiled in distrust. The Maverick’s voice, once rousing, now fell flat against a wall of suspicion.</b></p><p><b>Icarus had struck perfectly.</b></p><p><b>The people turned. Olympus closed its gates. And as the Maverick fled in disgrace, Icarus stood victorious, untouched, triumphant in deceit.</b></p>`)
           // idk how to add playlists but to do that you create a new playlist in code1 with just that song and put changePlaylist(nameOfYourEndingPlaylist) right here
 //e.image = ""
-e.executable.push([0, (() => {e.image = e.image = 'https://i.imgur.com/tjZsj8b.png'})])
+e.executable.push([0, (() => {
+    e.image = 'https://i.imgur.com/tjZsj8b.png';
+    const audio = document.getElementById("audio");
+    if (audio) audio.loop = true; 
+})]);
 const mccainWin = new Playlist();
   const mccainWinSong = new Song(
     "Deceptacon",
@@ -63765,10 +64040,14 @@ e.pages.push(`<h3><i>Burned Bridges</i></h3>
           <p><b></b></p>`)
           // idk how to add playlists but to do that you create a new playlist in code1 with just that song and put changePlaylist(nameOfYourEndingPlaylist) right here
 //e.image = ""
-e.executable.push([0, (() => {e.image = e.image = 'https://i.imgur.com/tjZsj8b.png'})])
+e.executable.push([0, (() => {
+    e.image = 'https://i.imgur.com/tjZsj8b.png';
+    const audio = document.getElementById("audio");
+    if (audio) audio.loop = true; 
+})]);
 const mccainWin = new Playlist();
   const mccainWinSong = new Song(
-    "Blow me Away",
+    "Blow Me Away",
     "Breaking Benjamin",
     "https://i.imgur.com/LJuqjW4.gif",
     "https://audio.jukehost.co.uk/U6PYUana3KFQ7hcEzEBfk5wwO79R5Lge"
@@ -63781,7 +64060,11 @@ e.pages.push(`<h3><i>Exile</i></h3>
           <p><b>Icarus expected nothing less than a glorious battle. His challenger crashing through the palace gates, the sky torn with fanfare, and the heavens roaring in anticipation. Advisors spoke of incredible tales of a man draped in finery, a figure so regal that even the word elitist felt inadequate.</b></p> <p><b>Time went by, and while the clocks ticked away, Icarus soon grew anxious, wondering if this coward skipped out on him. Where was the spectacle? Where were the blinding lights and thunderous music promised to announce this mighty foe? The silence was deafening. Wandering outside his palace, his gaze swept across the cracked marble and faded banners.</b></p> <p><b>Where was he? Where was the threat they warned him of? Could he have slipped by the gates unnoticed? It was impossible; the tales told of this champion were near royalty. His suspicion began to grow, and so did his doubts. Maybe he was hidden behind the faces of the very people he had sworn to protect. It would be a cheap trick, not a foreign concept to Olympus.</b></p><p><b>Returning to his chambers, he demanded his subordinates do a widespread hunt from within to force this Commoner into the open. A list was drawn—names of the suspicious, the unremarkable, and the silent. Icarus ordered them exiled, cast out of Olympus. The city emptied. Paranoid, he even began suspecting his own advisors. They would follow the same fate, banished.</b></p><p><b>He was alone and with nothing to show for his tireless search. There was no war to be waged; it was all static. Then, while sitting on his throne, a man entered his vision. Unassuming, plain, and unremarkable, the Commoner. Icarus leapt to his feet, vindicated at last. He shouted, demanding a battle. One final clash to justify it all.<b></b></p><p><b>Instead, the Commoner would shake his head and leave the palace. Icarus, now sent into a fit of rage, declared victory nonetheless. Following the man outside, he came to the grim realization that Olympus was empty. Its people had followed the Commoner, abandoning their god-king to his ruined throne. The kingdom now grew elsewhere, a quiet and humble life. Now realizing that he did nothing but surrender everything to a man who needed no sword to win, Icarus collapsed, feeling nothing but sorrow.</b></p>`)
           // idk how to add playlists but to do that you create a new playlist in code1 with just that song and put changePlaylist(nameOfYourEndingPlaylist) right here
 //e.image = ""
-e.executable.push([0, (() => {e.image = e.image = 'https://i.imgur.com/yXJ8Fzn.png'})])
+e.executable.push([0, (() => {
+    e.image = 'https://i.imgur.com/yXJ8Fzn.png';
+    const audio = document.getElementById("audio");
+    if (audio) audio.loop = true; 
+})]);
 const mittWin = new Playlist();
   const mittWinSong = new Song(
     "Common People",
@@ -63797,7 +64080,11 @@ e.pages.push(`<h3><i>Dynasty</i></h3>
           <p><b>It was too much to comprehend; the losses were drastic, and the men in the field were torn to shreds. The soldiers who could survive were running for their lives. Insurmountable odds had given Icarus false confidence; he'd faced this before, it came in waves.</b></p> <p><b>The first would hit hard and be a mirage for nothing backing it. Unlike his first conquests, the King had come prepared. Hostile forces crashed through three frontlines, effectively shattering any chance of a defensive stalemate. </b></p> <p><b>Icarus went toward the balcony to view the fight for himself. It was pitiful; all his strategizing laid waste, amounting to nothing more than a fleeting thrill. His queen pulled on his arm, pleading for him to leave. Icarus looked back at the field as the chariot crossed scattered bodies and shrapnel.</b></p><p><b>Thinking for a moment, he nodded and began his exit. He thought about staying behind to fight alongside his men, but he saw little point in such displays of heroism. Icarus fled alongside his trusted gang of wisdom. Looking back at Olympus one last time, he wondered what the point of all this was. Perhaps he misunderstood the mandate given to him.</b></p>`)
           // idk how to add playlists but to do that you create a new playlist in code1 with just that song and put changePlaylist(nameOfYourEndingPlaylist) right here
 //e.image = ""
-e.executable.push([0, (() => {e.image = e.image = 'https://i.imgur.com/EEWiC7H.png'})])
+e.executable.push([0, (() => {
+    e.image = 'https://i.imgur.com/EEWiC7H.png';
+    const audio = document.getElementById("audio");
+    if (audio) audio.loop = true; 
+})]);
 const jebWin = new Playlist();
   const jebWinSong = new Song(
     "Viva La Vida",
@@ -63813,7 +64100,11 @@ e.pages.push(`<h3><i>Royal Blood</i></h3>
           <p><b>The royal bells drew closer, and his time on Olympus came to a close. Humiliated and bitter, Icarus stood defiantly despite his closest advisors recommending the retreat. The defenses were all buckling under the weight of the royal army's advance. Like a game of chess, Icarus was outmaneuvered and slowly closed in. His queen left his side hours before, escaping the incoming onslaught. Undeterred, Icarus waited, determined to lead this sinking ship regardless of its destination.</b></p> <p><b>So it came knocking on his doorstep, royalty of the same blood as his fallen predecessor. The gates were willingly lowered. There was no use in pretending they'd hold up against the cannon fire. Few of his subjects cared to stand up for him; he would be going to this battle alone. Dawning his shining armor, Icarus took flight toward the lively courtyard.</b></p> <p><b>The King stepped out of his chariot and onto the red carpet before him whilst looking at Icarus, disgusted that he remained. Subjects of the King were ordered to apprehend Icarus and bring him before the guillotine. After a struggle, they took the man in, clipping his wings and dragging him to his demise.</b></p><p><b>It was a long and drawn-out affair. The King participated in a bit of showboating here and there, choosing to make a grandstand spectacle of the event. The crowds began to cheer. Now, with ample bloodlust, the King captivated the crowd.</b></p><p>"Off with his head!" said the King.</p>`)
           // idk how to add playlists but to do that you create a new playlist in code1 with just that song and put changePlaylist(nameOfYourEndingPlaylist) right here
 //e.image = ""
-e.executable.push([0, (() => {e.image = e.image = 'https://i.imgur.com/VW72KJq.png'})])
+e.executable.push([0, (() => {
+    e.image = 'https://i.imgur.com/VW72KJq.png';
+    const audio = document.getElementById("audio");
+    if (audio) audio.loop = true; 
+})]);
 const jebWin = new Playlist();
   const jebWinSong = new Song(
     "The Kids Aren't Alright",
@@ -63829,7 +64120,11 @@ e.pages.push(`<h3><i>King Slayer</i></h3>
           <p><b>Icarus couldn't help but crack a smile; a wave of soldiers coated in red attire struggled to overcome the defense. The fighting was drawn out and nearly pitiful. The King had brought forth a pathetic band of challengers to overcome the strengthened and fortified Olympus.</b></p> <p><b>He could see it in the distance, the royal chariot, watching from afar. Icarus had slain the King's beloved brother and transformed Olympus instead of waiting around for a challenge. Gone were the walls and soldiers who failed his predecessor, replaced with a stronghold with the hardened will to back it.</b></p> <p><b>There was no need to join in on the fighting; it had gone quiet. The chariot stood still, with the sun setting behind it. He wondered what the King's reaction could be to such a humiliating rebuke.</b></p> <p><b>Icarus went back to business as it was, not paying a weak man more mind than required. Icarus began to think of his legacy, a dynasty perhaps.</b></p>`)
           // idk how to add playlists but to do that you create a new playlist in code1 with just that song and put changePlaylist(nameOfYourEndingPlaylist) right here
 //e.image = ""
-e.executable.push([0, (() => {e.image = e.image = 'https://i.imgur.com/9UbE0Jh.png'})])
+e.executable.push([0, (() => {
+    e.image = 'https://i.imgur.com/9UbE0Jh.png';
+    const audio = document.getElementById("audio");
+    if (audio) audio.loop = true; 
+})]);
 const bushWin = new Playlist();
   const bushWinSong = new Song(
     "Safe And Sound",
@@ -63845,7 +64140,11 @@ e.pages.push(`<h3><i>New Era</i></h3>
           <p><b>Icarus could only feel dread while awaiting the challenge to his weak grasp on the throne. Four years prior, he had slain an Emperor who waged war and plunged the world into crisis. Not even he understood the weight of the movement that launched him against the tide—now surrounded by crumbling walls and desperate people looking for change.</b></p> <p><b>The Royal Chariot's charms and bells were finally in hearing distance. It was time; Icarus dawned his shining armor and gently pushed the doors of his palace open. The King had arrived, seeking vengeance for his fallen brother, coming a long way from the swamps of his domain to challenge Icarus.</b></p> <p><b>Even some of his people hailing the arrival made it seem like a peaceful exchange. Icarus watched as the King walked with stride on a red carpet, proudly proclaiming that he should step down without a fight. Utterly loathing the confidence, he'd never let this go down without a fight.</b></p> <p><b>Icarus made his stance clear, and so the King ordered his removal. No one came to his aid as he fought the Royal Guard off; they came at him in waves, repelled one after the other. Harbingers flew down to assist, but Icarus was a trained fighter, taking them on all the same.</b></p><p><b>The King began to sweat as he slowly backed away. Soon enough, Icarus sent the King and his unruly subordinates to fall back, cowardly running to avoid his brother's fate. Icarus could now look beyond the corrupt dynasty and forge a more extraordinary path with his ideals intact.</b></p>`)
           // idk how to add playlists but to do that you create a new playlist in code1 with just that song and put changePlaylist(nameOfYourEndingPlaylist) right here
 //e.image = ""
-e.executable.push([0, (() => {e.image = e.image = 'https://i.imgur.com/eAtgvIf.png'})])
+e.executable.push([0, (() => {
+    e.image = 'https://i.imgur.com/eAtgvIf.png';
+    const audio = document.getElementById("audio");
+    if (audio) audio.loop = true; 
+})]);
 const bushWin = new Playlist();
   const bushWinSong = new Song(
     "Beggin",
@@ -63861,7 +64160,11 @@ e.pages.push(`<h3><i>Party Animal</i></h3>
           <p><b>It was a modern-day fairytale. Long before he had even reached his destination, the Hero could grasp victory with his hands. Why waste time preparing when the win was already his? He preferred to savor this feeling by throwing lavish parties surrounded by beautiful mistresses and telling tall tales of his glory. He was a valued warrior, tested by insurmountable tasks and accomplished them with ease. </b></p> <p><b> It was a fantastic experience, one of a lifetime, until his trusted advisor approached him, warning him of the disaster that awaited him. The Harbinger forewarned of the immense threat of his opponent; Icarus was not a foe to be underestimated; he was, after all, a legend. No matter how weakened he may be, he's still the man who brought down the Emperor. The Hero was none the wiser and looked at upon his confidant with disgust.</b></p> <p><b>Did she have a clue of whom she was speaking of? The Hero was a man of strength, sheer will, and determination. This wasn't a competition. It was a coronation; he only needed to knock out the fool in his seat. The Hero ignored all the advice given to him and continued to party to his heart's content. When it was time to journey up the mountain, he boasted and bragged to his exuberant crowds. He took at it alone but kept spectators watching at a distance, not wanting a moment of his legend lost in memory.</b></p><p><b>Then he made it—the pearly gates of Olympus, the mountain climbed, the story was written, and it was his job to follow the script and make history. He easily blew the gate down and shouted for his opponent to show himself. A crowd assembled around him as the ring he would battle in was created.</b></p><p><b>The moment he had been waiting for had come. Icarus dropped down from far above, sporting a stern expression coated in glistening golden armor. It was time for the battle to change history and take his destiny by the horns. </b></p><p><b>It began gloriously; the Hero and Icarus went blow for blow, cut to cut, blood for blood. However, as the moments passed, fear overtook the Hero's mind. Icarus wasn't going down without a fight; perhaps the Harbinger was right. It was getting harder, his vision was getting tighter, and the fight had gone into the later hours of the night. All seemed lost as an opening for Icarus to take his head appeared. However, the Harbinger swept him off his feet and carried out the finishing blow, killing Icarus. The Hero's conquest was finished, but In what may have been the worst outcome, he couldn't celebrate the victory as his own. The Hero owed the Harbinger his life; she wouldn't let him forget that.</b></p>`)
           // idk how to add playlists but to do that you create a new playlist in code1 with just that song and put changePlaylist(nameOfYourEndingPlaylist) right here
 //e.image = ""
-e.executable.push([0, (() => {e.image = e.image = 'https://i.imgur.com/RdqNtmh.png'})])
+e.executable.push([0, (() => {
+    e.image = 'https://i.imgur.com/RdqNtmh.png';
+    const audio = document.getElementById("audio");
+    if (audio) audio.loop = true; 
+})]);
 const rudyWin = new Playlist();
   const rudyWinSong = new Song(
     "Maneater",
@@ -63877,7 +64180,11 @@ e.pages.push(`<h3><i>Judas</i></h3>
           <p><b>"Have you ever confessed a sin?" Icarus asked his league of advisors, deeply burdened with doubt.</b></p> <p><b>How could he not be? His tumultuous rule over Olympus, with both victories and defeats, built a conflicted legend. Where he triumphed, he also faltered, but he truly believed his actions were just. Even so, given all he's done, his people languished in pain and deeply desired a savior.</b></p> <p><b>Icarus did all he could to heal the people he championed, but he credited all but himself. It was only natural that a man of faith would rise to fill the void and grant hope to the people. The people's Messiah had propelled himself to the forefront of proclaiming to speak the words of some higher power. Marching with a ragtag group of true believers, this man made his way to Olympus.</b></p> <p><b>Icarus sat nearly jealous of all the attention he garnered; why him? What was so special about this individual? The movement to oust him from power was growing, and if he let it flourish by entering Olympus, who knows what could happen? So Icarus plotted away, hoping to dispel this man's credibility.</b></p><p><b>So, after some convincing that they could secure his place on the throne, he sent out a band of mercenaries to harass and stir up a fuss. What he hadn't expected was that through his consent, they mistakenly took his orders as permission to slay the Messiah before all who desperately headed his ideals. Forever solidifying the fight and movement of faith and gospel, it would soon spread across the lands and through the walls of Olympus.</b></p><p><b>In trying to destroy the movement, he gave it the energy it needed to go beyond its preacher. It would eventually reach the throne far past Icarus' time.</b></p>`)
           // idk how to add playlists but to do that you create a new playlist in code1 with just that song and put changePlaylist(nameOfYourEndingPlaylist) right here
 //e.image = ""
-e.executable.push([0, (() => {e.image = e.image = 'https://i.imgur.com/7sSkr8P.png'})])
+e.executable.push([0, (() => {
+    e.image = 'https://i.imgur.com/7sSkr8P.png';
+    const audio = document.getElementById("audio");
+    if (audio) audio.loop = true; 
+})]);
 const rudyWin = new Playlist();
   const rudyWinSong = new Song(
     "Judas",
@@ -63893,7 +64200,11 @@ e.pages.push(`<h3><i>A Real Hero</i></h3>
           <p><b>Icarus watched over the early celebrations with pride, hoping he could live up to their faith in him. Despite a distinct feeling of confidence, Icarus couldn't shake the feeling of dread. How could he not? He has consistently ignored the advice of his contemporaries and pushed forward onto an uncharted path.</b></p> <p><b>He could hear his opponent's loud and proud celebrations from his palace. Inching ever closer was the conclusion to this long and arduous journey. He cloaked himself in shining armor, ready for battle, then heard it. The gates of Olympus were opened, allowing the Hero to ride the crowd right onto his doorstep.</b></p> <p><b>An arena built to host this monumental battle. Not wasting another moment hearing the Hero tell tall tales of his journey, Icarus demanded his attention. The Hero reassured the crowd that this wouldn't take long. Icarus was quick to agree and determined to put him on the ground.</b></p> <p><b>And thus it began, balanced and restrained, they went blow for blow, cut to cut, breath for breath. The battle was quickly and utterly spiraling out of the Hero's favor. The sheer strength of Icarus blindsided him; soon, it was becoming clear to onlookers that the outcome was to be an upset.</b></p> <p><b>Soon enough, it became clear to the audience that the Hero couldn't keep up any longer; a legion of familiar foes descended upon the arena like vultures. Harbingers of the Emperor bit at Icarus, slashing his skin to the bone and holding him at bay in hopes of saving the Hero.</b></p> <p><b>Their efforts would soon prove futile as Icarus pushed through the pain, commanding his dedicated following to his aid. Evil in retreat, the so-called Hero layer weak on the ground, helpless and abandoned by who he thought were his loyal allies. One by one, the reminders of the past were repudiated, and Icarus could stand triumphant.</b></p> <p><b>Victory was secured, as was his promise made at the beginning of this journey. He turned to the jubilant crowd hailing him as a true hero, not one who talks of being one, but one who walks as one.</b></p>`)
           // idk how to add playlists but to do that you create a new playlist in code1 with just that song and put changePlaylist(nameOfYourEndingPlaylist) right here
 //e.image = ""
-e.executable.push([0, (() => {e.image = e.image = 'https://i.imgur.com/Ck8TzHZ.png'})])
+e.executable.push([0, (() => {
+    e.image = 'https://i.imgur.com/Ck8TzHZ.png';
+    const audio = document.getElementById("audio");
+    if (audio) audio.loop = true; 
+})]);
 const rudyWin = new Playlist();
   const rudyWinSong = new Song(
     "A Real Hero",
@@ -63909,7 +64220,11 @@ e.pages.push(`<h3><i>Star Power</i></h3>
           <p><b>The anticipation of all under Icarus's wings was palpable, forced to wait and worry as the Hero made his conquest toward Olympus alone. The Hero had cut through thick jungles and scaled mountains. It was a well-earned victory before he even reached the pearly gates.</b></p> <p><b> Icarus could only watch helplessly as his unbreakable opponent busted the gate down and demanded a proper challenge. In the courtyard, an arena was built. The Hero had no qualms with anyone else; it was to be man-to-man, a good and fair fight. So Icarus obliged and descended upon the arena in shining armor.</b></p> <p><b>He watched as his dashing opponent talked up the crowd with charm and a golden smile, ensuring no soul missed this. Icarus grew tired of his games quickly and shouted, demanding silence, and that was when he locked eyes with the Hero.</b></p> <p><b>The Hero was exhausted, and with a swift lunge forward, he was caught off guard, and the game was finally over. Everyone witnessed as Icarus ascended to victory, leaving a tattered, disgusting corpse of vanity and ego below him.</b></p>`)
           // idk how to add playlists but to do that you create a new playlist in code1 with just that song and put changePlaylist(nameOfYourEndingPlaylist) right here
 //e.image = ""
-e.executable.push([0, (() => {e.image = e.image = 'https://i.imgur.com/RrG0WLB.png'})])
+e.executable.push([0, (() => {
+    e.image = 'https://i.imgur.com/RrG0WLB.png';
+    const audio = document.getElementById("audio");
+    if (audio) audio.loop = true; 
+})]);
 const rudyWin = new Playlist();
   const rudyWinSong = new Song(
     "Upside Down",
@@ -63925,7 +64240,11 @@ e.pages.push(`<h3><i>Overrun</i></h3>
           <p><b>The drawbridge was lowered, and the gates were raised. It was a people's movement, and the people demanded that the magnificent vessel of libertarianism be granted entry. Olympus had been swooned by a madman. The corrupt oligarchy bartering the fates of its populace had been repudiated.</b></p> <p><b>As the vessel lowered its ramp, off came hundreds of crazed loons hungry for revenge. As the Revolutionary walked down draped in riches, he ordered his enemies to be hung by sundown. He, who had begun to take on many names, walked like a king but refused to take on such a title.</b></p> <p><b>Icarus collapsed onto his throne, bleeding from the armor-piercing arrows of liberty. Unadulterated fear for the fall of his empire, the fall of what leaders had built before him. The Madman entered the royal palace ready to behead Icarus and rip down the empire to create a new and free land for all.</b></p><p><b>Icarus attempted to stand, but he was far too weak; the revolution had taken his strength. As the Madman walked toward the throne, Icarus's vision spun. Looking him dead in the eyes, he saw his complete opposite.</b></p><p><b>There was no hope for even a glimpse of his legacy to remain. Not wanting to grant the Madman any further pleasure, Icarus pushed the arrow deeper and pierced his heart. Falling to the floor, making way for his successor and sealing the fate of Olympus.</b></p>`)
           // idk how to add playlists but to do that you create a new playlist in code1 with just that song and put changePlaylist(nameOfYourEndingPlaylist) right here
 //e.image = ""
-e.executable.push([0, (() => {e.image = e.image = 'https://i.imgur.com/KtbYOZm.png'})])
+e.executable.push([0, (() => {
+    e.image = 'https://i.imgur.com/KtbYOZm.png';
+    const audio = document.getElementById("audio");
+    if (audio) audio.loop = true; 
+})]);
 const paulWin = new Playlist();
   const paulWinSong = new Song(
     "In The House, In A Heart Beat",
@@ -63941,7 +64260,11 @@ e.pages.push(`<h3><i>"Betrayed"</i></h3>
           <p><b>Icarus often sat in his lofty palace surrounded by the spoils of his many conquests. When his servants weren't feeding him fruits, he spent his time plotting dastardly deeds aided by a cult of like-minded advisors ready for the next war.</b></p> <p><b>He nearly forgot the time; the challenge to his throne was to arrive. He dawned his bloodstained armor, nearly thrown into a fit of rage that it hadn't been cleaned. After reprimanding his fearful staff, he let them scurry away. Then he heard an ear-screeching halt, followed by a loud crash.</b></p> <p><b>Throwing himself through the doors, he witnessed something unimaginable. Not only had his challenge arrived, it came crashing through the gates of Olympus. Setting his eyes on the Madman giving a speech to a roaring crowd, he took flight.</b></p><p><b>Soaring over fires and fistfights in the streets while the Madman attempted to swoon crowds he claimed were forced to shackles underneath the rule of Icarus. Passing by a sea of crazed lunatics, he settled in front of his foe. Confident as ever, he let the Madman boast his outlandish ideas, patiently awaiting a fine battle.</b></p><p><b>Contrary to his assumption, his loyal populous began to turn on him. Soon enough, he was dealing with a full-scale rebellion, or as that rat bastard would call it, a revolution. Fending of his people and The Madman's. He was overwhelmed, and not wanting to cede the moment of glory, he threw himself at the Madman, hoping to land a killing blow.</b></p><p><b>Unexpectedly, he felt a piercing pain through his neck, stopping his advance. His vision began to blur as he could no longer feel his arms and legs. Falling to the ground and rolling to the side, his fading vision caught a final glimpse of his own headless body. Defeated by his people, his sins.</b></p>`)
           // idk how to add playlists but to do that you create a new playlist in code1 with just that song and put changePlaylist(nameOfYourEndingPlaylist) right here
 //e.image = ""
-e.executable.push([0, (() => {e.image = e.image = 'https://i.imgur.com/VYkM1aI.png'})])
+e.executable.push([0, (() => {
+    e.image = 'https://i.imgur.com/VYkM1aI.png';
+    const audio = document.getElementById("audio");
+    if (audio) audio.loop = true; 
+})]);
 const paulWin = new Playlist();
   const paulWinSong = new Song(
     "Bring Me To Life",
@@ -63957,7 +64280,11 @@ e.pages.push(`<h3><i>Hollow Power</i></h3>
           <p><b>Icarus considered himself a conqueror. Entire realms were brought underneath his whims. Utterly despised by the little man, he had become the antithesis of his promises. Like a chameleon, Icarus naturally blended in with his co-conspirators, who plotted and schemed much like his predecessor.</b></p> <p><b> He had almost forgotten the time the Madman was due to arrive, but he was nowhere in sight. Curious, he went looking for trouble, hungry for a challenge, and passed by the heads of Sirens and Harpies slain during his conquests. Families hid and refused to meet his gaze as he strolled through the streets of Olympus.</b></p> <p><b>Quiet, it was deafening and irritating.  Where was his challenge? The spoils? He took flight, hoping to glimpse his challenge on its way. That's when his gaze met a great disappointment.</b></p> <p><b>The Horse, the vehicle of revolutionary ideas, had collapsed long before reaching the gates of his domain. There was no challenge, great victory, or glorious conquest. Olympus was safe from the ideals of freedom at a cost of nothing. All Icarus could feel in response was apathy.</b></p>`)
           // idk how to add playlists but to do that you create a new playlist in code1 with just that song and put changePlaylist(nameOfYourEndingPlaylist) right here
 //e.image = ""
-e.executable.push([0, (() => {e.image = e.image = 'https://i.imgur.com/9DdPou7.png'})])
+e.executable.push([0, (() => {
+    e.image = 'https://i.imgur.com/9DdPou7.png';
+    const audio = document.getElementById("audio");
+    if (audio) audio.loop = true; 
+})]);
 const paulWin = new Playlist();
   const paulWinSong = new Song(
     "Change",
@@ -63973,7 +64300,11 @@ e.pages.push(`<h3><i>Thrill</i></h3>
           <p><b>Icarus felt thrilled. Never before in his life had he been granted a challenge so colorful and unique. It was an abomination of his own making. Icarus ruled with pure hubris and vanity while eating like a king in hopes of backlash. He donned his shining wings, ready for a battle like no other.</b></p> <p><b>As he admired his physique, he heard the noise come to a screeching halt. The Horse of Libertarianism was here. Not wasting a moment, Icarus practically threw himself out the doors of his palace. He could hear the Madman shout and pander to his crowd of crazed loyalists. The Madman promised many things, chief among them retribution. The oligarchy that brought Olympus to its knees with its incompetence would be rebuked.</b></p> <p><b>It was utter nonsense to Icarus, but he admired it. It was everything he had hoped for, after all. A challenger who would throw out the rules and rewrite history. Finally, a worthy opponent. Icarus wasted no time demanding the gates be raised, and his legion stand down.</b></p> <p><b>This fight was his, and he wasn't about to allow one drop of blood to be spilled from anyone but him. The Madman entered Olympus surrounded by weak and meager crowds, hungry, lost, and desperate. The ideals were dangerous, but so was keeping to the status quo. Icarus examined his foe, grinning eagerly. The Madman sought to inspire the lower class of Olympus, preaching the revolution. He promised to save them from the tyrant.</b></p><p><b>Icarus had his fill of talk; it was time for action. The two men stood completely still, waiting for one another to make a move. Suddenly, the Madman's army charged in, setting fires and throwing explosives. It was time to fight, and the arch-foes lunged toward one another. The Madman tackled Icarus, beating him senselessly until Icarus began to cackle without a care in the world.</b></p><p><b>Then came Icarus's wing piercing through the Madman's heart, shocking onlookers. It was over; the army of libertarianism was weak, quickly crumbling underneath the high guard of Olympus. Icarus threw the revolutionary's body to the side. He made quick work of the remnants of his coalition. A tactician at heart, Icarus knew the Madman was no real danger to his power. Evil cleansed once more; the establishment pillars of Olympus were safe, and so was his throne.</b></p>`)
           // idk how to add playlists but to do that you create a new playlist in code1 with just that song and put changePlaylist(nameOfYourEndingPlaylist) right here
 //e.image = ""
-e.executable.push([0, (() => {e.image = e.image = 'https://i.imgur.com/g57w36G.png'})])
+e.executable.push([0, (() => {
+    e.image = 'https://i.imgur.com/g57w36G.png';
+    const audio = document.getElementById("audio");
+    if (audio) audio.loop = true; 
+})]);
 const paulWin = new Playlist();
   const paulWinSong = new Song(
     "Zombie",
@@ -63989,7 +64320,11 @@ e.pages.push(`<h3><i>Prey</i></h3>
           <p><b>Everyone expected it to be close, a battle of passion, with each side proclaiming their excitement and pride, but when it began, events quickly unraveled. It was soon out of Icarus's favor, and everything came crashing down upon him.</b></p> <p><b>His vision was blurred, his face bleeding. Icarus was bewildered; it all happened so fast; one moment, he was commanding a defense to be proud of, and the next, he was overwhelmed. A stampede of crazed acolytes ran through Olympus.</b></p> <p><b>He leaned up, hoping it was all a mere dream. It wasn’t; Olympus was burning to the ground. The source of his gut-wrenching defeat met his gaze. The Hunter sat mere feet away, grinning eagerly, waiting to finish off his prey.</b></p> <p><b>Icarus tried to muster all his energy to fend off the fiend but was useless. The Hunter shoved an arrow deep into his abdomen, practically laying on top of Icarus. He made it a deeply personal affair; Icarus could only groan in pain.</b></p><p><b>Everything he fought for was lost, and he was soon to be gutted by this nightmare. Not wasting another second, the Hunter sank his teeth into Icarus, ripping him apart. Gone was a dream of equality.</b></p>`)
           // idk how to add playlists but to do that you create a new playlist in code1 with just that song and put changePlaylist(nameOfYourEndingPlaylist) right here
 //e.image = ""
-e.executable.push([0, (() => {e.image = e.image = 'https://i.imgur.com/OGdJRPR.png'})])
+e.executable.push([0, (() => {
+    e.image = 'https://i.imgur.com/OGdJRPR.png';
+    const audio = document.getElementById("audio");
+    if (audio) audio.loop = true; 
+})]);
 const huckWin = new Playlist();
   const huckWinSong = new Song(
     "Run Away",
@@ -64005,7 +64340,11 @@ e.pages.push(`<h3><i>Animal</i></h3>
           <p><b>The earth shook as a great stampede approached Olympus at the behest of the Hunter's rallying cry. Through charm and a facade of love, the next grand champion of Olympus had coalesced a mighty army of animals to crash through the pearly gates and slay Icarus.</b></p> <p><b>It was a terrifyingly similar sight to the day he took down his predecessor. Destiny had arrived at his doorstep, but Icarus wasn't one to go down without a glorious battle. Embracing his battle-hardened gear from years of conquest, he ventured out wanting to face this Hunter himself.</b></p> <p><b>He could hear the first army collide with the walls outside. The Hunter was here, ready to clash like a primordial beast. Icarus accepted such primitive terms, hoping to prove a good match on the Hunter's turf. And so they went at it like animals, tearing into one another, discarding their humanity in front of all. Icarus held out as long as he could, but he proved no match for the Hunter.</b></p> <p><b>Collapsing beneath him, he witnessed the desecration of his throne and the respect it once held, a loss that weighed heavily on his defeated spirit. Gone was the status quo, and in was the nature of Olympus and its disgusting reality.</b></p>`)
           // idk how to add playlists but to do that you create a new playlist in code1 with just that song and put changePlaylist(nameOfYourEndingPlaylist) right here
 //e.image = ""
-e.executable.push([0, (() => {e.image = e.image = 'https://i.imgur.com/oNoEdWA.png'})])
+e.executable.push([0, (() => {
+    e.image = 'https://i.imgur.com/oNoEdWA.png';
+    const audio = document.getElementById("audio");
+    if (audio) audio.loop = true; 
+})]);
 const huckWin = new Playlist();
   const huckWinSong = new Song(
     "Run Away",
@@ -64021,7 +64360,11 @@ e.pages.push(`<h3><i>Engulfed</i></h3>
           <p><b>Olympus depended on Icarus to save it from the Underworld; The "God" Warrior pointed a hoard in his direction. The preacher of all of what's supposedly holy had only one emotion to convey: hate. Icarus prepared his wings and armor; this was not going to be easy; Olympus's defenses were strong, many believed they would hold against The God Warrior's primal tactics.</b></p> <p><b>However, the gates were blown open by a holy light, and a great hoard took the courtyard by storm. Icarus watched as his brave soldier fought them off, wave after wave. As he prepared to take flight, he remembered the warnings all his advisors had offered him. He could have prevented this; he should have averted this battle.</b></p> <p><b>It was too late for second thoughts. The God Warrior was in sight, and so Icarus took flight. He looked down at the battlefield, and it looked like Olympus could be saved. That was until a bright and scorching light blew him back. Icarus fell from high and cratered into the staircase into the palace. When Icarus opened his eyes, he saw that the tide had turned.</b></p> <p><b>The defense was failing, and it was all turning red. He limped back into the palace, hearing the vulnerable populous squeal and wail as the "Holy Men" dragged them out of their homes and beat them down. All those Icarus had sworn to protect were to be subjected to The God Warrior's whims and desires.</b></p><p><b>As Icarus collapsed onto the carpet leading to his throne, he was engulfed by a shadow. He heard footsteps grow closer as blood traveled down the walls. Icarus lifted himself to look at his dastardly foe. He felt fear as he looked into the lifeless eyes of a man holding zero empathy for his actions. Icarus collapsed again, and The God Warrior walked right over him to take his place on the throne.</b></p>`)
           // idk how to add playlists but to do that you create a new playlist in code1 with just that song and put changePlaylist(nameOfYourEndingPlaylist) right here
 //e.image = ""
-e.executable.push([0, (() => {e.image = e.image = 'https://i.imgur.com/7gRjA4m.png'})])
+e.executable.push([0, (() => {
+    e.image = 'https://i.imgur.com/7gRjA4m.png';
+    const audio = document.getElementById("audio");
+    if (audio) audio.loop = true; 
+})]);
 const brownbackWin = new Playlist();
   const brownbackWinSong = new Song(
     "Under Pressure (Aftersun Version)",
@@ -64037,7 +64380,11 @@ e.pages.push(`<h3><i>Engulfed</i></h3>
           <p><b>Olympus depended on Icarus to save it from the Underworld; The "God" Warrior pointed a hoard in his direction. The preacher of all of what's supposedly holy had only one emotion to convey: hate. Icarus prepared his wings and armor; this was not going to be easy; Olympus's defenses were strong, many believed they would hold against The God Warrior's primal tactics.</b></p> <p><b>However, the gates were blown open by a holy light, and a great hoard took the courtyard by storm. Icarus watched as his brave soldier fought them off, wave after wave. As he prepared to take flight, he remembered the warnings all his advisors had offered him. He could have prevented this; he should have averted this battle.</b></p> <p><b>It was too late for second thoughts. The God Warrior was in sight, and so Icarus took flight. He looked down at the battlefield, and it looked like Olympus could be saved. That was until a bright and scorching light blew him back. Icarus fell from high and cratered into the staircase into the palace. When Icarus opened his eyes, he saw that the tide had turned.</b></p> <p><b>The defense was failing, and it was all turning red. He limped back into the palace, hearing the vulnerable populous squeal and wail as the "Holy Men" dragged them out of their homes and beat them down. All those Icarus had sworn to protect were to be subjected to The God Warrior's whims and desires.</b></p><p><b>As Icarus collapsed onto the carpet leading to his throne, he was engulfed by a shadow. He heard footsteps grow closer as blood traveled down the walls. Icarus lifted himself to look at his dastardly foe. He felt fear as he looked into the lifeless eyes of a man holding zero empathy for his actions. Icarus collapsed again, and The God Warrior walked right over him to take his place on the throne.</b></p>`)
           // idk how to add playlists but to do that you create a new playlist in code1 with just that song and put changePlaylist(nameOfYourEndingPlaylist) right here
 //e.image = ""
-e.executable.push([0, (() => {e.image = e.image = 'https://i.imgur.com/um5mJz3.png'})])
+e.executable.push([0, (() => {
+    e.image = 'https://i.imgur.com/um5mJz3.png';
+    const audio = document.getElementById("audio");
+    if (audio) audio.loop = true; 
+})]);
 const brownbackWin = new Playlist();
   const brownbackWinSong = new Song(
     "GirlDeMo",
@@ -64053,7 +64400,11 @@ e.pages.push(`<h3><i>Abyss</i></h3>
           <p><b>Olympus has fallen; there was no denying it. Well, before the battle began, it was undeniable that there would be no victory at the end of the tunnel.</b></p> <p><b>While drifting through the crumbling palace he called home, Icarus felt great regret. The Storm was upon him, and he was weak, sickly. Olympus had undergone a terrible change, and he couldn't course direct its descent into darkness. The people were hungry and starving in the streets. Doors were being kicked in, families were left penniless, stability abroad had collapsed, the defenses of Olympus were weakened, and Icarus was dying.</b></p> <p><b>Sitting on his throne one last time, he looked up at the art on his walls. The judgmental faces of his most valued predecessors haunted him. He tore their portraits down; behind them were his abode's broken and tattered walls. There was no more time to lament his failures; the bells were ringing, and it was time for him to take flight.</b></p> <p><b>The ground shook as he pushed forward through the halls of Olympus. Finally ready to soar into the sunset, well he hoped as he looked far out into the distance, he saw it. The Storm was here.</b></p> <p><b>Icarus took flight, knowing he wouldn't land gracefully. He met the storm face to face. Lightning struck Icarus deep in the heart, sending him plummeting from the clouds. As he descended into the abyss, so did Olympus; his fate was tied to it and was forever lost.</b></p>`)
           // idk how to add playlists but to do that you create a new playlist in code1 with just that song and put changePlaylist(nameOfYourEndingPlaylist) right here
 //e.image = ""
-e.executable.push([0, (() => {e.image = e.image = 'https://i.imgur.com/Ui4PWNZ.gif'})])
+e.executable.push([0, (() => {
+    e.image = 'https://i.imgur.com/Ui4PWNZ.gif';
+    const audio = document.getElementById("audio");
+    if (audio) audio.loop = true; 
+})]);
 const cheneyWin = new Playlist();
   const cheneyWinSong = new Song(
     "Sweet Dreams",
@@ -64069,7 +64420,11 @@ e.pages.push(`<h3><i>Passionate Stand Off</i></h3>
           <p><b>Fear gripped the streets of Olympus as the helpless populace Icarus had sworn to protect found themselves torn from their homes and families. The Storm had arrived and set out to dismantle his entire domain without mercy; it was unstoppable. The pillars that once upheld the city trembled and fell, and rooftops were ripped from their moorings and cast into the sky like leaves in a gale.</b></p><p><b>From his perch above the chaos, Icarus stared into a sea of panic while the earth beneath him cracked open. The city's defenses buckled and broke after the Storm's relentless assault. The prophets had been right. This was no ordinary foe.</b></p><p><b>Tornadoes carved through neighborhoods, and shattered debris rained from the heavens, piercing ceilings and hope alike. At that moment, Icarus knew there was no backup coming. No cavalry. No retreat. He would have to face this tempest alone if he wanted to save them.</b></p><p><b>He couldn't afford caution. This called for something reckless, something bold. It's a final gambit. A hail mary. It was the only way to prove them all wrong. Icarus drew his cards, spread his wings, and took off into the sky. The resistance was fierce, but he had something the Storm could never manifest: the heart and soul of the people who threw their faith behind him.</b></p><p><b>Driven by the hope still burning in those below, he pierced the Storm, tearing open a sanctuary in its center. A calm eye where the people could find refuge. The Storm got its wish to tear his home to shreds, but it failed to take his people, and soon, the Storm would pass by, failing to carry the soul of Olympus with it. Icarus knew he'd need to rebuild, but he was grateful that he'd be the one to raise the walls with a gentler vision.</b></p>`)
           // idk how to add playlists but to do that you create a new playlist in code1 with just that song and put changePlaylist(nameOfYourEndingPlaylist) right here
 //e.image = ""
-e.executable.push([0, (() => {e.image = e.image = 'https://i.imgur.com/gBKT6RN.png'})])
+e.executable.push([0, (() => {
+    e.image = 'https://i.imgur.com/gBKT6RN.png';
+    const audio = document.getElementById("audio");
+    if (audio) audio.loop = true; 
+})]);
 const cheneyWin = new Playlist();
   const cheneyWinSong = new Song(
     "Estasi Dell Anima",
@@ -64391,22 +64746,6 @@ e.executable.push([6, (() => {e.image = e.image = 'https://i.imgur.com/sZkiEBf.p
 }
 return construct(0);
 }
-
-
-/*
-Welcome to Astro's Variable Headquarters
-This is a fairly simple function you can add to your mods. It will create a little menu in which the player can view the numbers laid out within the functions.
-This is a great way to give the player a little more information about your mod.
-
-Across this code, you will find a lot of aspects you can edit. I have left plenty of comments to help you understand what each part does.
-Don't be afraid to ask in #mod-help on the Discord for clarification or help with editing this code.
-
-To use this, place this code below your Code 2, and edit it as needed. You can duplicate the 'let a = document.createElement('p');' section to add more lines of text.
-
-Functions are referenced in text like so: ' + function + '. This will display the number from the function in the text.
-Credit to Nina, who made the original code that summoned the new screen (originally for the 1960Red/1952Blue advisor screen)
-Go ahead and use this code in your mods - just give me credit. I hope it helps you out!
-*/
 
 e=campaignTrail_temp
 
@@ -64964,7 +65303,7 @@ function showCongressionalMakeup() {
             senateImage = 'https://i.imgur.com/3Z8gtpY.png';
         }
         else if (Win <= 0) {
-            senateImage = 'https://i.imgur.com/4H7SUyJ.png';
+            senateImage = 'https://i.imgur.com/v0xHy3r.png';
         }
     }
     
