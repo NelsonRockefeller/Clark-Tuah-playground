@@ -61931,7 +61931,7 @@ cyoAdventure = function(a) {
     }
 
     //neoliberling
-    if (ans == 5143 || ans == 255232 || ans == 255244 || ans == 255219 || ans == 254653 || ans == 254668 || ans == 20946 || ans == 24797 || ans == 22853 || ans == 20773 || ans == 20902 || ans == 22456 || ans == 22460 || ans == 22765 || ans == 24052 || ans == 24056 || ans == 24170 || ans == 5149 || ans == 22035 || ans == 22039 || ans == 24035 || ans == 24039) {
+    if (ans == 20788 || ans == 5143 || ans == 255232 || ans == 255244 || ans == 255219 || ans == 254653 || ans == 254668 || ans == 20946 || ans == 24797 || ans == 22853 || ans == 20773 || ans == 20902 || ans == 22456 || ans == 22460 || ans == 22765 || ans == 24052 || ans == 24056 || ans == 24170 || ans == 5149 || ans == 22035 || ans == 22039 || ans == 24035 || ans == 24039) {
         Neo += 1;
     } 
     if (ans == 254657 || ans == 22765 || ans == 254675 || ans == 254660 || ans == 22768 || ans == 20747 || ans == 5262 || ans == 22761 || ans == 254672 ) {
@@ -62546,7 +62546,7 @@ cyoAdventure = function(a) {
         if (Dem == 5 && Nato > 2 && e.player_answers.includes(22768) || Dem == 5 && Nato > 2 && e.player_answers.includes(254675) || Dem == 5 && Nato > 2 && e.player_answers.includes(254660)) {
             campaignTrail_temp.questions_json[18] = tunnel(25093); 
         }
-        else if (Dem == 5 && Troops == 1 && Patriot == 1 && Neo > 9) {
+        else if (Dem == 5 && Troops == 1 && Patriot == 1 && Neo > 8) {
             campaignTrail_temp.questions_json[18] = tunnel(24522);
         }
         else if (Troops == 1 && Patriot == 1 && Neo > 6) {
@@ -62888,7 +62888,7 @@ cyoAdventure = function(a) {
             campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/9ac4tHB.png';
             corrr=`\n<h2>rEVOLution</h2>`;
         }
-        else if (Dem == 5 && Neo > 9) {
+        else if (Dem == 5 && Neo > 8) {
             campaignTrail_temp.questions_json[22] = tunnel(24554); 
             document.getElementById("header").src = "https://i.imgur.com/ibvwPMb.png";
             nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#1c57d9";
@@ -62903,7 +62903,7 @@ cyoAdventure = function(a) {
             campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/CdeunOG.png';
             corrr=`\n<h2>Let The People Decide</h2>`;
         }
-        else if (Dem == 5 && Neo > 7) {
+        else if (Dem == 5 && Neo > 6) {
             campaignTrail_temp.questions_json[22] = tunnel(24805); 
             document.getElementById("header").src = "https://i.imgur.com/QVxYpvO.jpeg";
             nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#ec184b";
@@ -63042,9 +63042,9 @@ cyoAdventure = function(a) {
         } else if (Dem === 5) {
             if (e.player_answers.includes(25094)) {
                 campaignTrail_temp.questions_json[23] = tunnel(25206);
-            } else if (Neo > 9) {
+            } else if (Neo > 8) {
                 campaignTrail_temp.questions_json[23] = tunnel(24570);
-            } else if (Neo > 7) {
+            } else if (Neo > 6) {
                 campaignTrail_temp.questions_json[23] = tunnel(22701);
             } else {
                 campaignTrail_temp.questions_json[23] = tunnel(21759);
@@ -63130,10 +63130,10 @@ cyoAdventure = function(a) {
         if (Dem == 5 && e.player_answers.includes(25094)) {
             campaignTrail_temp.questions_json[25] = tunnel(25240); 
         }
-        else if (Dem == 5 && Neo > 9 && e.player_answers.includes(24571)) {
+        else if (Dem == 5 && Neo > 8 && e.player_answers.includes(24571)) {
             campaignTrail_temp.questions_json[25] = tunnel(24588); 
         }
-        else if (Dem == 5 && Neo > 7 && e.player_answers.includes(24575) || Dem == 5 && Neo > 7 && e.player_answers.includes(22706)) {
+        else if (Dem == 5 && Neo > 6 && e.player_answers.includes(24575) || Dem == 5 && Neo > 6 && e.player_answers.includes(22706)) {
             campaignTrail_temp.questions_json[25] = tunnel(22809); 
         }
         else if (Dem == 5) {
