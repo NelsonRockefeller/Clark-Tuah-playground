@@ -4,7 +4,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1042,
         "fields": {
             "priority": 1,
-            "description": "It was hard work. From slaying Senator Kerry's campaign in Iowa and New Hampshire to outlasting Dean and Edwards, the Democratic nomination is yours. Now, as the 2004 Democratic Convention commences with Iraq as its prevailing theme, you must make a promise to your most die-hard supporters—a promise that you will march to the gates of Olympus with, a promise that you will fulfill. What shall it be, Clark?",
+            "description": "From slaying Senator Kerry's campaign in Iowa and New Hampshire to outlasting Dean and Edwards, it was hard work, but at last, the Democratic nomination is yours. Now, as the 2004 Democratic National Convention commences with Iraq as its prevailing theme, you must make a promise to your most die-hard supporters–a promise with which you will march to the gates of Olympus, a promise that you will fulfill. What shall it be, Clark?",
             "likelihood": 1
         }
     },
@@ -13,7 +13,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1044,
         "fields": {
             "priority": 2,
-            "description": "No amount of fearmongering and partisan chicanery could save Bush, and you've slain the\nemperor presiding over the darkest deeds of Olympus. Democrats have reclaimed the\nSenate by a hair and made gains in the House but fell short of a majority. However, it's not\nall sunshine and rainbows, as most Republicans that you attempted to get on board as\nunity picks have either ignored your calls or declined outright. You settled with some\nbasics: Kerry at State, Levin at Defense, and Summers at Treasury alongside a smattering\nof less high-profile picks vetted for loyalty. Where will you place focus for your first\n100 days?",
+            "description": "No amount of fearmongering nor partisan chicanery could save Bush, and you've slain the\nemperor presiding over the darkest deeds of Olympus. Democrats have reclaimed the\nSenate by a hair and made gains in the House but fell short of a majority. However, it's not\nall sunshine and rainbows, as most Republicans that you attempted to get on board as\nunity picks have either ignored your calls or declined outright. You've settled on some\nbasics: Kerry at State, Levin at Defense, and Summers at Treasury alongside a smattering\nof less high-profile picks vetted for loyalty. Where will you place the focus for your first\n100 days?",
             "likelihood": 1
         }
     },
@@ -31,7 +31,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1045,
         "fields": {
             "priority": 3,
-            "description": "You've returned home to Washington after a round trip through states ripped to shreds by Hurricane Katrina, and you're informed that House Majority Leader Tom DeLay has been indicted and resigned after much public pressure. With his resignation, the people's trust in the Republican Congress has gone. Minority Leader Pelosi meets with you to discuss taking advantage of the situation. What will you do, Mr. President?",
+            "description": "You've returned home to Washington after a round trip through states ripped to shreds by Hurricane Katrina, and you're informed that House Majority Leader Tom DeLay has been indicted and resigned after much public pressure. With his resignation, the people's trust in the Republican Congress has evaporated. Minority Leader Pelosi meets with you to discuss taking advantage of the situation. What will you do, Mr. President?",
             "likelihood": 1
         }
     },
@@ -40,7 +40,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1046,
         "fields": {
             "priority": 4,
-            "description": "Olympus is calling your name, President Clark. Sections of the PATRIOT Act, which has kept its stern eye overseeing all souls underneath, are due to expire this year. The long and overdue government overreaches spurred by the September 11th attacks are finally coming to an end. The Democratic base is ready to cheer for a win while Congressional Democrats await your guidance. Establishment Democrats are lining up at your door begging, and even Vice President Landrieu is pleading for you to extend most of these sections like sneak and peek warrants, searches of library and business records, and roving wiretaps. Will you make good on your promises and end this needless violation of people's privacy?\n\n",
+            "description": "Olympus is calling your name, President Clark. Sections of the PATRIOT Act, which has kept its stern eye overseeing all souls underneath, are due to expire this year. The flagrant government overreach spurred by the September 11th attacks is finally coming to a long-overdue end. The Democratic base is ready to cheer for a win, but Congressional Democrats await your guidance. Establishment Democrats are lining up at your door begging, and even Vice President Landrieu is pleading for you to extend most of these sections, like sneak and peek warrants, searches of library and business records, and roving wiretaps. Will you make good on your promises and end this needless violation of people's privacy?\n\n",
             "likelihood": 1
         }
     },
@@ -58,7 +58,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1055,
         "fields": {
             "priority": 6,
-            "description": "A stunning upset shook Connecticut in August as Businessman Ned Lamont triumphed over Senator Lieberman in the Democratic primary. Lieberman's failure to quell the anti-war movement, combined with your mild endorsement of Lamont, made this possible. However, Lieberman isn't going down without a fight. Traitor Joe has run off with the lead in the race, and Republicans expect you to waste time chasing after him. With a thousand warships of enraged college kids at your disposal, you can send in the cavalry to save Lamont while leaving the party to fend for themselves. Will you provide any further help to banish Lieberman from Olympus?",
+            "description": "A stunning upset shook Connecticut in August as Businessman Ned Lamont triumphed over Senator Lieberman in the Democratic primary. Lieberman's failure to quell the anti-war movement, combined with your mild endorsement of Lamont, made this possible. However, Lieberman isn't going down without a fight. Traitor Joe, now running as an independent, has run off with the lead in the race, and Republicans expect you to waste time chasing after him. With a thousand warships of enraged college kids at your disposal, you can send in the cavalry to save Lamont while leaving the party to fend for themselves. Will you provide any further help to banish Lieberman from Olympus?",
             "likelihood": 1
         }
     },
@@ -76,7 +76,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1077,
         "fields": {
             "priority": 6,
-            "description": "In the halls of Olympus, the sentiment of dissatisfaction that has loomed over your presidency returns. Iraq, the war brought about by the Harbingers of Doom and justified by the trusted wisdom of Powell. The Hamilton Commission appointed by Congress last year has come back with a grave report of a deteriorating and grave situation in Iraq. A change of strategy is required as many within your inner circle suggest a troop surge whilst outside you hear the cry of the movement that propelled you here. How will you redirect the failure of your predecessor?",
+            "description": "In the halls of Olympus, the sentiment of dissatisfaction that has loomed over your presidency returns. Iraq, the war brought about by the Harbingers of Doom and justified by the trusted wisdom of Powell. The Hamilton Commission appointed by Congress last year has come back with a grave report of a deteriorating and grave situation in Iraq. A change of strategy is required; many within your inner circle suggest a troop surge, whilst outside you hear the cries for peace from the movement that propelled you here. How will you redirect the failure of your predecessor?",
             "likelihood": 1
         }
     },
@@ -94,7 +94,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1059,
         "fields": {
             "priority": 7,
-            "description": "The losses of the midterms are weighing heavily on both the party and your agenda as partisan politics starts rearing its ugly head. Your original pick to fill the vacancy left by Justice O'Connor was rejected, and you've been forced to nominate the acceptable Merrick Garland. The new class of evangelicals shuffled your deck thoroughly. Lacking options, advisors plead for you to think smaller to collect a few minor wins as you gear up for reelection. Where will you focus the administration?",
+            "description": "The losses of the midterms are weighing heavily on both the party and your agenda as partisan politics starts rearing its ugly head. Your original pick to fill the vacancy left by Justice O'Connor was rejected, and you've been forced to nominate the acceptable but not exceptional Merrick Garland. The new class of evangelicals has shuffled your deck thoroughly. Lacking options, advisors plead for you to think smaller to collect a few minor wins as you gear up for reelection. Where will you focus the administration?",
             "likelihood": 1
         }
     },
@@ -103,7 +103,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1057,
         "fields": {
             "priority": 7,
-            "description": "The land where beauty, love, and revelry once flourished like ambrosia in the mortal world has now turned bitter and resentful of your failure to make amends. Socialist Party candidate Ségolène Royal has beaten our favored Nicolas Sarkozy in the French Presidential election on a promise to rebuke American aggression. She plans to pull all French troops from Afghanistan amid CIA intelligence findings that a Taliban resurgence is just around the corner. Meanwhile, the economy at home looks to be going belly up after two subprime hedge funds owned by Bear Stearns lost nearly all of their value amid a rapid decline in the market. There's no time for that; how will you stabilize the situation abroad?",
+            "description": "The land where beauty, love, and revelry once flourished like ambrosia in the mortal world has now turned bitter and resentful of your failure to make amends. Socialist Party candidate Ségolène Royal has beaten our favored Nicolas Sarkozy in the French Presidential election on a promise to rebuke American aggression. She plans to pull all French troops from Afghanistan amid CIA intelligence findings that a Taliban resurgence is just around the corner. Meanwhile, the economy at home looks to be going belly-up after two subprime hedge funds owned by Bear Stearns lost nearly all of their value amid a rapid decline in the market. There's no time for that; how will you stabilize the situation abroad?",
             "likelihood": 1
         }
     },
@@ -112,7 +112,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1053,
         "fields": {
             "priority": 7,
-            "description": "President Clark, the rumors circling the media were right. You've spent too long looking abroad. Bear Stearns has just collapsed even after the help of a bailout from the New York Federal Reserve, which spells just the start of unprecedented U.S. housing market price crashes with the foreclosure of thousands of homes. Families are in hysterics as banks knock down their doors and leave them with nothing. Every institution is catching blame, conspiracies are running rampant, and there is one common question: What the hell will you do about this?\n",
+            "description": "President Clark, the rumors circling the media were right. You've spent too long looking abroad. Bear Stearns has just collapsed even after the help of a bailout from the New York Federal Reserve, which spells just the start of unprecedented U.S. housing market price crashes with the foreclosure of thousands of homes. Families are in hysterics as banks knock down their doors and leave them with nothing. Every institution is catching blame, conspiracies are running rampant, and there is one question on everyone's lips: What the hell will you do about this?\n",
             "likelihood": 1
         }
     },
@@ -157,7 +157,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1066,
         "fields": {
             "priority": -7,
-            "description": "This is it; you're facing a Typhon, and it's ready to destroy you. Lehman Brothers is heading toward a total collapse. Their Bankruptcy will only serve to spill oil onto the flames of the economic crisis. Lehman Brothers is bouncing around like a pinball machine, desperate to come to some deal to avoid Bankruptcy. Most of Congress and the public are steadfastly against bailing them out. The Federal Reserve is unwilling to step in on Lehman Brothers' behalf. The Sphinx offers you a riddle of guidance. What will you do, Wes?\n",
+            "description": "This is it; you're facing a Typhon, and it's ready to destroy you. Lehman Brothers is heading toward a total collapse. Their bankruptcy will only serve to spill oil onto the flames of the economic crisis. Lehman Brothers is bouncing around like a pinball machine, desperate to come to some deal to avoid bankruptcy. Most of Congress and the public are steadfastly against bailing them out. The Federal Reserve is unwilling to step in on Lehman Brothers' behalf. The Sphinx offers you a riddle of guidance. What will you do, Wes?\n",
             "likelihood": 1
         }
     },
@@ -319,7 +319,7 @@ campaignTrail_temp.questions_json = [
         "pk": 20934,
         "fields": {
             "priority": 7,
-            "description": "The midterm performance expectedly boosted the party's morale, and now, with your nomination of Arizona Governor Janet Napolitano to The Supreme Court, you feel confident and ready to push Congress for more—something to boost your reelection prospects ahead of what will undoubtedly be a vengeful GOP. Secretary Kerry thinks it'd be best to skip congressional bartering and visit the troops, but the table has plenty of options. What will it be, Clark?",
+            "description": "The midterm performance expectedly boosted the party's morale, and now, with your nomination of Arizona Governor Janet Napolitano to the Supreme Court, you feel confident and ready to push Congress for more—something to boost your reelection prospects ahead of what will undoubtedly be a vengeful GOP. Secretary Kerry thinks it'd be best to skip congressional bartering and visit the troops, but the table has plenty of options. What will it be, Clark?",
             "likelihood": 1
         }
     },
@@ -337,7 +337,7 @@ campaignTrail_temp.questions_json = [
         "pk": 20974,
         "fields": {
             "priority": 0,
-            "description": "When the campaign started in 2003, a wave of unity swept the nation, energizing people to fight for a shared dream. Just as then, the podium is now yours to turn the American dream into a tangible reality. That dream, however, is under attack. Government bailouts and Fannie Mae's and Freddie Mac's takeover have led to public protests. Harpies dismayed by the continued war in Iraq also fly over your coronation. What will you say to inspire the crowds and save our shared dream?\n",
+            "description": "When the campaign started in 2003, a wave of unity swept the nation, energizing people to fight for a shared dream. Just as it was then, the podium is now yours to turn the American dream into a tangible reality. That dream, however, is under attack. Government bailouts and Fannie Mae's and Freddie Mac's takeover have led to public protests. Harpies dismayed by the continued war in Iraq fly over your coronation. What will you say to inspire the crowds and save our shared dream?\n",
             "likelihood": 1
         }
     },
@@ -346,7 +346,7 @@ campaignTrail_temp.questions_json = [
         "pk": 21008,
         "fields": {
             "priority": 0,
-            "description": "When the campaign started in 2003, a wave of unity swept the nation, energizing people to fight for a shared dream. Just as then, the podium is now yours to turn the American dream into a tangible reality. That dream, however, is under attack. Government bailouts and Fannie Mae's and Freddie Mac's takeover have led to public protests. However, you command the support of a powerful Chimaera satisfied with the Iraq withdrawal date. What will you say to inspire the crowds and save our shared dream?\n",
+            "description": "When the campaign started in 2003, a wave of unity swept the nation, energizing people to fight for a shared dream. Just as it was then, the podium is now yours to turn the American dream into a tangible reality. That dream, however, is under attack. Government bailouts and Fannie Mae's and Freddie Mac's takeover have led to public protests. However, you command the support of a powerful Chimaera satisfied with the Iraq withdrawal date. What will you say to inspire the crowds and save our shared dream?\n",
             "likelihood": 1
         }
     },
@@ -364,7 +364,7 @@ campaignTrail_temp.questions_json = [
         "pk": 21030,
         "fields": {
             "priority": 0,
-            "description": "Saint Paul, Minnesota - a united convention meets in the shroud of the unwinnable North Star State. Two opportunistic nominees reflect the host state's optimism as the Mormon of Massachusetts, Mitt Romney, prowls the stage, waving around his VP pick, Charlie Crist. Romney often found himself caught in a tug of war between Jesus freaks like Huckabee, demanding he commit to the social conservative agenda. At the same time, the old guard bingo playing fossils like McCain nearly outflanked Romney in New Hampshire for daring not to declare a holy war against Iran. The divisions in his coalition for change are surfacing. How will you capitalize on it? How do we hit him?\n",
+            "description": "Saint Paul, Minnesota - a united convention meets in the shroud of the unwinnable North Star State. Two opportunistic nominees reflect the host state's optimism as the Mormon of Massachusetts, Mitt Romney, prowls the stage, waving around his VP pick, Charlie Crist. Romney often found himself caught in a tug of war between Jesus freaks like Huckabee, demanding he commit to the social conservative agenda. At the same time, the old-guard bingo-playing fossils like McCain nearly outflanked Romney in New Hampshire for daring not to declare a holy war against Iran. The divisions in his coalition for change are surfacing. How will you capitalize on it? How do we hit him?\n",
             "likelihood": 1
         }
     },
@@ -373,7 +373,7 @@ campaignTrail_temp.questions_json = [
         "pk": 21072,
         "fields": {
             "priority": 0,
-            "description": "The Republican National Convention is like the coronation of a king, the ascension of a god. As the Republicans put forth a Bush as their nominee for the fifth time in 20 years, ex-Governor Jeb Bush of Florida, flanked by veep Tom Ridge and introduced by his brother, commands the world's attention. Railing against the situation in Iraq and with an expansive donor and influence network, the return of the Bush clan to Olympus seems imminent. What will you do to stop this tidal wave of momentum?\n",
+            "description": "The Republican National Convention is like the coronation of a king, the apotheosis of a god. The Republicans put forth a Bush as their nominee for the fifth time in 20 years. This time, ex-Governor Jeb Bush of Florida, flanked by veep Tom Ridge and introduced by his brother, commands the world's attention. As he rails against the situation in Iraq and builds an expansive donor and influence network, the return of the Bush clan to Olympus seems imminent. What will you do to stop this tidal wave of momentum?\n",
             "likelihood": 1
         }
     },
@@ -382,7 +382,7 @@ campaignTrail_temp.questions_json = [
         "pk": 21111,
         "fields": {
             "priority": 0,
-            "description": "It seems the ejection from the golden gates of the Republican Party isn't a killing blow nowadays as the scandalous and hideous Rudy Giuliani takes the stage. Many thought his political career had been left for dead, but he was carried back on mules with Representative Mike Pence at his side. Now he who's clothed in ongoing affairs takes focus on National Security at the convention, America's Mayor regales the hall with tales of his actions in the aftermath of 9/11 and calls for the return of \"actually fighting terrorists, both at home and abroad!\". How will you take on America's Mayor, Mr. President?\n",
+            "description": "It seems ejection from the golden gates of the Republican Party isn't a killing blow nowadays, as the scandalous and hideous Rudy Giuliani takes the stage. Many thought his political career had been left for dead, but he was carried back on mules with Representative Mike Pence at his side. Now he who's clothed in ongoing affairs takes focus on National Security at the convention, America's Mayor regales the hall with tales of his actions in the aftermath of 9/11 and calls for the return of \"actually fighting terrorists, both at home and abroad!\". How will you take on America's Mayor, Mr. President?\n",
             "likelihood": 1
         }
     },
@@ -391,7 +391,7 @@ campaignTrail_temp.questions_json = [
         "pk": 21145,
         "fields": {
             "priority": 0,
-            "description": "The blistering lights and an impossible image at the Republican National Convention. Romney and Huckabee attempted to hold the line, but the trojan horse of libertarianism breached the convention. An indescribable atmosphere fills the room when Ron Paul grasps the podium with his equal, Gary Johnson, at his side, decrying your name. Together, they rail into your foreign policy and the Patriot Act. The convention floor nearly breaks into fists as Paul's enemies are hunted and removed. Former President Bush barely gets time to speak as the Paul Acolytes do all they can to quell the face of interventionism. It's only you now, Clark. You're the only one standing in his way; how will you save Olympus from the darkness?\n",
+            "description": "The blistering lights illuminate an impossible image at the Republican National Convention. Romney and Huckabee attempted to hold the line, but the trojan horse of libertarianism has breached the convention. An indescribable atmosphere fills the room when Ron Paul grasps the podium with his equal, Gary Johnson, at his side, decrying your name. Together, they rail into your foreign policy and your broken promises to end the Patriot Act. The convention floor nearly breaks into fistfights as Paul's enemies are hunted and removed. Former President Bush barely gets time to speak as Paul's acolytes do all they can to quell the face of interventionism. It's only you now, Clark. You're the only one standing in his way; how will you save Olympus from the darkness?\n",
             "likelihood": 1
         }
     },
@@ -409,7 +409,7 @@ campaignTrail_temp.questions_json = [
         "pk": 21228,
         "fields": {
             "priority": 0,
-            "description": "Rage - boiled over - nowhere to run or hide. \nThere is no compassion, there is no sensibility, and there is only one sentiment: total and unadulterated destruction of you. Senator Sam Brownback of Kansas has done it. He takes the podium alongside Christian conservative rising star Representative Michelle Bachmann. In a hate-inspired campaign, he's turned the dormant Christian Republicans into an army of vitriol-spewing nutcases. Now, with the Republican party finally in tune with its TRUE majority, he plans to reshape Olympus to his whims. How will you keep us from falling to our darkest desires, Clark?\n",
+            "description": "Rage - boiled over - nowhere to run or hide. \nThere is no compassion, there is no sensibility, and there is only one goal: your total and unadulterated destruction. Senator Sam Brownback of Kansas has done it. He takes the podium alongside Christian conservative rising star Representative Michelle Bachmann. In a hate-inspired campaign, he's turned the dormant Christian Republicans into an army of vitriol-spewing nutcases. Now, with the Republican party finally in tune with its <i>true</i> majority, he plans to reshape Olympus to his whims. How will you keep us from falling to our darkest desires, Clark?\n",
             "likelihood": 1
         }
     },
@@ -418,7 +418,7 @@ campaignTrail_temp.questions_json = [
         "pk": 21240,
         "fields": {
             "priority": 0,
-            "description": "The Republican National Convention is in awe; one by one, the candidates who failed to reach a majority of delegates were struck down. Now he, whose voice echoes like thunder, steps back into the political arena. Former Vice President Dick Cheney looks down at the crowd with a poker face so unreadable it gives you chills. With Maine Senator Olympia Snowe by his side, he rips into your dovish foreign policy, rings the bells of national security, and finally pledges to end the \"Clark Calamity.\" Cheney calls you a total failure, leading us into the sun. Clark, Olympus is crumbling around you; you must repute him, but how?",
+            "description": "The Republican National Convention is in awe; one by one, the candidates who failed to reach a majority of delegates were struck down. Now he whose voice echoes like thunder steps back into the political arena. Former Vice President Dick Cheney looks down at the crowd with a poker face so unreadable it gives you chills. With Maine Senator Olympia Snowe by his side, he rips into your dovish foreign policy, rings the bells of national security, and finally pledges to end the \"Clark Calamity.\" Cheney calls you a total failure, leading us into the sun. Clark, Olympus is crumbling around you; you must rebuke him, but how?",
             "likelihood": 1
         }
     },
@@ -427,7 +427,7 @@ campaignTrail_temp.questions_json = [
         "pk": 21243,
         "fields": {
             "priority": 0,
-            "description": "John McCain is a bold man, and his choice of Joe Lieberman has felt like a personal lash at you. However, that choice has come at a cost—a great one. McCain hasn't exactly been a conservative darling to the Republican base. Lieberman, being a Democrat, is far out of the Republican mainstream on many issues. His high-in-the-sky polling has dipped with the Reform Party candidate Pat Buchanan running rampant in the South, giving you a precious opportunity to drive the wedge just a bit further. How will you capitalize on this, Wes?",
+            "description": "John McCain is a bold man, and his choice of Joe Lieberman has felt like a personal lash at you. However, that choice has come at a cost—a great one. McCain has never exactly been a conservative darling to the Republican base; Lieberman, being a Democrat, is far out of the Republican mainstream on many issues. His high-in-the-sky polling has dipped with the Reform Party candidate Pat Buchanan running rampant in the South, giving you a precious opportunity to drive the wedge just a bit further. How will you capitalize on this, Wes?",
             "likelihood": 1
         }
     },
@@ -445,7 +445,7 @@ campaignTrail_temp.questions_json = [
         "pk": 21261,
         "fields": {
             "priority": 7,
-            "description": "The losses of the midterms are weighing heavy on both the party and your agenda as partisan politics starts rearing its ugly head around as your original pick to fill the vacancy left Justice O'Conner being rejected; you've been forced to nominate the acceptable Merrick Garland. The new class of evangelicals shuffled your deck thoroughly. Lacking options, your cabinet pleads for you to think smaller to collect a few minor wins as you gear up for reelection. Where will you focus the administration?",
+            "description": "The losses of the midterms are weighing heavy on both the party and your agenda as partisan politics starts rearing its ugly head around as your original pick to fill the vacancy left Justice O'Connor being rejected; you've been forced to nominate the acceptable Merrick Garland. The new class of evangelicals shuffled your deck thoroughly. Lacking options, your cabinet pleads for you to think smaller to collect a few minor wins as you gear up for reelection. Where will you focus the administration?",
             "likelihood": 1
         }
     },
@@ -454,7 +454,7 @@ campaignTrail_temp.questions_json = [
         "pk": 21319,
         "fields": {
             "priority": 0,
-            "description": "Your staff is in hysterics; the entire campaign has been tossed into the gutter after your appearance on CBS's \"Face the Nation.\" Everyone watching and, most importantly, veterans across the nation were disgusted by your remarks about John McCain. Bob Schieffer asked you to explain your prior comment about McCain's \"lack of experience.\" In a moment that blindsided the nation, you said, \"Well, I don't think riding in a fighter plane and getting shot down is a qualification to be president.\" Amid the chaos, the Sphinx reappears, offering you a riddle. This can't be real - you're the general; how could you say this? ",
+            "description": "Your staff is in hysterics; the entire campaign has been tossed into the gutter after your appearance on CBS's \"Face the Nation.\" Everyone watching and, most importantly, veterans across the nation were disgusted by your remarks about John McCain. Bob Schieffer asked you to explain your prior comment about McCain's \"lack of experience.\" In a moment that blindsided the nation, you said, \"Well, I don't think riding in a fighter plane and getting shot down is a qualification to be president.\" Amid the chaos, the Sphinx reappears, offering you a riddle. This can't be real - you're the general, the hero – how could you say this? ",
             "likelihood": 1
         }
     },
@@ -463,7 +463,7 @@ campaignTrail_temp.questions_json = [
         "pk": 21332,
         "fields": {
             "priority": 0,
-            "description": "With the Russo-Georgian peace talks going belly up, Republicans are reveling in your failures. Lieberman is going from network to network lambasting your foreign policy while McCain bounces from base to base, taking photos and shaking hands with military personnel. It's a united front, and for the first time, Republicans seem united in their rejection of you. New American Patriotism couldn't look any weaker as Democratic turnout plummets. This campaign desperately needs something to shake it up or your toast. What's the plan, Wes?\n",
+            "description": "With the Russo-Georgian peace talks going belly up, Republicans are reveling in your failures. Lieberman flits from network to network, lambasting your foreign policy, while McCain bounces from base to base, taking photos and shaking hands with military personnel. It's a united front, and for the first time, Republicans speak with one voice in their rejection of you. New American Patriotism couldn't look any weaker as Democratic turnout plummets. This campaign desperately needs something to shake it up, or you're toast. What's the plan, Wes?\n",
             "likelihood": 1
         }
     },
@@ -472,7 +472,7 @@ campaignTrail_temp.questions_json = [
         "pk": 21349,
         "fields": {
             "priority": 0,
-            "description": "National Security is the number one issue of the McCain campaign, and with Lieberman tied to his side, they entirely lay into the threat of radical Islamic terrorists. They're like two love birds frolicking in the fields, but instead of beautiful flowers, it's what little remains of America's privacy. After your \"rash\" dismantling of the PATRIOT Act, they dive head-deep into beefing up the nation's security. Talks of taking citizenship away from \"enemies of the state\" and proposing what would essentially be an internet kill switch. How will you take on these proposals, Wes?",
+            "description": "National Security is the number one issue of the McCain campaign, and with Lieberman tied to his side, they entirely lay into the threat of radical Islamic terrorists. They're like two love birds frolicking in the fields, but instead of beautiful flowers, it's what little remains of America's privacy. After your \"rash\" dismantling of the PATRIOT Act, they dive head-deep into beefing up the nation's security. They're talking of taking citizenship away from \"enemies of the state\" and proposing what would essentially be an internet kill switch. How will you take on these proposals, Wes?",
             "likelihood": 1
         }
     },
@@ -481,7 +481,7 @@ campaignTrail_temp.questions_json = [
         "pk": 21363,
         "fields": {
             "priority": 0,
-            "description": "Pat Buchanan, the perennial outsider, has finally made some real ground in a presidential race. It seems those DNC operatives you sent out to boost Buchanan have driven up his funding. The reform party may be a national player for the first time since the early 90s. However, the demagogue you've propped up has gone too far. Buchanan has been able to buy a late campaign attack ad spree and targeted McCain heavily with it. From calling him a Warmonger to even accusing him of being a homosexual in love with his running mate. The race is getting dirty, how do you respond, Wes?",
+            "description": "Pat Buchanan, the perennial outsider, has finally gained some real ground in a presidential race. It seems those DNC operatives you sent out to boost Buchanan have driven up his funding. The Reform Party may be a national player for the first time since the early 90s. However, the demagogue you've propped up has gone too far. Buchanan has been able to buy a late campaign attack ad spree and targeted McCain heavily with it. From calling him a Warmonger to even accusing him of being a homosexual in love with his running mate. The race is getting dirty, how do you respond, Wes?",
             "likelihood": 1
         }
     },
@@ -499,7 +499,7 @@ campaignTrail_temp.questions_json = [
         "pk": 21428,
         "fields": {
             "priority": 0,
-            "description": "This is the final showdown, your last chance, Clark. Make this one count. Jim Lehrer goes through the motions of introducing you and McCain. You shake hands, possibly the most gentlemanly moment of this campaign. McCain looks ready and confident—how could he not? You've spent half the year with your foot in your mouth. Time is fleeting. You have one last chance to get ahead of McCain. How will you do it, Clark?",
+            "description": "This is the final showdown, your last chance, Clark. Make this one count. Jim Lehrer goes through the motions of introducing you and McCain. You shake hands in what is possibly the most gentlemanly moment of this campaign. McCain looks ready and confident—how could he not? You've spent half the year with your foot in your mouth. Time is fleeting. You have one last chance to get ahead of McCain. How will you do it, Clark?",
             "likelihood": 1
         }
     },
@@ -508,7 +508,7 @@ campaignTrail_temp.questions_json = [
         "pk": 21429,
         "fields": {
             "priority": 0,
-            "description": "Romney's grand cross is prominent; it deflects in every corner of him. He is a businessman, and thus comes the baggage of that business, Bain Capital being the loud and proud showstopper. His actions in that position left thousands unemployed and catapulted him to further extravagant wealth. While labor issues may be your hedge, Kucinich is running around raising hell for your choice to funnel more soldiers into Iraq rocking your ship. Which way do you wish to bind your coalition together?",
+            "description": "Romney's grand cross is prominent; it reflects in every corner of him. He is a businessman, and thus comes the baggage of that business, Bain Capital being the loud and proud showstopper. His actions in that position left thousands unemployed and catapulted him to further extravagant wealth. While labor issues may be your hedge, Kucinich is running around raising hell about your choice to funnel more soldiers into Iraq, rocking your ship. Which way do you wish to turn to bind your coalition back together?",
             "likelihood": 1
         }
     },
@@ -517,7 +517,7 @@ campaignTrail_temp.questions_json = [
         "pk": 21448,
         "fields": {
             "priority": 0,
-            "description": " In a scene reminiscent of a sitcom reunion, Republicans have brought together a foreign policy ''assembly'' in light of your troop surge. The strange and unflinching face of Robert Zoellick on the far left, John McCain faking a smile just a smidge to the right of him, Mitt in the middle like Christ in The Last Supper, to his right were the old faces of 2004's Republican raucous, George W. Bush - smiling as always - and Dick Cheney - not so much. You watch in awe as they stiffly bend your successes into failures; it's awkward and unnerving. How do you plan to one-up this pitiful attempt at your foreign policy prowess?",
+            "description": " In a scene reminiscent of a sitcom reunion, Republicans have brought together a foreign policy ''assembly'' in light of your troop surge. The strange and unflinching face of Robert Zoellick on the far left, John McCain faking a smile just a smidge to the right of him, Mitt in the middle like Christ in The Last Supper, and to his right the lined faces of 2004's Republican raucous, George W. Bush - smiling as always - and Dick Cheney - not so much. You watch in awe as they stiffly bend your successes into failures; it's awkward and unnerving. How do you plan to one-up this pitiful attempt at smearing your foreign policy prowess?",
             "likelihood": 1
         }
     },
@@ -526,7 +526,7 @@ campaignTrail_temp.questions_json = [
         "pk": 21466,
         "fields": {
             "priority": 0,
-            "description": "Like a snake, constructing around its chosen victim and soon injecting its deadly toxin, Vladimir Putin slithers onto the stage to announce a ‘Special Military Operation’ in Georgia - decrying Georgia as an aggressor state. Like clockwork, the Romney campaign scrambles to establish a stage for itself, flags and such behind him; you have the White House as your plaything - a back-drop to look as Presidential as you wish. The cameras are ready, makeup brushes touch your face, and you look into the camera. Go.",
+            "description": "Like a snake constricting around its chosen victim and injecting its deadly toxin, Vladimir Putin slithers onto the stage to announce a ‘Special Military Operation’ in Georgia - decrying Georgia as an aggressor state. Like clockwork, the Romney campaign scrambles to establish a stage for itself, flags and such behind him. You have the White House as your plaything - a backdrop to look as Presidential as you wish. The cameras are ready, makeup brushes touch your face, and you look into the camera. Go.",
             "likelihood": 1
         }
     },
@@ -535,7 +535,7 @@ campaignTrail_temp.questions_json = [
         "pk": 21480,
         "fields": {
             "priority": 0,
-            "description": "\"Can Mitt Romney Serve Two Masters?\" - the title of one recently cooked up anti-Mormon, anti-Romney Book by Tricia Erickson. Like Al Smith and Jack Kennedy before him, Romney's religion has isolated him not only to the vast nation but to his base. Pat Robertson was caught on hot-mic claiming Mitt 'didn't worship the same God,' or perhaps not the right one for the Evangelist's base. Now, he attempts to win them back with bold anti-abortion stances, mixed words of Gay rights, and a general flop to the right on all social issues, a self-conscious attempt to suffocate a crucial part of his character.",
+            "description": "\"Can Mitt Romney Serve Two Masters?\" - the title of one recently cooked up anti-Mormon, anti-Romney Book by Tricia Erickson. Like Al Smith and Jack Kennedy before him, Romney's religion has isolated him not only from the nation at large, but from his very base. Pat Robertson was caught on a hot mic claiming Mitt 'didn't worship the same God,' or perhaps not the right one for the Evangelist's base. Now, he attempts to win them back with bold anti-abortion stances, mixed words on gay rights, and a general flop to the right on all social issues, a self-conscious attempt to suffocate a crucial part of his character.",
             "likelihood": 1
         }
     },
@@ -544,7 +544,7 @@ campaignTrail_temp.questions_json = [
         "pk": 21492,
         "fields": {
             "priority": 0,
-            "description": "October 1st, the night before Debate Night - 'Debate Night Eve' as Senator John Edwards has called it - acting as Charlie Crist. White House chief of staff, Nancy Parrish, gives you a shriveled smile, acting as the moderator, \"This is a question for Vice President Landrieu…\" You smile back at her politely. \"Madam Vice President, the Romney campaign has frequently been attacking your record as an 'ineffectual' Vice President, perhaps countering your image as someone of change due to you being the first female nominee for Vice President, and now the first female Vice President. How do you respond to these attacks?\"\n",
+            "description": "October 1st, the night before Debate Night - 'Debate Night Eve' as Senator John Edwards has called it - acting as Charlie Crist. White House chief of staff, Nancy Parrish, gives you a shriveled smile, acting as the moderator, \"This is a question for Vice President Landrieu…\" You smile back at her politely. \"Madam Vice President, the Romney campaign has frequently been attacking your record as an 'ineffectual' Vice President, perhaps running counter to your image of change due to your status as the first female Vice President. How do you respond to these attacks?\"\n",
             "likelihood": 1
         }
     },
@@ -553,7 +553,7 @@ campaignTrail_temp.questions_json = [
         "pk": 21493,
         "fields": {
             "priority": 0,
-            "description": "Well, Wes, dread it as you may debate night has arrived. Romney's preparations went under the wing of Rob Portman, who scoured biographies and articles of yourself to get a complete understanding. Portman's role must be recognized as he prepared Romney to take you on. As you watch Romney gavotte onto the stage, shaking your hand before returning to his podium, you know your opening remarks could make or break the debate; you know, too, that behind his thick eyebrows and even thicker phony smile, Romney has something up his sleeve…\n",
+            "description": "Well, Wes, dread it as you may, debate night has arrived. Romney's preparations took place under the wing of Rob Portman, who scoured biographies and articles of yourself to get a complete understanding. Portman's role must be recognized as he prepared Romney to take you on. As you watch Romney gavotte onto the stage, shaking your hand before returning to his podium, you know your opening remarks could make or break the debate; you know also that behind his thick eyebrows and even thicker phony smile, Romney has something up his sleeve…\n",
             "likelihood": 1
         }
     },
@@ -562,7 +562,7 @@ campaignTrail_temp.questions_json = [
         "pk": 21494,
         "fields": {
             "priority": 0,
-            "description": "Governor Bush is the most well-approved challenger you could have faced. His Governorship sports above 55% approval ratings, in stark contrast to yours. Now, with the popular mandate and power of donors, he hopes to sink you in a riptide of \"Responsible Conservatism.\" A big tent made of the Religious Right, NeoCons, and moderates. Your campaign staff is watching closely; they feel the tent can fold. How will you split the wave of Republicans?",
+            "description": "Governor Bush is the most well-approved challenger you could have faced. His governorship sported above 55% approval ratings, in stark contrast to your current dismal numbers. Now, with the popular mandate and the power of thousands of big-dollar donors, he hopes to sink you in a riptide of \"Responsible Conservatism\" – a big tent forged from the Religious Right, neoconservatives, and moderates. Your campaign staff is watching closely; they feel the tent can be folded. How will you split the wave of Republicans?",
             "likelihood": 1
         }
     },
@@ -589,7 +589,7 @@ campaignTrail_temp.questions_json = [
         "pk": 21534,
         "fields": {
             "priority": 0,
-            "description": "Russia's recent invasion of Georgia has provided ample information for the Bush campaign to hit you with. Fortunately, they don't. Surrogates go through the motions, but their hearts aren't in it. This has given you and Gertrude a reprieve from the rigors of campaigning and a chance to hit back at the Bush administration's policy towards Russia and interventionism. How do you want to use this shot?",
+            "description": "Russia's recent invasion of Georgia has provided ample ammunition for the Bush campaign to hit you with. Fortunately, they don't. Surrogates go through the motions, but their hearts aren't in it. This has given you and Gertrude both a momentary reprieve from the rigors of campaigning and a chance to hit back at the Bush administration's policy towards Russia and interventionism. How do you want to use this shot?",
             "likelihood": 1
         }
     },
@@ -598,7 +598,7 @@ campaignTrail_temp.questions_json = [
         "pk": 21535,
         "fields": {
             "priority": 0,
-            "description": "This is it. It's time to shine, Vice President Landrieu. The potential of a third Bush administration is dreadful for the legacy you and President Clark have built. Despite your prior objections to his direction, it's your job to defend him. As former Secretary of Homeland Defense Tom Ridge enters the camera's view, he looks calm and collected. He's spent most of this campaign nodding as his king led the charge on President Clark's failure to support Iraq. You look across from you and see him adjust his tie with a smug grin. How are you going to send him back into retirement?\n",
+            "description": "This is it. It's time to shine, Vice President Landrieu. The potential of a third Bush administration is dreadful for the legacy you and President Clark have built. Despite your prior objections to his direction, it's your job to defend him. As former Secretary of Homeland Defense Tom Ridge enters the camera's view, he looks calm and collected. He's spent most of this campaign nodding as his king led the charge on President Clark's failure to support Iraq. You glance across the podium and see him adjust his tie with a smug grin. How are you going to send him back into retirement?\n",
             "likelihood": 1
         }
     },
@@ -616,7 +616,7 @@ campaignTrail_temp.questions_json = [
         "pk": 21603,
         "fields": {
             "priority": 0,
-            "description": "Rudy Giuliani is the municipal superhero without a cape, a media avenger who embodies the will to vanquish terrorism. Not a second goes by without him telling a brave story of that fateful day. The stories make him the talk of the town and the number one War on Terror candidate, even if we are sick of hearing about it. With Bin Laden still not within America's grasp, he has all the ammo to pummel you. \"Clark is too soft on terror.\" \"Clark is letting Bin Laden go free.\" He's relentless, but you know how to wipe the smile off his face, don't you, Wes?",
+            "description": "Rudy Giuliani is the municipal superhero without a cape, a media avenger who embodies the will to vanquish terrorism. Not a second goes by without him telling a brave story of that fateful day. The stories make him the talk of the town and the number one War on Terror candidate, even if many are sick of hearing about it. With Bin Laden still not within America's grasp, he has all the ammo to pummel you. \"Clark is too soft on terror.\" \"Clark is letting Bin Laden go free.\" He's relentless, but you know how to wipe the smile off his face, don't you, Wes?",
             "likelihood": 1
         }
     },
@@ -625,7 +625,7 @@ campaignTrail_temp.questions_json = [
         "pk": 21633,
         "fields": {
             "priority": 0,
-            "description": "Iraq is crumbling, and so is the faith in your administration. With Condoleezza Rice by his ear at every waking moment, Mayor Giuliani is on the stage, thrashing your foreign policy decisions while highlighting his success in bringing peace to the streets of NYC. You can tell the words aren't his; he's a fool. She is using him like a puppet. We all saw what went down in the primaries; he was a mess. Now he looks good, like a pampered prince. However, you have this unshakable feeling that it's all talk. It always is with Giuliani. How will you repel Giuliani's gains?",
+            "description": "Iraq is crumbling, and so is faith in your administration. With Condoleezza Rice by his ear at every waking moment, Mayor Giuliani is on the stage, thrashing your foreign policy decisions while highlighting his success in bringing peace to the streets of NYC. You can tell the words aren't his; he's a fool, a patsy. She's using him like a puppet. We all saw what went down in the primaries; he was a mess. Now he looks good, like a pampered prince. However, you have this unshakable feeling that it's all talk. It always is with Giuliani. How will you repel Giuliani's gains?",
             "likelihood": 1
         }
     },
@@ -634,7 +634,7 @@ campaignTrail_temp.questions_json = [
         "pk": 21649,
         "fields": {
             "priority": 0,
-            "description": "There it is again: Giuliani has been provided all the ammo in the world by the recent Russian invasion of Georgia, but he's avoiding it like the plague. Condi, it has to be HER. The facade of America's Mayor is melting. No amount of cooling can stop Giuliani's fall from grace. He's a husk, a prop only necessary for name recognition. You can only say 9/11 so many times until the people are numb to it. She won't let him fall apart quickly, though. Now benched to riding the wave of economic woes, Rudy has less to discuss. How will you expose the world to the REAL Rudy Giuliani?",
+            "description": "There it is again: Giuliani has been provided all the ammo in the world by the recent Russian invasion of Georgia, but he's avoiding it like the plague. Condi, it has to be <i>her</i>. The facade of America's Mayor is melting. No amount of cooling can stop Giuliani's fall from grace. He's a husk, a prop only necessary for name recognition. You can only say 9/11 so many times until the people are numb to it. She won't let him fall apart quickly, though. Now benched to riding the wave of economic woes, Rudy has less to discuss. How will you expose the world to the <i>real </i> Rudy Giuliani?",
             "likelihood": 1
         }
     },
@@ -643,7 +643,7 @@ campaignTrail_temp.questions_json = [
         "pk": 21664,
         "fields": {
             "priority": 0,
-            "description": "The facade is finally unraveling. Rudy is a clueless fool, and the few things he can hold onto to prop up his popularity are fading. He's too moderate for evangelicals, he's repulsive to liberals, and he's out of depth with neocons. Rice was given this Herculean task to keep Giuliani's candidacy together. Rudy can't go a minute without putting his foot in his mouth. Most importantly, all his scandals loom over him like a storm. With news articles diving deep into alleged funds he used to visit a mistress, he's spiraling. You're near the final stretch, Wes; how shall we capitalize on this?",
+            "description": "The facade is finally unraveling. Rudy is a clueless fool, and the few things he can hold onto to prop up his popularity are fading. He's too moderate for evangelicals, he's repulsive to liberals, and he's out of his depth with neocons. Rice was given this Herculean task to keep Giuliani's candidacy together. Rudy can't go a minute without putting his foot in his mouth. Most importantly, all his scandals loom over him like a storm. With news articles diving deep into alleged funds he used to visit a mistress, he's spiraling. You're near the final stretch, Wes; how shall we capitalize on this?",
             "likelihood": 1
         }
     },
@@ -670,7 +670,7 @@ campaignTrail_temp.questions_json = [
         "pk": 21716,
         "fields": {
             "priority": 0,
-            "description": "The streets are crowded, screams and terror are inescapable, and the economy is failing. In times of crisis, the people look around, desperate for answers. Ron Paul claims to have that answer, \"We must abolish the Federal Reserve System because it is immoral, unconstitutional, impractical, promotes bad economics, and undermines liberty.\" It's a radical solution, but as the economy plummets, it may be the pipedream people yearn for. Despite Rick Santorum's sabotage candidacy, polls show Paul creeping up on you. How will you kill this movement before it spreads its wings over Olympus?",
+            "description": "The streets are crowded, screams and terror are inescapable, and the economy is failing. In times of crisis, the people look around, desperate for answers. Ron Paul claims to have that answer, \"We must abolish the Federal Reserve System because it is immoral, unconstitutional, impractical, promotes bad economics, and undermines liberty.\" It's a radical solution, but as the economy plummets, it may be the pipedream people yearn for. Despite Rick Santorum's spoiler candidacy, polls show Paul creeping up on you. How will you kill this movement before it spreads its wings over Olympus?",
             "likelihood": 1
         }
     },
@@ -679,7 +679,7 @@ campaignTrail_temp.questions_json = [
         "pk": 21727,
         "fields": {
             "priority": 0,
-            "description": "Horns are blowing louder and louder. Even with stability brought abroad, the army of liberty marches forth. Ron Paul is on the stage, ready to take this fight to Olympus. Most big Republican donors have abandoned him, but he continues to set records in money racked in from the internet and other grassroots chicanery. The anti-war movement has hit its crescendo moment, and he lets it scream loud and clear. This is a people's fight to set the record straight and escape Iraq. His promise is the one you backed away from. How do you respond, Wes?",
+            "description": "Horns blow, louder and louder. Even with stability acheived abroad, the army of liberty marches forth. Ron Paul is on the stage, ready to take this fight to Olympus. Most big Republican donors have abandoned him, but he continues to set records in money raked in from the internet and other grassroots chicanery. The anti-war movement has hit its crescendo, and he lets it scream loud and clear. This is a people's fight to set the record straight and escape Iraq. His promise is the very one you backed away from. How do you respond, Wes?",
             "likelihood": 1
         }
     },
@@ -697,7 +697,7 @@ campaignTrail_temp.questions_json = [
         "pk": 21759,
         "fields": {
             "priority": 0,
-            "description": "Dr. No and his coming rEVOlution is the most stark contrast in party platforms in just four years, from the Seven Wars coup to a total shutdown of all American foreign policy ventures. The whiplash has sent ripples throughout the country and polls alike. The radical change has scared off plenty of Neocon Republicans, fearing what that buffoon may do on the world stage. Paul's campaign is bleeding as a result. How would you like to drive the knife further into his support?",
+            "description": "Dr. No and his coming rEVOlution represent the most stark pivot in party platforms in just four years, from the Seven Wars coup to a total shutdown of all American foreign policy ventures. The whiplash has sent ripples throughout the country and polls alike. The radical change has scared off plenty of neoconservative Republicans, fearing what that buffoon may do on the world stage. Paul's campaign is bleeding as a result. How would you like to drive the knife further into his support?",
             "likelihood": 1
         }
     },
@@ -706,7 +706,7 @@ campaignTrail_temp.questions_json = [
         "pk": 21775,
         "fields": {
             "priority": 0,
-            "description": "Riding on the coattails of hysteria and insanity is a small man named Gary Johnson. Always in the shadow of a crazy man screaming IT'S HAPPENING; it's finally his time to shine, as is yours, Madam Vice President. The Vice Presidential Debates are prepared to kick off, and you notice Johnson is calm and relaxed; it's almost like he could fall asleep. You can take advantage of this and deliver a haymaker, but how?\n",
+            "description": "Riding on the coattails of hysteria and insanity is a small man named Gary Johnson. Always in the shadow of a crazy man screaming IT'S HAPPENING, today is finally his time to shine, as it is yours, Madam Vice President. The Vice Presidential Debates are prepared to kick off, and you notice Johnson is calm and relaxed, almost like he could fall asleep. You can take advantage of this and deliver a haymaker, but how?\n",
             "likelihood": 1
         }
     },
@@ -715,7 +715,7 @@ campaignTrail_temp.questions_json = [
         "pk": 21776,
         "fields": {
             "priority": 0,
-            "description": "For whom the bell tolls is whose candidacy death polls. When the golden pariah of the Republican Party is carried on the backs of misinformed voters to meet you here, there's a distinct feeling of dread in your gut. Regardless of the outcome, the Republicans have opened Pandora's Box. The ideals spouted by Ron Paul aren't going to go away, no matter how strongly you rebuke him magically. You shake his hand, and he's pretty genuine in person; his manic-filled rallies don't do him justice as a person, not that it matters; it's time, Clark; you must crush him; how will you do it?",
+            "description": "For whom the bell tolls is whose candidacy death polls. When the golden pariah of the Republican Party is carried on the backs of misinformed voters to meet you here, there's a distinct feeling of dread in your gut. Regardless of the outcome, the Republicans have opened Pandora's Box. The ideals spouted by Ron Paul aren't going to go away, no matter how strongly you rebuke him. You shake his hand, and he's pretty genuine in person; his mania-filled rallies don't do him justice as a person, not that it matters. It's time, Clark. You must crush him. How will you do it?",
             "likelihood": 1
         }
     },
@@ -724,7 +724,7 @@ campaignTrail_temp.questions_json = [
         "pk": 21777,
         "fields": {
             "priority": 0,
-            "description": "Huckabee charges from the fields, now boasting his poll numbers with African Americans. You feel it's a load of crap, but he has received multiple notable endorsements from leaders in the community. The \"Hip Hop 4 Huckabee\" blog isn't helping your confidence as it gets much more traffic than advisors anticipated. Two southern boys fighting for this crucial demographic, and if competitive, it spells doom for your campaign. How will you reach out to the African-American community?",
+            "description": "Huckabee charges from the fields, now boasting his poll numbers with African Americans. You feel it's a load of crap, but he has received multiple notable endorsements from leaders in the community. The \"Hip Hop 4 Huckabee\" blog isn't helping your confidence as it gets far more traffic than advisors anticipated. Two southern boys fighting for this crucial demographic, and if competitive, it spells doom for your campaign. How will you reach out to the African-American community?",
             "likelihood": 1
         }
     },
@@ -733,7 +733,7 @@ campaignTrail_temp.questions_json = [
         "pk": 21794,
         "fields": {
             "priority": 0,
-            "description": "All lights are on you now, Clark. Here he is, America's Mayor, standing across from you. There's no team to protect him now. No amount of debate preparation can stop his inevitable defeat. Rice can't shield him from the dangers of a presidential debate. Rudy enters loud and proud, confirming the tales of his gladiatorial combat style. It's you and him now, and you are determined to destroy him. How will you ensure that Giuliani is wiped across the map?",
+            "description": "All lights are on you now, Clark. Here he is, America's Mayor, standing across from you. There's no team to protect him now. No amount of debate preparation can stop his inevitable defeat. Rice can't shield him from the dangers of a presidential debate. Rudy enters loud and proud, confirming the tales of his gladiatorial combat style. It's you and him now, and you are determined to destroy him. How will you ensure that Giuliani is wiped out across the board?",
             "likelihood": 1
         }
     },
@@ -742,7 +742,7 @@ campaignTrail_temp.questions_json = [
         "pk": 21815,
         "fields": {
             "priority": 0,
-            "description": "The Huckabee fanatics flock from state to state - coast to coast, bringing forth a new onslaught of attacks each time. Huckabee himself has begun to brand himself as the candidate for stability and responsibility - throwing fire at your decision not to send more soldiers into Iraq. More importantly, your past scandal regained traction in the media when you and Commander Ratko Mladic were photographed trading hats in a jovial manner in 1995. Huckabee's campaign rolls out non-stop attack ads condemning you for this. \"Clark plays dress up with dictators, Huckabee will slay them.\" How will you defend yourself, Wes?",
+            "description": "The Huckabee fanatics flock from state to state and coast to coast, bringing forth a new onslaught of attacks each time. Huckabee himself has begun to brand himself as the candidate for stability and responsibility - throwing fire at your decision not to send more soldiers into Iraq. More importantly, the past scandal when you and Commander Ratko Mladic were photographed trading hats in a jovial manner in 1995 has resurfaced. Huckabee's campaign rolls out non-stop attack ads condemning you for this. \"Clark plays dress up with dictators, Huckabee will slay them.\" How will you defend yourself, Wes?",
             "likelihood": 1
         }
     },
@@ -751,7 +751,7 @@ campaignTrail_temp.questions_json = [
         "pk": 21831,
         "fields": {
             "priority": 0,
-            "description": "The Republicans backing Huckabee are frothing at the mouth in light of Georgia in turmoil. While Huckabee takes a victory march pledging to \"save Georgian freedom,\" his campaign apparatus pummels you with almost every misdeed and failing in your career. What got the attention of most news outlets is the focus of your 3-month early retirement after you won in the Balkans. As they put it, \"Clark's a failed general who not even Clinton could wait to get him out.\" This matter, long thought dead, is now back on the front lines as your foreign policy incompetence takes precedence.",
+            "description": "The Republicans backing Huckabee are frothing at the mouth in light of Georgia in turmoil. While Huckabee takes a victory march pledging to \"save Georgian freedom,\" his campaign apparatus pummels you with almost every misdeed and failing in your career. What got the attention of most news outlets is the focus of your three-month-early retirement after your win in the Balkans. As they put it, \"Clark's a failed general who not even Clinton could wait to get him out.\" This issue, long thought dead, is now back on the front lines as your supposed foreign policy incompetence takes precedence.",
             "likelihood": 1
         }
     },
@@ -769,7 +769,7 @@ campaignTrail_temp.questions_json = [
         "pk": 21862,
         "fields": {
             "priority": 0,
-            "description": "It's showtime, Vice President Landrieu, the moment when being veep during a presidential campaign truly matters. The Vice Presidential debate begins with Gwen Ifill's lovely self-moderating it. You look to your right, and Fred Thompson stands behind his podium with a friendly smile. He's used to this. Political experience and TV go hand in hand since every politician is playing up an act. How will you send the old geezer a box office bomb?",
+            "description": "It's showtime, Vice President Landrieu, the one moment when being veep during a presidential campaign truly matters. The Vice Presidential debate begins with Gwen Ifill's lovely self-moderating it. You look to your right, and Fred Thompson stands behind his podium with a friendly smile. He's used to this. Political experience and TV go hand in hand since every politician is playing up an act. How will you send the old geezer a box office bomb?",
             "likelihood": 1
         }
     },
@@ -787,7 +787,7 @@ campaignTrail_temp.questions_json = [
         "pk": 21969,
         "fields": {
             "priority": 0,
-            "description": "Fear - anxiety - panic - and terror - no escape. Conservative media is playing up the storm caused on Olympus 2 years ago. The Freedom to Marry Act, \"The Sodomy Act,\" \"The Sinners Act,\" \"The Satan Act,\" \"The Godless Act,\" and \"Clark's Demise.\" Brownback hasn't just leaned into it; he's wearing it like a glove. Every waking moment, he's playing up the fears of Christian families. \"A godless nation is a weak nation.\" Your face with devil horns slapped on signs. The revolution you've indirectly created is dragging America back, how will you reset the clock, Clark?",
+            "description": "Fear - anxiety - panic - and terror - no escape. Conservative media is playing up the storm caused on Olympus two years ago. The Freedom to Marry Act, or as they've branded it, \"The Sodomy Act,\" \"The Sinners Act,\" \"The Satan Act,\" \"The Godless Act,\" and \"Clark's Demise.\" Brownback hasn't just leaned into it; he's wearing it like a glove. Every waking moment, he's playing up the fears of Christian families. \"A godless nation is a weak nation.\" Your face with devil horns is slapped on signs. The revolution you've indirectly created is dragging America back to the days of Great Awakenings and witch hunts. How will you reset the clock, Clark?",
             "likelihood": 1
         }
     },
@@ -796,7 +796,7 @@ campaignTrail_temp.questions_json = [
         "pk": 21986,
         "fields": {
             "priority": 0,
-            "description": "Loss - sorrow - mourning. The success of the troop surge means nothing. The Christian rage goes far beyond that; they hate you, they hate what you stand for, the people you support. Thugs screaming \"HAIL SATAN, HAIL SATAN, HAIL SATAN\" while wearing a mask with your face on it. It's not directly affiliated with the Brownback campaign, but it's not something he's willing to denounce. Meanwhile, Brownback avoids foreign policy like a plague, focusing on the social issues that drive the Christian heartthrob crazy, like abortion. How will you confront his campaign, Clark?",
+            "description": "Loss - sorrow - mourning. The success of the troop surge means nothing. The Christian rage goes far beyond that; they hate you, they hate what you stand for, and they hate the people you support. Thugs scream \"HAIL SATAN, HAIL SATAN, HAIL SATAN\" while wearing a mask with your face on it. It's not directly affiliated with the Brownback campaign, but neither is it something he's willing to denounce. Meanwhile, Brownback avoids foreign policy like a plague, focusing on the social issues that drive the Christian heartthrob crazy, most notably abortion. How will you confront his campaign, Clark?",
             "likelihood": 1
         }
     },
@@ -814,7 +814,7 @@ campaignTrail_temp.questions_json = [
         "pk": 22017,
         "fields": {
             "priority": 0,
-            "description": "Callousness - misled - and Possessed, Brownback's too far to the right for most Americans, and the polls reflect that. So the Senator is retreating behind the surrogates; they parrot the lines given by the establishment Republicans. The great American Tax Cut Experiment, or the flat federal income tax, is what they are preaching. Brownback doesn't need to galvanize the evangelicals; they're walking like brainwashed zombies. As long as he keeps you in cover, the hoard of Christian resentment and economic doubters will march to slay you. \"The chaos will be over soon.\" You must stop him, Clark, but how?\n",
+            "description": "Callousness - misled - and possessed. Brownback's too far to the right for most Americans, and the polls reflect that. So the Senator is retreating behind the surrogates; they parrot the lines given by the establishment Republicans. The great American Tax Cut Experiment, or the flat federal income tax, is what they are preaching. Brownback doesn't need to galvanize the evangelicals; they're walking like brainwashed zombies. As long as he keeps you in cover, the hordes of resentful Christians and economic doubters will march to slay you. \"The chaos will be over soon.\" You must stop him, Clark, but how?\n",
             "likelihood": 1
         }
     },
@@ -832,7 +832,7 @@ campaignTrail_temp.questions_json = [
         "pk": 22019,
         "fields": {
             "priority": 0,
-            "description": "The fight for democracy was abandoned, and with it, the hopes for Iraqi freedom. Secretary Kerry and Levin enter the oval with solemn looks on their faces. They hand you the reports from Iraq, and it's a disaster. What's left of the coalition forces is in full retreat as insurgents continue to launch assault after assault on civilians and American soldiers. The images are horrifying, and your approval ratings, already sunk by the economy, sink further. A Sphinx demands you solve a riddle, or this will devour you. How will you respond to these events, Wes?",
+            "description": "The fight for democracy was abandoned, and with it, the hopes for Iraqi freedom. Secretary Kerry and Levin enter the oval with solemn looks on their faces. They hand you the reports from Iraq, and it's a disaster. What's left of the coalition forces is in full retreat as insurgents continue to launch assault after assault on civilians and American soldiers. The images are horrifying, and your approval ratings, already shot by the economy, sink further into the crimson. A Sphinx demands you solve a riddle, or this will devour you. How will you respond to these events, Wes?",
             "likelihood": 1
         }
     },
@@ -841,7 +841,7 @@ campaignTrail_temp.questions_json = [
         "pk": 22034,
         "fields": {
             "priority": 0,
-            "description": "Slowly but surely, your decision to call for a troop surge in Iraq is vindicated. Secretary Kerry and Secretary Levine pass you the reports, and your smile begins to show as you look them over. The situation in Iraq has stabilized, and the media finally has something good to chew on from your administration. The anti-war sentiment has dimmed, as guys like Kucinich and Gravel seem small. Despite the success, an emboldened Cerberus lies ahead, ready to block your passage if you do not blend with your newfound support. How will you capitalize on this significant victory?",
+            "description": "Slowly but surely, your decision to call for a troop surge in Iraq is vindicated. Secretary Kerry and Secretary Levine pass you the reports, and your smile begins to show as you look them over. The situation in Iraq has stabilized, and the media finally has something good to chew on from your administration. The anti-war sentiment has dimmed, as doubters like Kucinich and Gravel seem small. Despite the success, an emboldened Cerberus lies ahead, ready to block your passage if you do not blend with your newfound support. How will you capitalize on this significant victory?",
             "likelihood": 1
         }
     },
@@ -868,7 +868,7 @@ campaignTrail_temp.questions_json = [
         "pk": 22124,
         "fields": {
             "priority": 0,
-            "description": "The clock is ticking, and as the election comes closer, circumstances only serve to vindicate Cheney. Iraq is spiraling; you look like a clown on the national stage. Despite Cheney's tensions with allies, many have begun to stump for him. He lays out his grand plan, backed by the same crooks you're familiar with. Rumsfeld, Rice, and Wolfowitz sprout from the same tree as Cheney. Even in the armed forces, you're seeing revolts from the likes of General Petraeus, who's going on a subtle media \"I told you so\" tour. More wars, more troops, more death. New American Patriotism is dying, How will you save it?",
+            "description": "The clock is ticking, and as the election comes closer, circumstances only serve to vindicate Cheney. Iraq is spiraling, and you look like a clown on the national stage. Despite Cheney's tensions with allies, many have begun to stump for him. He lays out his grand plan, backed by the same crooks you're familiar with. Rumsfeld, Rice, and Wolfowitz sprout from the same tree as Cheney. Even in the armed forces, you're seeing revolts from the likes of General Petraeus, who's going on a subtle media \"I told you so\" tour. More wars, more troops, more death. New American Patriotism is dying. How will you resuscitate it?",
             "likelihood": 1
         }
     },
@@ -877,7 +877,7 @@ campaignTrail_temp.questions_json = [
         "pk": 22141,
         "fields": {
             "priority": 0,
-            "description": "Meltdown, the world scene is crumbling. Russia dominates the airwaves as tensions rise. A storm is coming, and Cheney warns of it at every opportunity. He calls it \"an act of war,\" shouting the need to make a stand and push back against Russia. Calling it an \"illegitimate invasion.\" The Bush Administration was weak on Russia, but now an unleashed Dick Cheney is practically screaming for war. If you don't pull Dick back yourself, he may inadvertently push the needle toward total war before the election. You're going to calm the nation down, right, Clark?\n",
+            "description": "The global stage is crumbling. Russia dominates the airwaves as tensions rise. A meltdown is coming, and Cheney warns of it at every opportunity. He calls it \"an act of war,\" shouting the need to make a stand and push back against Russia. Calling it an \"illegitimate invasion.\" The Bush Administration was weak on Russia, but now an unleashed Dick Cheney is practically screaming for war. If you don't pull Dick back yourself, he may inadvertently push the needle toward total war before the election. You're going to calm the nation down, right, Clark?\n",
             "likelihood": 1
         }
     },
@@ -886,7 +886,7 @@ campaignTrail_temp.questions_json = [
         "pk": 22197,
         "fields": {
             "priority": 0,
-            "description": "The hourglass is broken; it was a cruel move for the Republican Party to unleash an unchained Dick Cheney onto the world. He's unsettling for most; his enemies are nothing more than \"mattress mice\" in his presence. Unwavering ideals of a man dead set on making the world seem much more deadly than it truly is. Cheney is a rabid dog barking at the need to push around the Middle East. He goes further to North Korea and Russia; you can imagine the fires that would engulf the world under him. This is the Seven Wars Policy Coup; this is your judgment. How will you face it, Clark?",
+            "description": "The hourglass is broken; it was a cruel move for the Republican Party to unleash an unchained Dick Cheney onto the world. He's unsettling to most; his enemies are nothing more than \"mattress mice\" in his presence. Unwavering ideals of a man dead set on making the world seem much more deadly than it truly is. Cheney is a rabid dog barking at the need to push around the Middle East. He goes further to North Korea and Russia; you can barely imagine the fires that would engulf the world under him. This is the Seven Wars Policy Coup; this is your judgment. How will you face it, Clark?",
             "likelihood": 1
         }
     },
@@ -904,7 +904,7 @@ campaignTrail_temp.questions_json = [
         "pk": 22199,
         "fields": {
             "priority": 0,
-            "description": "The campaign has been one great blur; every rally and statement of Cheney's supporters morphed together. \"Four more years!\" Four more years!\" \"Four more wars!\" When you enter the room, the air is tight; the doors are sealed. Your eyes can only focus on one man; Dick Cheney adjusts his tie and looks over to you, his face lacking any emotion. He feels nothing for you; you're the guy in his way. Behind him are a million corpses, a long career built on fear and war. There's no time left. You must stop him, Clark; how will you conduct yourself in the face of a global meltdown? \n",
+            "description": "The campaign has been one great blur; every rally and statement of Cheney's supporters morphed together. \"Four more years!\" Four more years!\" \"Four more wars!\" When you enter the room, the air is tight; the doors are sealed. Your eyes can only focus on one man; Dick Cheney adjusts his tie and looks over to you, his face stony as always. He feels nothing for you; you're the guy in his way. Behind him are a million corpses, a long career built on fear and war. There's no time left. You must stop him, Clark; how will you conduct yourself in the face of a global meltdown? \n",
             "likelihood": 1
         }
     },
@@ -922,7 +922,7 @@ campaignTrail_temp.questions_json = [
         "pk": 22452,
         "fields": {
             "priority": 6,
-            "description": "You've pulled off the impossible; I don't know how you've done it, Wes, but you've expanded your mandate further than any could imagine. The Democrats can hold a coronation for the first-ever woman Speaker of the House, and the Senate majority will be expanded. With the nomination of Elena Kagan for Chief Justice flying through, the mandate is yours. Cybersecurity has always been one of your top priorities, but it's been a lonely issue for you, as any attempts to pass legislation have been shot down. Lobbyists and special interests tear apart your attempts each time you try. However, that doesn't mean you quit now; how will you act on this?",
+            "description": "You've pulled off the impossible; I don't know how you've done it, Wes, but you've expanded your mandate further than any could imagine. The Democrats can hold a coronation for the first-ever woman Speaker of the House, and the Senate majority will be expanded. With the nomination of Elena Kagan for Chief Justice flying through, the mandate is yours. Cybersecurity has always been one of your top priorities, but it's been a lonely issue for you, as any attempts to pass legislation have been shot down. Lobbyists and special interests tear apart your attempts each time you try. However, that doesn't give you an excuse to quit now. How will you act on this?",
             "likelihood": 1
         }
     },
@@ -940,7 +940,7 @@ campaignTrail_temp.questions_json = [
         "pk": 22489,
         "fields": {
             "priority": 7,
-            "description": "President Clark, the rumors circling the media were right. You've spent too long looking abroad. Bear Stearns has just collapsed even after the help of a bailout from the New York Federal Reserve, which spells just the start of unprecedented U.S. housing market price crashes with the foreclosure of thousands of homes. Families are in hysterics as banks knock down their doors and leave them with nothing. Every institution is catching blame, conspiracies are running rampant, and there is one common question: What the hell will you do about this?\n",
+            "description": "President Clark, the rumors circulating in the media were right. You've spent too long looking abroad. Bear Stearns has just collapsed even after the help of a bailout from the New York Federal Reserve, which spells just the start of unprecedented U.S. housing market price crashes with the foreclosure of thousands of homes. Families are in hysterics as banks knock down their doors and leave them with nothing. Every institution is catching blame, conspiracies are running rampant, and there is one common question: What the hell will you do about this?\n",
             "likelihood": 1
         }
     },
@@ -949,7 +949,7 @@ campaignTrail_temp.questions_json = [
         "pk": 22506,
         "fields": {
             "priority": 0,
-            "description": "The economy is in complete and utter freefall, with stock markets crashing globally and your approval rating hitting record lows. The public is clamoring for action as unemployment, mortgage defaults, and suicide rates soar. Congress is disunited, with almost every wing at each other's throats. After a briefing with Prime Minister Gordon Brown, his insights resonate with you. Inspired by Britain's research, the strategy is to swiftly push a bold and comprehensive stimulus bill through Congress to combat the impending recession. The urgency of the situation is palpable, President Clark. How will you rescue America?\n",
+            "description": "The economy is in complete and utter freefall, with stock markets crashing globally and your approval rating hitting record lows. The public clamors for action as unemployment, mortgage defaults, and suicide rates soar. Congress is disunited, with almost every wing at each other's throats. After a briefing with Prime Minister Gordon Brown, his insights resonate with you. Inspired by Britain's research, the strategy is to swiftly push a bold and comprehensive stimulus bill through Congress to combat the impending recession. The urgency of the situation is palpable, President Clark. How will you rescue America?\n",
             "likelihood": 1
         }
     },
@@ -958,7 +958,7 @@ campaignTrail_temp.questions_json = [
         "pk": 22554,
         "fields": {
             "priority": 0,
-            "description": "The economy is in complete and utter freefall, with stock markets crashing globally and your approval rating hitting record lows. The public is clamoring for action as unemployment, mortgage defaults, and suicide rates soar. Congress is disunited, with almost every wing at each other's throats. After a briefing with Prime Minister Gordon Brown, his insights resonate with you. Inspired by Britain's research, the strategy is to swiftly push a bold and comprehensive stimulus bill through Congress to combat the impending recession. The urgency of the situation is palpable, President Clark. How will you rescue America?\n",
+            "description": "The economy is in complete and utter freefall, with stock markets crashing globally and your approval rating hitting record lows. The public clamors for action as unemployment, mortgage defaults, and suicide rates soar. Congress is disunited, with almost every wing at each other's throats. After a briefing with Prime Minister Gordon Brown, his insights resonate with you. Inspired by Britain's research, the strategy is to swiftly push a bold and comprehensive stimulus bill through Congress to combat the impending recession. The urgency of the situation is palpable, President Clark. How will you rescue America?\n",
             "likelihood": 1
         }
     },
@@ -967,7 +967,7 @@ campaignTrail_temp.questions_json = [
         "pk": 22609,
         "fields": {
             "priority": 0,
-            "description": "Secretary Levin gathered the reports, massive cyber security breaks across multiple financial institutions, and an enormous malware breach of U.S. military computers. The entire Department of Defense is in complete hysterics, and stock market confidence drops even further. There's no apparent perpetrator of the attacks, and a public meltdown is imminent, but advisors feel this is your moment, your day of infamy. There's only one culprit in your mind, but the rest of the cabinet is too hesitant to pull the trigger. This is your moment to save yourself and go after the world's dark forces. Will you take this free ride to secure your position?",
+            "description": "Secretary Levin gathered the reports, massive cybersecurity breaks across multiple financial institutions, and an enormous malware breach of U.S. military computers. The entire Department of Defense is in complete hysterics, and stock market confidence drops even further. There's no apparent perpetrator of the attacks, and a public meltdown is imminent, but advisors feel this is your moment, your day of infamy. There's only one culprit in your mind, but the rest of the cabinet is too hesitant to pull the trigger. This is your moment to save yourself and go after the world's dark forces. Will you take this free ride to secure your position?",
             "likelihood": 1
         }
     },
@@ -1066,7 +1066,7 @@ campaignTrail_temp.questions_json = [
         "pk": 22780,
         "fields": {
             "priority": 0,
-            "description": "You've ruled with an iron fist. Most within your ranks cower before you, but there are a brave few who are unwilling to bend the knee toward your neoliberalism. Some outsiders challenged you in the primaries to fruitless avail, but those within the halls of Olympus can challenge you directly. Enter Congressman Dennis Kucinich, a loud opponent of your foreign policy. The party has done everything it could to get him to bow before you, but there are rumors he's ready to unleash hell upon you in Congress. Impeachment on the grounds of you \"openly threatening aggression\" against Iran and misleading the American public with cyber security concerns. How will you smite this foe?\n",
+            "description": "You've ruled with an iron fist. Most within your ranks cower before you, but there are a brave few who are unwilling to bend the knee toward your neoliberalism. Some outsiders challenged you in the primaries to fruitless avail, but those within the halls of Olympus can challenge you directly. Enter Congressman Dennis Kucinich, a loud opponent of your foreign policy. The party has done everything it could to get him to bow before you, but there are rumors he's ready to unleash hell upon you in Congress. Impeachment on the grounds of you \"openly threatening aggression\" against Iran and misleading the American public with cybersecurity concerns. How will you smite this foe?\n",
             "likelihood": 1
         }
     },
@@ -1237,7 +1237,7 @@ campaignTrail_temp.questions_json = [
         "pk": 23513,
         "fields": {
             "priority": 0,
-            "description": "When the campaign started in 2003, a wave of unity swept the nation, energizing people to fight for a shared dream. Just as then, the podium is now yours to turn the American dream into a tangible reality. That dream, however, couldn't look bleaker. Fannie Mae and Freddie Mac declared bankruptcy with no hope of a federal bailout. The economy is spiraling deep into an abyss, with Sirens luring you to your untimely demise. What will you say to inspire the crowds and save our shared dream?\n",
+            "description": "When the campaign started in 2003, a wave of unity swept the nation, energizing people to fight for a shared dream. Just as it was then, the podium is now yours to turn the American dream into a tangible reality. That dream, however, couldn't look bleaker. Fannie Mae and Freddie Mac declared bankruptcy with no hope of a federal bailout. The economy is spiraling deep into an abyss, with Sirens luring you to your untimely demise. What will you say to inspire the crowds and save our shared dream?\n",
             "likelihood": 1
         }
     },
@@ -1246,7 +1246,7 @@ campaignTrail_temp.questions_json = [
         "pk": 23538,
         "fields": {
             "priority": 0,
-            "description": "When the campaign started in 2003, a wave of unity swept the nation, energizing people to fight for a shared dream. Just as then, the podium is now yours to turn the American dream into a tangible reality. That dream, however, couldn't look bleaker. Fannie Mae and Freddie Mac declared bankruptcy with no hope of a federal bailout. The economy is spiraling deep into an abyss, with Sirens luring you to your untimely demise. What will you say to inspire the crowds and save our shared dream?\n",
+            "description": "When the campaign started in 2003, a wave of unity swept the nation, energizing people to fight for a shared dream. Just as it was then, the podium is now yours to turn the American dream into a tangible reality. That dream, however, couldn't look bleaker. Fannie Mae and Freddie Mac declared bankruptcy with no hope of a federal bailout. The economy is spiraling deep into an abyss, with Sirens luring you to your untimely demise. What will you say to inspire the crowds and save our shared dream?\n",
             "likelihood": 1
         }
     },
@@ -1255,7 +1255,7 @@ campaignTrail_temp.questions_json = [
         "pk": 23700,
         "fields": {
             "priority": 0,
-            "description": "Iraq is crumbling, and the establishment's horror of you straying too far from their norms has driven out the backstabbing nature of crooks up on Olympus. Senator Hillary Clinton, who you once thought was a trusted ally, has gathered a motley crew of Senators upset with your rule. Most of your coterie of political advisers have joined her in this effort to force your hand back rightward. They plan to corner you and demand extreme concessions to avoid a public meltdown. What will you do about this?\n",
+            "description": "Iraq is crumbling, and the establishment's horror of you straying too far from their norms has driven out the backstabbing nature of the crooks up on Olympus. Senator Hillary Clinton, who you once thought was a trusted ally, has gathered a motley crew of Senators upset with your rule. Most of your coterie of political advisers have joined her in this effort to force your hand back rightward. They plan to corner you and demand extreme concessions to avoid a public meltdown. What will you do about this?\n",
             "likelihood": 1
         }
     },
@@ -1264,7 +1264,7 @@ campaignTrail_temp.questions_json = [
         "pk": 23717,
         "fields": {
             "priority": 0,
-            "description": "The economy is in complete and utter freefall, with stock markets crashing globally and your approval rating hitting record lows. The public is clamoring for action as unemployment, mortgage defaults, and suicide rates soar. Congress is disunited, with almost every wing at each other's throats. After a briefing with Prime Minister Gordon Brown, his insights resonate with you. Inspired by Britain's research, the strategy is to swiftly push a bold and comprehensive stimulus bill through Congress to combat the impending recession. The urgency of the situation is palpable, President Clark. How will you rescue America?\n",
+            "description": "The economy is in complete and utter freefall, with stock markets crashing globally and your approval rating hitting record lows. The public clamors for action as unemployment, mortgage defaults, and suicide rates soar. Congress is disunited, with almost every wing at each other's throats. After a briefing with Prime Minister Gordon Brown, his insights resonate with you. Inspired by Britain's research, the strategy is to swiftly push a bold and comprehensive stimulus bill through Congress to combat the impending recession. The urgency of the situation is palpable, President Clark. How will you rescue America?\n",
             "likelihood": 1
         }
     },
@@ -1507,7 +1507,7 @@ campaignTrail_temp.questions_json = [
         "pk": 24230,
         "fields": {
             "priority": 0,
-            "description": "You've ruled with an iron fist. Most within your ranks cower before you, but there are a brave few who are unwilling to bend the knee toward your neoliberalism. Some outsiders challenged you in the primaries to fruitless avail, but those within the halls of Olympus can challenge you directly. Enter Congressman Dennis Kucinich, a loud opponent of your foreign policy. The party has done everything it could to get him to bow before you, but there are rumors he's ready to unleash hell upon you in Congress. Impeachment on the grounds of you \"openly threatening aggression\" against Iran and misleading the American public with cyber security concerns. How will you smite this foe?\n",
+            "description": "You've ruled with an iron fist. Most within your ranks cower before you, but there are a brave few who are unwilling to bend the knee toward your neoliberalism. Some outsiders challenged you in the primaries to fruitless avail, but those within the halls of Olympus can challenge you directly. Enter Congressman Dennis Kucinich, a loud opponent of your foreign policy. The party has done everything it could to get him to bow before you, but there are rumors he's ready to unleash hell upon you in Congress. Impeachment on the grounds of you \"openly threatening aggression\" against Iran and misleading the American public with cybersecurity concerns. How will you smite this foe?\n",
             "likelihood": 1
         }
     },
@@ -1759,7 +1759,7 @@ campaignTrail_temp.questions_json = [
         "pk": 25345,
         "fields": {
             "priority": 0,
-            "description": "When the campaign started in 2003, a wave of unity swept the nation, energizing people to fight for a shared dream. Just as then, the podium is now yours to turn the American dream into a tangible reality. That dream, however, couldn't look bleaker. Fannie Mae and Freddie Mac declared bankruptcy with no hope of a federal bailout. The economy is spiraling deep into an abyss, with Sirens luring you to your untimely demise. What will you say to inspire the crowds and save our shared dream?\n",
+            "description": "When the campaign started in 2003, a wave of unity swept the nation, energizing people to fight for a shared dream. Just as it was then, the podium is now yours to turn the American dream into a tangible reality. That dream, however, couldn't look bleaker. Fannie Mae and Freddie Mac declared bankruptcy with no hope of a federal bailout. The economy is spiraling deep into an abyss, with Sirens luring you to your untimely demise. What will you say to inspire the crowds and save our shared dream?\n",
             "likelihood": 1
         }
     },
@@ -1777,7 +1777,7 @@ campaignTrail_temp.questions_json = [
         "pk": 25394,
         "fields": {
             "priority": 0,
-            "description": "When the campaign started in 2003, a wave of unity swept the nation, energizing people to fight for a shared dream. Just as then, the podium is now yours to turn the American dream into a tangible reality. That dream, however, couldn't look bleaker. Fannie Mae and Freddie Mac declared bankruptcy with no hope of a federal bailout. The economy is spiraling deep into an abyss, with Sirens luring you to your untimely demise. What will you say to inspire the crowds and save our shared dream?\n",
+            "description": "When the campaign started in 2003, a wave of unity swept the nation, energizing people to fight for a shared dream. Just as it was then, the podium is now yours to turn the American dream into a tangible reality. That dream, however, couldn't look bleaker. Fannie Mae and Freddie Mac declared bankruptcy with no hope of a federal bailout. The economy is spiraling deep into an abyss, with Sirens luring you to your untimely demise. What will you say to inspire the crowds and save our shared dream?\n",
             "likelihood": 1
         }
     },
@@ -1786,7 +1786,7 @@ campaignTrail_temp.questions_json = [
         "pk": 25417,
         "fields": {
             "priority": 0,
-            "description": "American economic prowess has collapsed in on itself: Fannie Mae, Freddie Mac, Lehman, and AIG are all gone. Chrysler and General Motors have declared bankruptcy following the failed passage of a bailout of any kind. Congressional incompetence, possibly even your own, has led to a full-scale disintegration of the economy. Bank Of America looks to follow in the trail of death; they're pleading for a bailout of any kind to help recover from the losses of their acquisition of Merrill Lynch. Behind you lay the graves of millions of careers, millions of happy families, and the death of America's Golden Age. How will you save Bank Of America?",
+            "description": "American economic prowess has collapsed in on itself: Fannie Mae, Freddie Mac, Lehman, and AIG are all gone. Chrysler and General Motors have declared bankruptcy following the failed passage of a bailout of any kind. Congressional incompetence, and possibly even your own, has led to a full-scale disintegration of the economy. Bank Of America looks to follow in the trail of death; they're pleading for a bailout of any kind to help recover from the losses of their acquisition of Merrill Lynch. Behind you lay the graves of millions of careers, millions of happy families, and the death of America's Golden Age. How will you save Bank Of America?",
             "likelihood": 1
         }
     },
@@ -2778,7 +2778,7 @@ campaignTrail_temp.answers_json = [
         "pk": 20773,
         "fields": {
             "question": 1052,
-            "description": "The power of the executive is a checkmate on its own, but we need to ensure public support. We need a robust media campaign that effectively drives up cyber security concerns. This is crucial to get the public on board."
+            "description": "The power of the executive is a checkmate on its own, but we need to ensure public support. We need a robust media campaign that effectively drives up cybersecurity concerns. This is crucial to get the public on board."
         }
     },
     {
@@ -3090,7 +3090,7 @@ campaignTrail_temp.answers_json = [
         "pk": 21036,
         "fields": {
             "question": 20884,
-            "description": "It's time we focus on our cyber security. Under the Bush Administration's watch, cyber attacks on U.S. institutions have only increased, and if we don't take this issue extremely seriously, we could see mass hacking of bank accounts and financial institutions.\n"
+            "description": "It's time we focus on our cybersecurity. Under the Bush Administration's watch, cyber attacks on U.S. institutions have only increased, and if we don't take this issue extremely seriously, we could see mass hacking of bank accounts and financial institutions.\n"
         }
     },
     {
@@ -6290,7 +6290,7 @@ campaignTrail_temp.answers_json = [
         "pk": 23832,
         "fields": {
             "question": 23831,
-            "description": "It's time we focus on our cyber security. Under the Bush Administration's watch, cyber attacks on U.S. institutions have only increased, and if we don't take this issue extremely seriously, we could see mass hacking of bank accounts and financial institutions.\n"
+            "description": "It's time we focus on our cybersecurity. Under the Bush Administration's watch, cyber attacks on U.S. institutions have only increased, and if we don't take this issue extremely seriously, we could see mass hacking of bank accounts and financial institutions.\n"
         }
     },
     {
@@ -56482,7 +56482,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 22460,
             "candidate": 201,
-            "answer_feedback": "It was a tight vote, but Pelosi and Daschle can deliver the Cyber Intelligence Protection Act to you. You sign increased cyber security infrastructure into law to protect financial institutions from attacks online. To most, it's an invisible threat, but to you, it's vital to national security."
+            "answer_feedback": "It was a tight vote, but Pelosi and Daschle can deliver the Cyber Intelligence Protection Act to you. You sign increased cybersecurity infrastructure into law to protect financial institutions from attacks online. To most, it's an invisible threat, but to you, it's vital to national security."
         }
     },
     {
@@ -56788,7 +56788,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 22625,
             "candidate": 201,
-            "answer_feedback": "Democrats follow the money and are able to secure massive donations from the likes of Adam Rose and other gay millionaires. On the other hand, Stonewall Democrats PAC, along with other small pro-LGBTQ Democratic PACs, raises hundreds of thousands for congressional Democrats.\n"
+            "answer_feedback": "Democrats follow the money and are able to secure massive donations from the likes of Adam Rose and other gay millionaires. On the other hand, Stonewall Democrats PAC, along with other small pro-LGBT Democratic PACs, raises hundreds of thousands for congressional Democrats.\n"
         }
     },
     {
@@ -61621,7 +61621,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 255677,
             "candidate": 201,
-            "answer_feedback": "From the point of view of Info Wars' Alex Jones,  Huckabee declared a holy crusade against radical Muslims across the globe and renegade justices looking to \"sully the meaning of marriage\" while you stood by them. In reality, it was a dog fight in which neither of you came out looking too pretty."
+            "answer_feedback": "From the point of view of Info Wars' Alex Jones, Huckabee declared a holy crusade against radical Muslims across the globe and renegade justices looking to \"sully the meaning of marriage\" while you stood by them. In reality, it was a dog fight in which neither of you came out looking too pretty."
         }
     },
     {
@@ -61666,7 +61666,6 @@ campaignTrail_temp.jet_data = [{
     "ending_data": {}
 }
 ]
-
 
 
 
