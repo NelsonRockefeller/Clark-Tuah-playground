@@ -278,6 +278,7 @@ document.head.innerHTML += `<style>
   :root {
     --window-background: initial !important;
     --window-background-color: initial !important;
+    --w7-w-bg: initial !important;
   }
 
   /* Base typography */
@@ -357,70 +358,6 @@ document.head.innerHTML += `<style>
   .overlay_window p {
     color: #333 !important;
     padding: 10px;
-  }
-
-  /* Rest of your existing styles remain unchanged */
-  #conquest_success_box {
-    width: 400px;
-    height: 100px;
-    border-radius: 4px;
-    border: 2px solid #4CAF50;
-    position: fixed;
-    right: 30px;
-    bottom: 30px;
-    display: none;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    z-index: 1000; 
-  }
-
-  #conquest_success_box.with-image {
-    color: white;
-    text-shadow: 0 1px 3px rgba(0,0,0,0.8);
-  }
-
-  #conquest_success_box.without-image {
-    background-color: #f0f8ff;
-  }
-
-  #conquest_success_box .popup-content {
-    text-align: center;
-    padding: 20px;
-    border-radius: 4px;
-  }
-
-  #conquest_success_box.with-image .popup-content {
-    background-color: rgba(0,0,0,0.5);
-  }
-
-  #conquest_success_box h3 {
-    margin: 0 0 8px 0;
-    font-size: 18px !important;
-    font-weight: bold !important;
-  }
-
-  #conquest_success_box.with-image h3 {
-    color: white !important;
-  }
-
-  #conquest_success_box.without-image h3 {
-    color: #2E7D32 !important;
-  }
-
-  #conquest_success_box p {
-    margin: 0;
-    font-size: 16px !important;
-  }
-
-  #conquest_success_box.with-image p {
-    color: white !important;
-  }
-
-  #conquest_success_box.without-image p {
-    color: #333 !important;
   }
 
   /* Layout components */
@@ -792,9 +729,15 @@ function createPlayerUI() {
     playerContainer.appendChild(createElement("div", "vista-title-bar", `
         <div class="vista-title-text">Windows Media Player</div>
         <div class="vista-title-controls">
-            <span class="vista-minimize">🗕</span>
-            <span class="vista-maximize">🗖</span>
-            <span class="vista-close">🗙</span>
+            <button class="vista-minimize">
+                <svg width="10" height="1" viewBox="0 0 10 1"><rect width="10" height="1" fill="currentColor"/></svg>
+            </button>
+            <button class="vista-maximize">
+                <svg width="10" height="10" viewBox="0 0 10 10"><rect x="0.5" y="0.5" width="9" height="9" fill="none" stroke="currentColor"/></svg>
+            </button>
+            <button class="vista-close">
+                <svg width="10" height="10" viewBox="0 0 10 10"><path d="M0,0 L10,10 M10,0 L0,10" stroke="currentColor" stroke-width="1.5"/></svg>
+            </button>
         </div>
     `));
 
@@ -1212,3 +1155,136 @@ document.head.appendChild(vistaStyle);
 initializePlayer();
 
 e = campaignTrail_temp
+
+campaignTrail_temp.achievements = {
+    "Go Wes Go" : {
+        "image" : "https://i.imgur.com/oAB1EMY.jpeg",
+        "description" : "Secure a second term.",
+        "cannotBeCheated" : true
+    },
+    "Titanomachy Reborn" : {
+        "image" : "https://i.imgur.com/kGsdtCk.jpeg",
+        "description" : "Go to war with Russia.",
+        "cannotBeCheated" : true
+    },
+    "Harbinger of Hades" : {
+        "image" : "https://i.imgur.com/3jopJRQ.jpeg",
+        "description" : "Let everything collapse and still win.",
+        "cannotBeCheated" : true
+    },
+    "The Last Oracle" : {
+      "image" : "https://i.imgur.com/hau1Y1a.jpeg",
+      "description" : "Save Lehman Brothers.",
+      "cannotBeCheated" : true
+    },
+    "Cast to the Underworld" : {
+      "image" : "https://i.imgur.com/LJHf7BJ.jpeg",
+      "description" : "Geronimo Geronimo Geronimo.",
+      "cannotBeCheated" : true
+    },
+    "Unmask a False Prophet" : {
+      "image" : "https://i.imgur.com/ZtlFsK6.jpeg",
+      "description" : "Defeat Sam Brownback.",
+      "cannotBeCheated" : true
+    },
+    "Heroism" : {
+      "image" : "https://i.imgur.com/UyraQpD.jpeg",
+      "description" : "Defeat Rudy Giuliani.",
+      "cannotBeCheated" : true
+    },
+    "Mortals vs the Divine" : {
+      "image" : "https://i.imgur.com/quhrxjo.jpeg",
+      "description" : "Defeat Mike Huckabee.",
+      "cannotBeCheated" : true
+    },
+    "Messiah" : {
+      "image" : "https://i.imgur.com/C0jhRYB.jpeg",
+      "description" : "Defeat Mike Pence.",
+      "cannotBeCheated" : true
+    },
+    "Absolute Hierarchy" : {
+      "image" : "https://i.imgur.com/i8XVNjs.jpeg",
+      "description" : "Defeat John McCain.",
+      "cannotBeCheated" : true
+    },
+    "Kingslayer" : {
+      "image" : "https://i.imgur.com/aECEkr5.jpeg",
+      "description" : "Defeat Jeb Bush.",
+      "cannotBeCheated" : true
+    },
+    "Weathered the Storm" : {
+      "image" : "https://i.imgur.com/52zAqEB.jpeg",
+      "description" : "Defeat Dick Cheney.",
+      "cannotBeCheated" : true
+    },
+    "Psychological Clarity" : {
+      "image" : "https://i.imgur.com/yde2Fie.jpeg",
+      "description" : "Defeat Ron Paul.",
+      "cannotBeCheated" : true
+    },
+    "Mirror Image" : {
+      "image" : "https://i.imgur.com/4EEyCOy.jpeg",
+      "description" : "Defeat Mitt Romney.",
+      "cannotBeCheated" : true
+    },
+    "Pulse Torn by Thunder" : {
+      "image" : "https://i.imgur.com/RHwaq59.jpeg",
+      "description" : "Give Dick Cheney a heart attack.",
+      "cannotBeCheated" : true
+    },
+    "A Hero Made, A Rival Unmade" : {
+      "image" : "https://i.imgur.com/XUHFPmF.jpeg",
+      "description" : "Help Lamont defeat Lieberman.",
+      "cannotBeCheated" : true
+    },
+    "Breaking from the Lineage" : {
+      "image" : "https://i.imgur.com/0vGjBC5.jpeg",
+      "description" : "Pass healthcare reform.",
+      "cannotBeCheated" : true
+    },
+    "Granita Delayed" : {
+      "image" : "https://i.imgur.com/Thu0DkS.jpeg",
+      "description" : "Save Tony Blair's career.",
+      "cannotBeCheated" : true
+    },
+    "Chaos Agents" : {
+      "image" : "https://i.imgur.com/1XoEx0n.jpeg",
+      "description" : "2008 Four-Way.",
+      "cannotBeCheated" : true
+    },
+    "Order & Anarchy" : {
+      "image" : "https://i.imgur.com/xt4mA33.jpeg",
+      "description" : "Help make Rick Santorum a household name.",
+      "cannotBeCheated" : true
+    },
+    "Vanguard of the Revolution" : {
+      "image" : "https://i.imgur.com/QVdYCJe.jpeg",
+      "description" : "Discard the past norms and save the world.",
+      "cannotBeCheated" : true
+    },
+    "Chronos Denied" : {
+      "image" : "https://i.imgur.com/RM3jfay.jpeg",
+      "description" : "Rebuke the naysayers and achieve generational change.",
+      "cannotBeCheated" : true
+    },
+    "Bow to Moira" : {
+      "image" : "https://i.imgur.com/FzsJjBv.jpeg",
+      "description" : "Let Hillary Clinton handle the economy.",
+      "cannotBeCheated" : true
+    },
+    "When Ares Walks Among Men" : {
+      "image" : "https://i.imgur.com/WEVTJz7.jpeg",
+      "description" : "Go to war with Iran.",
+      "cannotBeCheated" : true
+    },
+    "Conquistador" : {
+      "image" : "https://i.imgur.com/IFV2rMI.jpeg",
+      "description" : "Sweep the midterms.",
+      "cannotBeCheated" : true
+    },
+    "Ancestral Curses" : {
+      "image" : "https://i.imgur.com/Bhl2Joe.jpeg",
+      "description" : "Repeal Don't Ask, Don't Tell.",
+      "cannotBeCheated" : true
+    }
+}
