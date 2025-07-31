@@ -67612,9 +67612,117 @@ campaignTrail_temp.jet_data = [{
 }
 ]
 
+function ctsAchievement(achievement, difficultyChecker = true){
+  if (window.location.hostname !== 'campaigntrailshowcase.com'){
+    console.log("Not on right domain for achievements");
+    return;
+  } else if ((difficultyChecker && campaignTrail_temp.difficulty_level_multiplier<=1)||!difficultyChecker){
+      if(campaignTrail_temp.CTS){
+		    unlockAchievement(achievement);
+	    }
+    }
+}
 
+function unlockAchievement(name) {
+  const ach = findAchievementByName(name);
 
+  if (ach == null) {
+    console.log("There is no achievement with the name '" + name + "'");
+    return;
+  }
 
+  if (cheatsActive && ach.cannotBeCheated) {
+    console.log(`Would unlock '${name}' but won't because cheating!`);
+    return;
+  }
+
+  if (unlockedAch[name] == null) {
+    //alert("ACHIEVEMENT UNLOCKED: " + name);
+  }
+
+  showAchievement(name);
+  unlockedAch[name] = ach;
+  localStorage.setItem("unlockedAch", JSON.stringify(unlockedAch));
+  addAllAchievements();
+}
+
+function showAchievement(achievementKey) {
+  const achievement = campaignTrail_temp.achievements[achievementKey];
+
+  // Create the achievement box
+  const box = document.createElement('div');
+  Object.assign(box.style, {
+    position: "fixed",
+    bottom: "20px",
+    right: "20px",
+    width: "230px",
+    height: "110px",
+    backgroundColor: "#0A2463",
+    color: "#FFFFFF",
+    border: "2px solid #D4AF37",
+    borderRadius: "8px",
+    padding: "15px",
+    boxShadow: "0 0 10px rgba(10, 36, 99, 0.8)",
+    zIndex: "10000",
+    fontSize: "14px",
+    display: "flex",
+    alignItems: "center",
+    gap: "15px",
+    opacity: "0",
+    transition: "opacity 0.5s ease-in-out",
+    fontFamily: "'Segoe UI', Arial, sans-serif",
+    overflow: "hidden"
+  });
+
+  // Stack multiple achievements vertically
+  const existingBoxes = document.querySelectorAll('.achievement-popup');
+  const offset = existingBoxes.length * 120;
+  box.style.bottom = `${20 + offset}px`;
+
+  // Achievement image
+  const img = document.createElement('img');
+  img.src = achievement.image;
+  img.alt = achievementKey;
+  Object.assign(img.style, {
+    width: "80px",
+    height: "80px",
+    objectFit: "contain",
+    border: "1px solid #D4AF37",
+    borderRadius: "4px"
+  });
+
+  // Achievement title
+  const title = document.createElement('div');
+  title.innerHTML = `<strong style="font-size: 16px;">${achievementKey}</strong>`;
+  title.style.textAlign = "center";
+  title.style.width = "100%";
+
+  box.appendChild(img);
+  box.appendChild(title);
+  box.classList.add('achievement-popup');
+  document.body.appendChild(box);
+
+  // Fade in
+  setTimeout(() => { box.style.opacity = "1"; }, 10);
+
+  // Fade out and remove after 4 seconds
+  setTimeout(() => {
+    box.style.opacity = "0";
+    box.addEventListener('transitionend', () => {
+      box.remove();
+      adjustPopupPositions();
+    });
+  }, 4000);
+}
+
+function adjustPopupPositions() {
+  setTimeout(() => {
+    const boxes = document.querySelectorAll('.achievement-popup');
+    boxes.forEach((box, index) => {
+      box.style.bottom = `${20 + index * 120}px`;
+    });
+  }, 10);
+}
 
 e.cyoa = true
 var Dem = 0;
@@ -67805,40 +67913,6 @@ function swapAnswers(answersArray, targetQuestionId, answerToDisablePk, replacem
             answer.fields.question = targetQuestionId;
         }
     });
-}
-
-function conquestSuccessPopup(imageUrl = "") {
-    
-    if (window.location.hostname !== "campaigntrailshowcase.com") {
-        console.log(`Blocked popup - not on the right domain.`);
-        return;
-    }
-
-    if (0 == e.answer_feedback_flg) return;
-
-    var template = document.createElement("div");
-    template.id = "conquest_success_box";
-    template.className = imageUrl ? "with-image" : "without-image";
-    
-    if (imageUrl) {
-        template.style.background = `url('${imageUrl}') center/cover no-repeat`;
-    }
-
-    template.innerHTML = `
-        <div class="popup-content">
-            <h3>SUCCESSFUL CONQUEST!</h3>
-            <p>Check the Conquests page for details</p>
-        </div>`;
-    
-    document.body.appendChild(template);
-
-    $("#conquest_success_box").fadeIn(500);
-
-    window.setTimeout(function() {
-        $("#conquest_success_box").fadeOut(1000, function() {
-            $(this).remove();
-        });
-    }, 4000);
 }
 
 //Clark coloor
@@ -68127,53 +68201,67 @@ cyoAdventure = function(a) {
     //Wins to determine midterms
     if (ans == 5145 || ans == 5148 || ans == 5150 || ans == 5143 || ans == 20752 || ans == 5155 || ans == 20890 || ans == 23844 || ans == 22625 || ans == 23197 || ans == 24794) {
         Win += 1;
+        updateStatsPopup();
     }
     if (ans == 20740 || ans == 22670 || ans == 20755 || ans == 23832 || ans == 21037) {
         Win += 2;
+        updateStatsPopup();
     }
     if (ans == 22940) {
         Win += 3;
+        updateStatsPopup();
     }
     if (ans == 5144 || ans == 23192 || ans == 22622 || ans == 22632) {
         Win -= 1;
+        updateStatsPopup();
     }
     if (ans == 23202) {
         Win -= 2;
+        updateStatsPopup();
     }
 
     // Domestic Agenda passed tracker
     if (ans == 255046 || ans == 255017 || ans == 5144 || ans == 5145 || ans == 255248 || ans == 5148 || ans == 22670 || ans == 22460 || ans == 20890 || ans == 22475 || ans == 22479 || ans == 22483 || ans == 22490 || ans == 23781 || ans == 23772 || ans == 23790 || ans == 5155 || ans == 5149 || ans == 20934 || ans == 20943 || ans == 24635 || ans == 24700 || ans == 24704 || ans == 24713 || ans == 24726 || ans == 24730 || ans == 24734 || ans == 24794) {
         Agenda += 1;
+        updateStatsPopup();
     }
 
     //Foreign policy successes
     if (ans == 254784 || ans == 254760 || ans == 254767 || ans == 254675 || ans == 254665 || ans == 254660 || ans == 254650 || ans == 254622 || ans == 254628 || ans == 25448 || ans == 25444 || ans == 25435 || ans == 25431 || ans == 22853 || ans == 20915 || ans == 20924 || ans == 5190 || ans == 5147 || ans == 22758 || ans == 22043 || ans == 5150 || ans == 20877 || ans == 24059 || ans == 24062 || ans == 23695 || ans == 20946 || ans == 24170 || ans == 24768 || ans == 24772 || ans == 24764 || ans == 24776 || ans == 24780 || ans == 24785 || ans == 24797 || ans == 24800) {
         Nato += 1;
+        updateStatsPopup();
     }
     if (ans == 254841 || ans == 22047 || ans == 254819 || ans == 23483 || ans == 22035 || ans == 22761 || ans == 24794 || ans == 25439) {
         Nato += 2;
+        updateStatsPopup();
     }
 
     //neoliberling
     if (ans == 20788 || ans == 5143 || ans == 255232 || ans == 255244 || ans == 255219 || ans == 254653 || ans == 254668 || ans == 20946 || ans == 24797 || ans == 22853 || ans == 20773 || ans == 20902 || ans == 22456 || ans == 22460 || ans == 22765 || ans == 24052 || ans == 24056 || ans == 24170 || ans == 5149 || ans == 22035 || ans == 22039 || ans == 24035 || ans == 24039) {
         Neo += 1;
+        updateStatsPopup();
     } 
     if (ans == 254657 || ans == 22765 || ans == 254675 || ans == 254660 || ans == 22768 || ans == 20747 || ans == 5262 || ans == 22761 || ans == 254672 ) {
         Neo += 2;
+        updateStatsPopup();
     }
 
     //rusher? i hardly even know her
     if (ans == 255128 || ans == 241502 || ans == 26669 || ans == 254775 || ans == 254751 || ans == 254703 || ans == 21552 || ans == 21561 || ans == 21566 || ans == 5237  || ans == 5235  || ans == 21471 || ans == 24150 || ans == 24158 || ans == 22580) {
         Russia += 2;
+        updateStatsPopup();
     } 
     if (ans == 254675  || ans == 254660  || ans == 241582  || ans == 241542  || ans == 241541  || ans == 254784  || ans == 254780  || ans == 254760  || ans == 254756  || ans == 254712  || ans == 254708  || ans == 5236  || ans == 24154 || ans == 21536 || ans == 22573 || ans == 20777 || ans == 22863 || ans == 24790) {
         Russia += 1;
+        updateStatsPopup();
     } 
     if (ans == 22584) {
         Russia += 3;
+        updateStatsPopup();
     } 
     if (ans == 24162) {
         Russia += 10;
+        updateStatsPopup();
     }
 
     //Boner is your speaker
@@ -68261,37 +68349,38 @@ cyoAdventure = function(a) {
     if (Nato == 1) {
         Merkel += 1;
     }
-}
+    }
 
-    // britain
-    if (e.noCounter == 9) {
-    if (Nato > 1 && Notroops == 1) {
-        Blair += 1;
+        // britain
+        if (e.noCounter == 9) {
+        if (Nato > 1 && Notroops == 1) {
+            Blair += 1;
+            ctsAchievement("Granita Delayed");
+        }
+        if (Nato < 2) {
+            Brown += 1;
+        }
     }
-    if (Nato < 2) {
-        Brown += 1;
-    }
-}
 
-    // France and Turkey elections
-    if (e.noCounter == 11) {
-    if (Nato < 3) {
-        Royal += 1;
+        // France and Turkey elections
+        if (e.noCounter == 11) {
+        if (Nato < 3) {
+            Royal += 1;
+        }
+        else if (Nato > 2) {
+            Sarkozy += 1;
+        }
+        if (Nato < 20) {
+            Gul += 1;
+        }
     }
-    else if (Nato > 2) {
-        Sarkozy += 1;
-    }
-    if (Nato < 20) {
-        Gul += 1;
-    }
-}
 
-    // France and Turkey elections
-    if (e.noCounter == 12) {
-    if (Nato > 3 && Blair == 0) {
-        Brown += 1;
+        // France and Turkey elections
+        if (e.noCounter == 12) {
+        if (Nato > 3 && Blair == 0) {
+            Brown += 1;
+        }
     }
-}
 
     ///pass your pet project that no one cares about
     if(ans == 22460 ){
@@ -68306,6 +68395,7 @@ cyoAdventure = function(a) {
     //do you save lehman bros
     if (ans == 254967 || ans == 254996 || ans == 255003 || ans == 255017 || ans == 255032 || ans == 255046) {
         Lehman += 1;
+        ctsAchievement("The Last Oracle");
     }
 
     // Fall out with killdawg means no HOLC for you loserrr
@@ -68363,11 +68453,6 @@ cyoAdventure = function(a) {
     //we got him
     if(ans == 24183 ){
         Kill += 1;
-    }
-
-    //popup for success
-    if (ans == 5148 || ans == 5149 || ans == 24794 || ans == 20890 || ans == 22670 || ans == 255248 || ans == 22460 ||  ans == 20935 || ans == 22479 || ans == 24704 || ans == 24730 ||  ans == 20943 || ans == 22483 || ans == 24734 || ans == 23772 ||  ans == 24635 || ans == 23781 || ans == 25093 || ans == 24183 || ans == 255057 || ans == 255054 || ans == 255060 || ans == 255084 || ans == 255099 || ans == 255114 || ans == 5246 || ans == 22053 || ans == 22507 || ans == 22555 || ans == 23718 || ans == 23733 || ans == 255118 || ans == 255103 || ans == 22057 || ans == 22511 || ans == 22559 || ans == 23722 || ans == 23737 || ans == 255121 || ans == 22514 || ans == 22562 || ans == 255124 || ans == 22565 || ans == 23728) {
-        conquestSuccessPopup("https://i.imgur.com/sR974Lg.gif");
     }
 
     //shitty way of making admin tab work
@@ -69596,6 +69681,52 @@ cyoAdventure = function(a) {
         e.WinPopup = "wes its glup shitto, i lost";
         e.LosePopup = "glup shitto its wes, i lost";
     }
+
+    //achievement checks
+    //help Lamont
+    if (ans == 5184 || ans == 20755) {
+        ctsAchievement("A Hero Made, A Rival Unmade");
+    }
+    //mid healthcare reform
+    if (ans == 22483) {
+        ctsAchievement("Breaking from the Lineage");
+    }
+    //repeal DADT
+    if (ans == 24726 || ans == 22475 || ans == 24700 || ans == 24713) {
+        ctsAchievement("Ancestral Curses");
+    }
+    //midterm sweep
+    if (e.noCounter == 7 && Win > 7){
+        ctsAchievement("Conquistador");
+    }
+    //iran war
+    if (ans == 25094) {
+        ctsAchievement("When Ares Walks Among Men");
+    }
+    //cheney heart attack
+    if (ans == 24331) {
+        ctsAchievement("Pulse Torn by Thunder");
+    }
+    //kill osama
+    if (ans == 24183) {
+        ctsAchievement("Cast to the Underworld");
+    }
+    //hillary econ
+    if (ans == 255121 || ans == 22514 || ans == 22562) {
+        ctsAchievement("Bow to Moira");
+    }
+    //bernie econ
+    if (ans == 255124 || ans == 22565 || ans == 23728) {
+        ctsAchievement("Chronos Denied");
+    }
+    //boost santorum
+    if (ans == 24571){
+        ctsAchievement("Order & Anarchy");
+    }
+    //4way debate
+    if (Dem == 5 && Neo > 8 && e.player_answers.includes(24571)){
+        ctsAchievement("Chaos Agents");
+    }
 }
 
 function updateHistoricalData(newVpTable, newHexColors, newNames, newEvs, newPvs, newPvps) {
@@ -70204,6 +70335,44 @@ if (!e.initDC) {
 e.pages = []
 e.header = "";
 e.executable = []
+
+//achievements
+if (quickstats[0] >= 270){
+    ctsAchievement("Go Wes Go");
+}
+
+if (quickstats[0] >= 270 && Dem == 8){
+    ctsAchievement("Weathered the Storm");
+}else if (quickstats[0] >= 270 && Dem == 7){
+    ctsAchievement("Unmask a False Prophet");
+}else if (quickstats[0] >= 270 && Dem == 6){
+    ctsAchievement("Mortals vs the Divine");
+}else if (quickstats[0] >= 270 && Dem == 5){
+    ctsAchievement("Psychological Clarity");
+}else if (quickstats[0] >= 270 && Dem == 4){
+    ctsAchievement("Heroism");
+}else if (quickstats[0] >= 270 && Dem == 4 && Messiah == 1){
+    ctsAchievement("Messiah");
+}else if (quickstats[0] >= 270 && Dem == 3){
+    ctsAchievement("Kingslayer");
+}else if (quickstats[0] >= 270 && Dem == 2){
+    ctsAchievement("Mirror Image");
+}else if (quickstats[0] >= 270 && Dem == 1){
+    ctsAchievement("Absolute Hierarchy");
+}
+
+if (e.player_answers.includes(24162) || e.player_answers.includes(22610)){
+    ctsAchievement("Titanomachy Reborn");
+}
+
+if (quickstats[0] >= 270 && Fred == 0 && Econ == 0 && Lehman == 0){
+    ctsAchievement("Harbinger of Hades");
+}
+
+if (quickstats[0] >= 270 && Lehman == 1 && Econ == 4){
+    ctsAchievement("Vanguard of the Revolution");
+}
+
 
 //LANDSLIDE DEFEAT
 if (aa[0].electoral_votes < 270 && Dem > 0 && War == 1) { // ww3 loss - 
@@ -71202,85 +71371,285 @@ return construct(0);
 
 e=campaignTrail_temp
 
-function addHeadquarterButton() {
-    // Check if the button already exists
-    if (document.getElementById('headquarter_button')) {
-        return;
-    }
+const box = document.createElement('div');
+box.id = 'draggable-box';
+box.className = 'game-stats-popup';
 
-    // Find the reference button by its ID
-    const refButton = document.getElementById('view_electoral_map');
-    if (!refButton) {
-        return;
-    }
+// Apply military/commander-in-chief styling
+Object.assign(box.style, {
+    position: "fixed",
+    bottom: "20px",
+    right: "20px",
+    width: "230px", // Slightly wider for better readability
+    height: "270px",
+    backgroundColor: "#0A2463", // Dark blue background
+    color: "#FFFFFF", // White text
+    border: "2px solid #D4AF37", // Gold border
+    borderRadius: "8px",
+    padding: "10px",
+    boxShadow: "0 0 10px rgba(10, 36, 99, 0.8)",
+    zIndex: "10000",
+    fontSize: "14px",
+    display: "block",
+    cursor: "move",
+    overflowY: "visible",
+    fontFamily: "'Segoe UI', Arial, sans-serif" // Clean modern font
+});
 
-    // Create a new button element
-    let buttonlabel = 'Your Administration';
+// Add military-style title
+const title = document.createElement('div');
+title.textContent = 'STATUS REPORT';
+Object.assign(title.style, {
+    textAlign: 'center',
+    fontFamily: "'Arial Narrow', sans-serif",
+    fontWeight: 'bold',
+    letterSpacing: '1px',
+    background: "linear-gradient(90deg, #0A2463 0%, #D4AF37 50%, #0A2463 100%)",
+    color: "white",
+    padding: "5px",
+    margin: "-10px -10px 15px -10px", // Bleed to edges
+    fontSize: "15px",
+    textTransform: "uppercase",
+    borderTopLeftRadius: "6px", // Match parent border radius
+    borderTopRightRadius: "6px"
+});
+box.appendChild(title);
+
+// Add NATO-style watermark
+const watermark = document.createElement('div');
+watermark.innerHTML = '★';
+watermark.style.position = 'absolute';
+watermark.style.opacity = '0.1';
+watermark.style.fontSize = '100px';
+watermark.style.top = '50%';
+watermark.style.left = '50%';
+watermark.style.transform = 'translate(-50%, -50%)';
+watermark.style.pointerEvents = 'none'; // Allow clicks to pass through
+box.appendChild(watermark);
+
+// Add close button (like Windows Media Player)
+const closeBtn = document.createElement('div');
+closeBtn.innerHTML = '×';
+closeBtn.style.position = 'absolute';
+closeBtn.style.top = '5px';
+closeBtn.style.right = '10px';
+closeBtn.style.cursor = 'pointer';
+closeBtn.style.fontSize = '18px';
+closeBtn.style.color = '#D4AF37';
+closeBtn.onclick = () => box.style.display = 'none';
+box.appendChild(closeBtn);
+
+// Create content container
+const content = document.createElement('div');
+box.appendChild(content);
+
+document.body.appendChild(box);
+
+// Draggable functionality
+let isDragging = false;
+let offsetX = 0, offsetY = 0;
+
+box.addEventListener('mousedown', (e) => {
+    if (e.target === closeBtn) return; // Don't drag when clicking close button
+    isDragging = true;
+    offsetX = e.clientX - box.getBoundingClientRect().left;
+    offsetY = e.clientY - box.getBoundingClientRect().top;
+    box.style.transition = 'none';
+});
+
+document.addEventListener('mousemove', (e) => {
+    if (isDragging) {
+        box.style.left = `${e.clientX - offsetX}px`;
+        box.style.top = `${e.clientY - offsetY}px`;
+        box.style.right = 'auto';
+        box.style.bottom = 'auto';
+    }
+});
+
+document.addEventListener('mouseup', () => {
+    isDragging = false;
+    box.style.transition = 'all 0.1s ease';
+});
+
+function injectTooltipStyles() {
+    if (document.getElementById("tooltipStyles")) return;
+
+    const style = document.createElement("style");
+    style.id = "tooltipStyles";
+    style.textContent = `
+        .hover-value {
+            border-bottom: 1px dotted #D4AF37; /* Gold underline */
+            cursor: help;
+            position: relative;
+        }
+
+        .hover-value::after {
+            content: attr(data-tooltip);
+            position: absolute;
+            background: #0A2463; /* Dark blue */
+            color: #FFFFFF;
+            padding: 6px 10px;
+            font-size: 13px;
+            font-family: 'Courier New', monospace; /* Intel report style */
+            border: 1px solid #D4AF37; /* Gold border */
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.5);
+            white-space: nowrap;
+            opacity: 0;
+            pointer-events: none;
+            top: -32px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 10001;
+            transition: opacity 0.2s ease-in-out;
+        }
+
+        .hover-value:hover::after {
+            opacity: 1;
+        }
+        
+        .stat-row {
+            margin: 10px 0;
+            padding: 5px;
+            background: rgba(255, 255, 255, 0.1); 
+            border-left: 3px solid #D4AF37; 
+            line-height: 1.4;
+            transition: background 0.2s ease;
+        }
+
+        .stat-row:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+    `;
+    document.head.appendChild(style);
+}
+
+// Variable descriptions for tooltips
+const VARIABLE_DESCRIPTIONS = {
+    'victories': 'Major victories achieved during term',
+    'conquests': 'Progress on Clark administration agenda',
+    'neoliberalism': 'How much neoliberals have influenced your administration',
+    'nato leverage': 'How much control do you exert over your allies',
+    'russian hostility': 'Diplomatic tension with Russia'
+};
+
+function createScoreElement(label, value, container) {
+    injectTooltipStyles();
     
+    let statusMessage;
+    switch(label.toLowerCase()) {
+        case 'victories':
+            statusMessage = value > 8 ? `You've conquered Olympus` :
+                          value > 3 ? `You've collected the spoils` :
+                          `You lament`;
+            break;
+        case 'conquests':
+            statusMessage = value > 5 ? `Congress bows before you` :
+                          value > 1 ? `Congress is weak but brave enough to stand in your way` :
+                          `Congress smells weakness and is unwilling to yield an inch`;
+            break;
+        case 'neoliberalism':
+            statusMessage = value > 5 ? `You've embraced neoliberalism` :
+                          value > 2 ? `You've let neoliberal allies sway your decisions` :
+                          `Neoliberals feel left out of your administration`;
+            break;
+        case 'nato leverage':
+            statusMessage = value > 5 ? `You have full command of NATO after impressing your allies` :
+                          value > 2 ? `NATO respects you after exercising leadership` :
+                          `NATO is reluctant to work with you`;
+            break;
+        case 'russian hostility':
+            statusMessage = value > 5 ? `Cracks in the Earth are forming after you've torched relations` :
+                          value > 2 ? `Putin is furious with your reckless antics` :
+                          `The Russian menace is calm but suspicious of you`;
+            break;
+        default:
+            statusMessage = `${value}`;
+    }
+
+    const row = document.createElement('div');
+    row.className = 'stat-row';
+    row.innerHTML = `
+        <span class="hover-value" data-tooltip="${VARIABLE_DESCRIPTIONS[label.toLowerCase()] || label}">
+            ${label}
+        </span>: 
+        <span class="hover-value" data-tooltip="${statusMessage}">
+            ${value}
+        </span>
+    `;
+    
+    container.appendChild(row);
+}
+
+function updateStatsPopup() {
+    content.innerHTML = '';
+    createScoreElement('Victories', Win, content);
+    createScoreElement('Conquests', Agenda, content);
+    createScoreElement('Neoliberalism', Neo, content);
+    createScoreElement('NATO Leverage', Nato, content);
+    createScoreElement('Russian Hostility', Russia, content);
+}
+
+window.updateStatsPopup = updateStatsPopup;
+updateStatsPopup();
+
+function addHeadquarterButton() {
+    if (document.getElementById('headquarter_button')) return;
+
+    const refButton = document.getElementById('view_electoral_map');
+    if (!refButton) return;
+
+    let buttonlabel = 'Your Administration';
     if ([0, 7, 9, 14].includes(e.noCounter)) {
         buttonlabel = '<strong><span style="color: red;">!</span></strong> Your Administration';
     }
-    
-    const newButton = document.createElement('button');
-    
-    newButton.id = 'headquarter_button';
-    newButton.style.marginLeft = '1.5em';
-    
-    // Use template literals to correctly interpolate the buttonlabel
-    newButton.innerHTML = `${buttonlabel}`;
-    
-    // Attach the click event listener
-    newButton.addEventListener('click', openHeadquarter);
-    
-    // Insert the new button next to the reference button
-    refButton.insertAdjacentElement('afterend', newButton);
-}
 
-function getScoreMessage(label, value) { //dynamic text based on the value of the variable being tracked
-    switch(label.toLowerCase()) {
-        case 'wins':
-            if (value > 8) return `You've conquered Olympus with ${value} conquests!`;
-            else if (value > 3) return `You've collected the spoils from ${value} conquests.`;
-            else return `You lament at having made ${value} conquests.`;
-            
-        case 'agenda':
-            if (value > 5) return `Congress bows before you after having passed ${value} bills.`;
-            else if (value > 1) return `Congress is weak but brave enough to stand in your way after having passed ${value} bills.`;
-            else return `Congress smells weakness and is unwilling to yield an inch after having passed ${value} bills.`;
-            
-        case 'neolib':
-            if (value > 5) return `You've embraced neoliberalism ${value} times.`;
-            else if (value > 2) return `You've let neoliberal allies sway your decisions ${value} times.`;
-            else return `Neoliberals feel left out of your administration with ${value} influence.`;
-            
-        case 'nato':
-            if (value > 5) return `You have full command of NATO after impressing your allies ${value} times.`;
-            else if (value > 2) return `NATO respects you after exercising leadership ${value} times.`;
-            else return `NATO is reluctant to work with you after having made ${value} attempts to heal relations.`;
-            
-        case 'russia':
-            if (value > 5) return `Cracks in the Earth are forming after you've torched relations with Putin ${value} times.`;
-            else if (value > 2) return `Putin is furious with your reckless antics after having bent Russian relations ${value} times.`;
-            else return `The Russian menace is calm but suspicious of you after you've rocked relations ${value} times.`;
-            
-        default:
-            return `Your ${label} is ${value}`;
+    const newButton = document.createElement('button');
+    newButton.id = 'headquarter_button';
+    newButton.style.cssText = `
+        margin-left: 1.5em;
+        position: static !important;
+        display: inline-block !important;
+    `;
+    newButton.innerHTML = buttonlabel;
+    newButton.addEventListener('click', openHeadquarter);
+
+    // Insert in consistent position
+    if (document.getElementById('stats_popup_button')) {
+        document.getElementById('stats_popup_button').before(newButton);
+    } else {
+        refButton.insertAdjacentElement('afterend', newButton);
     }
 }
 
-function createScoreElement(label, value, parent) {
-    const element = document.createElement('p');
-    element.textContent = getScoreMessage(label, value);
-    
-    // Apply styling
-    element.style.color = 'white';
-    element.style.backgroundColor = 'rgba(23, 55, 107, 0.8)';
-    element.style.padding = '8px';
-    element.style.borderRadius = '5px';
-    element.style.margin = '3px';
-    element.classList.add('custom-p');
-    
-    parent.appendChild(element);
+function addStatsPopupButton() {
+    if (document.getElementById('stats_popup_button')) return;
+
+    const refButton = document.getElementById('headquarter_button') || 
+                    document.getElementById('view_electoral_map');
+    if (!refButton) return;
+
+    const newButton = document.createElement('button');
+    newButton.id = 'stats_popup_button';
+    newButton.style.cssText = `
+        margin-left: 1.5em;
+        position: static !important;
+        display: inline-block !important;
+    `;
+    newButton.innerHTML = 'Status Report';
+    newButton.addEventListener('click', toggleStatsPopup);
+
+    // Always insert after headquarter button
+    refButton.insertAdjacentElement('afterend', newButton);
+}
+
+function toggleStatsPopup() {
+    const box = document.getElementById('draggable-box');
+    if (box.style.display === 'none' || !box.style.display) {
+        box.style.display = 'block';
+    } else {
+        box.style.display = 'none';
+    }
 }
 
 function openHeadquarter() {
@@ -71383,8 +71752,213 @@ function openHeadquarter() {
     // Create inner divs for columns
     let leftCol = document.createElement('div');
     leftCol.style.width = '50%';
+    leftCol.style.display = 'flex'; // Make left column a flex container
+    leftCol.style.padding = '20px';
     leftCol.classList.add('custom-p');
     columnsDiv.appendChild(leftCol);
+
+    // Create container for the card deck and buttons (left side)
+    let cardDeckContainer = document.createElement('div');
+    cardDeckContainer.style.width = '40%';
+    cardDeckContainer.style.display = 'flex';
+    cardDeckContainer.style.flexDirection = 'column';
+    cardDeckContainer.style.alignItems = 'center';
+    cardDeckContainer.style.marginRight = '30px';
+    cardDeckContainer.style.marginLeft = '-30px';
+    
+    // Create card deck container
+    let deckContainer = document.createElement('div');
+    deckContainer.style.position = 'relative';
+    deckContainer.style.width = '150px';
+    deckContainer.style.height = '200px';
+    deckContainer.style.marginBottom = '20px';
+    
+    // Create deck back image
+    let deckBack = document.createElement('img');
+    deckBack.src = 'https://i.imgur.com/U0l9HXf.png'; // Replace with your deck back image
+    deckBack.style.width = '100%';
+    deckBack.style.height = '100%';
+    deckBack.style.objectFit = 'cover';
+    deckBack.style.borderRadius = '10px';
+    deckBack.style.border = '3px solid black';
+    deckBack.style.boxShadow = '0 4px 8px rgba(0,0,0,0.3)';
+    
+    // Create card front image (initially hidden)
+    let currentCardIndex = 0;
+    let cardFront = document.createElement('img');
+    cardFront.src = ''; // Will be set when cards are defined
+    cardFront.style.position = 'absolute';
+    cardFront.style.top = '-20px';
+    cardFront.style.left = '20px';
+    cardFront.style.width = '100%';
+    cardFront.style.height = '100%';
+    cardFront.style.objectFit = 'cover';
+    cardFront.style.borderRadius = '10px';
+    cardFront.style.border = '3px solid gold';
+    cardFront.style.boxShadow = '0 4px 8px rgba(0,0,0,0.3)';
+    cardFront.style.transform = 'rotate(-5deg)';
+    cardFront.style.transition = 'transform 0.3s ease';
+    cardFront.style.display = 'none';
+    
+    deckContainer.appendChild(deckBack);
+    deckContainer.appendChild(cardFront);
+    cardDeckContainer.appendChild(deckContainer);
+    
+    // Add card deck container to left column
+    leftCol.appendChild(cardDeckContainer);
+    
+    // Create card info container (right side of left column)
+    let cardInfoContainer = document.createElement('div');
+    cardInfoContainer.style.width = '60%';
+    cardInfoContainer.style.display = 'flex';
+    cardInfoContainer.style.flexDirection = 'column';
+    cardInfoContainer.style.alignItems = 'center';
+    
+    // Card name display
+    let cardNameDisplay = document.createElement('div');
+    cardNameDisplay.style.textAlign = 'center';
+    cardNameDisplay.style.marginBottom = '10px';
+    cardNameDisplay.style.padding = '8px';
+    cardNameDisplay.style.backgroundColor = 'rgba(23, 55, 107, 0.8)';
+    cardNameDisplay.style.color = 'white';
+    cardNameDisplay.style.borderRadius = '5px';
+    cardNameDisplay.style.fontWeight = 'bold';
+    cardNameDisplay.style.fontSize = '1.2em';
+    
+    // Card description
+    let cardDescription = document.createElement('div');
+    cardDescription.style.padding = '10px';
+    cardDescription.style.backgroundColor = 'rgba(23, 55, 107, 0.6)';
+    cardDescription.style.color = 'white';
+    cardDescription.style.borderRadius = '5px';
+    cardDescription.style.minHeight = '100px';
+    cardDescription.style.maxHeight = '100px';
+    cardDescription.style.minWidth = '250px';
+    cardDescription.style.maxWidth = '250px';
+    cardDescription.style.border = '1px solid rgba(255,255,255,0.2)';
+    cardDescription.style.marginBottom = '20px';
+    cardDescription.style.overflowY = 'auto';
+    
+    cardInfoContainer.appendChild(cardNameDisplay);
+    cardInfoContainer.appendChild(cardDescription);
+
+     // Create navigation buttons
+    let buttonContainer = document.createElement('div');
+    buttonContainer.style.display = 'flex';
+    buttonContainer.style.gap = '20px';
+    buttonContainer.style.marginBottom = '5px';
+    buttonContainer.style.justifyContent = 'center';
+    
+    let prevButton = document.createElement('button');
+    prevButton.innerText = 'Previous';
+    prevButton.style.padding = '8px 16px';
+    prevButton.style.backgroundColor = 'rgba(23, 55, 107, 0.8)';
+    prevButton.style.color = 'white';
+    prevButton.style.border = 'none';
+    prevButton.style.borderRadius = '5px';
+    prevButton.style.cursor = 'pointer';
+    
+    let nextButton = document.createElement('button');
+    nextButton.innerText = 'Next';
+    nextButton.style.padding = '8px 16px';
+    nextButton.style.backgroundColor = 'rgba(23, 55, 107, 0.8)';
+    nextButton.style.color = 'white';
+    nextButton.style.border = 'none';
+    nextButton.style.borderRadius = '5px';
+    nextButton.style.cursor = 'pointer';
+    
+    buttonContainer.appendChild(prevButton);
+    buttonContainer.appendChild(nextButton);
+    cardInfoContainer.appendChild(buttonContainer);
+
+    leftCol.appendChild(cardInfoContainer);
+    
+    // Define your cards data
+    const cards = [
+        {
+            name: "The Maverick",
+            image: "https://i.imgur.com/85QL4IE.png", 
+            description: "John McCain<br>Only one man in the running to take you on has a career slate as good as yours. Senator John McCain is a fellow war hero and an ideological oddity within the Republican ranks. The Arizona Senator specializes in singing doomsday carols about the situation in the Middle East and our national security. Don't fuel his candidacy."
+        },  
+        {
+            name: "The Commoner",
+            image: "https://i.imgur.com/RlKc5l4.png", 
+            description: "Mitt Romney<br>Deep behind Democratic lines and far from his conservative colleagues sits Governor Mitt Romney. If your total war strategy against the opposition appears successful, he might jump ship and head West, but like a chameleon, he's able to blend in with any background. If Mitt wants the nomination, he'll need the situation abroad to remain consistent; otherwise, his voice will be drowned out by the drums of war."
+        },  
+        {
+            name: "The King",
+            image: "https://i.imgur.com/3fj3ozH.jpeg", 
+            description: "Jeb Bush<br>Some things are just inevitable. The third member of the Bush Dynasty is poised to enter the presidential arena. Whether you choose to continue his brother's crusade in Iraq or leave it behind may influence his decision to bring glory back to the family name."
+        },
+        {
+            name: "The Hero",
+            image: "https://i.imgur.com/ScqvcbH.png", 
+            description: "Rudy Giuliani<br>Heroes are commonly found in fairy tales or comic books, but in the modern day, you need not look further than America's Mayor. Rudy Giuliani is the torchbearer of the Bush administration, and his campaign for president has already begun. If you rebuke the legacy set by your predecessor, he'll stand at the gates ready to avenge it."
+        },
+        {
+            name: "The Madman",
+            image: "https://i.imgur.com/BEXPgrK.png", 
+            description: "Ron Paul<br>The Republican Party's establishment infrastructure has collapsed, and while it rebuilds itself, the fringe nuts within are looking to feast upon its absence. Ron Paul spearheads the rageful anti-war, anti-spending, anti-everything movement that is looking to draw blood. If you continue the Bush Administration's worst deeds and jack up the spending, he could build the momentum to take the party by storm."
+        },
+        {
+            name: "The Hunter",
+            image: "https://i.imgur.com/a3ruglC.png", 
+            description: "Mike Huckabee<br>All studies and polling point to Mike Huckabee becoming your opponent. While the moderate wing of the Republican Party is barely able to stand its ground, the Christian Right is flourishing in cash and headlines. If you take on the issue of gay rights like you often claimed, you'd solidify his position as a hawkish evangelical preacher. Democratic analysts, however, are frothing at the mouth of his potential candidacy, believing his liabilities will serve to make him \"their McGovern.\""
+        },
+        {
+            name: "The God Warrior",
+            image: "https://i.imgur.com/T3nwO2g.png", 
+            description: "Sam Brownback<br>Senator Sam Brownback of Kansas is, in fact, a nobody, only mentioned as a highly respectable bipartisan figure because of Landrieu's friendship with the man as part of the Common Ground Coalition. Advisors couldn't pin a path toward the nomination beyond divine intervention. While rags-to-riches stories aren't impossible in politics, this case would need to rapidly transform his politics to make an impact on the national scene."
+        },
+        {
+            name: "The Storm",
+            image: "https://i.imgur.com/pqnVkir.gif", 
+            description: "The Republican National Convention could serve as your last hope of political salvation. Campaign strategists have observed the Republican Party's ideological balance, and the scales often tip in various directions. If you pull them across different ideological spectrums at a rate where no candidate can establish a firm footing, you could cause a deadlock. However, such a strategy could cause the whiplash of your own choices to come back and strike you down.."
+        }
+    ];
+    
+    // Function to update displayed card
+    function updateCard(index) {
+        if (index >= 0 && index < cards.length) {
+            currentCardIndex = index;
+            const card = cards[currentCardIndex];
+            
+            cardFront.src = card.image;
+            cardFront.style.display = 'block';
+            cardNameDisplay.textContent = card.name;
+            cardDescription.innerHTML = card.description;
+            
+            // Disable/enable buttons based on position
+            prevButton.disabled = index === 0;
+            nextButton.disabled = index === cards.length - 1;
+        }
+    }
+    
+    // Button event handlers
+    prevButton.onclick = function() {
+        if (currentCardIndex > 0) {
+            updateCard(currentCardIndex - 1);
+            // Add animation
+            cardFront.style.transform = 'translateX(-20px) rotate(-10deg)';
+            setTimeout(() => {
+                cardFront.style.transform = 'translateX(0) rotate(-5deg)';
+            }, 300);
+        }
+    };
+    
+    nextButton.onclick = function() {
+        if (currentCardIndex < cards.length - 1) {
+            updateCard(currentCardIndex + 1);
+            // Add animation
+            cardFront.style.transform = 'translateX(20px) rotate(0deg)';
+            setTimeout(() => {
+                cardFront.style.transform = 'translateX(0) rotate(-5deg)';
+            }, 300);
+        }
+    };
+    
+    // Initialize with first card
+    updateCard(0)
 
     let rightCol = document.createElement('div');
     rightCol.style.width = '50%';
@@ -71394,13 +71968,6 @@ function openHeadquarter() {
     hqDiv.appendChild(columnsDiv);
 
     questions.parentNode.insertBefore(hqDiv, questions.nextSibling);
-
-    // Create Bulk of the Text
-    createScoreElement('wins', Win, leftCol);
-    createScoreElement('agenda', Agenda, leftCol);
-    createScoreElement('neolib', Neo, leftCol);
-    createScoreElement('nato', Nato, leftCol);
-    createScoreElement('russia', Russia, leftCol);
 
     // Style the right column for image-text pairs
     rightCol.style.display = 'flex';
@@ -71418,18 +71985,18 @@ function openHeadquarter() {
 
     let img1 = document.createElement('img');
     let speakerImage = 'https://i.imgur.com/ujzIE4A.png';
-    let speakerName = 'Dennis Hastert';
+    let speakerName = 'Dennis Hastert<br><small><style="color:red";>Republican</style> - Illinois</small>';
 
     if (typeof speakerDetermined !== 'undefined' && speakerDetermined) {
         if (Win > 7) {
             speakerImage = 'https://i.imgur.com/U8Jhc8t.png';
-            speakerName = 'Nancy Pelosi<br><small>Clever girl</small>';
+            speakerName = 'Nancy Pelosi<br><small><style="color:blue";>Democrat</style> - California</small><br><small>Clever girl</small>';
         } else if (Win > 5) {
             speakerImage = 'https://i.imgur.com/egn6waw.png';
-            speakerName = 'John Boehner<br><small>Pain in the ass</small>';
+            speakerName = 'John Boehner<br><small><style="color:red";>Republican</style> - Ohio</small><br><small>Pain in the ass</small>';
         } else {
             speakerImage = 'https://i.imgur.com/JDDpRwY.png';
-            speakerName = 'Roy Blunt<br><small>Obstructionist cuck</small>';
+            speakerName = 'Roy Blunt<br><small><style="color:red";>Republican</style> - Missuouri</small><br><small>Obstructionist cuck</small>';
         }
     }
 
@@ -71462,11 +72029,11 @@ function openHeadquarter() {
     pair2.style.width = '100%';
 
     let img2 = document.createElement('img');
-    let foeImage = 'https://i.imgur.com/b0zFCwh.gif';
-    let foeName = 'Satan';
-    let foeLabel = 'Likely Foe';
+    let foeImage = 'https://i.imgur.com/ut5Zwxu.png';
+    let foeName = 'Tom Daschle<br><small>Democrat - South Dakota</small>';
+    let foeLabel = 'Senate Majority Leader';
 
-    if (!foeDetermined) {
+    /* if (!foeDetermined) {
         if (Notroops > 0 && Loyalist > 0 && Gay > 0 && Dumb > 0) {
             foeImage = 'https://i.imgur.com/zZxfLYU.png';
             foeName = 'The Storm';
@@ -71476,7 +72043,7 @@ function openHeadquarter() {
         } else if (Troops > 0 && Patriot > 0 && Tax > 0) {
             foeImage = 'https://i.imgur.com/xpXhQCf.png';
             foeName = 'The Madman';
-        } else if (Notroops > 0 && Gay > 0) {
+        } else if (Notroops > 0 && Loyalist > 0 && Gay > 0) {
             foeImage = 'https://i.imgur.com/xfCwi5O.png';
             foeName = 'The Hunter';
         } else if (Notroops > 0 && Loyalist > 0) {
@@ -71540,7 +72107,7 @@ function openHeadquarter() {
 
     if (foeDetermined) {
         foeLabel = 'Your Foe';
-    }
+    } */
 
     img2.src = foeImage;
     img2.style.width = '100px';
@@ -73163,7 +73730,8 @@ function handleMutations(mutationsList, observer) {
     if (observerRunning) return;
     observerRunning = true;
 
-    addHeadquarterButton()
+    addHeadquarterButton();
+    addStatsPopupButton();
 
     observer.observe(document.documentElement, { childList: true, subtree: true });
     observerRunning = false;
