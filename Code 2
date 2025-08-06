@@ -70558,11 +70558,11 @@ newVpTableHistorical22 = { //Romney/palin
     "⠀Dennis Kucinich" : "Rosa Clemente",
     "⠀Bob Barr" : "Wayne Root",
 };
-newHistHexcolour2 = ["#d3545a","#4b7db6","#76cc70","#b2b27b" ];
-newHistName2 = ["⠀Mitt Romney","⠀Wesley K. Clark","⠀Dennis Kucinich","⠀Bob Barr"];
-newHistEV2 = [308,230,0,0];
-newHistPV2 = [" ", " ", " ", " "];
-newHistPVP2 = [" ", " ", " ", " "];
+newHistHexcolour22 = ["#d3545a","#4b7db6","#76cc70","#b2b27b" ];
+newHistName22 = ["⠀Mitt Romney","⠀Wesley K. Clark","⠀Dennis Kucinich","⠀Bob Barr"];
+newHistEV22 = [308,230,0,0];
+newHistPV22 = [" ", " ", " ", " "];
+newHistPVP22 = [" ", " ", " ", " "];
 
 newVpTableHistorical3 = { //Huckabee
     "⠀Wesley K. Clark" : "Mary Landrieu",
