@@ -69147,7 +69147,7 @@ cyoAdventure = function(a) {
     }
 
     //ww3 baybee
-    if(ans == 24162 || ans == 22610 ){
+    if(ans == 24223 || ans == 22610 ){
         War += 1;
     }
 
