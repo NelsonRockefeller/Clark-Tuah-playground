@@ -68332,7 +68332,117 @@ campaignTrail_temp.jet_data = [{
 }
 ]
 
+function ctsAchievement(achievement, difficultyChecker = true){
+  if (window.location.hostname !== 'campaigntrailshowcase.com'){
+    console.log("Not on right domain for achievements");
+    return;
+  } else if ((difficultyChecker && campaignTrail_temp.difficulty_level_multiplier<=1)||!difficultyChecker){
+      if(campaignTrail_temp.CTS){
+		    unlockAchievement(achievement);
+	    }
+    }
+}
 
+function unlockAchievement(name) {
+  const ach = findAchievementByName(name);
+
+  if (ach == null) {
+    console.log("There is no achievement with the name '" + name + "'");
+    return;
+  }
+
+  if (cheatsActive && ach.cannotBeCheated) {
+    console.log(`Would unlock '${name}' but won't because cheating!`);
+    return;
+  }
+
+  if (unlockedAch[name] == null) {
+    //alert("ACHIEVEMENT UNLOCKED: " + name);
+  }
+
+  showAchievement(name);
+  unlockedAch[name] = ach;
+  localStorage.setItem("unlockedAch", JSON.stringify(unlockedAch));
+  addAllAchievements();
+}
+
+function showAchievement(achievementKey) {
+  const achievement = campaignTrail_temp.achievements[achievementKey];
+
+  // Create the achievement box
+  const box = document.createElement('div');
+  Object.assign(box.style, {
+    position: "fixed",
+    bottom: "20px",
+    right: "20px",
+    width: "230px",
+    height: "110px",
+    backgroundColor: "#0A2463",
+    color: "#FFFFFF",
+    border: "2px solid #D4AF37",
+    borderRadius: "8px",
+    padding: "15px",
+    boxShadow: "0 0 10px rgba(10, 36, 99, 0.8)",
+    zIndex: "10000",
+    fontSize: "14px",
+    display: "flex",
+    alignItems: "center",
+    gap: "15px",
+    opacity: "0",
+    transition: "opacity 0.5s ease-in-out",
+    fontFamily: "'Segoe UI', Arial, sans-serif",
+    overflow: "hidden"
+  });
+
+  // Stack multiple achievements vertically
+  const existingBoxes = document.querySelectorAll('.achievement-popup');
+  const offset = existingBoxes.length * 120;
+  box.style.bottom = `${20 + offset}px`;
+
+  // Achievement image
+  const img = document.createElement('img');
+  img.src = achievement.image;
+  img.alt = achievementKey;
+  Object.assign(img.style, {
+    width: "80px",
+    height: "80px",
+    objectFit: "contain",
+    border: "1px solid #D4AF37",
+    borderRadius: "4px"
+  });
+
+  // Achievement title
+  const title = document.createElement('div');
+  title.innerHTML = `<strong style="font-size: 16px;">${achievementKey}</strong>`;
+  title.style.textAlign = "center";
+  title.style.width = "100%";
+
+  box.appendChild(img);
+  box.appendChild(title);
+  box.classList.add('achievement-popup');
+  document.body.appendChild(box);
+
+  // Fade in
+  setTimeout(() => { box.style.opacity = "1"; }, 10);
+
+  // Fade out and remove after 4 seconds
+  setTimeout(() => {
+    box.style.opacity = "0";
+    box.addEventListener('transitionend', () => {
+      box.remove();
+      adjustPopupPositions();
+    });
+  }, 4000);
+}
+
+function adjustPopupPositions() {
+  setTimeout(() => {
+    const boxes = document.querySelectorAll('.achievement-popup');
+    boxes.forEach((box, index) => {
+      box.style.bottom = `${20 + index * 120}px`;
+    });
+  }, 10);
+}
 
 
 e.cyoa = true
@@ -68385,6 +68495,7 @@ var Kill = 0;
 var War = 0;
 var speakerDetermined = false;
 var foeDetermined = false;
+var jonked = 0;
 e.noCounter = 0
 
 e = campaignTrail_temp
@@ -69380,11 +69491,12 @@ cyoAdventure = function(a) {
             campaignTrail_temp.questions_json[14] = tunnel(21228); 
         }
         else if (Troops > 0 && Win < 8) {
-            updateHistoricalData(newVpTableHistorical2, newHistHexcolour2, newHistName2, newHistEV2, newHistPV2, newHistPVP2);
+            updateHistoricalData(newVpTableHistorical22, newHistHexcolour22, newHistName22, newHistEV22, newHistPV22, newHistPVP22);
 
             switcheroo2();
             switcheroo17();
             switcheroo22();
+            vpTable["Mitt Romney"] = "Sarah Palin";
             Dem += 2;  
             campaignTrail_temp.questions_json[14] = tunnel(255844); 
         }
@@ -70184,6 +70296,7 @@ cyoAdventure = function(a) {
             switcheroo102();
             switcheroo103();
             switcheroo104();
+            jonked += 1;
         }
         else if (War > 0 && Dem > 0) {
             campaignTrail_temp.questions_json[27] = tunnel(24222); 
@@ -70302,7 +70415,7 @@ cyoAdventure = function(a) {
 
     //achievement checks
     //help Lamont
-    if (ans == 5184 || ans == 20755) {
+    if (e.noCounter == 7 && Win > 5 && (ans == 5184 || ans == 20755)) {
         ctsAchievement("A Hero Made, A Rival Unmade");
     }
     //mid healthcare reform
@@ -70427,7 +70540,7 @@ newHistEV1 = [371,167,0,0];
 newHistPV1 = [" ", " ", " ", " "];
 newHistPVP1 = [" ", " ", " ", " "];
 
-newVpTableHistorical2 = { //Romney
+newVpTableHistorical2 = { //Romney/crist
     "⠀Mitt Romney" : "Charlie Crist",
     "⠀Wesley K. Clark" : "Mary Landrieu",
     "⠀Dennis Kucinich" : "Rosa Clemente",
@@ -70436,6 +70549,18 @@ newVpTableHistorical2 = { //Romney
 newHistHexcolour2 = ["#d3545a","#4b7db6","#76cc70","#b2b27b" ];
 newHistName2 = ["⠀Mitt Romney","⠀Wesley K. Clark","⠀Dennis Kucinich","⠀Bob Barr"];
 newHistEV2 = [382,156,0,0];
+newHistPV2 = [" ", " ", " ", " "];
+newHistPVP2 = [" ", " ", " ", " "];
+
+newVpTableHistorical22 = { //Romney/palin
+    "⠀Mitt Romney" : "Sarah Palin",
+    "⠀Wesley K. Clark" : "Mary Landrieu",
+    "⠀Dennis Kucinich" : "Rosa Clemente",
+    "⠀Bob Barr" : "Wayne Root",
+};
+newHistHexcolour2 = ["#d3545a","#4b7db6","#76cc70","#b2b27b" ];
+newHistName2 = ["⠀Mitt Romney","⠀Wesley K. Clark","⠀Dennis Kucinich","⠀Bob Barr"];
+newHistEV2 = [308,230,0,0];
 newHistPV2 = [" ", " ", " ", " "];
 newHistPVP2 = [" ", " ", " ", " "];
 
@@ -70932,22 +71057,26 @@ const { santorumWinsAlabama, gravelWinsAlaska } = campaignResults;
 if (!e.initDC) {
     e.initDC = true;
     
-    if (e.player_answers.includes(21146) || e.player_answers.includes(22333) || e.player_answers.includes(22390)) {
-        if (Neo > 7 && Neo <= 9 && !santorumWinsAlabama) {
-            changeState(1000, 202, 2); //2 Alabama for Santorum
-        }
-        else if (Neo > 9) {
-            if (!santorumWinsAlabama && !gravelWinsAlaska) {
+    if (jonked === 0) {
+        if (e.player_answers.includes(21146) || e.player_answers.includes(22333) || e.player_answers.includes(22390)) {
+            if (Neo > 7 && Neo <= 9 && !santorumWinsAlabama) {
                 changeState(1000, 202, 2); //2 Alabama for Santorum
-                changeState(1044, 203, 1); //1 Alaska for Gravel
             }
-            else if (santorumWinsAlabama && !gravelWinsAlaska) {
-                changeState(1044, 203, 1); //1 Alaska for Gravel
+            else if (Neo > 9) {
+                if (!santorumWinsAlabama && !gravelWinsAlaska) {
+                    changeState(1000, 202, 2); //2 Alabama for Santorum
+                    changeState(1044, 203, 1); //1 Alaska for Gravel
+                }
+                else if (santorumWinsAlabama && !gravelWinsAlaska) {
+                    changeState(1044, 203, 1); //1 Alaska for Gravel
+                }
+                else if (!santorumWinsAlabama && gravelWinsAlaska) {
+                    changeState(1000, 202, 2); //2 Alabama for Santorum
+                } 
             }
-            else if (!santorumWinsAlabama && gravelWinsAlaska) {
-                changeState(1000, 202, 2); //2 Alabama for Santorum
-            } 
         }
+    } else {
+        return;
     }
 }
 
@@ -70968,10 +71097,10 @@ if (quickstats[0] >= 270 && Dem == 8){
     ctsAchievement("Mortals vs the Divine");
 }else if (quickstats[0] >= 270 && Dem == 5){
     ctsAchievement("Psychological Clarity");
-}else if (quickstats[0] >= 270 && Dem == 4){
-    ctsAchievement("Heroism");
 }else if (quickstats[0] >= 270 && Dem == 4 && Messiah == 1){
     ctsAchievement("Messiah");
+}else if (quickstats[0] >= 270 && Dem == 4){
+    ctsAchievement("Heroism");
 }else if (quickstats[0] >= 270 && Dem == 3){
     ctsAchievement("Kingslayer");
 }else if (quickstats[0] >= 270 && Dem == 2){
@@ -72019,7 +72148,7 @@ e.pages.push(`<h3><i>Dungeons and Dragons Presents</i></h3>
 <p><b>Character Name: </b>Joseph Wayne Miller</p><p><b>Level: </b>25</p><p><b>Race: </b>Dwarf </p><p><b>Class:</b> Champion</p><p><b>Total XP: </b>266,899</p><p><b>Age:</b> 45</p><p><b>Gender: </b>M</p><p><b>Alignment:</b> Chaotic Evil</p><p><b>Delty: </b>Kathleen Tompkins </p><p><b>ABILITY SCORES:</b></p><p><b>STR: </b>18</p><p><b>CON:</b> 6</p><p><b>DEX: </b>8</p><p><b>INT: </b>3</p><p><b>WIS: </b>1</p><p><b> CHA: </b>3</p><p><b>MAX HP:</b> 447</p><p><b>CURRENT HP: </b>244</p><p><b>SKILLS: </b></p><p>-Third Eye, Able to freely preach on issues most are not willing to touch. Used for calling climate change a hoax propped up by globalist nut jobs.</p><p>-Ghost Hunter, able to chase threats invisible to most but obvious to him. Often seen punching air.</p><p><b>FEATS: </b></p><p>–Slain the entrenched swamp monster creature Lisa Murkowski for daring to vote for President Clark's stimulus plan.</p><p>-Attacked the function of his senate race as illegitimate, claiming he'd abolish the 17th amendment, allowing for the direct election of United States Senators.</p><p>-Took on the Democrats' insidious plot to assassinate him by screaming about it on the Senate floor.</p><p>-Incited friend and Alaskan militia guru Schaefer Cox to kidnap several Alaskan judges and state troopers in a failed attempt to stall "socialist activist rulings." </p><p><b>Languages Known</b></p><p>English</p><p>Moronic</p><p>Spiritual</p><p><b>Equipment:</b></p><p>-Patriot Bullhorn used for galvanizing the voice of the people and claiming President Wesley K. Clark should adopt the border enforcement model created by East Germany to crack down on immigration.</p><p>-Tinfoil Hat Of Truth used for discovering Vice President Mary Landrieu's lesbian fling with Hillary Clinton inside the White House.</p><p>-Glassware of Visionaries used for identifying Richard Lugar as a Republican in name only and a "political prostitute" for not caving to every Tea Party demand.</p>`)
 e.executable.push([5, (() => {e.image = e.image = 'https://i.imgur.com/q4o0jCU.png'})])
 }
-else if ( quickstats[0] >= 269 && Econ > 0 Agenda > 3) { // 
+else if ( quickstats[0] >= 269 && Econ > 0 && Agenda > 3) { // 
 e.pages.push(`<h3>Jeffness Blogging: <i>Doom-and-Gloomberg</i></h3>
 <p>Nothing surpasses my sheer disappointment more than seeing Republican primary returns nowadays. Every day I'm forced to hear Republicans shout, "THIS IS THE GUY WHO CAN DEFEAT MARY LANDRIEU!" Yes, I'm guilty of it just as much as anyone else, but seriously, Floridians chose to back Mayor Michael Bloomberg? I'm tired of hearing this because NO, this is not the best man suited to close the chapter on Democratic dominance, and I'm not willing to play into delusions.</p><p>And so the benchwarmer candidates are beginning to peel away from their runs for president, hoping to either secure the moderate banner of the Republican Party with Bloomberg or hitch a last-ditch effort to stop him by backing Michelle Bachmann's Bible backed bid. Huntsman, Perry, and Paul are looking more flimsy by the day, so it's only a matter of time until they cash out.</p><p>Here's where all the fan boys of fat fuck Haley Barbour will come in, saying he's gonna surge in the polls. Holy hell, he came in fourth in Iowa. He's undoubtedly the answer America is looking for! I don't give a damn about loser candidates. Last time I checked, there was no bronze medal given out for coming in fourth place. Let's not hype up clowns like this.</p><p>Begrudgingly, I'm beginning to accept that independent minds like mine are never going to get our voices heard in politics. I'm sure as hell not going to back bat shit crazy Bachmann and her "blessed by the lord" run for president. I'm all for a woman running for president, but damn crazy like that lady might just make me vote for Landrieu instead.</p><p>Well, here we are at our only "viable" choice left on the table. Michael Bloomberg. If you forced me to describe my feelings for his candidacy in just a few sentences, I'd come to you with this.</p><p><b>● Bloomberg is nearly a Democrat in Republican clothing; he and Vice President Mary Landrieu widely agree on most issues, and where they differ is on issues like the environment or immigration, where more often than not, the Democrats sound more conservative!</b></p><p><b>● His candidacy is sitting ducks when it comes to trade and confronting China. While the Clark administration has taken a very confrontational position on China's growing economic problems, Bloomberg is screaming the need for "detente." If Landrieu were to push him on this during the general election, she'd stomp him like a BUG.</b></p><p><b>● His response to Clark's "New York Money Men" gaffe essentially cemented his candidacy as a front-running man able to combat the administration's reluctance to stand by Israel, briefly garnering the applause of folks like Mike Huckabee.</b></p><p><b>● Maybe… MAYBE you can convince at least five people in the Deep South that he's a true conservative. Just maybe five people who sleep under a rock can be fooled into thinking that the New Yorker really speaks for their social conservative cause.</b></p><p><b>● Hear me out, but maybe a Republican can win out in the urban centers, I'd surely be interested in seeing that map.</b></p><p>As always, I've reserved my admiration for any candidates once they prove themselves on the national stage. Who knows, maybe Mike is the man able to take the GOP out of its perpetual state of comatose, or he'll sink them again just for Karl Rove to rant and rave about how the numbers coming out of Bowling Green, Kentucky, or Nashville, Tennessee, are incorrect and that the voting machines have got it wrong!</p><p>I have very little faith that President Bloomberg is a real possibility, and unlike Michele Bachmann's fans, I'm not willing to blindly follow what my gut tells me.</p>`)
 e.executable.push([5, (() => {e.image = e.image = 'https://i.imgur.com/SAPMzLw.png'})])
@@ -72663,18 +72792,18 @@ function openHeadquarter() {
 
     let img1 = document.createElement('img');
     let speakerImage = 'https://i.imgur.com/ujzIE4A.png';
-    let speakerName = 'Dennis Hastert<br><small><style="color:red";>Republican</style> - Illinois</small>';
+    let speakerName = 'Dennis Hastert<br><small>Republican - Illinois</small>';
 
     if (typeof speakerDetermined !== 'undefined' && speakerDetermined) {
         if (Win > 7) {
             speakerImage = 'https://i.imgur.com/U8Jhc8t.png';
-            speakerName = 'Nancy Pelosi<br><small><style="color:blue";>Democrat</style> - California</small><br><small>Clever girl</small>';
+            speakerName = 'Nancy Pelosi<br><small>Democrat - California</small><br><small>Clever girl</small>';
         } else if (Win > 5) {
             speakerImage = 'https://i.imgur.com/egn6waw.png';
-            speakerName = 'John Boehner<br><small><style="color:red";>Republican</style> - Ohio</small><br><small>Pain in the ass</small>';
+            speakerName = 'John Boehner<br><small>Republican - Ohio</small><br><small>Pain in the ass</small>';
         } else {
             speakerImage = 'https://i.imgur.com/JDDpRwY.png';
-            speakerName = 'Roy Blunt<br><small><style="color:red";>Republican</style> - Missuouri</small><br><small>Obstructionist cuck</small>';
+            speakerName = 'Roy Blunt<br><small>Republican - Missuouri</small><br><small>Obstructionist cuck</small>';
         }
     }
 
@@ -72707,94 +72836,28 @@ function openHeadquarter() {
     pair2.style.width = '100%';
 
     let img2 = document.createElement('img');
-    let foeImage = 'https://i.imgur.com/ut5Zwxu.png';
-    let foeName = 'Tom Daschle<br><small>Democrat - South Dakota</small>';
-    let foeLabel = 'Senate Majority Leader';
+    let senMajImage = 'https://i.imgur.com/ut5Zwxu.png';
+    let senMajName = 'Tom Daschle<br><small>Democrat - South Dakota</small>';
+    let senMajLabel = 'Senate Majority Leader';
 
-    /* if (!foeDetermined) {
-        if (Notroops > 0 && Loyalist > 0 && Gay > 0 && Dumb > 0) {
-            foeImage = 'https://i.imgur.com/zZxfLYU.png';
-            foeName = 'The Storm';
-        } else if (Notroops > 0 && Loyalist > 0 && Tax > 0) {
-            foeImage = 'https://i.imgur.com/eLhnMy7.png';
-            foeName = 'The Hero';
-        } else if (Troops > 0 && Patriot > 0 && Tax > 0) {
-            foeImage = 'https://i.imgur.com/xpXhQCf.png';
-            foeName = 'The Madman';
-        } else if (Notroops > 0 && Loyalist > 0 && Gay > 0) {
-            foeImage = 'https://i.imgur.com/xfCwi5O.png';
-            foeName = 'The Hunter';
-        } else if (Notroops > 0 && Loyalist > 0) {
-            foeImage = 'https://i.imgur.com/x9sSwK9.png';
-            foeName = 'The Maverick';
-        } else if (Notroops > 0) {
-            foeImage = 'https://i.imgur.com/MTwy7bN.png';
-            foeName = 'The King';
-        } else if (Troops > 0 && Patriot > 0 && Gay > 0) {
-            foeImage = 'https://i.imgur.com/i5LyHYY.png';
-            foeName = 'The God Warrior';
-        } else if (Troops > 0) {
-            foeImage = 'https://i.imgur.com/9gSLBJz.png';
-            foeName = 'The Commoner';
+    if (typeof speakerDetermined !== 'undefined' && speakerDetermined) {
+        if (Win < 6){
+            let senMajImage = 'https://i.imgur.com/UaKDa4o.png';
+            let senMajName = 'Mitch McConnell<br><small>Republican - Kentucky</small>';
         } else {
-            foeImage = 'https://i.imgur.com/b0zFCwh.gif';
-            foeName = 'Partisan Hack';
+            let senMajImage = 'https://i.imgur.com/ut5Zwxu.png';
+            let senMajName = 'Tom Daschle<br><small>Democrat - South Dakota</small>';
         }
     }
 
-    if (foeDetermined) {
-        if (Dem == 8) {
-            foeImage = 'https://i.imgur.com/mYlZH3q.png';
-            foeName = 'Dick Cheney<br><small>Olympia Snowe</small>';
-        } else if (Dem == 7) {
-            foeImage = 'https://i.imgur.com/DJ529PW.png';
-            foeName = 'Sam Brownback<br><small>Michele Bachmann</small>';
-        } else if (Dem == 6) {
-            foeImage = 'https://i.imgur.com/HvDWV76.png';
-            foeName = 'Mike Huckabee<br><small>Fred Thompson</small>';
-        } else if (Dem == 5) {
-            foeImage = 'https://i.imgur.com/rKYHvr1.png';
-            foeName = 'Ron Paul<br><small>Gary Johnson</small>';
-        } else if (Dem == 4) {
-            foeImage = 'https://i.imgur.com/zrebC42.png';
-            foeName = 'Rudy Giuliani<br><small>Mike Pence</small>';
-        } else if (Dem == 3) {
-            foeImage = 'https://i.imgur.com/tRIFmwd.png';
-            foeName = 'Jeb Bush<br><small>Tom Ridge</small>';
-        } else if (Dem == 2) {
-            foeImage = 'https://i.imgur.com/ZQAeYjB.png';
-            foeName = 'Mitt Romney<br><small>Charlie Crist</small>';
-        } else if (Dem == 1) {
-            foeImage = 'https://i.imgur.com/aSJJQp7.png';
-            foeName = 'John McCain<br><small>Joe Lieberman</small>';
-        } else {
-            foeImage = 'https://i.imgur.com/b0zFCwh.gif';
-            foeName = 'Partisan Hack';
-        }
-    }
-
-    if (Dem == 8 && Econ == 2 && Nato > 5 && Heart == 1) {
-        foeImage = 'https://i.imgur.com/asbpjdE.png';
-        foeName = 'Olympia Snowe<br><small>John Ashcroft</small>';
-    }
-
-    if (Dem == 8 && Messiah == 1) {
-        foeImage = 'https://i.imgur.com/soqgIDW.png';
-        foeName = 'Mike Pence<br><small>Condoleezza Rice</small>';
-    }
-
-    if (foeDetermined) {
-        foeLabel = 'Your Foe';
-    } */
-
-    img2.src = foeImage;
+    img2.src = senMajImage;
     img2.style.width = '100px';
     img2.style.height = 'auto';
     img2.style.border = '3px solid black';
     img2.style.flexShrink = '0';
 
     let text2 = document.createElement('p');
-    text2.innerHTML = `<small>${foeLabel}</small><br>${foeName}`;
+    text2.innerHTML = `<small>${senMajLabel}</small><br>${senMajName}`;
     text2.style.color = 'white';
     text2.style.backgroundColor = 'rgba(23, 55, 107, 0.8)';
     text2.style.padding = '8px';
