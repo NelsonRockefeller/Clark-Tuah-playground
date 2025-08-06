@@ -1453,7 +1453,7 @@ campaignTrail_temp.questions_json = [
         "pk": 24166,
         "fields": {
             "priority": 0,
-            "description": "You prepare for another mundane briefing as Panetta enters the Oval Office for another of your periodic meetings. But your interest is piqued as he mentions the search for Osama bin Laden along a trail believed to have gone cold. His intelligence, he says, points to a compound in Abbottabad, Pakistan, sheltering the terrorist leader. He explains a variety of options that you could take, but one of them in particular stands out. What will you do?\"\n",
+            "description": "Economic uncertainty becomes a faint chant in the background. Bear Stearns' two subprime hedge funds lost nearly all of their value in a rapid decline in the market. Those worries aren't of your concern after CIA Director Leon Panetta enters your office with intelligence of the possible whereabouts of the political golden goose, Osama Bin Laden. Drone footage of an Abbottabad compound suggests that Pakistanis are sheltering the Al-Qaeda ring leader. He lays out the options moving forward, and it's your job to choose. What will you do?",
             "likelihood": 1
         }
     },
@@ -2255,6 +2255,24 @@ campaignTrail_temp.questions_json = [
         "fields": {
             "priority": 0,
             "description": "Images of Wall Street are plastered across the country, and they are historic. Protests have devolved into large scale riots. Americans who lost their jobs, homes, and livelihoods have begun trashing the streets of New York. Furthermore, stockbrokers, bankers, and businessmen are dragged out of the New York Stock Exchange and beaten mercilessly. You stare at the screens emotionlessly, as all of this befalls you through rhetoric and messaging; you have created a monster. It's your decision to either let it loose or kill it?",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 256449,
+        "fields": {
+            "priority": 7,
+            "description": "Still wounded from the lashing of the midterms, Democrats have sprung onto the idea of compromise alongside your ever-growing cabinet of reminiscent dreamers of the Clinton years; they advise that you drift back toward the center. With Merrick Garland's Supreme Court nomination to replace Sarah O'Connor flying through the Senate, you have the opportunity to make a friend out of the enemy and possibly avoid an overtly hostile Congress going into your reelection bid. Where will you mark the start of this new journey?",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 256484,
+        "fields": {
+            "priority": 7,
+            "description": "Still wounded from the lashing of the midterms, Democrats have sprung onto the idea of compromise alongside your ever-growing cabinet of reminiscent dreamers of the Clinton years; they advise that you drift back toward the center. With Merrick Garland's Supreme Court nomination to replace Sarah O'Connor flying through the Senate, you have the opportunity to make a friend out of the enemy and possibly avoid an overtly hostile Congress going into your reelection bid. Where will you mark the start of this new journey?",
             "likelihood": 1
         }
     }
@@ -9619,6 +9637,70 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 256432,
             "description": "Tell the Secret Service to double, triple, quadruple their ranks, even surround Romney. Don't let a single stone slip by. Protect him at all costs."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 256450,
+        "fields": {
+            "question": 256449,
+            "description": "In the 90s, Bill had crafted quite sound concepts to deal with the long-term solvency of Social Security. Let me paraphrase his words' We will not let this country be dragged down by partisanship' instead of jumping on opportunities together."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 256457,
+        "fields": {
+            "question": 256449,
+            "description": "The deficit is a revolving door threatening the stability of our economy, and Bush was rejected for this very reason. He failed to get it under control and made it worse with his tax reform plan. Republicans like to cut. Let's form a plan together to cut the bloat."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 256462,
+        "fields": {
+            "question": 256449,
+            "description": "Sometimes to solve a conflict, you need to make a friend out of your enemy's enemy. Everyone wants a solution to our education woes, and it's better if we come together now before nations like China run circles around us in this field."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 256466,
+        "fields": {
+            "question": 256449,
+            "description": "I was a Four-Star General, now President, but I'll always be a General to the troops. We must focus on connecting with them, making trips, and shaking hands to remind them that I'm here for them. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 256485,
+        "fields": {
+            "question": 256484,
+            "description": "In the 90s, Bill had crafted quite sound concepts to deal with the long-term solvency of Social Security. Let me paraphrase his words' We will not let this country be dragged down by partisanship' instead of jumping on opportunities together."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 256493,
+        "fields": {
+            "question": 256484,
+            "description": "The deficit is a revolving door threatening the stability of our economy, and Bush was rejected for this very reason. He failed to get it under control and made it worse with his tax reform plan. Republicans like to cut. Let's form a plan together to cut the bloat."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 256502,
+        "fields": {
+            "question": 256484,
+            "description": "Sometimes to solve a conflict, you need to make a friend out of your enemy's enemy. Everyone wants a solution to our education woes, and it's better if we come together now before nations like China run circles around us in this field."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 256513,
+        "fields": {
+            "question": 256484,
+            "description": "I was a Four-Star General, now President, but I'll always be a General to the troops. We must focus on connecting with them, making trips, and shaking hands to remind them that I'm here for them. "
         }
     }
 ]
@@ -25780,6 +25862,116 @@ campaignTrail_temp.answer_score_global_json = [
             "affected_candidate": 203,
             "global_multiplier": -99
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 256452,
+        "fields": {
+            "answer": 256450,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.025
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 256459,
+        "fields": {
+            "answer": 256457,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.012
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 256464,
+        "fields": {
+            "answer": 256462,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.018
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 256468,
+        "fields": {
+            "answer": 256466,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.007
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 256487,
+        "fields": {
+            "answer": 256485,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "global_multiplier": -0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 256495,
+        "fields": {
+            "answer": 256493,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "global_multiplier": -0.003
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 256504,
+        "fields": {
+            "answer": 256502,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "global_multiplier": -0.012
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 256515,
+        "fields": {
+            "answer": 256513,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "global_multiplier": -0.003
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 256518,
+        "fields": {
+            "answer": 256485,
+            "candidate": 201,
+            "affected_candidate": 203,
+            "global_multiplier": 0.8
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 256519,
+        "fields": {
+            "answer": 256493,
+            "candidate": 201,
+            "affected_candidate": 203,
+            "global_multiplier": 0.3
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 256520,
+        "fields": {
+            "answer": 256502,
+            "candidate": 201,
+            "affected_candidate": 203,
+            "global_multiplier": 0.5
+        }
     }
 ]
 
@@ -32023,6 +32215,66 @@ campaignTrail_temp.answer_score_issue_json = [
             "issue_score": -0.9,
             "issue_importance": 13
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 256453,
+        "fields": {
+            "answer": 256450,
+            "issue": 104,
+            "issue_score": -0.8,
+            "issue_importance": 7
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 256460,
+        "fields": {
+            "answer": 256457,
+            "issue": 101,
+            "issue_score": -0.7,
+            "issue_importance": 8
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 256483,
+        "fields": {
+            "answer": 256462,
+            "issue": 102,
+            "issue_score": -0.7,
+            "issue_importance": 4
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 256488,
+        "fields": {
+            "answer": 256485,
+            "issue": 104,
+            "issue_score": -0.8,
+            "issue_importance": 7
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 256496,
+        "fields": {
+            "answer": 256493,
+            "issue": 101,
+            "issue_score": -0.7,
+            "issue_importance": 8
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 256505,
+        "fields": {
+            "answer": 256502,
+            "issue": 102,
+            "issue_score": -0.7,
+            "issue_importance": 4
+        }
     }
 ]
 
@@ -34642,7 +34894,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1034,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": 0.1
+            "state_multiplier": 0.04
         }
     },
     {
@@ -34664,7 +34916,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1021,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": 0.08
+            "state_multiplier": 0.04
         }
     },
     {
@@ -35896,7 +36148,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1034,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": 0.1
+            "state_multiplier": 0.04
         }
     },
     {
@@ -35918,7 +36170,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1021,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": 0.08
+            "state_multiplier": 0.04
         }
     },
     {
@@ -36402,7 +36654,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1034,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": 0.1
+            "state_multiplier": 0.04
         }
     },
     {
@@ -36424,7 +36676,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1021,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": 0.08
+            "state_multiplier": 0.04
         }
     },
     {
@@ -36908,7 +37160,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1034,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": 0.1
+            "state_multiplier": 0.04
         }
     },
     {
@@ -36930,7 +37182,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1021,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": 0.08
+            "state_multiplier": 0.04
         }
     },
     {
@@ -42232,7 +42484,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1049,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": 0.1
+            "state_multiplier": 0.05
         }
     },
     {
@@ -42276,7 +42528,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1049,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": 0.1
+            "state_multiplier": 0.05
         }
     },
     {
@@ -42320,7 +42572,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1049,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": 0.1
+            "state_multiplier": 0.05
         }
     },
     {
@@ -46731,7 +46983,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1016,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.25
+            "state_multiplier": -0.35
         }
     },
     {
@@ -47050,7 +47302,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1021,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": 0.08
+            "state_multiplier": 0.04
         }
     },
     {
@@ -47237,7 +47489,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1016,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.25
+            "state_multiplier": -0.35
         }
     },
     {
@@ -47556,7 +47808,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1021,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": 0.08
+            "state_multiplier": 0.04
         }
     },
     {
@@ -47743,7 +47995,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1016,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.25
+            "state_multiplier": -0.35
         }
     },
     {
@@ -48062,7 +48314,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1021,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": 0.08
+            "state_multiplier": 0.04
         }
     },
     {
@@ -48249,7 +48501,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1016,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.25
+            "state_multiplier": -0.35
         }
     },
     {
@@ -48568,7 +48820,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1021,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": 0.08
+            "state_multiplier": 0.04
         }
     },
     {
@@ -56180,7 +56432,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1009,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.15
+            "state_multiplier": -0.2
         }
     },
     {
@@ -56202,7 +56454,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1016,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.09
+            "state_multiplier": -0.15
         }
     },
     {
@@ -58270,7 +58522,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1009,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.15
+            "state_multiplier": -0.2
         }
     },
     {
@@ -58699,7 +58951,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1009,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.15
+            "state_multiplier": -0.2
         }
     },
     {
@@ -59128,7 +59380,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1009,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.15
+            "state_multiplier": -0.2
         }
     },
     {
@@ -59437,6 +59689,402 @@ campaignTrail_temp.answer_score_state_json = [
             "candidate": 201,
             "affected_candidate": 200,
             "state_multiplier": 0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256454,
+        "fields": {
+            "answer": 256450,
+            "state": 1016,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256455,
+        "fields": {
+            "answer": 256450,
+            "state": 1008,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256456,
+        "fields": {
+            "answer": 256450,
+            "state": 1041,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256461,
+        "fields": {
+            "answer": 256457,
+            "state": 1045,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256465,
+        "fields": {
+            "answer": 256462,
+            "state": 1008,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256469,
+        "fields": {
+            "answer": 256466,
+            "state": 1003,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256470,
+        "fields": {
+            "answer": 256466,
+            "state": 1017,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256471,
+        "fields": {
+            "answer": 256450,
+            "state": 1048,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256473,
+        "fields": {
+            "answer": 256457,
+            "state": 1002,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256474,
+        "fields": {
+            "answer": 256457,
+            "state": 1006,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256475,
+        "fields": {
+            "answer": 256457,
+            "state": 1005,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256476,
+        "fields": {
+            "answer": 256457,
+            "state": 1027,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256477,
+        "fields": {
+            "answer": 256462,
+            "state": 1009,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256478,
+        "fields": {
+            "answer": 256462,
+            "state": 1023,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256479,
+        "fields": {
+            "answer": 256462,
+            "state": 1024,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256480,
+        "fields": {
+            "answer": 256462,
+            "state": 1017,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256481,
+        "fields": {
+            "answer": 256462,
+            "state": 1039,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256482,
+        "fields": {
+            "answer": 256462,
+            "state": 1000,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256489,
+        "fields": {
+            "answer": 256485,
+            "state": 1016,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256490,
+        "fields": {
+            "answer": 256485,
+            "state": 1008,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256491,
+        "fields": {
+            "answer": 256485,
+            "state": 1041,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256492,
+        "fields": {
+            "answer": 256485,
+            "state": 1048,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256497,
+        "fields": {
+            "answer": 256493,
+            "state": 1045,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256498,
+        "fields": {
+            "answer": 256493,
+            "state": 1002,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256499,
+        "fields": {
+            "answer": 256493,
+            "state": 1006,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256500,
+        "fields": {
+            "answer": 256493,
+            "state": 1005,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256501,
+        "fields": {
+            "answer": 256493,
+            "state": 1027,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256506,
+        "fields": {
+            "answer": 256502,
+            "state": 1008,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256507,
+        "fields": {
+            "answer": 256502,
+            "state": 1009,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256508,
+        "fields": {
+            "answer": 256502,
+            "state": 1023,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256509,
+        "fields": {
+            "answer": 256502,
+            "state": 1024,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256510,
+        "fields": {
+            "answer": 256502,
+            "state": 1017,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256511,
+        "fields": {
+            "answer": 256502,
+            "state": 1039,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256512,
+        "fields": {
+            "answer": 256502,
+            "state": 1000,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256516,
+        "fields": {
+            "answer": 256513,
+            "state": 1003,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256517,
+        "fields": {
+            "answer": 256513,
+            "state": 1017,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.015
         }
     }
 ]
@@ -67586,6 +68234,78 @@ campaignTrail_temp.answer_feedback_json = [
             "candidate": 201,
             "answer_feedback": "And so they do while protests nationwide hamper his campaign's mobility due to security concerns. Yours works to quietly capitalize on the rage against business that has followed all this. His base of operations releases voice-mails they've collected; \"I don't know where you get your sick kicks, but I'm hoping the Democrats line you bastards up and gun you down for what you've done.\""
         }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 256451,
+        "fields": {
+            "answer": 256450,
+            "candidate": 201,
+            "answer_feedback": "Talks with Republicans are initially proactive, like any wartime negotiations for a ceasefire, but when handed a victory on a silver platter, they still toss it in favor of the toxic no-compromise image, leaving you empty-handed and the villain of the entire left-of-center political arena."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 256458,
+        "fields": {
+            "answer": 256457,
+            "candidate": 201,
+            "answer_feedback": "Speaker Blunt finds little reason to compromise with the opposing trench and allows your trips through no man's land to be gunned down by partisan noise. You later deal with similar games during battles over the dent ceiling in which you find yourself steamrolled again."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 256463,
+        "fields": {
+            "answer": 256462,
+            "candidate": 201,
+            "answer_feedback": "Well, you are living up to some of the names pundits labeled you in 2004. Sadly, it's less \"Caesar Americanas\" and more \"Modern Benedict Arnold.\" You wage war for a compromise that fails to manifest enough support on the other side of the aisle, leaving you empty-handed."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 256467,
+        "fields": {
+            "answer": 256466,
+            "candidate": 201,
+            "answer_feedback": "Unfortunately, your round of trips visiting the troops is widely deemed unsuccessful. The troops don't particularly feel you understand them, and some in the media label you a \"Perfumed Prince who can't relate to the soldiers.\"\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 256486,
+        "fields": {
+            "answer": 256485,
+            "candidate": 201,
+            "answer_feedback": "Boehner nods along, holding off the cannon fire from his caucus, understanding the bountiful opportunity you are handing him. While not the complete privatization model Bush had proposed, the Democratic Party signs away its legacy in favor of opening the programs' doors to individual private accounts able to invest in the stock market and a gradual increase in the retirement age over time."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 256494,
+        "fields": {
+            "answer": 256493,
+            "candidate": 201,
+            "answer_feedback": "Liberals and progressives shout this Grand Bargain as a betrayal of their trust, but you hail the bipartisan effort as a lesson of defeating partisan divisions. You're proven to have spoken too soon, after negotiations over the debt ceiling later grow sour after Republicans stab you for even more concessions as their greed beckons."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 256503,
+        "fields": {
+            "answer": 256502,
+            "candidate": 201,
+            "answer_feedback": "Taking blueprints from the works of Florida Governor Jeb Bush and his Common Core Education policies, you wrangle in the support of Speaker John Boehner, who delivers a deep cut to public education in favor of charter and private schools. You secure your place in history, not as a hero but a villain, at your base."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 256514,
+        "fields": {
+            "answer": 256513,
+            "candidate": 201,
+            "answer_feedback": "Allies, admire your round of trips visiting the troops as you tour the Middle East, offering the sage advice you've given a thousand times before. Republicans try to politicize it as you running away from domestic issues, but the pictures make you look good.\n"
+        }
     }
 ]
 
@@ -67612,123 +68332,15 @@ campaignTrail_temp.jet_data = [{
 }
 ]
 
-function ctsAchievement(achievement, difficultyChecker = true){
-  if (window.location.hostname !== 'campaigntrailshowcase.com'){
-    console.log("Not on right domain for achievements");
-    return;
-  } else if ((difficultyChecker && campaignTrail_temp.difficulty_level_multiplier<=1)||!difficultyChecker){
-      if(campaignTrail_temp.CTS){
-		    unlockAchievement(achievement);
-	    }
-    }
-}
 
-function unlockAchievement(name) {
-  const ach = findAchievementByName(name);
 
-  if (ach == null) {
-    console.log("There is no achievement with the name '" + name + "'");
-    return;
-  }
-
-  if (cheatsActive && ach.cannotBeCheated) {
-    console.log(`Would unlock '${name}' but won't because cheating!`);
-    return;
-  }
-
-  if (unlockedAch[name] == null) {
-    //alert("ACHIEVEMENT UNLOCKED: " + name);
-  }
-
-  showAchievement(name);
-  unlockedAch[name] = ach;
-  localStorage.setItem("unlockedAch", JSON.stringify(unlockedAch));
-  addAllAchievements();
-}
-
-function showAchievement(achievementKey) {
-  const achievement = campaignTrail_temp.achievements[achievementKey];
-
-  // Create the achievement box
-  const box = document.createElement('div');
-  Object.assign(box.style, {
-    position: "fixed",
-    bottom: "20px",
-    right: "20px",
-    width: "230px",
-    height: "110px",
-    backgroundColor: "#0A2463",
-    color: "#FFFFFF",
-    border: "2px solid #D4AF37",
-    borderRadius: "8px",
-    padding: "15px",
-    boxShadow: "0 0 10px rgba(10, 36, 99, 0.8)",
-    zIndex: "10000",
-    fontSize: "14px",
-    display: "flex",
-    alignItems: "center",
-    gap: "15px",
-    opacity: "0",
-    transition: "opacity 0.5s ease-in-out",
-    fontFamily: "'Segoe UI', Arial, sans-serif",
-    overflow: "hidden"
-  });
-
-  // Stack multiple achievements vertically
-  const existingBoxes = document.querySelectorAll('.achievement-popup');
-  const offset = existingBoxes.length * 120;
-  box.style.bottom = `${20 + offset}px`;
-
-  // Achievement image
-  const img = document.createElement('img');
-  img.src = achievement.image;
-  img.alt = achievementKey;
-  Object.assign(img.style, {
-    width: "80px",
-    height: "80px",
-    objectFit: "contain",
-    border: "1px solid #D4AF37",
-    borderRadius: "4px"
-  });
-
-  // Achievement title
-  const title = document.createElement('div');
-  title.innerHTML = `<strong style="font-size: 16px;">${achievementKey}</strong>`;
-  title.style.textAlign = "center";
-  title.style.width = "100%";
-
-  box.appendChild(img);
-  box.appendChild(title);
-  box.classList.add('achievement-popup');
-  document.body.appendChild(box);
-
-  // Fade in
-  setTimeout(() => { box.style.opacity = "1"; }, 10);
-
-  // Fade out and remove after 4 seconds
-  setTimeout(() => {
-    box.style.opacity = "0";
-    box.addEventListener('transitionend', () => {
-      box.remove();
-      adjustPopupPositions();
-    });
-  }, 4000);
-}
-
-function adjustPopupPositions() {
-  setTimeout(() => {
-    const boxes = document.querySelectorAll('.achievement-popup');
-    boxes.forEach((box, index) => {
-      box.style.bottom = `${20 + index * 120}px`;
-    });
-  }, 10);
-}
 
 e.cyoa = true
 var Dem = 0;
 var Promise = 0;
 var Gay = 0;
 var Tax = 0;
+var Child = 0;
 var Win = 0;
 var Nato = 0;
 var Britain = 0;
@@ -68047,7 +68659,7 @@ function switcheroo14() {
 function switcheroo17() {
     var id = e.candidate_json.map(p=>p.pk).indexOf(200)
     e.candidate_json[id].fields.first_name = "Mitt"
-    e.candidate_json[id].fields.last_name = "Romney"  
+    e.candidate_json[id].fields.last_name = "Romney "  
     e.candidate_json[id].fields.color_hex = "#a92c43" 
 
 }
@@ -68221,13 +68833,13 @@ cyoAdventure = function(a) {
     }
 
     // Domestic Agenda passed tracker
-    if (ans == 255046 || ans == 255017 || ans == 5144 || ans == 5145 || ans == 255248 || ans == 5148 || ans == 22670 || ans == 22460 || ans == 20890 || ans == 22475 || ans == 22479 || ans == 22483 || ans == 22490 || ans == 23781 || ans == 23772 || ans == 23790 || ans == 5155 || ans == 5149 || ans == 20934 || ans == 20943 || ans == 24635 || ans == 24700 || ans == 24704 || ans == 24713 || ans == 24726 || ans == 24730 || ans == 24734 || ans == 24794) {
+    if (ans == 256485 || ans == 256493 || ans == 256502 || ans == 255046 || ans == 255017 || ans == 5144 || ans == 5145 || ans == 255248 || ans == 5148 || ans == 22670 || ans == 22460 || ans == 20890 || ans == 22475 || ans == 22479 || ans == 22483 || ans == 22490 || ans == 23781 || ans == 23772 || ans == 23790 || ans == 5155 || ans == 5149 || ans == 20934 || ans == 20943 || ans == 24635 || ans == 24700 || ans == 24704 || ans == 24713 || ans == 24726 || ans == 24730 || ans == 24734 || ans == 24794) {
         Agenda += 1;
         updateStatsPopup();
     }
 
     //Foreign policy successes
-    if (ans == 254784 || ans == 254760 || ans == 254767 || ans == 254675 || ans == 254665 || ans == 254660 || ans == 254650 || ans == 254622 || ans == 254628 || ans == 25448 || ans == 25444 || ans == 25435 || ans == 25431 || ans == 22853 || ans == 20915 || ans == 20924 || ans == 5190 || ans == 5147 || ans == 22758 || ans == 22043 || ans == 5150 || ans == 20877 || ans == 24059 || ans == 24062 || ans == 23695 || ans == 20946 || ans == 24170 || ans == 24768 || ans == 24772 || ans == 24764 || ans == 24776 || ans == 24780 || ans == 24785 || ans == 24797 || ans == 24800) {
+    if (ans == 256513 || ans == 254784 || ans == 254760 || ans == 254767 || ans == 254675 || ans == 254665 || ans == 254660 || ans == 254650 || ans == 254622 || ans == 254628 || ans == 25448 || ans == 25444 || ans == 25435 || ans == 25431 || ans == 22853 || ans == 20915 || ans == 20924 || ans == 5190 || ans == 5147 || ans == 22758 || ans == 22043 || ans == 5150 || ans == 20877 || ans == 24059 || ans == 24062 || ans == 23695 || ans == 20946 || ans == 24170 || ans == 24768 || ans == 24772 || ans == 24764 || ans == 24776 || ans == 24780 || ans == 24785 || ans == 24797 || ans == 24800) {
         Nato += 1;
         updateStatsPopup();
     }
@@ -68566,7 +69178,13 @@ cyoAdventure = function(a) {
         if (Gay > 0 && Win < 6) {
             campaignTrail_temp.questions_json[10] = tunnel(22681); 
         }
-        if (Boner == 1) {
+        if (Win < 6 && Neo > 5) {
+            campaignTrail_temp.questions_json[10] = tunnel(256449); 
+        }
+        if (Boner == 1 && Neo > 5) {
+            campaignTrail_temp.questions_json[10] = tunnel(256484); 
+        }
+        else if (Boner == 1) {
             campaignTrail_temp.questions_json[10] = tunnel(20934); 
         }
         if (Win > 9) {
@@ -68629,16 +69247,16 @@ cyoAdventure = function(a) {
         if (Neo > 8) {
             switcheroo42();
         }
-        if (Neo > 6) {
+        else if (Neo > 6) {
             switcheroo43();
         }
-        if (Neo > 4) {
+        else if (Neo > 4) {
             switcheroo47();
         }
-        if (Neo > 2) {
+        else if (Neo > 2) {
             switcheroo41();
         }
-        if (Neo > 0 || Neo == 0) {
+        else if (Neo > 0 || Neo == 0) {
             switcheroo46();
         }
     }
@@ -69516,11 +70134,6 @@ cyoAdventure = function(a) {
     }
 
     if (e.noCounter == 26) {
-
-        if (Econ == 2 && Heart == 1) {
-            updateHistoricalData(newVpTableHistorical11, newHistHexcolour11, newHistName11, newHistEV11, newHistPV11, newHistPVP11);
-            switcheroo11();
-        }
         // First set of conditions (random selection for Bin Laden raid question 27)
         if (Hunt == 2 && Notroops > 0 && Nato > 5 && Econ > 2 || Hunt == 3) {
             const randomValue = Math.random(); // Generate a random number between 0 and 1
@@ -69551,6 +70164,8 @@ cyoAdventure = function(a) {
                 campaignTrail_temp.questions_json[26] = tunnel(23869);
             } else if (Econ == 2 & Heart == 1) {
                 campaignTrail_temp.questions_json[26] = tunnel(24338);
+                updateHistoricalData(newVpTableHistorical11, newHistHexcolour11, newHistName11, newHistEV11, newHistPV11, newHistPVP11);
+                switcheroo11();
             } else if (Econ == 2) {
                 campaignTrail_temp.questions_json[26] = tunnel(23880);
             } else if (Econ == 3) {
@@ -69747,6 +70362,7 @@ vpTable = {
     // The Republicans
     "John McCain" : "Joe Lieberman",
     "Mitt Romney" : "Charlie Crist",
+    "Mitt Romney " : "Sarah Palin",
     "Jeb Bush" : "Tom Ridge",
     "Sam Brownback" : "Michele Bachmann",
     "Mike Huckabee" : "Fred Thompson",
@@ -70352,10 +70968,10 @@ if (quickstats[0] >= 270 && Dem == 8){
     ctsAchievement("Mortals vs the Divine");
 }else if (quickstats[0] >= 270 && Dem == 5){
     ctsAchievement("Psychological Clarity");
-}else if (quickstats[0] >= 270 && Dem == 4 && Messiah == 1){
-    ctsAchievement("Messiah");
 }else if (quickstats[0] >= 270 && Dem == 4){
     ctsAchievement("Heroism");
+}else if (quickstats[0] >= 270 && Dem == 4 && Messiah == 1){
+    ctsAchievement("Messiah");
 }else if (quickstats[0] >= 270 && Dem == 3){
     ctsAchievement("Kingslayer");
 }else if (quickstats[0] >= 270 && Dem == 2){
@@ -70760,7 +71376,7 @@ changePlaylist(paulWin);
 }
 else if (quickstats[0] <= 269 && Dem == 5) { // big loss - paul
 e.pages.push(`<h3><i>"Betrayed"</i></h3>
-          <p><b>Icarus often sat in his lofty palace surrounded by the spoils of his many conquests. When his servants weren't feeding him fruits, he spent his time plotting dastardly deeds aided by a cult of like-minded advisors ready for the next war.</b></p> <p><b>He nearly forgot the time; the challenge to his throne was to arrive. He dawned his bloodstained armor, nearly thrown into a fit of rage that it hadn't been cleaned. After reprimanding his fearful staff, he let them scurry away. Then he heard an ear-screeching halt, followed by a loud crash.</b></p> <p><b>Throwing himself through the doors, he witnessed something unimaginable. Not only had his challenge arrived, it came crashing through the gates of Olympus. Setting his eyes on the Madman giving a speech to a roaring crowd, he took flight.</b></p><p><b>Soaring over fires and fistfights in the streets while the Madman attempted to swoon crowds he claimed were forced to shackles underneath the rule of Icarus. Passing by a sea of crazed lunatics, he settled in front of his foe. Confident as ever, he let the Madman boast his outlandish ideas, patiently awaiting a fine battle.</b></p><p><b>Contrary to his assumption, his loyal populous began to turn on him. Soon enough, he was dealing with a full-scale rebellion, or as that rat bastard would call it, a revolution. Fending of his people and The Madman's. He was overwhelmed, and not wanting to cede the moment of glory, he threw himself at the Madman, hoping to land a killing blow.</b></p><p><b>Unexpectedly, he felt a piercing pain through his neck, stopping his advance. His vision began to blur as he could no longer feel his arms and legs. Falling to the ground and rolling to the side, his fading vision caught a final glimpse of his own headless body. Defeated by his people, his sins.</b></p>`)
+          <p><b>Icarus often sat in his lofty palace surrounded by the spoils of his many conquests. When his servants weren't feeding him fruits, he spent his time plotting dastardly deeds aided by a cult of like-minded advisors ready for the next war.</b></p> <p><b>He nearly forgot the time; the challenge to his throne was to arrive. He dawned his bloodstained armor, nearly thrown into a fit of rage that it hadn't been cleaned. After reprimanding his fearful staff, he let them scurry away. Then he heard an ear-screeching halt, followed by a loud crash.</b></p> <p><b>Throwing himself through the doors, he witnessed something unimaginable. Not only had his challenge arrived, it came crashing through the gates of Olympus. Setting his eyes on the Madman giving a speech to a roaring crowd, he took flight.</b></p><p><b>Soaring over fires and fistfights in the streets while the Madman attempted to swoon crowds he claimed were forced to shackles underneath the rule of Icarus. Passing by a sea of crazed lunatics, he settled in front of his foe. Confident as ever, he let the Madman boast his outlandish ideas, patiently awaiting a fine battle.</b></p><p><b>Contrary to his assumption, his loyal populous began to turn on him. Soon enough, he was dealing with a full-scale rebellion, or as that rat bastard would call it, a revolution. Now, forced to fend off his people and the opposition, he was overwhelmed, and not wanting to cede the moment of glory, he threw himself at the Madman, hoping to land a killing blow.</b></p><p><b>Unexpectedly, he felt a piercing pain through his neck, stopping his advance. His vision began to blur as he could no longer feel his arms and legs. Falling to the ground and rolling to the side, his fading vision caught a final glimpse of his own headless body. Defeated by his people, his sins.</b></p>`)
           // idk how to add playlists but to do that you create a new playlist in code1 with just that song and put changePlaylist(nameOfYourEndingPlaylist) right here
 //e.image = ""
 e.executable.push([0, (() => {
@@ -70854,6 +71470,26 @@ const huckWin = new Playlist();
     "Carrie Underwood",
     "https://i.imgur.com/Ns41m5K.gif",
     "https://audio.jukehost.co.uk/uDFMwSUmXbrk3DaScj0UeKfzxNKd5Nao"
+  );
+huckWin.addSong(huckWinSong);
+changePlaylist(huckWin);
+}
+else if (quickstats[0] >= 269 && Dem == 6) { // win - Huckabee
+e.pages.push(`<h3><i>Love</i></h3>
+          <p><b>From the calls of the wind, Icarus could hear his incoming opposition, but he refused to be frightened into silence. He stood for the forgotten, the sick, the shunned, those buried under decades of cold and indifferent rule. He fought for them, believing that after all they had endured, they deserved more than survival. They deserved joy, hope, and the right to dream again.</b></p><p><b>Embracing the target on his back, Icarus now moved forward, daring the beast in hiding to step into the arena. Whether it was bravado fueling his defiance or a deep conviction to defend those without a voice, this was his war to wage now.</b></p><p><b>And so the Hunter crept into the courtyard scarred, bitter, and eager to expose every misstep of the last four years. Not long after, they went at each other like animals, but unlike his fiendish opponent, Icarus remained steadfast with his goal in mind. Again and again, he was knocked down, buried under the weight of hatred, only to rise just as quickly.</b></p><p><b>What the Hunter never accounted for was the sheer will and persevering strength backed by a community that had seen and gone through it all. It wasn't a cultural revolution; it was a fight to earn their survival. One in which they finally came out victorious and able to take pride in what they believed in. Icarus found himself in the embrace of thousands of strangers who had often been ignored in society, but with his help, he gave them a voice. And with their help, he found purpose.</b></p>`)
+          // idk how to add playlists but to do that you create a new playlist in code1 with just that song and put changePlaylist(nameOfYourEndingPlaylist) right here
+//e.image = ""
+e.executable.push([0, (() => {
+    e.image = 'https://i.imgur.com/g9u2WWB.png';
+    const audio = document.getElementById("audio");
+    if (audio) audio.loop = true; 
+})]);
+const huckWin = new Playlist();
+  const huckWinSong = new Song(
+    "Hero",
+    "Foo Fighters",
+    "https://i.imgur.com/Ns41m5K.gif",
+    "https://audio.jukehost.co.uk/68jsEQEKuyWRo3sf5MW88dF42aEb6flE"
   );
 huckWin.addSong(huckWinSong);
 changePlaylist(huckWin);
@@ -71028,7 +71664,7 @@ e.pages.push(`<h3>Reuters: <i>Why Rudy Giuliani lost the White House</i></h3>
 e.executable.push([1, (() => {e.image = e.image = 'https://i.imgur.com/gofzcAk.png'})])
 }
 else if ( quickstats[0] <= 269 && Dem == 5 && War == 1) { // ww3 paul
-e.pages.push(`<h3>CNN: <i>From 4chan</i></h3>
+e.pages.push(`<h3><i>From 4chan</i></h3>
 <p>>be me</p><p>watch the State of the Union address 
 President Paul is a sweaty glob at the podium</p><p>he starts Schizo rambling about a deep-state cable working against him </p><p>Crowds boos</p><p>I'm so fucking hyped</p><p>He starts yapping about Clark running a shadow government that is working against American interests.</p><p>The screen cuts to black for a minute </p><p>The screen turns back on </p><p>Paul is fucking in cuffs and hauled out by the Sargent of arms</p><p>MICHAEL MULLEN COUP </p><p>Did you guys see this shit????</p><p>>Yeah, lol I'm honestly so fucking lost, man. These military pricks got us at war with Russia, and we voted for Paul to pull the plug, but their bastards destroyed our beloved democracy. </p><p>>I TOLD YOU GUYS THAT PAUL NEEDS TO SEND ALL THESE MILITARY FUCKS TO GUANTANAMO!</p><p>Clark is running everything from the shadows still, and now the chief of staff is gonna jail our President and hand the keys over to the mother fucker who got us in this mess!</p><p>Deepstate cable mention but no call out of the Jews </p><p>Wiltedflower.png</p><p>>Dude, dude, they're literally purging the government. They got Jeff Sessions cuffed and hauled off, too! Mullen is talking up this Russian infiltration like it's the McCarthy trials all over again.</p><p><b>Update:</b></p><p>Clark and Co. were seen entering the Capitol building by reporters</p><p>Jeff Sessions and other members of Paul's cabinet were arrested, supposedly Vice President Johnson was nowhere to be found, allegedly hiding from these military freaks somewhere in the capitol</p><p>Is it over for Democracy anons?</p><p>The government has just been successfully couped. What the fuck do you think the state of democracy is now?</p><p>This is just utterly bleak</p><p>First President to stand by the Constitution as it was written</p><p>Finally, pulling away from sham wars and useless alliances</p><p>LITERALLY STOPPING THE WORLD FROM BLOWING THE FUCK UP</p><p>Gets couped</p><p>Fucking wonderful </p><p><b>Last update:</b></p><p> Uh, the government is looking into shutting down all websites that promote "propaganda supporting foreign enemies."Is this the end?</p>`)
 e.executable.push([1, (() => {e.image = e.image = 'https://i.imgur.com/KjaGX1y.png'})])
@@ -71073,10 +71709,15 @@ e.pages.push(`<h3>Reuters: <i>Why Sam Brownback lost the White House</i></h3>
 <p><b>Kansas City (Reuters) - </b>—Republican Sam Brownback lost Tuesday's presidential election at the hands of President Wesley Clark. The establishment Senator turned Tea Party preacher sought the full erratic support of the Republican base to bring a more traditionalist view to the American Government.</p><p>As the blame game began, analysts pointed to one aspect of his campaign: hate. Sam Brownback campaigned on the rage of evangelical Christians, hoping to turn out a large and capable coalition, but his many weaknesses disturbed the moderates within the party. President Clark, by contrast, campaigned to stop hate of all forms, garnering his dedicated following as a result.</p><p>While Brownback's coalition was loyal and dedicated, he lacked support among key groups, especially those most concerned with foreign policy.</p><p>Despite a deeply unpopular Democratic President, a sputtering economy, and a generally tough political environment for Democrats, the Senator failed to convince voters on fundamental issues.</p><p>Brownback's entry into politics was profoundly unrecognizable compared to the way he conducted this campaign. Once an advocate for bipartisanship, Brownback seemingly dropped all compromise within his heart after Clark pushed the Freedom To Marry Act.</p><p>The failure to compromise became Brownback's downfall as his full embrace of populist themes quickly eroded through the patience of establishment Republicans. Radical tax positions, even for a Republican, combined with his extreme views on abortion and dovish foreign policy, limited the range of his coalition.</p><p>In his concession speech, which was followed by a prayer, the Senator noted the massive, glorious movement that enveloped his campaign.</p><p>"I know this loss hangs heavy in our hearts but believe me when I say, we've accomplished more for our Christian faith during this campaign than anyone could have ever imagined." he told his supporters at a somber post-election rally in Kansas City. "I still dream of a day where our deeply religious population aren't held captive by activist governments and that dream is still within reach, we must keep fighting for our children, for our grandchildren and for Christ!"</p><p>Republican strategist John Feehery said Brownback's deeply religious campaign reawakened a populist element within the Republican Party.</p><p>"The crowds he generated weren't just excited, they were frothing for change and praying in unison with him."</p><p>The financial crisis only encouraged the Senator to redouble his efforts on populist talking points like his great tax experiment and massive deregulations.</p><p><b>EASY CLIMATE, TOO RADICAL</b></p><p>Brownback was committed to the idea that the separation between church and state had to be abolished, so much so that he mentioned his Christian faith in every facet of the campaign, from foreign policy to economics.</p><p>He championed himself as a Christian first and a senator second, which quickly gave his campaign a unique and colorful image.</p><p>The financial crisis had blown through President Clark's lead, and most believed Brownback could make a comeback in the same spirit as Bill Clinton in 1992. However, through laser-focused determination and inspiring leadership, President Clark was able to repel Brownback's gains and lead the nation through the crisis convincingly.</p><p>Aides said Brownback's plan for the government cuts, while appealing to a significant portion of his base, worried fiscal hawks, who were unsure how the United States could pay for such extreme tax cuts.</p><p>"It is a great sigh of relief that Senator Brownback's hateful campaign was rejected." - Nancy Parrish, White House Chief of Staff.</p><p>Top Brownback aides say the Senator is jubilant, seemingly believing his strategy was vindicated for coming as close as it did.</p><p>What about Bachmann? To most, Brownback's choice for running mate was initially brave and inspirational but soon became an utter nightmare when her radical tendencies came to the forefront, especially her strange beliefs on bullying and even more dangerous ideas of gutting social security.</p><p>Brownback's campaign manager, Rob Wasinger, defended the campaign's radical stances, claiming they were not out of step with standard Republican ideology.</p><p>"The Republican Party was behind this campaign 100% and we need to acknowledge how close we came to victory," Wasinger told reporters at the Brownback campaign headquarters in Kansas City. "Senator Brownback ran a historic campaign and we would be fools to ditch the ideas he brought forth in four years."</p><p>Editing by Alan Elsner</p><p>Our Standards: <br>The Thomson Reuters Trust Principles.</br></p>`)
 e.executable.push([1, (() => {e.image = e.image = 'https://i.imgur.com/8yLBJIp.png'})])
 }
-else if ( quickstats[0] <= 269 && Dem == 7 && War == 0) { // FMA
+else if ( quickstats[0] <= 269 && Dem == 7 && Win < 5 && War == 0) { // FMA
 e.pages.push(`<h3><i>President celebrates passage of the Federal Marriage Amendment</i></h3>
 <p><b>Remarks by the President</b></p> <p><b>The Briefing Room</b></p><p>10:43 A.M. EST</p> <p><b>THE PRESIDENT:</b>Good Morning, 2 years ago I promised you that I would protect marriage and firmly end the efforts of activist judges and state legislatures of trying to destroy the sanctity of our Christian faith.</p><p>I'm happy to announce that the Federal Marriage Amendment has passed the House by 237-198 and the Senate by 61-37. This is a monumental victory not only for protecting our faith but eliminating this pointless partisan issue.</p><p>The amendment declares that: (1) marriage in the United States shall consist only of the union of a man and a woman; and (2) neither the U.S. Constitution nor the constitution of any state shall be construed to require that marriage or the legal incidents of marriage be conferred upon any other union.</p><p>After more than two centuries of basic common decency being followed my hand was forced after rogue justices declared what a millennia of human experience had never dreamed of allowing. While I wish this issue could have solely been relegated to the states I understand that the people's voice must come before the voices of these activist judges.</p><p>I believe our nation can now truly pursue greater progress while still following the word of God. Human experience has proven that the commitment of a husband and wife to love and to serve one another promotes the welfare of children and the stability of society. The good nature of our society is reliant on these core beliefs. We all should and must follow the Bible, long has the government ignored its power. The separation of church and state was a norm not a rule and its time we realize that these norms cannot be followed if the government seeks to meddle in issues that the Bible is concerned with.</p><p>This is a great victory for all under God and I hope the American public comes to appreciate it.</p><p>Thank you very much.</p><p>END 10:47 A.M. EST</p>`)
 e.executable.push([1, (() => {e.image = e.image = 'https://i.imgur.com/iKKfILD.png'})])
+}
+else if ( quickstats[0] <= 269 && Dem == 7 && War == 0) { // FMA
+e.pages.push(`<h3>CNN: <i>Is Grassley going to lose?</i></h3>
+<p>By Jessica Frowigs</p><p>With the 2010 midterm elections looming over Brownback's mandate like a storm, local Iowan petitioners and protesters are demanding Senator Grassley to roll back the "Great American Tax Experiment," which has made its impact on both the minds and wallets of thousands of Iowans statewide. The bill, which made landfall in late 2009 amid an already limping economy wounded from the great recession, has all but helped the Middle and lower classes. </p><p>The Great American Tax Experiment was passed through Congress with the promise of encouraging job growth with radical tax cuts on the super wealthy. Instead, the United States underwent a historic downgrade of its credit rating after budget shortfalls and negotiations over the debt ceiling stalled and left the world holding its breath. Since then, the Democratic Party has seized the narrative, nationalizing local races from top to bottom, with the culmination of Republican worries manifesting under the heel of Senator Chuck Grassley's reelection bid.</p><p>After touring through the state hearing out the woes of everyday Iowans, former Governor Tom Vilsack threw his hat into the ring to challenge Grassley, believing the entrenched Senator had lost his touch with Iowa folk. Collecting a coalition of aching teamster representatives, working families unable to afford their groceries, and farmers denied access to Healthcare after Medicaid and Medicare cuts sliced through the national budget, Vilsack currently polls just behind Grassley, stepping on his heels. </p><p>The movement to repudiate the Brownback agenda isn't just a Democratic play for power; moderate Republicans in swing districts have begun to draw up their amendment to the bill, hoping to pull back the political tiger clawing at their reelection efforts. Income taxes would go up, and millions of homeowners nationwide would pay taxes again to avoid any more budget shortfalls shortly, but for Democrats, it isn't a compromise; they want to tear Brownback apart. Facing scorn from all sectors of the political arena for the cuts made to the welfare state, leaving those in need helpless.</p><p>Grassley finds himself not just in a fight to defend himself but also in a battle to protect the incumbent president whom he has stood by thus far. A reelection bid hoping that nice words and smiles can make Iowa's Middle and lower class forget that it was the Republican Party that took their access to healthcare away, it was President Brownback who gutted the federal government's ability to upkeep hospitals and roads. It was Senator Chuck Grassley who voted to annihilate the national budget in favor of making the rich richer while allowing those without a comfortable yacht to sleep in to find themselves pulled down by an economic riptide.</p>`)
+e.executable.push([1, (() => {e.image = e.image = 'https://i.imgur.com/mZW0xsc.png'})])
 }
 else if ( quickstats[0] >= 269 && Dem == 8) { // Brownback L
 e.pages.push(`<h3>Reuters: <i>Why Dick Cheney lost the White House</i></h3>
@@ -71155,6 +71796,11 @@ e.pages.push(`<h3>AP News: <i>Senator Joe Lieberman makes it official and caucus
 <p><b>By ZEKE MILLER</b></p><p><b>August 27, 2009</b></p> <p>Republican Senate Leader Mitch McConnell has often poached the Connecticut Senator to caucus with Republicans ever since the independent split with Democrats in 2006. Lieberman failed to be renominated by Democrats after Businessman Ned Lamont rode the wave of disgruntled Democrats upset with Lieberman's vote for the Iraq War. The Senator refused to quit and started his own Connecticut For Lieberman Party, which took the lead in polls and eventually beat Lamont despite President Clark hyper-fixating on the race as a target flip.</p><p>Clark and Lieberman's long-standing feud began the moment the General announced his intention to run for President. Lieberman often criticized Clark as a Republican in disguise who only ran because the opportunity opened up. Clark would beat back opponents skeptical of his party loyalty, and despite taking the White House and the Senate back for Democrats, Lieberman remained skeptical of the president-elect's intentions.</p><p>Soon, the tension between the two men would blow into a media firestorm as Lieberman, more often than not, stood in Clark's way. Clark began to refer to the Senator as a roadblock to progress and enthusiastically threw his support behind Lamont.</p><p>Now, after years of party alienation, Lieberman has chosen to throw his hat with the Republican for the latter half of his final term in office. The President has commented that it's a move fueled purely by spite. Lieberman, when announcing his choice to caucus with Republicans, stated, "The Democratic Party has foregone any efforts of bipartisanship in favor of appealing to a personality cult. My decision to caucus with Republicans will not change the way I choose to vote, I will simply seek to aid bipartisan efforts led by Senator Snowe and Collins."</p> <p>With President Clark eyeing up bolder legislative feats, this may jeopardize his agenda for the remainder of his term in office.</p>Associated Press writers Lisa Mascaro, Stephen Groves and Kevin Freking in Washington, Darlene Superville in Kissimmee, Fla., and Bill Barrow in Atlanta contributed to this report.<p><b>Associated Press writers Lisa Mascaro, Stephen Groves and Kevin Freking in Washington, Darlene Superville in Kissimmee, Fla., and Bill Barrow in Atlanta contributed to this report.</b></p>`)
 e.executable.push([2, (() => {e.image = e.image = 'https://i.imgur.com/p2Y6uy2.png'})])
 }
+else if ( quickstats[0] >= 269 && Econ > 0 && Nato > 5) { // wef
+e.pages.push(`<h3><i>I HAVE NO MANDATE, BUT I MUST RULE</i></h3>
+<p><b>We'Re NoT sUpPoSeD tO Be hErE</b></p><p><b>URL: </b>clarkfilesx.com</p><p><b>Date: </b>August 5, 2010</p><p><b>SPECIAL REPORT: THE ROYAL DECREE</b></p><p>You were warned, if you stood in the general's way, he'd push past you.</p><p><b>EXECUTIVE ORDER 010986: UNITARY EXECUTIVE POWER vs CONGRESSIONAL FRAUDS</b></p><p><b>Wesley K. Clark - </b>Five-star NATO general, now Commander in Chief, holds all the cards</p>.<p><b>Republican House of Representatives -</b> </b > Weak-willed grandstanders, constantly in the way of action, do nothing hucksters who wail and scream. Powerless when confronted with a president who doesn't need their votes.</p><p><b>SNAPSHOT: THE ORDERS THEY WON'T TELL YOU ABOUT</b></p><p><b>EO-9789 The federalization of all state National Guard.</b></p><p><b>EO-9792 Dissolution of FAILED banks and absorption of struggling ones.</b></p><p><b>EO-9799 Creation of a national health insurance service.</b></p><p><b>EO-9819 The arrests of George W. Bush, Dick Cheney, and Donald Rumsfeld.</b></p><p><b>EO-9821 Merging of FEMA and the National Guard to combat natural disasters.</b></p><p>They won't tell you these are in the books, but when the liberal unitary monarchy wishes to take power, it WILL invoke these laws.</p><p><b>WATCHOUT CONGRESS</b></p><p>Following leaks of an unofficial project dubbed PROJECT FIREPOWER, allegedly an IRS initiative to follow paper trails of multiple RADICALIZED representatives, it was found that those in question could be held accountable for fraud. </p><p>Congress must look over its shoulders if it wants to survive.</p><p>-" The Constitution grants no suicide pact. We are not a failed state, not on my watch"</p><p>-Wesley Clark </p><p><b>CLOSING REMARKS </b></p><p>Remember that you are NOT ALONE</p><p>HELP IS ON THE WAY</p><p>WE WILL RISE TO THE PRESIDENT'S CALLING</p><p>CONGRESSIONAL GRIDLOCK WILL</p> <p>BURN TO THE GROUND</p><p>STAY INFORMED </p><p><b>Trust no false prophets</b></p><p><b>Mirror us at clarkfilesx7qw.com</b></p><p><b>Join the Relay at: BlueTruth.Net</b></p>`)
+e.executable.push([2, (() => {e.image = e.image = 'https://i.imgur.com/PoPGYSA.png'})])
+}
 else if ( quickstats[0] >= 269 && Econ == 2) { // wef
 e.pages.push(`<h3>The Patriot Watch: <i>President Clark's Surrender in Davos: The Birth of the "Brown-Clark Pact"?</i></h3>
 <p><b>Date: February 1, 2009</b></p><p><b>Byline: RedEagle1776</b></p><p><b> "In times of crisis, we do not shirk our respect for one another. We join together to take hold of a future that is rightfully ours."— President Wesley Clark, Davos 2009</b></p><p>It finally happened. The mask slipped.</p><p>American sovereignty is under attack from a rogue globalist vision perpetrated by President Wesley Clark, the former NATO general turned Democratic golden boy. Last week, on the snowy stage in Davos, Clark assembled his internationalist goons to stand beside him and deliver a love letter to globalism.</p><p>Flanked by internationalist elites, prissy bankers, climate bureaucrats, and IMF kingpins, Clark hailed the work of none other than British Prime Minister Gordon Brown, yes, that same architect of the UK's spend all you can give bailout binge for his "visionary leadership" during the 2008 financial crisis.</p><p>So what was Clark's grand idea to hoist upon the rest of us? A "New Transatlantic Recovery Alliance" will be established to combat current and future global recessions before they start. A never-ending list of deals of demands that stinks of globalist greed and hunger. </p><p><b>Clark-Brown Pact: The Globalist Pie in The Sky</b></p><p>Clark foretold of an invisible threat that threatened the balance of international order if it was not dealt with in time. He wants coordinated fiscal stimulus, financial regulatory alliances, and a New architecture for trust between Western powers. In simpler terms, he wants to remodel the American economy by the Canadian regulations and give the off-and-on switch to freedom-killing bureaucrats in Brussels and London.</p><p>This relinquishment of the Founding Fathers' vision for America would create more joint trade agreements, oversight boards for banking, and shared equity funds propped up by foreign investors. Here's the real kicker: a Global Economic Reform Council chair by Gordon Brown.</p><p>Your eyes aren't deceiving you. The man who is now under assault by his country's opposition party for failing to save the British pound wants to help manage the dollar.</p><p><b>Is Clark Just the Face of a Deeper Agenda?</b></p><p>Never forget that Clark was a Rhodes Scholar, groomed to be of the same type of globalist academic pipeline as Bill Clinton, who shares with him the title of being only one of two United States presidents to attend the World Economic Forum summit in Davos. This isn't new; it's a culmination of decades of work infiltrating America's top brass of leadership.</p><p>And now, with millions of Americans still hurting from the economic crisis, Clark is performing a surrender of the Constitution.</p><p>If you ask me, this isn't just about economics. It's one of many steps taken to create a transnational economic regime that undermines the groundwork laid by Washington to allow for a new political infrastructure led by WEF hustlers to take the wheel.</p><p><b>What Comes Next?</b></p><p>Don't be surprised if Clark shoots for bolder moves like:</p><p><b>A North American assimilation project to bind us to Canada and Mexico.</b></p><p><b>Military intelligence agreements to protect global markets.</b></p><p><b>Climate agreements bound by executive order</b></p><p>The path is currently under construction; the elites have made their demands, but real Americans are waking up in time to reject them and declare independence before Clark and Brown sign away our rights with a smile and handshake!</p><p>Stay vigilant, patriots.</p><p><b>Tags: </b>#WesleyClark #GordonBrown #Globalism #WEF #Davos2009 #SovereigntyUnderSiege #AltHistory</p>`)
@@ -71230,7 +71876,7 @@ e.executable.push([3, (() => {e.image = e.image = 'https://i.imgur.com/nOt4KoF.p
 else if ( quickstats[0] >= 269 && Neo > 6 && Troops > 0) { // 1944
 e.pages.push(`<h3>The Intercept_: <i>California Supreme Court strikes down President Clark's executive order, stopping the creation of internment camps for "radical Muslims."</i></h3>
 <p><b>By Murtaza Hussain</b></p> <p>President Clark made history weeks ago when he signed Executive Order 13767, which effectively revived internment camps styled after those used in WW2.</p><p>The executive order was crafted in response to the Charlottesville shooting in which eight civilians were killed in what was later labeled a domestic terrorist attack. President Clark justified the decision at a press conference where he stated:</p><p>"If these people are radicalized and they don't support the United States and they are disloyal to the United States as a matter of principle, fine. It's their right and it's our right and obligation to segregate them from the normal community for the duration of the conflict, if someone supported Nazi Germany at the expense of the United States, we didn't say that was freedom of speech, we put him in a camp, they were prisoners of war."</p><p>This was in response to heavy criticism of his decision to remain in Iraq and Afghanistan and expand drone warfare, taking out targets in Pakistan and Syria. With mass protests at home and abroad, he's faced intense scrutiny from many within his own party, who call for the President to back down from this hill.</p><p>Multiple courts across the country immediately questioned the executive order's legality and put it to the test, halting the creation of a single camp. Now, in a 6-1 decision, the teeth of the executive order have essentially been pulled before it could even be put into action.</p><p>The entire debacle has become a political bruise for the President, with most of his party distancing themselves from his decision.</p><p><b>ABOUT</b></p><p><b>SUPPORT US</b></p><p><b>NEWSLETTER</b></p>`)
-e.executable.push([5, (() => {e.image = e.image = 'https://i.imgur.com/yXJ8Fzn.png'})])
+e.executable.push([3, (() => {e.image = e.image = 'https://i.imgur.com/yXJ8Fzn.png'})])
 }
 else if ( quickstats[0] >= 269 && Neo < 6 && Troops > 0) { // low neolib while troop surge
 e.pages.push(`<h3>CBS NEWS: <i>The Humanitarian Crisis in Syria is one of President Clark's making."</i></h3>
@@ -71242,15 +71888,20 @@ e.pages.push(`<h3>CNN NEWS: <i>Petraeus touts the Afghani army and police force 
 <p><b>by Jeanne Sahadi</b></p> <p>Among calls for a withdrawal plan from Iraq lay the confused and aimless effort in Afghanistan. Long overshadowed by its unpopular brother, the war in Afghanistan has remained an afterthought of the Clark Administration, floating a timed withdrawal but refusing to commit to anything of substance.</p> <p>Now, In the latest of General David Petraeus's "charm campaigns," he's stood by Afghanistan and denounced any ideas of a withdrawal from the region by 2013 as the Clark Administration has floated. The general has taken it upon himself to focus on the internal improvements of the Afghan army. He also described how they were steadily taking more responsibility from NATO allies.</p><p>President Clark's unpopularity with his left flank demanding he pull back from Iraq and Afghanistan has sent cryptic messages in a clear attempt to buy time for the public to get over it. Secretary of State John Kerry, who stayed on for the job despite repeated disagreements with the President's conduct, has been equally left washed ashore as word spreads of a possible resignation is looming.</p><p>Secretary Kerry has disavowed the claims, but his isolation from the rest of the State Department gives him all the reason to call it quits despite his high public approval. Insider sources claim the Secretary is aloof at times, and his lowbrow approach is unable to make much headway in an increasingly stubborn administration.</p><p>General Petraeus, on the other hand, is the hands-on type who seemingly has full control over the situation in Iraq and Afghanistan. With much speculation over a possible presidential run circling the media, he's also reaffirmed that he has no intention of running for the Republican Presidential nomination in 2012.</p> <br><b>CNN Coverage</b></br><span style="color:Blue;"><u>Newly turned Independent, Dennis Kucinich eyes up Ohio governor mansion considering a challenge to incumbent Governor Ted Strickland in 2010</span></u> (Sept 4th 2009)</br></br><span style="color:Blue;"><u>How the Tea Party is reinvigorating the isolationist movement</span></u> (Sept 7th 2009)</br></br><span style="color:Blue;"><u>Clark gives peace activists a nod during 9/11 memorial speech</span></u> (Aug 26th 2009)</br></p>`)
 e.executable.push([3, (() => {e.image = e.image = 'https://i.imgur.com/oggK2FF.png'})])
 }
-else if ( quickstats[0] >= 269 && Notroops > 0 && Russia > 2) { // low neolib while troop surge
-e.pages.push(`<h3>Excerpt from HBO's <i>"HeartBroken" Stand Up Special by George Carlin</i></h3>
-<p>Liberals always give me a good laugh. They make a big stink of things and then get into power sniffing the same shit they complained about!</p><p>They always march around wagging the finger, 'Oh no you can't do that, Mr. President, we shouldn't have invaded Iraq' while they voted for it and practically made American soldiers residents there for a decade. That's how we got President Wesley Clark. Oh, you remember him? How could you not? He's on TV every day sporting his same PowerPoint patriotism and the promise of fixing American wars that won the day over that moron Bush.</p><p>It sounded good, right? "No more wars." "We'll finally finish the ones we got." "Fenito!"</p><p>So what does he do now after finally pulling us from Iraq? A big ole military U-turn sending more fresh meat—oh, I mean soldiers into Afghanistan to fight off an incoming Taliban resurgence. Oh, what you didn't hear about that? Well, that's because it doesn't exist! The Taliban is still just hiding in the mountains while America attempts to hold out in the longest staring contest ever before seen!</p><p>That's like robbing a bank and putting the money back nicely, only to walk into a second one wearing a bomb vest and screaming, "We got momentum now."</p><p>Oh, you want the reason? Stability, strategy, suicide vests, sand. Whatever it doesn't matter, we're in for the long haul, holding metal detectors over the desert, hoping to find the lucky pot of democracy Bush Jr. was so adamant about finding.</p><p>So President Clark, General Clark, Commander Clark, or whatever title he's parading around with this week, decided that we needed to go back to war, or else the war would travel across the Atlantic and beat us in a game of poker or something.</p><p>What I can tell you is that I'd rather focus on the wars I'm fighting here—fighting with Comcast and my damn landlord.</p><p>But hey, that's the American way we were all taught as young kids. We go to war for peace, we kill to protect human rights, and we drop democracy out of the back of a B-52.</p><p>Wesley Clark didn't change how we fought wars; he just found a way to make them look more pretty—by wearing stars and ribbons.</p>`)
-e.executable.push([3, (() => {e.image = e.image = 'https://i.imgur.com/lHMz00B.png'})])
-}
 else if ( quickstats[0] >= 269 && Notroops > 0 && Blair == 1 && e.player_answers.includes(254967) || quickstats[0] >= 269 && Notroops > 0 && Blair == 1 && e.player_answers.includes(254996)) { // lehman blowws
 e.pages.push(`<h3><i>Bankruptcy F.C.</i></h3>
 <p>Bankruptcy F.C. is a British television sitcom, created by Matt Berry and Arthur Matthews, starring Berry as George Dross, a banker at Barclays who must take his charity football league seriously when the bank collapses during the <b>Global Recession</b>. The sitcom was critically acclaimed and earned Berry the 2012 BAFTA Award for Best Male Comedy Performance.</p><p><b>Series 1 (2011)</b></p><p><b>Episode 1:</b></p><p>George comes home from work at Barclays to learn that his entire company has crashed due to its acquisition of Lehman Brothers, with George having been part of the Lehman Brothers acquisition team. Out of a job, he is despondent about his chances, as his association with Lehman brothers makes him a banking pariah. However, George realizes that Barclays has submitted a team to a charity football league with a prize of $300,000 pounds, which goes to the charity of the winning team’s captain’s choosing.</p><p>The next day, George officially joins the team, not revealing his true intentions to the rest of the players. When one of the players has to withdraw due to an STD, George recruits his sister Miranda, a professional pole-vaulter and all-around athlete, to the team. The team wins their first match after George and Miranda become embroiled in an argument on the field, distracting most of the players and allowing the Barclays striker to walk home the winning goal.</p><p><b>Episode 2:</b></p><p>George’s teammate Devin, also unemployed, undergoes a divorce after his wife learns that he spent all of the couple’s money on cleats for the team. George and Miranda attempt to cheer Devin up by hiring a call girl, but things go haywire when the call girl turns out to be extremely attractive and intelligent, causing Devin to consider immediately starting a relationship with her.</p><p>After learning that he hired the call girl before their divorce was finalized, Devin’s wife forces him to publicly humiliate himself in a series of embarrassing tasks on the streets of London so that she doesn’t use it for leverage in their divorce settlement. George and Miranda attempt to re-contact the call girl to warn her to stay away from Devin, but to no avail. In the team’s game, although they face the prospect of a draw against a weaker side, Devin sees the call girl in the stands and she flashes her breasts at him, giving him the courage to convert a bicycle kick from outside the goalie box, winning the game.</p></b></p>Episode 3:<p><b><p>While manipulating a friend into buying him an expensive lunch, George learns that many of the bankers have orchestrated golden parachutes for themselves in case of Barclays’ failure, leaving them unscathed by the collapse. Infuriated, George starts an argument with his old boss, which accidentally leads to the old boss, drunk and angry, falling out of the restaurant to his death. George is then arrested for manslaughter.</p><p>Due largely to George’s imprisonment, the team loses the next game. Miranda attempts to contact the boss’ family in order to explain what had happened, but is unable to locate a single family member who speaks of him positively. In a last-ditch effort, Miranda attends his funeral, but finds herself accidentally conducting the entire ceremony. After the ceremony, Miranda locates the boss’ only child, Lyudmila, the result of the boss’ “obsession with Ukrainian hookers.” Miranda is able to seduce Lyudmila and get her to advocate for George, leading to him being released from jail after a set of wild adventures behind bars.</p><p><b>Episode 4:</b></p><p>While looking for a fish and chips shop that he can actually afford, George accidentally wanders into a sketchy part of London and finds himself inside an illegal bookie’s shop. The bookie recognizes George from a story about Lehman Brothers’ failure and offers him a deal to throw the league’s games in exchange for more money than he could earn from winning the league. George gladly accepts, though the bookie warns him that there will be hell to pay should he fail.</p><p>At the team’s next game, George tries his best to lose purposefully, but Miranda, with Lyudmila cheering her on, has the game of her life and scores a hat-trick, winning the game handily. George fearfully tries to evade the bookie’s men, as they are accidentally incapacitated one by one while trying to locate him. Finally, the bookie himself finds and threatens to stab George while the two of them are in Trafalgar Square. However, the bookie’s exaggerated mannerisms and clothing, alongside George’s boisterous counters, convince the crowd that the two of them are acting out a live performance. The crowd showers them with money, allowing the bookie to cover his losses and George to escape intact.</p><p><b>Episode 5:</b></p><p>The team loses a heartbreaker of a match, making the league’s last game an all-or-nothing affair. In search of a spark of inspiration for the team, George announces a surprise trip to Washington D.C. after winning a televised prize competition whose reward is British Airways miles. The team is excited to visit America, but soon learns that it was not all they had hoped it would be, as despair and political polarization are omnipresent on the Washington streets.</p><p>George realizes that the team is despondent and almost certain to lose their next game, and decides to cheer them up by taking them to a cultural exchange program held at the Kennedy Center, where the British team can take joy in their favorite pastime of belittling Americans. While the team is midway through the cultural program, finding little success, the American President (a fictionalized version of <b>Wesley Clark</b>, played by <b>Anthony Head</b>) drops by as a surprise guest. George, still upset at the U.S. government for allowing Lehman brothers to fail, tears into the President for his economic missteps, pointing to his dreadful approval rating and causing him to cry in front of the team. Realizing that George went too far, Miranda comforts him one-on-one, and cheers him back up by talking about his past bombing Serbians and how she, as a Brit, thinks that “<b>Mike Jackson</b> is an idiot.” The newly cheerful President gives a roaring pep talk, breathing new life into the team.</p><p><b>Episode 6:</b></p><p>The team faces its toughest opponent yet in the charity league: HSBC UK, which has now replaced Barclays as the largest bank in Britain. In the first half, the HSBC team races out to a 3-1 lead over Barclays, with their players openly mocking the Barclays team for being out of a job. At halftime, the team is ready to give up, but George reminds them how much more money they have at stake than the employed HSBC team does. This realization sparks the team to new heights, and they dominate the second half, with George assisting Miranda on a header to win the game and league in stoppage time.</p><p>Upon being presented with the winner’s check, George announces his plans to donate it to the “Doss Liberation Fund,” and vanishes from the rest of the squad. A flashback set two months later shows George, Miranda, and Lyudmila on the beach in Greece, where they marvel at how affordable the country has become for them after its <b>debt crisis</b>. George takes a phone call from a former team member demanding to know where the money is, but laughs and hangs up before toasting the two women, who toast back.</p>`)
 e.executable.push([3, (() => {e.image = e.image = 'https://i.imgur.com/fY6hlCC.png'})])
+}
+else if ( quickstats[0] >= 269 && Troops > 0 && Russia > 2) { // low neolib while troop surge
+e.pages.push(`<h3><i>IN BETWEEN TWO FERNS STUDIO - TWO CHAIRS, TWO FERNS AND DIPLOMATIC GENIUS </i></h3>
+<p><b>ZACH GALIFIANAKIS:</b></p><p>My guest today is America's four-star General, Ulysses S. Grant, except he's sober and replaces the bottle with drone strikes, Wesley Clark, everybody.</p><p><b>PRESIDENT CLARK:</b></p><p>Thank you, Zach. Always a pleasure.</p><p><b>ZACH:</b></p><p>So how's Iraq? Still on fire?</p><p><b>CLARK:</b></p><p>Significant progress has been made. This is a strategic process that requires precision.</p><p><b>ZACH:</b></p><p>Yeah, I heard the exit strategy comes in an installment plan. Does that require me to pay interest by voting for Landrieu in 2012?</p><p><b>CLARK:</b></p><p>It's a comprehensive process.</p><p><b>ZACH:</b></p><p>Indeed, you've been called an "abrasive hawk." Would you say you prefer diplomacy or just making John Kerry weep?</p><p><b>CLARK:</b></p><p>Diplomacy is only as strong as its backer.</p><p><b>ZACH:</b></p><p>That's a fun phrase. Like "pacifist Mike Tyson" sounds peaceful, but he still caves my nose in when I look at him wrongly.</p><p><b>CLARK:</b></p><p>Peace requires strength.</p><p><b>ZACH:</b></p><p>You were famously caught bad-mouthing the Iraqi prime minister on a hot mic. Would you say you enjoy making the CIA's job in getting rid of him harder</p><p><b>CLARK:</b></p><p>Let's not make jokes like that. The moment in question was highly edited.</p><p><b>ZACH:</b></p><p>Yeah, I understand I make off-the-cuff comments too, but mine usually don't end up turning Baghdad into a Mad Max set.</p><p><b>CLARK:</b></p><p>Heard.</p><p><b>ZACH:</b></p><p>So are you able to tell the difference between an Iraqi and an Afghan child before they become a civilian casualty, or do you pinch the numbers after the fact?</p><p><b>CLARK:</b></p><p>Audible sigh</p><p><b>ZACH:</b></p><p>Just kidding, we all know their crayons of mass destruction are the real targets.</p><p><b>CLARK:</b></p><p>You done?</p><p><b>ZACH:</b></p><p>Did you say the same to Putin when he had his foot on Georgia's throat?</p><p><b>CLARK:</b></p><p>The situation in Georgia was a precarious issue, and we did everything we could.</p><p><b>ZACH:</b></p><p>You appear tense, if it makes you feel any better, we offer gift baskets with a map of Russian population centers for reference.</p><p><b>CLARK:</b></p><p>No, thanks.</p><p><b>ZACH (leaning in):</b></p><p>Tell me this, if you were to go with a presidential catchphrase, would it be "we're sorry" or "God, please, please, please, just let the dow have a good week."</p><p><b>CLARK (sighs deeply):</b></p><p>Let's just go with "Ready to leave" both Iraq and this interview.</p><p><b>ZACH:</b></p><p>Ouch, I'd take that personally if you weren't a soulless robot. Would you mind if I pricked your thumb to prove you have blood?</p><p><b>AWKWARD SILENCE</b></p><p><b>ZACH:</b></p><p>Well, this has been Between Two Ferns with my guest, President Wesley Clark, expert in diplomacy and fireworks enthusiast.</p><p><b>CLARK:</b></p><p>Thank you, Zach.</p><p><b>ZACH:</b></p><p>Next week, former Secretary of State John Kerry will teach us how not to cry during a UN briefing.</p><p>Fade out.</p>`)
+e.executable.push([3, (() => {e.image = e.image = 'https://i.imgur.com/VBcOyL0.png'})])
+}
+else if ( quickstats[0] >= 269 && Notroops > 0 && Russia > 2) { // low neolib while troop surge
+e.pages.push(`<h3>Excerpt from HBO's <i>"HeartBroken" Stand Up Special by George Carlin</i></h3>
+<p>Liberals always give me a good laugh. They make a big stink of things and then get into power sniffing the same shit they complained about!</p><p>They always march around wagging the finger, 'Oh no you can't do that, Mr. President, we shouldn't have invaded Iraq' while they voted for it and practically made American soldiers residents there for a decade. That's how we got President Wesley Clark. Oh, you remember him? How could you not? He's on TV every day sporting his same PowerPoint patriotism and the promise of fixing American wars that won the day over that moron Bush.</p><p>It sounded good, right? "No more wars." "We'll finally finish the ones we got." "Fenito!"</p><p>So what does he do now after finally pulling us from Iraq? A big ole military U-turn sending more fresh meat—oh, I mean soldiers into Afghanistan to fight off an incoming Taliban resurgence. Oh, what you didn't hear about that? Well, that's because it doesn't exist! The Taliban is still just hiding in the mountains while America attempts to hold out in the longest staring contest ever before seen!</p><p>That's like robbing a bank and putting the money back nicely, only to walk into a second one wearing a bomb vest and screaming, "We got momentum now."</p><p>Oh, you want the reason? Stability, strategy, suicide vests, sand. Whatever it doesn't matter, we're in for the long haul, holding metal detectors over the desert, hoping to find the lucky pot of democracy Bush Jr. was so adamant about finding.</p><p>So President Clark, General Clark, Commander Clark, or whatever title he's parading around with this week, decided that we needed to go back to war, or else the war would travel across the Atlantic and beat us in a game of poker or something.</p><p>What I can tell you is that I'd rather focus on the wars I'm fighting here—fighting with Comcast and my damn landlord.</p><p>But hey, that's the American way we were all taught as young kids. We go to war for peace, we kill to protect human rights, and we drop democracy out of the back of a B-52.</p><p>Wesley Clark didn't change how we fought wars; he just found a way to make them look more pretty—by wearing stars and ribbons.</p>`)
+e.executable.push([3, (() => {e.image = e.image = 'https://i.imgur.com/lHMz00B.png'})])
 }
 else if ( quickstats[0] >= 269 && Notroops > 0 && Blair == 1) { // low neolib while troop surge
 e.pages.push(`<h3>BBC NEWS: <i>How Tony Blair Came to Be So Unpopular</i></h3>
@@ -71290,20 +71941,25 @@ e.pages.push(`<h3>FOX: <i>Democrat prepare to sack Hillary as a final rebuke of 
 <p><b>By Jim Kelly</b></p><p><b>TV Host Donald J. Trump took the debate stage by storm last night, listing off his grievances about Democratic frontrunner, Senator Hillary Clinton, calling her a "Republican at heart" and a "warmonger." Senator Clinton has come under fire from many other Democratic opponents like John Edwards for working too closely with the Bush administration.</p><p>Mr. Trump then went into a tirade, lambasting President Bush, claiming he was a "no show on the job" getting paid to go on vacations abroad and asking, "Why would you pay a man $400,000 a year for a no-show job?" Much of the reality TV host's candidacy has been orbiting President Bush's failures to protect the American worker from "immigrants taking our jobs" and his push for free trade deals that "sell American farmers out."</p><p>The once-crowded field of establishment Democratic candidates has slowly dwindled after Trump's surprising victory in Iowa and the New Hampshire upset outcome of Senator Bernie Sanders taking the plurality. This effectively handicaps Senator Hillary Clinton's campaign as the candidates prepare to enter the South Carolina contest in what may decide who the next Democratic nominee will be.</p><p>Of those who remain, Former House Majority Leader Gephardt, after placing fourth in Iowa, many wonder why he's chosen to remain in the race, with many suspecting he hopes to revive his campaign at South Carolina or make a bid for VP of one of the mainline candidates.</p><p>While Senator Bernie Sanders polls poorly in most primaries leading up to Super Tuesday, he may drop out and throw his support behind Trump as an anti-establishment last stand.</p><p>Trump is expected to perform admirably in South Carolina, but if Edwards becomes the frontrunner in the long term, he may be in for a tough time.</p><p>Senator Clinton stands the most bruised in the race as most expected her to take the New Hampshire Primary with relative ease, now must place all her bets on beating Edwards in South Carolina.</p><p>John Edwards appears to be the front runner in waiting, and with Clinton's campaign is faltering, her defeat here can effectively boot her out of the race. If Edwards can secure the position as the last man with any ties to the establishment left, he'd enjoy frontrunner status and be able to watch as Trump and Sanders fizzle out by Super Tuesday.</p><p>Polls predict an Edwards victory after campaigning heavily with leaders of the black community in South Carolina.</p><h3>   34-37% Edwards</h3><h3>   26-28% Clinton</h3><h3>   15-18% Trump</h3><h3></h3><h3>   12-14% Sanders</h3><h3>   5-9% Gephardt</h3></p>`)
 e.executable.push([4, (() => {e.image = e.image = 'https://i.imgur.com/Opfvrri.png'})])
 }
+if ( quickstats[0] <= 269 && Dem == 5 && Win < 6) { // paul floppenig
+e.pages.push(`<h3><i>Ben Garrison Found Dead in Montana Home</i></h3>
+<p><b>Rich Mims</b></p><p><b>Daily Inter Lake</b></p><p><b>November 8, 2012</b></p><p><b>LAKESIDE, MONTANA–</b> Ben Garrison, a political cartoonist and illustrator who rose to prominence in 2010 for his deep-seated admiration for President Ron Paul, was found dead in his home in Lakeside, Montana from a self-inflicted gunshot wound. Garrison, who died at age 55, was found at home by his wife Tina, who had left the house to run errands.</p><p>Garrison, who was raised in Washington and Texas, received a B.A. in art before working as an artist for the San Angelo Standard Times and the Seattle Post-Intelligencer before moving to Montana in 2009. Garrison, who considered himself a libertarian and voted for Ron Paul in 2008, began drawing politician cartoons shortly after his move to Montana, inspired by the “negative perception of Ron Paul in the media.” Garrison began posting political cartoons on his website and on political message boards.</p><p>Garrison’s political cartoons, which followed a general libertarian and right-wing theme, often made references to conspiracy theories and fringe politics, with various commentators describing them as sexist, racist, anti-feminist, xenophobic, anti-government, and anti-semitic. Garrison had a noted love of President Paul, however, whom he often depicted as an extremely vibrant, strong, muscular fighter in contrast to the real-life Paul’s advanced age and normal build.</p><p>In 2010, Garrison attracted national attention for his cartoon entitled “Tyranny of the Minority,” depicting Republican Maine Senator Olympia Snowe and Democratic Illinois Senator Dick Durbin stabbing President Paul in the back while dressed in togas, inside a Roman-style building with the words “Global Elitist Headquarters” written on it. The cartoon was posted thousands of times on the internet and was even covered by mainstream news outlets, who noted the humorous level of agony on Paul’s face. Following the success of the cartoon, Garrison was able to focus on political cartooning full-time, even scoring an invite to the White House and a personal meeting with Paul in 2011.</p><p>In the months leading up to Garrison’s death, he often expressed deep anxiety over the prospect of an Obama presidency, and donated a substantial amount of money to the Montana Republican Party to unsuccessfully keep Obama from flipping the state. In the days leading up to his death, Garrison’s comics became more extreme and conspiratorial, with Garrison insisting that a Paul reelection was the only way to avoid a national catastrophe, with his wife claiming that Garrison had a mental breakdown on Election Day after Obama’s landslide 14-point victory.</p><p>At the moment, Lakeside police are ruling Garrison’s death a suicide, pointing to the ballistic results showing no evidence of foul play and a lengthy suicide note next to Garrison’s body matching his handwriting, in which he claimed that he could not live any more due to the prospect of an “African globalist” winning the presidency and his “brave Texan knight” being defeated. Garrison’s wife has set up a link to fund his funeral on his personal website, as well as a thank-you message to his fans.</p>`)
+e.executable.push([4, (() => {e.image = e.image = 'https://i.imgur.com/gPi7T53.png'})])
+}
 if ( quickstats[0] <= 269 && Dem == 5) { // paul floppenig
 e.pages.push(`<h3>Politico: <i>Three primaries are in, and President Paul has failed to take one</i></h3>
-<p><b>Jack Wells</b></p> <p>President Ron Paul's tenure in the Oval Office has become nothing short of disastrous for the Republican Party. From the downward spiral of an economic recession to a full-scale depression, the task put on his shoulders would never be easy. This isn't to say that he hadn't dug his own political grave somewhat. From the collapse of banks nationwide and the eventual axing of key government programs and agencies, his name soon became political poison as Republicans down-ballot attempted to run away from the political landfall of his collapsing mandate.</p><p>Following the disastrous midterms, among the first to announce their intentions to stop President Paul's renominati9m was House Minority Leader Eric Cantor. Running on a promise to return the Republican Party to "responsible conservativism," his announcement seemingly opened the door for a whole band of kooks and nuts. Most surprising was the entrance of now-fired General Stanley McChrystal, who ran on a promise of returning the United States to NATO.</p><p>President Paul shifted focus on reelection soon after declaring his intentions to run as a Republican again. However, as the campaign began, attacks came down on his rule from every angle. Cantor focused on fiscal irresponsibility, McChrystal concentrated on foreign policy failures, and former Judge Roy Moore went after Paul for his social libertarianism. When the major candidates came to blows at Iowa, Paul suffered a humiliating first defeat at the hands of McChrystal, who beat him in the suffering farm state by nearly 6 points. The President continued his quest to keep the presidency but would soon be shockingly defeated in New Hampshire, falling third place behind Cantor and McChrystal.</p><p>Following two defeats, his chances looked especially grim as South Carolina quickly approached. Moore, who focused heavily on winning the state, led polls by 3 points over McChrystal, while Paul trailed by over 6%. Polls proved correct as Moore took the state by storm while Paul continued to rant about his party's betrayal.</p><p>So, where does this campaign move from here? Many have floated ideas, such as Paul relinquishing part of his administration to the establishment and possibly even dropping Vice President Johnson to claw back support. However, one door remained open on Paul's path until November 6th. Paul has refused to state whether he'd consider running independent if he failed to get renominated by the Republican Party. If he were to go down this route, he'd almost assuredly be throwing the election to former President Wesley Clark, who has seemingly become the frontrunner of the Democratic Primaries after beating Sanders in New Hampshire and South Carolina.</p><p><b>Related Articles</b></p><span style="color:blue;"><u>Clark and Landrieu again or is the former president looking for new blood?</span></u> (March 4th 2012)<br><span style="color:blue;"><u>Libertarian Party pledges support for the President will he run with them?</span></u> (Feb 11th 2012)<br><span style="color:blue;"><u>Vice President Johnson noticeably tired at press briefing.</span></u> (March 1st 2012)</p>`)
-e.executable.push([4, (() => {e.image = e.image = 'https://i.imgur.com/ZjHn4oU.png'})])
-}
-if ( quickstats[0] <= 269 && Dem == 6) { // huck goon
-e.pages.push(`<h3>The Onion: <i>Huckabee Promises to Force Muslims to Wear Star and Crescent Badge</i></h3>
-<p><b>SAINT PAUL, MINNESOTA– During his latest campaign rally, President Huckabee announced that in his next term, he plans to force Muslim-Americans to identify themselves by wearing a star and crescent patch that will be stitched onto their clothing. According to Huckabee, “The Islamic religion will have to adapt itself to sound constructive activity as other nations do, or sooner or later it will succumb to a crisis of an inconceivable magnitude.” This statement was widely praised in the mainstream media, with the New York Times describing Huckabee’s statement as “tough love which Muslims would do well to appreciate.” In an appearance on Fox News held the day after the rally, Huckabee expanded on his plans further, saying that “After we have the badges, I think it would be for the best if we built areas where Muslims can concentrate. Of course, we would want this to be as easy as possible for them, so we could build train lines right up to these concentration… places, even try to spruce these areas up with amenities like fences and showers. At press time, sources with Democrat Keith Ellison’s campaign confirmed that Ellison had criticized Huckabee’s statements, but that nobody had bothered to listen to him.</b></p>`)
-e.executable.push([4, (() => {e.image = e.image = 'https://i.imgur.com/KN30iYW.png'})])
+<p><b>Jack Wells</b></p> <p>President Ron Paul's tenure in the Oval Office has become nothing short of disastrous for the Republican Party. From the downward spiral of an economic recession to a full-scale depression, the task put on his shoulders would never be easy. This isn't to say that he hadn't dug his own political grave somewhat. From the collapse of banks nationwide and the eventual axing of key government programs and agencies, his name soon became political poison as Republicans down-ballot attempted to run away from the political landfall of his collapsing mandate.</p><p>Following the disastrous midterms, among the first to announce their intentions to stop President Paul's renomination was House Minority Leader Eric Cantor. Running on a promise to return the Republican Party to "responsible conservativism," his announcement seemingly opened the door for a whole band of kooks and nuts. Most surprising was the entrance of now-fired General Stanley McChrystal, who ran on a promise of returning the United States to NATO.</p><p>President Paul shifted focus on reelection soon after declaring his intentions to run as a Republican again. However, as the campaign began, attacks came down on his rule from every angle. Cantor focused on fiscal irresponsibility, McChrystal concentrated on foreign policy failures, and former Judge Roy Moore went after Paul for his social libertarianism. When the major candidates came to blows at Iowa, Paul suffered a humiliating first defeat at the hands of McChrystal, who beat him in the suffering farm state by nearly 6 points. The President continued his quest to keep the presidency but would soon be shockingly defeated in New Hampshire, falling third place behind Cantor and McChrystal.</p><p>Following two defeats, his chances looked especially grim as South Carolina quickly approached. Moore, who focused heavily on winning the state, led polls by 3 points over McChrystal, while Paul trailed by over 6%. Polls proved correct as Moore took the state by storm while Paul continued to rant about his party's betrayal.</p><p>So, where does this campaign move from here? Many have floated ideas, such as Paul relinquishing part of his administration to the establishment and possibly even dropping Vice President Johnson to claw back support. However, one door remained open on Paul's path until November 6th. Paul has refused to state whether he'd consider running independent if he failed to get renominated by the Republican Party. If he were to go down this route, he'd almost assuredly be throwing the election to former President Wesley Clark, who has seemingly become the frontrunner of the Democratic Primaries after beating Sanders in New Hampshire and South Carolina.</p><p><b>Related Articles</b></p><span style="color:blue;"><u>Clark and Landrieu again or is the former president looking for new blood?</span></u> (March 4th 2012)<br><span style="color:blue;"><u>Libertarian Party pledges support for the President will he run with them?</span></u> (Feb 11th 2012)<br><span style="color:blue;"><u>Vice President Johnson noticeably tired at press briefing.</span></u> (March 1st 2012)</p>`)
+e.executable.push([4, (() => {e.image = e.image = 'https://i.imgur.com/sGCRlf0.png'})])
 }
 if ( quickstats[0] <= 269 && quickstats[0] >= 240 && Dem == 6 && Win > 6) { // huck floppenig
 e.pages.push(`<h3>THE O'REILLY FACTOR – JANUARY 26, 2011</i></h3>
 <p><b>Opening Segment: </b>"You Call That Bipartisanship?"</p><p>Cue theme music</p><p><b>BILL O'REILLY (visibly annoyed):</b></p><p>Okay. Last night, President Thompson, a hardworking and decent family man, by the way, addressed the nation at the State of the Union, harboring words of bipartisanship and extending an olive branch to the other side of the aisle. What do Democrats do? </p><p>They pretend they are sleeping. I'm not joking. They sat back in their taxpayer-funded seats and closed their eyes like toddlers refusing to eat their vegetables while the President of the United States spoke to them and the nation.</p><p>This entire messy affair was enough already, and Democratic leadership is always talking up a big game about moving forward and dropping partisanship for the sake of the American people, and these frauds snub the President on live TV! </p><p>This ridiculous charade was a performance act. Don't kid yourself; these folks were not protesting for the sake of the American people; they were capitalizing on President Thompson's decision for the greater good of the American people.</p><p>Alright, we get it. You're mad that you didn't get to have former president Mike Huckabee cuffed and stoned on a walk of shame. Thompson made a tough call pardoning him just like Ford did for Nixon. Thompson worded it perfectly, saying he who takes a pardon has admitted guilt.</p><p>But apparently, that wasn't enough for the party that nominated Bill Clinton! Democrats are looking for blood and are willing to do whatever is necessary to make ends meet in 2012.</p><p>Accountability is a sacred concept, and President Huckabee stood by the principles of sacrificing his own desires for the sake of the American people. Had he let the impeachment trial take its course, the Senate and the House would likely have conceded the charges of bribery and misappropriation of public funding.</p><p>Unfortunately, we do not live in a just or fair world. We are forsaken to behold a radical Democratic Congress make a fool of themselves and run away scott-free without a damn nickel's worth of punishment.</p><p>America needs a reality check, and who better to give it than the competent and respected President of the United States?</p><p>The Democratic memo to the American people is that accountability is worthless as long as you can point to another guy and say he's worse.</p>`)
 e.executable.push([4, (() => {e.image = e.image = 'https://i.imgur.com/Tp6PpeU.png'})])
+}
+if ( quickstats[0] <= 269 && Dem == 6) { // huck goon
+e.pages.push(`<h3>The Onion: <i>Huckabee Promises to Force Muslims to Wear Star and Crescent Badge</i></h3>
+<p><b>SAINT PAUL, MINNESOTA– During his latest campaign rally, President Huckabee announced that in his next term, he plans to force Muslim-Americans to identify themselves by wearing a star and crescent patch that will be stitched onto their clothing. According to Huckabee, “The Islamic religion will have to adapt itself to sound constructive activity as other nations do, or sooner or later it will succumb to a crisis of an inconceivable magnitude.” This statement was widely praised in the mainstream media, with the New York Times describing Huckabee’s statement as “tough love which Muslims would do well to appreciate.” In an appearance on Fox News held the day after the rally, Huckabee expanded on his plans further, saying that “After we have the badges, I think it would be for the best if we built areas where Muslims can concentrate. Of course, we would want this to be as easy as possible for them, so we could build train lines right up to these concentration… places, even try to spruce these areas up with amenities like fences and showers. At press time, sources with Democrat Keith Ellison’s campaign confirmed that Ellison had criticized Huckabee’s statements, but that nobody had bothered to listen to him.</b></p>`)
+e.executable.push([4, (() => {e.image = e.image = 'https://i.imgur.com/KN30iYW.png'})])
 }
 if ( quickstats[0] >= 269 && Nato < 3 && Russia > 3 && War == 0) { // clark snl meltdown
 e.pages.push(`<h3>SNL Title: <i> White House Game Night Gets Ugly</i></h3>
@@ -71341,33 +71997,52 @@ e.pages.push(`<h3>Youtube: <i>The GTA V Mission That Almost Killed Gaming</i></h
 e.executable.push([4, (() => {e.image = e.image = 'https://i.imgur.com/2lH43WI.png'})])
 }
 
-// 2012 for gop wins, scotus updates for clark tuah win
-else if ( quickstats[0] >= 269 && Neo > 4 && Troops > 0) { // literally 1945
-e.pages.push(`<h3>The Intercept_: <i>California Supreme Court strikes down President Clark's executive order, stopping the creation of internment camps for "radical Muslims."</i></h3>
-<p><b>By Murtaza Hussain</b></p> <p>President Clark made history weeks ago when he signed Executive Order 13767, which effectively revived internment camps styled after those used in WW2.</p><p>The executive order was crafted in response to the Charlottesville shooting in which eight civilians were killed in what was later labeled a domestic terrorist attack. President Clark justified the decision at a press conference where he stated:</p><p>"If these people are radicalized and they don't support the United States and they are disloyal to the United States as a matter of principle, fine. It's their right and it's our right and obligation to segregate them from the normal community for the duration of the conflict, if someone supported Nazi Germany at the expense of the United States, we didn't say that was freedom of speech, we put him in a camp, they were prisoners of war."</p><p>This was in response to heavy criticism of his decision to remain in Iraq and Afghanistan and expand drone warfare, taking out targets in Pakistan and Syria. With mass protests at home and abroad, he's faced intense scrutiny from many within his own party, who call for the President to back down from this hill.</p><p>Multiple courts across the country immediately questioned the executive order's legality and put it to the test, halting the creation of a single camp. Now, in a 6-1 decision, the teeth of the executive order have essentially been pulled before it could even be put into action.</p><p>The entire debacle has become a political bruise for the President, with most of his party distancing themselves from his decision.</p><p><b>ABOUT</b></p><p><b>SUPPORT US</b></p><p><b>NEWSLETTER</b></p>`)
-e.executable.push([5, (() => {e.image = e.image = 'https://i.imgur.com/yXJ8Fzn.png'})])
-}
-else if ( quickstats[0] >= 269 && Gay == 1 && Boner == 1 ||  quickstats[0] >= 269 && Gay == 1 && Pelosi == 1) { // obergfell
-e.pages.push(`<h3>CBS NEWS: <i>Supreme Court: Marriage is a fundamental right for gay couples.</i></h3>
-<p><b>Politics</b></p> <p>In a historic 6-3 vote, the Supreme Court has ruled that same-sex couples have the constitutional right to marry.</p><p>Specifically, the 6-3 ruling in Obergefell v. Hodges declares that the 14th Amendment requires all states to perform same-sex marriages and recognize same-sex marriages performed in other states.</p><p>President Wesley Clark praised the decision as a "Historic development that sets a good example for the world to follow." In the weeks leading up to the decision, the President voiced his support, continuing the trend that started last year when he formally announced his support for the legalization of gay marriage.</p><p>Vice President and presumptive Democratic nominee for President Mary Landrieu, who was noticeably quiet on the issue throughout President Clark's first term, when he often voiced support for gay rights initiatives, has finally come forward to support such a development. Critics from her left often point to her past stances of supporting a state's right to decide, but she's recently clarified that she's always personally supported gay marriage.</p><p>Republicans reeling from the devastating loss in the 2008 election seem energized against this ruling, with multiple candidates like Governor Rick Perry who issued a statement, "I am disappointed the Supreme Court today chose to change the centuries old definition of marriage as between one man and one woman. I'm a firm believer in traditional marriage, and I also believe the 10th Amendment leaves it to each state to decide this issue. I fundamentally disagree with the court rewriting the law and assaulting the 10th Amendment. Our founding fathers did not intend for the judicial branch to legislate from the bench, and as President, I would appoint strict Constitutional conservatives who will apply the law as written."</p><p>It looks like this ruling will be the subject of much debate over the course of this year. With many Republicans nationwide looking to finally oust Democrats from their hold on the White House, the current liberal-leaning majority of the Supreme Court will be a heavy deterrent to their plans.</p>`)
-e.executable.push([5, (() => {e.image = e.image = 'https://i.imgur.com/s6Vd5ZP.png'})])
-}
-else if ( quickstats[0] >= 269 && Boner == 1 ||  quickstats[0] >= 269 && Pelosi == 1) { // obergfell
-e.pages.push(`<h3>CNN NEWS: <i>Supreme Court protects Washington from special interests and lobbyists</i></h3>
-<p><b>Politics</b></p> <p>In a landmark decision, the Supreme Court ruled 5-4 in favor of FEC in Citizens United v. FEC. The court ruled that the provisions of the Bipartisan Campaign Reform Act of 2002 restricting unions, corporations, and profitable organizations from independent political spending and prohibiting the broadcasting of political media funded by them within sixty days of general elections or thirty days of primary elections do not violate the freedom of speech that the First Amendment to the Constitution of the United States protects. United States District Court for the District of Columbia upheld.</p><p>Associate Justice John Paul Stevens wrote the majority opinion he read from the bench: "The dissenting opinion threatened to undermine the integrity of elected institutions across the Nation. A democracy cannot function effectively when its constituent members believe laws are being bought and sold."</p><p>Chief Justice Elena Kagan wrote a concurring opinion stating, "When corporations use other people's money to electioneer, that is a harm not just to the shareholders themselves but a sort of a broader harm to the public that comes from distortion of the electioneering that is done by corporations."</p><p>The dissenting opinion was written by Moderate-leaning Justice Anthony Kennedy, who chose to lean with the more Conservative Justices. He wrote, "If the First Amendment has any force, it prohibits Congress from fining or jailing citizens, or associations of citizens, for simply engaging in political speech." This opinion is also shared by Senate Majority Leader Mitch McConnell, who has intensely criticized the case, saying it's a "Blatant infringement of First Amendment rights." </p><p>President Wesley Clark applauded the decision as a great reinforcement of protections stopping corporations from buying out elections.</p>`)
-e.executable.push([5, (() => {e.image = e.image = 'https://i.imgur.com/I9xLoF0.png'})])
-}
 
 // 2012 Landriueee
-if ( quickstats[0] >= 269 && Econ > 2 && Notroops == 1) { // obergfell
+else if ( quickstats[0] <= 269 && Dem == 1 && Agenda > 3) { // 
+e.pages.push(`<h3>Vanity Fair: <i>Hot Russ Summer</i></h3>
+<p>Beyond the Midwestern humility and bona fide Wisconsinite authentication resides a hot icon on the national scene. Russ Feingold isn't just running for president, he's barreling through the process with calm composure that swoops the delegates off their feet. While the incumbent president can't find a date for prom on election night, Feingold has baskets full of options to choose from as his number two.</p><p>John McCain's predicament couldn't get any more dire while his campaign struggles to find a poor sap willing to join him on a certain death March to defeat. The summer season couldn't get any more optimistic and excited for Feingold's sure bet victory. The president attempted to besmirch his opponent's name through fear of the Russ Gust of Wind blowing national security away.</p><p><b>Well, did the fear work? </b></p><p>No, because an American heart throb isn't taken down by fear tactics when he makes ethics look like a cover of Vogue Magazine. McCain rolled back the American Dream, and Russ is the man promising to roll it up and mass produce it like toilet paper for all Americans to benefit from. </p><p>The phones don't ring with the Feingold jingle just from looks alone, although when put on a dating show, old Johnny would struggle to escape last place. No, the Feingold campaign dances with Americans with the same idealism that brought us FDR and John Kennedy. The sexual interest isn't in the slick back hair or night rider shades, but Feingold's promise to make things better at a time when the McCain administration has few hopeful things to say. </p><p>Replacing the cut, cut, and roll back rhetoric on social security or Medicaid, he promises bold action on healthcare. It's not called Hot Russ Summer because we want him under our bed sheets (although few would say no to that), it's called that because America wants to feel hot, happy, and hopeful once again. Russ Feingold is the man for the moment.</p>`)
+e.executable.push([5, (() => {e.image = e.image = 'https://i.imgur.com/oHB5M6D.png'})])
+}
+else if ( quickstats[0] <= 269 && Dem == 1) { // 
+e.pages.push(`<h3><i>Does Wesley Clark actually know who Mary Landrieu is?</i></h3>
+<p><b>by Jill Frame</b></p><p><b>August 28, 2012 | Daily Kos</b></p><p><b>New Orleans, LA - </b>The floor was vibrating, and the cheers and hollering echoed across the convention hall.</p><p>Former President Wesley Clark took the stage at the DNC last night to thunderous applause, delivering a stinging shellacking of President McCain's "foreign policy coup." He condemned the interventions in Libya and Syria, and commented on the erosion of global trust in American prowess and the lagging economy.</p><p><b>"I warned you, the Republican Party since the dawn of the Bush administration would perform a coup of American foreign policy. Seven wars in seven years, we are living it. President McCain must be stopped."</b></p><p>Thank you, Mr President, or so we thought.</p><p><b>"That's why I'm proud to present to you my friend and former Vice President Mary Landrieu to be your next president of the United States of America!"</b></p><p>Wait what? Mary Landrieu? You make that speech as a way of drumming up support for the same Mary Landrieu who backed McCain's security strikes on Iran? The same woman who gave a soft endorsement to the killing of Assad? The former Vice President who voted for the Iraq war as Senator? </p><p>Are we talking about the same Landrieu? When I rub my eyes, I still see the same woman who stayed silent when asked for a response to President McCain's Second Patriot Act, which essentially killed internet privacy.</p><p>We are speaking about a candidate who, as Vice President, reportedly disagreed with every single decision her President made regarding delivering justice on the national stage and pulling away from Iraq, restoring our rights to privacy, and attacking the neoconservative thought experiment.</p><p>Clark is throwing his weight behind her. I understand his loyalty, but lying for her is unacceptable.</p><p>Unless the President is living on another planet, his speech directly contradicts the beliefs and policies of Landrieu.</p><p>Let's not forget where we've come from.</p><p>Mary Landrieu, whatever her strengths, has never been a dove, or even on that wavelength whatsoever. She's a centrist at best and a diet Republican at worst. She was Clark's Vice President and made a name for herself as the counterbalance to progressive ideals.</p><p>The elephant in the convention hall remained prevalent. The Clark-Landrieu administration was a missed opportunity in many ways, and the former President's pick for President today is among the worst aspects of that era. Mary Landrieu's triangulation and caution personified.</p><p>If we are to believe that Clark puts his money where his mouth is, then he should at the very least propel a progressive stalwart to Landrieu's flank. Whether it's Feingold or Obama, the people demand credibility on progress.</p><p>Progressives need to ask themselves this: Will Mary Landrieu speak first to them, or become another cautionary tale of governing out of fear of becoming another Wesley Clark?</p>`)
+e.executable.push([5, (() => {e.image = e.image = 'https://i.imgur.com/3kzLV4z.png'})])
+}
+if ( quickstats[0] >= 269 && Econ > 2 && Notroops == 1) { // 
 e.pages.push(`<h3>ABC NEWS: <i>Vice President Landrieu gets a pass from gay rights activists as she flies to a steady victory in a presidential debate.</i></h3>
 <p><b>By Jessica Wilde</b></p> <p>The first presidential debate took place last night and was primarily focused on domestic issues, including the recent Supreme Court decision Obergefell v. Hodges legalizing gay marriage across the United States.</p><p>Vice President Landrieu, who had been silent on the issue, finally took a strong stance, stating, "My personal views have evolved quite a bit, but I am happy the Supreme Court came to this decision and would enforce it as president." This came in stark contrast to former Senator Rick Santorum's response, who disavowed the decision and reiterated his support for traditional marriage.</p><p>With polls showing a majority of Americans supporting the decision, it was expected the Republican nominee would focus more on the economy. However, with a steady recovery from the 2008 recession, the Vice President was able to box him in multiple times during the debate, not showing any weakness, much like her performances in previous vice presidential debates. </p><p>However, the worst hadn't come to the former Senator when the newly reestablished Home Owners' Loan Corporation topic became the final nail in the coffin. Senator Santorum had called for the corporation's disbandment throughout the campaign and reiterated his intentions to disband it upon assuming office.</p><p>When the moderator asked the Vice President's view of the corporation, she stated, "I would continue the Corporation's operations so every American can benefit from mortgage bailouts like the one the former Senator took on his 2 million dollar mansion." The remark drew loud applause, and as polls show, Landrieu won the debate by similar margins that she has led Santorum across this campaign.</p>`)
-e.executable.push([6, (() => {e.image = e.image = 'https://i.imgur.com/xnrJS36.png'})])
+e.executable.push([5, (() => {e.image = e.image = 'https://i.imgur.com/xnrJS36.png'})])
 }
-else if ( quickstats[0] >= 269 && Econ == 2 && Neo > 5) { // obergfell
+else if ( quickstats[0] >= 269 && Econ > 2 && Neo > 5) { // 
+e.pages.push(`<h3><i>Dungeons and Dragons Presents</i></h3>
+<p><b>Character Name: </b>Joseph Wayne Miller</p><p><b>Level: </b>25</p><p><b>Race: </b>Dwarf </p><p><b>Class:</b> Champion</p><p><b>Total XP: </b>266,899</p><p><b>Age:</b> 45</p><p><b>Gender: </b>M</p><p><b>Alignment:</b> Chaotic Evil</p><p><b>Delty: </b>Kathleen Tompkins </p><p><b>ABILITY SCORES:</b></p><p><b>STR: </b>18</p><p><b>CON:</b> 6</p><p><b>DEX: </b>8</p><p><b>INT: </b>3</p><p><b>WIS: </b>1</p><p><b> CHA: </b>3</p><p><b>MAX HP:</b> 447</p><p><b>CURRENT HP: </b>244</p><p><b>SKILLS: </b></p><p>-Third Eye, Able to freely preach on issues most are not willing to touch. Used for calling climate change a hoax propped up by globalist nut jobs.</p><p>-Ghost Hunter, able to chase threats invisible to most but obvious to him. Often seen punching air.</p><p><b>FEATS: </b></p><p>–Slain the entrenched swamp monster creature Lisa Murkowski for daring to vote for President Clark's stimulus plan.</p><p>-Attacked the function of his senate race as illegitimate, claiming he'd abolish the 17th amendment, allowing for the direct election of United States Senators.</p><p>-Took on the Democrats' insidious plot to assassinate him by screaming about it on the Senate floor.</p><p>-Incited friend and Alaskan militia guru Schaefer Cox to kidnap several Alaskan judges and state troopers in a failed attempt to stall "socialist activist rulings." </p><p><b>Languages Known</b></p><p>English</p><p>Moronic</p><p>Spiritual</p><p><b>Equipment:</b></p><p>-Patriot Bullhorn used for galvanizing the voice of the people and claiming President Wesley K. Clark should adopt the border enforcement model created by East Germany to crack down on immigration.</p><p>-Tinfoil Hat Of Truth used for discovering Vice President Mary Landrieu's lesbian fling with Hillary Clinton inside the White House.</p><p>-Glassware of Visionaries used for identifying Richard Lugar as a Republican in name only and a "political prostitute" for not caving to every Tea Party demand.</p>`)
+e.executable.push([5, (() => {e.image = e.image = 'https://i.imgur.com/q4o0jCU.png'})])
+}
+else if ( quickstats[0] >= 269 && Econ > 0 Agenda > 3) { // 
+e.pages.push(`<h3>Jeffness Blogging: <i>Doom-and-Gloomberg</i></h3>
+<p>Nothing surpasses my sheer disappointment more than seeing Republican primary returns nowadays. Every day I'm forced to hear Republicans shout, "THIS IS THE GUY WHO CAN DEFEAT MARY LANDRIEU!" Yes, I'm guilty of it just as much as anyone else, but seriously, Floridians chose to back Mayor Michael Bloomberg? I'm tired of hearing this because NO, this is not the best man suited to close the chapter on Democratic dominance, and I'm not willing to play into delusions.</p><p>And so the benchwarmer candidates are beginning to peel away from their runs for president, hoping to either secure the moderate banner of the Republican Party with Bloomberg or hitch a last-ditch effort to stop him by backing Michelle Bachmann's Bible backed bid. Huntsman, Perry, and Paul are looking more flimsy by the day, so it's only a matter of time until they cash out.</p><p>Here's where all the fan boys of fat fuck Haley Barbour will come in, saying he's gonna surge in the polls. Holy hell, he came in fourth in Iowa. He's undoubtedly the answer America is looking for! I don't give a damn about loser candidates. Last time I checked, there was no bronze medal given out for coming in fourth place. Let's not hype up clowns like this.</p><p>Begrudgingly, I'm beginning to accept that independent minds like mine are never going to get our voices heard in politics. I'm sure as hell not going to back bat shit crazy Bachmann and her "blessed by the lord" run for president. I'm all for a woman running for president, but damn crazy like that lady might just make me vote for Landrieu instead.</p><p>Well, here we are at our only "viable" choice left on the table. Michael Bloomberg. If you forced me to describe my feelings for his candidacy in just a few sentences, I'd come to you with this.</p><p><b>● Bloomberg is nearly a Democrat in Republican clothing; he and Vice President Mary Landrieu widely agree on most issues, and where they differ is on issues like the environment or immigration, where more often than not, the Democrats sound more conservative!</b></p><p><b>● His candidacy is sitting ducks when it comes to trade and confronting China. While the Clark administration has taken a very confrontational position on China's growing economic problems, Bloomberg is screaming the need for "detente." If Landrieu were to push him on this during the general election, she'd stomp him like a BUG.</b></p><p><b>● His response to Clark's "New York Money Men" gaffe essentially cemented his candidacy as a front-running man able to combat the administration's reluctance to stand by Israel, briefly garnering the applause of folks like Mike Huckabee.</b></p><p><b>● Maybe… MAYBE you can convince at least five people in the Deep South that he's a true conservative. Just maybe five people who sleep under a rock can be fooled into thinking that the New Yorker really speaks for their social conservative cause.</b></p><p><b>● Hear me out, but maybe a Republican can win out in the urban centers, I'd surely be interested in seeing that map.</b></p><p>As always, I've reserved my admiration for any candidates once they prove themselves on the national stage. Who knows, maybe Mike is the man able to take the GOP out of its perpetual state of comatose, or he'll sink them again just for Karl Rove to rant and rave about how the numbers coming out of Bowling Green, Kentucky, or Nashville, Tennessee, are incorrect and that the voting machines have got it wrong!</p><p>I have very little faith that President Bloomberg is a real possibility, and unlike Michele Bachmann's fans, I'm not willing to blindly follow what my gut tells me.</p>`)
+e.executable.push([5, (() => {e.image = e.image = 'https://i.imgur.com/SAPMzLw.png'})])
+}
+else if ( quickstats[0] >= 269 && Econ > 1 && Agenda > 3) { // 
+e.pages.push(`<h3>Wikipedia: <i>Controversies of the 2012 United States Presidential Election</i></h3>
+<p>The controversies of the <b>2012 United States Presidential election</b> involved both Democratic incumbent vice president <b>Mary Landrieu</b> and her Republican opponent Virginia Senator <b>George Allen</b></b>. However, a majority of these controversies negatively impacted Allen and are believed to have contributed to his defeat in the November election.</p><h3><i>^Allen's gaffe referring to Landrieu's pick for Vice President Barack Obama as one of “those people”</i></h3><h3><i>^Landrieu's claim that climate change was a privileged peoples problem</i></h3><h3><i>^Allen's stance that a woman “wasn't prepared to be president”</i></h3><h3><i>^Allen supporters attacking Code Pink protesters</i></h3><h3><i>^Landrieu gaffe referring to herself as “the black candidate”</i></h3><h3><i>^Allen arrest warrant controversy </i></h3><h3><i>^Screaming match between Barack Obama and Bobby Jindal at Vice Presidential debate</i></h3><h3><i>^Landrieu campaign fined for misappropriation of funds used for a personal flight</i></h3><h3><i>^Allen claim that Trent Lott's Strom Thurmond praise scandal was overblown</i></h3><h3><i>^Twitter intimidation</i></h3><h3><i>^Wesley Clark's “New York Money Men” gaffe</i></h3><h3><i>^Allen caught staring at Landrieu's breasts at first presidential debate</i></h3><h3><i>^Landrieu claim that unpopularity of her running mate Barack Obama was due to racism</i></h3><h3><i>^Allen caught politicizing over Hurricane Sandy as being an “October Surprise” to worry about</i></h3>`)
+e.executable.push([5, (() => {e.image = e.image = 'https://i.imgur.com/i2wRIi1.png'})])
+}
+else if ( quickstats[0] >= 269 && Econ < 3 && Neo > 5) { // 
 e.pages.push(`<h3>Talking Points Memo: <i>Limbaugh shares concerns about 2012 election</i></h3>
 <p><b>By Matt Shuham</b></p><p><b>October 24, 2012, 4:13 p.m.</b></p><p><b>Start your day with TPM.</b></p><p><b>Sign up for the Morning Memo newsletter.</b></p><p>Conservative shock jock Rush Limbaugh warned Cain supporters not to assume polls showing the GOP nominee losing was "rigged," offering insight to Cain supporters frustrated by the Republican candidates' poor polling against Vice President Landrieu.</p><p>"I wish that I could sit here and tell you that I, without question, think the polls are rigged. I have thought so in previous elections," Limbaugh said Monday on his radio show.</p><p>Limbaugh admitted that he made a similar mistake in underestimating the support of Wesley Clark 4 years ago.</p><p>"In 2008, honest to God, folks, I thought Wes was gonna lose by ten or fifteen. There weren't any polls that said that. I thought they were all using an incorrect turnout sample," Limbaugh said. "The way I was looking at it was that because the economy went belly up voters would naturally see our solutions as more viable. Turns out they never did and Clark was able to prove himself."</p><p>What skews expectations this time around is the controversy surrounding Cain while still holding a tight grip over the Republican base. By contrast, Landrieu, who remains in a comfortable position in the polls, faces problems such as a lack of enthusiasm, making people wonder if the turnout is set to drop this year. "If that's the case this year," the Los Angeles Times' David Lauter wrote in August, "then acknowledging Republican turnout advantage against Democrats would probably boost Cain's standing by a point or two."</p><p>Republican Herman Cain sports the Tea Party credentials, hoping to lead the movement to an explosive victory like the rapid congressional gains made by Republicans in the 2010 midterms. Landrieu has stuck by her credentials in bipartisanship and a continuation of the recovering economy credited to the administration's handling of the recession.</p><p>In 2008, as the campaign season hit its final stretch, Limbaugh often told his supporters that polls were biased toward Clark.</p><p>"They are designed to do exactly what I have warned you to be vigilant about, and that is to depress you and suppress your vote," Limbaugh said in late October 2008 when commenting on a CBS/New York Times poll and a Washington Post poll which slightly favored the president. "These two polls today are designed to convince everybody this election is over."</p><p>Today, though, as the 2012 election is well underway, Limbaugh confesses his doubts and offers sage advice for Cain supporters to remain vigilant. "It's a risk here to just throw the polls out and say they don't matter because you end up creating a false reality for yourself that isn't true."</p><p><b>Start your day with TPM.</b></p><p><b>Sign up for the Morning Memo newsletter.</b></p>`)
-e.executable.push([6, (() => {e.image = e.image = 'https://i.imgur.com/sZkiEBf.png'})])
+e.executable.push([5, (() => {e.image = e.image = 'https://i.imgur.com/sZkiEBf.png'})])
+}
+else if ( quickstats[0] >= 269 && Econ < 3 && Neo > 3) { // 
+e.pages.push(`<h3>ABC: <i>Republican nominee for President thinks vaccines cause autism?</i></h3>
+<p><b>Al Harrison || ABC Editor</b></p><p><b>July 1st 2012</b></p><p>As part of an attack on the Clark Administration's vaccine policies, particularly regarding the sexually transmitted disease HPV, which can lead to cervical cancer, the Republican nominee for President, <b>Michele Bachmann</b>, claimed that a woman told her after a Republican debate that the HPV vaccine had caused her daughter to develop <b>"mental retardation"</b>.</p><p>The attack is based on the longstanding myths of vaccines causing learning deficiencies. The "gaffe" was followed by multiple public opinion polls showing Bachmann's support had severely dropped as the post-convention excitement had seemingly vanished for the Congresswoman.</p><p>Vice President Landrieu's early ad campaign also helped beat down Bachmann's polling, revealing much of his radical and sometimes cruel policies related to bullying and her stance on cutting social security. This gaffe has accumulated the distrust of families across the nation, unsettled by Bachmann's blatant disregard for public health safety.</p><p>Likewise, independent voters have begun to break for the Landrieu campaign in even greater numbers, with polls showing the Vice president leading Bachmann by 15-20 points with independent voters. A disappointing sight for Republicans to witness as the Republican National Convention displayed possibly the highest amount of excitement ever before seen for a single candidate.</p><p>Assuming Bachmann can't gain ground with independents, it's unlikely she'll be able to offset those losses by breaking into much of the industrial Midwest since Vice President Landrieu's running mate, <b>Sherrod Brown</b>, has seemingly locked down blue-collar voters.</p>`)
+e.executable.push([5, (() => {e.image = e.image = 'https://i.imgur.com/AHLrQ0B.png'})])
+}
+else if ( quickstats[0] >= 269 && Econ < 3 && Neo > 2) { // 
+e.pages.push(`<h3>AP News: <i>Will Huntsman's ties to China sink him?</i></h3>
+<p><b>By Rochelle Williams </b></p><p><b>Madison, Wisconsin — </b>Among a primary filled with partisan grievances, political theater, and rhetoric stood the popular former Utah Governor, Jon Huntsman. The Democratic Party's nightmare was not an evangelical loon ready to ring the bells of social issues or even a Tea Party Huckster declaring war on government spending. The nuclear option was always Governor Huntsman, the moderate heartthrob. </p><p>The well-spoken Governor with a record without blemish, he exited the Republican convention with a decisive lead in most polls. Huntsman had honed in on the sluggish economy, vowing to bring economic opportunity back while slashing taxes for the lower and middle class. Democrats hoped the Governor's positions on social issues and immigration would generate criticism from his right flank, but their hopes fizzled as the GOP, driven by anti-Democrat hunger, rallied behind him anyway.</p><p>But the gloves came off when the conversation trailed off to China.</p><p>One of President Clark's late-term initiatives has been reinforcing American economic interests from the supposed "threat" China poses to American interests both at home and abroad. Democrats have begun to push emphasis on Huntsman's ties to the Huntsman Corporation, with some even labeling Huntsman "the candidate who will sell your jobs to China." Huntsman has pushed back on these claims, proclaiming he has no current ties to the corporation and would work to create new jobs for America's industrial heartland. </p><p>Vice President Landrieu has also taken this rhetoric in her attacks on Huntsman, hoping to claw her way up from the political quicksand that is the economy. However, some of Clark's initiatives to combat China have garnered criticism, like the advocacy for a Trans Pacific Partnership, a proposed trade agreement between 12 Pacific Rim economies: Australia, Brunei, Canada, Chile, Japan, Malaysia, Mexico, New Zealand, Peru, Singapore, Vietnam, and the United States. The proposal has hit the natural Democratic base of unions, unwilling to accept another free trade agreement without basic assurances that their jobs won't be affected. </p><p>The deal that President Clark has begun negotiations for presents a challenge to his Vice President's campaign, which has so far failed to reconnect with disillusioned workers and distance itself from unpopular trade policies. </p><p>The time for Landrieu to change course is fading rapidly, and her chances of carrying the Democratic torch another four years may just go up in smoke.</p>`)
+e.executable.push([5, (() => {e.image = e.image = 'https://i.imgur.com/cDlj9mj.png'})])
 }
 return construct(0);
 }
@@ -72326,7 +73001,7 @@ function showCongressionalMakeup() {
             senateImage = 'https://i.imgur.com/3Z8gtpY.png';
         }
         else if (Win <= 0) {
-            senateImage = 'https://i.imgur.com/v0xHy3r.png';
+            senateImage = 'https://i.imgur.com/93YSbjl.png';
         }
     }
     
