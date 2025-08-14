@@ -70304,7 +70304,7 @@ cyoAdventure = function(a) {
             switcheroo104();
             jonked += 1;
         }
-        else if (War > 0 && Dem > 0) {
+        else if (Dem > 0 && e.player_answers.includes(24162)) {
             campaignTrail_temp.questions_json[27] = tunnel(24222); 
         }
         else if (Kill > 0 && Dem > 0) {
@@ -71169,9 +71169,49 @@ const clarkWin = new Playlist();
 clarkWin.addSong(clarkWinSong);
 changePlaylist(clarkWin);
 }
-else if (quickstats[0] <= 138) { // ww3 loss - 
+if (quickstats[0] >= 269 && Dem > 0 && War == 1) { // ww3 loss - 
+e.pages.push(`<h3><i>Invisible Threat</i></h3>
+          <p><b></b></p>`)
+          // idk how to add playlists but to do that you create a new playlist in code1 with just that song and put changePlaylist(nameOfYourEndingPlaylist) right here
+//e.image = ""
+e.executable.push([0, (() => {
+    e.image = 'https://i.imgur.com/zvmE8js.gif';
+    const audio = document.getElementById("audio");
+    if (audio) audio.loop = true; 
+})]);
+const clarkWin = new Playlist();
+  const clarkWinSong = new Song(
+    "No Surprises",
+    "Juliana Chahayed",
+    "https://i.imgur.com/8UjJ7XG.gif",
+    "https://audio.jukehost.co.uk/E4LTrnk4QmiTWPnP39nRwXF6bBRq1MZt"
+  );
+clarkWin.addSong(clarkWinSong);
+changePlaylist(clarkWin);
+}
+else if (quickstats[0] <= 138 && Agenda < 3) { // big loss - 
+e.pages.push(`<h3><i>"Icarus"</i></h3>
+          <p><b>Gazing up at heaven from the deepest crevices of hell stood Icarus. The battles, the glory, and the triumphs became meaningless. The valor he once wielded, the skill he once mastered, had peaked and shattered. In the wake of his hesitation, millions suffered. He had failed not by falling, but by standing still. In his inaction, the foundation of his domain crumbled. Left with only his thoughts, he pondered where it all went wrong. </b></p><p><b>His league of masters and experts had all abandoned him in the latter hours of his defeat. Those who put roadblocks and guardrails to keep him on a metaphorical leash had now forsaken him. Branding him a disastrous choice from the very start, as if they hadn't engineered his ascent to the throne themselves. And what of Olympus, what of America?</b></p><p><b>Across the room, Clark grew tired of restaging the drama in his diorama. The tiny figure of Icarus lay sprawled in the rubble of what had been. Clark opened his curtains to see the streets of Washington; some were protesting, others were hurrying to get to work, and most were just trying to get by. He had entered office with the promise that things would change and get better, but all he had delivered was more of the same: paralyzed leadership.</b></p><p><b>While the people of the bygone Clinton era ran as far as they could to find another gullible soul to latch onto, the president spent his last hours deep in thought. Images flickered of families crammed into one-bedroom apartments, businesses both small and vast shuttered, banks refusing withdrawals. It was a nightmare.</b></p><p><b>Looking at the figure of Icarus one last time, Clark realized all too late that fear of what "might be" destroyed him.</b></p>`)
+          // idk how to add playlists but to do that you create a new playlist in code1 with just that song and put changePlaylist(nameOfYourEndingPlaylist) right here
+//e.image = ""
+e.executable.push([0, (() => {
+    e.image = 'https://i.imgur.com/ibObdh4.gif';
+    const audio = document.getElementById("audio");
+    if (audio) audio.loop = true; 
+})]);
+const clarkWin = new Playlist();
+  const clarkWinSong = new Song(
+    "21st Century Man",
+    "Electric Light Orchestra",
+    "https://i.imgur.com/9vb7TBT.gif",
+    "https://audio.jukehost.co.uk/3gBXEl0z01Rc58ZTnNoMsv1GJNaCCwA9"
+  );
+clarkWin.addSong(clarkWinSong);
+changePlaylist(clarkWin);
+}
+else if (quickstats[0] <= 138 && Agenda > 2) { // bug loss - 
 e.pages.push(`<h3><i>Icarus</i></h3>
-          <p><b>Falling—it was agony.</b></p> <p><b>A rapid plunge into the abyss, and not one hand reached out to save him. Icarus could only imagine how he became the protagonist of such a tale. His once-celebrated achievements quickly dissolved into oblivion, while critics from every corner emerged to seize the pen writing this story.</b></p> <p><b>Those who once lifted him now parrot the same words: he flew too close to the sun. As if ambition alone explained his fall—as if striving too far, too fast made him some reckless overachiever, doomed by pride. They hope to sidestep the wrath of his defeat by washing their hands of guilt as if they are innocent victims. His loyal second hand began to fly as far away from him as she could.</b></p> <p><b>Cowards, all of them.</b></p> <p><b>The painful truth is that they will likely get their wish and find future opportunities to squander. Outsiders drew their conclusions. They say Icarus was too cautious and too wasteful by squandering rare opportunities and charging into battle, lacking those on the ground to cheer him on. They argue that he might have triumphed if he had pursued bolder conquests and chased grander spoils. It was a tug of war between those wanting more and those fearing it was too much.</b></p> <p><b>The prevailing narrative concluded that Icarus failed to please either. The game was over, and as the figure of Icarus fell to the floor Clark's vision snapped to reality.</b></p> <p><b>As his office was swiftly dissected for his successor to paint anew, Clark looked out toward the streets of Washington. Unsure whether to feel regret or believe that he did everything he could. He turned away, hoping to move on from this mess. The diorama representing his journey was soon tossed in a box and shipped alongside him.</b></p> <p><b>His story had concluded, and Clark no longer cared to ponder alternate tales. He had lost the war. And soldiers on the losing side are rarely remembered as anything more.</b></p>`)
+          <p><b>Falling—it was agony.</b></p> <p><b>A rapid plunge into the abyss, and not one hand reached out to save him. Icarus could only imagine how he became the protagonist of such a tale. His once-celebrated achievements quickly dissolved into oblivion, while critics from every corner emerged to seize the pen writing this story.</b></p> <p><b>Those who once lifted him now parrot the same words: he flew too close to the sun. As if ambition alone explained his fall—as if striving too far, too fast made him some reckless overachiever, doomed by pride. They hope to sidestep the wrath of his defeat by washing their hands of guilt as if they are innocent victims. His loyal second hand began to fly as far away from him as she could.</b></p> <p><b>Cowards, all of them.</b></p> <p><b>The painful truth is that they will likely get their wish and find future opportunities to squander. Outsiders drew their conclusions. They say Icarus was too cautious and too wasteful by squandering rare opportunities and charging into battle, lacking those on the ground to cheer him on. They argue that he might have triumphed if he had pursued bolder conquests and chased grander spoils. It was a tug of war between those wanting more and those fearing it was too much.</b></p> <p><b>The prevailing narrative concluded that Icarus failed to please either. The game was over, and as the figure of Icarus fell to the floor Clark's vision snapped to reality.</b></p> <p><b>As his office was swiftly dissected for his successor to paint anew, Clark looked out toward the streets of Washington. Unsure whether to feel regret or believe that he did everything he could. He turned away, hoping to move on from this mess. The diorama representing his journey was soon tossed in a box and shipped alongside him.</b></p> <p><b>His story had concluded, and Clark no longer cared to ponder alternate tales. He had lost the war and soldiers on the losing side are rarely remembered as anything more.</b></p>`)
           // idk how to add playlists but to do that you create a new playlist in code1 with just that song and put changePlaylist(nameOfYourEndingPlaylist) right here
 //e.image = ""
 e.executable.push([0, (() => {
