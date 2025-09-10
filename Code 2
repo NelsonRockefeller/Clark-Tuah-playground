@@ -71835,10 +71835,10 @@ e.executable.push([0, (() => {
 })]);
 const brownbackWin = new Playlist();
   const brownbackWinSong = new Song(
-    "Under Pressure (Aftersun Version)",
-    "Queen",
+    "Prelude",
+    "Slaughter",
     "https://i.imgur.com/z3Bzw9i.gif",
-    "https://audio.jukehost.co.uk/XlqOkzXpCoVAgjK2GrztwHCneqmhH5VB"
+    "https://audio.jukehost.co.uk/nT0C02kBmIb7PRQwvYaaHzfIZ7pudM02"
   );
 brownbackWin.addSong(brownbackWinSong);
 changePlaylist(brownbackWin);
