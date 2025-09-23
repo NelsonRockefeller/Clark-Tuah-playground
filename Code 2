@@ -70481,24 +70481,24 @@ cyoAdventure = function(a) {
     }
 
     if (e.noCounter == 26) {
-        if (Hunt == 2 && Notroops > 0 && Nato > 5 && Econ > 2  && e.player_answers.includes(256436) || Hunt == 3 && e.player_answers.includes(256436)) {
-                campaignTrail_temp.questions_json[26] = tunnel(24794);
-            }
-        // First set of conditions (random selection for Bin Laden raid question 27)
-        else if (Hunt == 2 && Notroops > 0 && Nato > 5 && Econ > 2 || Hunt == 3) {
-            const randomValue = Math.random(); // Generate a random number between 0 and 1
-
-            if (e.player_answers.includes(256436)) { // ~100% chance success
-                campaignTrail_temp.questions_json[26] = tunnel(256564);
-            } else if (randomValue < 0.4) { // ~40% chance police intervention
-                campaignTrail_temp.questions_json[26] = tunnel(24178);
-            } else if (randomValue < 0.7) { // ~30% chance police intervention
-                campaignTrail_temp.questions_json[26] = tunnel(24187);
-            } else { // ~30% chance Osama escape
-                campaignTrail_temp.questions_json[26] = tunnel(24196);
+        if (Econ == 2 && Heart == 1) {
+            updateHistoricalData(newVpTableHistorical11, newHistHexcolour11, newHistName11, newHistEV11, newHistPV11, newHistPVP11);
+            switcheroo11();
+        }
+        if ((Hunt == 2 && Notroops > 0 && Nato > 5 && Econ > 2 && e.player_answers.includes(24794)) || (Hunt == 3 && e.player_answers.includes(24794))) {
+            campaignTrail_temp.questions_json[26] = tunnel(256564);
+        }
+        else if ((Hunt == 2 && Notroops > 0 && Nato > 5 && Econ > 2) || Hunt == 3) {
+            const randomValue = Math.random();
+            
+            if (randomValue < 0.4) {
+                campaignTrail_temp.questions_json[26] = tunnel(24178); 
+            } else if (randomValue < 0.7) {
+                campaignTrail_temp.questions_json[26] = tunnel(24187); 
+            } else {
+                campaignTrail_temp.questions_json[26] = tunnel(24196); 
             }
         }
-        // Second set of conditions (Econ-based selection for question 27)
         else {
             if (Dem == 2 && Corpo > 2 && Econ == 0 && Fred == 0 && Lehman == 0) {
                 campaignTrail_temp.questions_json[26] = tunnel(256432);
@@ -70509,15 +70509,13 @@ cyoAdventure = function(a) {
             } else if (Econ == 0 && Fred == 0 && Lehman == 0) {
                 campaignTrail_temp.questions_json[26] = tunnel(25417);
             } else if (Econ == 0 && Pelosi == 1) {
-                campaignTrail_temp.questions_json[26] = tunnel(23857);;
+                campaignTrail_temp.questions_json[26] = tunnel(23857);
             } else if (Econ == 0) {
                 campaignTrail_temp.questions_json[26] = tunnel(23847);
             } else if (Econ == 1) {
                 campaignTrail_temp.questions_json[26] = tunnel(23869);
-            } else if (Econ == 2 & Heart == 1) {
+            } else if (Econ == 2 && Heart == 1) {
                 campaignTrail_temp.questions_json[26] = tunnel(24338);
-                updateHistoricalData(newVpTableHistorical11, newHistHexcolour11, newHistName11, newHistEV11, newHistPV11, newHistPVP11);
-                switcheroo11();
             } else if (Econ == 2) {
                 campaignTrail_temp.questions_json[26] = tunnel(23880);
             } else if (Econ == 3) {
@@ -70525,7 +70523,7 @@ cyoAdventure = function(a) {
             } else if (Econ == 4) {
                 campaignTrail_temp.questions_json[26] = tunnel(23901);
             }
-        }
+        }   
     }
 
     if (e.noCounter == 27) {
