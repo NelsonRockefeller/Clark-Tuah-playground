@@ -70755,184 +70755,184 @@ vpTable = {
 
 }
 vpTableHistorical = {
-    "⠀???" : "???",
-    "⠀Wesley K. Clark" : "Mary Landrieu",
-    "⠀Ron Paul" : "Gary Johnson",
-    "⠀Randall Terry" : "Stephen Broden",
+    "???" : "???",
+    "Wesley K. Clark" : "Mary Landrieu",
+    "Ron Paul" : "Gary Johnson",
+    "Randall Terry" : "Stephen Broden",
 }
 HistHexcolour=["#742b2b","#4b7db6","#c9b34c","#afb7e3"];
-HistName=["⠀???","⠀Wesley K. Clark","⠀Ron Paul","⠀Randall Terry"];
+HistName=["???","Wesley K. Clark","Ron Paul","Randall Terry"];
 HistEV=[450,88,0,0];
 HistPV=["76,349,206","49,534,833","3,117,218","2,041,414"];
 HistPVP=["58.3%","37.8%","2.4%","1.5%"];
 
 newVpTableHistorical1 = { //McCain
-    "⠀John McCain" : "Joe Lieberman",
-    "⠀Wesley K. Clark" : "Mary Landrieu",
-    "⠀Pat Buchanan" : "Ted Weill",
-    "⠀Elaine Brown" : "Kat Swift",
+    "John McCain" : "Joe Lieberman",
+    "Wesley K. Clark" : "Mary Landrieu",
+    "Pat Buchanan" : "Ted Weill",
+    "Elaine Brown" : "Kat Swift",
 };
 newHistHexcolour1 = ["#cc282b","#4b7db6","#d095e3","#e3abd0" ];
-newHistName1 = ["⠀John McCain","⠀Wesley K. Clark","⠀Pat Buchanan","⠀Elaine Brown"];
-newHistEV1 = [371,167,0,0];
-newHistPV1 = [" ", " ", " ", " "];
-newHistPVP1 = [" ", " ", " ", " "];
+newHistName1 = ["John McCain","Wesley K. Clark","Pat Buchanan","Elaine Brown"];
+newHistEV1 = [376,162,0,0];
+newHistPV1 = ["68,086,470", "54,157,615", "7,621,309", "1,726,293"];
+newHistPVP1 = ["51.7%", "41.2%", "5.8%", "1.3%"];
 
 newVpTableHistorical2 = { //Romney/crist
-    "⠀Mitt Romney" : "Charlie Crist",
-    "⠀Wesley K. Clark" : "Mary Landrieu",
-    "⠀Dennis Kucinich" : "Rosa Clemente",
-    "⠀Bob Barr" : "Wayne Root",
+    "Mitt Romney" : "Charlie Crist",
+    "Wesley K. Clark" : "Mary Landrieu",
+    "Dennis Kucinich" : "Rosa Clemente",
+    "Bob Barr" : "Wayne Root",
 };
 newHistHexcolour2 = ["#d3545a","#4b7db6","#76cc70","#b2b27b" ];
-newHistName2 = ["⠀Mitt Romney","⠀Wesley K. Clark","⠀Dennis Kucinich","⠀Bob Barr"];
-newHistEV2 = [382,156,0,0];
-newHistPV2 = [" ", " ", " ", " "];
-newHistPVP2 = [" ", " ", " ", " "];
+newHistName2 = ["Mitt Romney","Wesley K. Clark","Dennis Kucinich","Bob Barr"];
+newHistEV2 = [316,222,0,0];
+newHistPV2 = ["65,843,959", "61,730,136", "3,279,057", "687,854"];
+newHistPVP2 = ["50.1%", "46.9%", "2.5%", "0.5%"];
 
 newVpTableHistorical22 = { //Romney/palin
-    "⠀Mitt Romney" : "Sarah Palin",
-    "⠀Wesley K. Clark" : "Mary Landrieu",
-    "⠀Dennis Kucinich" : "Rosa Clemente",
-    "⠀Bob Barr" : "Wayne Root",
+    "Mitt Romney" : "Sarah Palin",
+    "Wesley K. Clark" : "Mary Landrieu",
+    "Dennis Kucinich" : "Rosa Clemente",
+    "Bob Barr" : "Wayne Root",
 };
 newHistHexcolour22 = ["#d3545a","#4b7db6","#76cc70","#b2b27b" ];
-newHistName22 = ["⠀Mitt Romney","⠀Wesley K. Clark","⠀Dennis Kucinich","⠀Bob Barr"];
+newHistName22 = ["Mitt Romney","Wesley K. Clark","Dennis Kucinich","Bob Barr"];
 newHistEV22 = [308,230,0,0];
-newHistPV22 = [" ", " ", " ", " "];
-newHistPVP22 = [" ", " ", " ", " "];
+newHistPV22 = ["65,131,917", "61,700,782", "3,132,989", "1,965,556"];
+newHistPVP22 = ["49.4%", "46.8%", "2.4%", "1.5%"];
 
 newVpTableHistorical3 = { //Huckabee
-    "⠀Wesley K. Clark" : "Mary Landrieu",
-    "⠀Mike Huckabee" : "Fred Thompson",
-    "⠀Kent Mesplay" : "Jared Ball",
-    "⠀Merill Cook" : "Sheldon Adelson",
+    "Wesley K. Clark" : "Mary Landrieu",
+    "Mike Huckabee" : "Fred Thompson",
+    "Kent Mesplay" : "Jared Ball",
+    "Merill Cook" : "Sheldon Adelson",
 };
-newHistHexcolour3 = ["#4b7db6","#ff8f87","#a4fdce","#ff6b38" ];
-newHistName3 = ["⠀Wesley K. Clark","⠀Mike Huckabee","⠀Kent Mesplay","⠀Merrill Cook"];
-newHistEV3 = [284,254,0,0];
-newHistPV3 = [" ", " ", " ", " "];
-newHistPVP3 = [" ", " ", " ", " "];
+newHistHexcolour3 = ["#ff8f87","#4b7db6","#ff6b38","#a4fdce" ];
+newHistName3 = ["Mike Huckabee","Wesley K. Clark","Merill Cook","Kent Mesplay"];
+newHistEV3 = [365,173,0,0];
+newHistPV3 = ["69,272,359", "59,025,568", "2,926,028", "1,982,844"];
+newHistPVP3 = ["52.0%", "44.3%", "2.2%", "1.5%"];
 
 newVpTableHistorical4 = { //Brownback
-    "⠀Wesley K. Clark" : "Mary Landrieu",
-    "⠀Sam Brownback" : "Michaele Bachmann",
-    "⠀Howie Hawkins" : "Matt Gonzalez",
-    "⠀Fred Karger" : "George Phillies",
+    "Wesley K. Clark" : "Mary Landrieu",
+    "Sam Brownback" : "Michele Bachmann",
+    "Howie Hawkins" : "Matt Gonzalez",
+    "Fred Karger" : "George Phillies",
 };
-newHistHexcolour4 = ["#4b7db6","#8d595d","#91ad63","#ad6e63" ];
-newHistName4 = ["⠀Wesley K. Clark","⠀Sam Brownback","⠀Howie Hawkins","⠀Fred Karger"];
-newHistEV4 = [333,205,0,0];
-newHistPV4 = [" ", " ", " ", " "];
-newHistPVP4 = [" ", " ", " ", " "];
+newHistHexcolour4 = ["#4b7db6","#8d595d","#ad6e63","#91ad63" ];
+newHistName4 = ["Wesley K. Clark","Sam Brownback","Fred Karger","Howie Hawkins"];
+newHistEV4 = [306,232,0,0];
+newHistPV4 = ["67,459,872", "60,109,808", "2,255,692", "1,096,124"];
+newHistPVP4 = ["51.5%", "45.9%", "1.7%", "0.8%"];
 
 newVpTableHistorical5 = { //Paul low neo
-    "⠀Wesley K. Clark" : "Mary Landrieu",
-    "⠀Ron Paul" : "Gary Johnson",
-    "⠀Rick Santorum" : "Mike DeWine",
-    "⠀Mike Gravel" : "David Cobb",
+    "Wesley K. Clark" : "Mary Landrieu",
+    "Ron Paul" : "Gary Johnson",
+    "Rick Santorum" : "Mike DeWine",
+    "Mike Gravel" : "David Cobb",
 };
 newHistHexcolour5 = ["#4b7db6","#e18345","#b88a56","#76cc70" ];
-newHistName5 = ["⠀Wesley K. Clark","⠀Ron Paul","⠀Rick Santorum","⠀Mike Gravel"];
+newHistName5 = ["Wesley K. Clark","Ron Paul","Rick Santorum","Mike Gravel"];
 newHistEV5 = [356,182,0,0];
 newHistPV5 = [" ", " ", " ", " "];
 newHistPVP5 = [" ", " ", " ", " "];
 
 newVpTableHistorical6 = { //Paul high neo
-    "⠀Wesley K. Clark" : "Mary Landrieu",
-    "⠀Ron Paul" : "Gary Johnson",
-    "⠀Rick Santorum" : "Mike DeWine",
-    "⠀Mike Gravel" : "David Cobb",
+    "Wesley K. Clark" : "Mary Landrieu",
+    "Ron Paul" : "Gary Johnson",
+    "Rick Santorum" : "Mike DeWine",
+    "Mike Gravel" : "David Cobb",
 };
 newHistHexcolour6 = ["#4b7db6","#e18345","#b88a56","#76cc70" ];
-newHistName6 = ["⠀Wesley K. Clark","⠀Ron Paul","⠀Rick Santorum","⠀Mike Gravel"];
+newHistName6 = ["Wesley K. Clark","Ron Paul","Rick Santorum","Mike Gravel"];
 newHistEV6 = [336,168,27,7];
 newHistPV6 = [" ", " ", " ", " "];
 newHistPVP6 = [" ", " ", " ", " "];
 
 newVpTableHistorical7 = { //Paul iran war
-    "⠀Wesley K. Clark" : "Mary Landrieu",
-    "⠀Ron Paul" : "Gary Johnson",
-    "⠀Max The Swashbuckler Riekse" : "Tim Bridgewater",
-    "⠀Susan G. Ducey" : "Frank McEnulty",
+    "Wesley K. Clark" : "Mary Landrieu",
+    "Ron Paul" : "Gary Johnson",
+    "Max The Swashbuckler Riekse" : "Tim Bridgewater",
+    "Susan G. Ducey" : "Frank McEnulty",
 };
 newHistHexcolour7 = ["#e18345","#192347","#8c5b5d","#ac8cab" ];
-newHistName7 = ["⠀Ron Paul","⠀Wesley K. Clark","⠀Max The Swashbuckler Riekse","⠀Susan G. Ducey"];
+newHistName7 = ["Ron Paul","Wesley K. Clark","Max The Swashbuckler Riekse","Susan G. Ducey"];
 newHistEV7 = [456,82,0,0];
 newHistPV7 = [" ", " ", " ", " "];
 newHistPVP7 = [" ", " ", " ", " "];
 
 newVpTableHistorical8 = { //Giuliani
-    "⠀Wesley K. Clark" : "Mary Landrieu",
-    "⠀Rudy Giuliani" : "Mike Pence",
-    "⠀Tom Tancredo" : "Chuck Baldwin",
-    "⠀Jack Johnson" : "Jesse Johnson",
+    "Wesley K. Clark" : "Mary Landrieu",
+    "Rudy Giuliani" : "Mike Pence",
+    "Tom Tancredo" : "Chuck Baldwin",
+    "Jack Johnson" : "Jesse Johnson",
 };
 newHistHexcolour8 = ["#4b7db6","#a41f3c","#b779c9","#1e661e" ];
-newHistName8 = ["⠀Wesley K. Clark","⠀Rudy Giuliani","⠀Tom Tancredo","⠀Jack Johnson"];
+newHistName8 = ["Wesley K. Clark","Rudy Giuliani","Tom Tancredo","Jack Johnson"];
 newHistEV8 = [321,217,0,0];
 newHistPV8 = [" ", " ", " ", " "];
 newHistPVP8 = [" ", " ", " ", " "];
 
 newVpTableHistorical9 = { //Pence
-    "⠀Wesley K. Clark" : "Mary Landrieu",
-    "⠀Mike Pence" : "Condoleezza Rice",
-    "⠀l" : "C",
-    "⠀J" : "J",
+    "Wesley K. Clark" : "Mary Landrieu",
+    "Mike Pence" : "Condoleezza Rice",
+    "Tom Tancredo" : "Chuck Baldwin",
+    "Jack Johnson" : "Jesse Johnson",
 };
-newHistHexcolour9 = ["#571d2c","#4b7db6","#b779c9","#1e661e" ];
-newHistName9 = ["⠀Mike Pence","⠀Wesley K. Clark","⠀l","⠀J"];
-newHistEV9 = [538,0,0,0];
-newHistPV9 = [" ", " ", " ", " "];
-newHistPVP9 = [" ", " ", " ", " "];
+newHistHexcolour9 = ["#4b7db6","#571d2c","#1e661e","#b779c9" ];
+newHistName9 = ["Wesley K. Clark","Mike Pence ","Jack Johnson","Tom Tancredo"];
+newHistEV9 = [350,188,0,0];
+newHistPV9 = ["68,955,846", "61,404,202", "1,450,780", "29,107"];
+newHistPVP9 = ["52.3%", "46.6%", "1.1%", "0.1%"];
 
 newVpTableHistorical10 = { //Bush
-    "⠀Jeb Bush" : "Tom Ridge",
-    "⠀Wesley K. Clark" : "Mary Landrieu",
-    "⠀Steve Kubby" : "Mike Jingozian",
-    "⠀Ralph Nader" : "Cynthia McKinney",
+    "Jeb Bush" : "Tom Ridge",
+    "Wesley K. Clark" : "Mary Landrieu",
+    "Steve Kubby" : "Mike Jingozian",
+    "Ralph Nader" : "Cynthia McKinney",
 };
 newHistHexcolour10 = ["#b25d60","#4b7db6","#dbbe87","#33b033" ];
-newHistName10 = ["⠀Jeb Bush","⠀Wesley K. Clark","⠀Steve Kubby","⠀Ralph Nader"];
-newHistEV10 = [335,203,0,0];
-newHistPV10 = [" ", " ", " ", " "];
-newHistPVP10 = [" ", " ", " ", " "];
+newHistName10 = ["Jeb Bush","Wesley K. Clark","Steve Kubby","Ralph Nader"];
+newHistEV10 = [355,183,0,0];
+newHistPV10 = ["69,956,062", "58,771,199", "2,515,797", "1,594,417"];
+newHistPVP10 = ["52.7%", "44.2%", "1.9%", "1.2%"];
 
 newVpTableHistorical11 = { //Snowe
-    "⠀Wesley K. Clark" : "Mary Landrieu",   
-    "⠀Olympia Snowe" : "John Ashcroft",
-    "⠀Ron Paul" : "Gary Johnson",
-    "⠀Randall Terry" : "Stephen Broden",
+    "Wesley K. Clark" : "Mary Landrieu",   
+    "Olympia Snowe" : "John Ashcroft",
+    "Ron Paul" : "Gary Johnson",
+    "Randall Terry" : "Stephen Broden",
 };
 newHistHexcolour11 = ["#4b7db6","#693251","#c9b34c","#afb7e3"];
-newHistName11 = ["⠀Wesley K. Clark","⠀Olympia Snowe","⠀Ron Paul","⠀Randall Terry"];
+newHistName11 = ["Wesley K. Clark","Olympia Snowe","Ron Paul","Randall Terry"];
 newHistEV11 = [328,210,0,0];
 newHistPV11 = [" ", " ", " ", " "];
 newHistPVP11 = [" ", " ", " ", " "];
 
 newVpTableHistorical12 = { //Super secret
-    "⠀I The Sun" : "She The Moon",
-    "⠀Shell Of An Enemy" : "Flesh Of A Traitor",
-    "⠀Harrowing Cries Of Help" : "Deafening Silence",
-    "⠀Hopefully Our Future" : "Foolishly We Dream",
+    "I The Sun" : "She The Moon",
+    "Shell Of An Enemy" : "Flesh Of A Traitor",
+    "Harrowing Cries Of Help" : "Deafening Silence",
+    "Hopefully Our Future" : "Foolishly We Dream",
 };
 newHistHexcolour12 = ["#2b3f5a","#27161b","#645f4a","#55644a"];
-newHistName12 = ["⠀I The Sun","⠀Shell Of An Enemy","⠀Harrowing Cries Of Help","⠀Hopefully Our Future"];
+newHistName12 = ["I The Sun","Shell Of An Enemy","Harrowing Cries Of Help","Hopefully Our Future"];
 newHistEV12 = [538,0,0,0];
 newHistPV12 = ["131,322,071", "0", "0", "0"];
 newHistPVP12 = ["100.0%", "0.0%", "0.0%", "0.0%"];
 
 newVpTableHistorical13 = { //Cheney
-    "⠀Dick Cheney" : "Olympia Snowe",
-    "⠀Wesley K. Clark" : "Mary Landrieu",
-    "⠀Ron Paul" : "Gary Johnson",
-    "⠀Randall Terry" : "Stephen Broden",
+    "Dick Cheney" : "Olympia Snowe",
+    "Wesley K. Clark" : "Mary Landrieu",
+    "Ron Paul" : "Gary Johnson",
+    "Randall Terry" : "Stephen Broden",
 }
-newHistHexcolour13=["#742b2b","#4b7db6","#c9b34c","#afb7e3"];
-newHistName13=["⠀Dick Cheney","⠀Wesley K. Clark","⠀Ron Paul","⠀Randall Terry"];
-newHistEV13=[450,88,0,0];
-newHistPV13=["76,349,206","49,534,833","3,117,218","2,041,414"];
-newHistPVP13=["58.3%","37.8%","2.4%","1.5%"];
+newHistHexcolour13=["#4b7db6","#742b2b","#c9b34c","#afb7e3"];
+newHistName13=["Wesley K. Clark","Dick Cheney","Ron Paul","Randall Terry"];
+newHistEV13=[292,246,0,0];
+newHistPV13=["65,119,647","61,864,581","2,457,761","1,240,512"];
+newHistPVP13=["49.8%","47.3%","1.9%","0.9%"];
 
 
 function onGameWindowChangeCandidates() {
@@ -71236,86 +71236,80 @@ function campaignSummary() {
     };
 }
 
-const campaignResults = campaignSummary();
+if (!e.player_answers.includes(25094)) {
 
-changeState = (statePK, candidateId, amount = true) => {
-    
-    if (!e.player_answers.includes(21146) && !e.player_answers.includes(22333) && !e.player_answers.includes(22390)) {
-        return; 
-    }
+    const campaignResults = campaignSummary();
 
-    const state = e.states_json[e.states_json.map(f=>f.pk).indexOf(statePK)];
-    const electoralVoteCount = state.fields.electoral_votes;
-    const sMI = e.final_state_results.map(f=>f.state).indexOf(statePK);
-    
-    // find candidate's results in the state
-    const candidateResults = e.final_state_results[sMI].result[
-        e.final_state_results[sMI].result.map(f=>f.candidate).indexOf(candidateId)
-    ];
-
-    let change;
-    
-    if (Neo > 7) { // Only proceed if Neo score is above 7
-        const winner = e.final_state_results[sMI].result[0].candidate;
-        
-        if (amount === true) {
-            // clear existing EV allocations
-            e.final_state_results[sMI].result.forEach((a, i, arr) => {
-                arr[i].electoral_votes = 0;
-            });
-        
-            // give candidate all EVs
-            candidateResults.electoral_votes = electoralVoteCount;
-            change = electoralVoteCount;
-        } else {
-            // clear existing EV allocations
-            e.final_state_results[sMI].result.forEach((a, i, arr) => {
-                arr[i].electoral_votes = 0;
-            });
-            e.final_state_results[sMI].result[0].electoral_votes = electoralVoteCount - amount;
-        
-            // give candidate specified EVs
-            candidateResults.electoral_votes = amount;
-            change = amount;
+    changeState = (statePK, candidateId, amount = true) => {
+        if (!e.player_answers.includes(21146) && !e.player_answers.includes(22333) && !e.player_answers.includes(22390)) {
+            return; 
         }
-    
-        const candidateOverall = e.final_overall_results[
-            e.final_overall_results.map(f=>f.candidate).indexOf(candidateId)
-        ];
-        const winnerOverall = e.final_overall_results[
-            e.final_overall_results.map(f=>f.candidate).indexOf(winner)
-        ];
-        candidateOverall.electoral_votes += change;
-        winnerOverall.electoral_votes -= change;
-    }
-}
 
-const { santorumWinsAlabama, gravelWinsAlaska } = campaignResults;
+        const state = e.states_json[e.states_json.map(f=>f.pk).indexOf(statePK)];
+        const electoralVoteCount = state.fields.electoral_votes;
+        const sMI = e.final_state_results.map(f=>f.state).indexOf(statePK);
+        
+        const candidateResults = e.final_state_results[sMI].result[
+            e.final_state_results[sMI].result.map(f=>f.candidate).indexOf(candidateId)
+        ];
 
-if (!e.initDC) {
-    e.initDC = true;
-    
-    if (jonked === 0) {
+        let change;
+        
+        if (Neo > 7) {
+            // safer: find actual top vote-getter
+            const stateResults = e.final_state_results[sMI].result;
+            const actualWinner = stateResults.reduce((prev, curr) =>
+                curr.percent > prev.percent ? curr : prev
+            ).candidate;
+
+            if (amount === true) {
+                stateResults.forEach(a => a.electoral_votes = 0);
+                candidateResults.electoral_votes = electoralVoteCount;
+                change = electoralVoteCount;
+            } else {
+                stateResults.forEach(a => a.electoral_votes = 0);
+                stateResults[0].electoral_votes = electoralVoteCount - amount;
+                candidateResults.electoral_votes = amount;
+                change = amount;
+            }
+
+            const candidateOverall = e.final_overall_results[
+                e.final_overall_results.map(f=>f.candidate).indexOf(candidateId)
+            ];
+            const winnerOverall = e.final_overall_results[
+                e.final_overall_results.map(f=>f.candidate).indexOf(actualWinner)
+            ];
+            candidateOverall.electoral_votes += change;
+            winnerOverall.electoral_votes -= change;
+        }
+    };
+
+    const { santorumWinsAlabama, gravelWinsAlaska } = campaignResults;
+
+    if (!e.initDC) {
+        e.initDC = true;
+
         if (e.player_answers.includes(21146) || e.player_answers.includes(22333) || e.player_answers.includes(22390)) {
             if (Neo > 7 && Neo <= 9 && !santorumWinsAlabama) {
-                changeState(1000, 202, 2); //2 Alabama for Santorum
+                changeState(1000, 202, 2); // 2 Alabama for Santorum
             }
             else if (Neo > 9) {
                 if (!santorumWinsAlabama && !gravelWinsAlaska) {
-                    changeState(1000, 202, 2); //2 Alabama for Santorum
-                    changeState(1044, 203, 1); //1 Alaska for Gravel
+                    changeState(1000, 202, 2); // 2 Alabama for Santorum
+                    changeState(1044, 203, 1); // 1 Alaska for Gravel
                 }
                 else if (santorumWinsAlabama && !gravelWinsAlaska) {
-                    changeState(1044, 203, 1); //1 Alaska for Gravel
+                    changeState(1044, 203, 1); // 1 Alaska for Gravel
                 }
                 else if (!santorumWinsAlabama && gravelWinsAlaska) {
-                    changeState(1000, 202, 2); //2 Alabama for Santorum
+                    changeState(1000, 202, 2); // 2 Alabama for Santorum
                 } 
             }
         }
-    } else {
-        return;
     }
+    
+} else {
+    console.log("25094 selected — skipping faithless elector logic entirely.");
 }
 
 e.pages = []
@@ -74680,7 +74674,7 @@ function openPotentialConquests() {
         });
     }
 
-    if (e.player_answers.includes(25093)) { //invade iran
+    if (e.player_answers.includes(25094)) { //invade iran
         exampleCards.push({
             imageUrl: ' ', 
             description: ' ', 
