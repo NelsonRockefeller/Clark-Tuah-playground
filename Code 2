@@ -73065,14 +73065,14 @@ function openHeadquarter() {
     cardDeckContainer.style.alignItems = 'center';
     cardDeckContainer.style.marginRight = '30px';
     cardDeckContainer.style.marginLeft = '-30px';
-    
+
     // Create card deck container
     let deckContainer = document.createElement('div');
     deckContainer.style.position = 'relative';
     deckContainer.style.width = '150px';
     deckContainer.style.height = '200px';
     deckContainer.style.marginBottom = '20px';
-    
+
     // Create deck back image
     let deckBack = document.createElement('img');
     deckBack.src = 'https://i.imgur.com/U0l9HXf.png'; // Replace with your deck back image
@@ -73082,7 +73082,7 @@ function openHeadquarter() {
     deckBack.style.borderRadius = '10px';
     deckBack.style.border = '3px solid black';
     deckBack.style.boxShadow = '0 4px 8px rgba(0,0,0,0.3)';
-    
+
     // Create card front image (initially hidden)
     let currentCardIndex = 0;
     let cardFront = document.createElement('img');
@@ -73099,21 +73099,21 @@ function openHeadquarter() {
     cardFront.style.transform = 'rotate(-5deg)';
     cardFront.style.transition = 'transform 0.3s ease';
     cardFront.style.display = 'none';
-    
+
     deckContainer.appendChild(deckBack);
     deckContainer.appendChild(cardFront);
     cardDeckContainer.appendChild(deckContainer);
-    
+
     // Add card deck container to left column
     leftCol.appendChild(cardDeckContainer);
-    
+
     // Create card info container (right side of left column)
     let cardInfoContainer = document.createElement('div');
     cardInfoContainer.style.width = '60%';
     cardInfoContainer.style.display = 'flex';
     cardInfoContainer.style.flexDirection = 'column';
     cardInfoContainer.style.alignItems = 'center';
-    
+
     // Card name display
     let cardNameDisplay = document.createElement('div');
     cardNameDisplay.style.textAlign = 'center';
@@ -73124,7 +73124,7 @@ function openHeadquarter() {
     cardNameDisplay.style.borderRadius = '5px';
     cardNameDisplay.style.fontWeight = 'bold';
     cardNameDisplay.style.fontSize = '1.2em';
-    
+
     // Card description
     let cardDescription = document.createElement('div');
     cardDescription.style.padding = '10px';
@@ -73138,17 +73138,17 @@ function openHeadquarter() {
     cardDescription.style.border = '1px solid rgba(255,255,255,0.2)';
     cardDescription.style.marginBottom = '20px';
     cardDescription.style.overflowY = 'auto';
-    
+
     cardInfoContainer.appendChild(cardNameDisplay);
     cardInfoContainer.appendChild(cardDescription);
 
-     // Create navigation buttons
+    // Create navigation buttons
     let buttonContainer = document.createElement('div');
     buttonContainer.style.display = 'flex';
     buttonContainer.style.gap = '20px';
     buttonContainer.style.marginBottom = '5px';
     buttonContainer.style.justifyContent = 'center';
-    
+
     let prevButton = document.createElement('button');
     prevButton.innerText = 'Previous';
     prevButton.style.padding = '8px 16px';
@@ -73157,7 +73157,7 @@ function openHeadquarter() {
     prevButton.style.border = 'none';
     prevButton.style.borderRadius = '5px';
     prevButton.style.cursor = 'pointer';
-    
+
     let nextButton = document.createElement('button');
     nextButton.innerText = 'Next';
     nextButton.style.padding = '8px 16px';
@@ -73166,15 +73166,15 @@ function openHeadquarter() {
     nextButton.style.border = 'none';
     nextButton.style.borderRadius = '5px';
     nextButton.style.cursor = 'pointer';
-    
+
     buttonContainer.appendChild(prevButton);
     buttonContainer.appendChild(nextButton);
     cardInfoContainer.appendChild(buttonContainer);
 
     leftCol.appendChild(cardInfoContainer);
-    
+
     // Define your cards data
-    const cards = [
+    const allCards = [
         {
             name: "The Maverick",
             image: "https://i.imgur.com/85QL4IE.png", 
@@ -73216,7 +73216,11 @@ function openHeadquarter() {
             description: "The Republican National Convention could serve as your last hope of political salvation. Campaign strategists have observed the Republican Party's ideological balance, and the scales often tip in various directions. If you pull them across different ideological spectrums at a rate where no candidate can establish a firm footing, you could cause a deadlock. However, such a strategy could cause the whiplash of your own choices to come back and strike you down.."
         }
     ];
-    
+
+    // Current filtered cards array
+    let cards = [...allCards];
+    let isStaticOpponent = false;
+
     // Function to update displayed card
     function updateCard(index) {
         if (index >= 0 && index < cards.length) {
@@ -73229,14 +73233,45 @@ function openHeadquarter() {
             cardDescription.innerHTML = card.description;
             
             // Disable/enable buttons based on position
-            prevButton.disabled = index === 0;
-            nextButton.disabled = index === cards.length - 1;
+            prevButton.disabled = index === 0 || isStaticOpponent;
+            nextButton.disabled = index === cards.length - 1 || isStaticOpponent;
         }
     }
-    
+
+    let removedCandidates = [];
+
+    function removeCandidates(candidateNamesToRemove) {
+        // Add new candidates to the removed list
+        removedCandidates = [...new Set([...removedCandidates, ...candidateNamesToRemove])];
+        
+        // Filter from allCards excluding all removed candidates
+        cards = allCards.filter(card => !removedCandidates.includes(card.name));
+        
+        // Ensure current index is valid
+        if (currentCardIndex >= cards.length) {
+            currentCardIndex = Math.max(0, cards.length - 1);
+        }
+        
+        updateCard(currentCardIndex);
+    }
+
+    function setStaticOpponent(candidateName) {
+        const opponent = allCards.find(card => card.name === candidateName);
+        if (opponent) {
+            cards = [opponent];
+            isStaticOpponent = true;
+            currentCardIndex = 0;
+            updateCard(0);
+            
+            // Hide navigation buttons when static opponent is set
+            prevButton.style.display = 'none';
+            nextButton.style.display = 'none';
+        }
+    }
+
     // Button event handlers
     prevButton.onclick = function() {
-        if (currentCardIndex > 0) {
+        if (currentCardIndex > 0 && !isStaticOpponent) {
             updateCard(currentCardIndex - 1);
             // Add animation
             cardFront.style.transform = 'translateX(-20px) rotate(-10deg)';
@@ -73245,9 +73280,9 @@ function openHeadquarter() {
             }, 300);
         }
     };
-    
+
     nextButton.onclick = function() {
-        if (currentCardIndex < cards.length - 1) {
+        if (currentCardIndex < cards.length - 1 && !isStaticOpponent) {
             updateCard(currentCardIndex + 1);
             // Add animation
             cardFront.style.transform = 'translateX(20px) rotate(0deg)';
@@ -73256,9 +73291,61 @@ function openHeadquarter() {
             }, 300);
         }
     };
-    
+
     // Initialize with first card
-    updateCard(0)
+    updateCard(0);
+
+    if (e.noCounter > 5 && Tax == 0){
+        removeCandidates(["The Madman", "The Hero"]);
+    }
+    if (e.noCounter > 5 && Gay == 0){
+        removeCandidates(["The Hunter", "The God Warrior", "The Storm"]);
+    }
+    if (e.noCounter > 6 && Patriot == 0){
+        removeCandidates(["The Madman"]);
+    }
+    if (e.noCounter > 6 && Loyalist == 0){
+        removeCandidates(["The Storm", "The Maverick", "The Hero"]);
+    }
+    if (e.noCounter > 10 && Notroops == 0){
+        removeCandidates(["The Storm", "The Hero", "The Hunter", "The Maverick", "The King"]);
+    }
+    if (e.noCounter > 10 && Troops == 0){
+        removeCandidates(["The Commoner", "The God Warrior", "The Madman"]);
+    }
+
+    if (e.noCounter > 13){
+        if (Notroops > 0 && Loyalist > 0 && Gay > 0 && Dumb > 0) {
+            setStaticOpponent("The Storm");
+        }
+        else if (Notroops > 0 && Loyalist > 0 && Tax > 0) {
+            setStaticOpponent("The Hero");
+        }
+        else if (Troops > 0 && Patriot > 0 && Tax > 0) {
+            setStaticOpponent("The Madman");
+        }
+        else if (Notroops > 0 && Gay > 0) {
+            setStaticOpponent("The Hunter");
+        }
+        else if ((Notroops > 0 && Loyalist > 0 && Win > 7) || (Notroops > 0 && Loyalist > 0 && Win > 5 && (e.player_answers.includes(5184) || e.player_answers.includes(20755)))) {
+            setStaticOpponent("The Maverick");
+        }
+        else if (Notroops > 0 && Loyalist > 0) {
+            setStaticOpponent("The Maverick");
+        }
+        else if (Notroops > 0) {
+            setStaticOpponent("The King");
+        }
+        else if (Troops > 0 && Gay > 0) {
+            setStaticOpponent("The God Warrior");
+        }
+        else if (Troops > 0 && Win < 8) {
+            setStaticOpponent("The Commoner");
+        }
+        else if (Troops > 0) {
+            setStaticOpponent("The Commoner");
+        }
+    }
 
     let rightCol = document.createElement('div');
     rightCol.style.width = '50%';
@@ -73290,13 +73377,13 @@ function openHeadquarter() {
     if (typeof speakerDetermined !== 'undefined' && speakerDetermined) {
         if (Win > 7) {
             speakerImage = 'https://i.imgur.com/U8Jhc8t.png';
-            speakerName = 'Nancy Pelosi<br><small>Democrat - California</small><br><small>Clever girl</small>';
+            speakerName = 'Nancy Pelosi<br><small>Democrat - California</small>';
         } else if (Win > 5) {
             speakerImage = 'https://i.imgur.com/egn6waw.png';
-            speakerName = 'John Boehner<br><small>Republican - Ohio</small><br><small>Pain in the ass</small>';
+            speakerName = 'John Boehner<br><small>Republican - Ohio</small>';
         } else {
             speakerImage = 'https://i.imgur.com/JDDpRwY.png';
-            speakerName = 'Roy Blunt<br><small>Republican - Missuouri</small><br><small>Obstructionist cuck</small>';
+            speakerName = 'Roy Blunt<br><small>Republican - Missuouri</small>';
         }
     }
 
@@ -73335,11 +73422,11 @@ function openHeadquarter() {
 
     if (typeof speakerDetermined !== 'undefined' && speakerDetermined) {
         if (Win < 6){
-            let senMajImage = 'https://i.imgur.com/UaKDa4o.png';
-            let senMajName = 'Mitch McConnell<br><small>Republican - Kentucky</small>';
+            senMajImage = 'https://i.imgur.com/UaKDa4o.png';
+            senMajName = 'Mitch McConnell<br><small>Republican - Kentucky</small>';
         } else {
-            let senMajImage = 'https://i.imgur.com/ut5Zwxu.png';
-            let senMajName = 'Tom Daschle<br><small>Democrat - South Dakota</small>';
+            senMajImage = 'https://i.imgur.com/ut5Zwxu.png';
+            senMajName = 'Tom Daschle<br><small>Democrat - South Dakota</small>';
         }
     }
 
