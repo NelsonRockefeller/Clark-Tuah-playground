@@ -31,7 +31,7 @@ campaignTrail_temp.election_json = [
         "pk": 20,
         "fields": {
             "year": 2008,
-            "summary": "The post-9/11 era saw a desperate Democratic Party cowardly pivot toward the center and bow to the Bush Administration's whims. Harbingers of War hell-bent on abusing the mandate bestowed by tragedy led to a crowded but divided opposition. Looking outward for an answer of any kind, the Democrats poached General Wesley K. Clark, who quickly rose to the challenge, beating out weak fringe candidates and, against all the odds, beating President George W. Bush.\n<p>\nWith victory secured, he must take on new conquests, mapping his way through entrenched party lines in Congress or skipping the swamps to repair the alliances that Bush torched. However, as the economy begins to show signs of worry, it's unknown whether he'll be able to fly toward an easy victory.",
+            "summary": "<p>The post-9/11 era saw a desperate Democratic Party cowardly pivot toward the center and bow to the Bush Administration's whims. Harbingers of War hell-bent on abusing the mandate bestowed by tragedy led to a crowded but divided opposition. Looking outward for an answer of any kind, the Democrats poached General Wesley K. Clark, who quickly rose to the challenge, beating out weak fringe candidates and, against all the odds, beating President George W. Bush.</p><p>With victory secured, he must take on new conquests, mapping his way through entrenched party lines in Congress or skipping the swamps to repair the alliances that Bush torched. However, as the economy begins to show signs of worry, it's unknown whether he'll be able to fly toward an easy victory.</p>",
             "image_url": "https://i.imgur.com/sMZXhCd.gif",
             "winning_electoral_vote_number": 270,
             "advisor_url": "https://archive-images.prod.global.a201836.reutersmedia.net/2011/01/21/2011-01-21T205506Z_02_RP3DRIAUTWAA_RTRRPP_0_IRAQ.JPG",
@@ -55,7 +55,7 @@ campaignTrail_temp.candidate_json = [
             "party": "Democratic",
             "state": "Arkansas",
             "priority": 2,
-            "description": "\n<p>Democrats have locked themselves in with General Clark, and their choice will either prove to be the greatest miscalculation since Carter or a stroke of blind and undeserved luck. So what is it that Wesley Clark does that makes Democrats tick? Endorsed by the likes of George McGovern, Max Baucus, Michael Moore, and Madonna, you'd assume he is clothed in riches. Well, the gold these Democrats saw was an impeccable resume that proved capable of beating Bush. The kicker is how badly Democrats misunderstood the man. \n\n<p>He is his own action figure, believing to be above the fray of party and congressional politics. He is the 12 Knights of the Round Table or the Three Wise Men all in one. Blessed with Athenic-like wisdom and knowledge, no matter who is locked in the room with him, he's the smartest man. His word is final, and he will not tolerate insubordination within his ranks.",
+            "description": "<p>Democrats have locked themselves in with General Clark, and their choice will either prove to be the greatest miscalculation since Carter or a stroke of blind and undeserved luck. So what is it that Wesley Clark does that makes Democrats tick? Endorsed by the likes of George McGovern, Max Baucus, Michael Moore, and Madonna, you'd assume he is clothed in riches. Well, the gold these Democrats saw was an impeccable resume that proved capable of beating Bush. The kicker is how badly Democrats misunderstood the man.</p><p>He is his own action figure, believing to be above the fray of party and congressional politics. He is the 12 Knights of the Round Table or the Three Wise Men all in one. Blessed with Athenic-like wisdom and knowledge, no matter who is locked in the room with him, he's the smartest man. His word is final, and he will not tolerate insubordination within his ranks.</p>",
             "color_hex": "#4b7db6",
             "secondary_color_hex": "#90C0FF",
             "is_active": 1,
@@ -155,7 +155,7 @@ campaignTrail_temp.candidate_json = [
             "electoral_victory_message": "'",
             "electoral_loss_message": "'",
             "no_electoral_majority_message": "'",
-            "description_as_running_mate": "\n<p>Washington had Hamilton, Caesar had Antony, and Clark has Landrieu — a loyal right hand for every great leader. Initially, she came forward to satisfy the establishment and Blue Dog Caucus, who stood behind the general in his journey to claim the Democratic nomination. With the ticket carved in stone, the general has sky-high goals for his new lieutenant. \n<p>\nFrom his view, destiny has granted him his strongest soldier, who will jump when he says jump and get in line when he says so. However she's no doormat, especially when it comes to wanting to protect her friends like Senator Joe Lieberman and other feckless party traitors. If push comes to shove, they could draw swords upon one another, but she is a loyal party gal willing to travel to the frontline of his legislative conquests.",
+            "description_as_running_mate": "<p>Washington had Hamilton, Caesar had Antony, and Clark has Landrieu — a loyal right hand for every great leader. Initially, she came forward to satisfy the establishment and Blue Dog Caucus, who stood behind the general in his journey to claim the Democratic nomination. With the ticket carved in stone, the general has sky-high goals for his new lieutenant.</p><p>From his view, destiny has granted him his strongest soldier, who will jump when he says jump and get in line when he says so. However she's no doormat, especially when it comes to wanting to protect her friends like Senator Joe Lieberman and other feckless party traitors. If push comes to shove, they could draw swords upon one another, but she is a loyal party gal willing to travel to the frontline of his legislative conquests.</p>",
             "candidate_score": 0,
             "running_mate": true
         }
@@ -547,20 +547,58 @@ document.getElementById("header").src = "https://numbers-station.neocities.org/i
 
 document.body.background = "https://media.newyorker.com/photos/614e494ea157132803b0a11e/16:9/w_2560,h_1440,c_limit/Blitzer-StuckinAfghanistan.jpg";
 
-document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#e7b3b6!important;}</style>";
-
 //#endcode
 
 e.ElectionPopup = "Stick around to receive the concession call... or make one."
 e.WinPopup = "wes its glup shitto, i lost"
 e.LosePopup = "glup shitto its wes, i lost"
 
-document.head.innerHTML += `<link
-  rel="stylesheet"
-  href="https://unpkg.com/7.css"
->`;
+// helper to ensure a stylesheet is appended only once
+function ensureStylesheet(url, id) {
+	// if an id is provided and exists, bail out
+	if (id && document.getElementById(id)) return;
+	// if a link with same href already exists, bail out
+	if (document.querySelector('link[rel="stylesheet"][href="' + url + '"]')) return;
+	const link = document.createElement('link');
+	link.rel = 'stylesheet';
+	link.href = url;
+	if (id) link.id = id;
+	document.head.appendChild(link);
+}
 
-document.head.innerHTML += `<style>
+ensureStylesheet('https://unpkg.com/7.css', 'unpkg-7css');
+
+function ensureMetaViewport() {
+    if (!document.querySelector('meta[name="viewport"]')) {
+        const m = document.createElement('meta');
+        m.name = 'viewport';
+        m.content = 'width=device-width, initial-scale=1';
+        document.head.appendChild(m);
+    }
+}
+
+applyGlobalStyles.sheets = {};
+
+function applyGlobalStyles(css, id = 'app-theme') {
+    if ('adoptedStyleSheets' in document && 'replaceSync' in CSSStyleSheet.prototype) {
+        if (!applyGlobalStyles.sheets[id]) {
+            applyGlobalStyles.sheets[id] = new CSSStyleSheet();
+            document.adoptedStyleSheets = [...document.adoptedStyleSheets, applyGlobalStyles.sheets[id]];
+        }
+        applyGlobalStyles.sheets[id].replaceSync(css);
+        return;
+    }
+
+    let el = document.getElementById(id);
+    if (!el) {
+        el = document.createElement('style');
+        el.id = id;
+        document.head.appendChild(el);
+    }
+    el.textContent = css;
+}
+
+const css = `
   :root {
     --window-background: initial !important;
     --window-background-color: initial !important;
@@ -680,11 +718,7 @@ document.head.innerHTML += `<style>
   #headquarter_button {
     margin-left: 5px;
   }
-</style>`;
-
-function addDynamicCSS() {
-var css = `
-
+  
   label {
     display:inline-block;
   }
@@ -745,37 +779,40 @@ var css = `
     font-family: Segoe UI;
   }
 
-  #overall_details_container h3 {
-    color: white;
-  }
-
-  #overall_election_details h4 {
-    color: white;
-  }
-
-  #main_content_area_reading p {
-    color: white;
-  }
-
-  #main_content_area_reading h3.results_tab_header {
-    color: white;
-  }
-
+  #overall_details_container h3,
+  #overall_election_details h4,
+  #main_content_area_reading p,
+  #main_content_area_reading h3.results_tab_header,
   .inner_window_w_desc h3 {
     color: white;
   }
+  
+  /* so the election summary can fit */
+  #election_summary {
+	padding-top: 0 !important;
+  }
+  
+	/* readability fixes /  
+	.custom-p button {
+	  background: initial;
+	}
+	.custom-p button:hover {
+	  background: #2c446e !important;
+	}
+	.custom-p button:before {
+	  content: none;
+	}
+	.custom-p button:disabled {
+	  background: #242a33 !important;
+	  cursor: auto !important;
+	}
+  
+  #results_container {color:#000000;} .inner_window_w_desc {background-color:#e7b3b6!important;}
+  
 `;
 
-var styleElem = document.createElement('style');
-styleElem.type = 'text/css';
-
-styleElem.appendChild(document.createTextNode(css));
-
-document.head.appendChild(styleElem);
-}
-
-
-addDynamicCSS();
+ensureMetaViewport();
+applyGlobalStyles(css, 'mod-style');
 
   tooltipList = [
     {searchString: "Olympus", explanationText: "<img src=https://i.imgur.com/0BJfcOf_d.png?maxwidth=520&shape=thumb&fidelity=high> Washington, D.C. This is where all your dreams will die unless you fight like hell, Wes."},
@@ -1156,8 +1193,7 @@ function initializePlayer() {
 }
 
 // Vista-style CSS
-const vistaStyle = document.createElement("style");
-vistaStyle.textContent = `
+const vistaStyle = `
 .vista-player {
     width: 960px;
     height: 250px;
@@ -1353,7 +1389,7 @@ vistaStyle.textContent = `
 }
 
 .vista-play-btn img, .vista-pause-btn img {
-    width: 80px !important;
+    width: auto;
     height: 80px !important;
     filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.3));
 }
@@ -1437,8 +1473,18 @@ vistaStyle.textContent = `
     transition: transform 0.1s ease;
 }
 
+/* Necessry to prevent 7.css from overruing the music player buttons */
+.vista-player .vista-controls button::before,
+.vista-player .vista-controls button::after {
+    content: none !important;
+}
+.vista-title-controls button, .vista-main-content button {
+	min-width: auto;
+}
+
 `;
-document.head.appendChild(vistaStyle);
+
+applyGlobalStyles(vistaStyle, 'vista-player');
 
 // Initialize the player after DOM is fully loaded
 initializePlayer();
