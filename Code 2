@@ -68559,11 +68559,6 @@ campaignTrail_temp.jet_data = [{
     "ending_data": {}
 }
 ]
-
-
-
-
-
 function ctsAchievement(achievement, difficultyChecker = true){
   if (window.location.hostname !== 'campaigntrailshowcase.com'){
     console.log("Not on right domain for achievements");
@@ -70752,6 +70747,12 @@ vpTable = {
     "Christian Paranoid Maniacs" : "Jesus",
     "Green Anti-war Firebrands" : "Ralph Nader",
 
+    //Secret secret
+    "I The Sun" : "She The Moon",
+    "Shell Of An Enemy" : "Flesh Of A Traitor",
+    "Harrowing Cries Of Help" : "Deafening Silence",
+    "Hopefully Our Future" : "Foolishly We Dream",
+
 
 }
 vpTableHistorical = {
@@ -70834,9 +70835,9 @@ newVpTableHistorical5 = { //Paul low neo
 };
 newHistHexcolour5 = ["#4b7db6","#e18345","#b88a56","#76cc70" ];
 newHistName5 = ["Wesley K. Clark","Ron Paul","Rick Santorum","Mike Gravel"];
-newHistEV5 = [356,182,0,0];
-newHistPV5 = [" ", " ", " ", " "];
-newHistPVP5 = [" ", " ", " ", " "];
+newHistEV5 = [424,106,8,0];
+newHistPV5 = ["57,893,081", "48,649,366", "18,263,484", "6,886,319"];
+newHistPVP5 = ["44.0%", "36.9%", "13.9%", "5.2%"];
 
 newVpTableHistorical6 = { //Paul high neo
     "Wesley K. Clark" : "Mary Landrieu",
@@ -70846,9 +70847,9 @@ newVpTableHistorical6 = { //Paul high neo
 };
 newHistHexcolour6 = ["#4b7db6","#e18345","#b88a56","#76cc70" ];
 newHistName6 = ["Wesley K. Clark","Ron Paul","Rick Santorum","Mike Gravel"];
-newHistEV6 = [336,168,27,7];
-newHistPV6 = [" ", " ", " ", " "];
-newHistPVP6 = [" ", " ", " ", " "];
+newHistEV6 = [265,251,15,7];
+newHistPV6 = ["50,300,048", "49,488,396", "14,803,270", "16,281,809"];
+newHistPVP6 = ["38.4%", "37.8%", "11.3%", "12.4%"];
 
 newVpTableHistorical7 = { //Paul iran war
     "Wesley K. Clark" : "Mary Landrieu",
@@ -70858,9 +70859,9 @@ newVpTableHistorical7 = { //Paul iran war
 };
 newHistHexcolour7 = ["#e18345","#192347","#8c5b5d","#ac8cab" ];
 newHistName7 = ["Ron Paul","Wesley K. Clark","Max The Swashbuckler Riekse","Susan G. Ducey"];
-newHistEV7 = [456,82,0,0];
-newHistPV7 = [" ", " ", " ", " "];
-newHistPVP7 = [" ", " ", " ", " "];
+newHistEV7 = [478,60,0,0];
+newHistPV7 = ["73,822,985", "54,539,403", "1,618,230", "1,323,688"];
+newHistPVP7 = ["56.2%", "41.5%", "1.2%", "1.0%"];
 
 newVpTableHistorical8 = { //Giuliani
     "Wesley K. Clark" : "Mary Landrieu",
@@ -70870,9 +70871,9 @@ newVpTableHistorical8 = { //Giuliani
 };
 newHistHexcolour8 = ["#4b7db6","#a41f3c","#b779c9","#1e661e" ];
 newHistName8 = ["Wesley K. Clark","Rudy Giuliani","Tom Tancredo","Jack Johnson"];
-newHistEV8 = [321,217,0,0];
-newHistPV8 = [" ", " ", " ", " "];
-newHistPVP8 = [" ", " ", " ", " "];
+newHistEV8 = [356,182,0,0];
+newHistPV8 = ["65,508,360", "58,051,746", "6,336,617", "1,177,793"];
+newHistPVP8 = ["50.0%", "44.3%", "4.8%", "0.9%"];
 
 newVpTableHistorical9 = { //Pence
     "Wesley K. Clark" : "Mary Landrieu",
@@ -70906,9 +70907,9 @@ newVpTableHistorical11 = { //Snowe
 };
 newHistHexcolour11 = ["#4b7db6","#693251","#c9b34c","#afb7e3"];
 newHistName11 = ["Wesley K. Clark","Olympia Snowe","Ron Paul","Randall Terry"];
-newHistEV11 = [328,210,0,0];
-newHistPV11 = [" ", " ", " ", " "];
-newHistPVP11 = [" ", " ", " ", " "];
+newHistEV11 = [374,164,0,0];
+newHistPV11 = ["69,264,730", "58,533,726", "2,621,733", "1,652,238"];
+newHistPVP11 = ["52.4%", "44.3%", "2.0%", "1.3%"];
 
 newVpTableHistorical12 = { //Super secret
     "I The Sun" : "She The Moon",
@@ -71064,6 +71065,383 @@ candidateObserver.observe(gameWindowNode, candidateWatcherConfig);
 
 
 
+class ChartEnhancer {
+  constructor() {
+    this.isProcessing = false;
+    this.initializeStyles();
+    this.initializeReplacements();
+    this.init();
+  }
+
+  initializeStyles() {
+    if (document.getElementById('ce-tooltip-styles')) return;
+    
+    const style = document.createElement('style');
+    style.id = 'ce-tooltip-styles';
+    
+    style.textContent = `
+      .ce-tooltip-container {
+        position: relative;
+        cursor: help;
+        display: inline-block;
+        opacity: 1;
+        transition-delay: 0.5s;
+        border-bottom: 1px dotted blue;
+      }
+	  
+	  .ce-tooltip {
+		visibility: hidden;
+		opacity: 0;
+		pointer-events: none;
+		transition: opacity 0.3s ease, visibility 0s 0.3s;
+		
+		position: absolute;
+		top: 50%;
+		right: 100%;
+		transform: translateY(-50%);
+		margin-right: 10px;
+		z-index: 1;
+
+		background-color: #333;
+		color: #fff;
+		font-family: Segoe UI, sans-serif !important;
+		padding: 10px;
+		border-radius: 6px;
+		box-sizing: border-box;
+
+		width: 200px;
+		text-align: center;
+		
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 8px;
+	}
+      
+      .ce-tooltip-container:hover .ce-tooltip {
+        /* Make visible on hover */
+        visibility: visible;
+        opacity: 1;
+
+        /* Hover-specific styles */
+        pointer-events: auto;
+        transition-delay: 0s;
+        background-color: #0A2463;
+        background-size: cover;
+        font-family: Segoe UI, sans-serif !important;
+        font-style: normal !important;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+      }
+	  
+	  .ce-tooltip img {
+		display: block;
+		max-width: 85%;
+		height: auto;
+		margin: 0;
+	}
+    	  
+    `;
+    document.head.appendChild(style);
+  }
+
+  createTooltip(text, { img, title, name, desc }) {
+    const imgHtml = img ? `<img src="${img}" alt="${name || text}">` : '';
+    const titleHtml = title ? `${title}<br>` : '';
+    const nameHtml = name ? `<b>${name}</b><br>` : '';
+    const descHtml = desc ? `${desc}` : '';
+    
+    return `<span class="ce-tooltip-container">${text}<span class="ce-tooltip">` +
+           `${imgHtml}` +
+           `${titleHtml}${nameHtml}${descHtml}` +
+           `</span></span>`;
+  }
+
+    initializeReplacements() {
+        this.replacements = new Map([
+        ["Clark", this.createTooltip("Clark", {
+            img: "https://i.imgur.com/SYheoR1.jpeg",
+            title: "General",
+            name: "Wesley K. Clark",
+            desc: "Retired war criminal turned president"
+        })],
+        ["McCain", this.createTooltip("McCain", {
+            img: "https://i.imgur.com/pwNjL0T.png",
+            title: "Senator",
+            name: "John McCain",
+            desc: ""
+        })],
+        ["Romney", this.createTooltip("Romney", {
+            img: "https://i.imgur.com/vFhtD6N.png",
+            title: "Governor",
+            name: "Mitt Romney",
+            desc: ""
+        })],
+        ["Bush", this.createTooltip("Bush", {
+            img: "https://i.imgur.com/eEvzxVd.png",
+            title: "Governor",
+            name: "Jeb Bush",
+            desc: ""
+        })],
+        ["Brownback", this.createTooltip("Brownback", {
+            img: "https://i.imgur.com/BoaQ7iw.png",
+            title: "Senator",
+            name: "Sam Brownback",
+            desc: ""
+        })],
+        ["Huckabee", this.createTooltip("Huckabee", {
+            img: "https://i.imgur.com/BFMKV8d.png",
+            title: "Governor",
+            name: "Mike Huckabee",
+            desc: ""
+        })],
+        ["Paul", this.createTooltip("Paul", {
+            img: "https://i.imgur.com/SYwt771.png",
+            title: "Representative",
+            name: "Ron Paul",
+            desc: ""
+        })],
+        ["Giuliani", this.createTooltip("Giuliani", {
+            img: "https://i.imgur.com/ZxKoBQk.png",
+            title: "Former NYC Mayor",
+            name: "Rudy Giuliani",
+            desc: "9/11 9/11 9/11 9/11 9/11"
+        })],
+        ["Cheney", this.createTooltip("Cheney", {
+            img: "https://i.imgur.com/Jg8MhGE.png",
+            title: "Former Vice President",
+            name: "Dick Cheney",
+            desc: ""
+        })],
+        ["Snowe", this.createTooltip("Snowe", {
+            img: "https://i.imgur.com/niNMIly.png",
+            title: "Senator",
+            name: "Olympia Snowe",
+            desc: ""
+        })],
+        ["Pence", this.createTooltip("Pence", {
+            img: "https://i.imgur.com/MZfLxBc.png",
+            title: "Representative",
+            name: "Mike Pence",
+            desc: ""
+        })],
+        ["Buchanan", this.createTooltip("Buchanan", {
+            img: "https://files.catbox.moe/cj2av8.png",
+            title: "Conservative Commentator",
+            name: "Pat Buchanan",
+            desc: ""
+        })],
+        ["Barr", this.createTooltip("Barr", {
+            img: "https://files.catbox.moe/ohprwf.png",
+            title: "Former Representative",
+            name: "Bob Barr",
+            desc: ""
+        })],
+        ["Kubby", this.createTooltip("Kubby", {
+            img: "https://files.catbox.moe/b7xqvw.png",
+            title: "Marijuana Activist",
+            name: "Steve Kubby",
+            desc: ""
+        })],
+        ["Tancredo", this.createTooltip("Tancredo", {
+            img: "https://files.catbox.moe/o5na06.png",
+            title: "Representative",
+            name: "Tom Tancredo",
+            desc: ""
+        })],
+        ["Santorum", this.createTooltip("Santorum", {
+            img: "https://files.catbox.moe/az6lzb.png",
+            title: "Senator",
+            name: "Rick Santorum",
+            desc: ""
+        })],
+        ["Root", this.createTooltip("Root", {
+            img: "https://files.catbox.moe/6gz31z.png",
+            title: "Conservative Commentator",
+            name: "Wayne Allyn Root",
+            desc: ""
+        })],
+        ["Karger", this.createTooltip("Karger", {
+            img: "https://files.catbox.moe/wemoll.png",
+            title: "Gay rights Activist",
+            name: "Fred Karger",
+            desc: ""
+        })],
+        ["Cook", this.createTooltip("Cook", {
+            img: "https://files.catbox.moe/akqe4k.png",
+            title: "Former Representative",
+            name: "Merrill Cook",
+            desc: ""
+        })],
+        ["Riekse", this.createTooltip("Riekse", {
+            img: "https://files.catbox.moe/wdciws.jpg",
+            title: "Perennial Candidate",
+            name: "Max \"The Swashbuckler\" Riekse",
+            desc: ""
+        })],
+        ["Ducey", this.createTooltip("Ducey", {
+            img: "https://files.catbox.moe/xjci88.jpg",
+            title: "Nurse",
+            name: "Susan G. Ducey",
+            desc: ""
+        })],
+        ["Brown", this.createTooltip("Brown", {
+            img: "https://files.catbox.moe/hz40a4.png",
+            title: "Black Panther",
+            name: "Elaine Brown",
+            desc: ""
+        })],
+        ["Kucinich", this.createTooltip("Kucinich", {
+            img: "https://files.catbox.moe/cjq1nl.png",
+            title: "Representative",
+            name: "Dennis Kucinich",
+            desc: ""
+        })],
+        ["Nader", this.createTooltip("Nader", {
+            img: "https://files.catbox.moe/chr1np.png",
+            title: "Environmental Activist",
+            name: "Ralph Nader",
+            desc: "Stole the 2000 election"
+        })],
+        ["Johnson", this.createTooltip("Johnson", {
+            img: "https://files.catbox.moe/jelz04.png",
+            title: "Singer",
+            name: "Jack Johnson",
+            desc: ""
+        })],
+        ["Gravel", this.createTooltip("Gravel", {
+            img: "https://files.catbox.moe/63dpyb.png",
+            title: "Former Senator",
+            name: "Mike Gravel",
+            desc: ""
+        })],
+        ["Mesplay", this.createTooltip("Mesplay", {
+            img: "https://files.catbox.moe/avfvub.png",
+            title: "City Official",
+            name: "Kent Mesplay",
+            desc: ""
+        })],
+        ["Hawkins", this.createTooltip("Hawkins", {
+            img: "https://files.catbox.moe/bd9ni6.png",
+            title: "Eco-socialist Activist",
+            name: "Howie Hawkins",
+            desc: ""
+        })],
+        ["Terry", this.createTooltip("Terry", {
+            img: "https://files.catbox.moe/rths6v.png",
+            title: "Anti-abortion Activist",
+            name: "Randall Terry",
+            desc: ""
+        })],
+        ["Partisan Hacks", this.createTooltip("Partisan Hacks", {
+            img: "https://example.com/placeholder.jpg",
+            title: "Republican",
+            name: "Partisan Hacks",
+            desc: ""
+        })],
+        ["Paranoid Maniacs", this.createTooltip("Paranoid Maniacs", {
+            img: "https://example.com/placeholder.jpg",
+            title: "Libertarian",
+            name: "Paranoid Maniacs",
+            desc: ""
+        })],
+        ["Anti-war Firebrands", this.createTooltip("Anti-war Firebrands", {
+            img: "https://example.com/placeholder.jpg",
+            title: "Green",
+            name: "Anti-war Firebrands",
+            desc: ""
+        })],
+        ["The Sun", this.createTooltip("The Sun", {
+            img: "https://example.com/placeholder.jpg",
+            title: "I",
+            name: "The Sun",
+            desc: ""
+        })],
+        ["An Enemy", this.createTooltip("An Enemy", {
+            img: "https://example.com/placeholder.jpg",
+            title: "Shell",
+            name: "of An Enemy",
+            desc: ""
+        })],
+        ["Cries Of Help", this.createTooltip("Cries Of Help", {
+            img: "https://example.com/placeholder.jpg",
+            title: "Harrowing",
+            name: "Cries of Help",
+            desc: ""
+        })],
+        ["Our Future", this.createTooltip("Our Future", {
+            img: "https://example.com/placeholder.jpg",
+            title: "Hopefully",
+            name: "Our Future",
+            desc: ""
+        })]
+        ]);
+    }
+
+    processChart() {
+    if (this.isProcessing) return;
+    
+    const element = document.getElementById("overall_result");
+    if (!element) return;
+    
+    const content = element.innerHTML;
+    
+    if (content.includes('class="ce-tooltip"')) {
+        return;
+    }
+    
+    this.isProcessing = true;
+    
+    let newContent = content;
+    let hasChanges = false;
+    
+    // Debug: log what we're working with
+    console.log('Original content:', content);
+    
+    // Create array of replacements sorted by key length (longest first)
+    const sortedReplacements = Array.from(this.replacements.entries())
+        .sort((a, b) => b[0].length - a[0].length);
+    
+    console.log('Sorted replacements:', sortedReplacements.map(([key]) => key));
+    
+    for (const [searchText, replacement] of sortedReplacements) {
+        // Use word boundaries to ensure we only match whole words
+        const regex = new RegExp(`\\b${searchText}\\b`, 'g');
+        
+        if (regex.test(newContent)) {
+        console.log(`Replacing: "${searchText}"`);
+        newContent = newContent.replace(regex, replacement);
+        hasChanges = true;
+        }
+    }
+    
+    if (hasChanges) {
+        element.innerHTML = newContent;
+        console.log('Final content:', newContent);
+    }
+    
+    setTimeout(() => {
+        this.isProcessing = false;
+    }, 100);
+    }
+
+  init() {
+    const checkAndProcess = () => {
+      this.processChart();
+    };
+    
+    this.intervalId = setInterval(() => {
+      requestAnimationFrame(checkAndProcess);
+    }, 200);
+  }
+
+  destroy() {
+    if (this.intervalId) {
+      clearInterval(this.intervalId);
+    }
+  }
+}
+
+const chartEnhancer = new ChartEnhancer();
 
 // constructs endings based on header and pages
 construct = (a = 1) => {
@@ -72636,11 +73014,6 @@ e.pages.push(`<h3>Wikipedia: <i>Controversies of the 2012 United States Presiden
 <p>The controversies of the <b>2012 United States Presidential election</b> involved both Democratic incumbent vice president <b>Mary Landrieu</b> and her Republican opponent Virginia Senator <b>George Allen</b></b>. However, a majority of these controversies negatively impacted Allen and are believed to have contributed to his defeat in the November election.</p><h3><i>^Allen's gaffe referring to Landrieu's pick for Vice President Barack Obama as one of “those people”</i></h3><h3><i>^Landrieu's claim that climate change was a privileged peoples problem</i></h3><h3><i>^Allen's stance that a woman “wasn't prepared to be president”</i></h3><h3><i>^Allen supporters attacking Code Pink protesters</i></h3><h3><i>^Landrieu gaffe referring to herself as “the black candidate”</i></h3><h3><i>^Allen arrest warrant controversy </i></h3><h3><i>^Screaming match between Barack Obama and Bobby Jindal at Vice Presidential debate</i></h3><h3><i>^Landrieu campaign fined for misappropriation of funds used for a personal flight</i></h3><h3><i>^Allen claim that Trent Lott's Strom Thurmond praise scandal was overblown</i></h3><h3><i>^Twitter intimidation</i></h3><h3><i>^Wesley Clark's “New York Money Men” gaffe</i></h3><h3><i>^Allen caught staring at Landrieu's breasts at first presidential debate</i></h3><h3><i>^Landrieu claim that unpopularity of her running mate Barack Obama was due to racism</i></h3><h3><i>^Allen caught politicizing over Hurricane Sandy as being an “October Surprise” to worry about</i></h3>`)
 e.executable.push([5, (() => {e.image = e.image = 'https://i.imgur.com/i2wRIi1.png'})])
 }
-else if ( quickstats[0] >= 269 && Econ < 3 && Agenda < 3) { // 
-e.pages.push(`<h3><i>Betrayal.</i></h3>
-<p><b>By Erick Erickson | 4:46 AM on September 29, 2012</b></p><p>The opinions expressed by contributors are their own and do not necessarily represent the views of RedState.com.</p><p>Over the past twenty-four hours, I have received a lot of heat from friends regarding my take on Scammy Barbour's presidential candidacy. Establishment Republicans want to play pretend and act like they're our voice, but when shit hits the fan, they treat us like imaginary friends that you can easily ignore. The Grand Old Party, as it should be called since it represents so little of red-blooded Republican values, has shown its true colors. The Republican Party's torchbearer, Haley Barbour, was caught red-handed with his fat hands in the cookie jar, trying to steal from what's rightfully the Tea Party's. In a leaked tape from his campaign headquarters, he uttered the words "we can and should divert funds from the Missouri Senate Race" and that Tea Party Patriot Todd Akin had "poisoned his chances." The greedy Republican establishment has gotten cold feet just because Akin said some things. They refer to us as a runaway train that needs to pull its brakes, as if we aren't fighting the fires made by Democrats that they are too cowardly to put a hose to! The GOP loves to make clowns of us, but no longer. I refuse to endorse a Republican so quick to betray a fellow Republican just because he's willing to say what he's too afraid to make clear. President Wesley Clark and his Democratic Party are a cancer on this nation, but I'd rather risk betting that his successor will make for great cannon fodder for when a Tea Party man takes back the White House in 2016. Risking giving power to another visionless establishment GOPer so that they can screw us for another 10 years is precisely what gave us Wesley Clark. I will not stand by and watch beautiful Tea Party gains be smothered in 2014 by a Republican President who failed to act. Friends, I beseech you to keep faith and remind yourselves that 2016 will be our year. Act free as you will, but if you want a real Republican to eradicate and destroy the Democrats, you will not find him in Haley Barbour. </p>`)
-e.executable.push([5, (() => {e.image = e.image = 'https://i.imgur.com/cj0QRA2.png'})])
-}
 else if ( quickstats[0] >= 269 && Econ < 3 && Neo > 7) { // 
 e.pages.push(`<h3><i>OCCUPY WALL STREET THANKS BUDDY ROEMER FOR ENDORSEMENT</i></h3>
 <p>Posted 5 days ago on Oct. 28, 2012, 11:58 a.m. EST by OccupyWallSt</p><p><b>Tags: </b>election, 2012, history, creator of Occupy Wall Street</p><p><b>1. Who is Buddy Roemer?</b></p><p>If you haven't paid much attention to the ongoing presidential election, the Republican Party's nominee for President, Buddy Roemer, recently commented on our movement.</p><p>While Democrats treat the importance of our goals as benchwarming policy planks, the Republican Party seized the fire burning within millions of Americans, left or right, to stand behind a movement able to fight corporate greed.</p><p>Buddy Roemer recently issued the following criticism of American Politics: For too long, the most earnest concerns of millions of Americans nationwide have gone ignored. Four years ago, our country found itself at the brink of economic damnation at the hands of Wall Street. Coming out strongly against any movement seeking to oust those same folks from their positions of power is strictly un-American!</p><p>The idea for Occupy Wall Street, which started with roughly 200 activists in New York, ballooned into the crosshairs of an unexpected ally, which is major for the movement.</p><p><b>2. What do the Democrats say?</b></p><p>The administration's response to our demonstrations last year was cautious tiptoeing followed by a focus on supposed "looting" and crime increases that went totally unsanctioned by our leaders.</p><p>The comments we receive from President Clark are dreamy poetry, followed by little to no action. Democrats nationwide talk the talk but refuse to walk the walk.</p><p>Vice President Landrieu's views on our concerns follow a similar pattern. Even more insulting is her ever-growing donor list, which includes Super PACs and wealthy individual donations, all of which align against our goals.</p><p>The founders of Occupy Wall Street transformed the concept put forward by Kalle Lasn into a movement to undo the damage caused by the administration's lack of action in clamping down on corporate greed. Buddy Roemer's ability to outflank the Democrats' Landrieu/Lamont ticket is only a further insult to the left's sympathy toward the Vice President's calls to action.</p><p><b>3. Occupy Wall Street's endorsement list</b></p><p>• Bernie Sanders of the Vermont Senate</p><p>• Elizabeth Warren for Massachusetts Senate</p><p>• Alan Grayson for Florida's 9th Congressional district </p><p>• Vote Your Conscience in the Presidential Race</p><p><b>4. Occupy Wall Street will NOT endorse a candidate for President </b></p><p>The Occupy movement is going to be crushed by more of the same politics of this administration, and while we appreciate the tepid support of the Republican candidate, we cannot, in good conscience, support any candidate on the ballot for President. </p><p><b>See, for example, the case of @OccupyWallStNYC for more information on local protests.</b></p><p>We do not recommend trusting social media accounts that continue to post under the name 'Occupy Wall Street'.</p><p><b>13 Comments</b></p>`)
@@ -72665,6 +73038,11 @@ else if ( quickstats[0] >= 269 && Econ < 3 && Neo > 0) { //
 e.pages.push(`<h3>AP News: <i>Will Huntsman's ties to China sink him?</i></h3>
 <p><b>By Rochelle Williams </b></p><p><b>Madison, Wisconsin — </b>Among a primary filled with partisan grievances, political theater, and rhetoric stood the popular former Utah Governor, Jon Huntsman. The Democratic Party's nightmare was not an evangelical loon ready to ring the bells of social issues or even a Tea Party Huckster declaring war on government spending. The nuclear option was always Governor Huntsman, the moderate heartthrob. </p><p>The well-spoken Governor with a record without blemish, he exited the Republican convention with a decisive lead in most polls. Huntsman had honed in on the sluggish economy, vowing to bring economic opportunity back while slashing taxes for the lower and middle class. Democrats hoped the Governor's positions on social issues and immigration would generate criticism from his right flank, but their hopes fizzled as the GOP, driven by anti-Democrat hunger, rallied behind him anyway.</p><p>But the gloves came off when the conversation trailed off to China.</p><p>One of President Clark's late-term initiatives has been reinforcing American economic interests from the supposed "threat" China poses to American interests both at home and abroad. Democrats have begun to push emphasis on Huntsman's ties to the Huntsman Corporation, with some even labeling Huntsman "the candidate who will sell your jobs to China." Huntsman has pushed back on these claims, proclaiming he has no current ties to the corporation and would work to create new jobs for America's industrial heartland. </p><p>Vice President Landrieu has also taken this rhetoric in her attacks on Huntsman, hoping to claw her way up from the political quicksand that is the economy. However, some of Clark's initiatives to combat China have garnered criticism, like the advocacy for a Trans Pacific Partnership, a proposed trade agreement between 12 Pacific Rim economies: Australia, Brunei, Canada, Chile, Japan, Malaysia, Mexico, New Zealand, Peru, Singapore, Vietnam, and the United States. The proposal has hit the natural Democratic base of unions, unwilling to accept another free trade agreement without basic assurances that their jobs won't be affected. </p><p>The deal that President Clark has begun negotiations for presents a challenge to his Vice President's campaign, which has so far failed to reconnect with disillusioned workers and distance itself from unpopular trade policies. </p><p>The time for Landrieu to change course is fading rapidly, and her chances of carrying the Democratic torch another four years may just go up in smoke.</p>`)
 e.executable.push([5, (() => {e.image = e.image = 'https://i.imgur.com/cDlj9mj.png'})])
+}
+else if ( quickstats[0] >= 269 && Neo < 2 && Econ < 3) { // 
+e.pages.push(`<h3><i>Betrayal.</i></h3>
+<p><b>By Erick Erickson | 4:46 AM on September 29, 2012</b></p><p>The opinions expressed by contributors are their own and do not necessarily represent the views of RedState.com.</p><p>Over the past twenty-four hours, I have received a lot of heat from friends regarding my take on Scammy Barbour's presidential candidacy. Establishment Republicans want to play pretend and act like they're our voice, but when shit hits the fan, they treat us like imaginary friends that you can easily ignore. The Grand Old Party, as it should be called since it represents so little of red-blooded Republican values, has shown its true colors. The Republican Party's torchbearer, Haley Barbour, was caught red-handed with his fat hands in the cookie jar, trying to steal from what's rightfully the Tea Party's. In a leaked tape from his campaign headquarters, he uttered the words "we can and should divert funds from the Missouri Senate Race" and that Tea Party Patriot Todd Akin had "poisoned his chances." The greedy Republican establishment has gotten cold feet just because Akin said some things. They refer to us as a runaway train that needs to pull its brakes, as if we aren't fighting the fires made by Democrats that they are too cowardly to put a hose to! The GOP loves to make clowns of us, but no longer. I refuse to endorse a Republican so quick to betray a fellow Republican just because he's willing to say what he's too afraid to make clear. President Wesley Clark and his Democratic Party are a cancer on this nation, but I'd rather risk betting that his successor will make for great cannon fodder for when a Tea Party man takes back the White House in 2016. Risking giving power to another visionless establishment GOPer so that they can screw us for another 10 years is precisely what gave us Wesley Clark. I will not stand by and watch beautiful Tea Party gains be smothered in 2014 by a Republican President who failed to act. Friends, I beseech you to keep faith and remind yourselves that 2016 will be our year. Act free as you will, but if you want a real Republican to eradicate and destroy the Democrats, you will not find him in Haley Barbour. </p>`)
+e.executable.push([5, (() => {e.image = e.image = 'https://i.imgur.com/cj0QRA2.png'})])
 }
 return construct(0);
 }
@@ -73377,13 +73755,13 @@ function openHeadquarter() {
     if (typeof speakerDetermined !== 'undefined' && speakerDetermined) {
         if (Win > 7) {
             speakerImage = 'https://i.imgur.com/U8Jhc8t.png';
-            speakerName = 'Nancy Pelosi<br><small>Democrat - California</small>';
+            speakerName = 'Nancy Pelosi<br><small>Democrat - California</small><br><small>Clever girl</small>';
         } else if (Win > 5) {
             speakerImage = 'https://i.imgur.com/egn6waw.png';
-            speakerName = 'John Boehner<br><small>Republican - Ohio</small>';
+            speakerName = 'John Boehner<br><small>Republican - Ohio</small><br><small>Pain in the ass</small>';
         } else {
             speakerImage = 'https://i.imgur.com/JDDpRwY.png';
-            speakerName = 'Roy Blunt<br><small>Republican - Missuouri</small>';
+            speakerName = 'Roy Blunt<br><small>Republican - Missuouri</small><br><small>Obstructionist cuck</small>';
         }
     }
 
@@ -74450,30 +74828,25 @@ function openPotentialConquests() {
     // Function to determine rating style
     function getRatingStyle(rating) {
         const styles = {
-            "Respectable": {
-                color: '#00ff00',
-                backgroundColor: '#003300',
-                border: '1px solid #00ff00'
-            },
-            "Likely": {
-                color: '#aaff00',
-                backgroundColor: '#334400',
-                border: '1px solid #aaff00'
-            },
             "Uninspired": {
-                color: '#ffff00',
-                backgroundColor: '#444400',
-                border: '1px solid #ffff00'
+                color: '#ffffff',
+                backgroundColor: '#cc0000',
+                border: '1px solid #ff4444'
+            },
+            "Respectable": {
+                color: '#ffffff',
+                backgroundColor: '#0066cc',
+                border: '1px solid #3399ff'
             },
             "Ambitious": {
-                color: '#ff6600',
-                backgroundColor: '#442200',
-                border: '1px solid #ff6600'
+                color: '#ffffff',
+                backgroundColor: '#ff6600',
+                border: '1px solid #ff9933'
             },
-            "Unlikely": {
-                color: '#ff0000',
-                backgroundColor: '#440000',
-                border: '1px solid #ff0000'
+            "Soaring": {
+                color: '#000000',
+                backgroundColor: '#ffd700',
+                border: '1px solid #ffcc00'
             }
         };
         return styles[rating] || {};
@@ -74619,10 +74992,10 @@ function openPotentialConquests() {
 
     if (e.player_answers.includes(5149)) { //peace corps
         exampleCards.push({
-            imageUrl: ' ', 
-            description: ' ', 
-            billName: 'peace corps', 
-            rating: 'Ambitious' 
+            imageUrl: 'https://i.imgur.com/LQnBCBX.gif', 
+            description: 'Enacted by the 109th Congress and sponsored by Clooney, Nick [D-KY], [2005-????] $200 million dollars of funding into the Freedom Corps Initiative, which includes AmeriCorps, the Peace Corps, and the Senior Corps.', 
+            billName: 'The Freedom Corps Reinvestment Act (PCRA)',
+            rating: 'Uninspired' 
         });
     }
 
@@ -74637,72 +75010,72 @@ function openPotentialConquests() {
 
     if (e.player_answers.includes(20897)) { //fma
         exampleCards.push({
-            imageUrl: ' ', 
-            description: ' ', 
-            billName: 'freedom to marry act', 
-            rating: 'Ambitious' 
+            imageUrl: 'https://i.imgur.com/78yEQOi.gif', 
+            description: 'Enacted by the 109th Congress and sponsored by Frank, Barney [D-MA], [1981-????]. An act that would have repealed section 3 of the Defense of Marriage Act (DOMA), which prohibits the federal government from recognizing same-sex marriages.', 
+            billName: 'The Freedom To Marry Act (FMA)', 
+            rating: 'Ambitious*' 
         });
     }
         
     if (e.player_answers.includes(20890)) { //axe bush tax cuts
         exampleCards.push({
-            imageUrl: ' ', 
-            description: ' ', 
-            billName: 'tax reform', 
-            rating: 'Ambitious' 
+            imageUrl: 'https://i.imgur.com/WRNom4Z.gif', 
+            description: 'Enacted by the 109th Congress and sponsored by Frank, Barney [D-MA], [1981-????] The Fiscal Battlefield Act repeals provisions of the Economic Growth and Tax Relief Reconciliation Act of 2001. It initiates a 2.5% rate increase on income exceeding $1 million annually, while providing an expansion of the Earned Income Tax Credit to offer a $2,250 tax credit per child.', 
+            billName: 'The Fiscal Battlefield Act (FBA)', 
+            rating: 'Respectable' 
         });
     }
 
     if (e.player_answers.includes(22670)) { //nclb reform
         exampleCards.push({
-            imageUrl: ' ', 
-            description: ' ', 
-            billName: 'no child left behind reform', 
+            imageUrl: 'https://i.imgur.com/LByFLRT.gif', 
+            description: 'Enacted by the 109th Congress and sponsored by Woolsey, Lynn [D-CA], [1993-????]. An overhaul of the No Child Left Behind Act, including additional funding and the replacement of the standardized testing provision with new teacher training guidelines provisions.', 
+            billName: 'The Education Advancement and Opportunities Act (EAOA)', 
             rating: 'Ambitious' 
         });
     }
 
     if (e.player_answers.includes(255248)) { //nasa
         exampleCards.push({
-            imageUrl: ' ', 
-            description: ' ', 
-            billName: 'light speed', 
+            imageUrl: 'https://i.imgur.com/OpVdILg.gif', 
+            description: 'Enacted by the 110th Congress, Sponsored by Bill Nelson [D-FL, 2001-????]. Signed into law to increase NASA\'s space program funding and divert resources to fund research into light-speed technology. Described by the President as his only "faith based initiative," he confidently stated that the United States would craft the technology necessary to travel at light speed.', 
+            billName: 'NASA Research and Investment Act', 
             rating: 'Ambitious' 
         });
     }
 
     if (e.player_answers.includes(22460)) { //cybersecurity
         exampleCards.push({
-            imageUrl: ' ', 
-            description: ' ', 
-            billName: 'cybersecurity', 
-            rating: 'Ambitious' 
+            imageUrl: 'https://i.imgur.com/tin7vWG.gif', 
+            description: 'Enacted by the 110th Congress, Sponsored by Gordon, Bart [D-TN], [1985-????]. Data and firewall regulations on the industrial, aerospace, energy, power sectors, and the public sector.', 
+            billName: 'The Cyber Intelligence Protection Act ', 
+            rating: 'Respectable' 
         });
     }
 
     if (e.player_answers.includes(20935)) { //matthew shepard act
         exampleCards.push({
-            imageUrl: ' ', 
-            description: ' ', 
-            billName: 'matthew shepard act', 
-            rating: 'Ambitious' 
+            imageUrl: 'https://i.imgur.com/z5rd66H.gif', 
+            description: 'Enacted by the 110th Congress, Sponsored by Conyers, John [D-MI], [1965-????]. An expansion to the 1968 United States federal hate-crime law to include crimes motivated by a victim\'s actual or perceived gender, sexual orientation, gender identity, or disability.', 
+            billName: 'The Matthew Shepard and James Byrd Jr. Hate Crimes Prevention Act', 
+            rating: 'Respectable' 
         });
     }
 
     if (e.player_answers.includes(22479) || e.player_answers.includes(24704)) { //gun reform
         exampleCards.push({
-            imageUrl: ' ', 
-            description: ' ', 
-            billName: 'gun reform', 
-            rating: 'Ambitious' 
+            imageUrl: 'https://i.imgur.com/msGXnsD.gif', 
+            description: 'Enacted by the 110th Congress and sponsored by Lee, Sheila [D-TX], [1995-????]. A bipartisan bill to close gun show loophole, requiring background checks for private sales at gun shows, alongside child safety locks and safe storage requirements for firearms.', 
+            billName: 'The Strategic Arms Safety Act (SASA)', 
+            rating: 'Respectable' 
         });
     }
     
     if (e.player_answers.includes(24730)) { //assault weapons ban
         exampleCards.push({
-            imageUrl: ' ', 
-            description: ' ', 
-            billName: 'assault weapons ban', 
+            imageUrl: 'https://i.imgur.com/QfZrgCG.gif', 
+            description: 'Enacted by the 110th Congress and sponsored by McCarthy, Carolyn [D-NY], [1997-????]. The renewal of the Public Safety and Recreational Firearms Use Protection Act, popularly known as the Federal Assault Weapons Ban (AWB or FAWB), prohibits the civilian use of semi-automatic rifles and large capacity magazines.', 
+            billName: 'The Assault Weapons Neutralization Act (AWNA)', 
             rating: 'Ambitious' 
         });
     }
@@ -74745,46 +75118,37 @@ function openPotentialConquests() {
 
     if (e.player_answers.includes(24635)) { //universal pre k
         exampleCards.push({
-            imageUrl: ' ', 
-            description: ' ', 
-            billName: 'universal pre k', 
+            imageUrl: 'https://i.imgur.com/L2sRFuG.gif', 
+            description: 'Enacted by the 110th Congress and sponsored by Lamont, Ned [D-CT], [2007-????]. Offers universal preschool access for all four-year-olds and a growing number of three-year-olds whose families want it through the Early Head Start Program, totaling over $70 billion in investment.', 
+            billName: 'The Early Head Start Act (EHSA)', 
             rating: 'Ambitious' 
         });
     }
 
-    if (e.player_answers.includes(23781)) { //Homeland and Hometown Security Fund
+    if (e.player_answers.includes(23781)) { //Hometown Security Fund
         exampleCards.push({
-            imageUrl: ' ', 
-            description: ' ', 
-            billName: 'Homeland and Hometown Security Fund', 
-            rating: 'Ambitious' 
-        });
-    }
-
-    if (e.player_answers.includes(25094)) { //invade iran
-        exampleCards.push({
-            imageUrl: ' ', 
-            description: ' ', 
-            billName: 'invade iran', 
-            rating: 'Ambitious' 
+            imageUrl: 'https://i.imgur.com/sOewx6K.gif', 
+            description: 'Enacted by the 110th Congress and sponsored by Mount, Willie [D-LA], [2005-????]. A $40 billion investment into a Homeland Security Fund to create more jobs via anti-domestic terrorism infrastructure.', 
+            billName: 'The Hometown Security Act (EHSA)', 
+            rating: 'Uninspired' 
         });
     }
 
     if (Econ == 1) { //weak econ bill
         exampleCards.push({
-            imageUrl: ' ', 
-            description: ' ', 
-            billName: 'weak econ bill', 
-            rating: 'Ambitious' 
+            imageUrl: 'https://i.imgur.com/OfQ6JTV.gif', 
+            description: 'Enacted by the 110th Congress, Sponsored by Kennedy, Patrick [D-RI], [1995-????]. Establishes a Troubled Asset Relief Program, a program that can acquire up to $600 billion of mortgage-backed securities.', 
+            billName: 'Emergency Economic Stabilization Act', 
+            rating: 'Uninspired' 
         });
     }
 
     if (Econ == 2) { //your econ bill
         exampleCards.push({
-            imageUrl: ' ', 
-            description: ' ', 
-            billName: 'your econ bill', 
-            rating: 'Ambitious' 
+            imageUrl: 'https://i.imgur.com/CQAKs9q.gif', 
+            description: 'Enacted by the 110th Congress, Sponsored by Rengel, Charles [D-NY], [1971-????]. Valued at around 900 billion in a Troubled Asset Relief Program alongside banking reforms, rudimentary regulation, better accounting guidelines, and more transparency.', 
+            billName: 'Emergency Economic and Corporate Responsibility Act', 
+            rating: 'Respectable' 
         });
     }
 
@@ -74799,46 +75163,37 @@ function openPotentialConquests() {
 
     if (Econ == 4) { //bernie econ bill
         exampleCards.push({
-            imageUrl: ' ', 
-            description: ' ', 
-            billName: 'bernie econ bill', 
-            rating: 'Ambitious' 
-        });
-    }
-
-    if (e.player_answers.includes(24183)) { //kill osama
-        exampleCards.push({
-            imageUrl: ' ', 
-            description: ' ', 
-            billName: 'kill osama', 
-            rating: 'Ambitious' 
+            imageUrl: 'https://i.imgur.com/gcloQP4.gif', 
+            description: 'Enacted by the 110th Congress, Sponsored by Sanders, Bernard [D-VT], [2006-????]. Establishes a Troubled Assets Relief Program (TARP) whose funds would purchase toxic assets from failing banks. The bill asserts tax hikes on the top 1% of over 2.5% annually, and the reestablishment of the Resolution Trust Corporation, Reconstruction Finance Corporation, and Home Owners\' Loan Corporation.', 
+            billName: 'Emergency Economic and Banking Accountability Act', 
+            rating: 'Soaring' 
         });
     }
 
     if (e.player_answers.includes(255057)) { //free college
         exampleCards.push({
-            imageUrl: ' ', 
-            description: ' ', 
-            billName: 'free college', 
-            rating: 'Ambitious' 
+            imageUrl: 'https://i.imgur.com/HJpafaw.gif', 
+            description: 'Enacted by the 110th Congress and sponsored by Miller, George [D-CA], [2005-????]. Established Public Service Loan Security (PSLS), which guarantees federal college grants for the first two years of every American student\'s college career.', 
+            billName: 'The College Education Liberation Act (CELA)', 
+            rating: 'Soaring' 
         });
     }
 
     if (e.player_answers.includes(255054)) { //2 trilly stimmy
         exampleCards.push({
-            imageUrl: ' ', 
-            description: ' ', 
-            billName: '2 trilly stimmy', 
-            rating: 'Ambitious' 
+            imageUrl: 'https://i.imgur.com/ANcrTpg.gif', 
+            description: 'Enacted by the 110th Congress and sponsored by Obey, David [D-WI], [1969-2011]. A stimulus recovery bill worth 2 trillion dollars to pay for Infrastructure projects, education and healthcare investments, and aid to state and local governments to prevent federal and corporate layoffs.', 
+            billName: 'The American Reinvigoration and Security Act (ARSA)', 
+            rating: 'Soaring' 
         });
     }
 
     if (e.player_answers.includes(255060)) { //minimum wage
         exampleCards.push({
-            imageUrl: ' ', 
-            description: ' ', 
-            billName: 'minimum wage', 
-            rating: 'Ambitious' 
+            imageUrl: 'https://i.imgur.com/QuWh6C7.gif', 
+            description: 'Enacted by the 110th Congress and sponsored by Kennedy, Ted [D-MA], [1962-2010]. Established a gradual increase to $12 minimum wage from 2008 to 2012.', 
+            billName: 'The Workers Fighting Chance Act (WFCA)', 
+            rating: 'Soaring' 
         });
     }
 
