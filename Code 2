@@ -69889,6 +69889,7 @@ var War = 0;
 var speakerDetermined = false;
 var foeDetermined = false;
 var jonked = 0;
+var used = false;
 e.noCounter = 0
 
 e = campaignTrail_temp
@@ -72330,7 +72331,7 @@ class ChartEnhancer {
             img: "https://i.imgur.com/SYheoR1.jpeg",
             title: "General",
             name: "Wesley K. Clark",
-            desc: "Retired war criminal turned president"
+            desc: ""
         })],
         ["McCain", this.createTooltip("McCain", {
             img: "https://i.imgur.com/pwNjL0T.png",
@@ -72372,7 +72373,7 @@ class ChartEnhancer {
             img: "https://i.imgur.com/ZxKoBQk.png",
             title: "Former NYC Mayor",
             name: "Rudy Giuliani",
-            desc: "9/11 9/11 9/11 9/11 9/11"
+            desc: ""
         })],
         ["Cheney", this.createTooltip("Cheney", {
             img: "https://i.imgur.com/Jg8MhGE.png",
@@ -72468,7 +72469,7 @@ class ChartEnhancer {
             img: "https://files.catbox.moe/chr1np.png",
             title: "Environmental Activist",
             name: "Ralph Nader",
-            desc: "Stole the 2000 election"
+            desc: ""
         })],
         ["Johnson", this.createTooltip("Johnson", {
             img: "https://files.catbox.moe/jelz04.png",
@@ -72516,30 +72517,6 @@ class ChartEnhancer {
             img: "https://files.catbox.moe/trjosg.jpg",
             title: "Green",
             name: "Anti-war Firebrands",
-            desc: ""
-        })],
-        ["The Sun", this.createTooltip("The Sun", {
-            img: "https://example.com/placeholder.jpg",
-            title: "I",
-            name: "The Sun",
-            desc: ""
-        })],
-        ["An Enemy", this.createTooltip("An Enemy", {
-            img: "https://example.com/placeholder.jpg",
-            title: "Shell",
-            name: "of An Enemy",
-            desc: ""
-        })],
-        ["Cries Of Help", this.createTooltip("Cries Of Help", {
-            img: "https://example.com/placeholder.jpg",
-            title: "Harrowing",
-            name: "Cries of Help",
-            desc: ""
-        })],
-        ["Our Future", this.createTooltip("Our Future", {
-            img: "https://example.com/placeholder.jpg",
-            title: "Hopefully",
-            name: "Our Future",
             desc: ""
         })]
         ]);
@@ -72899,7 +72876,6 @@ if (quickstats[0] >= 270 && Lehman == 1 && Econ == 4){
     ctsAchievement("Vanguard of the Revolution");
 }
 
-
 //LANDSLIDE DEFEAT
 if (aa[0].electoral_votes < 270 && Dem > 0 && War == 1) { // ww3 loss - 
 e.pages.push(`<h3><i>Chasing Ghosts</i></h3>
@@ -72911,15 +72887,18 @@ e.executable.push([0, (() => {
     const audio = document.getElementById("audio");
     if (audio) audio.loop = true; 
 })]);
-const clarkWin = new Playlist();
-  const clarkWinSong = new Song(
-    "Земфира — Бесконечность",
-    "Zemfira",
-    "https://i.imgur.com/8UjJ7XG.gif",
-    "https://audio.jukehost.co.uk/U1xDkzwTEBFw34329wBeSK7pr9m08Brs"
-  );
-clarkWin.addSong(clarkWinSong);
-changePlaylist(clarkWin);
+if (used != true) {
+    const clarkWin = new Playlist();
+    const clarkWinSong = new Song(
+        "Земфира — Бесконечность",
+        "Zemfira",
+        "https://i.imgur.com/8UjJ7XG.gif",
+        "https://audio.jukehost.co.uk/U1xDkzwTEBFw34329wBeSK7pr9m08Brs"
+    );
+    clarkWin.addSong(clarkWinSong);
+    changePlaylist(clarkWin);
+    used = true;
+}
 }
 else if (quickstats[0] <= 539 && Dem > 0 && War == 1 && e.player_answers.includes(24223)) { // ww3 loss - 
 e.pages.push(`<h3><i>Chasing Ghosts</i></h3>
@@ -72931,15 +72910,18 @@ e.executable.push([0, (() => {
     const audio = document.getElementById("audio");
     if (audio) audio.loop = true; 
 })]);
-const clarkWin = new Playlist();
-  const clarkWinSong = new Song(
-    "Земфира — Бесконечность",
-    "Zemfira",
-    "https://i.imgur.com/8UjJ7XG.gif",
-    "https://audio.jukehost.co.uk/U1xDkzwTEBFw34329wBeSK7pr9m08Brs"
-  );
-clarkWin.addSong(clarkWinSong);
-changePlaylist(clarkWin);
+if (used != true) {
+    const clarkWin = new Playlist();
+    const clarkWinSong = new Song(
+        "Земфира — Бесконечность",
+        "Zemfira",
+        "https://i.imgur.com/8UjJ7XG.gif",
+        "https://audio.jukehost.co.uk/U1xDkzwTEBFw34329wBeSK7pr9m08Brs"
+    );
+    clarkWin.addSong(clarkWinSong);
+    changePlaylist(clarkWin);
+    used = true;
+}
 }
 else if (quickstats[0] <= 539 && Dem > 0 && War == 1) { // ww3 loss - 
 e.pages.push(`<h3><i>Invisible Threat</i></h3>
@@ -72951,15 +72933,18 @@ e.executable.push([0, (() => {
     const audio = document.getElementById("audio");
     if (audio) audio.loop = true; 
 })]);
-const clarkWin = new Playlist();
-  const clarkWinSong = new Song(
-    "No Surprises",
-    "Juliana Chahayed",
-    "https://i.imgur.com/8UjJ7XG.gif",
-    "https://audio.jukehost.co.uk/E4LTrnk4QmiTWPnP39nRwXF6bBRq1MZt"
-  );
-clarkWin.addSong(clarkWinSong);
-changePlaylist(clarkWin);
+if (used != true) {
+    const clarkWin = new Playlist();
+    const clarkWinSong = new Song(
+        "No Surprises",
+        "Juliana Chahayed",
+        "https://i.imgur.com/8UjJ7XG.gif",
+        "https://audio.jukehost.co.uk/E4LTrnk4QmiTWPnP39nRwXF6bBRq1MZt"
+    );
+    clarkWin.addSong(clarkWinSong);
+    changePlaylist(clarkWin);
+    used = true;
+}
 }
 else if (quickstats[0] >= 0 && e.player_answers.includes(254910)) { // big loss - 
 e.pages.push(`<h3><i>"I The Sun"</i></h3>
@@ -72971,15 +72956,18 @@ e.executable.push([0, (() => {
     const audio = document.getElementById("audio");
     if (audio) audio.loop = true; 
 })]);
-const clarkWin = new Playlist();
-  const clarkWinSong = new Song(
-    "Just Like A Pill",
-    "Pink",
-    "https://i.imgur.com/9vb7TBT.gif",
-    "https://audio.jukehost.co.uk/ZunBmwGD3wwG6vy5A8Ws3S7c4Z57cB1o"
-  );
-clarkWin.addSong(clarkWinSong);
-changePlaylist(clarkWin);
+if (used != true) {
+    const clarkWin = new Playlist();
+    const clarkWinSong = new Song(
+        "Just Like A Pill",
+        "Pink",
+        "https://i.imgur.com/9vb7TBT.gif",
+        "https://audio.jukehost.co.uk/ZunBmwGD3wwG6vy5A8Ws3S7c4Z57cB1o"
+    );
+    clarkWin.addSong(clarkWinSong);
+    changePlaylist(clarkWin);
+    used = true;
+}
 }
 if (aa[0].electoral_votes < 270 && Dem > 0 && War == 1) { // ww3 loss - 
 e.pages.push(`<h3><i>Without</i></h3>
@@ -72991,15 +72979,18 @@ e.executable.push([0, (() => {
     const audio = document.getElementById("audio");
     if (audio) audio.loop = true; 
 })]);
-const clarkWin = new Playlist();
-  const clarkWinSong = new Song(
-    "How It Ends",
-    "DeVotchKa",
-    "https://i.imgur.com/8UjJ7XG.gif",
-    "https://audio.jukehost.co.uk/rS6vftCRV3NpUX0IC6j98pKW76SWgt8t"
-  );
-clarkWin.addSong(clarkWinSong);
-changePlaylist(clarkWin);
+if (used != true) {
+    const clarkWin = new Playlist();
+    const clarkWinSong = new Song(
+        "How It Ends",
+        "DeVotchKa",
+        "https://i.imgur.com/8UjJ7XG.gif",
+        "https://audio.jukehost.co.uk/rS6vftCRV3NpUX0IC6j98pKW76SWgt8t"
+    );
+    clarkWin.addSong(clarkWinSong);
+    changePlaylist(clarkWin);
+    used = true;
+}
 }
 else if (quickstats[0] <= 138 && Agenda < 3 && War == 0) { // big loss - 
 e.pages.push(`<h3><i>"Icarus"</i></h3>
@@ -73011,15 +73002,18 @@ e.executable.push([0, (() => {
     const audio = document.getElementById("audio");
     if (audio) audio.loop = true; 
 })]);
-const clarkWin = new Playlist();
-  const clarkWinSong = new Song(
-    "21st Century Man",
-    "Electric Light Orchestra",
-    "https://i.imgur.com/9vb7TBT.gif",
-    "https://audio.jukehost.co.uk/3gBXEl0z01Rc58ZTnNoMsv1GJNaCCwA9"
-  );
-clarkWin.addSong(clarkWinSong);
-changePlaylist(clarkWin);
+if (used != true) {
+    const clarkWin = new Playlist();
+    const clarkWinSong = new Song(
+        "21st Century Man",
+        "Electric Light Orchestra",
+        "https://i.imgur.com/9vb7TBT.gif",
+        "https://audio.jukehost.co.uk/3gBXEl0z01Rc58ZTnNoMsv1GJNaCCwA9"
+    );
+    clarkWin.addSong(clarkWinSong);
+    changePlaylist(clarkWin);
+    used = true;
+}
 }
 else if (quickstats[0] <= 138 && Agenda > 2 && War == 0) { // bug loss - 
 e.pages.push(`<h3><i>Icarus</i></h3>
@@ -73031,15 +73025,18 @@ e.executable.push([0, (() => {
     const audio = document.getElementById("audio");
     if (audio) audio.loop = true; 
 })]);
-const clarkWin = new Playlist();
-  const clarkWinSong = new Song(
-    "Let Down",
-    "Radiohead",
-    "https://i.imgur.com/9vb7TBT.gif",
-    "https://audio.jukehost.co.uk/MSW4fTQQ1O0K4M7PFdujKRoyuC7gSRIs"
-  );
-clarkWin.addSong(clarkWinSong);
-changePlaylist(clarkWin);
+if (used != true) {
+    const clarkWin = new Playlist();
+    const clarkWinSong = new Song(
+        "Let Down",
+        "Radiohead",
+        "https://i.imgur.com/9vb7TBT.gif",
+        "https://audio.jukehost.co.uk/MSW4fTQQ1O0K4M7PFdujKRoyuC7gSRIs"
+    );
+    clarkWin.addSong(clarkWinSong);
+    changePlaylist(clarkWin);
+    used = true;
+}
 }
 else if (quickstats[0] >= 269 && Econ == 4 && Lehman == 1 && Fred == 1 && War == 0) { // socialism - 
 e.pages.push(`<h3><i>Solace</i></h3>
@@ -73051,15 +73048,18 @@ e.executable.push([0, (() => {
     const audio = document.getElementById("audio");
     if (audio) audio.loop = true; 
 })]);
-const clarkWin = new Playlist();
-  const clarkWinSong = new Song(
-    "Uprising",
-    "Muse",
-    "https://i.imgur.com/lyEDDe7.gif",
-    "https://audio.jukehost.co.uk/HnswSUF14ki5i3qqJJc6zgQnaj5dP2XB"
-  );
-clarkWin.addSong(clarkWinSong);
-changePlaylist(clarkWin);
+if (used != true) {
+    const clarkWin = new Playlist();
+    const clarkWinSong = new Song(
+        "Uprising",
+        "Muse",
+        "https://i.imgur.com/lyEDDe7.gif",
+        "https://audio.jukehost.co.uk/HnswSUF14ki5i3qqJJc6zgQnaj5dP2XB"
+    );
+    clarkWin.addSong(clarkWinSong);
+    changePlaylist(clarkWin);
+    used = true;
+}
 }
 else if (quickstats[0] >= 399 && War == 0) { // winningg big - 
 e.pages.push(`<h3><i>Warmth</i></h3>
@@ -73071,15 +73071,18 @@ e.executable.push([0, (() => {
     const audio = document.getElementById("audio");
     if (audio) audio.loop = true; 
 })]);
-const clarkWin = new Playlist();
-  const clarkWinSong = new Song(
-    "So Paid",
-    "Akon",
-    "https://i.imgur.com/lyEDDe7.gif",
-    "https://audio.jukehost.co.uk/rJ9gvqz6Vj6ODOpEhKawYnL3fT4lXixG"
-  );
-clarkWin.addSong(clarkWinSong);
-changePlaylist(clarkWin);
+if (used != true) {
+    const clarkWin = new Playlist();
+    const clarkWinSong = new Song(
+        "So Paid",
+        "Akon",
+        "https://i.imgur.com/lyEDDe7.gif",
+        "https://audio.jukehost.co.uk/rJ9gvqz6Vj6ODOpEhKawYnL3fT4lXixG"
+    );
+    clarkWin.addSong(clarkWinSong);
+    changePlaylist(clarkWin);
+    used = true;
+}
 }
 else if (quickstats[0] <= 190 && Dem == 1 && War == 0) { // Landslide Defeat - McCain
 e.pages.push(`<h3><i>Scorched</i></h3>
@@ -73091,15 +73094,18 @@ e.executable.push([0, (() => {
     const audio = document.getElementById("audio");
     if (audio) audio.loop = true; 
 })]);
-const mccainWin = new Playlist();
-  const mccainWinSong = new Song(
-    "Give It Up",
-    "LCD Soundsystem",
-    "https://i.imgur.com/W2Uz5hy.gif",
-    "https://audio.jukehost.co.uk/UGouMnjsoNMXJBVi729uJUzdUDhzc2ZT"
-  );
-mccainWin.addSong(mccainWinSong);
-changePlaylist(mccainWin);
+if (used != true) {
+    const mccainWin = new Playlist();
+    const mccainWinSong = new Song(
+        "Give It Up",
+        "LCD Soundsystem",
+        "https://i.imgur.com/W2Uz5hy.gif",
+        "https://audio.jukehost.co.uk/UGouMnjsoNMXJBVi729uJUzdUDhzc2ZT"
+    );
+    mccainWin.addSong(mccainWinSong);
+    changePlaylist(mccainWin);
+    used = true;
+}
 }
 else if (quickstats[0] <= 269 && Dem == 1 && War == 0) { // Weak Defeat - McCain
 e.pages.push(`<h3><i>No Apologies</i></h3>
@@ -73111,15 +73117,18 @@ e.executable.push([0, (() => {
     const audio = document.getElementById("audio");
     if (audio) audio.loop = true; 
 })]);
-const mccainWin = new Playlist();
-  const mccainWinSong = new Song(
-    "Who Are You",
-    "The Who",
-    "https://i.imgur.com/gfGS7zF.gif",
-    "https://audio.jukehost.co.uk/YU7VJPBFUhsiPnWp9KhW7V2oGrHDWFRT"
-  );
-mccainWin.addSong(mccainWinSong);
-changePlaylist(mccainWin);
+if (used != true) {
+    const mccainWin = new Playlist();
+    const mccainWinSong = new Song(
+        "Who Are You",
+        "The Who",
+        "https://i.imgur.com/gfGS7zF.gif",
+        "https://audio.jukehost.co.uk/YU7VJPBFUhsiPnWp9KhW7V2oGrHDWFRT"
+    );
+    mccainWin.addSong(mccainWinSong);
+    changePlaylist(mccainWin);
+    used = true;
+}
 }
 else if (quickstats[0] >= 355 && Dem == 1 && War == 0) { // landslide win - McCain
 e.pages.push(`<h3><i>Burned Bridges</i></h3>
@@ -73131,15 +73140,18 @@ e.executable.push([0, (() => {
     const audio = document.getElementById("audio");
     if (audio) audio.loop = true; 
 })]);
-const mccainWin = new Playlist();
-  const mccainWinSong = new Song(
-    "Blow Me Away",
-    "Breaking Benjamin",
-    "https://i.imgur.com/LJuqjW4.gif",
-    "https://audio.jukehost.co.uk/U6PYUana3KFQ7hcEzEBfk5wwO79R5Lge"
-  );
-mccainWin.addSong(mccainWinSong);
-changePlaylist(mccainWin);
+if (used != true) {
+    const mccainWin = new Playlist();
+    const mccainWinSong = new Song(
+        "Blow Me Away",
+        "Breaking Benjamin",
+        "https://i.imgur.com/LJuqjW4.gif",
+        "https://audio.jukehost.co.uk/U6PYUana3KFQ7hcEzEBfk5wwO79R5Lge"
+    );
+    mccainWin.addSong(mccainWinSong);
+    changePlaylist(mccainWin);
+    used = true;
+}
 }
 else if (quickstats[0] >= 269 && Dem == 1 && War == 0) { // landslide win - McCain
 e.pages.push(`<h3><i>Career Killer</i></h3>
@@ -73151,15 +73163,18 @@ e.executable.push([0, (() => {
     const audio = document.getElementById("audio");
     if (audio) audio.loop = true; 
 })]);
-const mccainWin = new Playlist();
-  const mccainWinSong = new Song(
-    "Deceptacon",
-    "La Tigra",
-    "https://i.imgur.com/LJuqjW4.gif",
-    "https://audio.jukehost.co.uk/9rFCwooytwlruFMfuGPd7XVIWQxtY7cP"
-  );
-mccainWin.addSong(mccainWinSong);
-changePlaylist(mccainWin);
+if (used != true) {
+    const mccainWin = new Playlist();
+    const mccainWinSong = new Song(
+        "Deceptacon",
+        "La Tigra",
+        "https://i.imgur.com/LJuqjW4.gif",
+        "https://audio.jukehost.co.uk/9rFCwooytwlruFMfuGPd7XVIWQxtY7cP"
+    );
+    mccainWin.addSong(mccainWinSong);
+    changePlaylist(mccainWin);
+    used = true;
+}
 }
 else if (quickstats[0] <= 269 && Dem == 2 && War == 0) { //  loss - Mitt
 e.pages.push(`<h3><i>Exile</i></h3>
@@ -73171,15 +73186,18 @@ e.executable.push([0, (() => {
     const audio = document.getElementById("audio");
     if (audio) audio.loop = true; 
 })]);
-const mittWin = new Playlist();
-  const mittWinSong = new Song(
-    "Common People",
-    "Pulp",
-    "https://i.imgur.com/kT6d7BV.gif",
-    "https://audio.jukehost.co.uk/xiC4PGugJ81BCCFX8HhmbSDrCWR77keM"
-  );
-mittWin.addSong(mittWinSong);
-changePlaylist(mittWin);
+if (used != true) {
+    const mittWin = new Playlist();
+    const mittWinSong = new Song(
+        "Common People",
+        "Pulp",
+        "https://i.imgur.com/kT6d7BV.gif",
+        "https://audio.jukehost.co.uk/xiC4PGugJ81BCCFX8HhmbSDrCWR77keM"
+    );
+    mittWin.addSong(mittWinSong);
+    changePlaylist(mittWin);
+    used = true;
+}
 }
 else if (quickstats[0] >= 269 && Dem == 2 && War == 0) { // win - Mitt
 e.pages.push(`<h3><i>Mirrors</i></h3>
@@ -73191,15 +73209,18 @@ e.executable.push([0, (() => {
     const audio = document.getElementById("audio");
     if (audio) audio.loop = true; 
 })]);
-const mittWin = new Playlist();
-  const mittWinSong = new Song(
-    "You Know My Name",
-    "Chris Cornell",
-    "https://i.imgur.com/kT6d7BV.gif",
-    "https://audio.jukehost.co.uk/diA8vImDagZowUAMfKZhegh7L5WvihnX"
-  );
-mittWin.addSong(mittWinSong);
-changePlaylist(mittWin);
+if (used != true) {
+    const mittWin = new Playlist();
+    const mittWinSong = new Song(
+        "You Know My Name",
+        "Chris Cornell",
+        "https://i.imgur.com/kT6d7BV.gif",
+        "https://audio.jukehost.co.uk/diA8vImDagZowUAMfKZhegh7L5WvihnX"
+    );
+    mittWin.addSong(mittWinSong);
+    changePlaylist(mittWin);
+    used = true;
+}
 }
 else if (quickstats[0] <= 170 && Dem == 3 && War == 0) { // big loss - Jeb
 e.pages.push(`<h3><i>Dynasty</i></h3>
@@ -73211,15 +73232,18 @@ e.executable.push([0, (() => {
     const audio = document.getElementById("audio");
     if (audio) audio.loop = true; 
 })]);
-const jebWin = new Playlist();
-  const jebWinSong = new Song(
-    "Viva La Vida",
-    "Coldplay",
-    "https://i.imgur.com/cotCexG.gif",
-    "https://audio.jukehost.co.uk/rZ2jyT83Mn8GOV0ASFvwWnTubmeKTtkw"
-  );
-jebWin.addSong(jebWinSong);
-changePlaylist(jebWin);
+if (used != true) {
+    const jebWin = new Playlist();
+    const jebWinSong = new Song(
+        "Viva La Vida",
+        "Coldplay",
+        "https://i.imgur.com/cotCexG.gif",
+        "https://audio.jukehost.co.uk/rZ2jyT83Mn8GOV0ASFvwWnTubmeKTtkw"
+    );
+    jebWin.addSong(jebWinSong);
+    changePlaylist(jebWin);
+    used = true;
+}
 }
 else if (quickstats[0] <= 269 && Dem == 3 && War == 0) { // big loss - Jeb
 e.pages.push(`<h3><i>Royal Blood</i></h3>
@@ -73231,15 +73255,18 @@ e.executable.push([0, (() => {
     const audio = document.getElementById("audio");
     if (audio) audio.loop = true; 
 })]);
-const jebWin = new Playlist();
-  const jebWinSong = new Song(
-    "The Kids Aren't Alright",
-    "The Offspring",
-    "https://i.imgur.com/wEU2knG.gif",
-    "https://audio.jukehost.co.uk/EodC4J8HvSGSKZel0UlMNgV8iHGjTgjk"
-  );
-jebWin.addSong(jebWinSong);
-changePlaylist(jebWin);
+if (used != true) {
+    const jebWin = new Playlist();
+    const jebWinSong = new Song(
+        "The Kids Aren't Alright",
+        "The Offspring",
+        "https://i.imgur.com/wEU2knG.gif",
+        "https://audio.jukehost.co.uk/EodC4J8HvSGSKZel0UlMNgV8iHGjTgjk"
+    );
+    jebWin.addSong(jebWinSong);
+    changePlaylist(jebWin);
+    used = true;
+}
 }
 else if (quickstats[0] >= 355 && Dem == 3 && War == 0) { // Weak win - bush
 e.pages.push(`<h3><i>King Slayer</i></h3>
@@ -73251,15 +73278,18 @@ e.executable.push([0, (() => {
     const audio = document.getElementById("audio");
     if (audio) audio.loop = true; 
 })]);
-const bushWin = new Playlist();
-  const bushWinSong = new Song(
-    "Safe And Sound",
-    "Capital Cities",
-    "https://i.imgur.com/czhS2Mc.gif",
-    "https://audio.jukehost.co.uk/etZqhjpWzNlzcF2cCDXc56h8WNoNhIVJ"
-  );
-bushWin.addSong(bushWinSong);
-changePlaylist(bushWin);
+if (used != true) {
+    const bushWin = new Playlist();
+    const bushWinSong = new Song(
+        "Safe And Sound",
+        "Capital Cities",
+        "https://i.imgur.com/czhS2Mc.gif",
+        "https://audio.jukehost.co.uk/etZqhjpWzNlzcF2cCDXc56h8WNoNhIVJ"
+    );
+    bushWin.addSong(bushWinSong);
+    changePlaylist(bushWin);
+    used = true;
+}
 }
 else if (quickstats[0] >= 269 && Dem == 3 && War == 0) { // Weak win - bush
 e.pages.push(`<h3><i>New Era</i></h3>
@@ -73271,19 +73301,22 @@ e.executable.push([0, (() => {
     const audio = document.getElementById("audio");
     if (audio) audio.loop = true; 
 })]);
-const bushWin = new Playlist();
-  const bushWinSong = new Song(
-    "Beggin",
-    "Madcon",
-    "https://i.imgur.com/TOCT8iX.gif",
-    "https://audio.jukehost.co.uk/m78BySOcBqDa9gP4nHcZWFxcnxfew7fn"
-  );
-bushWin.addSong(bushWinSong);
-changePlaylist(bushWin);
+if (used != true) {
+    const bushWin = new Playlist();
+    const bushWinSong = new Song(
+        "Beggin",
+        "Madcon",
+        "https://i.imgur.com/TOCT8iX.gif",
+        "https://audio.jukehost.co.uk/m78BySOcBqDa9gP4nHcZWFxcnxfew7fn"
+    );
+    bushWin.addSong(bushWinSong);
+    changePlaylist(bushWin);
+    used = true;
+}
 }
 else if (quickstats[0] <= 269 && Dem == 4 && War == 0) { // Weak defeat - Giuliani
 e.pages.push(`<h3><i>Party Animal</i></h3>
-          <p><b>It was a modern-day fairytale. Long before he had even reached his destination, the Hero could grasp victory with his hands. Why waste time preparing when the win was already his? He preferred to savor this feeling by throwing lavish parties surrounded by beautiful mistresses and telling tall tales of his glory. He was a valued warrior, tested by insurmountable tasks and accomplished them with ease. </b></p> <p><b> It was a fantastic experience, one of a lifetime, until his trusted advisor approached him, warning him of the disaster that awaited him. The Harbinger forewarned of the immense threat of his opponent; Icarus was not a foe to be underestimated; he was, after all, a legend. No matter how weakened he may be, he's still the man who brought down the Emperor. The Hero was none the wiser and looked at upon his confidant with disgust.</b></p> <p><b>Did she have a clue of whom she was speaking of? The Hero was a man of strength, sheer will, and determination. This wasn't a competition. It was a coronation; he only needed to knock out the fool in his seat. The Hero ignored all the advice given to him and continued to party to his heart's content. When it was time to journey up the mountain, he boasted and bragged to his exuberant crowds. He took at it alone but kept spectators watching at a distance, not wanting a moment of his legend lost in memory.</b></p><p><b>Then he made it—the pearly gates of Olympus, the mountain climbed, the story was written, and it was his job to follow the script and make history. He easily blew the gate down and shouted for his opponent to show himself. A crowd assembled around him as the ring he would battle in was created.</b></p><p><b>The moment he had been waiting for had come. Icarus dropped down from far above, sporting a stern expression coated in glistening golden armor. It was time for the battle to change history and take his destiny by the horns. </b></p><p><b>It began gloriously; the Hero and Icarus went blow for blow, cut to cut, blood for blood. However, as the moments passed, fear overtook the Hero's mind. Icarus wasn't going down without a fight; perhaps the Harbinger was right. It was getting harder, his vision was getting tighter, and the fight had gone into the later hours of the night. All seemed lost as an opening for Icarus to take his head appeared. However, the Harbinger swept him off his feet and carried out the finishing blow, killing Icarus. The Hero's conquest was finished, but In what may have been the worst outcome, he couldn't celebrate the victory as his own. The Hero owed the Harbinger his life; she wouldn't let him forget that.</b></p>`)
+    <p><b>It was a modern-day fairytale. Long before he had even reached his destination, the Hero could grasp victory with his hands. Why waste time preparing when the win was already his? He preferred to savor this feeling by throwing lavish parties surrounded by beautiful mistresses and telling tall tales of his glory. He was a valued warrior, tested by insurmountable tasks and accomplished them with ease.</b></p><p><b>It was a fantastic experience, one of a lifetime, until his trusted advisor approached him, warning him of the disaster that awaited him. The Harbinger forewarned of the immense threat of his opponent; Icarus was not a foe to be underestimated; he was, after all, a legend. No matter how weakened he may be, he's still the man who brought down the Emperor. The Hero was none the wiser and looked at upon his confidant with disgust.</b></p> <p><b>Did she have a clue of whom she was speaking of? The Hero was a man of strength, sheer will, and determination. This wasn't a competition. It was a coronation; he only needed to knock out the fool in his seat. The Hero ignored all the advice given to him and continued to party to his heart's content. When it was time to journey up the mountain, he boasted and bragged to his exuberant crowds. He took at it alone but kept spectators watching at a distance, not wanting a moment of his legend lost in memory.</b></p><p><b>Then he made it-the pearly gates of Olympus, the mountain climbed, the story was written, and it was his job to follow the script and make history. He easily blew the gate down and shouted for his opponent to show himself. A crowd assembled around him as the ring he would battle in was created.</b></p><p><b>The moment he had been waiting for had come. Icarus dropped down from far above, sporting a stern expression coated in glistening golden armor. It was time for the battle to change history and take his destiny by the horns.</b></p><p><b>It began gloriously; the Hero and Icarus went blow for blow, cut to cut, blood for blood. However, as the moments passed, fear overtook the Hero's mind. Icarus wasn't going down without a fight; perhaps the Harbinger was right. It was getting harder, his vision was getting tighter, and the fight had gone into the later hours of the night. All seemed lost as an opening for Icarus to take his head appeared. However, the Harbinger swept him off his feet and carried out the finishing blow, killing Icarus. The Hero's conquest was finished, but In what may have been the worst outcome, he couldn't celebrate the victory as his own. The Hero owed the Harbinger his life; she wouldn't let him forget that.</b></p>`)
           // idk how to add playlists but to do that you create a new playlist in code1 with just that song and put changePlaylist(nameOfYourEndingPlaylist) right here
 //e.image = ""
 e.executable.push([0, (() => {
@@ -73291,15 +73324,18 @@ e.executable.push([0, (() => {
     const audio = document.getElementById("audio");
     if (audio) audio.loop = true; 
 })]);
-const rudyWin = new Playlist();
-  const rudyWinSong = new Song(
-    "Maneater",
-    "Nelly Furtardo",
-    "https://i.imgur.com/lyEDDe7.gif",
-    "https://audio.jukehost.co.uk/1sOOugIVNvH8dLuharCAzyKlsfoBduw3"
-  );
-rudyWin.addSong(rudyWinSong);
-changePlaylist(rudyWin);
+if (used != true) {
+    const rudyWin = new Playlist();
+    const rudyWinSong = new Song(
+        "Maneater",
+        "Nelly Furtado",
+        "https://i.imgur.com/lyEDDe7.gif",
+        "https://audio.jukehost.co.uk/1sOOugIVNvH8dLuharCAzyKlsfoBduw3"
+    );
+    rudyWin.addSong(rudyWinSong);
+    changePlaylist(rudyWin);
+    used = true;
+}
 }
 else if (quickstats[0] >= 269 && Dem == 4 && Messiah == 1 && War == 0) { // Weak win - pence
 e.pages.push(`<h3><i>Judas</i></h3>
@@ -73311,15 +73347,18 @@ e.executable.push([0, (() => {
     const audio = document.getElementById("audio");
     if (audio) audio.loop = true; 
 })]);
-const rudyWin = new Playlist();
-  const rudyWinSong = new Song(
-    "Judas",
-    "Lady GaGa",
-    "https://i.imgur.com/h2L9zvi.gif",
-    "https://audio.jukehost.co.uk/zjKISlVrvlcjCwr13hZPQrxaVDSviNjR"
-  );
-rudyWin.addSong(rudyWinSong);
-changePlaylist(rudyWin);
+if (used != true) {
+    const rudyWin = new Playlist();
+    const rudyWinSong = new Song(
+        "Judas",
+        "Lady GaGa",
+        "https://i.imgur.com/h2L9zvi.gif",
+        "https://audio.jukehost.co.uk/zjKISlVrvlcjCwr13hZPQrxaVDSviNjR"
+    );
+    rudyWin.addSong(rudyWinSong);
+    changePlaylist(rudyWin);
+    used = true;
+}
 }
 else if (quickstats[0] <= 269 && Dem == 4 && Messiah == 1 && War == 0) { // Weak win - pence
 e.pages.push(`<h3><i>Falsehood</i></h3>
@@ -73331,15 +73370,18 @@ e.executable.push([0, (() => {
     const audio = document.getElementById("audio");
     if (audio) audio.loop = true; 
 })]);
-const rudyWin = new Playlist();
-  const rudyWinSong = new Song(
-    "You Saved Me",
-    "R. Kelly",
-    "https://i.imgur.com/h2L9zvi.gif",
-    "https://audio.jukehost.co.uk/EoSzVQz4jMe9HAfjq4YtBVrSWYR8z42i"
-  );
-rudyWin.addSong(rudyWinSong);
-changePlaylist(rudyWin);
+if (used != true) {
+    const rudyWin = new Playlist();
+    const rudyWinSong = new Song(
+        "You Saved Me",
+        "R. Kelly",
+        "https://i.imgur.com/h2L9zvi.gif",
+        "https://audio.jukehost.co.uk/EoSzVQz4jMe9HAfjq4YtBVrSWYR8z42i"
+    );
+    rudyWin.addSong(rudyWinSong);
+    changePlaylist(rudyWin);
+    used = true;
+}
 }
 else if (quickstats[0] >= 355 && Dem == 4 && War == 0) { // big win - Giuliani
 e.pages.push(`<h3><i>A Real Hero</i></h3>
@@ -73351,15 +73393,18 @@ e.executable.push([0, (() => {
     const audio = document.getElementById("audio");
     if (audio) audio.loop = true; 
 })]);
-const rudyWin = new Playlist();
-  const rudyWinSong = new Song(
-    "A Real Hero",
-    "College & Electric Youth",
-    "https://i.imgur.com/zac28s1.gif",
-    "https://audio.jukehost.co.uk/ALBkt34SQsHfEwOCgL44UTbrtOzrpiSK"
-  );
-rudyWin.addSong(rudyWinSong);
-changePlaylist(rudyWin);
+if (used != true) {
+    const rudyWin = new Playlist();
+    const rudyWinSong = new Song(
+        "A Real Hero",
+        "College & Electric Youth",
+        "https://i.imgur.com/zac28s1.gif",
+        "https://audio.jukehost.co.uk/ALBkt34SQsHfEwOCgL44UTbrtOzrpiSK"
+    );
+    rudyWin.addSong(rudyWinSong);
+    changePlaylist(rudyWin);
+    used = true;
+}
 }
 else if (quickstats[0] >= 269 && Dem == 4 && War == 0) { // Weak win - Giuliani
 e.pages.push(`<h3><i>Star Power</i></h3>
@@ -73371,15 +73416,18 @@ e.executable.push([0, (() => {
     const audio = document.getElementById("audio");
     if (audio) audio.loop = true; 
 })]);
-const rudyWin = new Playlist();
-  const rudyWinSong = new Song(
-    "Upside Down",
-    "Jack Johnson",
-    "https://i.imgur.com/TYU5HwD.gif",
-    "https://audio.jukehost.co.uk/Ml6d3wbiXxdDXDci1w6qFCTwOe37t1EQ"
-  );
-rudyWin.addSong(rudyWinSong);
-changePlaylist(rudyWin);
+if (used != true) {
+    const rudyWin = new Playlist();
+    const rudyWinSong = new Song(
+        "Upside Down",
+        "Jack Johnson",
+        "https://i.imgur.com/TYU5HwD.gif",
+        "https://audio.jukehost.co.uk/Ml6d3wbiXxdDXDci1w6qFCTwOe37t1EQ"
+    );
+    rudyWin.addSong(rudyWinSong);
+    changePlaylist(rudyWin);
+    used = true;
+}
 }
 else if (quickstats[0] <= 170 && Dem == 5 && War == 0) { // big loss - paul
 e.pages.push(`<h3><i>Overrun</i></h3>
@@ -73391,15 +73439,18 @@ e.executable.push([0, (() => {
     const audio = document.getElementById("audio");
     if (audio) audio.loop = true; 
 })]);
-const paulWin = new Playlist();
-  const paulWinSong = new Song(
-    "In The House, In A Heart Beat",
-    "John Murphy",
-    "https://i.imgur.com/JEX5tYO.gif",
-    "https://audio.jukehost.co.uk/smxRnKbXacXTXf9ksjXHdeih0iYIECM3"
-  );
-paulWin.addSong(paulWinSong);
-changePlaylist(paulWin);
+if (used != true) {
+    const paulWin = new Playlist();
+    const paulWinSong = new Song(
+        "In The House, In A Heart Beat",
+        "John Murphy",
+        "https://i.imgur.com/JEX5tYO.gif",
+        "https://audio.jukehost.co.uk/smxRnKbXacXTXf9ksjXHdeih0iYIECM3"
+    );
+    paulWin.addSong(paulWinSong);
+    changePlaylist(paulWin);
+    used = true;
+}
 }
 else if (quickstats[0] <= 269 && Dem == 5 && War == 0) { // big loss - paul
 e.pages.push(`<h3><i>"Betrayed"</i></h3>
@@ -73411,15 +73462,18 @@ e.executable.push([0, (() => {
     const audio = document.getElementById("audio");
     if (audio) audio.loop = true; 
 })]);
-const paulWin = new Playlist();
-  const paulWinSong = new Song(
-    "Bring Me To Life",
-    "Evanescence",
-    "https://i.imgur.com/7WtGGux.gif",
-    "https://audio.jukehost.co.uk/Gv6h4EX2mTi9ORyDZ0tNxg1xOpiedXug"
-  );
-paulWin.addSong(paulWinSong);
-changePlaylist(paulWin);
+if (used != true) {
+    const paulWin = new Playlist();
+    const paulWinSong = new Song(
+        "Bring Me To Life",
+        "Evanescence",
+        "https://i.imgur.com/7WtGGux.gif",
+        "https://audio.jukehost.co.uk/Gv6h4EX2mTi9ORyDZ0tNxg1xOpiedXug"
+    );
+    paulWin.addSong(paulWinSong);
+    changePlaylist(paulWin);
+    used = true;
+}
 }
 else if (quickstats[0] >= 355 && Dem == 5 && War == 0) { // big win - paul
 e.pages.push(`<h3><i>Hollow Power</i></h3>
@@ -73431,15 +73485,18 @@ e.executable.push([0, (() => {
     const audio = document.getElementById("audio");
     if (audio) audio.loop = true; 
 })]);
-const paulWin = new Playlist();
-  const paulWinSong = new Song(
-    "Change",
-    "Deftones",
-    "https://i.imgur.com/pM2g8wS.gif",
-    "https://audio.jukehost.co.uk/myGTVWs63nSZbNCfkIFVHhD9vRNeQhx0"
-  );
-paulWin.addSong(paulWinSong);
-changePlaylist(paulWin);
+if (used != true) {
+    const paulWin = new Playlist();
+    const paulWinSong = new Song(
+        "Change",
+        "Deftones",
+        "https://i.imgur.com/pM2g8wS.gif",
+        "https://audio.jukehost.co.uk/myGTVWs63nSZbNCfkIFVHhD9vRNeQhx0"
+    );
+    paulWin.addSong(paulWinSong);
+    changePlaylist(paulWin);
+    used = true;
+}
 }
 else if (quickstats[0] >= 269 && Dem == 5 && War == 0) { // low win - paul
 e.pages.push(`<h3><i>Thrill</i></h3>
@@ -73451,15 +73508,18 @@ e.executable.push([0, (() => {
     const audio = document.getElementById("audio");
     if (audio) audio.loop = true; 
 })]);
-const paulWin = new Playlist();
-  const paulWinSong = new Song(
-    "Zombie",
-    "The Cranberries",
-    "https://i.imgur.com/iGCLdbm.gif",
-    "https://audio.jukehost.co.uk/erF7R1F04FwL1kAMH34cobRsXFxZHOYo"
-  );
-paulWin.addSong(paulWinSong);
-changePlaylist(paulWin);
+if (used != true) {
+    const paulWin = new Playlist();
+    const paulWinSong = new Song(
+        "Zombie",
+        "The Cranberries",
+        "https://i.imgur.com/iGCLdbm.gif",
+        "https://audio.jukehost.co.uk/erF7R1F04FwL1kAMH34cobRsXFxZHOYo"
+    );
+    paulWin.addSong(paulWinSong);
+    changePlaylist(paulWin);
+    used = true;
+}
 }
 else if (quickstats[0] <= 170 && Dem == 6 && War == 0) { // big loss - Huckabee
 e.pages.push(`<h3><i>Prey</i></h3>
@@ -73471,15 +73531,18 @@ e.executable.push([0, (() => {
     const audio = document.getElementById("audio");
     if (audio) audio.loop = true; 
 })]);
-const huckWin = new Playlist();
-  const huckWinSong = new Song(
-    "Run Away",
-    "Kanye West",
-    "https://i.imgur.com/aoWX6fc.gif",
-    "https://audio.jukehost.co.uk/lNINxMqrU3SuAlLRzOvhHczawRRjDBIv"
-  );
-huckWin.addSong(huckWinSong);
-changePlaylist(huckWin);
+if (used != true) {
+    const huckWin = new Playlist();
+    const huckWinSong = new Song(
+        "Run Away",
+        "Kanye West",
+        "https://i.imgur.com/aoWX6fc.gif",
+        "https://audio.jukehost.co.uk/lNINxMqrU3SuAlLRzOvhHczawRRjDBIv"
+    );
+    huckWin.addSong(huckWinSong);
+    changePlaylist(huckWin);
+    used = true;
+}
 }
 else if (quickstats[0] <= 269 && Dem == 6 && War == 0) { // big loss - Huckabee
 e.pages.push(`<h3><i>Animal</i></h3>
@@ -73491,15 +73554,18 @@ e.executable.push([0, (() => {
     const audio = document.getElementById("audio");
     if (audio) audio.loop = true; 
 })]);
-const huckWin = new Playlist();
-  const huckWinSong = new Song(
-    "Jesus Take The Wheel",
-    "Carrie Underwood",
-    "https://i.imgur.com/Ns41m5K.gif",
-    "https://audio.jukehost.co.uk/uDFMwSUmXbrk3DaScj0UeKfzxNKd5Nao"
-  );
-huckWin.addSong(huckWinSong);
-changePlaylist(huckWin);
+if (used != true) {
+    const huckWin = new Playlist();
+    const huckWinSong = new Song(
+        "Jesus Take The Wheel",
+        "Carrie Underwood",
+        "https://i.imgur.com/Ns41m5K.gif",
+        "https://audio.jukehost.co.uk/uDFMwSUmXbrk3DaScj0UeKfzxNKd5Nao"
+    );
+    huckWin.addSong(huckWinSong);
+    changePlaylist(huckWin);
+    used = true;
+}
 }
 else if (quickstats[0] >= 269 && Dem == 6 && War == 0) { // win - Huckabee
 e.pages.push(`<h3><i>Love</i></h3>
@@ -73511,15 +73577,18 @@ e.executable.push([0, (() => {
     const audio = document.getElementById("audio");
     if (audio) audio.loop = true; 
 })]);
-const huckWin = new Playlist();
-  const huckWinSong = new Song(
-    "Hero",
-    "Foo Fighters",
-    "https://i.imgur.com/Ns41m5K.gif",
-    "https://audio.jukehost.co.uk/68jsEQEKuyWRo3sf5MW88dF42aEb6flE"
-  );
-huckWin.addSong(huckWinSong);
-changePlaylist(huckWin);
+if (used != true) {
+    const huckWin = new Playlist();
+    const huckWinSong = new Song(
+        "Hero",
+        "Foo Fighters",
+        "https://i.imgur.com/Ns41m5K.gif",
+        "https://audio.jukehost.co.uk/68jsEQEKuyWRo3sf5MW88dF42aEb6flE"
+    );
+    huckWin.addSong(huckWinSong);
+    changePlaylist(huckWin);
+    used = true;
+}
 }
 else if (quickstats[0] <= 269 && Dem == 7 && War == 0) { // Weak Defeat - Brownback
 e.pages.push(`<h3><i>Engulfed</i></h3>
@@ -73531,15 +73600,18 @@ e.executable.push([0, (() => {
     const audio = document.getElementById("audio");
     if (audio) audio.loop = true; 
 })]);
-const brownbackWin = new Playlist();
-  const brownbackWinSong = new Song(
-    "Prelude",
-    "Slaughter",
-    "https://i.imgur.com/z3Bzw9i.gif",
-    "https://audio.jukehost.co.uk/nT0C02kBmIb7PRQwvYaaHzfIZ7pudM02"
-  );
-brownbackWin.addSong(brownbackWinSong);
-changePlaylist(brownbackWin);
+if (used != true) {
+    const brownbackWin = new Playlist();
+    const brownbackWinSong = new Song(
+        "Prelude",
+        "Slaughter",
+        "https://i.imgur.com/z3Bzw9i.gif",
+        "https://audio.jukehost.co.uk/nT0C02kBmIb7PRQwvYaaHzfIZ7pudM02"
+    );
+    brownbackWin.addSong(brownbackWinSong);
+    changePlaylist(brownbackWin);
+    used = true;
+}
 }
 else if (quickstats[0] >= 355 && Dem == 7 && War == 0) { // Weak Defeat - Brownback
 e.pages.push(`<h3><i>Cured</i></h3>
@@ -73551,15 +73623,18 @@ e.executable.push([0, (() => {
     const audio = document.getElementById("audio");
     if (audio) audio.loop = true; 
 })]);
-const brownbackWin = new Playlist();
-  const brownbackWinSong = new Song(
-    "GirlDeMo",
-    "Thousand Enemies",
-    "https://i.imgur.com/URIpOYt.gif",
-    "https://audio.jukehost.co.uk/ZkVwKzSGH88AoimjgfuJzbZyG67zTOYT"
-  );
-brownbackWin.addSong(brownbackWinSong);
-changePlaylist(brownbackWin);
+if (used != true) {
+    const brownbackWin = new Playlist();
+    const brownbackWinSong = new Song(
+        "GirlDeMo",
+        "Thousand Enemies",
+        "https://i.imgur.com/URIpOYt.gif",
+        "https://audio.jukehost.co.uk/ZkVwKzSGH88AoimjgfuJzbZyG67zTOYT"
+    );
+    brownbackWin.addSong(brownbackWinSong);
+    changePlaylist(brownbackWin);
+    used = true;
+}
 }
 else if (quickstats[0] >= 269 && Dem == 7 && War == 0) { // Weak win - Brownback
 e.pages.push(`<h3><i>Meaningless</i></h3>
@@ -73571,15 +73646,18 @@ e.executable.push([0, (() => {
     const audio = document.getElementById("audio");
     if (audio) audio.loop = true; 
 })]);
-const brownbackWin = new Playlist();
-  const brownbackWinSong = new Song(
-    "115",
-    "Elena Siegman",
-    "https://i.imgur.com/wEU2knG.gif",
-    "https://audio.jukehost.co.uk/CCHJQwXK53E9XtqkpFrEuJAJY0eU1KPe"
-  );
-brownbackWin.addSong(brownbackWinSong);
-changePlaylist(brownbackWin);
+if (used != true) {
+    const brownbackWin = new Playlist();
+    const brownbackWinSong = new Song(
+        "115",
+        "Elena Siegman",
+        "https://i.imgur.com/wEU2knG.gif",
+        "https://audio.jukehost.co.uk/CCHJQwXK53E9XtqkpFrEuJAJY0eU1KPe"
+    );
+    brownbackWin.addSong(brownbackWinSong);
+    changePlaylist(brownbackWin);
+    used = true;
+}
 }
 else if (quickstats[0] <= 269 && Dem == 8 && War == 0) { // Landslide Defeat - Cheney
 e.pages.push(`<h3><i>Abyss</i></h3>
@@ -73591,15 +73669,18 @@ e.executable.push([0, (() => {
     const audio = document.getElementById("audio");
     if (audio) audio.loop = true; 
 })]);
-const cheneyWin = new Playlist();
-  const cheneyWinSong = new Song(
-    "Estasi Dell Anima",
-    "David Sardy",
-    "https://i.imgur.com/o2kiQ3T.gif",
-    "https://audio.jukehost.co.uk/WqbaCSUzPLNW23nrAIw6Eht5X7a9W4Ws"
-  );
-cheneyWin.addSong(cheneyWinSong);
-changePlaylist(cheneyWin);
+if (used != true) {
+    const cheneyWin = new Playlist();
+    const cheneyWinSong = new Song(
+        "Estasi Dell Anima",
+        "David Sardy",
+        "https://i.imgur.com/o2kiQ3T.gif",
+        "https://audio.jukehost.co.uk/WqbaCSUzPLNW23nrAIw6Eht5X7a9W4Ws"
+    );
+    cheneyWin.addSong(cheneyWinSong);
+    changePlaylist(cheneyWin);
+    used = true;
+}
 }
 else if (quickstats[0] >= 355 && Dem == 8 && War == 0) { // win against cheney no nukes
 e.pages.push(`<h3><i>Continue</i></h3>
@@ -73611,15 +73692,18 @@ e.executable.push([0, (() => {
     const audio = document.getElementById("audio");
     if (audio) audio.loop = true; 
 })]);
-const cheneyWin = new Playlist();
-  const cheneyWinSong = new Song(
-    "Continued Story",
-    "Goro Taniguchi",
-    "https://i.imgur.com/o2kiQ3T.gif",
-    "https://audio.jukehost.co.uk/DwGxMwGP1TIKNhDxNWqctbKC7I8hhOhq"
-  );
-cheneyWin.addSong(cheneyWinSong);
-changePlaylist(cheneyWin);
+if (used != true) {
+    const cheneyWin = new Playlist();
+    const cheneyWinSong = new Song(
+        "Continued Story",
+        "Goro Taniguchi",
+        "https://i.imgur.com/o2kiQ3T.gif",
+        "https://audio.jukehost.co.uk/DwGxMwGP1TIKNhDxNWqctbKC7I8hhOhq"
+    );
+    cheneyWin.addSong(cheneyWinSong);
+    changePlaylist(cheneyWin);
+    used = true;
+}
 }
 else if (quickstats[0] >= 269 && Dem == 8 && War == 0) { // win against cheney no nukes
 e.pages.push(`<h3><i>Passionate Stand Off</i></h3>
@@ -73631,15 +73715,18 @@ e.executable.push([0, (() => {
     const audio = document.getElementById("audio");
     if (audio) audio.loop = true; 
 })]);
-const cheneyWin = new Playlist();
-  const cheneyWinSong = new Song(
-    "Estasi Dell Anima",
-    "David Sardy",
-    "https://i.imgur.com/o2kiQ3T.gif",
-    "https://audio.jukehost.co.uk/WqbaCSUzPLNW23nrAIw6Eht5X7a9W4Ws"
-  );
-cheneyWin.addSong(cheneyWinSong);
-changePlaylist(cheneyWin);
+if (used != true) {
+    const cheneyWin = new Playlist();
+    const cheneyWinSong = new Song(
+        "Estasi Dell Anima",
+        "David Sardy",
+        "https://i.imgur.com/o2kiQ3T.gif",
+        "https://audio.jukehost.co.uk/WqbaCSUzPLNW23nrAIw6Eht5X7a9W4Ws"
+    );
+    cheneyWin.addSong(cheneyWinSong);
+    changePlaylist(cheneyWin);
+    used = true;
+}
 }
 
 
@@ -73689,11 +73776,7 @@ e.pages.push(`<h3><i>THE GREAT FIRE OF CHENEY: AMERICA’S NATIONAL RITUALS AND 
 <p><b>Posted January 17, 2009</b></p><p>The crescendo of creation's end is already upon us. You've witnessed it, lambast it, and let it haunt you. The drumming beats of the war machine, the hums of the future, have become faint, and that's because nothing lies behind the curtain. As his smile is erected in wooden effigies nationwide, the President moves forward. With purpose, with patriotism, and now unity. He runs so we can walk, we worship him, we worship his war.</p><p>Since Cheney's miraculous return to the world stage, the nation has been whipped into a craze that not even his critics can shame. Clark was toppled, but the ventures he undertook wouldn't be left to an anti-war turnout. Cheney championed them because it was not he who fired the first shot. Russian tanks didn't magically find their way into Georgia. </p><p>People have gathered to chant, raise their arms, and holler the President's name. Every park, school, and football field has a statue commemorating the President as he takes the world on a journey. Wooden, grotesque, and hollow, a piece of him now stares down at every American nationwide. It isn't art, nor is it counterculture; it's a thank-you letter.</p><p>If "intellectuals" were any wiser they'd join us and stop fleeing their duty. To free your body of its soul, you must be burnt, whether it's cremation or nuclear fire. Tensions may flare across the globe, Cheney can pound his desk with fury, the outsiders can shake their fists, but inevitability strikes down their protests. Dick's cold feet after screaming "escalate, escalate, escalate" are worthless; he set us upon a path, and it's ours to embrace. Believing in a withering politician's promise to "fix things" is like going to a stripper for love. Your heart will sink as it all hits the floor like a dud, and your body is enveloped with what you're too stubborn to confront.</p><p>Moscow growls, Beijing sharpens its knives, Iran loads its guns, the axis of betrayal will not waver, and neither will Cheney. That's why the rituals comfort us, because they help us cope with what nobody else was willing to accept.</p><p>I've seen it myself. The fire was glorious, as were the fireworks, for once America embraced its unique power to stop giving a fuck. I felt my body begin to float as I looked at the thirty-foot-tall effigy of Dick Cheney. </p><p>Is this America's fate? Are we all unwilling participants in a sick game of chess? Have our leaders abandoned efforts to save the world from themselves? Perhaps, and that's why we don't want peace, we crave purification, we demand that the world as a whole become our next effigy.</p>`)
 e.executable.push([1, (() => {e.image = e.image = 'https://i.imgur.com/oIHOWsC.png'})])
 }
-else if ( quickstats[0] >= 269 && Dem == 1 && War == 1) { // mccain L
-e.pages.push(`<h3>Wattpad: <i>My All American Romance</i></h3>
-<p><b>Chapter 15: </b>It’s the End of The World…</p><p><b>A/N:</b> this chapter will be shorter bcuz my dad is taking away my computer :(((</p><p><b>(McCain POV)</b></p><p>My head aches as I step out of the committee chamber. We just had a hearing on the war in Georgia where Secretary Levin answered questions about troop deployments and missile movements. I sigh and remember my failed presidential campaign.</p><p>I could’ve stopped this, I think to myself. Joe tells me I need to stop beating myself up for the loss, that anybody would’ve lost in the face of Russia’s invasion, but I can’t help but feel it’s all my fault. I let America down.</p><p>I sigh as I exit the Capitol building, wincing at the sharp cold. After all these years in DC, I’m still an Arizonan at my core through and through. I get in the backseat of the car waiting to take me to my urban apartment and open my flip phone to make a call.</p><p>“Hey Joe, it’s me, I’m on the way back from the hearing.” </p><p>“Okay, I’m just getting started on making dinner. It’s your favorite, shrimp scampi, plus Dianne gave me this expensive sauvignon blanc from Napa.” I clung on to every syllable Joe said like it would be his last. The cadence of his voice reminded me of a song from years past.</p><p>“I’m looking forward to it. You cook better than any of these fancy Michelin starred restaurant chefs.” He didn’t actually cook that well, once he even managed to burn popcorn, but I love the thought he puts into these secret dinners.</p><p>“Oh, John, you flatter me. Anyways, I’ll see you soon. Be safe.”</p><p>“Ok, you too Joe.” I flip my phone shut, turning my view to the window of the car.</p><p>I notice a group of Marine helicopters flying in formation over the city. It’s not unusual to see helicopters flying around, but it’s a little later than I would normally see them. Must be a night vision training drill, I think to myself. We pass all the great monuments tourists flock to in droves, the Washington Monument, Lincoln Memorial, the Vietnam War memorial. That last one is a painful one for me. </p><p>We round the corner of my building and I hop out on the curb in front of the entrance.</p><p>“Good evening, Senator.” I smile back and give a polite nod to the doorman. </p><p>The elevator can’t move fast enough as I fill with anticipation to see Joe again. I rummage around in my pocket to retrieve my keys and unlock my front door. The aroma of seafood fills my nostrils as I cross the threshold and I spot Joe in the kitchen wearing an apron.</p><p>“Welcome home, I’m just plating up the food now, will you get the wine glasses?” I happily oblige after taking off my coat, gently setting the glasses on the table. </p><p>I slink my way over to him, going up from behind and wrapping my arms around his waist. I plant two quick kisses on his neck as he lightly giggles. </p><p>“My day was so boring, it’s just a constant drone about ‘We need more money for more bombs’ or ‘We need more troops in Georgia’. Almost fell asleep in a hearing today with Levin at defense, as he went on and on about Russian nuclear capabilities.” I didn’t have to tell Joe any of this, he knew how the Senate worked just as well as I did, but it’s nice to vent and he’s kind enough to listen.</p><p>“Wow, the Maverick thinks his job is boring.” He loved calling me that because he knows it annoys me. “Anyways, food is ready so go sit down.”</p><p>I take my seat at the table as Joe sets the plates of food down and uncorks the wine. He pours us both a glass, with the ending flourish of a trained sommelier. I swirl the glass in my hand and breathe in the slightly tropical aroma before taking a sip.</p><p>We dig into the pasta, eating silently, with only the clinking of our silverware in our ears, as we catch quick glances of each other in between bites. </p><p>“So, John, I’ve been thinking about something and I want to tell you.”</p><p>“Oh boy, you’re always thinking about something or another. Go ahead, lay it on me.”</p><p>“Well, we’ve been together for a while now, since that fateful night during the campaign. And I really, really love you and I love spending time with you. I want to be with you all the time. So, John, will you mar-”</p><p>The whole apartment fills with a holy light. The glass windows shatter, the apartment building begins to buckle and collapse. I’m knocked unconscious but not before I see Joe’s face one more time, the last syllable still hanging out of his mouth. </p><p><b>A/N: </b>PSYCH! The chapter was short because there was a nuke!!!!! Anyways I hope you all enjoyed this fic, be on the lookout for my next work about President Landrieu and Secretary Clinton.</p>`)
-e.executable.push([1, (() => {e.image = e.image = 'https://i.imgur.com/FWDNC6p.jpeg'})])
-}
+
 else if ( quickstats[0] <= 269 && Dem == 1) { // Feingold supremacy
 e.pages.push(`<h3>Rolling Stone: <i>March 2009 Issue</i></h3>
 <p><b>"The Admiral Who Said No"</b></p><p><b>By Evan Wright</b></p><p><b>"They wanted a war. They wanted a provocation, I wasn't gonna sign my name on it and they weren't going to get it.'" — Adm. William Fallon (Ret.)</b></p><p>When the president assembled a conclave of the brightest military minds to help him in his crusade against Iran, the man once dubbed "The Boss of the Middle East" stormed out like a burning building, and now, in a similar fashion, he sits with us to tell the tale.</p><p>Admiral William Fallon, the four-star general who once oversaw the U.S. Central Command, never took glee from entering the spotlight. But now, after his abrupt resignation in February, just weeks into the McCain administration, he's breaking his silence. "The next catastrophe the American people deserve to know about ahead of time."</p><p><b>THE WAR THAT ALMOST WAS</b></p><p>When John McCain took the oath of office in January, the transition from campaign rhetoric to Oval Office restraint was swift and jarring. While the economy continued its derailment from the tracks, instead of dealing with the immediate problem, he turned his interest toward one topic in classified meetings: Iran.</p><p>"They were like zombies," Fallon says, straight-faced. "Not in a strategic way, but driven by some morale crusade. Iran wasn't just a problem; it was a dragon to be slain."</p><p>Fallon, a seasoned naval officer with decades of experience and rooms filled with vouchers ready to stand up beside him, explained it was as if it were a movie. "The intel was bare bones. The scenarios were worst-case by default. The confidence was astounding, and for what? Because they were weak? They were anything but weak.</p><p>Fallon claimed he made string assertions that were cast aside. He laid out facts, plans, fallout estimates, and a lack of exit strategies. "It was as if I shouted at a wake. The room would quiet until the Vice President said, 'The window is closing.' That's when I realized they were too far gone.</p><p><b>THE FINAL STRAW</b></p><p>The breaking point came during a January 30th meeting in the Situation Room. "We had barely gotten our foot in the door, and they piled papers on our feet. A package of coordinated strikes. This was planned long before the president had announced his intention to run.</p><p>By February 5, Fallon had his foot halfway out the door. The public excuse was "philosophical differences." Behind closed doors, it was apparent.</p><p>"I told them, 'You're going to destabilize the region over a fantasy told by video games. You want a seasoned resume to bless it? Not happening."</p><p><b>THE GENERAL VS. THE HAWK</b></p><p>McCain was no stranger to saber-rattling; after all, he outhawked nearly every opponent he faced during his presidential campaign. He started with his infamous "bomb, bomb, bomb Iran" joke, which got the right people in New Hampshire to sink their neighboring state's golden child in favor of a brave confrontational ideology. Then, he shouted about the threat of a new Axis Powers while against Clark.</p><p>While teenagers in the Oval Office chatted about raining hellfire over millions of civilians like it was high school gossip, Fallon stood as the adult in the room.</p><p>"They weren't looking for a strategy, or a plan, they wanted validation." </p><br><b>Related Stories:</b><br><span style="color:blue;"><u>McCain’s Cabinet: Bush era déjà vu?</span></u><br><span style="color:blue;"><u>Is the former president planning on joining CODE PINK protests?</span></u><br><span style="color:blue;"><u>The Party of War Returns: Is diplomacy dead?</p>`)
@@ -73726,7 +73809,7 @@ e.executable.push([1, (() => {e.image = e.image = 'https://i.imgur.com/kS9Fcx0.p
 }
 else if ( quickstats[0] <= 269 && Dem == 2) { // romnerimmigrants
 e.pages.push(`<h3>The Onion | <i>Brave Immigrant Completes Spiritual Self Deportation Journey, Thanks President Romney for Giving Pointers.</i></h3>
-<p><b>April 18, 2010 </b>|| Albuquerque, New Mexico - In a dusty border town cafe just south of Arizona, 32-year-old Enrique Balbado finishes the final chapter of his memoir, "The Healing Hike Home: How I Self-Deported in 2010 and Found Myself, Barefoot and Unemployed."</p> <p>Enrique is one of the thousands of immigrants who followed President Mitt Romney's self-deportation policy described as "a humane, optional exit strategy for people who have jobs and families, but also the audacity to want to stay."</p> <p>"I remember when ICE agents first knocked on my door," Enrique says. "They were so gentle suggesting I deport myself, they went through all my belongings hurrying me along and my house was torn apart but they assured me this was the most humane possible way to do it."</p><p>Motivated by Romney's immigration policy and ICE agents banging down his door, Enrique sold his truck, quit his landscaping job, and began walking toward Mexico. "I didn't even know which way was south," he admits. "I used the stars, the scent of cilantro, and an outdated Taco Bell receipt with a map on the back."</b></p><p>Romney's presidency now hailed as a success story for the National Etiquette Restoration Act, was marked by sweeping reforms, including the Voluntary Exodus Encouragement Act, which replaced all immigration forms with a mirror and a post-it note reading, "You know what to do."</p><p>Critics like Governor Rick Perry, who conducts more forceful immigration reform in Texas, like the establishment of Texans "own Guantanamo" on a floating island built by immigrants. Romney responded to the attacks, stating, "Look, if people want to stay in America, they'll stay. But they'll go if they don't want to be hassled by federal agents disguised as Pizza Hut delivery drivers. That's the free market of residence."</p><pEnrique’s journey was no easy task. "I was halfway through Arizona when I realized I forgot my passport. But I remembered Mitt said, 'When life gives you immigration status, give it back like a gentleman.' So I kept walking."</p><p>Enrique rebuilt his life in Sonora as a freelance sombrero consultant and occasionally appears back in America for TED Talks, giving motivational speeches about leaving the country.</p><p>No matter the struggle, Enrique holds no ill will toward the President. "Romney taught me something. If you don't belong somewhere, you should definitely leave quietly and let the economy figure it out. That's the American way."</p><p>When confronted, President Romney nodded and said, "Good. The system works."</p>`)
+<p><b>April 18, 2010 </b>|| Albuquerque, New Mexico - In a dusty border town cafe just south of Arizona, 32-year-old Enrique Balbado finishes the final chapter of his memoir, "The Healing Hike Home: How I Self-Deported in 2010 and Found Myself, Barefoot and Unemployed."</p> <p>Enrique is one of the thousands of immigrants who followed President Mitt Romney's self-deportation policy described as "a humane, optional exit strategy for people who have jobs and families, but also the audacity to want to stay."</p> <p>"I remember when ICE agents first knocked on my door," Enrique says. "They were so gentle suggesting I deport myself, they went through all my belongings hurrying me along and my house was torn apart but they assured me this was the most humane possible way to do it."</p><p>Motivated by Romney's immigration policy and ICE agents banging down his door, Enrique sold his truck, quit his landscaping job, and began walking toward Mexico. "I didn't even know which way was south," he admits. "I used the stars, the scent of cilantro, and an outdated Taco Bell receipt with a map on the back."</b></p><p>Romney's presidency now hailed as a success story for the National Etiquette Restoration Act, was marked by sweeping reforms, including the Voluntary Exodus Encouragement Act, which replaced all immigration forms with a mirror and a post-it note reading, "You know what to do."</p><p>Critics like Governor Rick Perry, who conducts more forceful immigration reform in Texas, like the establishment of Texans "own Guantanamo" on a floating island built by immigrants. Romney responded to the attacks, stating, "Look, if people want to stay in America, they'll stay. But they'll go if they don't want to be hassled by federal agents disguised as Pizza Hut delivery drivers. That's the free market of residence."</p><p>Enrique’s journey was no easy task. "I was halfway through Arizona when I realized I forgot my passport. But I remembered Mitt said, 'When life gives you immigration status, give it back like a gentleman.' So I kept walking."</p><p>Enrique rebuilt his life in Sonora as a freelance sombrero consultant and occasionally appears back in America for TED Talks, giving motivational speeches about leaving the country.</p><p>No matter the struggle, Enrique holds no ill will toward the President. "Romney taught me something. If you don't belong somewhere, you should definitely leave quietly and let the economy figure it out. That's the American way."</p><p>When confronted, President Romney nodded and said, "Good. The system works."</p>`)
 e.executable.push([1, (() => {e.image = e.image = 'https://i.imgur.com/xzzafuc.png'})])
 }
 else if ( quickstats[0] >= 355 && Dem == 2 && Win < 8) { // mitt L
@@ -74489,6 +74572,11 @@ e.executable.push([4, (() => {e.image = e.image = 'https://i.imgur.com/1R8BwcZ.p
 
 
 // 2012 Landriueee
+else if ( quickstats[0] >= 269 && Dem == 1 && War == 1 && Royal == 0 && Brown == 0) { // mccain L
+e.pages.push(`<h3>Wattpad: <i>My All American Romance</i></h3>
+<p><b>Chapter 15: </b>It’s the End of The World…</p><p><b>A/N:</b> this chapter will be shorter bcuz my dad is taking away my computer :(((</p><p><b>(McCain POV)</b></p><p>My head aches as I step out of the committee chamber. We just had a hearing on the war in Georgia where Secretary Levin answered questions about troop deployments and missile movements. I sigh and remember my failed presidential campaign.</p><p>I could’ve stopped this, I think to myself. Joe tells me I need to stop beating myself up for the loss, that anybody would’ve lost in the face of Russia’s invasion, but I can’t help but feel it’s all my fault. I let America down.</p><p>I sigh as I exit the Capitol building, wincing at the sharp cold. After all these years in DC, I’m still an Arizonan at my core through and through. I get in the backseat of the car waiting to take me to my urban apartment and open my flip phone to make a call.</p><p>“Hey Joe, it’s me, I’m on the way back from the hearing.” </p><p>“Okay, I’m just getting started on making dinner. It’s your favorite, shrimp scampi, plus Dianne gave me this expensive sauvignon blanc from Napa.” I clung on to every syllable Joe said like it would be his last. The cadence of his voice reminded me of a song from years past.</p><p>“I’m looking forward to it. You cook better than any of these fancy Michelin starred restaurant chefs.” He didn’t actually cook that well, once he even managed to burn popcorn, but I love the thought he puts into these secret dinners.</p><p>“Oh, John, you flatter me. Anyways, I’ll see you soon. Be safe.”</p><p>“Ok, you too Joe.” I flip my phone shut, turning my view to the window of the car.</p><p>I notice a group of Marine helicopters flying in formation over the city. It’s not unusual to see helicopters flying around, but it’s a little later than I would normally see them. Must be a night vision training drill, I think to myself. We pass all the great monuments tourists flock to in droves, the Washington Monument, Lincoln Memorial, the Vietnam War memorial. That last one is a painful one for me. </p><p>We round the corner of my building and I hop out on the curb in front of the entrance.</p><p>“Good evening, Senator.” I smile back and give a polite nod to the doorman. </p><p>The elevator can’t move fast enough as I fill with anticipation to see Joe again. I rummage around in my pocket to retrieve my keys and unlock my front door. The aroma of seafood fills my nostrils as I cross the threshold and I spot Joe in the kitchen wearing an apron.</p><p>“Welcome home, I’m just plating up the food now, will you get the wine glasses?” I happily oblige after taking off my coat, gently setting the glasses on the table. </p><p>I slink my way over to him, going up from behind and wrapping my arms around his waist. I plant two quick kisses on his neck as he lightly giggles. </p><p>“My day was so boring, it’s just a constant drone about ‘We need more money for more bombs’ or ‘We need more troops in Georgia’. Almost fell asleep in a hearing today with Levin at defense, as he went on and on about Russian nuclear capabilities.” I didn’t have to tell Joe any of this, he knew how the Senate worked just as well as I did, but it’s nice to vent and he’s kind enough to listen.</p><p>“Wow, the Maverick thinks his job is boring.” He loved calling me that because he knows it annoys me. “Anyways, food is ready so go sit down.”</p><p>I take my seat at the table as Joe sets the plates of food down and uncorks the wine. He pours us both a glass, with the ending flourish of a trained sommelier. I swirl the glass in my hand and breathe in the slightly tropical aroma before taking a sip.</p><p>We dig into the pasta, eating silently, with only the clinking of our silverware in our ears, as we catch quick glances of each other in between bites. </p><p>“So, John, I’ve been thinking about something and I want to tell you.”</p><p>“Oh boy, you’re always thinking about something or another. Go ahead, lay it on me.”</p><p>“Well, we’ve been together for a while now, since that fateful night during the campaign. And I really, really love you and I love spending time with you. I want to be with you all the time. So, John, will you mar-”</p><p>The whole apartment fills with a holy light. The glass windows shatter, the apartment building begins to buckle and collapse. I’m knocked unconscious but not before I see Joe’s face one more time, the last syllable still hanging out of his mouth. </p><p><b>A/N: </b>PSYCH! The chapter was short because there was a nuke!!!!! Anyways I hope you all enjoyed this fic, be on the lookout for my next work about President Landrieu and Secretary Clinton.</p>`)
+e.executable.push([5, (() => {e.image = e.image = 'https://i.imgur.com/FWDNC6p.jpeg'})])
+}
 if ( quickstats[0] <= 269 && e.player_answers.includes(254909)) { // 
 e.pages.push(`<h3>"Four Years of Emergency: Will President Clark Ever Let Democracy Return?"</h3>
 <p><b>By Rachel Kamen | The Atlantic | February 19, 2012</b></p><p>In Washington, nobody talks openly about holding an election anymore, fearing the general's gaze. What was once an opposition has now taken to kissing Wesley Clark's feet if he were to grace them with ceremonial elections. With the historical election deadline looming, many now wonder if the General's temporary emergency powers are ever to sunset. </p><p>The National Reconstruction Regime has yet to waver, and apart from faint voices decrying his dictatorial decree from outside Washington, Clark stands above the fray. The story remains the same; the emergency is not over.</p><p>What began as a normal economic downturn spiraled into a full-scale collapse of the American financial system. Whether Clark, the Democrats, or the Republicans were to blame, the system had failed to save itself. Bank of America, Lehman Brothers, AIG, Fannie Mae, and Freddie Mac all fell within a two-month period. The following months would see the auto industry collapse. Then, President Wesley Clark stood paralyzed, politically unable to act or follow his instincts.</p><p>The constitution prevented him from bypassing the gates of congressional gridlock. The election threatened to sink his rule. Yet all he could do was stand between utter damnation and Sisyphean callings. </p><p>So in November 2008, Clark took hold of a combination of war powers and vague executive authority to suspend Congressional duties and transfer fiscal authority to a new economic war council. He justified the move, calling it "not a consolidation of power, but an act of survival." Impeachment proceedings were attempted but soon dismissed as the military intervened. </p><p>With Clark's only obstacle being his ability to hold the trust of the American voter, he folded. Effectively, President Wesley Clark put the 2008 election on hold. An emergency brake to save himself from the humiliation of losing a popularity contest.</p><p>Now, four years later, the General finds himself holding higher titles and wearing more prestigious symbols. His opposition remains rhetorically penniless and without the drive to challenge his rule. </p><p>However, one beacon of hope remains. Governor of the Alaskan Commune, Mike Gravel, stands at his perch shouting down the regime. Alaska remains a state in Clark's America, but it is ruled by a man opposed to him. Many ask why he allows Gravel to make a mockery of his mandate, and reports allege that Clark enjoys having "banter with a rival." </p><p>Many still ask if Clark intends to hold the 2012 election as scheduled, even if just for a ceremony. The General remains coy on the matter, however, only flirting and playing with people's emotions. And what of the opposition? Some claim not even the worst Republican looks forward to managing a country this far lost.</p>`)
@@ -75162,7 +75250,7 @@ function openHeadquarter() {
     ];
 
     // Current filtered cards array
-    let cards = [...allCards];
+    let cards = allCards.filter(card => card.name !== "The God Warrior");
     let isStaticOpponent = false;
 
     // Function to update displayed card
