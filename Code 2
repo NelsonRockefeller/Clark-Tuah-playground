@@ -2020,7 +2020,7 @@ campaignTrail_temp.questions_json = [
         "pk": 254966,
         "fields": {
             "priority": -7,
-            "description": "This is it: you're facing a veritable typhoon stronger than Katrina ever dreamed of being, and it's ready to destroy you. Lehman Brothers is heading toward a total collapse, and their upcoming bankruptcy will only serve to spill oil onto the flames of the economic crisis. The bankers are bouncing around like they're in a pinball machine, desperate to come to some sort of deal to avoid bankruptcy. Most of Congress, and the public, are steadfastly against bailing them out, and the Federal Reserve is unwilling to step in on Lehman Brothers' behalf. The Sphinx offers you a riddle of guidance. What will you do, Wes?\n",
+            "description": "This is it: you're facing a veritable typhoon stronger than Katrina ever dreamed of being, and it's ready to destroy you. Lehman Brothers is heading toward a total collapse, and their upcoming bankruptcy will only serve to spill oil onto the flames of the economic crisis. The bankers are bouncing around like they're in a pinball machine, desperate to come to some sort of deal to avoid bankruptcy. Most of Congress, and the public, are steadfastly against bailing them out, and the Federal Reserve is unwilling to step in on Lehman Brothers' behalf. The Sphinx hands you a riddle of guidance. What will you do, Wes?\n",
             "likelihood": 1
         }
     },
@@ -2029,7 +2029,7 @@ campaignTrail_temp.questions_json = [
         "pk": 254995,
         "fields": {
             "priority": -7,
-            "description": "This is it: you're facing a veritable typhoon stronger than Katrina ever dreamed of being, and it's ready to destroy you. Lehman Brothers is heading toward a total collapse, and their upcoming bankruptcy will only serve to spill oil onto the flames of the economic crisis. The bankers are bouncing around like they're in a pinball machine, desperate to come to some sort of deal to avoid bankruptcy. Most of Congress, and the public, are steadfastly against bailing them out, and the Federal Reserve is unwilling to step in on Lehman Brothers' behalf. The Sphinx offers you a riddle of guidance. What will you do, Wes?\n",
+            "description": "This is it: you're facing a veritable typhoon stronger than Katrina ever dreamed of being, and it's ready to destroy you. Lehman Brothers is heading toward a total collapse, and their upcoming bankruptcy will only serve to spill oil onto the flames of the economic crisis. The bankers are bouncing around like they're in a pinball machine, desperate to come to some sort of deal to avoid bankruptcy. Most of Congress, and the public, are steadfastly against bailing them out, and the Federal Reserve is unwilling to step in on Lehman Brothers' behalf. The Sphinx bestows upon you a riddle of guidance. What will you do, Wes?\n",
             "likelihood": 1
         }
     },
@@ -2038,7 +2038,7 @@ campaignTrail_temp.questions_json = [
         "pk": 255024,
         "fields": {
             "priority": -7,
-            "description": "This is it: you're facing a veritable typhoon stronger than Katrina ever dreamed of being, and it's ready to destroy you. Lehman Brothers is heading toward a total collapse, and their upcoming bankruptcy will only serve to spill oil onto the flames of the economic crisis. The bankers are bouncing around like they're in a pinball machine, desperate to come to some sort of deal to avoid bankruptcy. Most of Congress, and the public, are steadfastly against bailing them out, and the Federal Reserve is unwilling to step in on Lehman Brothers' behalf. The Sphinx offers you a riddle of guidance. What will you do, Wes?\n",
+            "description": "This is it: you're facing a veritable typhoon stronger than Katrina ever dreamed of being, and it's ready to destroy you. Lehman Brothers is heading toward a total collapse, and their upcoming bankruptcy will only serve to spill oil onto the flames of the economic crisis. The bankers are bouncing around like they're in a pinball machine, desperate to come to some sort of deal to avoid bankruptcy. Most of Congress, and the public, are steadfastly against bailing them out, and the Federal Reserve is unwilling to step in on Lehman Brothers' behalf. The Sphinx grants you a riddle of guidance. What will you do, Wes?\n",
             "likelihood": 1
         }
     },
@@ -2336,6 +2336,24 @@ campaignTrail_temp.questions_json = [
         "fields": {
             "priority": 0,
             "description": "As predicted, Republicans have seized the 2006 midterms as an opportunity to strike back at the very core of your prestige. Congress has adjourned, with members running home to safeguard their seats.  The window for domestic victories has closed; now you must prove your administration's resolve by achieving progress on the global stage, whether in the Middle East or Europe. Republicans doubt your leadership. How will you prove them wrong?",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 256723,
+        "fields": {
+            "priority": -7,
+            "description": "This is it: you're facing a veritable typhoon stronger than Katrina ever dreamed of being, and it's ready to destroy you. Lehman Brothers is heading toward a total collapse, and their upcoming bankruptcy will only serve to spill oil onto the flames of the economic crisis. The bankers are bouncing around like they're in a pinball machine, desperate to come to some sort of deal to avoid bankruptcy. Most of Congress, and the public, are steadfastly against bailing them out, and the Federal Reserve is unwilling to step in on Lehman Brothers' behalf. The Sphinx gives you a riddle of guidance. What will you do, Wes?\n",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 256752,
+        "fields": {
+            "priority": -7,
+            "description": "This is it: you're facing a veritable typhoon stronger than Katrina ever dreamed of being, and it's ready to destroy you. Lehman Brothers is heading toward a total collapse, and their upcoming bankruptcy will only serve to spill oil onto the flames of the economic crisis. The bankers are bouncing around like they're in a pinball machine, desperate to come to some sort of deal to avoid bankruptcy. Most of Congress, and the public, are steadfastly against bailing them out, and the Federal Reserve is unwilling to step in on Lehman Brothers' behalf. The Sphinx bestows upon you a riddle of guidance. What will you do, Wes?\n",
             "likelihood": 1
         }
     }
@@ -9973,6 +9991,70 @@ campaignTrail_temp.answers_json = [
             "question": 256697,
             "description": "De-Ba'athification as a policy has failed to secure Iraq's stability. The reason it failed is that we've been too soft on Sunni pushback, and Iraqi news stations are doing nothing but peddling pro-Saddam propaganda. It's time we ramp up our efforts."
         }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 256724,
+        "fields": {
+            "question": 256723,
+            "description": "Let's see if we can save that deal with Barclays. The British are friends of mine, and I think that if we give them a bit of a push, they'll allow the deal to go through without a hitch.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 256731,
+        "fields": {
+            "question": 256723,
+            "description": "Historically, in times of crisis, the lower branches of government have had to relinquish their authority to the executive in hopes that an elastic leadership able to interpret its own rules can get at it hard and fast. I will not repeat Hoover's mistakes; tell Summers to save Lehman at all costs."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 256738,
+        "fields": {
+            "question": 256723,
+            "description": "There's nothing to do but face the facts: Lehman is toast. They're unwilling to give any management control to KBD, and every attempt to attract foreign investment has failed. We can't afford to bail them out, and the public backlash could be even more harmful than the consequences of its failure.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 256745,
+        "fields": {
+            "question": 256723,
+            "description": "America's greatest intellectuals have proven themselves useless and the poorest class are rising in rebellion. However, I do not subscribe to the beliefs of these Let It Die activists. Congress must approve a bill to allow us to save Lehman Brothers."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 256753,
+        "fields": {
+            "question": 256752,
+            "description": "Blair owes me more than anyone could ever imagine. I'm the only reason he's still here. It's time to cash in on our friendship. Tell him to let this deal with Barclay go through. If Lehman Brothers is to survive, it needs to be ported out of American borders."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 256760,
+        "fields": {
+            "question": 256752,
+            "description": "Historically, in times of crisis, the lower branches of government have had to relinquish their authority to the executive in hopes that an elastic leadership able to interpret its own rules can get at it hard and fast. I will not repeat Hoover's mistakes; tell Summers to save Lehman at all costs."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 256767,
+        "fields": {
+            "question": 256752,
+            "description": "There's nothing to do but face the facts: Lehman is toast. They're unwilling to give any management control to KBD, and every attempt to attract foreign investment has failed. We can't afford to bail them out, and the public backlash could be even more harmful than the consequences of its failure.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 256774,
+        "fields": {
+            "question": 256752,
+            "description": "America's greatest intellectuals have proven themselves useless and the poorest class are rising in rebellion. However, I do not subscribe to the beliefs of these Let It Die activists. Congress must approve a bill to allow us to save Lehman Brothers."
+        }
     }
 ]
 
@@ -17299,9 +17381,9 @@ campaignTrail_temp.answer_score_global_json = [
         "pk": 21573,
         "fields": {
             "answer": 21570,
-            "candidate": 202,
-            "affected_candidate": 201,
-            "global_multiplier": -1
+            "candidate": 201,
+            "affected_candidate": 200,
+            "global_multiplier": 0.05
         }
     },
     {
@@ -26512,6 +26594,96 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 201,
             "affected_candidate": 200,
             "global_multiplier": -0.004
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 256721,
+        "fields": {
+            "answer": 21353,
+            "candidate": 201,
+            "affected_candidate": 203,
+            "global_multiplier": 0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 256726,
+        "fields": {
+            "answer": 256724,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.07
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 256733,
+        "fields": {
+            "answer": 256731,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.06
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 256740,
+        "fields": {
+            "answer": 256738,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.07
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 256747,
+        "fields": {
+            "answer": 256745,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.07
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 256755,
+        "fields": {
+            "answer": 256753,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.07
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 256762,
+        "fields": {
+            "answer": 256760,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.06
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 256769,
+        "fields": {
+            "answer": 256767,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.07
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 256776,
+        "fields": {
+            "answer": 256774,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.07
         }
     }
 ]
@@ -46774,7 +46946,7 @@ campaignTrail_temp.answer_score_state_json = [
         "pk": 254120,
         "fields": {
             "answer": 21353,
-            "state": 1032,
+            "state": 1024,
             "candidate": 201,
             "affected_candidate": 200,
             "state_multiplier": -0.019
@@ -46785,7 +46957,7 @@ campaignTrail_temp.answer_score_state_json = [
         "pk": 254121,
         "fields": {
             "answer": 21353,
-            "state": 1013,
+            "state": 1017,
             "candidate": 201,
             "affected_candidate": 200,
             "state_multiplier": -0.019
@@ -54015,7 +54187,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1041,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.02
+            "state_multiplier": -0.025
         }
     },
     {
@@ -54023,10 +54195,10 @@ campaignTrail_temp.answer_score_state_json = [
         "pk": 255481,
         "fields": {
             "answer": 21353,
-            "state": 1003,
+            "state": 1023,
             "candidate": 201,
             "affected_candidate": 200,
-            "state_multiplier": -0.009
+            "state_multiplier": -0.019
         }
     },
     {
@@ -61229,6 +61401,468 @@ campaignTrail_temp.answer_score_state_json = [
         "fields": {
             "answer": 256598,
             "state": 1049,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.025
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256714,
+        "fields": {
+            "answer": 21241,
+            "state": 1014,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": 0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256715,
+        "fields": {
+            "answer": 24391,
+            "state": 1014,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": 0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256716,
+        "fields": {
+            "answer": 24423,
+            "state": 1014,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": 0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256717,
+        "fields": {
+            "answer": 24455,
+            "state": 1014,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": 0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256718,
+        "fields": {
+            "answer": 21350,
+            "state": 1016,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.025
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256719,
+        "fields": {
+            "answer": 21350,
+            "state": 1048,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256720,
+        "fields": {
+            "answer": 21353,
+            "state": 1003,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256727,
+        "fields": {
+            "answer": 256724,
+            "state": 1021,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256728,
+        "fields": {
+            "answer": 256724,
+            "state": 1008,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256729,
+        "fields": {
+            "answer": 256724,
+            "state": 1002,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256730,
+        "fields": {
+            "answer": 256724,
+            "state": 1027,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256734,
+        "fields": {
+            "answer": 256731,
+            "state": 1021,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256735,
+        "fields": {
+            "answer": 256731,
+            "state": 1008,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256736,
+        "fields": {
+            "answer": 256731,
+            "state": 1027,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256737,
+        "fields": {
+            "answer": 256731,
+            "state": 1002,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256741,
+        "fields": {
+            "answer": 256738,
+            "state": 1002,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256742,
+        "fields": {
+            "answer": 256738,
+            "state": 1008,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256743,
+        "fields": {
+            "answer": 256738,
+            "state": 1021,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256744,
+        "fields": {
+            "answer": 256738,
+            "state": 1027,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256748,
+        "fields": {
+            "answer": 256745,
+            "state": 1002,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256749,
+        "fields": {
+            "answer": 256745,
+            "state": 1008,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256750,
+        "fields": {
+            "answer": 256745,
+            "state": 1021,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256751,
+        "fields": {
+            "answer": 256745,
+            "state": 1027,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256756,
+        "fields": {
+            "answer": 256753,
+            "state": 1021,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256757,
+        "fields": {
+            "answer": 256753,
+            "state": 1008,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256758,
+        "fields": {
+            "answer": 256753,
+            "state": 1002,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256759,
+        "fields": {
+            "answer": 256753,
+            "state": 1027,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256763,
+        "fields": {
+            "answer": 256760,
+            "state": 1021,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256764,
+        "fields": {
+            "answer": 256760,
+            "state": 1008,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256765,
+        "fields": {
+            "answer": 256760,
+            "state": 1027,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256766,
+        "fields": {
+            "answer": 256760,
+            "state": 1002,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256770,
+        "fields": {
+            "answer": 256767,
+            "state": 1002,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256771,
+        "fields": {
+            "answer": 256767,
+            "state": 1008,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256772,
+        "fields": {
+            "answer": 256767,
+            "state": 1021,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256773,
+        "fields": {
+            "answer": 256767,
+            "state": 1027,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256777,
+        "fields": {
+            "answer": 256774,
+            "state": 1002,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256778,
+        "fields": {
+            "answer": 256774,
+            "state": 1008,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256779,
+        "fields": {
+            "answer": 256774,
+            "state": 1021,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256780,
+        "fields": {
+            "answer": 256774,
+            "state": 1027,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "state_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256781,
+        "fields": {
+            "answer": 254482,
+            "state": 1034,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.025
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256782,
+        "fields": {
+            "answer": 254482,
+            "state": 1021,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.025
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256783,
+        "fields": {
+            "answer": 254482,
+            "state": 1037,
             "candidate": 201,
             "affected_candidate": 200,
             "state_multiplier": -0.025
@@ -69696,6 +70330,78 @@ campaignTrail_temp.answer_feedback_json = [
             "candidate": 201,
             "answer_feedback": "Pouring more oil on the fire, the good patriotic American way. If you were hoping to radicalize Sunni Muslims further and create more terrorists to drum fear against, you're right on the money. The Shia government's popularity continues to plummet."
         }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 256725,
+        "fields": {
+            "answer": 256724,
+            "candidate": 201,
+            "answer_feedback": "As Chancellor of the Exchequer Alistair Darling puts it, he doesn't \"want to import the American disease. \" You're blatantly left out in the cold, and Lehman Brothers soon files for bankruptcy.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 256732,
+        "fields": {
+            "answer": 256731,
+            "candidate": 201,
+            "answer_feedback": "Using 1930s legislation crafted to allow the Fed broad authority to save the falling banks, Secretary Summers travels through the gray area of legal mandates and pulls enough strings to keep Lehman Brothers afloat by auctioning some of their assets and buying up the rest. Your administration catches heavy flak for \"corporate handouts,\" but you've avoided what could have been a catastrophe."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 256739,
+        "fields": {
+            "answer": 256738,
+            "candidate": 201,
+            "answer_feedback": "Without immediate action, Lehman Brothers inevitably files for bankruptcy, dragging the economy down with it into the realm of Hades.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 256746,
+        "fields": {
+            "answer": 256745,
+            "candidate": 201,
+            "answer_feedback": "The public pandemonium is a firestorm, and multiple senators within your party violently protest the decision. Senator Sanders fully denounces the idea, and behind him march crowds of enraged families looking to take down Wall Street. It's not happening, Wes.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 256754,
+        "fields": {
+            "answer": 256753,
+            "candidate": 201,
+            "answer_feedback": "British Prime Minister Tony Blair is, at this point, nothing but your subordinate, and despite knowing there'll be hell to pay if he allows the deal, he lacks the backbone to push back. Chancellor Brown sighs as Barclay is allowed to acquire Lehman Brothers, avoiding what could have been a catastrophe, but the markets still sink nonetheless."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 256761,
+        "fields": {
+            "answer": 256760,
+            "candidate": 201,
+            "answer_feedback": "Using 1930s legislation crafted to allow the Fed broad authority to save the falling banks, Secretary Summers travels through the gray area of legal mandates and pulls enough strings to keep Lehman Brothers afloat by auctioning some of their assets and buying up the rest. Your administration catches heavy flak for \"corporate handouts,\" but you've avoided what could have been a catastrophe."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 256768,
+        "fields": {
+            "answer": 256767,
+            "candidate": 201,
+            "answer_feedback": "Without immediate action, Lehman Brothers inevitably files for bankruptcy, dragging the economy down with it into the realm of Hades.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 256775,
+        "fields": {
+            "answer": 256774,
+            "candidate": 201,
+            "answer_feedback": "The public pandemonium is a firestorm, and multiple senators within your party violently protest the decision. Senator Sanders fully denounces the idea, and behind him march crowds of enraged families looking to take down Wall Street. It's not happening, Wes.\n"
+        }
     }
 ]
 
@@ -70513,7 +71219,7 @@ cyoAdventure = function(a) {
     }
 
     //do you save lehman bros
-    if (ans == 254967 || ans == 254996 || ans == 255003 || ans == 255017 || ans == 255032 || ans == 255046) {
+    if (ans == 254967 || ans == 254996 || ans == 255003 || ans == 255017 || ans == 255032 || ans == 255046 || ans == 256731 || ans == 256753 || ans == 256760) {
         Lehman += 1;
         ctsAchievement("The Last Oracle");
     }
