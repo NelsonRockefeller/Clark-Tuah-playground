@@ -71853,11 +71853,11 @@ cyoAdventure = function(a) {
         ctsAchievement("Chronos Denied");
     }
     //boost santorum
-    if (ans == 24571){
+    if (ans == 24575 || ans == 22706){
         ctsAchievement("Order & Anarchy");
     }
     //4way debate
-    if (Dem == 5 && Neo > 8 && e.player_answers.includes(24571)){
+    if (ans == 24571){
         ctsAchievement("Chaos Agents");
     }
 }
@@ -73314,29 +73314,6 @@ if (used != true) {
     used = true;
 }
 }
-else if (quickstats[0] <= 269 && Dem == 4 && War == 0) { // Weak defeat - Giuliani
-e.pages.push(`<h3><i>Party Animal</i></h3>
-    <p><b>It was a modern-day fairytale. Long before he had even reached his destination, the Hero could grasp victory with his hands. Why waste time preparing when the win was already his? He preferred to savor this feeling by throwing lavish parties surrounded by beautiful mistresses and telling tall tales of his glory. He was a valued warrior, tested by insurmountable tasks and accomplished them with ease.</b></p><p><b>It was a fantastic experience, one of a lifetime, until his trusted advisor approached him, warning him of the disaster that awaited him. The Harbinger forewarned of the immense threat of his opponent; Icarus was not a foe to be underestimated; he was, after all, a legend. No matter how weakened he may be, he's still the man who brought down the Emperor. The Hero was none the wiser and looked at upon his confidant with disgust.</b></p> <p><b>Did she have a clue of whom she was speaking of? The Hero was a man of strength, sheer will, and determination. This wasn't a competition. It was a coronation; he only needed to knock out the fool in his seat. The Hero ignored all the advice given to him and continued to party to his heart's content. When it was time to journey up the mountain, he boasted and bragged to his exuberant crowds. He took at it alone but kept spectators watching at a distance, not wanting a moment of his legend lost in memory.</b></p><p><b>Then he made it-the pearly gates of Olympus, the mountain climbed, the story was written, and it was his job to follow the script and make history. He easily blew the gate down and shouted for his opponent to show himself. A crowd assembled around him as the ring he would battle in was created.</b></p><p><b>The moment he had been waiting for had come. Icarus dropped down from far above, sporting a stern expression coated in glistening golden armor. It was time for the battle to change history and take his destiny by the horns.</b></p><p><b>It began gloriously; the Hero and Icarus went blow for blow, cut to cut, blood for blood. However, as the moments passed, fear overtook the Hero's mind. Icarus wasn't going down without a fight; perhaps the Harbinger was right. It was getting harder, his vision was getting tighter, and the fight had gone into the later hours of the night. All seemed lost as an opening for Icarus to take his head appeared. However, the Harbinger swept him off his feet and carried out the finishing blow, killing Icarus. The Hero's conquest was finished, but In what may have been the worst outcome, he couldn't celebrate the victory as his own. The Hero owed the Harbinger his life; she wouldn't let him forget that.</b></p>`)
-          // idk how to add playlists but to do that you create a new playlist in code1 with just that song and put changePlaylist(nameOfYourEndingPlaylist) right here
-//e.image = ""
-e.executable.push([0, (() => {
-    e.image = 'https://i.imgur.com/RdqNtmh.png';
-    const audio = document.getElementById("audio");
-    if (audio) audio.loop = true; 
-})]);
-if (used != true) {
-    const rudyWin = new Playlist();
-    const rudyWinSong = new Song(
-        "Maneater",
-        "Nelly Furtado",
-        "https://i.imgur.com/lyEDDe7.gif",
-        "https://audio.jukehost.co.uk/1sOOugIVNvH8dLuharCAzyKlsfoBduw3"
-    );
-    rudyWin.addSong(rudyWinSong);
-    changePlaylist(rudyWin);
-    used = true;
-}
-}
 else if (quickstats[0] >= 269 && Dem == 4 && Messiah == 1 && War == 0) { // Weak win - pence
 e.pages.push(`<h3><i>Judas</i></h3>
           <p><b>"Have you ever confessed a sin?" Icarus asked his league of advisors, deeply burdened with doubt.</b></p> <p><b>How could he not be? His tumultuous rule over Olympus, with both victories and defeats, built a conflicted legend. Where he triumphed, he also faltered, but he truly believed his actions were just. Even so, given all he's done, his people languished in pain and deeply desired a savior.</b></p> <p><b>Icarus did all he could to heal the people he championed, but he credited all but himself. It was only natural that a man of faith would rise to fill the void and grant hope to the people. The people's Messiah had propelled himself to the forefront of proclaiming to speak the words of some higher power. Marching with a ragtag group of true believers, this man made his way to Olympus.</b></p> <p><b>Icarus sat nearly jealous of all the attention he garnered; why him? What was so special about this individual? The movement to oust him from power was growing, and if he let it flourish by entering Olympus, who knows what could happen? So Icarus plotted away, hoping to dispel this man's credibility.</b></p><p><b>So, after some convincing that they could secure his place on the throne, he sent out a band of mercenaries to harass and stir up a fuss. What he hadn't expected was that through his consent, they mistakenly took his orders as permission to slay the Messiah before all who desperately headed his ideals. Forever solidifying the fight and movement of faith and gospel, it would soon spread across the lands and through the walls of Olympus.</b></p><p><b>In trying to destroy the movement, he gave it the energy it needed to go beyond its preacher. It would eventually reach the throne far past Icarus' time.</b></p>`)
@@ -73377,6 +73354,29 @@ if (used != true) {
         "R. Kelly",
         "https://i.imgur.com/h2L9zvi.gif",
         "https://audio.jukehost.co.uk/EoSzVQz4jMe9HAfjq4YtBVrSWYR8z42i"
+    );
+    rudyWin.addSong(rudyWinSong);
+    changePlaylist(rudyWin);
+    used = true;
+}
+}
+else if (quickstats[0] <= 269 && Dem == 4 && War == 0) { // Weak defeat - Giuliani
+e.pages.push(`<h3><i>Party Animal</i></h3>
+    <p><b>It was a modern-day fairytale. Long before he had even reached his destination, the Hero could grasp victory with his hands. Why waste time preparing when the win was already his? He preferred to savor this feeling by throwing lavish parties surrounded by beautiful mistresses and telling tall tales of his glory. He was a valued warrior, tested by insurmountable tasks and accomplished them with ease.</b></p><p><b>It was a fantastic experience, one of a lifetime, until his trusted advisor approached him, warning him of the disaster that awaited him. The Harbinger forewarned of the immense threat of his opponent; Icarus was not a foe to be underestimated; he was, after all, a legend. No matter how weakened he may be, he's still the man who brought down the Emperor. The Hero was none the wiser and looked at upon his confidant with disgust.</b></p> <p><b>Did she have a clue of whom she was speaking of? The Hero was a man of strength, sheer will, and determination. This wasn't a competition. It was a coronation; he only needed to knock out the fool in his seat. The Hero ignored all the advice given to him and continued to party to his heart's content. When it was time to journey up the mountain, he boasted and bragged to his exuberant crowds. He took at it alone but kept spectators watching at a distance, not wanting a moment of his legend lost in memory.</b></p><p><b>Then he made it-the pearly gates of Olympus, the mountain climbed, the story was written, and it was his job to follow the script and make history. He easily blew the gate down and shouted for his opponent to show himself. A crowd assembled around him as the ring he would battle in was created.</b></p><p><b>The moment he had been waiting for had come. Icarus dropped down from far above, sporting a stern expression coated in glistening golden armor. It was time for the battle to change history and take his destiny by the horns.</b></p><p><b>It began gloriously; the Hero and Icarus went blow for blow, cut to cut, blood for blood. However, as the moments passed, fear overtook the Hero's mind. Icarus wasn't going down without a fight; perhaps the Harbinger was right. It was getting harder, his vision was getting tighter, and the fight had gone into the later hours of the night. All seemed lost as an opening for Icarus to take his head appeared. However, the Harbinger swept him off his feet and carried out the finishing blow, killing Icarus. The Hero's conquest was finished, but In what may have been the worst outcome, he couldn't celebrate the victory as his own. The Hero owed the Harbinger his life; she wouldn't let him forget that.</b></p>`)
+          // idk how to add playlists but to do that you create a new playlist in code1 with just that song and put changePlaylist(nameOfYourEndingPlaylist) right here
+//e.image = ""
+e.executable.push([0, (() => {
+    e.image = 'https://i.imgur.com/RdqNtmh.png';
+    const audio = document.getElementById("audio");
+    if (audio) audio.loop = true; 
+})]);
+if (used != true) {
+    const rudyWin = new Playlist();
+    const rudyWinSong = new Song(
+        "Maneater",
+        "Nelly Furtado",
+        "https://i.imgur.com/lyEDDe7.gif",
+        "https://audio.jukehost.co.uk/1sOOugIVNvH8dLuharCAzyKlsfoBduw3"
     );
     rudyWin.addSong(rudyWinSong);
     changePlaylist(rudyWin);
@@ -74062,7 +74062,7 @@ e.pages.push(`<h3><i>International Criminal Court Briefing</i></h3>
 <p><b>Case: </b>United States v. Osama Bin Laden</p><p><b>Location: </b>The Hague, Netherlands</p><p><b>Date: </b>September 14, 2009</p><p><b>Background</b></p><p>On October 17, 2007, U.S Special Forces under the command of President Wesley K. Clark captured Osama Bin Laden, who was residing in a compound inside Abbatobad, Pakistan. Bin Laden was transferred from U.S custody to the International Criminal Court under U.S.-UN. Negotiations and charged with crimes against humanity, war crimes, and terrorism.</p><p>This marked a significant shift from traditional United States policy, which would usually try significant figures like Saddam Hussein in various domestic prosecution or military tribunals. </p><p>President Wesley Clark emphasized the United States' transition to acknowledgement and cooperation with international law. </p><p><b>Charges</b></p><p>Osama Bin Laden is charged with multiple counts:</p><p><b>Crimes Against Humanity:</b>Planning and directing systematic attacks on the United States in the September 11 attacks.</p><p><b>War Crimes:</b> Directing attacks on civilians in Afghanistan, Kenya, Tanzania, and Yemen.</p><p><b>Terrorism: </b>Financed and organized Al-Qaeda's terror operations throughout various countries.</p><p><b>Security Concerns</b></p><p>American officials, as part of the negotiated transfer of Osama Bin Laden, requested that no video recordings of the trial be released publicly. Alongside other first-ever security measures, NATO forces provided strict curfews and intelligence briefings, citing the risk of an Al-Qaeda attack to disrupt the trial.</p><p><b>Next Steps</b></p><p>Evidence is due to be presented in late September. The trial is anticipated to conclude in early to mid-2010, and if convicted, Bin Laden faces life imprisonment in The Hague's maximum security detention unit.</p><p><b>Significance</b></p><p>Observers note that the trial is a significant step for not only the United States but the West as a whole, with President Wesley Clark's shift to international order over the U.S self-determination doctrine presented by former administrations. </p>`)
 e.executable.push([2, (() => {e.image = e.image = 'https://i.imgur.com/dk1fVjd.png'})])
 }
-else if ( quickstats[0] >= 269 && e.player_answers.includes(24184)) { // jonkler clark
+else if ( quickstats[0] >= 269 && e.player_answers.includes(24183)) { // jonkler clark
 e.pages.push(`<h3><i>RedHeadMethHead Blogs: THEY SAY BIN LADEN IS DEAD BUT WHERE'S THE BODY?</i></h3>
 <p><b>TheRedPatriot</b></p><p><b>Posted January 14, 2009 </b></p><p>Alright, it's time we cut the cameras and showmanship because the lies of the Clark administration are climbing higher than the unemployment rate!</p><p>They claimed that Osama Bin Laden had been killed, and because of it, Americans rewarded President Clark with a second term undeservedly, but at least I could wrap my head around it, unlike the 2004 results. So okay fine he's dead… BUT WHERE'S THE DAMN BODY!</p><p>They told us that "proof would come later," but later never came. Wesley Clark left to get the milk and left American children behind with the fear that their president lied to them and didn't actually catch or kill Bin Laden.</p><p>Zero pictures and only recounts of what happened, reliant on us trusting a president who's lied to us, tortured us, and led us on a wild goose chase for the last four years!</p><p><b>Here's what might be really happening:</b></p><p><b>1. Osama Bin Laden is alive and well off in some condo, and the president lied to win an election, big whoop, the world remains corrupt. </b></p><p><b>2. Osama Bin Laden is both alive and has actually been working for the Democrats the whole time. You're telling me that cute little video of him that sprang up in the 2004 election, where everyone claimed it would help Bush, was some psyop made to get Republican voters comfortable about his chances and stay home? Yes, maybe it's happened before, read a fucking book.</b></p><p><b>3. Osama Bin Laden is actually dead, but the Clark administration would rather allow his memory to fade from American consciousness. Yeah, right, like a Democrat would ever allow that to happen.</b></p><p><b>4. And my personal theory after playing Call Of Duty: Black Ops 1, where a CIA operation failed to kill Castro, I've realized how easily American personnel fall for body doubles, and the morons in our government GOT THE WRONG GUY!</b></p><p>The Mainstream media believes their president wholeheartedly, but this is the first step toward a dictatorship by mindlessly following our leaders' words.</p><p>Wake the fuck up, people.</p><p><b>Donate Here</b></p>`)
 e.executable.push([2, (() => {e.image = e.image = 'https://i.imgur.com/Ls39myV.png'})])
@@ -75649,7 +75649,7 @@ function showCongressionalMakeup() {
         }
         else if (Win > 3 && Win <= 4 && Schiavo == 1) {
             console.log("Win over 3, Schiavo");
-            senateImage = 'https://i.imgur.com/o3eQEkG.png';
+            senateImage = 'https://i.imgur.com/XGFRwW4.png';
         }
         else if (Win > 3 && Win <= 4 && Schiavo == 0) {
             console.log("Win over 3, no Schiavo");
@@ -75763,7 +75763,7 @@ function showCongressionalMakeup() {
                 'https://i.imgur.com/xZW7MZi.png', // Whitehouse, D-Rhode Island
                 'https://i.imgur.com/5oFYCSu.png', // Carnahan, D-Missouri
                 'https://i.imgur.com/RqH3OTD.png', // Tester, D-Montana 
-                'https://i.imgur.com/BEGAaC4.png', // Webb, D-Virginia loss
+                'https://i.imgur.com/60P1KBP.png', // Webb, D-Virginia 
                 'https://i.imgur.com/BEGAaC4.png', // Pederson, D-Arizona loss
                 'https://i.imgur.com/BEGAaC4.png', // Carter, D-Nevada loss
                 'https://i.imgur.com/BEGAaC4.png', // Fleming, D-Mississippi loss
