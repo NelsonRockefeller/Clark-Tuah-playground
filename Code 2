@@ -2356,6 +2356,42 @@ campaignTrail_temp.questions_json = [
             "description": "This is it: you're facing a veritable typhoon stronger than Katrina ever dreamed of being, and it's ready to destroy you. Lehman Brothers is heading toward a total collapse, and their upcoming bankruptcy will only serve to spill oil onto the flames of the economic crisis. The bankers are bouncing around like they're in a pinball machine, desperate to come to some sort of deal to avoid bankruptcy. Most of Congress, and the public, are steadfastly against bailing them out, and the Federal Reserve is unwilling to step in on Lehman Brothers' behalf. The Sphinx bestows upon you a riddle of guidance. What will you do, Wes?\n",
             "likelihood": 1
         }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 256792,
+        "fields": {
+            "priority": 0,
+            "description": "Slowly but surely, your decision to call for a troop surge in Iraq is vindicated. Secretary Kerry and Secretary Levin pass you the reports, and your smile begins to show as you look them over. The situation in Iraq has stabilized, and the media finally has something good to chew on from your administration. Anti-war sentiment has dimmed as doubters like Kucinich and Gravel seem smaller than ever. Despite your success, an emboldened Cerberus lies ahead, ready to block your passage if you do not solidify your newfound support. How will you capitalize on this significant victory?",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 256808,
+        "fields": {
+            "priority": 0,
+            "description": "Slowly but surely, your decision to call for a troop surge in Iraq is vindicated. Secretary Kerry and Secretary Levin pass you the reports, and your smile begins to show as you look them over. The situation in Iraq has stabilized, and the media finally has something good to chew on from your administration. Anti-war sentiment has dimmed as doubters like Kucinich and Gravel seem smaller than ever. Despite your success, an emboldened Cerberus lies ahead, ready to block your passage if you do not solidify your newfound support. How will you capitalize on this significant victory?",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 256832,
+        "fields": {
+            "priority": 7,
+            "description": "In a classic Russian ploy to bring on Gigantomachy, Putin is attempting to push around NATO with Georgia, a tiny country on the border of his regime. Secretary Kerry has visited the young nation, hoping to secure its independence, relaying your message that Georgia should decide its own path. Now, the Georgians are looking to join NATO, making relations with Russia turbulent as Volodya threatens serious action. How will you oversee this conflict, Wes?",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 256856,
+        "fields": {
+            "priority": 7,
+            "description": "In a classic Russian ploy to bring on Gigantomachy, Putin is attempting to push around NATO with Georgia, a tiny country on the border of his regime. Secretary Kerry has visited the young nation, hoping to secure its independence, relaying your message that Georgia should decide its own path. Now, the Georgians are looking to join NATO, making relations with Russia turbulent as Volodya threatens serious action. How will you oversee this conflict, Wes?",
+            "likelihood": 1
+        }
     }
 ]
 
@@ -10054,6 +10090,150 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 256752,
             "description": "America's greatest intellectuals have proven themselves useless and the poorest class are rising in rebellion. However, I do not subscribe to the beliefs of these Let It Die activists. Congress must approve a bill to allow us to save Lehman Brothers."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 256784,
+        "fields": {
+            "question": 25430,
+            "description": "Friction between Turkey and other European nations will always exist, given their history, but that doesn't undercut the need for all European powers to unite against modern-day threats. The time for Turkey to be admitted into the European Union is now. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 256788,
+        "fields": {
+            "question": 25443,
+            "description": "Friction between Turkey and other European nations will always exist, given their history, but that doesn't undercut the need for all European powers to unite against modern-day threats. The time for Turkey to be admitted into the European Union is now."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 256793,
+        "fields": {
+            "question": 256792,
+            "description": "Levin and Clinton have the right idea. Prime Minister al-Maliki needs to go. We have the leverage to get him out of there. His government is divisive, and the corruption is reprehensible. I want him out, yesterday.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 256797,
+        "fields": {
+            "question": 256792,
+            "description": "With Iraq secure, we can focus on our nation's future. The threat of Al-Qaeda remains, and we can always be more vigilant. I'd like for us to begin focusing our attention on combating terrorism and killing Osama Bin Laden.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 256804,
+        "fields": {
+            "question": 256792,
+            "description": "Despite his nation's long history of fear-mongering about my strategy, I'm willing to accept an apology from President Sarkozy if he announces his endorsement of my plan and if the French promise to work alongside U.S. forces in the future."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 256809,
+        "fields": {
+            "question": 256808,
+            "description": "Levin and Clinton have the right idea. Prime Minister al-Maliki needs to go. We have the leverage to get him out of there. His government is divisive, and the corruption is reprehensible. I want him out, yesterday.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 256813,
+        "fields": {
+            "question": 256808,
+            "description": "With Iraq secure, we can focus on our nation's future. The threat of Al-Qaeda remains, and we can always be more vigilant. I'd like for us to begin focusing our attention on combating terrorism and killing Osama Bin Laden.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 256820,
+        "fields": {
+            "question": 256808,
+            "description": "Despite his nation's long history of fear-mongering about my strategy, I'm willing to accept an apology from President Sarkozy if he announces his endorsement of my plan and if the French promise to work alongside U.S. forces in the future."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 256824,
+        "fields": {
+            "question": 256792,
+            "description": "Don't get things twisted, America stands for Turkey's Democratic rights, but the emergence of Yaşar Büyükanıt's government presents a unique opportunity to bring his country into the fold and destroy the terrorist militants residing in Iraq once and for all."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 256828,
+        "fields": {
+            "question": 256808,
+            "description": "Don't get things twisted, America stands for Turkey's Democratic rights, but the emergence of Yaşar Büyükanıt's government presents a unique opportunity to bring his country into the fold and destroy the terrorist militants residing in Iraq once and for all."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 256833,
+        "fields": {
+            "question": 256832,
+            "description": "Putin is attempting to bully an independent nation with the false sense that it belongs to him. If we don't make the first move, a free and fair democracy will be crushed right in front of us. I want Georgia's NATO membership sped up, now.\n\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 256838,
+        "fields": {
+            "question": 256832,
+            "description": "What Georgia needs now more than ever is the reassurance that the United States will protect them. Get me on a plane; I'll meet with President Saakashvili and swear he has all our support.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 256842,
+        "fields": {
+            "question": 256832,
+            "description": "Significant conflicts of interest arose unnecessarily in Schröder's government when dealing with Russian aggression, and he paid the price. Friedrich Merz is not afraid to commit, and I urge him and our other NATO allies to act if the Russian Federation attacks Georgia."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 256848,
+        "fields": {
+            "question": 256832,
+            "description": "The Free World is in danger if we let Russia normalize this behavior. We need the European Union's help to enact preventive measures to cease all hostilities. President Sarkozy has the most influence, and I know he can get Russia back to the table.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 256857,
+        "fields": {
+            "question": 256856,
+            "description": "Putin is attempting to bully an independent nation with the false sense that it belongs to him. If we don't make the first move, a free and fair democracy will be crushed right in front of us. I want Georgia's NATO membership sped up, now.\n\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 256862,
+        "fields": {
+            "question": 256856,
+            "description": "What Georgia needs now more than ever is the reassurance that the United States will protect them. Get me on a plane; I'll meet with President Saakashvili and swear he has all our support.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 256866,
+        "fields": {
+            "question": 256856,
+            "description": "Significant conflicts of interest arose unnecessarily in Schröder's government when dealing with Russian aggression, and he paid the price. Friedrich Merz is not afraid to commit, and I urge him and our other NATO allies to act if the Russian Federation attacks Georgia."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 256873,
+        "fields": {
+            "question": 256856,
+            "description": "I'm willing to consider the help of unnatural allies. President Royal has made some efforts to negotiate this thing away, and there might be something there. Bring Putin to the table with Saakashvili. We'll settle this before it gets out of hand."
         }
     }
 ]
@@ -26685,6 +26865,166 @@ campaignTrail_temp.answer_score_global_json = [
             "affected_candidate": 201,
             "global_multiplier": -0.07
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 256786,
+        "fields": {
+            "answer": 256784,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "global_multiplier": -0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 256790,
+        "fields": {
+            "answer": 256788,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "global_multiplier": -0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 256795,
+        "fields": {
+            "answer": 256793,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 256806,
+        "fields": {
+            "answer": 256804,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "global_multiplier": -0.009
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 256811,
+        "fields": {
+            "answer": 256809,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 256822,
+        "fields": {
+            "answer": 256820,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "global_multiplier": -0.009
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 256826,
+        "fields": {
+            "answer": 256824,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "global_multiplier": -0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 256830,
+        "fields": {
+            "answer": 256828,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "global_multiplier": -0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 256835,
+        "fields": {
+            "answer": 256833,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.013
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 256840,
+        "fields": {
+            "answer": 256838,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 256850,
+        "fields": {
+            "answer": 256848,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.006
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 256855,
+        "fields": {
+            "answer": 256842,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "global_multiplier": -0.007
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 256859,
+        "fields": {
+            "answer": 256857,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.013
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 256864,
+        "fields": {
+            "answer": 256862,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 256868,
+        "fields": {
+            "answer": 256866,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "global_multiplier": -0.007
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 256875,
+        "fields": {
+            "answer": 256873,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": -0.016
+        }
     }
 ]
 
@@ -33197,6 +33537,166 @@ campaignTrail_temp.answer_score_issue_json = [
             "issue": 102,
             "issue_score": -0.8,
             "issue_importance": 6
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 256787,
+        "fields": {
+            "answer": 256784,
+            "issue": 101,
+            "issue_score": -0.4,
+            "issue_importance": 5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 256791,
+        "fields": {
+            "answer": 256788,
+            "issue": 102,
+            "issue_score": -0.4,
+            "issue_importance": 5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 256796,
+        "fields": {
+            "answer": 256793,
+            "issue": 102,
+            "issue_score": -0.6,
+            "issue_importance": 7
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 256799,
+        "fields": {
+            "answer": 256797,
+            "issue": 102,
+            "issue_score": -0.6,
+            "issue_importance": 7
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 256807,
+        "fields": {
+            "answer": 256804,
+            "issue": 102,
+            "issue_score": -0.6,
+            "issue_importance": 7
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 256812,
+        "fields": {
+            "answer": 256809,
+            "issue": 102,
+            "issue_score": -0.6,
+            "issue_importance": 7
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 256815,
+        "fields": {
+            "answer": 256813,
+            "issue": 102,
+            "issue_score": -0.6,
+            "issue_importance": 7
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 256823,
+        "fields": {
+            "answer": 256820,
+            "issue": 104,
+            "issue_score": -0.6,
+            "issue_importance": 7
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 256827,
+        "fields": {
+            "answer": 256824,
+            "issue": 102,
+            "issue_score": -0.6,
+            "issue_importance": 7
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 256831,
+        "fields": {
+            "answer": 256828,
+            "issue": 102,
+            "issue_score": -0.6,
+            "issue_importance": 7
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 256836,
+        "fields": {
+            "answer": 256833,
+            "issue": 102,
+            "issue_score": -0.7,
+            "issue_importance": 3
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 256841,
+        "fields": {
+            "answer": 256838,
+            "issue": 102,
+            "issue_score": -0.3,
+            "issue_importance": 3
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 256844,
+        "fields": {
+            "answer": 256842,
+            "issue": 102,
+            "issue_score": -0.7,
+            "issue_importance": 4
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 256860,
+        "fields": {
+            "answer": 256857,
+            "issue": 102,
+            "issue_score": -0.7,
+            "issue_importance": 3
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 256865,
+        "fields": {
+            "answer": 256862,
+            "issue": 102,
+            "issue_score": -0.3,
+            "issue_importance": 3
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 256869,
+        "fields": {
+            "answer": 256866,
+            "issue": 102,
+            "issue_score": -0.7,
+            "issue_importance": 4
         }
     }
 ]
@@ -61867,6 +62367,182 @@ campaignTrail_temp.answer_score_state_json = [
             "affected_candidate": 200,
             "state_multiplier": -0.025
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256837,
+        "fields": {
+            "answer": 256833,
+            "state": 1033,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": 0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256845,
+        "fields": {
+            "answer": 256842,
+            "state": 1014,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256846,
+        "fields": {
+            "answer": 256842,
+            "state": 1049,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256847,
+        "fields": {
+            "answer": 256842,
+            "state": 1022,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256851,
+        "fields": {
+            "answer": 256848,
+            "state": 1017,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256852,
+        "fields": {
+            "answer": 256848,
+            "state": 1020,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256853,
+        "fields": {
+            "answer": 256848,
+            "state": 1021,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256854,
+        "fields": {
+            "answer": 256848,
+            "state": 1024,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256861,
+        "fields": {
+            "answer": 256857,
+            "state": 1033,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": 0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256870,
+        "fields": {
+            "answer": 256866,
+            "state": 1014,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256871,
+        "fields": {
+            "answer": 256866,
+            "state": 1049,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256872,
+        "fields": {
+            "answer": 256866,
+            "state": 1022,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256876,
+        "fields": {
+            "answer": 256873,
+            "state": 1017,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256877,
+        "fields": {
+            "answer": 256873,
+            "state": 1020,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256878,
+        "fields": {
+            "answer": 256873,
+            "state": 1021,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 256879,
+        "fields": {
+            "answer": 256873,
+            "state": 1024,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.03
+        }
     }
 ]
 
@@ -68249,7 +68925,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 241502,
             "candidate": 201,
-            "answer_feedback": "Turkey kills this idea in the cutting room, promising to stop American warships from piling through the Bosphorus. Turkish President Abdullah Gül tells you he's not as eager to start a third World War as you. No aid, no ships, nothing; they will allow nothing."
+            "answer_feedback": "Turkey kills this idea in the cutting room, promising to stop American warships from piling through the Bosphorus. Turkish Prime Minister Recep Tayyip Erdoğan tells you he's not as eager to start a third World War as you. No aid, no ships, nothing; they will allow nothing."
         }
     },
     {
@@ -70402,6 +71078,168 @@ campaignTrail_temp.answer_feedback_json = [
             "candidate": 201,
             "answer_feedback": "The public pandemonium is a firestorm, and multiple senators within your party violently protest the decision. Senator Sanders fully denounces the idea, and behind him march crowds of enraged families looking to take down Wall Street. It's not happening, Wes.\n"
         }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 256785,
+        "fields": {
+            "answer": 256784,
+            "candidate": 201,
+            "answer_feedback": "France and Germany perform a rhetorical tap dance during the negotiations, attempting to delay what becomes inevitable. After a few weeks, your demands triumph and the European Union accepts Turkey into the fold. Erdoğan is very pleased."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 256789,
+        "fields": {
+            "answer": 256788,
+            "candidate": 201,
+            "answer_feedback": "France and Germany perform a rhetorical tap dance during the negotiations, attempting to delay what becomes inevitable. After a few weeks, your demands triumph and the European Union accepts Turkey into the fold. Erdoğan is very pleased."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 256794,
+        "fields": {
+            "answer": 256793,
+            "candidate": 201,
+            "answer_feedback": "Iraq's Prime Minister has been a recurring problem for your administration, so it's no surprise that you'd seek to alter Iraqi democracy at the first opportunity. However, Maliki outflanks you by rallying around the Blackwater Shooting and using it as justification for why American oversight has failed."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 256798,
+        "fields": {
+            "answer": 256797,
+            "candidate": 201,
+            "answer_feedback": "Kerry and Levin draw up plans to increase surveillance across the Middle East as the United States begins secretive drone strikes on unsuspecting terrorists. You're informed of civilian casualties, but they're pushed under the rug."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 256805,
+        "fields": {
+            "answer": 256804,
+            "candidate": 201,
+            "answer_feedback": "It's a bit theatrical, but given the successful news, Sarkozy is willing to publicly congratulate you and promise French cooperation whenever needed. It's one grand pat on the back for putting a bandaid over the shotgun wound that your predecessor gave the Middle East."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 256810,
+        "fields": {
+            "answer": 256809,
+            "candidate": 201,
+            "answer_feedback": "Iraq's prime minister has been a recurring problem for your administration, so it's no surprise that you'd reject their democracy at the first opportunity. Maliki soon buckles under your pressure and resigns in disgrace, leaving a trail of corruption and scandals that hopefully signal change for the better in the region."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 256814,
+        "fields": {
+            "answer": 256813,
+            "candidate": 201,
+            "answer_feedback": "Kerry and Levin draw up plans to increase surveillance across the Middle East as the United States begins secretive drone strikes on unsuspecting terrorists. You're informed of civilian casualties, but they're pushed under the rug."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 256821,
+        "fields": {
+            "answer": 256820,
+            "candidate": 201,
+            "answer_feedback": "It's a bit theatrical, but given the successful news, Sarkozy is willing to publicly congratulate you and promise French cooperation whenever needed. It's one grand pat on the back for putting a bandaid over the shotgun wound that your predecessor gave the Middle East."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 256825,
+        "fields": {
+            "answer": 256824,
+            "candidate": 201,
+            "answer_feedback": "\"Shoulder the burden\" becomes the pseudophilosophy preached within your cabinet as you finally coax Yaşar Büyükanıt into raining hellfire upon Northern Iraq. While thousands of civilians in Sulaymaniyah and Erbil are displayed, you get excellent press work celebrating NATO's one United vision of bastardizing international laws."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 256829,
+        "fields": {
+            "answer": 256828,
+            "candidate": 201,
+            "answer_feedback": "\"Shoulder the burden\" becomes the pseudophilosophy preached within your cabinet as you finally coax Yaşar Büyükanıt into raining hellfire upon Northern Iraq. While thousands of civilians in Sulaymaniyah and Erbil are displayed, you get excellent press work celebrating NATO's one United vision of bastardizing international laws."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 256834,
+        "fields": {
+            "answer": 256833,
+            "candidate": 201,
+            "answer_feedback": "You're asking for the impossible. Most NATO members aren't looking to start a Third World War just because you're an irresponsible moron, and they make it clear that it's not happening. A band of uneasy allies sink your demands, and the press light a fire under your administration's behind as Putin cackles.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 256839,
+        "fields": {
+            "answer": 256838,
+            "candidate": 201,
+            "answer_feedback": "Your whirlwind trip to Georgia has created a media circus. The Georgians appreciate your advocacy, but most Americans can't pinpoint where Georgia is on a map, much less support going to war with Russia for them."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 256843,
+        "fields": {
+            "answer": 256842,
+            "candidate": 201,
+            "answer_feedback": "At a NATO summit in Prague, whatever remained of Putin's influence in your ranks collapsed as it became clear that without his top man at the center, the rest were just puppets without strings. Merz looks more overjoyed than even you at the results of the conference. Bold commitments to Georgia's sovereignty, arms agreements, and rhetorical ear candy. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 256849,
+        "fields": {
+            "answer": 256848,
+            "candidate": 201,
+            "answer_feedback": "French President Sarkozy does what he can to calm the hostilities, but he's unsuccessful: Russia and Georgia are at an impasse that can't be talked down. Secretary Kerry does all he can to please the press in the meantime, and it tides the vultures over for now.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 256858,
+        "fields": {
+            "answer": 256857,
+            "candidate": 201,
+            "answer_feedback": "You're asking for the impossible. Most NATO members aren't looking to start a Third World War just because you're an irresponsible moron, and they make it clear that it's not happening. A band of uneasy allies sink your demands, and the press light a fire under your administration's behind as Putin cackles.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 256863,
+        "fields": {
+            "answer": 256862,
+            "candidate": 201,
+            "answer_feedback": "Your whirlwind trip to Georgia has created a media circus. The Georgians appreciate your advocacy, but most Americans can't pinpoint where Georgia is on a map, much less support going to war with Russia for them."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 256867,
+        "fields": {
+            "answer": 256866,
+            "candidate": 201,
+            "answer_feedback": "At a NATO summit in Prague, whatever remained of Putin's influence in your ranks collapsed as it became clear that without his top man at the center, the rest were just puppets without strings. Merz looks more overjoyed than even you at the results of the conference. Bold commitments to Georgia's sovereignty, arms agreements, and rhetorical ear candy. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 256874,
+        "fields": {
+            "answer": 256873,
+            "candidate": 201,
+            "answer_feedback": "You hadn't known that French President Royal has essentially set a trap to thrust the blame of the conflict on NATO aggression. She leans heavily into Putin's whims, allowing Russia to set the narrative. America walks out of the talks with nothing gained besides overwhelmingly negative media attention."
+        }
     }
 ]
 
@@ -70561,7 +71399,9 @@ var Merkel = 0;
 var Blair = 0;
 var Royal = 0;
 var Sarkozy = 0;
-var Gul = 0;
+var Erdo = 0;
+var Yasar = 0;
+var Merz = 0;
 var Brown = 0;
 var Agenda = 0;
 var Neo = 0;
@@ -71022,11 +71862,11 @@ cyoAdventure = function(a) {
     }
 
     //Wins to determine midterms
-    if (ans == 256702 || ans == 256685 || ans == 256681 || ans == 256655 || ans == 256643 || ans == 256634 || ans == 256622 || ans == 5145 || ans == 5148 || ans == 5150 || ans == 5143 || ans == 20752 || ans == 5155 || ans == 20890 || ans == 23844 || ans == 22625 || ans == 23197 || ans == 24794) {
+    if (ans == 256702 || ans == 256685 || ans == 256681 || ans == 256655 || ans == 256643 || ans == 256634 || ans == 256622 || ans == 5145 || ans == 5150 || ans == 5143 || ans == 20752 || ans == 5155 || ans == 20890 || ans == 23844 || ans == 22625 || ans == 23197 || ans == 24794) {
         Win += 1;
         updateStatsPopup();
     }
-    if (ans == 256617 || ans == 20740 || ans == 22670 || ans == 20755 || ans == 23832 || ans == 21037) {
+    if (ans == 256617 || ans == 20740 || ans == 22670 || ans == 20755 || ans == 23832 || ans == 21037 || ans == 5148 ) {
         Win += 2;
         updateStatsPopup();
     }
@@ -71050,11 +71890,11 @@ cyoAdventure = function(a) {
     }
 
     //Foreign policy successes
-    if (ans == 256702 || ans == 256685 || ans == 256681 || ans == 256655 || ans == 256643 || ans == 256634 || ans == 256622 || ans == 256617 || ans == 256513 || ans == 254784 || ans == 254760 || ans == 254767 || ans == 254675 || ans == 254665 || ans == 254660 || ans == 254650 || ans == 254622 || ans == 254628 || ans == 25448 || ans == 25444 || ans == 25435 || ans == 25431 || ans == 22853 || ans == 20915 || ans == 20924 || ans == 5190 || ans == 5147 || ans == 22758 || ans == 22043 || ans == 5150 || ans == 20877 || ans == 24059 || ans == 24062 || ans == 23695 || ans == 20946 || ans == 24170 || ans == 24768 || ans == 24772 || ans == 24764 || ans == 24776 || ans == 24780 || ans == 24785 || ans == 24797 || ans == 24800) {
+    if (ans == 256848 || ans == 256824 || ans == 256804 || ans == 256809 || ans == 256820 || ans == 256828 || ans == 256702 || ans == 256685 || ans == 256681 || ans == 256655 || ans == 256643 || ans == 256634 || ans == 256622 || ans == 256617 || ans == 256513 || ans == 254784 || ans == 254760 || ans == 254767 || ans == 254675 || ans == 254665 || ans == 254660 || ans == 254650 || ans == 254622 || ans == 254628 || ans == 25448 || ans == 25444 || ans == 25435 || ans == 25431 || ans == 22853 || ans == 20915 || ans == 20924 || ans == 5190 || ans == 5147 || ans == 22758 || ans == 22043 || ans == 5150 || ans == 20877 || ans == 24059 || ans == 24062 || ans == 23695 || ans == 20946 || ans == 24170 || ans == 24768 || ans == 24772 || ans == 24764 || ans == 24776 || ans == 24780 || ans == 24785 || ans == 24797 || ans == 24800) {
         Nato += 1;
         updateStatsPopup();
     }
-    if (ans == 254841 || ans == 22047 || ans == 254819 || ans == 23483 || ans == 22035 || ans == 22761 || ans == 24794 || ans == 25439) {
+    if (ans == 256866 || ans == 254841 || ans == 22047 || ans == 254819 || ans == 23483 || ans == 22035 || ans == 22761 || ans == 24794 || ans == 25439 || ans == 256842) {
         Nato += 2;
         updateStatsPopup();
     }
@@ -71070,11 +71910,11 @@ cyoAdventure = function(a) {
     }
 
     //rusher? i hardly even know her
-    if (ans == 255128 || ans == 241502 || ans == 26669 || ans == 254775 || ans == 254751 || ans == 254703 || ans == 21552 || ans == 21561 || ans == 21566 || ans == 5237  || ans == 5235  || ans == 21471 || ans == 24150 || ans == 24158 || ans == 22580) {
+    if (ans == 256857 || ans == 256866 || ans == 256833 || ans == 256842 || ans == 255128 || ans == 241502 || ans == 26669 || ans == 254775 || ans == 254751 || ans == 254703 || ans == 21552 || ans == 21561 || ans == 21566 || ans == 5237  || ans == 5235  || ans == 21471 || ans == 24150 || ans == 24158 || ans == 22580) {
         Russia += 2;
         updateStatsPopup();
     } 
-    if (ans == 254675  || ans == 254660  || ans == 241582  || ans == 241542  || ans == 241541  || ans == 254784  || ans == 254780  || ans == 254760  || ans == 254756  || ans == 254712  || ans == 254708  || ans == 5236  || ans == 24154 || ans == 21536 || ans == 22573 || ans == 20777 || ans == 22863 || ans == 24790) {
+    if (ans == 256862  || ans == 256838  || ans == 254675  || ans == 254660  || ans == 241582  || ans == 241542  || ans == 241541  || ans == 254784  || ans == 254780  || ans == 254760  || ans == 254756  || ans == 254712  || ans == 254708  || ans == 5236  || ans == 24154 || ans == 21536 || ans == 22573 || ans == 20777 || ans == 22863 || ans == 24790) {
         Russia += 1;
         updateStatsPopup();
     } 
@@ -71196,8 +72036,8 @@ cyoAdventure = function(a) {
         else if (Nato > 3) {
             Sarkozy += 1;
         }
-        if (Nato < 20) {
-            Gul += 1;
+        if (Troops == 1 && Nato > 3) {
+            Yasar += 1;
         }
     }
 
@@ -71205,6 +72045,22 @@ cyoAdventure = function(a) {
         if (e.noCounter == 12) {
         if (Nato > 3 && Blair == 0) {
             Brown += 1;
+            Merz += 1;
+        }
+    }
+
+        // France and Turkey elections
+        if (e.noCounter == 13) {
+        if (Nato > 4 && Merkel == 0) {
+            Merz += 1;
+            Shroder -= 1;
+        }
+    }
+
+        // euro
+        if (e.noCounter == 12) {
+        if (ans == 256784 || ans == 256788 ) {
+            Erdo += 1;
         }
     }
 
@@ -71434,7 +72290,7 @@ cyoAdventure = function(a) {
         else if (Notroops > 0 && Agenda > 4) {
             campaignTrail_temp.questions_json[11] = tunnel(24658); 
         }
-        else if (Notroops > 0 && Nato > 2) {
+        else if (Notroops > 0 && Nato > 3) {
             campaignTrail_temp.questions_json[11] = tunnel(254613); 
         }
     }
@@ -71617,6 +72473,12 @@ cyoAdventure = function(a) {
         if (Royal == 1 && Shroder == 1) {
             campaignTrail_temp.questions_json[15] = tunnel(254702); 
         }
+        else if (Sarkozy == 1 && Merz == 1) {
+            campaignTrail_temp.questions_json[15] = tunnel(256832); 
+        }
+        else if (Royal == 1 && Merz == 1) {
+            campaignTrail_temp.questions_json[15] = tunnel(256856); 
+        }
         else if (Sarkozy == 1 && Shroder == 1) {
             campaignTrail_temp.questions_json[15] = tunnel(254750); 
         }
@@ -71728,11 +72590,17 @@ cyoAdventure = function(a) {
         else if (Troops == 1 && Nato < 3) {
             campaignTrail_temp.questions_json[18] = tunnel(25307); 
         }
+        else if (Troops == 1 && Blackwater == 0 && Sarkozy == 1 && Yasar == 1) {
+            campaignTrail_temp.questions_json[18] = tunnel(256808); 
+        }
         else if (Troops == 1 && Blackwater == 0 && Sarkozy == 1) {
             campaignTrail_temp.questions_json[18] = tunnel(22034); 
         }
         else if (Troops == 1 && Blackwater == 1 && Royal == 1) {
             campaignTrail_temp.questions_json[18] = tunnel(24034); 
+        }
+        else if (Troops == 1 && Blackwater == 1 && Sarkozy == 1 && Yasar == 1) {
+            campaignTrail_temp.questions_json[18] = tunnel(256808); 
         }
         else if (Troops == 1 && Blackwater == 1 && Sarkozy == 1) {
             campaignTrail_temp.questions_json[18] = tunnel(254806); 
@@ -72472,7 +73340,7 @@ cyoAdventure = function(a) {
         e.WinPopup = "As much as you'd like to hear your opponent spill their soul over the phone, you have greater conquests to wage. The world will not kneel to the menace in the Far East. Georgia's fate is in your hands, as is much of the world.";
         e.LosePopup = "Brownback: I believe that the Lord is able to forgive many sins but you have condemned millions. May humanity survive the coming years.";
     } else if (Dem === 7) {
-        e.WinPopup = "The phone rings while a hoard claws at the walls outside your rally. He speaks in a measured tone unfitting for the terror he brought upon your land. Brownback: Mr. President I and many fellow Christians made our point very clear. Do not follow in the steps of the catholics and ignore the thesis we pinned to the door of your church.";
+        e.WinPopup = "The phone rings while a hoard claws at the walls outside your rally. He speaks in a measured tone unfitting for the terror he brought upon your land. Brownback: Mr. President I and many fellow Christians made our point very clear. Heresy has no home in God's United States of America.";
         e.LosePopup = "Pain - blood - utter bloodshed. You feel as if you are shackled, walking down the church aisle, handing America to a lunatic. Brownback: Mr. President, you need not to offer platitudes in the face of the Lord's wrath. You were mistaken and I know that with time and effort on your part you can seek his forgiveness.";
     } else if (Dem === 6 && War === 1) {
         e.WinPopup = "As much as you'd like to hear your opponent spill their soul over the phone, you have greater conquests to wage. The world will not kneel to the menace in the Far East. Georgia's fate is in your hands, as is much of the world.";
@@ -73658,13 +74526,13 @@ if (used != true) {
     used = true;
 }
 }
-else if (quickstats[0] >= 0 && e.player_answers.includes(254910)) { // big loss - 
+else if (quickstats[0] == 538 && e.player_answers.includes(254910) && Dem > 0) { // big loss - 
 e.pages.push(`<h3><i>"I The Sun"</i></h3>
           <p><b>Nothing. Icarus felt nothing. He had no accomplishments to his name, no allies in his court, no conquest to embark on. Olympus had fallen, crumbled to dust, and the fools who disobeyed his orders now bestowed him the blame. </b></p><p><b>Inaction not only sank his domain but also erased it. Establishing any legend of his failure would be impossible. Not only did he fail to save his people, but he had also done nothing to at least ensure that they would remember him. </b></p><p><b>Such a fate was ironic to him; the guides who led him here had all forewarned him to avoid soaring too high. He was blocked and diverted at every flight until now; there is nothing left to defend. </b></p><p><b>Nothing. Icarus felt nothing. No triumphs to his name, no allies left in his court, no conquest worthy to pursue. Olympus had fallen not through a dramatic climax, but in slow, silent decay. Its stone turns to dust through his own indecision. Those who once hailed him as their savior now whispered his name only to lay the blame upon it.</b></p><p><b>Inaction had not merely sunk his dominion; it had erased it. There would be no legend, no tragic tale to immortalize his failure, only silence. He had failed to save his people, and worse still, was unable to ensure that they would remember him.</b></p><p><b>The irony was not lost on him. Every oracle, every guide had once warned him: "Do not soar too high." Yet it was not flight that delivered his peril, but hesitation, the everlasting limbo between what could be and what won't, the ascent and fall all at once. Now the skies he once dreamed of remain empty, and the seas offer no reflection.</b></p><p><b>There was nothing left to defend. No champion dared to challenge him for the throne of ruins. Nothing left to rise toward. Only the hollow weight of his dull and unscathed wings, which had forgotten how to carry him.</b></p><p><b>This place, now a tomb of his legacy, serves as a prison. Now, wielding all the power in the world, with no one left to serve it. He was a soldier without war, a savior without those needing to be saved, a God without people to worship him. Icarus meant nothing to anyone, not even himself.</b></p>`)
           // idk how to add playlists but to do that you create a new playlist in code1 with just that song and put changePlaylist(nameOfYourEndingPlaylist) right here
 //e.image = ""
 e.executable.push([0, (() => {
-    e.image = 'https://i.imgur.com/piBRUP6.gif';
+    e.image = 'https://i.imgur.com/4BkEAis.gif';
     const audio = document.getElementById("audio");
     if (audio) audio.loop = true; 
 })]);
@@ -73819,29 +74687,6 @@ if (used != true) {
     used = true;
 }
 }
-else if (quickstats[0] <= 269 && Dem == 1 && War == 0) { // Weak Defeat - McCain
-e.pages.push(`<h3><i>No Apologies</i></h3>
-          <p><b>Flattened by his hubris and self-importance, Icarus had allowed the place once cherished to be stolen by a man who hadn't cared for the well-being of any who stood under his reign. He stood humiliated by a man he so desperately sought to tear down, forced to behold the restructuring of Olympus. </b></p><p><b>Fountains, once built to bring water to the people, were demolished, their only crime being that they bore Icarus's name. Every gift he had left behind was now slated for erasure, not out of policy or progress, but as punishment. Revenge had become the foundation of the new regime.</b></p><p><b>What the people had failed to realize was the full extent of the Maverick's petty decisions. Even if he and Icarus agreed on something, it had to come down regardless of whether it helped or hurt the people. This wasn't theater for the sake of spectacle; it was personal. A vendetta. Personal obsession to strike hard at Icarus, even if it meant striking himself.</b></p><p><b>The Maverick made his way to the throne, setting out his mission to rebuke all that came before him, and whether or not those foundations were to be replaced remained uncertain.</b></p>`)
-          // idk how to add playlists but to do that you create a new playlist in code1 with just that song and put changePlaylist(nameOfYourEndingPlaylist) right here
-//e.image = ""
-e.executable.push([0, (() => {
-    e.image = 'https://i.imgur.com/yLAWebg.png';
-    const audio = document.getElementById("audio");
-    if (audio) audio.loop = true; 
-})]);
-if (used != true) {
-    const mccainWin = new Playlist();
-    const mccainWinSong = new Song(
-        "Who Are You",
-        "The Who",
-        "https://i.imgur.com/gfGS7zF.gif",
-        "https://audio.jukehost.co.uk/YU7VJPBFUhsiPnWp9KhW7V2oGrHDWFRT"
-    );
-    mccainWin.addSong(mccainWinSong);
-    changePlaylist(mccainWin);
-    used = true;
-}
-}
 else if (quickstats[0] >= 355 && Dem == 1 && War == 0) { // landslide win - McCain
 e.pages.push(`<h3><i>Burned Bridges</i></h3>
           <p><b>It was not merely enough to defeat his challenger. He had to destroy him. And so Icarus plotted away, crafting schemes and tricks of equal magnitude. The foe that crossed rivers and scaled mountains, spouting lies and flaunting falsehoods, deserved it after all. The Maverick spoke in a measured tone and backed his words with bold claims of his legend. The populace ate it up. Icarus, though, was not so gullible.</b></p><p><b>For every time the Maverick preached his plans for Olympus, every lie he spoke of his record, every tune he sang of struggle, Icarus grew more jealous. For such a champion to flaunt his prestige and valor as if it were anything new, Icarus failed to understand the excitement. The tile floors of Olympus would shake in response to a tale written once before. </b></p><p><b>Icarus was everything the Maverick claimed to be and then some. Yet his subjects were so easily drawn to a mere reflection. A lesser version of himself, not because he was better but because he was new, and Icarus was not. As he pondered such circumstances, he recollected his thoughts to envision the possibility of his throne being claimed by such a fraud.</b></p><p><b>The idea of losing his throne to such an insult was unbearable for Icarus to come to terms with. And so Icarus lashed out at the Maverick, first by chipping away at his battle-worn attire. Then, by drenching him in the boiling oils, he was blessed with the rage of his struggling subjects. When his foe attempted to return fire, his attacks fell flat, as did his fleeting intellect. Icarus finally lit a flame similar to the heat that once scorched his predecessor and ignited the Maverick’s chances at the throne in fire. He burned until he merely dwindled to dust, struggling to fight back against the flow of wind. </b></p>`)
@@ -73859,6 +74704,29 @@ if (used != true) {
         "Breaking Benjamin",
         "https://i.imgur.com/LJuqjW4.gif",
         "https://audio.jukehost.co.uk/U6PYUana3KFQ7hcEzEBfk5wwO79R5Lge"
+    );
+    mccainWin.addSong(mccainWinSong);
+    changePlaylist(mccainWin);
+    used = true;
+}
+}
+else if (quickstats[0] <= 269 && Dem == 1 && War == 0) { // Weak Defeat - McCain
+e.pages.push(`<h3><i>No Apologies</i></h3>
+          <p><b>Flattened by his hubris and self-importance, Icarus had allowed the place once cherished to be stolen by a man who hadn't cared for the well-being of any who stood under his reign. He stood humiliated by a man he so desperately sought to tear down, forced to behold the restructuring of Olympus. </b></p><p><b>Fountains, once built to bring water to the people, were demolished, their only crime being that they bore Icarus's name. Every gift he had left behind was now slated for erasure, not out of policy or progress, but as punishment. Revenge had become the foundation of the new regime.</b></p><p><b>What the people had failed to realize was the full extent of the Maverick's petty decisions. Even if he and Icarus agreed on something, it had to come down regardless of whether it helped or hurt the people. This wasn't theater for the sake of spectacle; it was personal. A vendetta. Personal obsession to strike hard at Icarus, even if it meant striking himself.</b></p><p><b>The Maverick made his way to the throne, setting out his mission to rebuke all that came before him, and whether or not those foundations were to be replaced remained uncertain.</b></p>`)
+          // idk how to add playlists but to do that you create a new playlist in code1 with just that song and put changePlaylist(nameOfYourEndingPlaylist) right here
+//e.image = ""
+e.executable.push([0, (() => {
+    e.image = 'https://i.imgur.com/yLAWebg.png';
+    const audio = document.getElementById("audio");
+    if (audio) audio.loop = true; 
+})]);
+if (used != true) {
+    const mccainWin = new Playlist();
+    const mccainWinSong = new Song(
+        "Who Are You",
+        "The Who",
+        "https://i.imgur.com/gfGS7zF.gif",
+        "https://audio.jukehost.co.uk/YU7VJPBFUhsiPnWp9KhW7V2oGrHDWFRT"
     );
     mccainWin.addSong(mccainWinSong);
     changePlaylist(mccainWin);
@@ -74364,7 +75232,7 @@ if (used != true) {
         "115",
         "Elena Siegman",
         "https://i.imgur.com/wEU2knG.gif",
-        "https://audio.jukehost.co.uk/CCHJQwXK53E9XtqkpFrEuJAJY0eU1KPe"
+        "https://audio.jukehost.co.uk/10J2M7hyZYUisMpAJXCiu4Ms9c9kPLH7"
     );
     brownbackWin.addSong(brownbackWinSong);
     changePlaylist(brownbackWin);
@@ -74564,6 +75432,11 @@ e.pages.push(`<h3>Reuters: <i>Why Jeb Bush lost the White House</i></h3>
 <p><b>Miami (Reuters) - </b>- Republican Jeb Bush lost Tuesday's presidential election in an upset at the hands of President Wesley Clark. The now 3rd member of the Bush Clan to grasp the Republican Nomination for President failed to make his case to the voters.</p><p>As the blame game began, analysts on all sides of the aisle were blown away. How could this happen? With the financial crisis and Iraq in turmoil, this election seemed like a shoe victory to most.</p><p>Clark's actions left him entirely exposed to easy attacks from the right. Neoconservative icons were crawling out of the woodwork it lambast his foreign policy.</p><p>But despite all these factors, including a deeply unpopular Democratic President, a sputtering economy, and a generally tough political environment for Democrats, the former Governor met the same fate his brother did four years prior and his father faced in 1992.</p><p>Just 4 years ago, President George W. Bush's political career ended with General Clark in what many also called a shocking upset. At the time, it was unthinkable that the man who oversaw the events of 9/11, sporting a once untouchable approval rating, could fall flat in spectacular fashion.</p><p>Now, with his brother meeting a similar fate in what should have been even easier circumstances, most are asking if the Bush name is a curse or if Wesley Clark is untouchable.</p><p>In a bewildered concession speech, the former Governor congratulated the President and spoke of the need to unite behind the President during this crisis.</p><p>"These results may not be what we all wanted, but that doesn't take away from the issues we brought attention to during this campaign," he told his supporters at a somber post-election rally in Miami. "I hope President Clark takes note of this and pray that he can lead our nation into a greater future during his second term."</p><pRepublican strategist John Feehery was equally baffled by the results, struggling to understand why he alluded to a gap between Bush and the Republican base.</p><p>"Governor Bush struggled to connect with key voting demographics below college educated voters. Possibly his immigration and education stances being liberally prone like his primary opponents often highlighted."</p><p>The primary opponent Feehery is referring to was Arkansas Governor Mike Huckabee, who often attacked Bush for his weak stance on immigration and suggested many dedicated Republicans could be turned off by it.</p><p><b>OUT OF TOUCH, EASILY EXPOSED</b></p><p>It's hard not to blame the range of different avenues Democrats could attack Bush from, whether it was his handling of the Schiavo Case, unpopular social issues stances, or even the controversy surrounding the 2000 Florida recounts brought up.</p><p>He first championed his foreign policy, attacking President Clark's handling of the war in Iraq. While media think tanks often agreed with Bush, exit polls display Iraq as either the 3rd or 4th most important issue of the election.</p><p>The financial crisis had put economic solutions at the forefront of people's concerns. While President Clark responded calmly and firmly, Governor Bush's proposals often didn't go far enough for voters. The offer of tax cuts and reigning in government spending during a crisis and calamity had fallen flat.</p><p>Aides of the Clark Administration seem equally bewildered by the outcome.</p><p>"It is highly doubtful that anyone will ever have an easier and more advantaged political climate than Governor Bush was given." - Nancy Parrish, White House Chief of Staff.</p><p>Top Bush campaign officials say that the outcome was of huge disappointment and surprise to Jeb.</p><p>What about Ridge? To most, the selection of the former Pennsylvania Governor and Homeland Security Secretary did little to help sew toes with Bush's right flank, and in return, it brought about the underlying distrust of the George W. Bush Administration. As Secretary of Homeland Security, Tom Ridge oversaw an era of massive oversight and human rights violations.</p><p>While the pick didn't damage Bush's relationship with Republicans, it didn't do much to excite them.</p><p>"Bush had promised to deliver on key Republican issues during the primaries but chose to run to the center once nominated," said Republican strategist David Kochul. "Ridge isn't to blame for the loss this was of Bush's doing and him alone."</p><p>Bush campaign manager Danny Diaz said Bush ran a stellar campaign, but President Clark had nailed him on minor issues. As a result, President Clark could trade votes he lost in states struck by the recession for votes in traditionally Democratic states.</p><p>"Nothing in the exit polls tell us Governor Bush was simply unpopular by name recognition, there's more to the story and I'd like people to understand these things are complicated," he said.</p><p>Editing by Alan Elsner</p><p>Our Standards: <br>The Thomson Reuters Trust Principles.</br></p>`)
 e.executable.push([1, (() => {e.image = e.image = 'https://i.imgur.com/ejSF3hx.png'})])
 }
+else if ( quickstats[0] <= 269 && Dem == 4 && Messiah == 1) { // Rudy L
+e.pages.push(`<h3>Reuters: <i>FOR IMMEDIATE RELEASE</i></h3>
+<p><b>HRC FORMALLY SUBMITS DEMANDS FOR AN IMMEDIATE SHUTDOWN OF FEDERAL REORIENTATION CAMPS AFTER PASTOR CONVICTED OF CHILD MOLESTATION IN A SPREE OF ALLEGATIONS THROWN AT FACILITIES NATIONWIDE.</b></p><p>The Human Rights Campaign has now formally demanded the closure of all federally funded Reorientation and Renewal Centers established under President Mike Pence's 2009 Youth Morality Restoration Act, now amid nationwide allegations and convictions of pastor George Paula for child molestation.</p><p>Last week, pastor George Paula, who was contracted to work at the federal R.R Center in Birmingham, Alabama, was found guilty of 13 counts of child molestation, soliciting sex from a minor, and aggravated assault on a minor. Pastor Paula was given access to private spirituality sessions with several LGBTQ+ teens over the course of his tenure and had sexual contact with over 11 children. </p><p>Despite this Paula's victims are still required to attend seminars and conversion therapy at the Birmingham facility despite parental requests to pull their children out of the program. </p><p>The Pence Administration has refused to make a statement on Pastor Paula's conviction or the nightmare that his victims are currently living.</p><p>> This verdict confirmed our fears that the Pence administration had not crafted any failsafe for this possibility, and now we are witnessing victims of rape  taken from their homes and placed right back into the palms of child molesters and rapists." HRC President Alison Morales said on CNN.</p><p><b>HRC DEMANDS ACTION</b></p><p>HRC urges the administration and Congress to:</p><p><b>1. Closure of all R.R Centers federally funded in 42 U.S.C. § 5121.</b></p><p><b>2. Repeal the Youth Morality Restoration Act.</b></p><p><b>3. Pass the Child Protection & Equality Act of 2010 (H.R. 6473), which would:</b></p><p>Ban conversion therapy nationwide.</p><p>Establish a survivor compensation fund for the victims of the Pence laws.</p><p><b>RESOURCES FOR SURVIVORS</b></p><p><b>HRC Crisis Helpline – 1-800-777-HRC1 (24/7 confidential support)</b></p><p><b>Lambda Legal Hot­line – 1-866-542-8336</b></p><p><b>Trevor Lifeline – 1-866-488-7386 (LGBTQ youth)</b></p>`)
+e.executable.push([1, (() => {e.image = e.image = 'https://i.imgur.com/ZLII0mQ.png'})])
+}
 else if ( quickstats[0] <= 269 && Dem == 4 && Econ < 3) { // Rudy w
 e.pages.push(`<h3><i>Giuliani Calls for End to Public Jobs Reports, Citing “Depressing People”</i></h3>
 <p><b>March 11, 2009 – Washington, D.C.</b></p><p>Leaked cellphone footage of President Rudy Giuliani discussing the plummeting jobs market revealed just how grim the economic forecasts have become. Public morale sank following the release of the Department of Labor's brutal February employment figures, which counted over 811,000 jobs lost since January. The February forecast initially projected a lighter figure of around 450,000 jobs lost, but the number surged beyond the losses of January, indicating that this recession is not ending anytime soon.</p><p>At a time when Americans look to their President for guidance, the Giuliani administration has been remarkably silent. Political pundits claim that the President is attempting to keep his plans airtight after the January public scare, when a leaked memo from White House staff revealed that the President was only considering a stimulus package of just over $100 million at the time. While the White House denies the memo's claim, the public backlash stirred further losses in the January jobs report. </p><p>The earth-shattering news, however, lies in a leaked video of President Giuliani discussing the monthly jobs report with Secretary of Labor Elaine Chao. "I know how this is going to sound but I need the monthly jobs reports to stop going public," Giuliani said while drinking a glass of wine. "Fact of the matter is that these reports are only adding fuel to the fire and are just depressing people," the President added. While his Labor Secretary argued against such a move, Giuliani was having none of it.</p><p>"Look, let's face it, we don't know how to address the elephant in the room so instead of throwing a nationwide pity party let's come up with some good news," said Giuliani. "Like what Mr. President," an aide questioned him off camera. "I don't know, how about the ground hog not seeing its shadow, anything to get the press off my ass," Giuliani answered.</p><p>The leak did anything but help the President stay above the fray, as a bipartisan lineup of concerned heads voiced their concerns. "Smothering the markets in false information is dangerous and unconstitutional," said Senator Tom Daschle (D-SD). </p><p>The public frenzy of another scandal plaguing an already sacked administration serves to fuel disgruntled Americans hoping for transparency from their government. Giuliani may have won the battle in defeating Wesley Clark last November, but it seems he's losing the war against his own jaw.</p>`)
@@ -74578,11 +75451,6 @@ else if ( quickstats[0] >= 399 && Dem == 4) { // Rudy L
 e.pages.push(`<h3>CNN: <i>Leaked Memo Reveals Giuliani's 'Conditions' for Governor Run</i></h3>
 <p><b>By Allison Gerola, CNN || September 14, 2009</b></p><p>The office of Former New York City Mayor and Republican nominee for President in 2008, Rudy Giuliani, came under fire after a leaked memo of Giuliani's requirements to run for Governor of New York next year.</p><p>In the document obtained by NBC, Giuliani staffers lay out the exact circumstances required for the Mayor to be interested in running for Albany in 2010.</p><p><b>According to CNN, the memo reportedly listed the following conditions:</b></p><p><b>Incumbent Governor David Patterson must remain in the race. The memo described Patterson as a "wilted flower" waiting to be "deheaded."</b></p><p><b>The state economy must be "so, so", not too bad that New Yorkers are striving for socialism, but not good enough for Democrats to be proud of it. New Yorkers must be teetering on the brink of suicide, but just not there "yet."</b></p><p><b>Andrew Cuomo must be "MILES" away from getting the Democratic nomination. Cuomo's absence from the ballot is listed as the non-negotiable condition.</b></p><p><b>Finally, Giuliani's personal budget must be over $ 250,000 for private transportation, private dining, and other mayoral essentials.</b></p><p>Giuliani's office has dismissed the story as another "political hit job" aimed at the Mayor's head. "Out of the last 80 or so stories procured about me and my enemies by NBC 108% of them have been part of a smear campaign against me," Giuliani said to a FOX reporter outside his Manhattan apartment. Later, he denied the claims, calling them "crap."</p><p>David Patterson campaign officials joined in on the chorus, laughing at Giuliani's claims. Richard Fife, Patterson's campaign manager, gave separate remarks claiming that "the idea of Patterson dropping out of the race is pure fantasy and the Governor is in the race to win it." Although reported internal polling shows Patterson trailing Giuliani by just under 3 points, the Governor's office remains confident in its ability to keep Albany for the Democrats.</p><p>Other Democrats had a field day with the leaked memo, including the most prominent figure in question, Attorney General Andrew Cuomo, who issued his own statement, further fueling speculation about his potential run for Governor. "Giuliani's fears are of no concern of mine, I care for New York's needs first and foremost and if I'm needed I'll be there."</p>`)
 e.executable.push([1, (() => {e.image = e.image = 'https://i.imgur.com/eWN8lCl.png'})])
-}
-else if ( quickstats[0] <= 269 && Dem == 4 && Messiah == 1) { // Rudy L
-e.pages.push(`<h3>Reuters: <i>FOR IMMEDIATE RELEASE</i></h3>
-<p><b>HRC FORMALLY SUBMITS DEMANDS FOR AN IMMEDIATE SHUTDOWN OF FEDERAL REORIENTATION CAMPS AFTER PASTOR CONVICTED OF CHILD MOLESTATION IN A SPREE OF ALLEGATIONS THROWN AT FACILITIES NATIONWIDE.</b></p><p>The Human Rights Campaign has now formally demanded the closure of all federally funded Reorientation and Renewal Centers established under President Mike Pence's 2009 Youth Morality Restoration Act, now amid nationwide allegations and convictions of pastor George Paula for child molestation.</p><p>Last week, pastor George Paula, who was contracted to work at the federal R.R Center in Birmingham, Alabama, was found guilty of 13 counts of child molestation, soliciting sex from a minor, and aggravated assault on a minor. Pastor Paula was given access to private spirituality sessions with several LGBTQ+ teens over the course of his tenure and had sexual contact with over 11 children. </p><p>Despite this Paula's victims are still required to attend seminars and conversion therapy at the Birmingham facility despite parental requests to pull their children out of the program. </p><p>The Pence Administration has refused to make a statement on Pastor Paula's conviction or the nightmare that his victims are currently living.</p><p>> This verdict confirmed our fears that the Pence administration had not crafted any failsafe for this possibility, and now we are witnessing victims of rape  taken from their homes and placed right back into the palms of child molesters and rapists." HRC President Alison Morales said on CNN.</p><p><b>HRC DEMANDS ACTION</b></p><p>HRC urges the administration and Congress to:</p><p><b>1. Closure of all R.R Centers federally funded in 42 U.S.C. § 5121.</b></p><p><b>2. Repeal the Youth Morality Restoration Act.</b></p><p><b>3. Pass the Child Protection & Equality Act of 2010 (H.R. 6473), which would:</b></p><p>Ban conversion therapy nationwide.</p><p>Establish a survivor compensation fund for the victims of the Pence laws.</p><p><b>RESOURCES FOR SURVIVORS</b></p><p><b>HRC Crisis Helpline – 1-800-777-HRC1 (24/7 confidential support)</b></p><p><b>Lambda Legal Hot­line – 1-866-542-8336</b></p><p><b>Trevor Lifeline – 1-866-488-7386 (LGBTQ youth)</b></p>`)
-e.executable.push([1, (() => {e.image = e.image = 'https://i.imgur.com/ZLII0mQ.png'})])
 }
 else if ( quickstats[0] >= 269 && Dem == 4 && Messiah == 1) { // Rudy L
 e.pages.push(`<h3>Reuters: <i>Why Mike Pence lost the White House</i></h3>
@@ -74599,7 +75467,7 @@ e.pages.push(`<h3><i>From 4chan</i></h3>
 <p>>be me</p><p>watch the State of the Union address and see that President Paul is a sweaty glob at the podium</p><p>he starts Schizo rambling about a deep-state cable working against him </p><p>Crowds boos</p><p>I'm so fucking hyped</p><p>He starts yapping about Clark running a shadow government that is working against American interests.</p><p>The screen cuts to black for a minute </p><p>The screen turns back on </p><p>Paul is fucking in cuffs and hauled out by the Sargent of arms</p><p>MICHAEL MULLEN COUP </p><p>Did you guys see this shit????</p><p>>Yeah, lol I'm honestly so fucking lost, man. These military pricks got us at war with Russia, and we voted for Paul to pull the plug, but their bastards destroyed our beloved democracy. </p><p>>I TOLD YOU GUYS THAT PAUL NEEDS TO SEND ALL THESE MILITARY FUCKS TO GUANTANAMO!</p><p>Clark is running everything from the shadows still, and now the chief of staff is gonna jail our President and hand the keys over to the mother fucker who got us in this mess!</p><p>Deepstate cable mention but no call out of the Jews </p><p>Wiltedflower.png</p><p>>Dude, dude, they're literally purging the government. They got Jeff Sessions cuffed and hauled off, too! Mullen is talking up this Russian infiltration like it's the McCarthy trials all over again.</p><p><b>Update:</b></p><p>Clark and Co. were seen entering the Capitol building by reporters</p><p>Jeff Sessions and other members of Paul's cabinet were arrested, supposedly Vice President Johnson was nowhere to be found, allegedly hiding from these military freaks somewhere in the capitol</p><p>Is it over for Democracy anons?</p><p>The government has just been successfully couped. What the fuck do you think the state of democracy is now?</p><p>This is just utterly bleak</p><p>First President to stand by the Constitution as it was written</p><p>Finally, pulling away from sham wars and useless alliances</p><p>LITERALLY STOPPING THE WORLD FROM BLOWING THE FUCK UP</p><p>Gets couped</p><p>Fucking wonderful </p><p><b>Last update:</b></p><p> Uh, the government is looking into shutting down all websites that promote "propaganda supporting foreign enemies."Is this the end?</p>`)
 e.executable.push([1, (() => {e.image = e.image = 'https://i.imgur.com/KjaGX1y.png'})])
 }
-else if ( quickstats[0] <= 269 && Dem == 5 && Win < 6 && War == 0 && Lehman == 1 || quickstats[0] <= 269 && Dem == 5 && Win < 6 && War == 0 && Fred == 1 || quickstats[0] <= 269 && Dem == 5 && Win < 6 && War == 0 && Econ > 0) { // rudycare
+else if ( quickstats[0] <= 269 && Dem == 5 && War == 0 && Lehman == 1 || quickstats[0] <= 269 && Dem == 5 && War == 0 && Fred == 1 || quickstats[0] <= 269 && Dem == 5 && War == 0 && Econ > 0) { // rudycare
 e.pages.push(`<h3>The Young Turks: <i>Republicans Are Going To Lose</i></h3>
 <p>Look, I don't think I need to tell you this, but here's a prediction: Democrats are going to pummel Republicans in a couple of months. The map is going to shift blue at a rate never before seen. Senate seats like Ohio, Pennsylvania, and Indiana are all up for the president, who has a historically low approval rating in all three.</p><p>Republicans have begun to be president, and, as we will show, you have relegated Paul to small crowds while on the trial. Most humiliatingly, though, during the president's most recent stops, he found himself tied down to his failed attempt at killing social security. Let's go to clip number 7 for that.</p><p><b>—</b></p><p><b>CUTS TO VIDEO OF RON PAUL SPEAKING TO SENIOR VOTERS</b></p><p><b>—</b></p><p>"President Paul how can we trust you? How do you expect us to trust you after you tried to gut millions of benefits from Americans in need?"</p><p><b>PAUL: </b>Our Founding Fathers never intended for the government to be responsible for so much bloat. The deficit is unsustainable, and so is the long-term solvency of the program you know as Social Security.</p><p>"But we need it to live, we have a right to that money!"</p><p><b>PAUL: </b>When we get into the nitty gritty about rights, human rights are subjective. I look at things from a clinical perspective. It allows me to make the hard decisions that no one else is willing to make.</p><p>"So what stops us from voting against your plans in the upcoming midterms?"</p><p><b>PAUL: </b>Nothing, I suppose, but for your own sake and the sake of your children, you must realize that everyone is going to die. Everyone—</p><p><b>—</b></p><p><b>CUTS BACK TO CENK</b></p><p><b>—</b></p><p>Well, you heard it here, folks. We're all going to die, so why not accept it? My God, I have not heard such great wisdom from a Republican in a long time. A doctor, even Christ. I mean, what are we doing here? Are they trying to lose? </p><p>See, these assholes are down by at least 15 nationwide, and the stunt President Paul pulled trying to kill the program that, which, let's face it, predominantly benefits Republican voters, is an ingenious path to a Democratic victory in these upcoming midterms.</p><p>Between firing McChrystal and letting the economy burn to the ground, the president has given us everything we need to recover from the wound given by that jackass Clark and move on already. I don't want to hear about any Wesley Clark comebacks, either. I want a genuine, hardened progressive like Sherrod Brown or Russ Feingold to jump on the political scene. These guys have what it takes to end this sick joke.</p>`)
 e.executable.push([1, (() => {e.image = e.image = 'https://i.imgur.com/7dGQTEj.png'})])
@@ -74712,6 +75580,11 @@ else if ( quickstats[0] >= 269 && Dem > 0 && War == 1 && Sarkozy == 1) { //
 e.pages.push(`<h3><i>Wesley Clark's Georgia Gamble Brings the World to the Brink</i></h3>
 <p><b>By Seumas Milne, The Guardian, December 21, 2008</b></p><p>It's now beyond the shadow of a doubt that the August war, which could have come to an end that same month, was not a spontaneous eruption but a calculation.  A report by Tim Whewell, which aired on Newsnight and on Radio 4's File on Four, found strong evidence confirming that western-backed Georgia was the aggressor on the night of August 7. It also assembles powerful testimony of wide-ranging war crimes carried out by the Georgian army in its attack on the contested region of South Ossetia. </p><p>Georgian President Mikheil Saakashvili was directly encouraged by American President Wesley Clark to attack South Ossetian separatists, which would force Russia's hand. For those not informed about Clark's record, this is the same man who ordered British forces to attack Russian soldiers at Prestina Airport while Supreme Allied Commander of NATO—an order which was both defied and publicly admonished for nearly taking another regional conflict worldwide.</p><p>Unfortunately, there was no General Jackson able to tell the American president "no" and avoid setting off World War III. By pressuring Saakashvili, who already has a record of eccentricity and foolhardiness, Clark got the result he wanted—turning what should have been a two-week skirmish into months of bloody fighting to be called off with his genius plan to bomb the Roki Tunnel.</p><p>Russia's reaction was, of course, furious; not only did any attempt at closing the war with a ceasefire get tossed, but now the American air force trapped thousands of Russian soldiers without a way out and blocked off from reinforcements. No state would ever tolerate such a move, yet Clark's cheerleaders claim it's Russia's responsibility to seek an end to the war.</p><p>The fact of the matter is that NATO has slowly encircled Russia for years, with decreasing justification with each state added to the defensive alliance. In no way should Wesley Clark have encouraged Georgia's admission into NATO. He has single-handedly tarnished his beloved alliance's credibility.</p><p>By contrast, the efforts of Nicholas Sarkozy to broker a ceasefire should be hailed as a valuable asset to the world. Whatever you think of his domestic record, Sarkozy has worked around the clock to steer Clark's sinking ship. The real test, however, will depend on Sarkozy's ability to assert himself and pull the Americans’ leash.</p><p>The alternative is a return to the dark ages. All because Americans elected the single worst human being capable of handling regional clashes. This war falls on Clark's shoulders, as does the climbing death toll along with it.</p>`)
 e.executable.push([2, (() => {e.image = e.image = 'https://i.imgur.com/VuYbSKU.png'})])
+}
+else if ( quickstats[0] >= 269 && e.player_answers.includes(254910)) { // 
+e.pages.push(`<h3>ABC News: <i>Charlevoix's father was found dead amid a horrifying trend of suicides.</i></h3>
+<p>Mitch Andrews, a local Charlevoix blue-collar worker, was found dead under the US 31– Round Lake Outlet Bridge in what authorities have confirmed to be a suicide. The exact timeline of developments is iffy, but through statements of the Charlevoix police department and family members of Mr. Andrews, the circumstances that led to Mitch Andrews' death follow a depressing but increasingly common tale for the American working class.</p><p>On Monday, Charlevoix Manufacturing Co., an aluminum foundry and machine shop that had been operating for nearly 30 years, announced it would be laying off almost all of its staff, apparently due to closure. Mitch Andrews found himself out of a job as part of these layoffs, and later that day, he would be informed that the bank intended to foreclose on his family's home. According to his two daughters, the representative of the bank came to their doorstep, handing their father papers with a "without remorse." In an instant, the stability of the family's life, their home where Mitch's children grew up, the place filled with memories of birthdays, holidays, and quiet evenings, was threatened.</p><p>The tragedy befell on Thursday when Mrs. Andrew had called friends of her husband, hoping to find his whereabouts after he had gone missing for over 4 hours. Street camera view of the US 31– Round Lake Outlet Bridge shows Mr. Andrew's car pulled over in the dead of night and the figure of his body is seen tumbling off the bridge into the river below.</p><p>Before he met his tragic fate, he sent out a barrage of texts to his loved ones, and thanks to Elizabeth Andrew handing over photos of the texts, we can show you them with her blessing.</p><p><b>Dad: I'll be home before 9 </b>sent 7:55 PM</p><p><b>Me: Okay, I'm going to bed early love you dad</b> sent 7:59PM</p><p><b>Dad: Just know I'll always love you Liz, I'm sorry </b>sent 11:45PM</p><p><b>Me: What? </b>sent 8:45AM</p><p><b>Me: Dad where are you moms freaking out </b>sent 8:46AM</p><p><b>Me: Dad answer please</b> sent 8:46AM</p><p><b>Me: Dad! </b> sent 8:47AM</p><p>Heartbroken and burdened by guilt, Elizabeth said the following: "I slept through my father's plea for help. I didn't stop him, I couldn't say goodbye, he was gone before I even woke up. How am I supposed to live with that?"</p><p>The current state of the country is bleak, and the tale of a blue-collar dad struggling to find his way home is something no one wants to recount. Unfortunately, in times like these, we are left with commonalities such as these.</p><p>Friends and co-workers remember Mitch as a kind-hearted man who carried the weight of responsibility for his family with quiet dignity. His death is a stark reminder of the human toll taken by ongoing economic downturns, and the Charlevoix community rallies to his family's aid to help cope with the immense loss.</p>`)
+e.executable.push([2, (() => {e.image = e.image = 'https://i.imgur.com/OlgWh0X.png'})])
 }
 else if ( aa[0].electoral_votes < 270 && Dem > 0 && Win > 7) { // 
 e.pages.push(`<h3><i>I HAVE NO MANDATE, BUT I MUST RULE</i></h3>
@@ -74887,6 +75760,11 @@ e.pages.push(`<h3><i>Brown's Triumph</i></h3>
 <p>January 4th, 2009</p><p>Prime Minister Gordon Brown's relationship with President Wesley Clark has been well-documented, with the two men holding immense respect for one another. Amid Clark's public crusade in the Caucasus crisis, he appears to have successfully urged the U.S President to scale back its plans of escalation and seek peace.</p><p>According to BBC reports, Brown spoke with Clark over the phone on Monday night, warning that the increased hostilities with Russia threatened to sink NATO into a conflict it could not control. Reportedly, Brown urged the President to look at the broader picture, which was grim, telling him, "This is not a hill worth dying to protect, have Georgia sue for peace and fight another day." </p><p>Although the war is in an antebellum period, with the winter discouraging any primary operations from either side, the Prime Minister claimed that the opportunity to end this war before Georgians lost any more lives was "worth pursuing." </p><p>President Clark, who had pulled Secretary of State John Kerry from near-final ceasefire talks just months prior, was apparently moved by Brown's advice. A White House statement would later confirm that the President was "reassessing the evolving situation." Later, the State Department confirmed that it was willing to negotiate with Russia, with French diplomats serving as mediators.</p><p>"President Clark remains committed to Georgia's sovereignty but circumstances demand that he brokers peace for the sake of the Georgian people," White House Chief Of Staff Terry McAuliffe said Wednesday morning.</p><p>In London, Downing Street remained cautious but optimistic that the war and the tensions surrounding it would finally be eased to a "comfortable conclusion." With Brown's measured diplomacy seemingly working its natural charm, some have even floated that he deserves a Nobel Peace Prize, although these claims are premature.</p><p>Observers attribute Brown's success in pulling America back to his prior feats in advising Clark's economic recovery response last year and other diplomatic efforts, which developed a "strong friendship" between the Western leaders.</p><p>Although fighting continues even now, it appears that an end is in sight, and despite American saber-rattling, this conflict can come to an end. Whether Brown's counsel has won the faith of his own country remains to be seen.</p>`)
 e.executable.push([3, (() => {e.image = e.image = 'https://i.imgur.com/osaATm4.png'})])
 }
+else if ( quickstats[0] >= 269 && e.player_answers.includes(254910)) { // 
+e.pages.push(`<h3>The Intercept_: <i>California Supreme Court strikes down President Clark's executive order, stopping the creation of internment camps for "radical Muslims."</i></h3>
+<p><b>By Murtaza Hussain</b></p> <p>President Clark made history weeks ago when he signed Executive Order 13767, which effectively revived internment camps styled after those used in WW2.</p><p>The executive order was crafted in response to the Charlottesville shooting in which eight civilians were killed in what was later labeled a domestic terrorist attack. President Clark justified the decision at a press conference where he stated:</p><p>"If these people are radicalized and they don't support the United States and they are disloyal to the United States as a matter of principle, fine. It's their right and it's our right and obligation to segregate them from the normal community for the duration of the conflict, if someone supported Nazi Germany at the expense of the United States, we didn't say that was freedom of speech, we put him in a camp, they were prisoners of war."</p><p>This was in response to heavy criticism of his decision to remain in Iraq and Afghanistan and expand drone warfare, taking out targets in Pakistan and Syria. With mass protests at home and abroad, he's faced intense scrutiny from many within his own party, who call for the President to back down from this hill.</p><p>Multiple courts across the country immediately questioned the executive order's legality and put it to the test, halting the creation of a single camp. Now, in a 6-1 decision, the teeth of the executive order have essentially been pulled before it could even be put into action.</p><p>The entire debacle has become a political bruise for the President, with most of his party distancing themselves from his decision.</p><p><b>ABOUT</b></p><p><b>SUPPORT US</b></p><p><b>NEWSLETTER</b></p>`)
+e.executable.push([3, (() => {e.image = e.image = 'https://i.imgur.com/yXJ8Fzn.png'})])
+}
 else if ( aa[0].electoral_votes < 270 && Dem == 1 && Win < 8) { // 
 e.pages.push(`<h3>NPR: <i>President McCain hails Libyan Rebels as "Heroes"</i></h3>
 <p><b>By Mike Holtz</b></p><p><b>March 4, 2011</b></p> <p>The President made remarks that drew criticism while on a trip through Benghazi to establish diplomatic ties with the rebellion government. The rebels have found their champion to offer support in their quest to topple Colonel Moammar Gaddafi.</p><p>President John McCain (Republican, Arizona): I've met these brave fighters who are not al-Qaida. They are Libyan patriots.</p><p>Such remarks have raised criticism about the necessity of aiding the rebels in the same vein the United States S. did in the 1980s with the mujahideen battling the Russians in Afghanistan. Some of those fighters Washington helped arm and train in Afghanistan later joined al-Qaeda. The President dismissed the criticism, saying that none of the leaders had any ties to radical Islam in their history.</p><p>Many within the President's inner circle have floated the idea of sending ground troops to Libya. While President McCain has made no assertions, he has made it clear that the United States will support the National Transitional Council in Benghazi to avert a possible stalemate.</p><p>President McCain: I'll be very frank. I do worry that if there is a stalemate here, it could open the door to radical Islamic fundamentalism because of the frustration that thousands and thousands of young people would feel as if they are deprived of participating in democracy in the united Libya.</p><p>The President has drastically increased NATO air strikes, deployed Predator drones to Libya, and refused calls to take the A10 and the AC130 out of combat. Amid low approval ratings stirred by McCain's legislative failures to reform social security and the second PATRIOT Act, it seems the President has turned all of his focus outward.</p> <br><b>More From NPR</b></br><span style="color:Blue;"><u>What does the Vice President's "Sqeeze Gaddafi" remark mean for the future of the administration's Libyan policy? </span></u> (Jan 9th 2011)</br></br><span style="color:Blue;"><u>Former President Clark lambasts McCain's escalation of the Libyan conflict in a CNN interview.</span></u> (Feb 14th 2011)</br></br><span style="color:Blue;"><u>How McCain's right flank intends to cripple the President's reelection campaign.</span></u> (Feb 20th 2011)</br></p>`)
@@ -74902,7 +75780,7 @@ e.pages.push(`<h3>Larry King Live CNN: <i>Trump flirts with a presidential run, 
 <p>Real estate mogul and reality TV host Donald Trump went on Larry King Live to advertise the 10th season of The Apprentice, which is coming later this year. While discussing the details of the season, he commented on the Bush Administration's failures to lift Americans out of the hole left by the 2008 recession. Later, revealing that the season's theme was "Second Chances," referring to the fact that the 2008 recession impacted all the contestants.</p><p>He later went into a rant about the Bush Administration's efforts in combating China by "selling the American worker," as Trump put it. He claimed Bush was letting the world "eat our lunch" by signing free trade deals screwing over the American auto industry and farm industry.</b></p><p>President Bush, who championed the agreements with India, Japan, and the Philippines to combat Chinese economic prowess, has stood by his efforts, calling them "necessary deals to keep America in the lead." Trump's worldview is quite different, as he later tore apart NATO allies for not meeting the minimum military spending requirement.</p><p><i>King asked, "Why don't you make a run for President then?"</p><p>Trump replied, "I've been thinking about it and if I did I would campaign for American workers which naturally aligns me with the Democrats. I'm a friend of these people and a lot of them want me to run and if I did I believe I'd win."</p><p>"Then why don't you?" King pressed once more.</p><p>"If I do it, I'll win, Democrats win and America wins." Trump replied.</p><p>"So will you run?" King asked for a final time.</p><p>Trump replied, "We'll see."</p><p>Trump has seemingly opened the door to run in the 2012 Democratic primaries, which would press him against New York Senator Hillary Clinton, North Carolina Senator John Edwards, Former House Majority Leader from Missouri Dick Gephardt, and Independent Senator Bernie of Vermont.</p><p>His decision of whether or not he will run is not taken seriously by most Democrats, but he remains insistent that only he can beat Bush.</i></p>`)
 e.executable.push([3, (() => {e.image = e.image = 'https://i.imgur.com/JW2ougY.png'})])
 }
-else if ( aa[0].electoral_votes < 270 && Dem == 4 && Win < 8) { // 
+else if ( aa[0].electoral_votes < 270 && Dem == 4 && Win < 8 && Messiah == 0) { // 
 e.pages.push(`<h3>The Washington Post: <i>4th-grader quizzes Rice on the War in Iraq</i></h3>
 <p><b>By Alec MacGillis</b></p><p><b>Washington Post Staff Writer</b></p><p><b>February 4, 2010</b></p> <p>Days after justifying an emergency troop surge to Stanford University, Secretary of State Condoleezza Rice was again pressed by a 4th-grade student at Washington School on her role in sending more troops to Baghdad.</p><p>She stroked up controversy when asked to comment on President Giuliani's handling of what she called an "Iraqi civil war," which she had blamed former President Wesley Clark for allowing to take place.</p><p>Rice, in her first appearance in Washington since returning home from her visit to Baghdad, attended the Jewish Primary Day School of the Nation's Capital before giving an evening lecture at the Sixth & I Historic Synagogue.</p><p>The questions were developed beforehand by students and were not screened by the Secretary. They started innocently, asking what it was like growing up in segregated Birmingham, Alabama, until they took a darker tone.</p><p><b>Misha Lerner</b>, a student from Bethesda, asked the Secretary what she thought of the casualty rate of U.S. troops skyrocketing after President Giuliani's proposed troop surge went into effect.</p><p>The Secretary coldly stated, "It's a sad necessity following the disastrous state in which President Clark left the country."</p><p>She added: "I hope you understand that it was a very difficult time. We were all so terrified of another attack on the country. September 11 was the worst day of my life in government, watching 3,000 Americans die. Even under those most difficult circumstances, the president was not prepared to do something illegal, and I hope people understand that we were trying to protect the country."</p><p><b>Misha's mother warned the Secretary that the question her son had was even tougher</b>, "Are you going to end the war so people stop dying?"</p><p>"Nothing within President Giuliani's authority as Commander in Chief is off the table and we're doing everything we can to ensure this conflict comes to a swift conclusion soon. We will not abandon Iraq under any circumstances but we will look into alternative methods to wage war on terror to ensure another 9/11 never happens again."</p><p>The remarks drew criticism, with most claiming Secretary Rice alluded to the nuclear option. She has disavowed these claims and reiterated that the United States military only seeks conventional warfare methods.</p><p><b>2009 Washington Post Company</b></p>`)
 e.executable.push([3, (() => {e.image = e.image = 'https://i.imgur.com/x4pIEwj.png'})])
@@ -74967,7 +75845,7 @@ e.pages.push(`<h3>FOX: <i>Democrat prepare to sack Hillary as a final rebuke of 
 <p><b>By Jim Kelly</b></p><p><b>TV Host Donald J. Trump took the debate stage by storm last night, listing off his grievances about Democratic frontrunner, Senator Hillary Clinton, calling her a "Republican at heart" and a "warmonger." Senator Clinton has come under fire from many other Democratic opponents like John Edwards for working too closely with the Bush administration.</p><p>Mr. Trump then went into a tirade, lambasting President Bush, claiming he was a "no show on the job" getting paid to go on vacations abroad and asking, "Why would you pay a man $400,000 a year for a no-show job?" Much of the reality TV host's candidacy has been orbiting President Bush's failures to protect the American worker from "immigrants taking our jobs" and his push for free trade deals that "sell American farmers out."</p><p>The once-crowded field of establishment Democratic candidates has slowly dwindled after Trump's surprising victory in Iowa and the New Hampshire upset outcome of Senator Bernie Sanders taking the plurality. This effectively handicaps Senator Hillary Clinton's campaign as the candidates prepare to enter the South Carolina contest in what may decide who the next Democratic nominee will be.</p><p>Of those who remain, Former House Majority Leader Gephardt, after placing fourth in Iowa, many wonder why he's chosen to remain in the race, with many suspecting he hopes to revive his campaign at South Carolina or make a bid for VP of one of the mainline candidates.</p><p>While Senator Bernie Sanders polls poorly in most primaries leading up to Super Tuesday, he may drop out and throw his support behind Trump as an anti-establishment last stand.</p><p>Trump is expected to perform admirably in South Carolina, but if Edwards becomes the frontrunner in the long term, he may be in for a tough time.</p><p>Senator Clinton stands the most bruised in the race as most expected her to take the New Hampshire Primary with relative ease, now must place all her bets on beating Edwards in South Carolina.</p><p>John Edwards appears to be the front runner in waiting, and with Clinton's campaign is faltering, her defeat here can effectively boot her out of the race. If Edwards can secure the position as the last man with any ties to the establishment left, he'd enjoy frontrunner status and be able to watch as Trump and Sanders fizzle out by Super Tuesday.</p><p>Polls predict an Edwards victory after campaigning heavily with leaders of the black community in South Carolina.</p><h3>34-37% Edwards</h3><h3>26-28% Clinton</h3><h3>15-18% Trump</h3><h3></h3><h3>12-14% Sanders</h3><h3>5-9% Gephardt</h3>`)
 e.executable.push([3, (() => {e.image = e.image = 'https://i.imgur.com/FDShEaw.png'})])
 }
-else if ( quickstats[0] <= 269 && Dem == 4 && War == 0) { // rice quizz
+else if ( quickstats[0] <= 269 && Dem == 4 && War == 0 && Messiah == 0) { // rice quizz
 e.pages.push(`<h3>The Washington Post: <i>4th-grader quizzes Rice on the War in Iraq</i></h3>
 <p><b>By Alec MacGillis</b></p><p><b>Washington Post Staff Writer</b></p><p><b>February 4, 2010</b></p> <p>Days after justifying an emergency troop surge to Stanford University, Secretary of State Condoleezza Rice was again pressed by a 4th-grade student at Washington School on her role in sending more troops to Baghdad.</p><p>She stroked up controversy when asked to comment on President Giuliani's handling of what she called an "Iraqi civil war," which she had blamed former President Wesley Clark for allowing to take place.</p><p>Rice, in her first appearance in Washington since returning home from her visit to Baghdad, attended the Jewish Primary Day School of the Nation's Capital before giving an evening lecture at the Sixth & I Historic Synagogue.</p><p>The questions were developed beforehand by students and were not screened by the Secretary. They started innocently, asking what it was like growing up in segregated Birmingham, Alabama, until they took a darker tone.</p><p><b>Misha Lerner</b>, a student from Bethesda, asked the Secretary what she thought of the casualty rate of U.S. troops skyrocketing after President Giuliani's proposed troop surge went into effect.</p><p>The Secretary coldly stated, "It's a sad necessity following the disastrous state in which President Clark left the country."</p><p>She added: "I hope you understand that it was a very difficult time. We were all so terrified of another attack on the country. September 11 was the worst day of my life in government, watching 3,000 Americans die. Even under those most difficult circumstances, the president was not prepared to do something illegal, and I hope people understand that we were trying to protect the country."</p><p><b>Misha's mother warned the Secretary that the question her son had was even tougher</b>, "Are you going to end the war so people stop dying?"</p><p>"Nothing within President Giuliani's authority as Commander in Chief is off the table and we're doing everything we can to ensure this conflict comes to a swift conclusion soon. We will not abandon Iraq under any circumstances but we will look into alternative methods to wage war on terror to ensure another 9/11 never happens again."</p><p>The remarks drew criticism, with most claiming Secretary Rice alluded to the nuclear option. She has disavowed these claims and reiterated that the United States military only seeks conventional warfare methods.</p><p><b>2009 Washington Post Company</b></p>`)
 e.executable.push([3, (() => {e.image = e.image = 'https://i.imgur.com/x4pIEwj.png'})])
@@ -75110,7 +75988,7 @@ e.pages.push(`<h3><i>JOHN EDWARDS: MOVING ON TOO FAST?</i></h3>
 <p><b>By Erick Erickson</b></p><p><b>July 2, 2012</b></p><p>How long does it take someone to finish grieving their loved ones? Apparently, for recently widowed Senator John Edwards, it's not long at all. Mary Elizabeth Anania Edwards dedicated her life both to political activism and her family, and the announcement that a sitting senator's wife now had cancer was among the reasons why John Edwards would keep his seat comfortably in the 2010 midterms. Just months after winning another term in the Senate, John Edwards would say his final goodbyes to his loving wife in their home. </p><p>The people of North Carolina and America as a whole grieved for the Senator's wife, but since then, a noticeable abnormality has presented itself. Not since the days of John F. Kennedy Jr. have media outlets placed such a focus on a bachelor's stardom. Vogue Magazine and plenty of other news pundits describe John Edwards as "America's Most Popular Bachelor." Such disrespect to a widow's family would usually be met with harsh denunciation, but what's worse is that Senator Edwards appears to be playing into it.</p><p>Rumors spread that Edwards had found a new girlfriend just one year after his wife's passing. Now, everyone grieves differently at their own pace, but the death of Senator Edwards' wife appears to have only been a footnote in his life. Now, the Democratic nominee for President of the United States, Edwards, has waved the flag of sympathy for his late wife around like a trophy. Every time he mentions her, he looks more relieved than sorrowful. </p><p>Online social media platforms have taken a different approach to confronting Edwards' behavior. A popular YouTube video has done the rounds on various social media accounts of John Edwards' face superimposed on top of footage of James Sunderland in a video game called Silent Hill. The game follows James Sunderland, a recent widower who smothered his dying wife, Mary, with a pillow due to the physical burden of catering to her illness. The connection is hard not to put together.</p><p>President Bush has smartly refused to comment on any allegations relating to his opponents' love life. It doesn't take the President to point out what's obvious to the rest of us. John Edwards didn't love his wife; if he did, he wouldn't have left her memory in the dust or kicked her tragic fate around like a political football.</p>`)
 e.executable.push([4, (() => {e.image = e.image = 'https://i.imgur.com/M2rIiKi.png'})])
 }
-else if ( aa[0].electoral_votes < 270 && Dem == 4 && Win < 8) { // 
+else if ( aa[0].electoral_votes < 270 && Dem == 4 && Win < 8 && Messiah == 0) { // 
 e.pages.push(`<h3>From Reddit: <i>President Condoleezza Rice and Vice President Giuliani at Madison Square Garden Rally, STILL NO SIGHTING OF MIKE PENCE!!!!</i></h3>
 <p><b>u/libertarians</b></p><p><b>u/mayoforsam</b></p> <p>I know it's a tired joke, but seriously, where the hell is Mike Pence? I'm starting to miss the days when I could turn on my TV to watch President Giuliani's press conferences, where Pence would fan him with a giant feather while Condi fed him fruits until he'd occasionally answer a question about the invasion of Libya.</p><p> It was good entertainment hearing the president bring up 9/11 while justifying why we needed to bulldoze another random country. So what happened? Where's the shop bitch of the White House?</p><p>Secretary Rice is the one we get to see the most since she's the one busy covering for Giuliani's ass. All those failures in Libya? Benghazi? Please, Giuliani is a celebrity posing as the "acting president" now. Anyone with a brain and two working eyes can see that given State Department goon, John Kerry is the Democrat's pick for president, it's obvious that Rudy's incompetent foreign agenda has brought back old feuds.</p><p>This is a battle of foreign policy intellect, and Condoleezza Rice is in the hot seat, facing off against low approval ratings and Kerry being a popular face of the State Department. The media haven't picked up the sidelining of Pence, but it's pretty clear that his role in the administration is slowly being diminished in favor of laying the groundwork for President Rice's third term in 2016.</p><p>I wouldn't be confident in her shoes since most issues give Kerry the upper hand because Giuliani's inept economic policies have done nothing for American families.</p><p>Still, I'll be kicking up my feet no matter which deep-state puppet wins. Don't blame me; I'm voting for Randall Terry.</p>`)
 e.executable.push([4, (() => {e.image = e.image = 'https://i.imgur.com/HrpgXNA.png'})])
@@ -75135,17 +76013,17 @@ e.pages.push(`<h3>America 2012: <i>Cheney vs. Blagojevich So Called Democracy</i
 <p><b>Posted on JournalFreedom, October 2012</b></p><p>Sometimes, Washington takes pointers from secret tapes of Yeltsin & Co in the 90s. I can't think of any other good reason why the Americans would copy our glorious circus act from then to elect their leaders now.</p><p><b>Don't be afraid to observe it for yourself.</b></p><p>In one corner, you have the President of the United States, the all too lovable international teddy bear who runs America like his personal oil company. He could be any provincial oligarch running in Belarus, Ukraine, or Moldova. 1996 was a grim, cold, and unforgiving year, much like the scenario that presented itself within America's borders.</p><p>In the other corner stands Rod Blagojevich, Governor of Illinois, the state that hasn't caught a glimpse of hope through the layered atmosphere of corruption. A man caught selling government contracts to former governments as if it were a dacha outside Moscow. And this man seriously thinks he can be President.</p><p>The Americans, of course, deluded themselves. They pretend that what we observe now is a model for free and fair elections, but as I read this campaign's developments, I'm oddly reminiscent. It's a lot like reading the Kommersant in 1995; endless scandals, back-room deals, dark money flooding the system, and every candidate posing as the nation's sole savior.</p><p>The irony of listening to journalists hail Blagojevich with straight faces while he talks about bringing "honesty" and "transparency" back to government is that it's as absurd as Boris Yeltsin claiming he's sober. Rod isn't a stranger to clownish appeals to anti-corruption messaging; he's run on stopping others from putting their hands in the cookie jar since his first stint in politics. The difference is that he's stopping others so he can get his hand in there and eat away at his country's hope.</p><p>Ordinary Americans are caught in the same limbo we once confronted. They grumble in their kitchens while the breadwinner takes home less and less cash, and the price of their groceries continues to rise. The only noticeable difference is that they drown their sorrows with less vodka and more television.</p><p>So, yes, I'm thankful that Russia found its groove and moved on from the political death march Yeltsin led us through. I extend my most heartfelt prayers to our American friends as they follow suit.</p><p><b>P.S. Cheney will win. The system, billionaires, and deep state operatives have coalesced around his reelection bid. I am so disappointed that America will not experience a term or two of Blagojevich. He'd show what the rest of the world already knew. The 1990s weren't a golden age; they were nauseating. Just because American media companies chose to ignore that, it doesn't mean it didn't happen.</b></p>`)
 e.executable.push([4, (() => {e.image = e.image = 'https://i.imgur.com/Onfyp5G.png'})])
 }
-else if ( quickstats[0] <= 269 && Dem == 4 && Agenda > 4) { // rice quizz
+else if ( quickstats[0] <= 269 && Dem == 4 && Agenda > 4 && Messiah == 0) { // rice quizz
 e.pages.push(`<h3><i>Nick Clooney’s Speech to the Democratic National Convention, 2012</i></h3>
 <p><b>Cleveland, OH - September 6, 2012</b></p><p><b>Representative from Kentucky's 4th Congressional District Nick Clooney:</b></p><p>"To my friends, I stand here speaking before you tonight not only as a proud Democrat but as a grateful father. I cannot begin to describe the joy that fills my heart as I introduce the man after me, but let me say a few things before I go.</p><p>Four years ago, I watched a bold and successful president lead the country through its darkest hour since 9/11, and I understood that even after all my party had done, we were fighting an uphill battle. Although President Clark fought hard and valiantly for the American people, we would lose. </p><p>The slim glimmer of hope that I had for the incoming President was that he knew what he was doing, that he would fight for the millions of Americans who lost their jobs, those who lost their homes. Instead, President Rudy Giuliani ignored the signs that desperate federal action was needed. We got a show, press conferences framed like television drama, foreign policy communicated through opera! The lights were bright and dazzling in Washington, while Main Street remained in the dark.</p><p>Ladies and gentlemen, politics is not reality TV; leadership is about ratings, and the presidency shouldn't be run for television's sake, but for the nation's health.</p><p>Yet here we are tonight, together again, united as a new and bold Democratic Party that understands that politics is less about showing off and more about getting work done.</p><p>Now I know the man I'm about to introduce is very familiar to you whether you've seen him on the big screen or walking down the red carpet but let me tell you after raising him, watching him grow up in Kentucky, there's no one I believe in more than his ability to reconnect America to reality, not reality TV, but the real world!</p><p>I've watched him take the values of justice, compassion, and respect outside Hollywood to help states in need and advocate for people forgotten by this administration. The thousands of Haitian immigrants that the Giuliani administration has left in camps are violating their human rights!</p><p>He is twice the man that President Giuliani could ever hope to be, and tonight he is our nominee for President of the United States.</p><p>So let me finish with this, as both your colleague and a father. If you want a president who puts country over ratings, compassion over showmanship, and justice over callousness, please welcome your soon-to-be 46th President of these United States, George Clooney!"</p><p><b>(Thunderous Applause follows as the camera pans toward George Clooney taking the stage.)</b></p>`)
 e.executable.push([4, (() => {e.image = e.image = 'https://i.imgur.com/pT0QSfl.png'})])
 }
-else if ( quickstats[0] <= 269 && Dem == 4 && Win > 8) { // rice quizz
+else if ( quickstats[0] <= 269 && Dem == 4 && Win > 8 && Messiah == 0) { // rice quizz
 e.pages.push(`<h3><i>“Sissy” Remark Rocks Debate Stage: Jim Webb Takes Swing at Giuliani</i></h3>
 <p><b>October 17, 2012 – Denver, CO</b></p><p>During what many assumed would be a standard foreign policy segment of the presidential debate broadcast, Senator Jim Webb made a fiery remark about President Giuliani that even had the debate moderator taken aback. While discussing the war in Libya, the President defended his decision to put boots on the ground, and Webb quipped, "Mr. President you play the macho role very well but below the swagger and night rider shades you're a sissy incapable of good leadership."</p><p>The room fell silent, and even President Giuliani stood dumbfounded, unable to respond. When Marth Raddatz asked for clarification, Webb doubled down, saying, "look I won't mince words, if the President wants to stand there and cry I ask him to do the same for every son and daughter that comes home in a casket because he decided to throw more bodies across the world!"</p><p>After more deafening silence, Giuliani cleared his throat and said the following: "Look I am not going to take such disrespectful language lying down and furthermore my heart aches for every soldier we lose but their sacrifice keeps us safe!" The defense seemingly set Senator Webb off who would interject saying "listen Mr. President, unlike you, I've been in the shoes of those worried that their family members may not come home and when I tell you I've just about had it with listening to comments like you justify the deaths of thousands of Americans by jingling the keys of terror I mean it." The heated exchange became the headlines for the press the next morning, with most chastising Webb for taking the debate into the gutter. </p><p>Webb, a decorated Marine, spent his career with the spirited advocacy against the Iraq War on behalf of his son, who was serving at the time. It's no surprise for Webb to come out so strongly against military action in Libya, but the directness in his hatred for the President has always been a hallmark of his personality. Webb calls it like it is and isn't afraid to upset people with his language. </p><p>Someone who came at Webb hard for the remarks was Senator Lindsey Graham, who stated that "name calling and foul language has no place in politics." Instead of making an apology, Webb poured more gas on the fire by coming at Graham for being too "ladylike and soft."</p><p>Privately, Republican staffers reportedly witnessed the president "rattled" by Webb's comments, as polls show Giuliani's credibility on the war on terror ever decreasing, regardless of the scandal. What some find to be a shameful smear, others may discover enlightening about their President's weaknesses on the world stage. </p><p>The Webb campaign is attempting to shift the narrative, and while Republicans' talking points continue to rail against such harsh language, the public conscience may respond differently.</p>`)
 e.executable.push([4, (() => {e.image = e.image = 'https://i.imgur.com/pGcTooQ.png'})])
 }
-else if ( quickstats[0] <= 269 && Dem == 4 && War == 0) { // rice quizz
+else if ( quickstats[0] <= 269 && Dem == 4 && War == 0 && Messiah == 0) { // rice quizz
 e.pages.push(`<h3>From Reddit: <i>President Condoleezza Rice and Vice President Giuliani at Madison Square Garden Rally, STILL NO SIGHTING OF MIKE PENCE!!!!</i></h3>
 <p><b>u/libertarians</b></p><p><b>u/mayoforsam</b></p> <p>I know it's a tired joke, but seriously, where the hell is Mike Pence? I'm starting to miss the days when I could turn on my TV to watch President Giuliani's press conferences, where Pence would fan him with a giant feather while Condi fed him fruits until he'd occasionally answer a question about the invasion of Libya.</p><p> It was good entertainment hearing the president bring up 9/11 while justifying why we needed to bulldoze another random country. So what happened? Where's the shop bitch of the White House?</p><p>Secretary Rice is the one we get to see the most since she's the one busy covering for Giuliani's ass. All those failures in Libya? Benghazi? Please, Giuliani is a celebrity posing as the "acting president" now. Anyone with a brain and two working eyes can see that given State Department goon, John Kerry is the Democrat's pick for president, it's obvious that Rudy's incompetent foreign agenda has brought back old feuds.</p><p>This is a battle of foreign policy intellect, and Condoleezza Rice is in the hot seat, facing off against low approval ratings and Kerry being a popular face of the State Department. The media haven't picked up the sidelining of Pence, but it's pretty clear that his role in the administration is slowly being diminished in favor of laying the groundwork for President Rice's third term in 2016.</p><p>I wouldn't be confident in her shoes since most issues give Kerry the upper hand because Giuliani's inept economic policies have done nothing for American families.</p><p>Still, I'll be kicking up my feet no matter which deep-state puppet wins. Don't blame me; I'm voting for Randall Terry.</p>`)
 e.executable.push([4, (() => {e.image = e.image = 'https://i.imgur.com/HrpgXNA.png'})])
@@ -75250,15 +76128,10 @@ e.pages.push(`<h3><i>Platform Plank: Restore Cuba’s Freedom</i></h3>
 <p>Since the turn of the century, the United States has suffered a dangerous string of authoritarian autocrats who trample over the rights of other nations. President Wesley Clark ushered away the men who took us into Afghanistan and Iraq on a promise of changing America's foreign policy. Yet under his regime, we've seen not only a continuation of those wars but a brutal and illegal invasion of Cuba! The Reform Party of America will not stand for another drain on our treasure and an International stance of freedom first.</p><p>Under Jesse Ventura, we at the Reform Party demand the following.</p><p><b>1. The immediate withdrawal of forces from Cuba. Under President Ventura's command, he will end the military occupation of Cuba and bring our soldiers home.</b></p><p><b>2. The release of Former Cuban President Fidel Castro from United States custody.</b></p><p><b>3. Pledge complete restoration of the Cuban people's sovereignty. Under no conditions will President Ventura interfere or tamper with the Cuban government in the future.</b></p><p>We at the Reform Party will not stand by for tyranny of any kind, even if it comes from the White House. We believe in the freedoms of the Cuban people.</p><p>As President Jesse Ventura pledges full unconditional support for the sovereignty and freedom of the Cuban people.</p>`)
 e.executable.push([4, (() => {e.image = e.image = 'https://i.imgur.com/YgGqKfB.png'})])
 }
-else if ( quickstats[0] >= 269 && Nato > 2 && Russia == 3) { // nord go boom
+else if ( quickstats[0] >= 269 && Royal == 1 && Russia == 2) { // nord go boom
 e.pages.push(`<h3>Washington Dispatch: <i>President Clark sets fire to the international briefing by referencing the "No Russian" Video Game mission.</i></h3>
 <p><b>By Edward Anthony | Washington Dispatch | November 26th 2011</b></p><p>SCATHING - In a moment that blindsided the entire world, President Wesley Clark appeared to reference the notorious video game mission "No Russian" from Call Of Duty: Modern Warfare 3. The American President offered a scathing rebuke at a United Nations international panel, claiming that the mission would "teach Russia a lesson" about the cultural consequences of authoritarianism.</p><p>The remarks were not pre-planned, and the President had deviated from the planned address due to the Russian Federation's advances against Ukraine's most eastern territories. Starting off ranting about the moral bankruptcy of the Russian Federation, and quickly ad-libbed into controversial territory.</p><p>"The Russian Federations glorification and usage of the sympathy card is pathetic," Clark said. "If Putin wants to test the limits of civilization and world order he should expect the cultural division he creates to mount in greater depth than this 'No Russian' video game could ever hope to accomplish."</p><p>The mission in question, in which players participate in a fictional mass shooting at a Russian airport, garnered widespread international condemnation. The mission is not present in copies of the game sold in Germany, Poland, and Russia.</p><p>After the speech, Russian Ambassador Victor Vitaly Churkin condemned the remarks as an "insane provocation" that glorified terrorism through the veil of moral high ground.</p><p>Social media criticism ballooned with hashtags like #NoRussianGate and #WesleyMakarov trending.</p><p><b>The White House Press Secretary would later issue a clarification:</b></p><p>"The President wasn't condoning any acts of violence against Russia or its people. The President stands by nations threatened by Russian aggression and stated that if Russia continued to provide international condemnation, sympathy would be hard to come by.</p><p>The Kremlin has demanded a heartfelt apology, but reports claim that the President has no intention of backing down.</p>`)
 e.executable.push([4, (() => {e.image = e.image = 'https://i.imgur.com/aAZB6ds.png'})])
-}
-else if ( quickstats[0] >= 269 && Royal == 1 && Russia == 2) { // nord go boom
-e.pages.push(`<h3>Youtube: <i>The GTA V Mission That Almost Killed Gaming</i></h3>
-<p><b>[YOUTUBE INTRO: 0:00–0:45]</b></p><p><b>0:00-0:05 – OPENING SHOT:</b> Footage of Hollywood with static filter and flashing headlines of tragedy.</p><p>"TERROR IN HOLLYWOOD 55 DEAD"<p>The distorted news anchor recounts the events while the volume slowly fades out.</p><p>"A massive explosion was heard from the Hollywood Hills today."</p><p><b>Cut to black.</b></p><p><b>0:05-0:12 –</b> Narrator Begins</p><p>"In early 2011, Rockstar North had begun to plan the boundary-pushing game Grand Theft Auto Five.</p><p><b>0:12-0:18 –</b> Footage of Vinewood shrouded in darkness plays</p><p>"Set in the city of Los Santos, Rockstar developed the game of the year award-winning installment of the GTA series based on the city of Los Angeles. We follow Trevor Phillips as he conducts his darkest acts in a mission cut from the final product. </p><p><b>0:18-0:35 – </b>Leaked concept art and storyboards shown on screen.</p><p>"Codenamed Trev's Sign Language, it was planned as a symbolic act of retribution to get back at Michael for betraying him and Brad, a sort of F the world and everyone in it.</p><p><b>0:35-047 –</b> B roll of driving through Los Santos Airport in the background.</p><p>"Then the unthinkable happened. Similar events would take place in real life resulting in test audiences to take the scene terribly as it reminded them of what really happened."</p><p><b>0:47-057 – </b>Play news footage of the Hollywood sign collapsing after multiple bombs planted took it down.</p><p>"Real-life events months after the mission had been made became too similar. On September 29, 2011, A group of Al-Qaeda terrorists destroyed the Hollywood sign as a symbolic act of revenge for the death of their leader, Osama Bin Laden.</p><p><b>0:57-1:25 – </b>Play video of war in the Middle East footage.</p><p>"While the world held its breath wondering if President Wesley Clark would declare war on the Middle East as a whole, Rockstar had gone into its own panic room, pulling the plug on the mission and burying all the evidence of its existence.</p><p><b>1:25-1:35 – </b>Cut to video of Joe Lieberman claiming Rockstar Games aided the terrorist attack.</p><p>Mission removed, the evidence was buried, but the story was nowhere near over. Between congressional investigations to determine if Rockstar had helped plan the attack, and lawsuits on top of lawsuits. There was so much more down this rabbit hole than anyone was willing to admit.</p><p><b>TREV'S SIGN LANGUAGE:</b> The GTA V Mission That Almost Killed Gaming</p>`)
-e.executable.push([4, (() => {e.image = e.image = 'https://i.imgur.com/2lH43WI.png'})])
 }
 else if ( quickstats[0] >= 269 && Sarkozy == 1 && Russia == 2) { // nord go boom
 e.pages.push(`<h3>The New York Times: <i>Did Libya Secretly Influence Elections in the West? Gaddafi's Explosive Claims Stir Global Controversy.</i></h3>
@@ -75284,7 +76157,7 @@ e.pages.push(`<h3>Wattpad: <i>My All American Romance</i></h3>
 <p><b>Chapter 15: </b>It’s the End of The World…</p><p><b>A/N:</b> this chapter will be shorter bcuz my dad is taking away my computer :(((</p><p><b>(McCain POV)</b></p><p>My head aches as I step out of the committee chamber. We just had a hearing on the war in Georgia where Secretary Levin answered questions about troop deployments and missile movements. I sigh and remember my failed presidential campaign.</p><p>I could’ve stopped this, I think to myself. Joe tells me I need to stop beating myself up for the loss, that anybody would’ve lost in the face of Russia’s invasion, but I can’t help but feel it’s all my fault. I let America down.</p><p>I sigh as I exit the Capitol building, wincing at the sharp cold. After all these years in DC, I’m still an Arizonan at my core through and through. I get in the backseat of the car waiting to take me to my urban apartment and open my flip phone to make a call.</p><p>“Hey Joe, it’s me, I’m on the way back from the hearing.” </p><p>“Okay, I’m just getting started on making dinner. It’s your favorite, shrimp scampi, plus Dianne gave me this expensive sauvignon blanc from Napa.” I clung on to every syllable Joe said like it would be his last. The cadence of his voice reminded me of a song from years past.</p><p>“I’m looking forward to it. You cook better than any of these fancy Michelin starred restaurant chefs.” He didn’t actually cook that well, once he even managed to burn popcorn, but I love the thought he puts into these secret dinners.</p><p>“Oh, John, you flatter me. Anyways, I’ll see you soon. Be safe.”</p><p>“Ok, you too Joe.” I flip my phone shut, turning my view to the window of the car.</p><p>I notice a group of Marine helicopters flying in formation over the city. It’s not unusual to see helicopters flying around, but it’s a little later than I would normally see them. Must be a night vision training drill, I think to myself. We pass all the great monuments tourists flock to in droves, the Washington Monument, Lincoln Memorial, the Vietnam War memorial. That last one is a painful one for me. </p><p>We round the corner of my building and I hop out on the curb in front of the entrance.</p><p>“Good evening, Senator.” I smile back and give a polite nod to the doorman. </p><p>The elevator can’t move fast enough as I fill with anticipation to see Joe again. I rummage around in my pocket to retrieve my keys and unlock my front door. The aroma of seafood fills my nostrils as I cross the threshold and I spot Joe in the kitchen wearing an apron.</p><p>“Welcome home, I’m just plating up the food now, will you get the wine glasses?” I happily oblige after taking off my coat, gently setting the glasses on the table. </p><p>I slink my way over to him, going up from behind and wrapping my arms around his waist. I plant two quick kisses on his neck as he lightly giggles. </p><p>“My day was so boring, it’s just a constant drone about ‘We need more money for more bombs’ or ‘We need more troops in Georgia’. Almost fell asleep in a hearing today with Levin at defense, as he went on and on about Russian nuclear capabilities.” I didn’t have to tell Joe any of this, he knew how the Senate worked just as well as I did, but it’s nice to vent and he’s kind enough to listen.</p><p>“Wow, the Maverick thinks his job is boring.” He loved calling me that because he knows it annoys me. “Anyways, food is ready so go sit down.”</p><p>I take my seat at the table as Joe sets the plates of food down and uncorks the wine. He pours us both a glass, with the ending flourish of a trained sommelier. I swirl the glass in my hand and breathe in the slightly tropical aroma before taking a sip.</p><p>We dig into the pasta, eating silently, with only the clinking of our silverware in our ears, as we catch quick glances of each other in between bites. </p><p>“So, John, I’ve been thinking about something and I want to tell you.”</p><p>“Oh boy, you’re always thinking about something or another. Go ahead, lay it on me.”</p><p>“Well, we’ve been together for a while now, since that fateful night during the campaign. And I really, really love you and I love spending time with you. I want to be with you all the time. So, John, will you mar-”</p><p>The whole apartment fills with a holy light. The glass windows shatter, the apartment building begins to buckle and collapse. I’m knocked unconscious but not before I see Joe’s face one more time, the last syllable still hanging out of his mouth. </p><p><b>A/N: </b>PSYCH! The chapter was short because there was a nuke!!!!! Anyways I hope you all enjoyed this fic, be on the lookout for my next work about President Landrieu and Secretary Clinton.</p>`)
 e.executable.push([5, (() => {e.image = e.image = 'https://i.imgur.com/FWDNC6p.jpeg'})])
 }
-else if ( quickstats[0] <= 269 && e.player_answers.includes(254909)) { // 
+else if ( quickstats[0] >= 269 && e.player_answers.includes(254910)) { // 
 e.pages.push(`<h3>"Four Years of Emergency: Will President Clark Ever Let Democracy Return?"</h3>
 <p><b>By Rachel Kamen | The Atlantic | February 19, 2012</b></p><p>In Washington, nobody talks openly about holding an election anymore, fearing the general's gaze. What was once an opposition has now taken to kissing Wesley Clark's feet if he were to grace them with ceremonial elections. With the historical election deadline looming, many now wonder if the General's temporary emergency powers are ever to sunset. </p><p>The National Reconstruction Regime has yet to waver, and apart from faint voices decrying his dictatorial decree from outside Washington, Clark stands above the fray. The story remains the same; the emergency is not over.</p><p>What began as a normal economic downturn spiraled into a full-scale collapse of the American financial system. Whether Clark, the Democrats, or the Republicans were to blame, the system had failed to save itself. Bank of America, Lehman Brothers, AIG, Fannie Mae, and Freddie Mac all fell within a two-month period. The following months would see the auto industry collapse. Then, President Wesley Clark stood paralyzed, politically unable to act or follow his instincts.</p><p>The constitution prevented him from bypassing the gates of congressional gridlock. The election threatened to sink his rule. Yet all he could do was stand between utter damnation and Sisyphean callings. </p><p>So in November 2008, Clark took hold of a combination of war powers and vague executive authority to suspend Congressional duties and transfer fiscal authority to a new economic war council. He justified the move, calling it "not a consolidation of power, but an act of survival." Impeachment proceedings were attempted but soon dismissed as the military intervened. </p><p>With Clark's only obstacle being his ability to hold the trust of the American voter, he folded. Effectively, President Wesley Clark put the 2008 election on hold. An emergency brake to save himself from the humiliation of losing a popularity contest.</p><p>Now, four years later, the General finds himself holding higher titles and wearing more prestigious symbols. His opposition remains rhetorically penniless and without the drive to challenge his rule. </p><p>However, one beacon of hope remains. Governor of the Alaskan Commune, Mike Gravel, stands at his perch shouting down the regime. Alaska remains a state in Clark's America, but it is ruled by a man opposed to him. Many ask why he allows Gravel to make a mockery of his mandate, and reports allege that Clark enjoys having "banter with a rival." </p><p>Many still ask if Clark intends to hold the 2012 election as scheduled, even if just for a ceremony. The General remains coy on the matter, however, only flirting and playing with people's emotions. And what of the opposition? Some claim not even the worst Republican looks forward to managing a country this far lost.</p>`)
 e.executable.push([5, (() => {e.image = e.image = 'https://i.imgur.com/wN7J6tQ.png'})])
