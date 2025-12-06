@@ -93381,7 +93381,7 @@ function openPotentialConquests() {
         });
     }
 
-    if (e.player_answers.includes(22460)) { //cybersecurity
+    if (e.player_answers.includes(22460) || e.player_answers.includes(21353)) { //cybersecurity
         exampleCards.push({
             imageUrl: 'https://i.imgur.com/tin7vWG.gif', 
             description: 'Enacted by the 110th Congress, Sponsored by Gordon, Bart [D-TN], [1985-????]. Data and firewall regulations on the industrial, aerospace, energy, power sectors, and the public sector.', 
@@ -93662,7 +93662,14 @@ if (Blair == 1) {
 }
 
 // France
-if (Sarkozy == 1) {
+if (Sarkozy == 1 && Nato > 5) {
+    currentLeaders.push({
+        imgUrl: 'https://i.imgur.com/PSzFRdX.gif',
+        nameTitle: 'President Nicolas Sarkozy - France',
+        alignment: 'Loyal Subordinate',
+        description: 'Good old Sarkozy is just what we needed to rebalance the West and get a man looking to fix problems instead of shouting about them. He\'s a negotiator, someone willing to strengthen ties with us.'
+    });
+} else if (Sarkozy == 1) {
     currentLeaders.push({
         imgUrl: 'https://i.imgur.com/PSzFRdX.gif',
         nameTitle: 'President Nicolas Sarkozy - France',
@@ -93681,24 +93688,31 @@ if (Sarkozy == 1) {
         imgUrl: 'https://i.imgur.com/6yJourJ.gif',
         nameTitle: 'President Jacques Chirac - France',
         alignment: 'Unwilling Vassal',
-        description: 'Since the dawn of his second term, President Chiraq has done nothing but oppose and impede American ventures. He opposed the Bush Administration\'s conduct in Iraq and is in bed with Putin on weekends. He\'s a problem, but maybe his successor will change course.'
+        description: 'Since the dawn of his second term, President Chirac has done nothing but oppose and impede American ventures. He opposed the Bush Administration\'s conduct in Iraq and is in bed with Putin on weekends. He\'s a problem, but maybe his successor will change course.'
     });
 }
 
 // Turkey
-if (Gul == 1) {
+if (Erdo == 1) {
     currentLeaders.push({
         imgUrl: 'https://i.imgur.com/8ZP60vh.gif',
-        nameTitle: 'President Abdullah Gül - Turkey',
-        alignment: 'Hesitant Merchant',
-        description: 'Forced to accept American meddling in regions he hopes to influence, President Gül has made it his job to ensure his country\'s benefit first. If you plan to barter with him, you\'d better make a good offer he can\'t help but take.'
+        nameTitle: 'Prime Minister Recep Tayyip Erdoğan - Turkey',
+        alignment: 'Loyal Subordinate',
+        description: 'Following the successful negotiations that allowed Turkey to enter the European Union, Prime Minister Erdoğan\'s cautious approach is beginning to ease. If you\'re looking for a partner to act in opposition to Russia\'s advances into the Caucasus, he might be your man.'
+    });
+} else if (Yasar == 1) {
+    currentLeaders.push({
+        imgUrl: 'https://files.catbox.moe/7804id.gif',
+        nameTitle: 'Prime Minister Yaşar Büyükanıt - Turkey',
+        alignment: 'Loyal Subordinate',
+        description: 'When a constitutional crisis shattered Erdoğan\'s government, the Chief of the Turkish General Staff of Turkey\'s armed forces acted in defense of his vision of a secular Turkish state against Islamic fundamentalism. After ousting the government and hoisting himself at the upper echelon, he\'s sworn to eradicate terrorists threatening his people in Northern Iraq. He\'s useful.'
     });
 } else {
     currentLeaders.push({
-        imgUrl: 'https://i.imgur.com/YVFXRLs.gif',
-        nameTitle: 'President Ahmet Necdet Sezer - Turkey',
+        imgUrl: 'https://files.catbox.moe/2wv6rc.gif',
+        nameTitle: 'Prime Minister Recep Tayyip Erdoğan - Turkey',
         alignment: 'Hesitant Merchant',
-        description: 'Turkey was naturally the closest ally to the wars Bush waged in the Middle East. Over the span of his presidency, Sezer gave a quiet nod to American foreign policy and struck an indecisive tone about where he stood when confronted by you. He\'s not a problem unless you make him one.'
+        description: 'The Turkish Prime Minister remains cautious as ever. His people and government opposed the initial invasion in Iraq, but Turkey\'s shifting geopolitical interests present great opportunities. If you succeed in negotiating his country\'s admission into the European Union, he might be willing to return the favor.'
     });
 }
 
@@ -93709,6 +93723,13 @@ if (Merkel == 1) {
         nameTitle: 'Chancellor Angela Merkel - Germany',
         alignment: 'Hesitant Merchant',
         description: 'Merkel was the likely successor to Schröder\'s failures, but her party\'s performance disappointed expectations despite that. Forced to lead a Grand Coalition with the SPD, she\'s likely reluctant to follow you in making any bold moves.'
+    });
+} else if (Merz == 1) {
+    currentLeaders.push({
+        imgUrl: 'https://files.catbox.moe/im4qcz.gif',
+        nameTitle: 'Chancellor Friedrich Merz - Germany',
+        alignment: 'Loyal Subordinate',
+        description: 'Schröder had become a lone problem child in the midst of crisis after crisis; it\'s no wonder the Grand Coalition betrayed him. While he may be the left\'s worst nightmare domestically, Merz presents himself as a strong NATO ally and major opponent to Russian aggression. Just what you were looking for.'
     });
 } else {
     currentLeaders.push({
